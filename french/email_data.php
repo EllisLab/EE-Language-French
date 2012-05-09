@@ -4,207 +4,209 @@
 //	Admin Notification of Mailinglist subscription
 //--------------------------------------------------
 
-function admin_notify_mailinglist_title()
+if ( ! function_exists('admin_notify_mailinglist_title'))
 {
+	function admin_notify_mailinglist_title()
+	{
 return <<<EOF
-
-Someone has subscribed to your mailing list
+Quelqu'un s'est inscrit à votre liste de diffusion
 EOF;
+	}
 }
 
-function admin_notify_mailinglist()
+if ( ! function_exists('admin_notify_mailinglist'))
 {
+	function admin_notify_mailinglist()
+	{
 return <<<EOF
-A new mailing list subscription has been accepted.
+Une nouvelle inscription à la liste de diffusion a été accept.
 
-Email Address: {email}
-Mailing List: {mailing_list}
+Adresse email : {email}
+Liste de diffusion : {mailing_list}
 EOF;
+	}
 }
-/* END */
+
 
 
 //---------------------------------------------------
 //	Admin Notification of New Entry
 //--------------------------------------------------
 
-function admin_notify_entry_title()
+if ( ! function_exists('admin_notify_entry_title'))
 {
+	function admin_notify_entry_title()
+	{
 return <<<EOF
-A new weblog entry has been posted
+Un nouvel article a été publié
 EOF;
+	}
 }
 
-function admin_notify_entry()
+if ( ! function_exists('admin_notify_entry'))
 {
+	function admin_notify_entry()
+	{
 return <<<EOF
-A new entry has been posted in the following weblog:
-{weblog_name}
+Un nouvel article a été publié dans le canal suivant :
+{channel_name}
 
-The title of the entry is:
+Le titre de l'article est :
 {entry_title}
 
-Posted by: {name}
+Publié par : {name}
 Email: {email}
 
-To read the entry please visit: 
+Pour lire cet article, veuillez visiter : 
 {entry_url}
 
 EOF;
+	}
 }
-/* END */
+
 
 
 //---------------------------------------------------
 //	Admin Notification of New Member Registrations
 //--------------------------------------------------
 
-function admin_notify_reg_title()
+if ( ! function_exists('admin_notify_reg_title'))
 {
+	function admin_notify_reg_title()
+	{
 return <<<EOF
-Notification of new member registration
+Notification d'inscription d'un nouveau membre
 EOF;
+	}
 }
 
-function admin_notify_reg()
+if ( ! function_exists('admin_notify_reg'))
 {
+	function admin_notify_reg()
+	{
 return <<<EOF
-The following person has submitted a new member registration: {name}
+La personne suivante a soumise une nouvelle inscription comme membre  : {name}
 
-At: {site_name}
+À : {site_name}
 
-Your control panel URL: {control_panel_url}
+URL de votre tableau de bord : {control_panel_url}
 EOF;
+	}
 }
-/* END */
+
 
 
 //---------------------------------------------------
 //	Admin Notification of New Comment
 //--------------------------------------------------
 
-function admin_notify_comment_title()
+if ( ! function_exists('admin_notify_comment_title'))
 {
+	function admin_notify_comment_title()
+	{
 return <<<EOF
-You have just received a comment
+Un commentaire a été publié
 EOF;
+	}
 }
 
-function admin_notify_comment()
+if ( ! function_exists('admin_notify_comment'))
 {
+	function admin_notify_comment()
+	{
 return <<<EOF
-You have just received a comment for the following weblog:
-{weblog_name}
+Un commentaire a été publié pour le canal suivant :
+{channel_name}
 
-The title of the entry is:
+Le titre de l'article est :
 {entry_title}
 
-Located at: 
+Situé à : 
 {comment_url}
 
-Posted by: {name}
-Email: {email}
-URL: {url}
-Location: {location}
+Publié par : {name}
+Email : {email}
+URL : {url}
+Localisation : {location}
 
 {comment}
 EOF;
-}
-/* END */
-
-
-//---------------------------------------------------
-//	Admin Notification of New Trackback
-//--------------------------------------------------
-
-function admin_notify_trackback_title()
-{
-return <<<EOF
-You have just received a trackback
-EOF;
+	}
 }
 
-function admin_notify_trackback()
-{
-return <<<EOF
-You have just received a trackback for the following entry:
-{entry_title}
-
-Located at: 
-{comment_url}
-
-The trackback was sent from the following weblog:
-{sending_weblog_name}
-
-Entry Title:
-{sending_entry_title}
-
-Weblog URL:
-{sending_weblog_url}
-EOF;
-}
-/* END */
 
 
 //---------------------------------------------------
 //	Membership Activation Instructions
 //--------------------------------------------------
 
-function mbr_activation_instructions_title()
+if ( ! function_exists('mbr_activation_instructions_title'))
 {
+	function mbr_activation_instructions_title()
+	{
 return <<<EOF
-Enclosed is your activation code
+Votre code d'activation se trouve inclus
 EOF;
+	}
 }
 
-function mbr_activation_instructions()
+if ( ! function_exists('mbr_activation_instructions'))
 {
+	function mbr_activation_instructions()
+	{
 return <<<EOF
-Thank you for your new member registration.
+Merci pour votre inscription comme membre.
 
-To activate your new account, please visit the following URL:
+Pour activer votre nouveau compte, veuillez vous rendre à l'adresse suivante :
 
 {unwrap}{activation_url}{/unwrap}
 
-Thank You!
+Merci !
 
 {site_name}
 
 {site_url}
 EOF;
+	}
 }
-/* END */
+
 
 
 //---------------------------------------------------
 //	Member Forgotten Password Instructions
 //--------------------------------------------------
 
-function forgot_password_instructions_title()
+if ( ! function_exists('forgot_password_instructions_title'))
 {
+	function forgot_password_instructions_title()
+	{
 return <<<EOF
-Login information
+Information de connexion
 EOF;
+	}
 }
 
-function forgot_password_instructions()
+if ( ! function_exists('forgot_password_instructions'))
 {
+	function forgot_password_instructions()
+	{
 return <<<EOF
 {name},
 
-To reset your password, please go to the following page:
+Pour réinitialiser votre mot de passe, veuillez vous rendre à la page suivante :
 
 {reset_url}
 
-Your password will be automatically reset, and a new password will be emailed to you.
+Votre mot de passe sera automatiquement réinitialisé, et un nouveau mot de passe vous sera envoyé par email.
 
-If you do not wish to reset your password, ignore this message. It will expire in 24 hours.
+Si vous ne souhaitez pas réinitialiser votre mot de passe, ignorez ce message. Il expirera dans 24 heures.
 
 {site_name}
 {site_url}
 EOF;
+	}
 }
-/* END */
+
 
 
 
@@ -212,28 +214,34 @@ EOF;
 //	Reset Password Notification
 //--------------------------------------------------
 
-function reset_password_notification_title()
+if ( ! function_exists('reset_password_notification_title'))
 {
+	function reset_password_notification_title()
+	{
 return <<<EOF
-New Login Information
+Nouvelles informations de connexion
 EOF;
+	}
 }
 
-function reset_password_notification()
+if ( ! function_exists('reset_password_notification'))
 {
+	function reset_password_notification()
+	{
 return <<<EOF
 {name},
 
-Here is your new login information:
+Voici vos nouvelles informations de connexion :
 
-Username: {username}
-Password: {password}
+Nom d'utilisateur : {username}
+Mot de passe : {password}
 
 {site_name}
 {site_url}
 EOF;
+	}
 }
-/* END */
+
 
 
 
@@ -241,82 +249,100 @@ EOF;
 //	Validated Member Notification
 //--------------------------------------------------
 
-function validated_member_notify_title()
+if ( ! function_exists('validated_member_notify_title'))
 {
+	function validated_member_notify_title()
+	{
 return <<<EOF
-Your membership account has been activated
+Votre compte de membre a été activé
 EOF;
+	}
 }
 
-function validated_member_notify()
+if ( ! function_exists('validated_member_notify'))
 {
+	function validated_member_notify()
+	{
 return <<<EOF
 {name},
 
-Your membership account has been activated and is ready for use.
+Votre compte de membre a été activé et est pr^èt à l'emploi. 
 
-Thank You!
+Merci ! 
 
 {site_name}
 {site_url}
 EOF;
+	}
 }
-/* END */
+
 
 
 //---------------------------------------------------
 //	Decline Member Validation
 //--------------------------------------------------
 
-function decline_member_validation_title()
+if ( ! function_exists('decline_member_validation_title'))
 {
+	function decline_member_validation_title()
+	{
 return <<<EOF
-Your membership account has been declined
+Votre compte de membre a été refusé
 EOF;
+	}
 }
 
-function decline_member_validation()
+if ( ! function_exists('decline_member_validation'))
 {
+	function decline_member_validation()
+	{
 return <<<EOF
 {name},
 
-We're sorry but our staff has decided not to validate your membership.
+Nous sommes désolés mais notre équipe à décidé de ne pas valider votre inscription.
 
 {site_name}
 {site_url}
 EOF;
+	}
 }
-/* END */
+
 
 
 //---------------------------------------------------
 //	Mailinglist Activation Instructions
 //--------------------------------------------------
 
-function mailinglist_activation_instructions_title()
+if ( ! function_exists('mailinglist_activation_instructions_title'))
 {
+	function mailinglist_activation_instructions_title()
+	{
 return <<<EOF
-Email Confirmation
+Confirmation email
 EOF;
+	}
 }
 
-function mailinglist_activation_instructions()
+if ( ! function_exists('mailinglist_activation_instructions'))
 {
+	function mailinglist_activation_instructions()
+	{
 return <<<EOF
-Thank you for joining the "{mailing_list}" mailing list!
+Merci de vous être inscrit à la liste de diffusion "[mailing_list}" !
 
-Please click the link below to confirm your email.
+Veuillez cliquer sur le lien ci-dessous pour confirmer votre email.
 
-If you do not want to be added to our list, ignore this email.
+Si vous ne souhaitez pas être ajouté à notre liste, ignorez cet email
 
 {unwrap}{activation_url}{/unwrap}
 
-Thank You!
+Merci !
 
 {site_name}
 EOF;
+	}
 }
-/* END */
+
 
 
 
@@ -324,89 +350,108 @@ EOF;
 //	Comment Notification
 //--------------------------------------------------
 
-function comment_notification_title()
+if ( ! function_exists('comment_notification_title'))
 {
+	function comment_notification_title()
+	{
 return <<<EOF
-Someone just responded to your comment
+Quelqu'un a répondu à votre commentaire
 EOF;
+	}
 }
 
-function comment_notification()
+if ( ! function_exists('comment_notification'))
 {
+	function comment_notification()
+	{
 return <<<EOF
-Someone just responded to the entry you subscribed to at:
-{weblog_name}
+Quelqu'un a répondu à l'article auquel vous vous êtes abonné à :
+{channel_name}
 
-The title of the entry is:
+Le titre de l'article est :
 {entry_title}
 
-You can see the comment at the following URL:
+Vous pouvez voir le commentaire à l'adresse suivante  :
 {comment_url}
 
 {comment}
 
-To stop receiving notifications for this comment, click here:
+Pour ne plus recevoir de notifications pour ce commentaire, cliquez ici :
 {notification_removal_url}
 EOF;
+	}
 }
-/* END */
+
 
 
 //---------------------------------------------------
 //	Admin Notification of New Gallery Comment
 //--------------------------------------------------
 
-function admin_notify_gallery_comment_title()
+if ( ! function_exists('admin_notify_gallery_comment_title'))
 {
+	function admin_notify_gallery_comment_title()
+	{
 return <<<EOF
-You have just received a comment
+Quelqu'un a répondu à votre commentaire
 EOF;
+	}
 }
 
-function admin_notify_gallery_comment()
+if ( ! function_exists('admin_notify_gallery_comment'))
 {
+	function admin_notify_gallery_comment()
+	{
 return <<<EOF
-You have just received a comment for the following photo gallery:
+
+Vous avez reçu un nouveau commentaire pour la galerie photo suivante :
 {gallery_name}
 
-The title of the entry is:
+Le titre de l'article est :
 {entry_title}
 
-Located at: 
+Situé à : 
 {comment_url}
 
 {comment}
 EOF;
+	}
 }
-/* END */
+
 
 //---------------------------------------------------
 //	Gallery Comment Notification
 //--------------------------------------------------
 
-function gallery_comment_notification_title()
+if ( ! function_exists('gallery_comment_notification_title'))
 {
+	function gallery_comment_notification_title()
+	{
 return <<<EOF
-Someone just responded to your comment
+Quelqu'un a répondu à votre commentaire
 EOF;
+	}
 }
 
-function gallery_comment_notification()
+if ( ! function_exists('gallery_comment_notification'))
 {
+	function gallery_comment_notification()
+	{
 return <<<EOF
-Someone just responded to the photo entry you subscribed to at:
+Quelqu'un a répondu à l'article photo auquel vous vous êtes abonné à : :
 {gallery_name}
 
-You can see the comment at the following URL:
+Vous pouvez voir le commentaire à l'adresse suivante ::
 {comment_url}
 
 {comment}
 
-To stop receiving notifications for this comment, click here:
+Pour ne plus recevoir de notifications pour ce commentaire, cliquez ici :
 {notification_removal_url}
 EOF;
+	}
 }
-/* END */
+
 
 
 
@@ -414,186 +459,222 @@ EOF;
 //	Admin Notification of New Forum Post
 //--------------------------------------------------
 
-function admin_notify_forum_post_title()
+if ( ! function_exists('admin_notify_forum_post_title'))
 {
+	function admin_notify_forum_post_title()
+	{
 return <<<EOF
-Someone just posted in {forum_name}
+Quelqu'un a publié un message dans {forum_name}
 EOF;
+	}
 }
 
-function admin_notify_forum_post()
+if ( ! function_exists('admin_notify_forum_post'))
 {
+	function admin_notify_forum_post()
+	{
 return <<<EOF
-{name_of_poster} just submitted a new post in {forum_name}
+{name_of_poster} a publié un nouveau message dans {forum_name}
 
-The title of the thread is:
+Le titre du fil est :
 {title}
 
-The post can be found at:
+Le message peut être lu à :
 {post_url}
 
 {body}
 EOF;
+	}
 }
-/* END */
+
 
 
 //---------------------------------------------------
 //	Forum Post User Notification
 //--------------------------------------------------
 
-function forum_post_notification_title()
+if ( ! function_exists('forum_post_notification_title'))
 {
+	function forum_post_notification_title()
+	{
 return <<<EOF
-Someone just posted in {forum_name}
+Quelqu'un a publié un message dans {forum_name}
 EOF;
+	}
 }
 
-function forum_post_notification()
+if ( ! function_exists('forum_post_notification'))
 {
+	function forum_post_notification()
+	{
 return <<<EOF
-Someone just posted in a thread you subscribed to at:
+Quelqu'un a publié un message dans le fil auquel vous vous êtes abonné à :
 {forum_name}
 
-The title of the thread is:
+Le titre du fil est :
 {title}
 
-The post can be found at:
+Le message peut être lu à :
 {post_url}
 
 {body}
 
-To stop receiving notifications for this comment, click here:
+Pour ne plus recevoir de notifications pour ce commentaire, cliquez ici :
 {notification_removal_url}
 EOF;
+	}
 }
-/* END */
+
 
 
 //---------------------------------------------------
 //	Private Message Notification
 //--------------------------------------------------
 
-function private_message_notification_title()
+if ( ! function_exists('private_message_notification_title'))
 {
+	function private_message_notification_title()
+	{
 return <<<EOF
-Someone has sent you a Private Message
+Quelqu'un vous a envoyé un message privé
 EOF;
+	}
 }
 
-function private_message_notification()
+if ( ! function_exists('private_message_notification'))
 {
+	function private_message_notification()
+	{
 return <<<EOF
 
 {recipient_name},
 
-{sender_name} has just sent you a Private Message titled '{message_subject}'.
+{sender_name} vous a envoyé un message privé intitulé '{message_subject}'.
 
-You can see the Private Message by logging in and viewing your InBox at:
+Vous pouvez consulter les messages privés en vous connectant à votre compte et en accédant à votre boîte de réception à :
 {site_url}
 
-To stop receiving notifications of Private Messages, turn the option off in your Email Settings.
+Pour ne plus recevoir de notifications pour les messages privés, désactivez l'option dans vos paramètres email.
 EOF;
+	}
 }
-/* END */
+
 
 
 /* -------------------------------------
 /*  Notification of Full PM InBox
 /* -------------------------------------*/
-
-function pm_inbox_full_title()
+if ( ! function_exists('pm_inbox_full_title'))
 {
+	function pm_inbox_full_title()
+	{
 return <<<EOF
-Your private message mailbox is full
+La boîte de réception de vos messages privés est pleine
 EOF;
+	}
 }
 
-function pm_inbox_full()
+if ( ! function_exists('pm_inbox_full'))
 {
+	function pm_inbox_full()
+	{
 return <<<EOF
 {recipient_name},
 
-{sender_name} has just attempted to send you a Private Message,
-but your InBox is full, exceeding the maximum of {pm_storage_limit}.
+{sender_name} vient de tenter de vous envoyer un message privé,
+mais votre boîte de réception est pleine, dépassant le maximum
+autorisé de {pm_storage_limit}.
 
-Please log in and remove unwanted messages from your InBox at:
+Veuillez vous connecter et supprimer les messages non désirés
+de votre boîte de réception à :
 {site_url}
 EOF;
+	}
 }
-/* END */
+
 
 
 /* -------------------------------------
 /*  Notification of Forum Topic Moderation
 /* -------------------------------------*/
-
-function forum_moderation_notification_title()
+if ( ! function_exists('forum_moderation_notification_title'))
 {
+	function forum_moderation_notification_title()
+	{
 return <<<EOF
-Moderation notification in {forum_name}
+Notification de modération dans {forum_name}
 EOF;
+	}
 }
 
-function forum_moderation_notification()
+if ( ! function_exists('forum_moderation_notification'))
 {
+	function forum_moderation_notification()
+	{
 return <<<EOF
-{name_of_recipient}, a moderator has {moderation_action} your thread.
+{name_of_recipient}, un modérateur a {moderation_action} votre fil.
 
-The title of the thread is:
+Le titre du fil est :
 {title}
 
-The thread can be found at:
+Le fil peut être consulté à :
 {thread_url}
 EOF;
+	}
 }
-/* END */
+
 
 
 /* -------------------------------------
 /*  Notification of Forum Post Report
 /* -------------------------------------*/
-
-function forum_report_notification_title()
+if ( ! function_exists('forum_report_notification_title'))
 {
+	function forum_report_notification_title()
+	{
 return <<<EOF
-Post reported in {forum_name}
+Message signalé dans {forum_name}
 EOF;
+	}
 }
 
-function forum_report_notification()
+if ( ! function_exists('forum_report_notification'))
 {
+	function forum_report_notification()
+	{
 return <<<EOF
-{reporter_name} just reported a post written by {author} in:
+{reporter_name} a signalé un message publié par {author} dans :
 {forum_name}
 
-The reason(s) for the report:
+La raison de ce signalement :
 {reasons}
 
-Additional notes from {reporter_name}:
+Notes additionnelles de {reporter_name}:
 {notes}
 
-The post can be found at:
+Le message peut être consulté à :
 {post_url}
 
-Contents of reported post:
+Contenu du message signalé :
 {body}
 EOF;
+	}
 }
-/* END */
+
 
 
 /* -------------------------------------
 //  OFFLINE SYSTEM PAGE
 /* -------------------------------------*/
-
-function offline_template()
+if ( ! function_exists('offline_template'))
 {
+	function offline_template()
+	{
 return <<<EOF
 <html>
 <head>
 
-<title>System Offline</title>
+<title>Système arrêté</title>
 
 <style type="text/css">
 
@@ -611,8 +692,8 @@ font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
 font-weight:		bold;
 letter-spacing:		.09em;
 text-decoration:	none;
-color:              #330099;
-background-color:   transparent;
+color:			  #330099;
+background-color:	transparent;
 }
   
 a:visited {
@@ -622,7 +703,7 @@ background-color:	transparent;
 
 a:hover {
 color:				#000;
-text-decoration:    underline;
+text-decoration:	underline;
 background-color:	transparent;
 }
 
@@ -656,9 +737,9 @@ color: 				#000;
 
 <div id="content">
 
-<h1>System Offline</h1>
+<h1>Système arrêté</h1>
 
-<p>This site is currently offline</p>
+<p>Ce site est actuellement indisponible</p>
 
 </div>
 
@@ -666,16 +747,18 @@ color: 				#000;
 
 </html>
 EOF;
+	}
 }
-/* END */
+
 
 
 /* -------------------------------------
 //  User Messages Template
 /* -------------------------------------*/
-
-function message_template()
+if ( ! function_exists('message_template'))
 {
+	function message_template()
+	{
 return <<<EOF
 <html>
 <head>
@@ -701,8 +784,8 @@ a {
 font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
 letter-spacing:		.09em;
 text-decoration:	none;
-color:              #330099;
-background-color:   transparent;
+color:			  #330099;
+background-color:	transparent;
 }
   
 a:visited {
@@ -717,7 +800,7 @@ background-color:	transparent;
 
 a:hover {
 color:				#000;
-text-decoration:    underline;
+text-decoration:	underline;
 background-color:	transparent;
 }
 
@@ -779,25 +862,30 @@ color: 				#000;
 
 </html>
 EOF;
+	}
 }
-/* END */
+
 
 
 /* -------------------------------------
 //  Mailing List Template
 /* -------------------------------------*/
-
-function mailinglist_template()
+if ( ! function_exists('mailinglist_template'))
 {
+	function mailinglist_template()
+	{
 return <<<EOF
 {message_text}
 
-To remove your email from this mailing list, click here:
+Pour vous désabonner de la liste de diffusion, cliquez ici :
 {if html_email}<a href="{unsubscribe_url}">{unsubscribe_url}</a>{/if}
 {if plain_email}{unsubscribe_url}{/if}
 EOF;
+	}
 }
-/* END */
 
 
-?>
+
+
+/* End of file email_data.php */
+/* Location: ./system/expressionengine/language/french/email_data.php */
