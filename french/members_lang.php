@@ -66,7 +66,7 @@ $lang = array(
 'Le chemin suivant est invalide :',
 
 'not_writable_path' => 
-'Le chemin que vous avez saisi est inacessible en écriture. Veuillez vérifier que les permissions de fichier sont paramétrées sur 777.',
+'Le chemin que vous avez saisi est inaccessible en écriture. Veuillez vérifier que les permissions de fichier sont paramétrées sur 777.',
 
 'include_in_memberlist' => 
 'Inclure les membres dans la liste des membres du site ?',
@@ -78,7 +78,7 @@ $lang = array(
 'Description du champ',
 
 'field_description_info' => 
-'Ce champ peut être utiliser pour fournir des instructions ou une information additionnelle.',
+'Ce champ peut être utilisé pour fournir des instructions ou une information additionnelle.',
 
 'can_edit_categories' => 
 'Peut éditer et ajouter de nouvelles catégories',
@@ -120,10 +120,10 @@ $lang = array(
 'Vous pouvez soumettre une adresse IP partielle ou complète',
 
 'ip_search_too_short' => 
-'L\'adresse IP que vous avez saisi est trop courte. Elle doit faire au moins 3 caractères de long.',
+'L\'adresse IP que vous avez saisie est trop courte. Elle doit faire au moins 3 caractères de long.',
 
 'ip_search_no_results' => 
-'Votre recherche n\'a retourné aucuns résultats',
+'Votre recherche n\'a retourné aucun résultat',
 
 'member_accounts' => 
 'Comptes de membres',
@@ -138,7 +138,7 @@ $lang = array(
 'Page d\'accueil du site',
 
 'login_as_member_description' => 
-'Lorsque vous cliquere sur le bouton valider, vous serez connecter comme le membre \'%screen_name%\' et redirigé à la page ci-dessous.',
+'Lorsque vous cliquerez sur le bouton valider, vous serez connecté comme le membre \'%screen_name%\' et redirigé à la page ci-dessous.',
 
 'other' => 
 'Autre',
@@ -309,16 +309,16 @@ $lang = array(
 'Groupe de membre supprimé',
 
 'delete_member_group_confirm' => 
-'Etes vous sûr de vouloir supprimer ce groupe de membre ?',
+'Etes-vous sûr de vouloir supprimer ce groupe de membre ?',
 
 'delete_member' => 
 'Supprimer le membre',
 
 'delete_member_confirm' => 
-'Etes vous sûr de vouloir supprimer ce membre ?',
+'Etes-vous sûr de vouloir supprimer ce membre ?',
 
 'delete_members_confirm' => 
-'Etes vous sûr de vouloir supprimer ces membres ?',
+'Etes-vous sûr de vouloir supprimer ces membres ?',
 
 'can_not_delete_superadmin' => 
 'Vous ne pouvez pas supprimer les membres principaux',
@@ -651,16 +651,16 @@ $lang = array(
 'Créer un nouveau champ de profil',
 
 'is_field_public' => 
-'Ce champ est il visible dans les profils publics ?',
+'Ce champ est-il visible dans les profils publics ?',
 
 'is_field_public_cont' => 
 'Si vous choisissez "non", il sera visible uniquement par les administrateurs',
 
 'is_field_reg' => 
-'Ce champ est il visible sur la page d\'inscription ?',
+'Ce champ est-il visible sur la page d\'inscription ?',
 
 'is_field_cp_reg' => 
-'Est-ce que le champs est visible dans la page d\'enregistrement administratif du panneau de contrôle',
+'Est-ce que le champ est visible dans la page d\'enregistrement administratif du panneau de contrôle',
 
 'field_width' => 
 'Longueur du champ',
@@ -675,7 +675,7 @@ $lang = array(
 'Mot unique, sans espaces. Underscores et tirets autorisés',
 
 'field_format' => 
-'Formattage de texte',
+'Formatage de texte',
 
 'm_max_length' => 
 'Longueur maximale',
@@ -702,7 +702,7 @@ $lang = array(
 'Le nom du champ que vous avez saisi contient des caractères invalides',
 
 'member_data_will_be_deleted' => 
-'Toutes les données de membre contenues dans ce champ seront définitivement supprimés',
+'Toutes les données de membre contenues dans ce champ seront définitivement supprimées',
 
 'profile_field_deleted' => 
 'Champ de profil supprimé :',
@@ -714,7 +714,7 @@ $lang = array(
 'Résultats de la recherche de membre',
 
 'no_search_results' => 
-'Votre recherche n\'a retournée aucune correspondance',
+'Votre recherche n\'a retourné aucune correspondance',
 
 'member_search_instructions' => 
 'Remplissez au moins un champ. Vous pouvez soumettre une expression partielle ou complète.',

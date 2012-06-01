@@ -67,7 +67,7 @@ $lang = array(
 "Ce site est actuellement désactivé.",
 
 "not_authorized" => 
-"Vous n'êtes pas autorisé à executer cette action",
+"Vous n'êtes pas autorisé à exécuter cette action",
 
 "auto_redirection" =>
 "Vous serez redirigé automatiquement dans %x secondes",
@@ -98,7 +98,7 @@ $lang = array(
 "Les erreurs suivantes ont été rencontrées",
 
 "invalid_action" => 
-"L'action que vous avez demandé est invalide.",
+"L'action que vous avez demandée est invalide.",
 
 "captcha_required" =>
 "Vous devez saisir le mot qui apparaît dans l'image",
@@ -107,7 +107,7 @@ $lang = array(
 "Vous n'avez pas saisi le mot exactement comme il apparaît dans l'image",
 
 "nonexistent_page" =>
-"La page que vous avez demandé n'a pu être trouvée",
+"La page que vous avez demandée n'a pu être trouvée",
 
 
 //----------------------------
@@ -141,7 +141,7 @@ $lang = array(
 "Veuillez corriger la syntaxe dans votre modèle.",
 
 "error_tag_module_processing" =>
-"La balise suivante ne peut être interpretée :",
+"La balise suivante ne peut être interprétée :",
 
 "error_fix_module_processing" =>
 "Veuillez vérifier que le module '%x' est installé et que '%y' est une méthode disponible pour ce module",
@@ -160,7 +160,7 @@ $lang = array(
 "Impossible d'envoyer l'email pour le moment.",
 
 "no_email_found" => 
-"L'adresse email que vous avez saisi n'a pu être trouvée dans la base de données.",
+"L'adresse email que vous avez saisie n'a pu être trouvée dans la base de données.",
 
 "your_new_login_info" => 
 "Information de connexion",

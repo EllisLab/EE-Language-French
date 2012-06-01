@@ -36,7 +36,7 @@ $lang = array(
 'sql_not_allowed'		=> 'Désolé, mais ce type de requête n\'est pas autorisé.',
 'sql_query_instructions'=> 'Utilisez ce formulaire pour soumettre une requête SQL',
 'sql_query_debug'		=> 'Activer la sortie d\'erreur MySQL',
-'sql_good_query'		=> 'Votre requête a été executée avec succès',
+'sql_good_query'		=> 'Votre requête a été exécutée avec succès',
 
 /* Clear Caching */
 'cache_deleted'			=> 'Les fichiers cache ont été supprimés',
@@ -47,15 +47,15 @@ $lang = array(
 'channel_fields'		=> 'Champs de canal',
 'templates'				=> 'Dans TOUS les modèles',
 'template_groups'		=> 'Groupes de modèles',
-'rows_replaced'			=> 'Nombre d\'enregistrement de la base de données dans lesquels un remplacement a eu lieu :',
-'choose_below'			=> '(Choissisez parmis les suivants)',
+'rows_replaced'			=> 'Nombre d\'enregistrements de la base de données dans lesquels un remplacement a eu lieu :',
+'choose_below'			=> '(Choisissez parmis les suivants)',
 
 /* Recount Stats */
 'recalculate' 			=> 'Recompter les statistiques',
 'do_recount'			=> 'Effectuer un recomptage',
 'records' 				=> 'Enregistrements de la base de données',
 'source' 				=> 'Source',
-'recount_info' 			=> 'Les liens ci-dessous vous permettent de mettre à jour différentes statistiques, comme le nombre d\'articles que chaque membre à soumis.',
+'recount_info' 			=> 'Les liens ci-dessous vous permettent de mettre à jour différentes statistiques, comme le nombre d\'articles que chaque membre a soumis.',
 'members'				=> 'Membres',
 'channel_titles'		=> 'Articles de canal',
 'site_statistics' 		=> 'Statistiques du site',

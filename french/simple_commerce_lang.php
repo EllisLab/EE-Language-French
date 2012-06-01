@@ -62,7 +62,7 @@ $lang = array(
 de transaction sur leur site puis la notification d'ExpressionEngine lorsque la transaction est
 terminée et accepté. Ceci permet de ne pas enregistrer les achats dans le module Simple Commerce
 avant que la transaction ne soit finalisée. Le module Simple Commerce d'ExpressionEngine automatise
-tout cela en interne, donc tout ce que vous avez à faire est d'activer la Notificatio de Paiement
+tout cela en interne, donc tout ce que vous avez à faire est d'activer la Notification de Paiement
 Instantanée sur le site PayPal, et de leur fournir l'URL ci-dessus.<br /><br />
 Pour plus de détails :  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
 
@@ -170,7 +170,7 @@ Pour plus de détails :  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
 "Aucun achats",
 
 'perform_item_actions' =>
-"Executer les actions pour le produit ?",
+"Exécuter les actions pour le produit ?",
 
 'email_name' =>
 "Nom du modèle email",
@@ -182,7 +182,7 @@ Pour plus de détails :  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
 "Ventes mensuelles",
 
 'customer_email' =>
-"Modèle d'email cleint",
+"Modèle d'email client",
 
 'on_subscribe' =>
 "À l'abonnement",

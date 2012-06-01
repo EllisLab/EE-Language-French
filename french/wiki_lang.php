@@ -69,7 +69,7 @@ $lang = array(
 "Les termes de la recherche doivent faire au moins %x de long",
 
 'invalid_permissions' =>
-"Vous n'êtes pas autorisé à executer cette action",
+"Vous n'êtes pas autorisé à exécuter cette action",
 
 'submission_limit' =>
 "Limite de soumission dépassée",
@@ -84,9 +84,9 @@ $lang = array(
 "Liste de noms d'espace",
 
 'namespaces_list_subtext' =>
-"Les noms d'espace sont utilisés pour séparer le contenu d'un wiki en plusieurs sections. Par exemple, vous pouvez souhaiter vouloir créer une sections
-du wiki uniquement pour les articles en Espagnol. Pour chaque nom d'espace, créez un intitulé, qui sera affiché sur les pages Wiki, un nom court, qui 
-sera utilisé en interne et dans certains formulaire pour référencer le nom d'espace. Votre nom court ne doit contenir que des caractères de mots comme
+"Les noms d'espace sont utilisés pour séparer le contenu d'un wiki en plusieurs sections. Par exemple, vous pouvez souhaiter vouloir créer une section
+du wiki uniquement pour les articles en espagnol. Pour chaque nom d'espace, créez un intitulé, qui sera affiché sur les pages Wiki, un nom court, qui 
+sera utilisé en interne et dans certains formulaires pour référencer le nom d'espace. Votre nom court ne doit contenir que des caractères de mots comme
 des lettres, des nombres et des underscores.",
 
 'label_name' =>
@@ -105,7 +105,7 @@ des lettres, des nombres et des underscores.",
 "Groupes d'utilisateurs",
 
 'admins' =>
-"Groupes d'aministrateurs",
+"Groupes d'administrateurs",
 
 'wiki_homepage' =>
 "Page d'accueil du Wiki",
@@ -123,7 +123,7 @@ des lettres, des nombres et des underscores.",
 "Supprimer les Wikis",
 
 'wiki_delete_question' =>
-"Etes vous sûr de vouloir supprimer le(s) Wiki(s) sélectionné(s) ?",
+"Etes-vous sûr de vouloir supprimer le(s) Wiki(s) sélectionné(s) ?",
 
 'wiki_deleted' =>
 "Wiki supprimé !",
@@ -138,7 +138,7 @@ des lettres, des nombres et des underscores.",
 "Création de la première page",
 
 'default_index_content' => 
-"Bienvenu sur la page d'introduction de votre Wiki EE !",
+"Bienvenue sur la page d'introduction de votre Wiki EE !",
 
 'namespace_label' =>
 "Intitulé du nom d'espace",

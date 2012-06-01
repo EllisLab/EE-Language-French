@@ -141,7 +141,7 @@ $lang = array(
 'Confirmation d\'activation d\'extensions',
 
 'toggle_extension_confirmation' => 
-'Etes vous sûr de vouloir exécuter cette action ?',
+'Etes-vous sûr de vouloir exécuter cette action ?',
 
 'extension_disabled' => 
 'Désactivé',
@@ -222,10 +222,10 @@ $lang = array(
 'Nombre maximum de chargements de pages',
 
 'max_page_loads_exp' => 
-'Le nombre maximum de fois qu\'un utilisateur est autorisé à charger n\'importe laquelle de vos pages web (durant l\'interval de temps ci-dessous) avant d\'être bloqué.',
+'Le nombre maximum de fois qu\'un utilisateur est autorisé à charger n\'importe laquelle de vos pages web (durant l\'intervalle de temps ci-dessous) avant d\'être bloqué.',
 
 'time_interval' => 
-'Interval de temps (en secondes)',
+'Intervalle de temps (en secondes)',
 
 'time_interval_exp' => 
 'Délai en secondes pendant lesquelles le nombre de chargements de pages ci-dessus sont permis.',
@@ -285,13 +285,13 @@ $lang = array(
 'Activer le filtrage',
 
 'enable_throttling_explanation' => 
-'Cette fonctionnalité génère une en-tête et un message 404 si une requête dans laquelle le groupe de modèles est absent de l\'URL est effectuée sur votre site. Le but principal est d\'empêcher les moteurs de recherche d\'indexer des pages inexistantes.',
+'Cette fonctionnalité génère un en-tête et un message 404 si une requête dans laquelle le groupe de modèles est absent de l\'URL est effectuée sur votre site. Le but principal est d\'empêcher les moteurs de recherche d\'indexer des pages inexistantes.',
 
 'max_caches' => 
 'Nombre maximum d\'URI en cache',
 
 'max_caches_explanation' => 
-'Si vous activez le cache des pages ou de la base de donnée, cette préférence limitera le nombre total d\'instances en cache afin de prévenir une taille de cache excessive. 150 est une valeur correcte pour un petit site. Si vous avez un gros site et que l\'espace disque n\'est pas un problème, vous pouvez l\'augmenter (300 ou plus). Cependant, une limite interne de 1000 ne peut être dépassée.',
+'Si vous activez le cache des pages ou de la base de données, cette préférence limitera le nombre total d\'instances en cache afin de prévenir une taille de cache excessive. 150 est une valeur correcte pour un petit site. Si vous avez un gros site et que l\'espace disque n\'est pas un problème, vous pouvez l\'augmenter (300 ou plus). Cependant, une limite interne de 1000 ne peut être dépassée.',
 
 'standby_recount' => 
 'Recomptage... Veuillez patienter...',
@@ -330,7 +330,7 @@ $lang = array(
 '%x comptes de membre ont été supprimés',
 
 'prune_member_confirm_msg' => 
-'Etes vous sûr de vouloir supprimer les comptes de membre spécifiés ?',
+'Etes-vous sûr de vouloir supprimer les comptes de membre spécifiés ?',
 
 'member_pruning' => 
 'Purge des comptes de membre',
@@ -342,7 +342,7 @@ $lang = array(
 'Supprimer uniquement les utilisateurs qui n\'ont jamais publié d\'articles, de commentaires ou de message en forum',
 
 'mbr_prune_zero_note' => 
-'Si vous entre 0, les comptes de membre de toutes les dates seront supprimés.',
+'Si vous entrez 0, les comptes de membre de toutes les dates seront supprimés.',
 
 'mbr_prune_groups' => 
 'Supprimer uniquement à l\'intérieur des groupes sélectionnés',
@@ -357,7 +357,7 @@ $lang = array(
 'Supprimer uniquement les articles qui n\'ont aucun commentaires',
 
 'prune_entry_confirm_msg' => 
-'Etes vous sûr de vouloir supprimer les articles spécifiés ?',
+'Etes-vous sûr de vouloir supprimer les articles spécifiés ?',
 
 'no_entries_matched' => 
 'Aucun article ne correspond aux critères saisis',
@@ -378,16 +378,16 @@ $lang = array(
 'Aucun commentaire ne correspond aux critères saisis',
 
 'good_commennt_pruning' => 
-'%x commentaires ont étés supprimés',
+'%x commentaires ont été supprimés',
 
 'prune_comment_confirm_msg' => 
-'Etes vous sûr de vouloir supprimer les commentaires spécifiés ?',
+'Etes-vous sûr de vouloir supprimer les commentaires spécifiés ?',
 
 'topic_pruning' => 
 'Purge des sujets de forum',
 
 'good_topic_pruning' => 
-'%x sujets de forum ont été suppriéms',
+'%x sujets de forum ont été supprimés',
 
 'topic_prune_x_days' => 
 'Supprimer les sujets de forums plus anciens que X jours',
@@ -405,7 +405,7 @@ $lang = array(
 'Vous devez en sélectionner au moins un',
 
 'prune_topic_confirm_msg' => 
-'Etes vous sûr de vouloir supprimer les sujets de forum spécifiés ?',
+'Etes-vous sûr de vouloir supprimer les sujets de forum spécifiés ?',
 
 'no_topics_matched' => 
 'Aucun sujet ne correspond aux critères saisis',
@@ -438,7 +438,7 @@ $lang = array(
 'Taille maximale de toutes les pièces jointes d\'un message privé (en Megabytes)',
 
 'prv_msg_html_format' => 
-'Formattage HTML dans les messages privés',
+'Formatage HTML dans les messages privés',
 
 'prv_msg_auto_links' => 
 'Convertir automatiquement les URLs et adresses email en liens ?',
@@ -477,7 +477,7 @@ $lang = array(
 'Mot déclencheur de profil',
 
 'profile_trigger_notes' => 
-'La présence de ce mot dans votre URL renverra à l\'affichage de votre espace de profil. Le mot choisi ne peut être le mnom d\'un groupe de modèles existant',
+'La présence de ce mot dans votre URL renverra à l\'affichage de votre espace de profil. Le mot choisi ne peut être le nom d\'un groupe de modèles existant',
 
 'signature_cfg' => 
 'Préférences de signature',
@@ -588,7 +588,7 @@ $lang = array(
 'Ajouter un nombre aléatoire au mot Captcha',
 
 'plugin_no_curl_support' => 
-'Votre serveur ne supporte pas la biblioth!que Curl qui est requise pour utiliser cette fonctionnalité.',
+'Votre serveur ne supporte pas la bibliothèque Curl qui est requise pour utiliser cette fonctionnalité.',
 
 'plugins' => 
 'Plugins',
@@ -609,13 +609,13 @@ $lang = array(
 'Impossible d\'accéder au plugin distant',
 
 'plugin_folder_not_writable' => 
-'Votre dossier plugin est inaccessible en écriture. Les permissions doivent être paramétrées sur 777 avant que cette action ne puisse être executée.',
+'Votre dossier plugin est inaccessible en écriture. Les permissions doivent être paramétrées sur 777 avant que cette action ne puisse être exécutée.',
 
 'plugin_problem_creating_file' => 
-'Impossible de créer une version local de votre plugin',
+'Impossible de créer une version locale de votre plugin',
 
 'plugin_version_check' => 
-'Véérifier la version',
+'Vérifier la version',
 
 'plugin_installed' => 
 'Plugin(s) installé(s)',
@@ -651,13 +651,13 @@ $lang = array(
 'Impossible de localiser un fichier de plugin valide dans le téléchargement',
 
 'plugin_delete_confirm' => 
-'Confirmation de suppresionn de plugin',
+'Confirmation de suppression de plugin',
 
 'plugin_single_confirm' => 
-'Etes vous sûr de vouloir supprimer ce plugin ?',
+'Etes-vous sûr de vouloir supprimer ce plugin ?',
 
 'plugin_multiple_confirm' => 
-'Etes vous sûr de vouloir supprimer ces plugins',
+'Etes-vous sûr de vouloir supprimer ces plugins',
 
 'plugin_remove' => 
 'Supprimer',
@@ -690,13 +690,13 @@ $lang = array(
 'Indicateur URL de catégorie',
 
 'reserved_category_word_exp' => 
-'Si vous paramétrez la préférence ci dessus sur "oui" vous devez choisir un mot réservé. Ce mot sera utilisée dans l\'URL pour indiquer au moteur d\'affichage du canal qu\'il s\'agit d\'une catégorie. Note : Quel que soit le mot que vous choisissiez, il ne doit pas être utilisé par un modèle ou un groupe de modèle.',
+'Si vous paramétrez la préférence ci-dessus sur "oui" vous devez choisir un mot réservé. Ce mot sera utilisé dans l\'URL pour indiquer au moteur d\'affichage du canal qu\'il s\'agit d\'une catégorie. Note : Quel que soit le mot que vous choisissez, il ne doit pas être utilisé par un modèle ou un groupe de modèle.',
 
 'enable_sql_caching' => 
 'Mettre en cache les requêtes dynamique de Canal ?',
 
 'enable_sql_caching_exp' => 
-'Cette fonctionnalité augmentera la vitesse de chargement des pages de votre canal en mettant en cache les requêtes qui sont normallement executées dynamiquement. N\'activez cette option que si vous n\'utilisez pas les fonctions "Articles futurs" ou "Articles expirés".',
+'Cette fonctionnalité augmentera la vitesse de chargement des pages de votre canal en mettant en cache les requêtes qui sont normalement exécutées dynamiquement. N\'activez cette option que si vous n\'utilisez pas les fonctions "Articles futurs" ou "Articles expirés".',
 
 'email_debug' => 
 'Activer le débogage email ?',
@@ -720,7 +720,7 @@ $lang = array(
 'Détermine quel modèle doit être affiché lorsque quelqu\'un tente d\'accéder à une URL invalide.',
 
 'db_cfg' => 
-'Paramètres de la base de donnée',
+'Paramètres de la base de données',
 
 'cp_image_path' => 
 'URL du dossier image du tableau de bord',
@@ -741,7 +741,7 @@ $lang = array(
 'Appliquer le déni de rang aux liens soumis par les utilisateurs ?',
 
 'redirect_submitted_links_explanation' => 
-'Cette otion réécrit les liens soumis par les utilisateurs pour qu\'ils pointent en premier vers une page de redirection intermédiaire. Ceci est une prévention contre le spam de commentaire qui empêche les moteurs de recherche d\'indexer les liens.',
+'Cette option réécrit les liens soumis par les utilisateurs pour qu\'ils pointent en premier vers une page de redirection intermédiaire. Ceci est une prévention contre le spam de commentaire qui empêche les moteurs de recherche d\'indexer les liens.',
 
 'captcha_cfg' => 
 'Préférences de Captcha',
@@ -765,7 +765,7 @@ $lang = array(
 'Préférences du débogage',
 
 'license_number' => 
-'Numéro de license',
+'Numéro de licence',
 
 'word_separator' => 
 'Séparateur de mot pour les titres URL',
@@ -789,7 +789,7 @@ $lang = array(
 'Préférences système',
 
 'is_system_on' => 
-'Le système est il en marche ?',
+'Le système est-il en marche ?',
 
 'is_system_on_explanation' => 
 'Si le système est arrêté, seuls les Super Administrateurs pourront visualiser le(s) site(s)',
@@ -915,13 +915,13 @@ $lang = array(
 'Activer le blocage de mot de passe ?',
 
 'password_lockout_explanation' => 
-'Lorsque cette option est activée, seule quatres tentatives de connexion sont permises durant l\'interval de temps défini ci-arpès. C\'est une parade contre les attaques de pirates visant à deviner les mots de passes trop faciles.',
+'Lorsque cette option est activée, seule quatres tentatives de connexion sont permises durant l\'intervalle de temps défini ci-après. C\'est une parade contre les attaques de pirates visant à deviner les mots de passes trop faciles.',
 
 'password_lockout_interval' => 
-'Interval de temps pour le blocage',
+'Intervalle de temps pour le blocage',
 
 'login_interval_explanation' => 
-'L\'interval est défini en minutes. Vous êtes autorisé à utiliser des décimales. Exemple : 1.5',
+'L\'intervalle est défini en minutes. Vous êtes autorisé à utiliser des décimales. Exemple : 1.5',
 
 'require_ip_for_login' => 
 'Requérir l\'adresse IP et l\'User Agent pour la connexion ?',
@@ -984,7 +984,7 @@ $lang = array(
 'Forcer les URL de chaînes de requête',
 
 'safe_mode' => 
-'Votre serveur execute-t-il PHP en mode sans échec (safe mode) ?',
+'Votre serveur exécute-t-il PHP en mode sans échec (safe mode) ?',
 
 'force_query_string_explanation' => 
 'Ceci est un mécanisme de sécurité pour les serveurs qui ne supportent pas la variable PATH_INFO.',
@@ -1023,7 +1023,7 @@ $lang = array(
 'Activer l\'export GZIP ?',
 
 'gzip_output_explanation' => 
-'Si cette option est activée, votre site sera affiché dans un format compresser pour optimiser le chargement des pages.',
+'Si cette option est activée, votre site sera affiché dans un format compressé pour optimiser le chargement des pages.',
 
 'send_headers' => 
 'Générer les en-têtes HTTP des pages ?',
@@ -1242,7 +1242,7 @@ $lang = array(
 'Gestion des catégories',
 
 'missing_required_fields' => 
-'Les champs suivant sont requis :',
+'Les champs suivants sont requis :',
 
 'default_ping_servers' => 
 'Serveur de Ping par défaut',
@@ -1296,7 +1296,7 @@ $lang = array(
 'Fichiers cache des balises',
 
 'db_caching' => 
-'Fichiers cache de la base de donnée',
+'Fichiers cache de la base de données',
 
 'all_caching' => 
 'Tous les fichiers cache',
@@ -1317,22 +1317,22 @@ $lang = array(
 'Utilitaires SQL',
 
 'database_type' => 
-'Type de la base de donnée',
+'Type de la base de données',
 
 'sql_version' => 
-'Version de la base de donnée',
+'Version de la base de données',
 
 'database_size' => 
-'Taille de la base de donnée',
+'Taille de la base de données',
 
 'database_uptime' => 
-'Uptime de la base de donnée',
+'Uptime de la base de données',
 
 'total_queries' => 
 'Total server queries since startup',
 
 'sql_status' => 
-'Informations de statu',
+'Informations de statut',
 
 'sql_system_vars' => 
 'Variables système',
@@ -1341,7 +1341,7 @@ $lang = array(
 'Liste des processus',
 
 'sql_query' => 
-'Formulaire de requête sur la base de donnée',
+'Formulaire de requête sur la base de données',
 
 'query_result' => 
 'Résultat de la requête',
@@ -1350,7 +1350,7 @@ $lang = array(
 'Requête SQL',
 
 'total_results' => 
-'Nombre de résultats: %x',
+'Nombre de résultats : %x',
 
 'total_affected_rows' => 
 'Nombre d\'enregistrements affectés : ',
@@ -1422,7 +1422,7 @@ $lang = array(
 'Gzip',
 
 'advanced_users_only' => 
-'Utilisateurs avancés uiquement',
+'Utilisateurs avancés uniquement',
 
 'recount_stats' => 
 'Recalculer les statistiques',
@@ -1464,7 +1464,7 @@ $lang = array(
 'Recalculer les statistiques',
 
 'do_recount' => 
-'Executer le recomptage',
+'Exécuter le recomptage',
 
 'exp_members' => 
 'Membres',
@@ -1485,10 +1485,10 @@ $lang = array(
 'Et remplacer par ce texte',
 
 'replace_where' => 
-'Dans quel champ de la base de donnée voulez vous que le remplacement ait lieu ?',
+'Dans quel champ de la base de données voulez-vous que le remplacement ait lieu ?',
 
 'search_replace_disclaimer' => 
-'Selon la syntaxe utilisée, cette fonction peut produire des résultats inattendus. Consultez le guide d\'utilisation et sauvegardez votre base de donnée.',
+'Selon la syntaxe utilisée, cette fonction peut produire des résultats inattendus. Consultez le guide d\'utilisation et sauvegardez votre base de données.',
 
 'title' => 
 'Titre',
@@ -1500,7 +1500,7 @@ $lang = array(
 'Champs du canal :',
 
 'templates' => 
-'Dans TOUT les modèles',
+'Dans TOUS les modèles',
 
 'rows_replaced' => 
 'Nombre d\'enregistrements de la base de données affectés par le remplacement :',
@@ -1521,7 +1521,7 @@ $lang = array(
 'Utilitaire de traduction',
 
 'translation_dir_unwritable' => 
-'Avertissement : Votre répertoire de traduction est inacessible en écriture.',
+'Avertissement : Votre répertoire de traduction est inaccessible en écriture.',
 
 'please_set_permissions' => 
 'Veuillez paramétrer les permissions sur 666 ou 777 pour le répertoire suivant :',
@@ -1605,7 +1605,7 @@ $lang = array(
 'Afficher le débogage des modèles ?',
 
 'template_debugging_explanation' => 
-'Lorsque cette option est activée, les Super Administrateurs verront une liste d\'informations concernant l\'interpretation de la page. Utile pour le débogage.',
+'Lorsque cette option est activée, les Super Administrateurs verront une liste d\'informations concernant l\'interprétation de la page. Utile pour le débogage.',
 
 'view_throttle_log' => 
 'Voir le journal de filtrage',
@@ -1632,7 +1632,7 @@ $lang = array(
 'Comportement de l\'onglet Site',
 
 'is_site_on' => 
-'Le site est il en marche ?',
+'Le site est-il en marche ?',
 
 'is_site_on_explanation' => 
 'Si le site est arrêté, seuls les Super Administrateurs pourront le visualiser',

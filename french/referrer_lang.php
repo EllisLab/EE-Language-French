@@ -60,7 +60,7 @@ $lang = array(
 "Nombre de référants :",
 
 "save_instructions" =>
-"Combien des référants les plus récents souhaitez vous enregistrer ?",
+"Combien des référants les plus récents souhaitez-vous enregistrer ?",
 
 // NEW LANGUAGE MEMBERS v.1.3
 
@@ -74,7 +74,7 @@ $lang = array(
 "Confirmer la suppression",
 
 "referrer_delete_question" =>
-"Etes vous sûr de vouloir supprimer le(s) référant(s) sélectionné(s) ?",
+"Etes-vous sûr de vouloir supprimer le(s) référant(s) sélectionné(s) ?",
 
 'blacklist_question' =>
 "En plus de la suppression de ces référants, vous pouvez également :",
@@ -89,7 +89,7 @@ $lang = array(
 "Supprimer les autres référants avec la même adresse IP ?",
 
 'add_and_blacklist_ips' =>
-"Ajouter les adresses IP à la liste noir et supprimer les autres référants avec la même IP ?",
+"Ajouter les adresses IP à la liste noire et supprimer les autres référants avec la même IP ?",
 
 'add_agents' =>
 "Supprimer les autres référants avec le même User Agent ?",

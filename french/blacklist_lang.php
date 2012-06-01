@@ -60,13 +60,13 @@ $lang = array(
 "Télécharger la liste noire d'ExpressionEngine.com",
 
 'requires_license_number' =>
-"Numéro de license requis dans la configuration générale Requires License Number in General Configuration",
+"Numéro de licence requis dans la configuration générale",
 
 "blacklist_updated" =>
 "Liste noire mise à jour avec succès",
 
 'ref_no_license' =>
-"Erreur : aucun numéro de license",
+"Erreur : aucun numéro de licence",
 
 'ref_blacklist_irretrievable' =>
 "Erreur : la nouvelle liste noire est irrécupérable.",

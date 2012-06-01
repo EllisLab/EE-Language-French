@@ -28,7 +28,7 @@ $lang = array(
 "Sélection de canal invalide",
 
 'invalid_categories' =>
-"Selection de catégories invalide",
+"Sélection de catégories invalide",
 
 'no_entries_found' =>
 "Aucun article trouvé",
@@ -37,7 +37,7 @@ $lang = array(
 "Article introuvable dans la base de données",
 
 'unauthorized_action' =>
-"Vous n'êtes pas autorisé à executer cette action.",
+"Vous n'êtes pas autorisé à exécuter cette action.",
 
 'invalid_access' =>
 "Accès invalide",
@@ -67,7 +67,7 @@ $lang = array(
 "Configurations de l'API Blogger supprimées",
 
 "blogger_delete_question" =>
-"Etes vous sûr de vouloir supprimer le(s) configuration(s)s de l'API Blogger sélectionnée(s) ?",
+"Etes-vous sûr de vouloir supprimer le(s) configuration(s)s de l'API Blogger sélectionnée(s) ?",
 
 'delete' =>
 "Supprimer",
@@ -94,13 +94,13 @@ $lang = array(
 "Formatage HTML",
 
 'blogger_html_format_subtext' =>
-"Lorsque qu'un programme compatible avec l'API Blogger demande un article, souhaitez vous que le contenu soit envoyé avec les restrictions de formatage HTML ?",
+"Lorsqu'un programme compatible avec l'API Blogger demande un article, souhaitez-vous que le contenu soit envoyé avec les restrictions de formatage HTML ?",
 
 'blogger_text_format' =>
 "Envoyer un texte préformaté au programme client ?",
 
 'blogger_text_format_subtext' =>
-"Lors de l'édition d'article avec le programme client, souhaitez vous que le texte soit formaté selon vos préférences ? Ce paramètre est normallement configuré sur 'non'",
+"Lors de l'édition d'article avec le programme client, souhaitez-vous que le texte soit formaté selon vos préférences ? Ce paramètre est normalement configuré sur 'non'",
 
 'blogger_parse_type' => 
 "Préférence de formatage de texte",
@@ -133,7 +133,7 @@ $lang = array(
 "Un champ a été laissé vide",
 
 'configuration_created' =>
-"Configuration crée",
+"Configuration créée",
 
 'configuration_updated' =>
 "Configuration mise à jour",

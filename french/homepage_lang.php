@@ -23,7 +23,7 @@ $lang = array(
 
 "checksum_email_message" => "ExpressionEngine a détecté la modification d'un fichier principal sur : {url}
 
-Les fichiers suivants sont cocnernés :
+Les fichiers suivants sont concernés :
 {changed}
 
 Si vous avez effectué ces changements, veuillez accepter les modifications sur l'accueil du tableau de bord. Si vous n'avez pas modifié ces fichiers ceci peut indiquer une tentative de piratage. Vérifiez les fichiers pour tout contenu suspect (JavaScript ou iFrames) et contactez le support ExpressionEngine :
@@ -162,7 +162,7 @@ http://expressionengine.com/support/policy/",
 "Aucune actualité disponible",
 
 'more_news' =>
-"Plus d'actualitéss...",
+"Plus d'actualités...",
 
 "site_status" =>
 "Statut du site",

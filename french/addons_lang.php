@@ -87,7 +87,7 @@ $lang = array(
 'Supprimer le type de champs',
 
 'data_will_be_lost' => 
-'Toutes les données associés à ce type de champs, y compris les données dans les canaux, seront effacées de façon irréversible',
+'Toutes les données associées à ce type de champs, y compris les données dans les canaux, seront effacées de façon irréversible',
 
 'global_settings_saved' => 
 'Paramètres enregistrés',
@@ -102,7 +102,7 @@ $lang = array(
 'Statut courant',
 
 'required_by' => 
-'Utilisé par:',
+'Utilisé par :',
 
 'available_to_member_groups' => 
 'Disponible aux groupes de membre',

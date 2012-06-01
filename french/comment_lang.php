@@ -33,7 +33,7 @@ $lang = array(
 "Votre compte de membre n'a pas encore été activé",
 
 "cmt_comments_not_allowed" =>
-"Les commentaires ne sont pas autorisé pour ce canal",
+"Les commentaires ne sont pas autorisés pour ce canal",
 
 "cmt_missing_name" =>
 "Le champ nom est requis",
@@ -45,10 +45,10 @@ $lang = array(
 "Le champ email est requis",
 
 "cmt_invalid_email" =>
-"L'adresse email que vous avez saisi est invalide",
+"L'adresse email que vous avez saisie est invalide",
 
 "cmt_banned_email" =>
-"L'adresse email que vous avez saisi est exclue",
+"L'adresse email que vous avez saisie est exclue",
 
 "cmt_too_large" =>
 "Le commentaire que vous avez saisi contient %n caractères. Seuls %x caractères sont autorisés.",
