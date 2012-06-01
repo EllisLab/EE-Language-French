@@ -55,10 +55,10 @@ $lang = array(
 'cached_relationships' 	=> 'Relations d\'articles en cache',
 'all_caching' 			=> 'Tous les caches',
 
-'sandr_instructions' 	=> 'Ces formulaires vous permettent de recherche une expression particulière et de la remplacer par une autre',
+'sandr_instructions' 	=> 'Ces formulaires vous permettent de rechercher une expression particulière et de la remplacer par une autre',
 'search_term' 			=> 'Rechercher ce texte',
 'replace_term' 			=> 'Et le remplacer par ce texte',
-'replace_where' 		=> 'Dans quel champ de la base de donnée voulee vous que le remplacement ait lieu ?',
+'replace_where' 		=> 'Dans quel champ de la base de données voulez-vous que le remplacement ait lieu ?',
 'search_replace_disclaimer'	=> 'Selon la syntaxe utilisée, cette fonction peut produire des résultats inattendus. Consultez le manuel et sauvegardez votre base de données.',
 'advanced_users_only' 	=> 'Utilisateurs avancés uniquement',
 
@@ -84,8 +84,8 @@ $lang = array(
 'file_download' 		=> 'Télécharger',
 'file_tools'			=> 'Outils pour les fichiers',
 'choose_file'			=> 'Veuillez choisir un fichier à supprimer',
-'confirm_del_file'		=> 'Etes vous sûr de vouloir définitivement supprimer ce fichier ?',
-'confirm_del_files'		=> 'Etes vous sûr de vouloir définitivement supprimer ces fichiers ?',
+'confirm_del_file'		=> 'Etes-vous sûr de vouloir définitivement supprimer ce fichier ?',
+'confirm_del_files'		=> 'Etes-vous sûr de vouloir définitivement supprimer ces fichiers ?',
 'delete_success'		=> 'Suppression effectuée',
 'delete_fail'			=> 'Un problème est survenu lors de la suppression d\un ou plusieurs fichier(s). Veuillez vérifier la liste de fichiers ci-dessous.',
 'no_file'				=> 'Aucun fichier sélectionné',

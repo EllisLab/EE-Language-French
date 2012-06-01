@@ -12,10 +12,10 @@ $lang = array(
 "Le chemin spécifié n'existe pas",
 
 "file_viewing_error" =>
-"Une erreur de type inconnue a été rencontré.",
+"Une erreur de type inconnu a été rencontrée.",
 
 "fp_no_files" => 
-"Aucun fichiers disponibles dans le répertoire.",
+"Aucun fichier disponible dans le répertoire.",
 
 "fb_view_images" =>
 "Voir les images",

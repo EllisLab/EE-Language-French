@@ -54,13 +54,13 @@ $lang = array(
 "Article de canal",
 
 'choose_entry' =>
-"Choissez un article",
+"Choisissez un article",
 
 'pages_delete_confirm' =>
 "Supprimer les pages",
 
 'pages_delete_question' =>
-"Etes vous sûr de vouloir supprimer les URI des pages sélectionnées ?<br/><em>Note : Supprimer une page ne supprime que l'URL, pas l'article.</em>",
+"Etes-vous sûr de vouloir supprimer les URI des pages sélectionnées ?<br/><em>Note : Supprimer une page ne supprime que l'URL, pas l'article.</em>",
 
 'page_deleted' =>
 "Page supprimée",
@@ -81,7 +81,7 @@ $lang = array(
 "Vous devez sélectionner un modèle valide pour afficher cette page.",
 
 'page_created' =>
-"Page crée",
+"Page créée",
 
 'page_updated' =>
 "Page mise à jour",

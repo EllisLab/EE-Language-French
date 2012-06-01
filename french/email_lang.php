@@ -16,7 +16,7 @@ $lang = array(
 "Le message de l'email est requis",
 
 'em_banned_from_email' => 
-"L'adresse email de l'expediteur que vous avez saisi est exclue.",
+"L'adresse email de l'expéditeur que vous avez saisie est exclue.",
 
 'em_banned_recipient' =>
 "Un ou plusieurs de vos destinataires emails sont exclus.",
@@ -31,7 +31,7 @@ $lang = array(
 "Une adresse d'expéditeur valide est requise",
 
 "em_unauthorized_request" =>
-"Vous n'êtes pas autorisé à executer cette action",
+"Vous n'êtes pas autorisé à exécuter cette action",
 
 'em_limit_exceeded' =>
 "Vous avez dépassé le nombre d'emails autorisés à être envoyés par jour.",

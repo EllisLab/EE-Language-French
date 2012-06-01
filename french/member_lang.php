@@ -15,10 +15,10 @@ $lang = array(
 //----------------------------------------
 
 "localization_disallowed" =>
-"Les préférences de localisation de membre sont actuellement désactivée.",
+"Les préférences de localisation de membre sont actuellement désactivées.",
 
 "accept_messages" =>
-"Accepter les messages privés qui vous sont envoyé par d'autres membres de ce site",
+"Accepter les messages privés qui vous sont envoyés par d'autres membres de ce site",
 
 "parse_smileys" =>
 "Afficher les images des smileys dans les .",
@@ -78,7 +78,7 @@ $lang = array(
 "Vous devez remplir tous les champs",
 
 "invalid_existing_un_pw" =>
-"L'identifiant et/ou le mot de passe actuel que vous avez saisi ne sont pas valide",
+"L'identifiant et/ou le mot de passe actuel que vous avez saisi ne sont pas valides",
 
 "unpw_updated" =>
 "Vos paramètres ont été mis à jour, vous pouvez désormais vous connecter.",
@@ -90,7 +90,7 @@ $lang = array(
 "Connexion Membre",
 
 "member_results_row" =>
-"Messages privés - Lignes des resultats de la recherche de membre",
+"Messages privés - Lignes des résultats de la recherche de membre",
 
 "communications" =>
 "Communications",
@@ -177,7 +177,7 @@ $lang = array(
 "Ajoutez me à votre liste d'amis",
 
 "elapsed_time" =>
-"Script executé en {elapsed_time} secondes",
+"Script exécuté en {elapsed_time} secondes",
 
 "email_console" =>
 "Console d'email",
@@ -264,7 +264,7 @@ $lang = array(
 "Impossible de localiser les avatars désirés",
 
 "image_assignment_error" =>
-"Une erreur a été rencontrée en essayer d'assigner votre image",
+"Une erreur a été rencontrée en essayant d'assigner votre image",
 
 "avatar_updated" =>
 "L'avatar a été mis à jour",
@@ -273,7 +273,7 @@ $lang = array(
 "Le téléchargement d'avatar n'est actuellement pas activé.",
 
 "image_max_size_exceeded" =>
-"La taille maximale autoroisé pour les images est de %s kilobytes",
+"La taille maximale autorisée pour les images est de %s kilobytes",
 
 "invalid_image_type" =>
 "Les images doivent être du type suivant : jpg, jpeg, gif, png",
@@ -291,7 +291,7 @@ $lang = array(
 "Supprimer l'avatar",
 
 "gd_required" =>
-"La bibliothèque d'image GD est requise pour executer cette action.",
+"La bibliothèque d'image GD est requise pour exécuter cette action.",
 
 "close_tags" =>
 "Balise de fermeture",
@@ -430,13 +430,13 @@ $lang = array(
 'Supprimer le compte',
 
 'confirm_password' =>
-'Vous devez confirmer votre mot de passe pour executer cette action.',
+'Vous devez confirmer votre mot de passe pour exécuter cette action.',
 
 'invalid_pw' =>
 'Le mot de passe que vous avez saisi est invalide.',
 
 'mbr_delete_blurb' =>
-'Etes vous sûr de vouloir supprimer votre compte ? Tous les articles, messages, commentaires et tout autre contenu associé à votre compte sera également supprimé.',
+'Etes-vous sûr de vouloir supprimer votre compte ? Tous les articles, messages, commentaires et tout autre contenu associé à votre compte sera également supprimé.',
 
 'mbr_delete_warning' =>
 'ATTENTION : CETTE ACTION NE PEUT ÊTRE ANNULÉE !',
@@ -457,13 +457,13 @@ $lang = array(
 'Suppression de compte membre à {site_name}',
 
 'mbr_delete_notify_message' =>
-"La personne suivante à supprimer son compte : {name}",
+"La personne suivante a supprimé son compte : {name}",
 
 "notice" =>
 "Note",
 
 "mbr_registration_not_allowed" =>
-"Les nouveaux comptes de membre ne sont pas aceptés pour le moment.",
+"Les nouveaux comptes de membre ne sont pas acceptés pour le moment.",
 
 "mbr_login" =>
 "Connexion",

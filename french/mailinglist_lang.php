@@ -24,7 +24,7 @@ $lang = array(
 "Le modèle a été mis à jour",
 
 "mailing_list" =>
-"Liste de diffusion:",
+"Liste de diffusion :",
 
 "mailinglist_template" =>
 "Modèle de la liste de diffusion",
@@ -78,7 +78,7 @@ $lang = array(
 "Tous les champs sont obligatoires.",
 
 "ml_invalid_short_name" => 
-"Le nom court de votre liste de diffusion ne doit contenir que des caractères alpha-numériques sans espaces.",
+"Le nom court de votre liste de diffusion ne doit contenir que des caractères alphanumériques sans espaces.",
 
 "ml_short_name_taken" =>
 "Le nom court que vous avez choisi est déjà utilisé.",
@@ -117,7 +117,7 @@ $lang = array(
 "Le désabonnement email a été effectué avec succès",
 
 "ml_bad_email_del_heading" =>
-"Les emails suivant ne peuvent être supprimé :",
+"Les emails suivants ne peuvent être supprimés :",
 
 "ml_mailinglist" =>
 "Liste de diffusion",
@@ -132,10 +132,10 @@ $lang = array(
 "Supprimer la liste de diffusion",
 
 "ml_delete_list_question" =>
-"Etes vous sûr de vouloir supprimer les listes de diffusions suivantes ?",
+"Etes-vous sûr de vouloir supprimer les listes de diffusions suivantes ?",
 
 "ml_all_data_nuked" =>
-"Toutes les adresses emails contenues dans les listes seront définitivement supprimés.",
+"Toutes les adresses emails contenues dans les listes seront définitivement supprimées.",
 
 "ml_list_deleted" =>
 "Liste de diffusion supprimée",
@@ -156,13 +156,13 @@ $lang = array(
 "Supprimer",
 
 "ml_no_results" =>
-"Il n'y a aucun résultat correspondant aux critères que vous avez saisi",
+"Il n'y a aucun résultat correspondant aux critères que vous avez saisis",
 
 "ml_delete_confirm" =>
 "Supprimer les adresses email",
 
 "ml_delete_question" =>
-"Etes vous sûr de vouloir supprimer les adresses emails sélectionnées ?",
+"Etes-vous sûr de vouloir supprimer les adresses emails sélectionnées ?",
 
 "ml_email_deleted" =>
 "L'adresse email a été supprimée",
@@ -183,7 +183,7 @@ $lang = array(
 "L'adresse email n'est pas autorisée",
 
 "ml_email_accepted" =>
-"Votre adresse email a été ajouté à notre liste de diffusion.",
+"Votre adresse email a été ajoutée à notre liste de diffusion.",
 
 "ml_email_confirmation_sent" =>
 "Un email de confirmation vous a été envoyé.",
@@ -228,7 +228,7 @@ $lang = array(
 "Nombre total d'emails abonnés :",
 
 "ml_bad_email_heading" =>
-"Les emails suivant ne peuvent être importés :",
+"Les emails suivants ne peuvent être importés :",
 
 
 

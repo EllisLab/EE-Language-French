@@ -111,7 +111,7 @@ $lang = array(
 "Gestionnaire du forum",
 
 "forum_management" =>
-"Gestion du foryum",
+"Gestion du forum",
 
 "forum_moderators" =>
 "Modérateurs",
@@ -216,10 +216,10 @@ $lang = array(
 "Confirmation de la suppression de la catégorie",
 
 "forum_delete_msg" =>
-"Etes vous sûr de vouloir supprimer le forum suivant ?",
+"Etes-vous sûr de vouloir supprimer le forum suivant ?",
 
 "forum_delete_cat_msg" =>
-"Etes vous sûr de vouloir supprimer la catégorie suivante ?",
+"Etes-vous sûr de vouloir supprimer la catégorie suivante ?",
 
 "forum_delete_warning" =>
 "Tous les sujets et messages du forum seront définitivement supprimés !",
@@ -279,7 +279,7 @@ $lang = array(
 "Le nouveau forum a été créé",
 
 "forum_new_cat_added" =>
-"La nouvelle catégorie de forum a été créé",
+"La nouvelle catégorie de forum a été créée",
 
 "forum_rank_title" =>
 "Titre du rang",
@@ -306,7 +306,7 @@ $lang = array(
 "Confirmation de suppression de rang de membres",
 
 "forum_delete_rank_msg" =>
-"Etes vous sûr de vouloir supprimer le rang de membres suivant ?",
+"Etes-vous sûr de vouloir supprimer le rang de membres suivant ?",
 
 "forum_rank_deleted" =>
 "Le rang de membres a été supprimé",
@@ -420,7 +420,7 @@ $lang = array(
 "Peut voir les adresses IP",
 
 "mod_can_ban" =>
-"Oeut bannir des utilisateurs",
+"Peut bannir des utilisateurs",
 
 "forum_moderator_added" =>
 "Nouveau modérateur ajouté",
@@ -432,7 +432,7 @@ $lang = array(
 "Recherche de membre",
 
 "forum_mod_name_inst" =>
-"Note: entrez un identifiant - PAS un pseudo",
+"Note : entrez un identifiant - PAS un pseudo",
 
 "forum_use_lookup_inst" =>
 "Entre un nom complet ou partiel",
@@ -459,10 +459,10 @@ $lang = array(
 "Résultat de la recherche",
 
 "forum_toomany_results" =>
-"Seuls les 100 premiers résultats ont été affiché. Veuillez modifier vos critères de recherche pour obtenir moins de résultats.",
+"Seuls les 100 premiers résultats ont été affichés. Veuillez modifier vos critères de recherche pour obtenir moins de résultats.",
 
 "forum_select_user" =>
-"Selectionner",
+"Sélectionner",
 
 "forum_username_error" =>
 "L'identifiant saisi semble invalide",
@@ -477,7 +477,7 @@ $lang = array(
 "Confirmation de suppression de modérateur",
 
 "forum_remove_moderator_msg" =>
-"Etes vous sûr de vouloir enlever le modérateur suivant ?",
+"Etes-vous sûr de vouloir enlever le modérateur suivant ?",
 
 "in_forum" =>
 "En forum :",
@@ -540,7 +540,7 @@ $lang = array(
 "URL du dossier thèmes du forum",
 
 "pref_theme_path" =>
-"Chemin serveur do dossier thèmes",
+"Chemin serveur du dossier thèmes",
 
 "pref_default_theme" =>
 "Thème par défaut du forum",
@@ -558,7 +558,7 @@ $lang = array(
 "Ordre d'affichage des messages",
 
 "pref_hot_topic" =>
-"Nombre de messages pour signaler un sujet chau",
+"Nombre de messages pour signaler un sujet chaud",
 
 "pref_max_post_chars" =>
 "Nombre maximum de caractères autorisés par message",
@@ -585,7 +585,7 @@ $lang = array(
 "Utiliser les miniatures des images téléchargées dans les messages",
 
 "pref_image_protocol" =>
-"Protocol de redimensionnement d'image",
+"Protocole de redimensionnement d'image",
 
 "pref_image_lib_path" =>
 "Chemin serveur de la bibliothèque de traitement d'image",
@@ -630,13 +630,13 @@ $lang = array(
 "Mot déclencheur du forum",
 
 "pref_forum_trigger_notes" =>
-"Lorsque ce mot sera présent dans l'URL, le forum s'affichera.Le mot que vous choisissez ne peut être le même qu'un groupe de modèle existant.",
+"Lorsque ce mot sera présent dans l'URL, le forum s'affichera. Le mot que vous choisissez ne peut être le même qu'un groupe de modèle existant.",
 
 "config_not_writable" =>
-"Votre fichier config.php semble inacessible en écriture. Veuillez paramétrer les permissions du fichier sur 666",
+"Votre fichier config.php semble inaccessible en écriture. Veuillez paramétrer les permissions du fichier sur 666",
 
 "forum_empty_fields" =>
-"Vous avez laissé les champs suivant vide :",
+"Vous avez laissé les champs suivants vides :",
 
 "invalid_theme_path" =>
 "Le chemin serveur vers votre dossier Thèmes ne semble pas être valide.",
@@ -645,22 +645,22 @@ $lang = array(
 "Le chemin serveur vers votre dossier de téléchargement des images ne semble pas être valide.",
 
 "unwritable_upload_path" =>
-"Votre dossier de téléchargement des images est inacessible en écriture. Veuillez vérifier que ses permissions sont paramétrées sur 777.",
+"Votre dossier de téléchargement des images est inaccessible en écriture. Veuillez vérifier que ses permissions sont paramétrées sur 777.",
 
 "forum_trigger_unavailable" =>
 "Le mot déclencheur de forum que vous avez saisi est déjà utilisé par un groupe de template. Il n'est donc pas disponible.",
 
 "illegal_characters" =>
-"Le mot déclencheur de forum que vous avez saisi ne peut contenir que des caractères alpha-numériques, des underscores ou des tirets",
+"Le mot déclencheur de forum que vous avez saisi ne peut contenir que des caractères alphanumériques, des underscores ou des tirets",
 
 "illegal_characters_shortname" =>
-"Le nom court de forum que vous avez saisi ne peut contenir que des caractères alpha-numériques, des underscores ou des tirets",
+"Le nom court de forum que vous avez saisi ne peut contenir que des caractères alphanumériques, des underscores ou des tirets",
 
 "pref_post_timelock" =>
-"Interval de renvoi des messages (en secondes)",
+"Intervalle de renvoi des messages (en secondes)",
 
 "pref_post_timelock_more" =>
-"Le délai en seconde qui doit s'écouler avant qu'un utilisateur ne puisse envoyer un nouveau message. Laissez vide ou entrez zero pour ne pas limiter.",
+"Le délai en secondes qui doit s'écouler avant qu'un utilisateur ne puisse envoyer un nouveau message. Laissez vide ou entrez zero pour ne pas limiter.",
 
 'pref_display_edit_date' =>
 'Afficher les dates d\'édition',
@@ -705,16 +705,16 @@ $lang = array(
 "Adresse(s) email pour le(s) destinataire(s)s pour la notification de Sujets",
 
 "pref_notify_emails_topics_more" =>
-"Si vous vouler avertire quelqu'un lorsqu'il y a de nouveaux SUJETS dans ce forum, entrez son adresse email. Séparez les adresses multiples par une virgule.",
+"Si vous voulez avertir quelqu'un lorsqu'il y a de nouveaux SUJETS dans ce forum, entrez son adresse email. Séparez les adresses multiples par une virgule.",
 
 "pref_notify_emails_forums" =>
-"Si vous vouler avertire quelqu'un lorsqu'il y a de nouvelles REPONSES dans ce forum, entrez son adresse email. Séparez les adresses multiples par une virgule",
+"Si vous voulez avertir quelqu'un lorsqu'il y a de nouvelles REPONSES dans ce forum, entrez son adresse email. Séparez les adresses multiples par une virgule",
 
 "pref_notify_emails_all" =>
-"Si vous vouler avertire quelqu'un lorsqu'il y a de nouvelles REPONSES dans N'IMPORTE QUEL forum, entrez son adresse email. Séparez les adresses multiples par une virgule",
+"Si vous voulez avertir quelqu'un lorsqu'il y a de nouvelles REPONSES dans N'IMPORTE QUEL forum, entrez son adresse email. Séparez les adresses multiples par une virgule",
 
 "pref_notify_emails_topics_all" =>
-"Si vous vouler avertire quelqu'un lorsqu'il y a de nouveaux SUJETS dans N'IMPORTE QUEL forum, entrez son adresse email. Séparez les adresses multiples par une virgule",
+"Si vous voulez avertir quelqu'un lorsqu'il y a de nouveaux SUJETS dans N'IMPORTE QUEL forum, entrez son adresse email. Séparez les adresses multiples par une virgule",
 
 "pref_notify_moderators" =>
 "Notifier les modérateurs des nouveaux messages ?",
@@ -765,10 +765,10 @@ $lang = array(
 "Admin supprimé",
 
 "forum_remove_admin_confirm" =>
-"Confirmation de suppresiond d'Admin",
+"Confirmation de suppression d'Admin",
 
 "forum_remove_admin_msg" =>
-"Etes vous sûr de vouloir supprimer l'Admin suivant ?",
+"Etes-vous sûr de vouloir supprimer l'Admin suivant ?",
 
 "forum_user_mgr_info" =>
 "N'importe quel membre d'un groupe avec le statut administrateur ",
@@ -840,7 +840,7 @@ $lang = array(
 "Modèles de vue des sujets",
 
 "file_not_writable" =>
-"Ce modèle est inacessible en écriture",
+"Ce modèle est inaccessible en écriture",
 
 "file_writing_instructions" =>
 "Pour mettre à jour ce modèle vous devez paramétrer les permissions du fichier sur 666 :",
@@ -954,7 +954,7 @@ $lang = array(
 "Message d'utilisateur email",
 
 "emoticon_page" =>
-"Page d'éloticône",
+"Page d'émoticône",
 
 "submission_page" =>
 "Page de soumission de message",
@@ -1173,7 +1173,7 @@ $lang = array(
 "Un seul mot, sans espaces",
 
 'forum_name_unavailable' =>
-"Nom court de panneau de forum indisponib",
+"Nom court de panneau de forum indisponible",
 
 'forum_board_home' =>
 "Accueil du panneau de forum",
@@ -1194,10 +1194,10 @@ $lang = array(
 "Ajouter un nouveau panneau de forum ?",
 
 'delete_board_confirmation' =>
-"Cnfirmation de suppression de panneau de forum",
+"Confirmation de suppression de panneau de forum",
 
 'delete_board_confirmation_message' =>
-"Etes vous sûr de vouloir supprimer ce panneau de forum ?",
+"Etes-vous sûr de vouloir supprimer ce panneau de forum ?",
 
 'board_deleted' =>
 "Panneau de forum supprimé",

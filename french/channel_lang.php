@@ -18,13 +18,13 @@ $lang = array(
 "Le modèle d'aperçu n'a pas été spécifié par votre balise",
 
 "channel_must_be_logged_in" =>
-"Vous devez être un membre connecté sur ce site pour executer cette action.",
+"Vous devez être un membre connecté sur ce site pour exécuter cette action.",
 
 "channel_not_specified" =>
 "Vous devez spécifier un canal pour utiliser le formulaire d'article.",
 
 "channel_no_action_found" =>
-"Impossible de charger les ressources nécéssaires à la création du formulaire d'article",
+"Impossible de charger les ressources nécessaires à la création du formulaire d'article",
 
 
 ''=>''

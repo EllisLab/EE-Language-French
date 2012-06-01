@@ -68,7 +68,7 @@ $lang = array(
 "Flux Atom",
 
 "no_feed_results" =>
-"Votre requête n'a retourné aucun résultats",
+"Votre requête n'a retourné aucun résultat",
 
 "no_feed_specified" =>
 "L'URL que vous avez demandé ne contient pas de numéro ID de flux actif.",
@@ -248,7 +248,7 @@ $lang = array(
 "Total :",
 
 "elapsed_time" =>
-"Script executé en {elapsed_time} secondes",
+"Script exécuté en {elapsed_time} secondes",
 
 "search" =>
 "Rechercher",
@@ -449,7 +449,7 @@ $lang = array(
 "Formulaire d'exclusion de memebre",
 
 "member_ban_warning" =>
-"Etes vous sûr de vouloir suspendre le compte du membre suivant ?",
+"Etes-vous sûr de vouloir suspendre le compte du membre suivant ?",
 
 "member_name" =>
 "Nom du membre :",
@@ -539,10 +539,10 @@ $lang = array(
 "Confirmation de suppression",
 
 "post_delete_warning" =>
-"Etes vous sûr de vouloir supprimer le message suivant ?",
+"Etes-vous sûr de vouloir supprimer le message suivant ?",
 
 "thread_delete_warning" =>
-"Etes vous sûr de vouloir supprimer tout ce fil ?",
+"Etes-vous sûr de vouloir supprimer tout ce fil ?",
 
 "thread_delete_info" =>
 "Tous les messages dans ce fil seront définitivement supprimés ! ",
@@ -800,7 +800,7 @@ $lang = array(
 "Confirmer le désabonnement",
 
 "remove_subscription_question" =>
-"Etes vous sûr de vouloir vous désabonner du fil suivant ?",
+"Etes-vous sûr de vouloir vous désabonner du fil suivant ?",
 
 "subscription_confirmation_link" =>
 "Cliquez ici pour confirmer",
@@ -821,7 +821,7 @@ $lang = array(
 "L'URL que vous avez saisie contient un numéro de code invalide",
 
 "already_subscribed" =>
-"Vous petes déjà abonné à ce fil",
+"Vous êtes déjà abonné à ce fil",
 
 "you_have_been_subscribed" =>
 "Vous êtes maintenant abonné au fil suivant :",

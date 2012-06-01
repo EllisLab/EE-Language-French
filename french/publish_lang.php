@@ -109,10 +109,10 @@ $lang = array(
 'Aperçu rapide',
 
 "delete_comments_confirm" =>
-"Etes vous sûr de vouloir définitivement supprimer ces commentaires ?",
+"Etes-vous sûr de vouloir définitivement supprimer ces commentaires ?",
 
 'field_blank' =>
-"Vous avez laissez un champ vide.",
+"Vous avez laissé un champ vide.",
 
 "select_action" =>
 "Sélectionnez vos options de placement",
@@ -247,7 +247,7 @@ $lang = array(
 'Impossible de créer un titre URL valide pour votre article',
 
 "select_all" =>
-"Sélectionner/Déselectionner tout",
+"Sélectionner/Désélectionner tout",
 
 "results" =>
 "résultats",
@@ -262,7 +262,7 @@ $lang = array(
 "Date d'expiration de commentaire",
 
 "invalid_comment_date_formatting" => 
-"La date d'expiration de commentaire que vous avez saisi n'était pas formaté correctement (année-mois-jour heure:minute). Laissez le champ vide si vous ne souhaitez pas que vos commentaires expirent.",
+"La date d'expiration de commentaire que vous avez saisie n'était pas formatée correctement (année-mois-jour heure:minute). Laissez le champ vide si vous ne souhaitez pas que vos commentaires expirent.",
 
 "keywords" =>
 "Mots clés",
@@ -418,13 +418,13 @@ $lang = array(
 "Date d'expiration",
 
 "invalid_date_formatting" => 
-"La date que vous avez saisi n'est pas formatée correctement (année-mois-jour heure:minute)",
+"La date que vous avez saisie n'est pas formatée correctement (année-mois-jour heure:minute)",
 
 "invalid_date" =>
-"La date que vous avez saisi n'est pas valide.",
+"La date que vous avez saisie n'est pas valide.",
 
 "date_outside_of_range" => 
-"La date que vous avez saisi est en dehors de la plage acceptée (1902 - 2037).",
+"La date que vous avez saisie est en dehors de la plage acceptée (1902 - 2037).",
 
 "category" =>
 "Catégorie",
@@ -504,7 +504,7 @@ $lang = array(
 "L'article a été mis à jour",
 
 "xmlrpc_ping_errors" =>
-"Les Pings XML-RPC suivant n'ont pas été acceptés :",
+"Les Pings XML-RPC suivants n'ont pas été acceptés :",
 
 "click_to_view_your_entry" =>
 "Cliquez ici pour voir votre article",
@@ -516,7 +516,7 @@ $lang = array(
 "Editer cet article",
 
 "date_range" =>
-"Interval de date",
+"Intervalle de date",
 
 "today" =>
 "Aujourd'hui",
@@ -552,13 +552,13 @@ $lang = array(
 "Alphabétique",
 
 "delete_confirm" =>
-"Confirmation de suppresion",
+"Confirmation de suppression",
 
 "delete_entry_confirm" =>
-"Etes vous sûr de vouloir définitivement supprimer cet article ?",
+"Etes-vous sûr de vouloir définitivement supprimer cet article ?",
 
 "delete_entries_confirm" =>
-"Etes vous sûr de vouloir définitivement supprimer ces articles ?",
+"Etes-vous sûr de vouloir définitivement supprimer ces articles ?",
 
 "entries_deleted" =>
 "Supprimé",
@@ -615,7 +615,7 @@ $lang = array(
 "Vous avez téléchargé le fichier suivant :",
 
 "choose_a_destination" =>
-"Où souhaitez vous que votre fichier apparaisse ?",
+"Où souhaitez-vous que votre fichier apparaisse ?",
 
 "no_entry_fields" =>
 "Il n'y a aucun champ d'article dans ce canal.",
@@ -669,7 +669,7 @@ $lang = array(
 "Commentaire mis à jour",
 
 "delete_comment_confirm" =>
-"Etes vous sûr de vouloir définitivement supprimer ce commentaire ?",
+"Etes-vous sûr de vouloir définitivement supprimer ce commentaire ?",
 
 "name" =>
 "Nom",
@@ -699,13 +699,13 @@ $lang = array(
 "Paramètres d'image",
 
 "choose_a_destination_for_thumb" =>
-"Où souhaitez vous que cette image apparaisse ?",
+"Où souhaitez-vous que cette image apparaisse ?",
 
 "do_not_place_file" =>
 "Ne pas placer le fichier dans l'article",
 
 "image_size_not_different" =>
-"La largeur et la hauteur que vous avez saisi sont les même que l'original.",
+"La largeur et la hauteur que vous avez saisies sont les mêmes que l'original.",
 
 "width" =>
 "Largeur",

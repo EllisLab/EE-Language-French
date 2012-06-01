@@ -75,7 +75,7 @@ $lang = array(
 "Supprimer le site",
 
 'delete_site_confirmation' =>
-"Etes vous sûr de vouloir définitivement supprimer ce site ?",
+"Etes-vous sûr de vouloir définitivement supprimer ce site ?",
 
 'site_deleted' =>
 "Site supprimé",
@@ -105,7 +105,7 @@ $lang = array(
 "Supprimer le Set",
 
 'delete_set_confirmation' =>
-"Etes vous sûr de vouloir définitivement supprimer ce set ?",
+"Etes-vous sûr de vouloir définitivement supprimer ce set ?",
 
 'set_deleted' =>
 "Set supprimé",
@@ -165,7 +165,7 @@ $lang = array(
 "Basculer le site",
 
 'timeout_warning' =>
-"La duplication de grande quantité de donnée peut être un processus intensif, et peut causer un dépassement des limites de mémoire et de temps d'execution du serveur, causant la perte de données.<br/><br/> Veillez à toujours sauvegarder votre base de données avant d'executer une duplication, et si vous rencontrez des problèmes consultez votre hébergeur pour augmenter les capacités du serveur.",
+"La duplication de grande quantité de données peut être un processus intensif, et peut causer un dépassement des limites de mémoire et de temps d'exécution du serveur, causant la perte de données.<br/><br/> Veillez à toujours sauvegarder votre base de données avant d'exécuter une duplication, et si vous rencontrez des problèmes consultez votre hébergeur pour augmenter les capacités du serveur.",
 
 
 
