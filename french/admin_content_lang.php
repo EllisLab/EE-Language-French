@@ -9,7 +9,7 @@ $lang = array(
 "Si vous n'avez pas enregistré les changements sur cette page ils seront perdus lorsque vous serez envoyé vers l'éditeur de formatage.",
 
 "fmt_has_changed" =>
-"Note : Vous avez sélectionné un choid de formatage de champ différent à celui sauvegardé précedemment.",
+"Note : Vous avez sélectionné un choix de formatage de champ différent à celui sauvegardé précedemment.",
 
 "update_existing_fields" =>
 "Mettre à jour tous les articles avec ce nouveau choix de formatage ?",
@@ -96,7 +96,7 @@ $lang = array(
 "Nombre maximum de révisions récentes par article",
 
 "max_revisions_note" =>
-"Les révisions peuvent utiliser un espace considérable de la base de donnée, il est ainsi recommandé de limiter leur nombre.",
+"Les révisions peuvent utiliser un espace considérable de la base de données, il est ainsi recommandé de limiter leur nombre.",
 
 "field_populate_manually" =>
 "Remplir le menu manuellement",
@@ -108,7 +108,7 @@ $lang = array(
 "Sélectionnez le champ source pour le remplissage :",
 
 "field_val" =>
-"Vous devez choisir un nom de champ de ce menu,pas un nom de canal.",
+"Vous devez choisir un nom de champ de ce menu, pas un nom de canal.",
 
 "channel_notify" =>
 "Activer la liste de destination ci-dessous pour la notification des nouveaux articles ?",
@@ -141,10 +141,10 @@ $lang = array(
 "Mettre à jour tous les commentaires avec ce paramètre d'expiration ?",
 
 "category_order_confirm_text" =>
-"Etes vous sûr de vouloir trier ce groupe de catégorie par ordre alphabétique ?",
+"Etes-vous sûr de vouloir trier ce groupe de catégorie par ordre alphabétique ?",
 
 "category_sort_warning" =>
-"Si vous utilisez un un ordre de tri personnalisé, il sera replacé par un classement alphabétique.",
+"Si vous utilisez un ordre de tri personnalisé, il sera remplacé par un classement alphabétique.",
 
 "global_sort_order" =>
 "Ordre de tri prioritaire",
@@ -177,7 +177,7 @@ $lang = array(
 "Ordre",
 
 "delete_category_confirmation" =>
-"Etes vous sûr de vouloir supprimer la catégorie suivante ",
+"Etes-vous sûr de vouloir supprimer la catégorie suivante ",
 
 "category_description" =>
 "Description de la catégorie",
@@ -342,13 +342,13 @@ $lang = array(
 "Description du canal",
 
 "illegal_characters" =>
-"Le nom doit contenir uniquement des caractères alpha-numériques, des espaces, des underscores ou des tirets",
+"Le nom doit contenir uniquement des caractères alphanumériques, des espaces, des underscores ou des tirets",
 
 "comment_require_membership" =>
 "Requérir une inscription pour publier des commentaires ?",
 
 "channel_require_membership" =>
-"Réquérir une inscription pour publier des articles ?",
+"Requérir une inscription pour publier des articles ?",
 
 "comment_require_email" =>
 "Requérir l'adresse email pour publier des commentaires ?",
@@ -363,7 +363,7 @@ $lang = array(
 "Nombre maximum de caractères autorisés dans les commentaires",
 
 "comment_timelock" =>
-"Interval de temps entre chaque publication de commentaire",
+"Intervalle de temps entre chaque publication de commentaire",
 
 "comment_timelock_desc" =>
 "Nombre de secondes avant qu'un utilisateur puisse soumettre un autre commentaire. Laisser vide ou saisir 0 pour ne pas limiter.",
@@ -405,7 +405,7 @@ $lang = array(
 "Autoriser les URLs d'image dans les articles ?",
 
 "auto_link_urls" =>
-"Convertir automatiquements URL et adresses email en lien ?",
+"Convertir automatiquement URL et adresses email en lien ?",
 
 "single_word_no_spaces" => 
 "Un seul mot, sans espaces",
@@ -438,7 +438,7 @@ $lang = array(
 "Vous devez donner à votre canal un nom \"complet\".",
 
 "invalid_short_name" => 
-"Le nom de votre canal ne doit contenir que des caractères alpha-numériques et pas d'espaces.",
+"Le nom de votre canal ne doit contenir que des caractères alphanumériques et pas d'espaces.",
 
 "delete_channel" => 
 "Supprimer le canal",
@@ -447,7 +447,7 @@ $lang = array(
 "Canal supprimé :",
 
 "delete_channel_confirmation" =>
-"Etes vous sûr de vouloir définitivement supprimer ce canal ?",
+"Etes-vous sûr de vouloir définitivement supprimer ce canal ?",
 
 "be_careful" =>
 "ATTENTION !",
@@ -546,7 +546,7 @@ $lang = array(
 "Pour supprimer un élément, soumettez le formulaire en laissant le nom de serveur vide",
 
 "assign_channels" =>
-"Choissez à quel(s) canal(canaux) vous souhaitez assigner ce groupe",
+"Choisissez à quel(s) canal(canaux) vous souhaitez assigner ce groupe",
 
 //----------------------------
 // Category Administration
@@ -592,7 +592,7 @@ $lang = array(
 "Groupe mis à jour:",
 
 "delete_cat_group_confirmation" =>
-"Etes vous sûr de vouloir de supprimer ce groupe de catégorie ?",
+"Etes-vous sûr de vouloir de supprimer ce groupe de catégorie ?",
 
 "category_group_deleted" => 
 "Groupe de catégorie supprimé :",
@@ -646,7 +646,7 @@ $lang = array(
 'Supprimer le champ de catégorie',
 
 'delete_cat_field_confirmation' =>
-'Etes vous sûr de vouloir supprimer définitivement ce champ de catégorie ?',
+'Etes-vous sûr de vouloir supprimer définitivement ce champ de catégorie ?',
 
 'cat_field_deleted' =>
 'Champ de catégorie supprimé :',
@@ -821,7 +821,7 @@ $lang = array(
 "Mettre chaque choix sur une ligne séparée",
 
 "field_formatting" =>
-"Formattage du champ",
+"Formatage du champ",
 
 "edit_list" =>
 "Editer la liste",
@@ -836,10 +836,10 @@ $lang = array(
 "Ordre d'affichage des champs",
 
 "is_field_searchable" =>
-"Le champ peut il être recherché ?",
+"Le champ peut-il être recherché ?",
 
 "is_field_required" =>
-"Le champ est il requis ?",
+"Le champ est-il requis ?",
 
 "show_smileys" =>
 "Afficher les smileys",
@@ -890,13 +890,13 @@ $lang = array(
 "Vous devez saisir un nom de champ",
 
 "no_field_label" =>
-"Vous devez saisir une etiquette de champ",
+"Vous devez saisir une étiquette de champ",
 
 "invalid_characters" =>
 "Le nom de champ que vous avez entré contient des caractères invalides",
 
 "custom_field_empty" =>
-"Les champs suivant sont requis :",
+"Les champs suivants sont requis :",
 
 "duplicate_field_name" =>
 "Le nom de champ que vous avez choisi est déjà utilisé",
@@ -905,7 +905,7 @@ $lang = array(
 "Le nom que vous avez choisi est déjà utilisé",
 
 "field_group_created" =>
-"Groupe de champs créé:",
+"Groupe de champs créé :",
 
 "field_group_updated" =>
 "Groupe de champs mis à jour :",
@@ -917,10 +917,10 @@ $lang = array(
 "Groupe de champs",
 
 "delete_field_group_confirmation" =>
-"Etes vous sûr de vouloir définitivement supprimer ce groupe de champs personnalisés ?",
+"Etes-vous sûr de vouloir définitivement supprimer ce groupe de champs personnalisés ?",
 
 "delete_field_confirmation" =>
-"Etes vous sûr de vouloir définitivement supprimer ce champ personnalisé ?",
+"Etes-vous sûr de vouloir définitivement supprimer ce champ personnalisé ?",
 
 "channel_entries_will_be_deleted" =>
 "Tous les articles de canal contenu dans le(s) champ(s) suivant seront définitivement supprimés.",
@@ -929,7 +929,7 @@ $lang = array(
 "Contenu du champ :",
 
 'field_content_file' =>
-"Type de fichier:",
+"Type de fichier :",
 
 'type_numeric' =>
 "Nombre",
@@ -972,7 +972,7 @@ $lang = array(
 "Ce nom de groupe de statuts est déjà utilisé.",
 
 "invalid_status_name" => 
-"Les noms de statuts peuvent uniquement contenir des caractères alpha-numériques, des espaces, des underscores ou des tirets.",
+"Les noms de statuts peuvent uniquement contenir des caractères alphanumériques, des espaces, des underscores ou des tirets.",
 
 "duplicate_status_name" =>
 "Un statut portant le même nom existe déjà.",
@@ -996,7 +996,7 @@ $lang = array(
 "Supprimer le groupe de statuts",
 
 "delete_status_group_confirmation" =>
-"Etes vous sûr de vouloir définitivement supprimer ce groupe de statuts ?",
+"Etes-vous sûr de vouloir définitivement supprimer ce groupe de statuts ?",
 
 "status_group_deleted" => 
 "Groupe de statuts supprimé :",
@@ -1014,7 +1014,7 @@ $lang = array(
 "Changer l'ordre des statuts",
 
 "highlight" =>
-"Couleur (optionel)",
+"Couleur (optionnel)",
 
 "statuses" => 
 "Statuts",
@@ -1026,7 +1026,7 @@ $lang = array(
 "Supprimer le statut",
 
 "delete_status_confirmation" =>
-"Etes vous sûr de vouloir définitivement supprimer le statut suivant ?",
+"Etes-vous sûr de vouloir définitivement supprimer le statut suivant ?",
 
 'url_title_prefix' =>
 "Préfixe du titre URL",

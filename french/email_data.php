@@ -266,7 +266,7 @@ if ( ! function_exists('validated_member_notify'))
 return <<<EOF
 {name},
 
-Votre compte de membre a été activé et est pr^èt à l'emploi. 
+Votre compte de membre a été activé et est prêt à l'emploi. 
 
 Merci ! 
 
@@ -299,7 +299,7 @@ if ( ! function_exists('decline_member_validation'))
 return <<<EOF
 {name},
 
-Nous sommes désolés mais notre équipe à décidé de ne pas valider votre inscription.
+Nous sommes désolés mais notre équipe a décidé de ne pas valider votre inscription.
 
 {site_name}
 {site_url}

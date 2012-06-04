@@ -159,16 +159,16 @@ $lang = array(
 "Vous n'êtes pas autorisé à utiliser le moteur de recherche.",
 
 "search_no_keywords" =>
-"Vous n'avez saisi aucun terme de rechercher",
+"Vous n'avez saisi aucun terme de recherche",
 
 "search_min_length" =>
-"Les termes de recherchent doivent avoir au moins  %x caractères de long",
+"Les termes de recherche doivent avoir au moins  %x caractères de long",
 
 "search_result_heading" =>
 "Résultat de la recherche :",
 
 "search_no_result" =>
-"Votre recherche n'a retourné aucun résultats.",
+"Votre recherche n'a retourné aucun résultat.",
 
 "search_time_not_expired" =>
 "Vous êtes uniquement autorisé à effectuer une recherche toutes les %x secondes.",

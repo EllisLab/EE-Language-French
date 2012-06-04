@@ -14,10 +14,10 @@ $lang = array(
 'file_download' 		=> 'Envoyer',
 'file_tools'			=> 'Outils',
 'choose_file'			=> 'Veuillez choisir un fichier à supprimer',
-'confirm_del_file'		=> 'Etes vous sûr de vouloir définitivement supprimer ce fichier ?',
-'confirm_del_files'		=> 'Etes vous sûr de vouloir définitivement supprimer ces fichiers ?',
+'confirm_del_file'		=> 'Etes-vous sûr de vouloir définitivement supprimer ce fichier ?',
+'confirm_del_files'		=> 'Etes-vous sûr de vouloir définitivement supprimer ces fichiers ?',
 'delete_success'		=> 'Suppression réussie',
-'delete_fail'			=> "Il y a eu un problème lors de la suppresion d'un ou plusieurs fichier(s). Veuillez vérifier la liste ci-dessous.",
+'delete_fail'			=> "Il y a eu un problème lors de la suppression d'un ou plusieurs fichier(s). Veuillez vérifier la liste ci-dessous.",
 'no_file'				=> 'Aucun fichier sélectionné',
 'file_name'				=> 'Nom du fichier',
 'file_size'				=> 'Taille du fichier',
@@ -56,7 +56,7 @@ $lang = array(
 "resize_mode"			=> "Mode redimensionnement",
 "rotate_mode"			=> "Mode rotation",
 'apply_changes'			=> 'Appliquer les modifications ?',
-'exit_apply_changes'	=> "Vous êtes sur le point de quitter le mode édition. Souhaitez vous d'abord appliquer les modifications ?",
+'exit_apply_changes'	=> "Vous êtes sur le point de quitter le mode édition. Souhaitez-vous d'abord appliquer les modifications ?",
 'processing_image'		=> "Traitement de l'image",
 'done'					=> "Sortir",
 'edit_image'			=> "Sauvegarder l'image",
@@ -131,7 +131,7 @@ $lang = array(
 "Supprimer les préférence de téléchargement",
 
 "delete_upload_pref_confirmation" =>
-"Etes vous sûr de vouloir définitivement supprimer ces préférences",
+"Etes-vous sûr de vouloir définitivement supprimer ces préférences",
 
 "upload_pref_deleted" =>
 "Préférence de téléchargement supprimé :",
@@ -143,7 +143,7 @@ $lang = array(
 "Restreindre le téléchargement de fichier à certains groupes de membres",
 
 "restrict_notes_1" =>
-"Ces boutons radios vous permettent de spécifier quel groupes de membres seront autoirisés à télécharger des fichiers.",
+"Ces boutons radios vous permettent de spécifier quel groupes de membres seront autorisés à télécharger des fichiers.",
 
 "restrict_notes_2" =>
 "Les Supers Administrateurs peuvent toujours télécharger des fichiers",
@@ -158,7 +158,7 @@ $lang = array(
 "Images uniquement",
 
 "all_filetypes" =>
-"Tout tyoe de fichiers",
+"Tout type de fichiers",
 
 'file_properties' =>
 "Propriété du fichier",
@@ -167,7 +167,7 @@ $lang = array(
 "Pré-formatage du fichier",
 
 'file_post_format' =>
-"Post-formattage du fichier",
+"Post-formatage du fichier",
 
 
 ''=>''

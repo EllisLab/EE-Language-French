@@ -504,7 +504,7 @@ $lang = array(
 'Mot de passe',
 
 'logged_back_in' => 
-'Vous êtes maintenant reconnectés !',
+'Vous êtes maintenant reconnecté !',
 
 'my_account' => 
 'Mon compte',
@@ -519,7 +519,7 @@ $lang = array(
 'Guide d\'utilisation',
 
 'logout_confirm' => 
-'Etes vous sûr de vouloir vous déconnecter ?',
+'Etes-vous sûr de vouloir vous déconnecter ?',
 
 'logout' => 
 'Déconnexion',
@@ -537,7 +537,7 @@ $lang = array(
 'Tous droits réservés',
 
 'page_rendered' => 
-'Script executé en %x secondes',
+'Script exécuté en %x secondes',
 
 'queries_executed' => 
 '%x requêtes SQL effectuées',
@@ -561,7 +561,7 @@ $lang = array(
 'SOYEZ PRUDENT !',
 
 'action_can_not_be_undone' => 
-'CETTE ACTION NE PEUT ÊTRE ANNUlÉE',
+'CETTE ACTION NE PEUT ÊTRE ANNULÉE',
 
 'captcha_explanation' => 
 'Un captcha est une image qui contient un code de sécurité que les utilisateurs doivent saisir. Veuillez consulter le guide d\'utilisation pour plus d\'information.',

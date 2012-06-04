@@ -9,7 +9,7 @@ $lang = array(
 'Le nom à l\'écran contient des caractères invalides',
 
 'notify_of_pm' => 
-'Me notifier par email lorsque quelqu\'un m\'envoi un message privé',
+'Me notifier par email lorsque quelqu\'un m\'envoie un message privé',
 
 'channel_preferences' => 
 'Paramètres de canal',
@@ -150,7 +150,7 @@ $lang = array(
 'Commentaires les plus récents',
 
 'recent_members' => 
-'Les 10 inscriptions les plus récents',
+'Les 10 inscriptions les plus récentes',
 
 'new_release_indicator' => 
 'Indicateur de nouvelle version de logiciel',
@@ -426,7 +426,7 @@ $lang = array(
 'Vous devez saisir une adresse email',
 
 'banned_email' => 
-'L\'adresse email que vous avez saisi est exclue',
+'L\'adresse email que vous avez saisie est exclue',
 
 'missmatched_passwords' => 
 'Le mot de passe et sa confirmation ne correspondent pas',
@@ -510,7 +510,7 @@ $lang = array(
 'Ordre',
 
 'no_extended_fields' => 
-'Il n\'y a actuellement aucun champs étendu de profil de membre',
+'Il n\'y a actuellement aucun champ étendu de profil de membre',
 
 'bookmarklet' => 
 'Bookmarklet',
@@ -519,7 +519,7 @@ $lang = array(
 'Bookmarklet créé',
 
 'bookmarklet_info' => 
-'Un Bookmarklet vous permet d\'ajotuer des articles à votre canal sans vous connecter dans l\'interface du tableau de bord.',
+'Un Bookmarklet vous permet d\'ajouter des articles à votre canal sans vous connecter dans l\'interface du tableau de bord.',
 
 'bookmarklet_name' => 
 'Nom du Bookmarklet',

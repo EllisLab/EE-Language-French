@@ -232,7 +232,7 @@ $lang = array(
 
 
 'moblog_time_interval' =>
-"Interval entre les vérifications",
+"Intervalle entre les vérifications",
 
 'moblog_enabled' =>
 "Moblog activé ?",
@@ -280,7 +280,7 @@ $lang = array(
 "&lt;br /&gt;",
 
 "invalid_short_name" => 
-"Le nom court de votre Moblog doit contenir uniquement des caractères alpha-numériques sans espaces",
+"Le nom court de votre Moblog doit contenir uniquement des caractères alphanumériques sans espaces",
 
 "moblog_taken_short_name" => 
 "Ce nom court de Moblog est déjà utilisé",
@@ -325,7 +325,7 @@ $lang = array(
 "Supprimer les Moblogs",
 
 "moblog_delete_question" =>
-"Etes vous sûr de vouloir définitivement supprimer le(s) Moblog(s) sélectionné(s) ?",
+"Etes-vous sûr de vouloir définitivement supprimer le(s) Moblog(s) sélectionné(s) ?",
 
 "moblog__deleted" =>
 "Le Moblog a été supprimé",
@@ -340,7 +340,7 @@ $lang = array(
 "Emails récupérés :",
 
 'entries_added' =>
-"Articles ajoutés:",
+"Articles ajoutés :",
 
 'attachments_uploaded' =>
 "Pièces jointes téléchargées :",
@@ -365,7 +365,7 @@ $lang = array(
 "Identifiant invalide",
 
 'invalid_password' =>
-"Invalid Password",
+"Mot de passe invalide",
 
 'unable_to_retrieve_emails' =>
 "Les informations emails étaient indisponibles",
@@ -374,7 +374,7 @@ $lang = array(
 "Aucun email valide n'a été trouvé",
 
 'unable_to_parse' =>
-"Impossible d'interprêter l'email.",
+"Impossible d'interpréter l'email.",
 
 'authorization_failed' =>
 "L'autorisation email a échoué pour :",

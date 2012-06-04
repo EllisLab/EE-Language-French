@@ -81,7 +81,7 @@ $lang = array(
 'Editer la sélection',
 
 'confirm_exit' => 
-'Lorsque vous quittez, toutes les données seront perdues. Etes vous sûr de vouloir quitter ?',
+'Lorsque vous quittez, toutes les données seront perdues. Etes-vous sûr de vouloir quitter ?',
 
 'delete_selected' => 
 'Supprimer la sélection',
@@ -114,7 +114,7 @@ $lang = array(
 'Aperçu rapide',
 
 'delete_comments_confirm' => 
-'Etes vous sûr de vouloir définitivement supprimer ces commentaires ?',
+'Etes-vous sûr de vouloir définitivement supprimer ces commentaires ?',
 
 'comment_updated' => 
 'Commentaire mis à jour',
@@ -258,7 +258,7 @@ $lang = array(
 'Impossible de créer un titre URL valide pour votre article',
 
 'select_all' => 
-'Séléctionner/Déselectionner tout',
+'Sélectionner/Désélectionner tout',
 
 'results' => 
 'résultats',
@@ -273,7 +273,7 @@ $lang = array(
 'Expiration commentaire',
 
 'invalid_comment_date_formatting' => 
-'La date d\'expiration de commentaire que vous avez saisi n\'a pas été formatée correctement (année-mois-jour heure:minute). Laissez le champ vide si vous ne souhaitez pas que vos commentaires expirent.',
+'La date d\'expiration de commentaire que vous avez saisie n\'a pas été formatée correctement (année-mois-jour heure:minute). Laissez le champ vide si vous ne souhaitez pas que vos commentaires expirent.',
 
 'keywords' => 
 'Mots clés',
@@ -321,7 +321,7 @@ $lang = array(
 'Vous avez tenté d\'accéder à un canal qui n\'existe pas.',
 
 'no_entries_matching_that_criteria' => 
-'Il n\'y a aucun article correspondant aux critères que vous avez spécifié.',
+'Il n\'y a aucun article correspondant aux critères que vous avez spécifiés.',
 
 'no_entries_exist' => 
 'Il n\'y a aucun article dans ce canal',
@@ -378,7 +378,7 @@ $lang = array(
 'Un onglet portant ce nom existe déjà.',
 
 'illegal_characters' => 
-'Les noms d\'onglet ne peuvent contenir que des caractères alpha-numériques, des underscores ou des tirets',
+'Les noms d\'onglet ne peuvent contenir que des caractères alphanumériques, des underscores ou des tirets',
 
 'authors' => 
 'Auteurs',
@@ -417,7 +417,7 @@ $lang = array(
 'Groupe',
 
 'choose_layout_group_preview' => 
-'Selectionnez le groupe de disposition que vous souhaitez prévisualiser.',
+'Sélectionnez le groupe de disposition que vous souhaitez prévisualiser.',
 
 'layout_save_warning' => 
 'Si vous avez modifié votre disposition, les changements ne seront pas sauvegardés.',
@@ -435,7 +435,7 @@ $lang = array(
 'Les données enregistrées sont supprimées lorsque un article est sauvegardé ou re-sauvegardé.',
 
 'autosave_warning_3' => 
-'Souhaitez vous charger ces données maintenant ?',
+'Souhaitez-vous charger ces données maintenant ?',
 
 'add_author' => 
 'Ajouter un auteur',
@@ -531,7 +531,7 @@ $lang = array(
 'La date saisie n\'a pas été formatée correctement (année-mois-jour heure:minute)',
 
 'date_outside_of_range' => 
-'La date que vous avez saisie est en dehors de la plage accepté (1902 - 2037).',
+'La date que vous avez saisie est en dehors de la plage acceptée (1902 - 2037).',
 
 'category' => 
 'Catégorie',
@@ -591,7 +591,7 @@ $lang = array(
 'Smileys',
 
 'choose_a_destination_for_emoticon' => 
-'Choissez une destination pour votre émoticône',
+'Choisissez une destination pour votre émoticône',
 
 'click_emoticon' => 
 'Cliquez sur une image pour l\'insérer dans votre article',
@@ -654,10 +654,10 @@ $lang = array(
 'Effacer les données auto-enregistrées',
 
 'date_range' => 
-'Interval de date',
+'Intervalle de date',
 
 'past_day' => 
-'Dernière 24 heures',
+'Dernières 24 heures',
 
 'past_week' => 
 'Les 7 derniers jours',
@@ -693,10 +693,10 @@ $lang = array(
 'Confirmation de suppression',
 
 'delete_entry_confirm' => 
-'Etes vous sûr de vouloir définitivement supprimer cet article ?',
+'Etes-vous sûr de vouloir définitivement supprimer cet article ?',
 
 'delete_entries_confirm' => 
-'Etes vous sûr de vouloir définitivement supprimer ces articles ?',
+'Etes-vous sûr de vouloir définitivement supprimer ces articles ?',
 
 'entries_deleted' => 
 'Supprimé',
@@ -765,13 +765,13 @@ $lang = array(
 'Vous avez téléchargé le fichier suivant :',
 
 'choose_a_destination' => 
-'Où souhaitez vous que vos fichiers apparaîssent appear?',
+'Où souhaitez-vous que vos fichiers apparaissent ?',
 
 'no_entry_fields' => 
 'Il n\'y a aucun champs d\'article dans ce canal.',
 
 'no_comments' => 
-'Aucun résultats n\'ont été retournés pour cette article',
+'Aucun résultats n\'ont été retournés pour cet article',
 
 'posted_by' => 
 'Auteur :',
@@ -813,7 +813,7 @@ $lang = array(
 'Commentaires supprimés',
 
 'delete_comment_confirm' => 
-'Etes vous sûr de vouloir définitivement supprimer ce commentaire ?',
+'Etes-vous sûr de vouloir définitivement supprimer ce commentaire ?',
 
 'name' => 
 'Nom',
@@ -843,13 +843,13 @@ $lang = array(
 'Paramètres d\'image',
 
 'choose_a_destination_for_thumb' => 
-'Où souhaitez vous que l\'image apparaisse ?',
+'Où souhaitez-vous que l\'image apparaisse ?',
 
 'do_not_place_file' => 
 'Ne pas placer le fichier dans l\'article',
 
 'image_size_not_different' => 
-'La largeur et la hauteur que vous avez saisi sont identiques à l\'original.',
+'La largeur et la hauteur que vous avez saisies sont identiques à l\'original.',
 
 'width' => 
 'Largeur',
@@ -972,7 +972,7 @@ $lang = array(
 'Abandonner les changements',
 
 'wm_publish_to_field' => 
-'Publier dans le champs',
+'Publier dans le champ',
 
 'edit_modes' => 
 'Modes d\'édition',
@@ -1035,10 +1035,10 @@ $lang = array(
 'Il y a eu un problème lors de la sauvegarde de votre disposition.',
 
 'layout_failure_required' => 
-'Les champs suivant sont requis et ne peuvent être masqués :',
+'Les champs suivants sont requis et ne peuvent être masqués :',
 
 'layout_failure_invalid_name' => 
-'Les champs suivant contiennent des caractères invalides dans les noms courts :',
+'Les champs suivants contiennent des caractères invalides dans les noms courts :',
 
 'layout_preview' => 
 'Vous prévisualisez le rendu de',
@@ -1047,7 +1047,7 @@ $lang = array(
 'Vous avez tenté de mettre à jour un article qui n\'existe pas.',
 
 'invalid_date' => 
-'La date que vous avez saisi est invalide.',
+'La date que vous avez saisie est invalide.',
 
 'comment_moved' => 
 'Commentaire déplacé',
@@ -1074,19 +1074,19 @@ $lang = array(
 'Supprimer un fichier',
 
 'directory_no_access' => 
-'Vous n\'avez pas accès au répertoire choisi pour ce champs',
+'Vous n\'avez pas accès au répertoire choisi pour ce champ',
 
 'invalid_selection' => 
 'Sélection invalide',
 
 'field_not_editable' => 
-'Ce champs n\'est pas éditable',
+'Ce champ n\'est pas éditable',
 
 'screen_name' => 
 'Nom d\'utilisateur',
 
 'member_group' => 
-'Member d\'un groupe',
+'Membre d\'un groupe',
 
 'menu_publish' => 
 'Publier',

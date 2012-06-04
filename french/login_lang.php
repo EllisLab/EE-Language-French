@@ -31,7 +31,7 @@ $lang = array(
 "Vous n'êtes autorisé qu'à effectuer 4 tentatives de connexion toutes les %x minutes",
 
 "unauthorized_request" =>
-"Vous n'êtes pas autorisé à executer cette action",
+"Vous n'êtes pas autorisé à exécuter cette action",
 
 
 ''=>''

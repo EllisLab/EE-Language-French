@@ -10,7 +10,7 @@ $lang = array(
 
 "templates" 					=>	"Modèles",
 "message_pages"					=>	"Pages de Message",
-"themes"						=>	"Thçmes",
+"themes"						=>	"Thèmes",
 "specialty_templates"			=>	"Modèles spécialisés",
 
 "forum_themes"					=>	"Thèmes du Forum",
@@ -61,7 +61,7 @@ $lang = array(
 "Aucun modèle valide n'existe. Vous devez avoir au moins un modèle défini pour la sauvegarde comme fichier texte.",
 
 "sync_not_allowed_1" =>
-"La sauvegarde de modèle comme fichier texte n'est actuellement pas activé dans ",
+"La sauvegarde de modèle comme fichier texte n'est actuellement pas activée dans ",
 
 "sync_not_allowed_2" =>
 "Préférences globales des modèles.",
@@ -73,10 +73,10 @@ $lang = array(
 "Un fichier texte existe pour ce modèle et sera supprimé pendant cette action.",
 
 "folder_exists_warning" =>
-"Un dossier de fichiers texte existe pour ce group. Le dossier et tout son contenu sera automatiquement supprimé pendant cette action.",
+"Un dossier de fichiers texte existe pour ce groupe. Le dossier et tout son contenu sera automatiquement supprimé pendant cette action.",
 
 "template_rev_msg" =>
-"Note : La sauvegarde de vos révisions peut prendre beaucoup d'espace dans la base de donnée, vous êtes donc encouragé à définir les limites ci-dessous.",
+"Note : La sauvegarde de vos révisions peut prendre beaucoup d'espace dans la base de données, vous êtes donc encouragé à définir les limites ci-dessous.",
 
 "max_tmpl_revisions" =>
 "Nombre maximum de versions à conserver",
@@ -88,7 +88,7 @@ $lang = array(
 "Autoriser la sauvegarde des modèles comme fichiers ?",
 
 "save_tmpl_files_exp" =>
-"Lors de la sauvegarde de vos modèles vous pouvez également les enregistrer comme fichiers sur votre serveur. Veuillez vous réferer au guide d'utilisation pour plus d'informations concernant cette fonctionnalité.",
+"Lors de la sauvegarde de vos modèles vous pouvez également les enregistrer comme fichiers sur votre serveur. Veuillez vous référer au guide d'utilisation pour plus d'informations concernant cette fonctionnalité.",
 
 "tmpl_file_basepath" =>
 "Chemin de base du dossier des fichiers modèles",
@@ -124,13 +124,13 @@ $lang = array(
 "Préférences globales des modèles",
 
 "no_templates_assigned" =>
-"Aucun modèles ne vous est actuellement assigné",
+"Aucun modèle ne vous est actuellement assigné",
 
 "save_template_file" =>
 "Sauvegarder le modèle comme fichier",
 
 "template_not_saved" =>
-"Impossible sauvegarder votre modèle comme fichier texte",
+"Impossible de sauvegarder votre modèle comme fichier texte",
 
 "template_file_not_deleted" =>
 "Impossible de supprimer le fichier texte associé",
@@ -166,7 +166,7 @@ $lang = array(
 "Activer le cache ?",
 
 "refresh_interval" =>
-"Interval de rafraîchissement",
+"Intervalle de rafraîchissement",
 
 "refresh_in_minutes" =>
 "En minutes",
@@ -292,7 +292,7 @@ $lang = array(
 "Sauvegarder le modèle pour synchroniser la base de données.",
 
 'from_db' =>
-"Depuis la base de donnée",
+"Depuis la base de données",
 
 'last_edit' =>
 "Dernière mise à jour :",
@@ -346,7 +346,7 @@ $lang = array(
 "Vous devez remplir tous les champs du formulaire",
 
 "illegal_characters" =>
-"Le nom que vous avez saisi ne peut contenir uniquement des caractères alpha-numériques, des underscores ou des tirets",
+"Le nom que vous avez saisi ne peut contenir uniquement des caractères alphanumériques, des underscores ou des tirets",
 
 "edit_template_group_order" =>
 "Editer l'ordre des groupes",
@@ -514,7 +514,7 @@ $lang = array(
 "Contenu de la variable",
 
 "global_var_created" =>
-"Variable globale crée",
+"Variable globale créée",
 
 "global_var_update" =>
 "Mettre à jour la variable globale",
@@ -535,13 +535,13 @@ $lang = array(
 "Une variable globale portant ce nom existe déjà.",
 
 'variable_name_instructions' =>
-'Le nom doit être un seul mot sans espace avec des caractères alpha-numériques (les underscores, les tirets et les points sont autorisés)',
+'Le nom doit être un seul mot sans espace avec des caractères alphanumériques (les underscores, les tirets et les points sont autorisés)',
 
 'snippets' =>
 'Snippets',
 
 'snippets_explanation' =>
-'Les Snippets sont pratique lorsque vous avez besoin d\'une petite partie d\'un modèle ou d\'une balise.  Pour le contenu statique qui n\'inclut pas de balises ExpressionEngine, de variables ou de code PHP, veuillez vous tourner vers les <a href ="%s">variables globales</a>.',
+'Les Snippets sont pratiques lorsque vous avez besoin d\'une petite partie d\'un modèle ou d\'une balise.  Pour le contenu statique qui n\'inclut pas de balises ExpressionEngine, de variables ou de code PHP, veuillez vous tourner vers les <a href ="%s">variables globales</a>.',
 
 'create_new_snippet' =>
 'Créer un nouveau Snippet',
@@ -630,7 +630,7 @@ HTTP, merci de lire la documentation.",
 
 'enable_http_authentication_note' =>
 "Si la connexion échoue, l'utilisateur verra une page 401 Non Autorisé et non le modèle de redirection ci-dessous.
-De pus, cette fonctionnalité est habituellement disponible que lorsque PHP est executé comme un module Apache.",
+De plus, cette fonctionnalité est habituellement disponible que lorsque PHP est exécuté comme un module Apache.",
 
 'http_auth_protected' =>
 'Protégé par Autenthification HTTP',
@@ -645,7 +645,7 @@ De pus, cette fonctionnalité est habituellement disponible que lorsque PHP est 
 "Ne pas changer",
 
 'selected_templates' =>
-"Selectionner les modèles",
+"Sélectionner les modèles",
 
 'no_templates_selected' =>
 "Aucun modèle sélectionné",

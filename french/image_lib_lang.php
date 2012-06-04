@@ -9,7 +9,7 @@ $lang = array(
 "Votre serveur ne supporte pas la fonction GD nécessaire pour traiter ce type d'image.",
 
 "imglib_gif_not_supported" =>
-"Les images GIF ne sont généralement pas supportées à cause de restrictions de licenses. Vous devriez utiliser des images JPG ou PNG à la place.",
+"Les images GIF ne sont généralement pas supportées à cause de restrictions de licences. Vous devriez utiliser des images JPG ou PNG à la place.",
 
 "imglib_jpg_not_supported" =>
 "Les images JPG ne sont pas supportées",
@@ -18,10 +18,10 @@ $lang = array(
 "Les images PNG ne sont pas supportées",
 
 "imglib_jpg_or_png_required" =>
-"Le protocol de redimensionnement spécifié dans vos préférences ne fonctionne qu'avec les images de type JPEG ou PNG.",
+"Le protocole de redimensionnement spécifié dans vos préférences ne fonctionne qu'avec les images de type JPEG ou PNG.",
 
 "imglib_copy_error" =>
-"Une erreur a été rencontré lors de la tentative de remplacement du fichier. Veuillez vérifier que le répertoire est accessible en écriture.",
+"Une erreur a été rencontrée lors de la tentative de remplacement du fichier. Veuillez vérifier que le répertoire est accessible en écriture.",
 
 "imglib_rotate_unsupported" =>
 "La rotation d'image ne semble pas être supportée par votre serveur.",
@@ -42,7 +42,7 @@ $lang = array(
 "Le chemin vers l'image n'est pas correct",
 
 "imglib_copy_failed" =>
-"La routine de copie d'image a échouée.",
+"La routine de copie d'image a échoué.",
 
 
 // IGNORE

@@ -25,7 +25,7 @@ $lang = array(
 "Désinstaller le module",
 
 "delete_module_confirm" =>
-"Etes vous sûr de vouloir désinstaller les modules suivants :",
+"Etes-vous sûr de vouloir désinstaller les modules suivants :",
 
 "module_backend" =>
 "TB Utilisateur",

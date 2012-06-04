@@ -48,7 +48,7 @@ $lang = array(
 'Vider la corbeille',
 
 'erase_popup' => 
-'Etes vous sûr de vouloir effacer tous les messages supprimés ?',
+'Etes-vous sûr de vouloir effacer tous les messages supprimés ?',
 
 'track_messages' => 
 'Suivre les messages',
@@ -72,7 +72,7 @@ $lang = array(
 'Liste d\'amis',
 
 'blocked_list' => 
-'Liste des personnes bloqués',
+'Liste des personnes bloquées',
 
 'folder_page' => 
 'Page',
@@ -189,7 +189,7 @@ $lang = array(
 'Votre champ message est vide. Vous souhaitez dire quelque chose, n\'est ce pas ?',
 
 'sending_limit_warning' => 
-'Vous avez dépassé la limite d\'envoi de messages privés pour une période de 24 haures.',
+'Vous avez dépassé la limite d\'envoi de messages privés pour une période de 24 heures.',
 
 'storage_limit_warning' => 
 'Vous avez atteint la limite de stockage pour les messages privés.',
@@ -288,10 +288,10 @@ $lang = array(
 'Dossiers mis à jour',
 
 'blocked_recipients' => 
-'Il y avait des membres listés dans vos destinataires ou champs Copie Carbone qui n\'ont pu recevoir le message privé. Ils ont été supprimé par le système et vous pouvez tenter de leur renvoyer à nouveau.',
+'Il y avait des membres listés dans vos destinataires ou champs Copie Carbone qui n\'ont pu recevoir le message privé. Ils ont été supprimés par le système et vous pouvez tenter de leur renvoyer à nouveau.',
 
 'overflow_recipients' => 
-'Les boîtes de réception des membres suivant sont actuellement pleines, et pour envoyer ce message vous devez les enlever de la liste de vos destinataires ou du champ CC : %overflow_names%',
+'Les boîtes de réception des membres suivants sont actuellement pleines, et pour envoyer ce message vous devez les enlever de la liste de vos destinataires ou du champ CC : %overflow_names%',
 
 'add_buddy' => 
 'Ajouter aux amis',
@@ -342,7 +342,7 @@ $lang = array(
 'Supprimer le bulletin',
 
 'delete_bulletin_popup' => 
-'Etes vous sûr de vouloir supprimer ce bulletin ?',
+'Etes-vous sûr de vouloir supprimer ce bulletin ?',
 
 'bulletin_deleted' => 
 'Bulletin supprimé',
@@ -351,7 +351,7 @@ $lang = array(
 'Votre message a déjà été envoyé',
 
 'waiting_period_not_reached' => 
-'Pour lutter contre le spam il y a un interval de %time% heure à attendre avant que les nouveaux membres ne soient autorisés à envoyer des messages privés.',
+'Pour lutter contre le spam il y a un intervalle de %time% heure à attendre avant que les nouveaux membres ne soient autorisés à envoyer des messages privés.',
 
 'send_throttle' => 
 'Vous êtes uniquement autorisé à envoyer un message privé toutes les %x secondes',

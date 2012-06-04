@@ -34,10 +34,10 @@ $lang = array(
 "Aucun article trouvé",
 
 'no_entry_found' =>
-"Article non trouvé dans la base de donnée",
+"Article non trouvé dans la base de données",
 
 'unauthorized_action' =>
-"Vous n'êtes pas autorisé à executer cette action.",
+"Vous n'êtes pas autorisé à exécuter cette action.",
 
 'invalid_access' =>
 "Accès invalide",
@@ -67,7 +67,7 @@ $lang = array(
 "Configurations d'API Metaweblog supprimées",
 
 "metaweblog_delete_question" =>
-"Etes vous sûr de vouloir supprimer les configurations d'API MetaWeblog sélectionnées ?",
+"Etes-vous sûr de vouloir supprimer les configurations d'API MetaWeblog sélectionnées ?",
 
 'delete' =>
 "Supprimer",
@@ -88,7 +88,7 @@ $lang = array(
 "Préférence de formatage de texte",
 
 'metaweblog_parse_type_subtext' =>
-"Paramétrer sur 'oui' affichera le contenu d'un article comme s'il était affiché sur une page web avec tout le BBCode et les répertoires de fichier interprètés.",
+"Paramétrer sur 'oui' affichera le contenu d'un article comme s'il était affiché sur une page web avec tout le BBCode et les répertoires de fichier interprétés.",
 
 'yes' =>
 "Oui",
@@ -134,7 +134,7 @@ $lang = array(
 "Répertoire de téléchargement pour l'envoi de fichiers",
 
 'metaweblog_upload_dir_subtext' =>
-"La plus part des éditeurs de canal n'autorisent pas cette option et vous ne souhaitez peut être pas autoriser le téléchargement à travers l'API, paramétrez sur 'Non' empêchera ainsi tout téléchargement de fichier via l'éditeur de canal.",
+"La plupart des éditeurs de canal n'autorisent pas cette option et vous ne souhaitez peut-être pas autoriser le téléchargement à travers l'API, paramétrez sur 'Non' empêchera ainsi tout téléchargement de fichier via l'éditeur de canal.",
 
 'metaweblog_entry_status' =>
 "Statut de l'article",

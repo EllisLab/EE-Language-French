@@ -3,7 +3,7 @@
 $lang = array(
 
 'alphanumeric_not_allowed' =>
-'Délimiteurs alpha-numériques non autorisés (a-z / 0-9)',
+'Délimiteurs alphanumériques non autorisés (a-z / 0-9)',
 
 's_required' =>
 'Requis',
@@ -21,16 +21,16 @@ $lang = array(
 'Créer le XML',
 
 'parse_error' =>
-'Erreur d\'interpretation',
+'Erreur d\'interprétation',
 
 'unable_to_parse_custom_fields' =>
-'Impossible d\'interpreter les champs personnalisés.',
+'Impossible d\'interpréter les champs personnalisés.',
 
 'unable_to_read_file' =>
 'Impossible de lire le fichier.',
 
 'unable_to_parse_xml' =>
-'Impossible d\'interpreter le XML.',
+'Impossible d\'interpréter le XML.',
 
 'field_name' =>
 'Nom du champ',
@@ -39,10 +39,10 @@ $lang = array(
 'Champs personnalisés de membres',
 
 'new_fields_success' =>
-'Les champs personnalisés de membres suivants ont été ajouté avec succès :',
+'Les champs personnalisés de membres suivants ont été ajoutés avec succès :',
 
 'assign_fields' =>
-'Assigner les hcamps',
+'Assigner les champs',
 
 'assign_fields_blurb' =>
 'Faire correspondre vos champs de données aux champs de membres ExpressionEngine',
