@@ -2,6 +2,35 @@
 
 $lang = array(
 
+'file_title'  		=> 'Titre du fichier',
+'dir_name'				=> 'Nom du répertoire',
+'file_metadata'			=> 'Données',
+'description'			=> 'Description',
+'credit'				=> 'Crédits',
+'filter_by_directory'	=> 'Filtrer par répertoire',
+'search_files'			=> 'Recherche de fichiers',
+'search_in'				=> 'Rechercher dans...',
+'custom_fields'			=> 'Champs personnalisés',
+'file_directory_id'		=> '#',
+
+'wm_name'				=> 'Nom du filigrane',
+'wm_type'				=> 'Type de filigrane',
+'no_watermarks'			=> 'Aucun filigrane',
+'wm_watermark'			=> 'Filigrane',
+'add_watermark'			=> 'Ajouter un filigrane',
+
+'setting'				=> 'Paramètre',
+'preference'			=> 'Préférence',
+
+'category_groups'		=> 'Groupes de catégorie',
+'no_assigned_category_groups' => 'Aucun groupe assigné',
+'image_sizes'			=> 'Manipulation des images',
+'image_sizes_subtext'	=> 'Les images additionelles seront créées automatiquement à chaque téléchargement',
+'short_name'			=> 'Nom court',
+
+'resize_type'			=> 'Type de redimensionnement',
+'constrain'				=> 'Étroit',
+
 'content_files' 		=> 'Gestionnaire de fichiers',
 
 'upload_dir_choose'		=> 'Choisissez un répertoire de téléchargement',
