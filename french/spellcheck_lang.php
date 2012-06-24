@@ -25,7 +25,7 @@ $lang = array(
 "Editer un mot",
 
 'unsupported_browser' =>
-"Navigateurs non supportés",
+"Navigateur non supporté",
 
 'no_spelling_errors' =>
 "Aucune erreur trouvée",
