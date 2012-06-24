@@ -7,7 +7,7 @@ $lang = array(
 //----------------------------------------
 
 "referrer_module_name" =>
-"Référents",
+"Référants",
 
 "referrer_module_description" =>
 "Module de suivi des référants",
@@ -36,7 +36,7 @@ $lang = array(
 "Type",
 
 "referrers" =>
-"Référents",
+"Référants",
 
 "view_referrers" =>
 "Voir les référants",
