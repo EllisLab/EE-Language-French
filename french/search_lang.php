@@ -48,10 +48,10 @@ $lang = array(
 "Nombre de commentaires",
 
 "search_recent_comment_date" =>
-"Commentaire recent",
+"Commentaire récent",
 
 "search_by_keyword" =>
-"Rechercher par mot clés",
+"Rechercher par mot clef",
 
 "search_in_titles" =>
 "Rechercher dans titres",
@@ -117,7 +117,7 @@ $lang = array(
 "Plus récent",
 
 "search_older" =>
-"Plus vieux",
+"Plus ancien",
 
 "search_sort_results_by" =>
 "Trier les résultats par",
