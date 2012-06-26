@@ -7,10 +7,10 @@ $lang = array(
 //----------------------------
 
 'spell_check' =>
-"Vérification d'orthographe",
+'Vérification d\'orthographe',
 
 'check_spelling' =>
-"Vérifier l'orthographe",
+'Vérifier l\'orthographe',
 
 "save_spellcheck" =>
 "Enregistrer les modifications",
@@ -19,19 +19,19 @@ $lang = array(
 "Revenir à l'original",
 
 'spell_save_edit' =>
-"Enregistrer l'édition",
+'Enregistrer l\'édition',
 
 'spell_edit_word' =>
-"Editer un mot",
+'Editer un mot',
 
 'unsupported_browser' =>
-"Navigateur non supporté",
+'Navigateur non supporté',
 
 'no_spelling_errors' =>
-"Aucune erreur trouvée",
+'Aucune erreur trouvée',
 
 'spellcheck_in_progress' =>
-"Verification en cours...",
+'Vérification en cours...',
 
 
 ''=>''
