@@ -120,7 +120,7 @@ $lang = array(
 "rotate_flip_vert"		=> "Retourner verticalement",
 "rotate_flip_hor"		=> "Retourner horizontalement",
 "maintain_ratio"		=> "Conserver les proportions",
-'width_needed'			=> 'Une largeur ou largeur/hauteur doivent être sélectionnés',
+'width_needed'			=> 'Une largeur ou largeur/hauteur doivent être sélectionnées',
 
 "crop_mode"				=> "Mode Rognage",
 "resize_mode"			=> "Mode Redimensionnement",
