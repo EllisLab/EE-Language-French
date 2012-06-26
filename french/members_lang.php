@@ -93,10 +93,10 @@ $lang = array(
 'Le membre que vous êtes sur le point de supprimer a des articles de canal qui lui sont assignés',
 
 'heir_to_member_entries' => 
-'Ce membre a des articles assignés à son compte. Choisissez un membre à lequel réassigner ces articles.',
+'Ce membre a des articles assignés à son compte. Choisissez un membre auquel réassigner ces articles.',
 
 'heir_to_members_entries' => 
-'Certains de ces membres ont des articles asignés à leurs comptes. Choisissez un membre à lequel réassigner ces articles.',
+'Certains de ces membres ont des articles assignés à leurs comptes. Choisissez un membre auquel réassigner ces articles.',
 
 'forum_topics' => 
 'Sujets de forum',
@@ -195,7 +195,7 @@ $lang = array(
 'Merci !',
 
 'no_members_to_validate' => 
-'Il n\'y a aucun compte de membres en attente d\'activation',
+'Il n\'y a aucun compte de membre en attente d\'activation',
 
 'members_are_validated' => 
 'Membre(s) ont été activé(s)',
@@ -393,7 +393,7 @@ $lang = array(
 'Accès au site',
 
 'can_view_online_system' => 
-'Peut voir le site lorsqu\'il est en marche',
+'Peut voir le site lorsqu\'il est en ligne',
 
 'can_view_offline_system' => 
 'Peut voir le site lorsqu\'il est à l\'arrêt',
@@ -414,7 +414,7 @@ $lang = array(
 'Peut éditer ses boutons de design HTML',
 
 'can_delete_self' => 
-'Peut supprimer leur propre compte - supprime également tous les messages, articles et commentaires',
+'Peut supprimer son propre compte - supprime également tous ses messages, articles et commentaires',
 
 'mbr_delete_notify_emails' => 
 'Adresses email des destinataires de la notification de suppression',
@@ -477,10 +477,10 @@ $lang = array(
 'Peut voir les commentaires dans les articles rédigés par d\'autres auteurs',
 
 'can_edit_own_comments' => 
-'Peut éditer les commentaires de leurs propres articles',
+'Peut éditer les commentaires de ses propres articles',
 
 'can_delete_own_comments' => 
-'Peut supprimer les commentaires de leurs propres articles',
+'Peut supprimer les commentaires de ses propres articles',
 
 'can_edit_all_comments' => 
 'Peut éditer les commentaires de N\'IMPORTE QUEL article',
@@ -543,7 +543,7 @@ $lang = array(
 'Peut supprimer des membres',
 
 'can_admin_mbr_groups' => 
-'Peut changer le groupe à lequel un membre est assigné (Groupes déverouillés uniquement)',
+'Peut changer le groupe auquel un membre est assigné (groupes déverouillés uniquement)',
 
 'can_admin_mbr_templates' => 
 'Peut administrer les modèles de profil de membre',
@@ -594,7 +594,7 @@ $lang = array(
 'Groupe de membre mis à jour :',
 
 'member_group_created' => 
-'Groupe de membre créé:',
+'Groupe de membre créé :',
 
 'cp_channel_privs' => 
 'Privilèges de publication en canal',
@@ -660,7 +660,7 @@ $lang = array(
 'Ce champ est-il visible sur la page d\'inscription ?',
 
 'is_field_cp_reg' => 
-'Est-ce que le champ est visible dans la page d\'enregistrement administratif du panneau de contrôle',
+'Est-ce que le champ est visible dans la page d\'enregistrement administratif du panneau de contrôle ?',
 
 'field_width' => 
 'Longueur du champ',
@@ -672,7 +672,7 @@ $lang = array(
 'Nom du champ',
 
 'fieldname_cont' => 
-'Mot unique, sans espaces. Underscores et tirets autorisés',
+'Mot unique, sans espace. Underscores et tirets autorisés',
 
 'field_format' => 
 'Formatage de texte',
@@ -783,7 +783,7 @@ $lang = array(
 'Autoriser les membres dans la liste de diffusion du site et aux capacités liées ? (par exemple les groupes disponibles dans la section Communiquer)',
 
 'translate' => 
-'Update',
+'Traduire',
 
 ''=>''
 );
