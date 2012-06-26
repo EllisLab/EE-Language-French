@@ -3,13 +3,13 @@
 $lang = array(
 
 'moblog_allow_overrides' =>
-"Autoriser les dépassement dans les emails ?",
+'Autoriser les dépassement dans les emails ?',
 
 'moblog_allow_overrides_subtext' =>
-"Si paramétré sur 'oui', les paramètres par défaut ci-dessus peuvent être écrasé dans l'email.",
+'Si paramétré sur \'oui\', les paramètres par défaut ci-dessus peuvent être écrasés dans l\'email.',
 
 'moblog_sticky_entry' =>
-"Faire remonter l'article ?",
+'Faire remonter l\'article ?',
 
 
 //----------------------------------------
@@ -28,58 +28,58 @@ $lang = array(
 "Préférences",
 
 'moblog_type' =>
-"Type de Moblog",
+'Type de Moblog',
 
 'channel' =>
-"Canal",
+'Canal',
 
 'gallery' =>
-"Galerie",
+'Galerie',
 
 'moblog_gallery_settings' =>
-"Paramètre de la galerie pour le Moblog",
+'Paramètres de la galerie pour le Moblog',
 
 'gallery_id'	=>
-"Choisissez une galerie",
+'Choisissez une galerie',
 
 'gallery_cat' =>
-"Catégorie d'article",
+'Catégorie d\'article',
 
 'gallery_status' =>
-"Statut de l'article",
+'Statut de l\'article',
 
 'gallery_comments' =>
-"Autoriser les commentaires",
+'Autoriser les commentaires',
 
 'ping_sites' =>
-"Sites pour le Ping",
+'Sites pour le Ping',
 
 'ping_servers' =>
-"Serveurs de Ping",
+'Serveurs de Ping',
 
 'choose_gallery_category' =>
-"Vous devez choisir une catégorie pour votre article de galerie",
+'Vous devez choisir une catégorie pour votre article',
 
 'choose_gallery' =>
-"Vous devez choisir une galerie pour l'article",
+'Vous devez choisir une galerie pour l\'article',
 
 'invalid_gallery' =>
-"La galerie choisie pour les articles est invalide",
+'La galerie choisie pour les articles est invalide',
 
 'invalid_upload_directory' =>
-"Répertoire de téléchargement invalide",
+'Répertoire de téléchargement invalide',
 
 'upload_directory_unwriteable' =>
-"Répertoire de téléchargement inaccessible en écriture",
+'Répertoire de téléchargement inaccessible en écriture',
 
 'gallery_author' =>
-"Auteur par défaut",
+'Auteur par défaut',
 
 'pings_sent' =>
-"Pings envoyés :",
+'Pings envoyés :',
 
 'moblog_entry_settings' =>
-"Paramètres des articles de canal",
+'Paramètres des articles de canal',
 
 "moblog" =>
 "Moblogging",
@@ -94,7 +94,7 @@ $lang = array(
 "Comptes de Moblog",
 
 "create_moblog" =>
-"Créer un nouvea Moblog",
+"Créer un nouveau Moblog",
 
 "check_moblogs" =>
 "Vérifier les Moblogs",
@@ -106,11 +106,11 @@ $lang = array(
 "Sélection de Moblog invalide",
 
 'moblog_check_select' =>
-"Choisissez un Moblog à vérifier",
+'Choisissez un Moblog à vérifier',
 
 
 'moblog_general_settings' =>
-"Paramètres généraux",
+'Paramètres généraux',
 
 'moblog_email_settings' =>
 "Paramètres d'email",
@@ -120,167 +120,167 @@ $lang = array(
 
 
 'moblog_full_name'	=> 
-"Nom complet du Moblog ",
+'Nom complet du Moblog',
 
 'moblog_short_name'	=> 
-"Nom court",
+'Nom court',
 
 'no_spaces'	=> 
-"Un seul mot, sans espaces",
+'Un seul mot, sans espace',
 
 'channel_id'	=>
-"Choisir un canal",
+'Choisir un canal',
 
 'cat_id' =>
 "Catégories par défaut",
 
 'field_id'	=> 
-"Champ par défaut",
+'Champ par défaut',
 
 'status'	=> 
-"Statut par défaut",
+'Statut par défaut',
 
 'author_id' => 
-"Auteur par défaut",
+'Auteur par défaut',
 
 'none' => 
-"Aucun",
+'Aucun',
 
 'all' => 
-"Tous",
+'Tous',
 
 'open' => 
-"Ouvert",
+'Ouvert',
 
 'closed' => 
-"Fermé",
+'Fermé',
 
 'moblog_auth_required' =>
-"Autorisation requise dans les emails ?",
+'Autorisation requise dans les emails ?',
 
 'moblog_auth_delete' =>
-"Supprimer les emails de Moblog non autorisés ?",
+'Supprimer les emails de Moblog non autorisés ?',
 
 'moblog_auth_delete_subtext' =>
-"Lorsque l'autorisation est requise et que l'email échoue cette autorisation, l'email sera supprimé",
+'Lorsque l\'autorisation est requise et que l\'email saisit fait échouer cette autorisation, l\'email sera supprimé',
 
 'moblog_upload_directory' =>
-"Répértoire de téléchargement pour les fichiers",
+'Répertoire de téléchargement pour les fichiers',
 
 'moblog_image_width' => 
-"Largeur d'image",
+'Largeur d\'image',
 
 'moblog_image_height' => 
-"Hauteur d'image",
+'Hauteur d\'image',
 
 'moblog_resize_image' =>
-"Redimensionner l'image lors de l'importation ?",
+'Redimensionner l\'image lors de l\'importation ?',
 
 'moblog_resize_width' =>
-"Largeur du redimensionnement",
+'Largeur du redimensionnement',
 
 'moblog_resize_height' =>
-"Hauteur du redimensionnement",
+'Hauteur du redimensionnement',
 
 'moblog_create_thumbnail' =>
-"Créer les miniatures lors de l'importation ?",
+'Créer les miniatures lors de l\'importation ?',
 
 'moblog_thumbnail_width' =>
-"Largeur de la miniature",
+'Largeur de la miniature',
 
 'moblog_thumbnail_height' =>
-"Hauteur sde la miniature",
+'Hauteur de la miniature',
 
 'set_to_zero' => 
-"Le programme tente de déterminer la taille automatiquement, aussi paramétrez sur 0 si la taille de l'image est inconnue",
+'Le programme tente de déterminer la taille automatiquement, aussi paramétrez sur 0 si la taille de l\'image est inconnue',
 
 'moblog_email_type' => 
-"Type de compte email",
+'Type de compte email',
 
 'moblog_email_address' =>
-"Adresse email",
+'Adresse email',
 
 'moblog_email_server' =>
-"Serveur de mail entrait",
+'Serveur de mail entrant',
 
 'server_example' =>
-"Ex : mail.votresite.com",
+'Ex : mail.votresite.com',
 
 'moblog_email_login' =>
-"Identifiant du compte email",
+'Identifiant du compte email',
 
 'moblog_email_password'	=>
-"Mot de passe du compte email",
+'Mot de passe du compte email',
 
 'data_encrypted' => 
-"Données chiffrées lors de l'envoi",
+'Données chiffrées lors de l\'envoi',
 
 'moblog_subject_prefix'	=>
-"Préfixe de sujet Moblog",
+'Préfixe de sujet Moblog',
 
 'moblog_subject_subtext'	=>
-"Laissez vide pour accepter automatiquement tous les emails",
+'Laissez vide pour accepter automatiquement tous les emails',
 
 'moblog_ignore_text' =>
-"Ignorer le texte des emails",
+'Ignorer le texte des emails',
 
 'moblog_valid_from' =>
-"Expéditeur d'emails valide pour le Moblog",
+'Expéditeur d\'emails valide pour le Moblog',
 
 'valid_from_subtext' =>
-"Les adresses emails desquelles vous enverrez ces emais Moblog. Laissez vide pour accepter depuis n'importe quelle adresse email. Séparez chaque adresse email par un espace ou un retour à la ligne.",
+'Les adresses emails desquelles vous enverrez ces emails Moblog. Laissez vide pour accepter depuis n\'importe quelle adresse email. Séparez chaque adresse email par un espace ou un retour à la ligne.',
 
 
 'moblog_time_interval' =>
-"Intervalle entre les vérifications",
+'Intervalle entre les vérifications',
 
 'moblog_enabled' =>
-"Moblog activé ?",
+'Moblog activé ?',
 
 'moblog_file_archive' =>
-"Mode archive de fichiers",
+'Mode archive de fichiers',
 
 'file_archive_subtext' =>
-"Si activé, ce moblog ne publiera pas les articles, mais sauvegardera les fichiers dans le dossier de téléchargement spécifié.",
+'Si activé, ce moblog ne publiera pas les articles, mais sauvegardera les fichiers dans le dossier de téléchargement spécifié.',
 
 'channel_id_subtext' =>
-"Si aucun canal n'est choisi, ce moblog ne publiera pas d'articless, mais sauvegardera les fichiers dans le dossier de téléchargement spécifié.",
+'Si aucun canal n\'est choisi, ce moblog ne publiera pas d\'articless, mais sauvegardera les fichiers dans le dossier de téléchargement spécifié.',
 
 'moblog_auth_subtext' =>
-"Si activé, seuls les emails contenant les informations d'identifiant/mot de passe pourront procéder au téléchargement de fichier ou à la publication d'articles.",
+'Si activé, seuls les emails contenant les informations d\'identifiant/mot de passe pourront procéder au téléchargement de fichier ou à la publication d\'articles.',
 
 'subject_prefix_subtext' =>
-"Pour inclure tous les emails, ne mettez aucun préfixe.",
+'Pour inclure tous les emails, ne mettez aucun préfixe.',
 
 'ignore_text_subtext' =>
-"Saisissez ici le texte que vous voulez automatiquement supprimer de vos emails Moblog. Pratique pour supprimer les signatures Hotmail et Yahoo.",
+'Saisissez ici le texte que vous voulez automatiquement supprimer de vos emails Moblog. Pratique pour supprimer les signatures Hotmail et Yahoo.',
 
 'interval_subtext' =>
-"Affecte la balise {exp:moblog:check}. Nombre défini en minutes. Vous êtes autorisé à utiliser des fractions décimales.",
+'Affecte la balise {exp:moblog:check}. Nombre défini en minutes. Vous êtes autorisé à utiliser des fractions décimales.',
 
 'moblog_time_interval_subtext' =>
-"Exemple: 1.5",
+'Exemple: 1.5',
 
 'pop3' =>
-"POP3",
+'POP3',
 
 'imap' =>
-"IMAP",
+'IMAP',
 
 'moblog_template' =>
-"Modèle Moblog",
+'Modèle Moblog',
 
 'moblog_formatting' =>
-"Formatage par défaut du modèle",
+'Formatage par défaut du modèle Moblog',
 
 'xhtml' =>
-"xhtml",
+'xhtml',
 
 'br' =>
-"&lt;br /&gt;",
+'&lt;br /&gt;',
 
 "invalid_short_name" => 
-"Le nom court de votre Moblog doit contenir uniquement des caractères alphanumériques sans espaces",
+"Le nom court de votre Moblog doit contenir uniquement des caractères alphanumériques sans espace",
 
 "moblog_taken_short_name" => 
 "Ce nom court de Moblog est déjà utilisé",
@@ -292,37 +292,37 @@ $lang = array(
 "Un champ requis est manquant ou a une valeur invalide : %e",
 
 'moblog_created' =>
-"Moblog créé",
+'Moblog créé',
 
 'moblog_updated' =>
-"Préférences de Moblog mises à jour",
+'Préférences de Moblog mises à jour',
 
 'no_moblogs' =>
-"Aucun moblog n'existe actuellement",
+'Aucun moblog n\'existe actuellement',
 
 'total_moblogs' =>
-"Nombre de Moblogs : ",
+'Nombre de Moblogs : ',
 
 'moblog_view' =>
-"Moblogs",
+'Moblogs',
 
 'moblog_update' =>
-"Mettre à jour le Moblog",
+'Mettre à jour le Moblog',
 
 'moblog_modify' =>
-"Préférences",
+'Préférences',
 
 'delete' =>
-"Supprimer",
+'Supprimer',
 
 'moblog_deleted' =>
-"Moblog supprimé",
+'Moblog supprimé',
 
 'moblogs_deleted' =>
-"Moblogs supprimés",
+'Moblogs supprimés',
 
 'moblog_delete_confirm' =>
-"Supprimer les Moblogs",
+'Supprimer les Moblogs',
 
 "moblog_delete_question" =>
 "Etes-vous sûr de vouloir définitivement supprimer le(s) Moblog(s) sélectionné(s) ?",
@@ -334,65 +334,65 @@ $lang = array(
 "Les Moblogs ont été supprimés",
 
 'moblog_successful_check' =>
-"Le Moblog a été vérifié avec succès",
+'Le Moblog a été vérifié avec succès',
 
 'emails_done' =>
-"Emails récupérés :",
+'Emails récupérés :',
 
 'entries_added' =>
-"Articles ajoutés :",
+'Articles ajoutés :',
 
 'attachments_uploaded' =>
-"Pièces jointes téléchargées :",
+'Pièces jointes téléchargées :',
 
 // ------------------------
 // Processing Errors
 // ------------------------
 
 'no_cache' =>
-"Impossible d'accéder au cache Moblog",
+'Impossible d\'accéder au cache Moblog',
 
 'moblog_current' =>
-"Moblog est actuellement",
+'Moblog est actuellement',
 
 'no_server_connection' =>
-"Impossible de se connecter au serveur email",
+'Impossible de se connecter au serveur email',
 
 'invalid_server_response' =>
-"Réponse du serveur invalide",
+'Réponse du serveur invalide',
 
 'invalid_username' =>
-"Identifiant invalide",
+'Identifiant invalide',
 
 'invalid_password' =>
-"Mot de passe invalide",
+'Mot de passe invalide',
 
 'unable_to_retrieve_emails' =>
-"Les informations emails étaient indisponibles",
+'Les informations emails étaient indisponibles',
 
 'no_valid_emails' =>
-"Aucun email valide n'a été trouvé",
+'Aucun email valide n\'a été trouvé',
 
 'unable_to_parse' =>
-"Impossible d'interpréter l'email.",
+'Impossible d\'interpréter l\'email.',
 
 'authorization_failed' =>
-"L'autorisation email a échoué pour :",
+'L\'autorisation email a échoué pour :',
 
 'undeletable_email' =>
-"Impossible de supprimer l'email",
+'Impossible de supprimer l\'email',
 
 'invalid_channel' =>
-"Canal invalide",
+'Canal invalide',
 
 'invalid_file_data' =>
-"Données de pièce jointe invalides",
+'Données de pièce jointe invalides',
 
 'error_writing_attachment' =>
-"Erreur lors de l'écriture de la pièce jointe",
+'Erreur lors de l\'écriture de la pièce jointe',
 
 'unable_to_resize' =>
-"Impossible de redimensionner l'image",
+'Impossible de redimensionner l\'image',
 
 
 ''=>''
