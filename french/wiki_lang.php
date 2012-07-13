@@ -60,7 +60,7 @@ $lang = array(
 "Préférences mises à jour avec succès !",
 
 'revision_limit' =>
-"Nombres de révisions à conserver par article",
+"Nombre de révisions à conserver par article",
 
 'author_limit' =>
 "Nombre d'éditions autorisées par auteur et par jour",
@@ -81,12 +81,12 @@ $lang = array(
 "Adresses email pour les notifications de modération",
 
 'namespaces_list' =>
-"Liste de noms d'espace",
+"Liste des espaces de noms",
 
 'namespaces_list_subtext' =>
-"Les noms d'espace sont utilisés pour séparer le contenu d'un wiki en plusieurs sections. Par exemple, vous pouvez souhaiter vouloir créer une section
-du wiki uniquement pour les articles en espagnol. Pour chaque nom d'espace, créez un intitulé, qui sera affiché sur les pages Wiki, un nom court, qui 
-sera utilisé en interne et dans certains formulaires pour référencer le nom d'espace. Votre nom court ne doit contenir que des caractères de mots comme
+"Les espaces de noms sont utilisés pour séparer le contenu d'un wiki en plusieurs sections. Par exemple, vous pouvez souhaiter vouloir créer une section
+du wiki uniquement pour les articles en espagnol. Pour chaque espace de noms, créez un intitulé, qui sera affiché sur les pages Wiki, un nom court, qui 
+sera utilisé en interne et dans certains formulaires pour référencer l'espace de noms. Votre nom court ne doit contenir que des caractères de mots comme
 des lettres, des nombres et des underscores.",
 
 'label_name' =>
@@ -141,10 +141,10 @@ des lettres, des nombres et des underscores.",
 "Bienvenue sur la page d'introduction de votre Wiki EE !",
 
 'namespace_label' =>
-"Intitulé du nom d'espace",
+"Intitulé de l'espace de noms",
 
 'namespace_short_name' =>
-"Nom court du nom d'espace",
+"Nom court de l'espace de noms",
 
 'file_ns' =>
 "Fichier",
@@ -159,13 +159,13 @@ des lettres, des nombres et des underscores.",
 "Categorie",
 
 'invalid_namespace' =>
-"Nom d'espace invalide",
+"Espace de noms invalide",
 
 'namespaces' =>
-"Noms d'espace",
+"Espaces de noms",
 
 'no_search_terms' =>
-'Vous devez inclure des termes de recherche lors de la recherche d\'un nom d\'espace.',
+'Vous devez inclure des termes de recherche lors de la recherche d\'un espace de noms.',
 
 'duplicate_article' =>
 'Un article portant ce nom existe déjà.',
@@ -180,16 +180,16 @@ des lettres, des nombres et des underscores.",
 "Tous les Wikis",
 
 'any_namespace' =>
-"Tous les noms d'espace",
+"Tous les espaces de noms",
 
 'main_ns' =>
 "Principal",
 
 'wiki_themes' =>
-'Thèms du Wiki',
+'Thèmes du Wiki',
 
 'unable_to_find_themes' =>
-'Aucun thèms du Wiki trouvé',
+'Aucun thème du Wiki trouvé',
 
 'invalid_wiki_theme' =>
 'Thème du Wiki invalide',
