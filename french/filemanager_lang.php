@@ -160,10 +160,10 @@ $lang = array(
 "Supprimer les préférence de téléchargement",
 
 "delete_upload_pref_confirmation" =>
-"Etes-vous sûr de vouloir définitivement supprimer ces préférences",
+"Etes-vous sûr de vouloir définitivement supprimer ces préférences ?",
 
 "upload_pref_deleted" =>
-"Préférence de téléchargement supprimé :",
+"Préférences de téléchargement supprimées :",
 
 "current_upload_prefs" =>
 "Préférences actuelles",
@@ -172,13 +172,13 @@ $lang = array(
 "Restreindre le téléchargement de fichier à certains groupes de membres",
 
 "restrict_notes_1" =>
-"Ces boutons radios vous permettent de spécifier quel groupes de membres seront autorisés à télécharger des fichiers.",
+"Ces boutons radios vous permettent de spécifier quels groupes de membres seront autorisés à télécharger des fichiers.",
 
 "restrict_notes_2" =>
 "Les Supers Administrateurs peuvent toujours télécharger des fichiers",
 
 "restrict_notes_3" =>
-"Note : le téléchargement de fichier n'est actuellement autorisé que depuis par le tableau de bord",
+"Note : le téléchargement de fichier n'est actuellement autorisé que via le tableau de bord",
 
 "can_upload_files" =>
 "Peut télécharger des fichiers",
