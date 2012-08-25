@@ -360,7 +360,7 @@ $lang = array(
 "Les permissions ont été mises à jour",
 
 "forum_deft_permissions_updated" =>
-"Les paramètres de permission par défaut ont été mis à jours",
+"Les paramètres de permission par défaut ont été mis à jour",
 
 "forum_moderator_add" =>
 "Ajouter un modérateur",
@@ -1173,55 +1173,55 @@ $lang = array(
 "Un seul mot, sans espaces",
 
 'forum_name_unavailable' =>
-"Nom court de panneau de forum indisponible",
+'Nom court de panneau de forum indisponible',
 
 'forum_board_home' =>
-"Accueil du panneau de forum",
+'Accueil du panneau de forum',
 
 'edit_forum_boards' =>
-"Editer les panneaux de forum",
+'Editer les panneaux de forum',
 
 'board_id' =>
-"ID panneau",
+'ID panneau',
 
 'forum_board_enabled' =>
-"Activé ?",
+'Activé ?',
 
 'edit_forum_board' =>
-"Editer le panneau",
+'Editer le panneau',
 
 'add_forum_board' =>
-"Ajouter un nouveau panneau de forum ?",
+'Ajouter un nouveau panneau de forum ?',
 
 'delete_board_confirmation' =>
-"Confirmation de suppression de panneau de forum",
+'Confirmation de suppression de panneau de forum',
 
 'delete_board_confirmation_message' =>
-"Etes-vous sûr de vouloir supprimer ce panneau de forum ?",
+'Etes-vous sûr de vouloir supprimer ce panneau de forum ?',
 
 'board_deleted' =>
-"Panneau de forum supprimé",
+'Panneau de forum supprimé',
 
 'board_site_id' =>
-"Site pour le Forum",
+'Site pour le Forum',
 
 'forum_trigger_taken' =>
-"Le mot déclencheur pour votre forum est déjà utilisé pour ce site",
+'Le mot déclencheur pour votre forum est déjà utilisé pour ce site',
 
 'board_alias_label' =>
-"Etiquette d'alias pour ce panneau de forum",
+'Etiquette d\'alias pour ce panneau de forum',
 
 'board_alias_name' =>
-"Nom court d'alias pour ce panneau de forum",
+'Nom court d\'alias pour ce panneau de forum',
 
 'edit_alias' =>
-"Editer l'alias",
+'Editer l\'alias',
 
 'add_forum_board_alias' =>
-"Ajouter un nouvel alias de panneau de forum ?",
+'Ajouter un nouvel alias de panneau de forum ?',
 
 'board_alias_id' =>
-"Alias de panneau de forum créé",
+'Alias de panneau de forum créé',
 
 "forum_board_alias_prefs" =>
 "Préférences d'alias de panneau de forum",
@@ -1230,7 +1230,7 @@ $lang = array(
 "Nouvelles préférences d'alias de panneau de forum",
 
 'no_forums_for_forum_board' =>
-"Il n'y a aucun forums pour ce panneau de forum",
+'Il n\'y a aucun forum pour ce panneau de forum',
 
 
 
