@@ -3,7 +3,7 @@ $lang = array(
 
 
 'no_js_warning' => 
-'JavaScript doit être actif pour utiliser ce thème. Vérifier les paramètres de votre navigateur.',
+'JavaScript doit être activé pour utiliser ce thème. Vérifier les paramètres de votre navigateur.',
 
 'nav_content' => 
 'Contenu',
@@ -21,7 +21,7 @@ $lang = array(
 'Gestionnaire de fichiers',
 
 'nav_batch_upload' => 
-'Envoie en groupe',
+'Envoi en groupe',
 
 'nav_sync_files' => 
 'Synchroniser les fichiers',
@@ -162,7 +162,7 @@ $lang = array(
 'Types de champs',
 
 'nav_fieldtypes_short_desc' => 
-'Gérer les types de champs et leurs préférénces',
+'Gérer les types de champs et leurs préférences',
 
 'nav_members' => 
 'Membres',
@@ -261,13 +261,13 @@ $lang = array(
 'Créer, éditer et supprimer des préférences de téléchargement de fichier',
 
 'nav_file_watermark_preferences' => 
-'Préférences de watermark',
+'Préférences de filigrane',
 
 'nav_file_manager_short_desc' => 
 'Préférences d\'envoi de fichiers',
 
 'nav_file_watermark_preferences_short_desc' => 
-'Préférences de watermark',
+'Préférences de filigrane',
 
 'nav_default_ping_servers' => 
 'Serveurs de Ping par défaut',
@@ -327,7 +327,7 @@ $lang = array(
 'Préférences des CAPTCHAs',
 
 'nav_captcha_preferences_short_desc' => 
-'Gérer les préférences des CAPTCHA',
+'Gérer les préférences des CAPTCHAs',
 
 'nav_throttling_configuration' => 
 'Préférences de filtrage',
@@ -582,7 +582,7 @@ $lang = array(
 'N\'importe lequel',
 
 'mobile_not_supported' => 
-'Cette fonction n\'est pas supportée sur une navigateur mobile',
+'Cette fonction n\'est pas supportée sur un navigateur mobile',
 
 'required_fields' => 
 'Indique des champs requis',
