@@ -19,7 +19,7 @@ if ( ! function_exists('admin_notify_mailinglist'))
 	function admin_notify_mailinglist()
 	{
 return <<<EOF
-Une nouvelle inscription à la liste de diffusion a été accept.
+Une nouvelle inscription à la liste de diffusion a été acceptée.
 
 Adresse email : {email}
 Liste de diffusion : {mailing_list}
