@@ -21,7 +21,7 @@ $lang = array(
 "Accepter les messages privés qui vous sont envoyés par d'autres membres de ce site",
 
 "parse_smileys" =>
-"Afficher les images des smileys dans les .",
+"Afficher les images des émôticones dans les .",
 
 "invalid_email_address" =>
 "Vous n'avez pas saisi d'adresse email valide",
@@ -39,7 +39,7 @@ $lang = array(
 "Votre identifiant et votre mot de passe actuel",
 
 "access_notice" =>
-"Note importante : L'administrateur a changé les conditions d'accès à ce site comme ci-dessous:",
+"Note importante : L'administrateur a changé les conditions d'accès à ce site comme ci-dessous :",
 
 "choose_new_un" =>
 "Veuillez choisir un nouvel identifiant",
@@ -63,10 +63,10 @@ $lang = array(
 "Les mots de passe doivent faire au moins %x caractères de long",
 
 "yun_len" =>
-"Votre identifiant fait actuellemebnt %x caractères de long",
+"Votre identifiant fait actuellement %x caractères de long",
 
 "ypw_len" =>
-"Votre mot de passe fait actuellemebnt %x caractères de long",
+"Votre mot de passe fait actuellement %x caractères de long",
 
 "existing_username" =>
 "Votre identifiant actuel",
@@ -78,7 +78,7 @@ $lang = array(
 "Vous devez remplir tous les champs",
 
 "invalid_existing_un_pw" =>
-"L'identifiant et/ou le mot de passe actuel que vous avez saisi ne sont pas valides",
+"L'identifiant et/ou le mot de passe actuel que vous avez saisis ne sont pas valides",
 
 "unpw_updated" =>
 "Vos paramètres ont été mis à jour, vous pouvez désormais vous connecter.",
@@ -117,7 +117,7 @@ $lang = array(
 "Caractères",
 
 "kb" =>
-"KB",
+"KO",
 
 "guided" =>
 "Guidé",
@@ -126,7 +126,7 @@ $lang = array(
 "Normal",
 
 "smileys" =>
-"Smileys",
+"Emôticones",
 
 "signature" =>
 "Signature",
@@ -379,7 +379,7 @@ $lang = array(
 "Connexion requise",
 
 "must_be_logged_in" =>
-"Cette page n'est accessibles qu'aux utilisateurs connectés avec les privilèges correspondants",
+"Cette page n'est accessible qu'aux utilisateurs connectés avec les privilèges correspondants",
 
 "member_registration" =>
 "Inscription de membre",
@@ -442,13 +442,13 @@ $lang = array(
 'ATTENTION : CETTE ACTION NE PEUT ÊTRE ANNULÉE !',
 
 'final_delete_confirm' =>
-'Veuillez confirmer que vous souhaitez définitivement supprimer votre compte et tout les contenus associés.',
+'Veuillez confirmer que vous souhaitez définitivement supprimer votre compte et tous les contenus associés.',
 
 'cannot_delete_self' =>
 'Vous n\'êtes pas autorisé à supprimer votre propre compte.',
 
 'cannot_delete_super_admin' =>
-'Vous ne pouvez supprimer de Super Administrateur que s\'il en existe au moins un autre.',
+'Vous ne pouvez supprimer un Super Administrateur que s\'il en existe au moins un autre.',
 
 'mbr_account_deleted' =>
 'Votre compte et tout le contenu associé a été supprimé.',
@@ -709,7 +709,7 @@ Nous nous réservons le droit de supprimer, modifier ou déplacer n'importe quel
 "Ascendant",
 
 "mbr_descending" =>
-"Déscendant",
+"Descendant",
 
 "mbr_back_to_login" =>
 "Retour à la connexion",
@@ -733,7 +733,7 @@ Nous nous réservons le droit de supprimer, modifier ou déplacer n'importe quel
 "Biographie",
 
 "mbr_interests" =>
-"Interêts",
+"Intérêts",
 
 "mbr_occupation" =>
 "Occupation",
@@ -820,7 +820,7 @@ Nous nous réservons le droit de supprimer, modifier ou déplacer n'importe quel
 "Afficher les avatars des membres dans les articles",
 
 "enable_smart_notifications" =>
-"Activer la notification intélligente",
+"Activer la notification intelligente",
 
 'private_message' =>
 "Message privé",
