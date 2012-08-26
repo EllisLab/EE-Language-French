@@ -19,10 +19,10 @@ $lang = array(
 "Voir les URLs pour l'API Blogger",
 
 'invalid_access' =>
-"Accès invalide à l'API BLogger. Veuillez vérifier que vous avez utilisé le bon nom d'utilisateur et mot de passe pour un compte avec les permissions de publier dans au moins un canal.",
+"Accès invalide à l'API BLogger. Veuillez vérifier que vous avez utilisé les bons nom d'utilisateur et mot de passe pour un compte avec les permissions de publier dans au moins un canal.",
 
 'no_channels_found' =>
-"Aucun canaux trouvé pour cet utilisateur.",
+"Aucun canal trouvé pour cet utilisateur.",
 
 'invalid_channel' =>
 "Sélection de canal invalide",
@@ -88,7 +88,7 @@ $lang = array(
 "Champ par défaut pour les données de l'article",
 
 'blogger_default_field_subtext' =>
-"Si aucun champ n'est spécifié pour une nouvel article ou si un article édité est envoyé comme un bloc de texte sans préciser un champ spécifique, ce champ sera celui où le contenu sera inséré. Assurez-vous que cet article soit disponible pour le blog où souhaitez poster.",
+"Si aucun champ n'est spécifié pour une nouvel article ou si un article édité est envoyé comme un bloc de texte sans préciser un champ spécifique, ce champ sera celui où le contenu sera inséré. Assurez-vous que cet article soit disponible pour le canal où vous souhaitez poster.",
 
 'blogger_html_format' =>
 "Formatage HTML",
