@@ -9,7 +9,7 @@ $lang = array(
 "Si vous n'avez pas enregistré les changements sur cette page ils seront perdus lorsque vous serez envoyé vers l'éditeur de formatage.",
 
 "fmt_has_changed" =>
-"Note : Vous avez sélectionné un choix de formatage de champ différent à celui sauvegardé précedemment.",
+"Note : Vous avez sélectionné un choix de formatage de champ différent de celui sauvegardé précedemment.",
 
 "update_existing_fields" =>
 "Mettre à jour tous les articles avec ce nouveau choix de formatage ?",
@@ -63,7 +63,7 @@ $lang = array(
 "Relier des articles d'un canal à ceux d'un autre canal",
 
 "related_to_gallery" =>
-"Relier des articles d'un canal à des des articles de galerie",
+"Relier des articles d'un canal à des articles de galerie",
 
 "select_related_channel" =>
 "Sélectionnez le canal avec lequel vous souhaitez établir un lien :",
@@ -96,7 +96,7 @@ $lang = array(
 "Nombre maximum de révisions récentes par article",
 
 "max_revisions_note" =>
-"Les révisions peuvent utiliser un espace considérable de la base de données, il est ainsi recommandé de limiter leur nombre.",
+"Les révisions peuvent utiliser un espace considérable de la base de données, il est donc fortement recommandé de limiter leur nombre.",
 
 "field_populate_manually" =>
 "Remplir le menu manuellement",
@@ -114,7 +114,7 @@ $lang = array(
 "Activer la liste de destination ci-dessous pour la notification des nouveaux articles ?",
 
 "no_statuses" =>
-"Aucun statuts n'ont été trouvés",
+"Aucun statut n'a été trouvé",
 
 "status_created" =>
 "Le statut a été créé",
@@ -177,7 +177,7 @@ $lang = array(
 "Ordre",
 
 "delete_category_confirmation" =>
-"Etes-vous sûr de vouloir supprimer la catégorie suivante ",
+"Etes-vous sûr de vouloir supprimer la catégorie suivante ?",
 
 "category_description" =>
 "Description de la catégorie",
@@ -201,10 +201,10 @@ $lang = array(
 "Dupliquer un groupe de modèles existant",
 
 "template_group_name" =>
-"Nom du nouveau groupe de modèle",
+"Nom du nouveau groupe de modèles",
 
 "template_group_choose" =>
-"Veuillez choisir un groupe de modèle",	//  for your new Template
+"Veuillez choisir un groupe de modèles pour votre nouveau modèle",	//  for your new Template
 
 "new_group_instructions" =>
 "Ce champ est requis si vous créez un nouveau groupe",
@@ -465,7 +465,7 @@ $lang = array(
 "Défaut",
 
 "category" =>
-"Categorie",
+"Catégorie",
 
 "deft_status" =>
 "Statut par défaut",
