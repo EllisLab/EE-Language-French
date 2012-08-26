@@ -30,7 +30,7 @@ $lang = array(
 'Auteur',
 
 'revision' => 
-'Revision',
+'Révision',
 
 'formatting' => 
 'Formatage :',
@@ -81,7 +81,7 @@ $lang = array(
 'Editer la sélection',
 
 'confirm_exit' => 
-'Lorsque vous quittez, toutes les données seront perdues. Etes-vous sûr de vouloir quitter ?',
+'Lorsque vous quitterez, toutes les données seront perdues. Etes-vous sûr de vouloir quitter ?',
 
 'delete_selected' => 
 'Supprimer la sélection',
@@ -93,7 +93,7 @@ $lang = array(
 'ID du sujet de forum',
 
 'forum_topic_id_info' => 
-'Ce champ permet à cet article d\'être associé avec un sujet de form.',
+'Ce champ permet à cet article d\'être associé avec un sujet de forum.',
 
 'forum_topic_id_exitsts' => 
 'Si un sujet de forum existe déjà et que vous souhaitez l\'associer avec votre article, saisissez le numéro ID du sujet et laissez les champs ci-dessus vides.',
@@ -171,7 +171,7 @@ $lang = array(
 'Le glossaire n\'existe pas',
 
 'no_smileys' => 
-'Impossible de localiser les smileys',
+'Impossible de localiser les émoticônes',
 
 'image_link' => 
 'Lien de l\'image',
@@ -390,10 +390,10 @@ $lang = array(
 'Disposition page Publier',
 
 'save_layout' => 
-'Enregistrer disposition',
+'Enregistrer la disposition',
 
 'remove_layout' => 
-'Supprimer disposition',
+'Supprimer la disposition',
 
 'preview_layout' => 
 'Aperçu de la disposition',
@@ -540,7 +540,7 @@ $lang = array(
 'Catégories',
 
 'no_categories' => 
-'Aucune catégories n\'ont été assignées à ce canal.',
+'Aucune catégorie n\'a été assignée à ce canal.',
 
 'title' => 
 'Titre',
@@ -588,7 +588,7 @@ $lang = array(
 '',
 
 'emoticons' => 
-'Smileys',
+'Emoticônes',
 
 'choose_a_destination_for_emoticon' => 
 'Choisissez une destination pour votre émoticône',
@@ -741,7 +741,7 @@ $lang = array(
 'Effacer',
 
 'overwrite_instructions' => 
-'Vous pouvez soit choisir un nouveau nom et le fichier sera renommé, soit vous pouvez soumettre ce formulaire avec le même nom et le fichier sera écrasé.',
+'Vous pouvez soit choisir un nouveau nom et le fichier sera renommé, soit soumettre ce formulaire avec le même nom et le fichier sera écrasé.',
 
 'select_destination_dir' => 
 'Choisissez un répertoire de destination',
@@ -771,7 +771,7 @@ $lang = array(
 'Il n\'y a aucun champs d\'article dans ce canal.',
 
 'no_comments' => 
-'Aucun résultats n\'ont été retournés pour cet article',
+'Aucun résultat n\'a été retourné pour cet article',
 
 'posted_by' => 
 'Auteur :',
@@ -954,7 +954,7 @@ $lang = array(
 'Montrer tous',
 
 'add_new_html_button' => 
-'Ajouter un nouvea bouton HTML',
+'Ajouter un nouveau bouton HTML',
 
 'show' => 
 'Afficher',
@@ -969,7 +969,7 @@ $lang = array(
 'Afficher les outils',
 
 'wm_discard_changes' => 
-'Abandonner les changements',
+'Abandonner les modifications',
 
 'wm_publish_to_field' => 
 'Publier dans le champ',
