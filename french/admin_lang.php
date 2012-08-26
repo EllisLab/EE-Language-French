@@ -36,7 +36,7 @@ $lang = array(
 'Liste de membres - Ordre',
 
 'memberlist_desc' => 
-'Déscendant',
+'Descendant',
 
 'memberlist_asc' => 
 'Ascendant',
@@ -177,7 +177,7 @@ $lang = array(
 'Statut',
 
 'extension_settings' => 
-'Extension Settings',
+'Préférences d\'extension',
 
 'settings_update' => 
 'Les préférences ont été mises à jour',
@@ -201,7 +201,7 @@ $lang = array(
 'Recherché dans',
 
 'search_terms' => 
-'Recherche de terms',
+'Recherche de termes',
 
 'screen_name' => 
 'Nom à l\'écran',
@@ -210,7 +210,7 @@ $lang = array(
 'Voir les journaux des termes de recherche',
 
 'no_search_terms' => 
-'Aucun termes de recherche n\'ont été enregistré',
+'Aucun terme de recherche n\'a été enregistré',
 
 'throttling_cfg' => 
 'Configuration du filtrage',
@@ -297,7 +297,7 @@ $lang = array(
 'Recomptage... Veuillez patienter...',
 
 'theme_folder_url' => 
-'URL de votre dossier "themes"',
+'URL de votre dossier "Thèmes"',
 
 'exp_forums' => 
 'Statistiques du forum',
@@ -657,7 +657,7 @@ $lang = array(
 'Etes-vous sûr de vouloir supprimer ce plugin ?',
 
 'plugin_multiple_confirm' => 
-'Etes-vous sûr de vouloir supprimer ces plugins',
+'Etes-vous sûr de vouloir supprimer ces plugins ?',
 
 'plugin_remove' => 
 'Supprimer',
@@ -711,7 +711,7 @@ $lang = array(
 'Mot de désignation de section',
 
 'channel_nomenclature_exp' => 
-'Par défaut, ExpressionEngine utilise le mot "Canal" sur le tableau de bord. Vous pouvez le changer par quelque chose de plus générique, comme "section". Veuillez noter que ce mot ne changera pas dans vos modèles, mais uniquement sur le tableau de bord.',
+'Par défaut, ExpressionEngine utilise le mot "Canal" sur le tableau de bord. Vous pouvez le changer par quelque chose de plus générique, comme "Section". Veuillez noter que ce mot ne changera pas dans vos modèles, mais uniquement sur le tableau de bord.',
 
 'site_404' => 
 'Page 404',
@@ -807,7 +807,7 @@ $lang = array(
 'Préférence',
 
 'value' => 
-'Valeure',
+'Valeur',
 
 'general_cfg' => 
 'Configuration générale',
@@ -834,7 +834,7 @@ $lang = array(
 'Thème par défaut du profil de membre',
 
 'member_theme_exp' => 
-'Détermine quel thème utuliser pour les différentes pages de profil de membre : connexion, inscription, profil, etc.',
+'Détermine quel thème utiliser pour les différentes pages de profil de membre : connexion, inscription, profil, etc.',
 
 'require_terms_of_service_exp' => 
 'Mettre la valeur à "oui" force l\'utilisateur à cocher la case "accepter les conditions d\'utilisation" lors de l\'inscription',
@@ -852,7 +852,7 @@ $lang = array(
 'Séparez les différentes adresses email par une virgule',
 
 'email_console_timelock' => 
-'Vérouillage programmé de la console d\'email',
+'Verrouillage programmé de la console d\'email',
 
 'email_console_timelock_exp' => 
 'Nombre de minutes qui doivent s\'écouler avant qu\'un membre ne soit autorisé à envoyer un autre email. Note : ceci s\'applique uniquement à la console d\'email dans les pages de profil de membre.',
@@ -867,7 +867,7 @@ $lang = array(
 'Groupe de membre affecté par défaut aux nouveaux membres',
 
 'group_assignment_defaults_to_two' => 
-'Si vous avez requis l\'activation des comptes, ce paramètre leur sera affecté qu\'une fois leur compte activé',
+'Si vous avez requis l\'activation des comptes, ce paramètre ne leur sera affecté qu\'une fois leur compte activé',
 
 'user_session_type' => 
 'Type de session utilisateur',
@@ -1068,7 +1068,7 @@ $lang = array(
 'Domaine du Cookie',
 
 'cookie_domain_explanation' => 
-'Utilisez .votredomaine.com pour des cookies couvrant tout le site',
+'Utilisez votredomaine.com pour des cookies couvrant tout le site',
 
 'cookie_prefix' => 
 'Préfixe du Cookie',
@@ -1329,10 +1329,10 @@ $lang = array(
 'Uptime de la base de données',
 
 'total_queries' => 
-'Total server queries since startup',
+'Nombre total de requêtes depuis le démarrage du serveur',
 
 'sql_status' => 
-'Informations de statut',
+'Informations de statut SQL',
 
 'sql_system_vars' => 
 'Variables système',
@@ -1380,7 +1380,7 @@ $lang = array(
 'Optimiser les tables SQL',
 
 'repair' => 
-'Réparer les tables SQLS',
+'Réparer les tables SQL',
 
 'optimize_table' => 
 'Optimiser les tables sélectionnées',
