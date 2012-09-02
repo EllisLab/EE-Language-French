@@ -60,7 +60,7 @@ $lang = array(
 "Nom du site déjà pris",
 
 'new_set_missing_name' =>
-"Vous avez oublié le nom d'un de vous nouveaux Sets.",
+"Vous avez oublié le nom d'un de vos nouveaux Sets.",
 
 'site_created' =>
 "Site créé",

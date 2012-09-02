@@ -27,16 +27,16 @@ $lang = array(
 "Le type du fichier que vous tentez de télécharger n'est pas autorisé",
 
 "invalid_filesize" =>
-"Le fichier que vous tentez de télécharger est supérieur à la taille autorisé",
+"La taille du fichier que vous tentez de télécharger est supérieur à la taille autorisé",
 
 "invalid_dimensions" =>
-"L'image que vous tentez de télécharger est supérieur à la hauteur ou la largeur maximale autorisée",
+"Les dimensions de L'image que vous tentez de télécharger sont supérieures à la hauteur ou la largeur maximale autorisée",
 
 "upload_error" =>
 "Une erreur a été rencontrée lors du téléchargement du fichier",
 
 "copy_error" =>
-"Une erreure a été rencontrée lors du remplacement du fichier. Veuillez vous assurer que le répertoire du fichier est accessible en écriture.",
+"Une erreur a été rencontrée lors du remplacement du fichier. Veuillez vous assurer que le répertoire du fichier est accessible en écriture.",
 
 "unsupported_protocol" =>
 "Votre serveur ne supporte pas le protocole de redimensionnement d'image spécifié dans vos préférences.",

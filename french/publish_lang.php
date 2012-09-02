@@ -91,7 +91,7 @@ $lang = array(
 "Ce champ permet à cet article d'être associé avec un sujet de forum.",
 
 "forum_topic_id_exitsts" =>
-"Si un sujet de forum existe déjà et que vous souhaitez l'associer avec votre article, saisissez le numéro ID de sujet et laissez les champs ci-dessus vides.",
+"Si un sujet de forum existe déjà et que vous souhaitez l'associer avec votre article, saisissez le numéro d'ID de sujet et laissez les champs ci-dessus vides.",
 
 "forum_title" =>
 "Titre du sujet de forum",
@@ -100,7 +100,7 @@ $lang = array(
 "Texte du sujet de forum",
 
 "forums_unavailable" =>
-"Il n'y a aucun forums de disponible dans lesquels publier",
+"Il n'y a aucun forum de disponible dans lequel publier",
 
 'view_comments' =>
 "Voir les commentaires",
@@ -163,7 +163,7 @@ $lang = array(
 "Aucun glossaire n'existe",
 
 "no_smileys" =>
-"Impossible de localiser les smileys",
+"Impossible de localiser les émoticônes",
 
 "image_link" =>
 "Lien de l'image",
@@ -328,7 +328,7 @@ $lang = array(
 "Vous n'êtes pas autorisé à publier des articles",
 
 "unauthorized_to_delete_others" =>
-"Vous êtes uniquement autorisé à supprimer des articles que vous avez rédigé",
+"Vous êtes uniquement autorisé à supprimer des articles que vous avez rédigés",
 
 "unauthorized_to_delete_self" =>
 "Vous n'êtes pas autorisé à supprimer vos propres articles",
@@ -367,7 +367,7 @@ $lang = array(
 "Continuer l'édition",
 
 "entry_status" => 
-"Statu de l'article",
+"Statut de l'article",
 
 "status" => 
 "Statut",
@@ -394,7 +394,7 @@ $lang = array(
 "Autoriser les commentaires",
 
 "ping_sites" => 
-"Siter pour le Ping",
+"Sites pour le Ping",
 
 "select_entries_to_ping" =>
 "Sélectionnez les articles pour lesquels effectuer un Ping",
@@ -433,7 +433,7 @@ $lang = array(
 "Catégories",
 
 "no_categories" => 
-"Aucune catégories n'ont été assignées à ce canal.",
+"Aucune catégorie n'a été assignée à ce canal.",
 
 "title" => 
 "Titre",
@@ -468,10 +468,11 @@ $lang = array(
 "file_upload" =>
 "Téléchargement de fichier",
 
-'upload_dir_choose'		=> 'Choisissez un répertoire de téléchargement',
+'upload_dir_choose'		=>
+'Choisissez un répertoire de téléchargement',
 
 "emoticons" =>
-"Smileys",
+"Emoticônes",
 
 "choose_a_destination_for_emoticon" =>
 "Choisissez une destination pour vos émoticônes",
@@ -687,7 +688,7 @@ $lang = array(
 "Options d'image",
 
 "create_popup" =>
-"Créer un pop-up pour l'image?",
+"Créer un pop-up pour l'image ?",
 
 "create_thumb" =>
 "Créer une miniature pour l'image ?",
@@ -729,7 +730,7 @@ $lang = array(
 "Redimensionner l'image originale",
 
 "thumb_instructions" =>
-"Vous pouvez soit redimensionner votre image soit créer une miniature pour l'image.",
+"Vous pouvez soit redimensionner votre image, soit créer une miniature pour l'image.",
 
 "thumbnail_created" =>
 "Miniature créée",
@@ -789,7 +790,7 @@ $lang = array(
 "Titre de l'article : '%title'",
 
 'invalid_author' =>
-"L'auteur sélectionner est invalide.",
+"L'auteur sélectionné est invalide.",
 
 'show_all' =>
 "Montrer tout",

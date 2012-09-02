@@ -60,7 +60,7 @@ $lang = array(
 'Confirmer l\'assignation de champ',
 
 'confirm_field_assignment_blurb' =>
-'Veuillez vérifier votre assignation de champ. Si quoiPlease review your field assignments. Si quoi que ce soit était incorrect, veuillez revenir en arrière et appliquer les modifications nécessaires.',
+'Veuillez vérifier votre assignation de champ. Si quoi que ce soit était incorrect, veuillez revenir en arrière et appliquer les modifications nécessaires.',
 
 'convert_from_delimited' =>
 'Convertir le texte délimité en XML',
@@ -121,7 +121,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Caractère d\'encadrement',
 
 'enclosure_blurb' =>
-'Ce caractère encadre vos données si il existe. Dans l\'exemple suivant, le caractère d\'encadrement est un guillement double : "<br />',
+'Ce caractère encadre vos données s\'il existe. Dans l\'exemple suivant, le caractère d\'encadrement est un guillement double : "<br />',
 
 'enclosure_example' =>
 '"John Doe", "jdoe", "john@exemple.com", ...',
@@ -154,7 +154,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Membres importés avec succès',
 
 'import_success_blurb' =>
-'Vos donénes de membre XML ont été importées dans la base de données avec succès !',
+'Vos données de membre XML ont été importées dans la base de données avec succès !',
 
 'info_blurb' =>
 'Pour utiliser cet utilitaire, vous devez au préalable déposer le fichier contenant les données de membre exportées sur votre serveur, puis saisir la localisation du fichier.',
@@ -187,7 +187,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Cet utilitaire vous permet d\'importer des membres depuis d\'autres systèmes vers ExpressionEngine',
 
 'missing_birthday_child' =>
-'Elements enfants de &lt;birthday&gt; manquants : &lt;day&gt; &lt;month&gt; &lt;year&gt; attendu',
+'Eléments enfants de &lt;anniversaire&gt; manquants : &lt;jour&gt; &lt;mois&gt; &lt;année&gt; attendus',
 
 'missing_email_field' =>
 'Vous devez assigner un champ pour "email"',
@@ -229,7 +229,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Avertissement mot de passe',
 
 'password_warning_blurb' =>
-'Si aucun mot de passe n\'a été fourni, vos membres importés devront utiliser le lien "Mot de passe oublié" pour se connecter. De plusk si vos paramètres de chiffrement (sha1/md5) ne correspondent pas au type de chiffreement de vos données, les mots de passes ne fonctionneront pas, et les membres affectés devront également utiliser le lien "Mot de passe oublié". Les mots de passe de type texte seront chiffré pour vous durant l\'importation.',
+'Si aucun mot de passe n\'a été fourni, vos membres importés devront utiliser le lien "Mot de passe oublié" pour se connecter. De plus, si vos paramètres de chiffrement (sha1/md5) ne correspondent pas au type de chiffreement de vos données, les mots de passes ne fonctionneront pas, et les membres affectés devront également utiliser le lien "Mot de passe oublié". Les mots de passe de type texte seront chiffré pour vous durant l\'importation.',
 
 'plaintext_passwords' =>
 'Les mots de passes sont en clair',
@@ -268,7 +268,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Localisation du fichier XML membre',
 
 'xml_file_loc_blurb' =>
-'La localisation du fichier doit être relative au dossier du tableau de bord de votre site. Exemple : ../membres.xml, si placé à la racinde du site.',
+'La localisation du fichier doit être relative au dossier du tableau de bord de votre site. Exemple : ../membres.xml, si placé à la racine du site.',
 
 'xml_imported' =>
 'Les données XML de membre ont été importées',
