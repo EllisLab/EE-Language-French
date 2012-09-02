@@ -591,7 +591,7 @@ $lang = array(
 "Chemin serveur de la bibliothèque de traitement d'image",
 
 "pref_thumb_width" =>
-"Largeur maximale des miniateure",
+"Largeur maximale des miniatures",
 
 "pref_thumb_height" =>
 "Hauteur maximale des miniatures",
