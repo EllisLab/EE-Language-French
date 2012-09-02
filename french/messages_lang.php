@@ -225,7 +225,7 @@ $lang = array(
 'Pièce jointe actuelle',
 
 'file_size_unit' => 
-'KO',
+'KB',
 
 'draft_message' => 
 'Enregistrer dans les brouillons',
