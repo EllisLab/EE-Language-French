@@ -2,7 +2,7 @@
 
 $lang = array(
 
-'file_title'  		=> 'Titre du fichier',
+'file_title'    	=> 'Titre du fichier',
 'dir_name'				=> 'Nom du répertoire',
 'file_metadata'			=> 'Données',
 'description'			=> 'Description',
@@ -81,9 +81,9 @@ $lang = array(
 "maintain_ratio"		=> "Conserver les proportions",
 'width_needed'			=> "Une largeur, une largeur/hauteur, ou une direction de rotation doit être sélectionnée",
 
-"crop_mode"				=> "Mode rognage",
-"resize_mode"			=> "Mode redimensionnement",
-"rotate_mode"			=> "Mode rotation",
+"crop_mode"				=> "Mode Rognage",
+"resize_mode"			=> "Mode Redimensionnement",
+"rotate_mode"			=> "Mode Rotation",
 'apply_changes'			=> 'Appliquer les modifications ?',
 'exit_apply_changes'	=> "Vous êtes sur le point de quitter le mode édition. Souhaitez-vous d'abord appliquer les modifications ?",
 'processing_image'		=> "Traitement de l'image",
