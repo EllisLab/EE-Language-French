@@ -762,7 +762,7 @@ $lang = array(
 'Préférence',
 
 'setting' => 
-'Réglage',
+'Paramètre',
 
 'resend_activation_emails' => 
 'Renvoyer les emails d\'activation',
