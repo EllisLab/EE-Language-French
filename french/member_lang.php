@@ -21,7 +21,7 @@ $lang = array(
 "Accepter les messages privés qui vous sont envoyés par d'autres membres de ce site",
 
 "parse_smileys" =>
-"Afficher les images des émôticones dans les .",
+"Afficher les images des émoticônes dans les .",
 
 "invalid_email_address" =>
 "Vous n'avez pas saisi d'adresse email valide",
@@ -117,7 +117,7 @@ $lang = array(
 "Caractères",
 
 "kb" =>
-"KO",
+"KB",
 
 "guided" =>
 "Guidé",
@@ -126,7 +126,7 @@ $lang = array(
 "Normal",
 
 "smileys" =>
-"Emôticones",
+"Emoticônes",
 
 "signature" =>
 "Signature",
