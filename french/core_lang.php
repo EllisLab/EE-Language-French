@@ -376,10 +376,10 @@ $lang = array(
 "Décembre",
 
 
-'UM12'		=>	'(UTC -12:00) Fuseau horaire îles Baker et Howland',
+'UM12'  	=>	'(UTC -12:00) Fuseau horaire des îles Baker et Howland',
 'UM11'		=>	'(UTC -11:00) Heure standard des Samoa, Niue',
 'UM10'		=>	'(UTC -10:00) Heure standard d\'Hawaii et des îles Aléoutiennes, îles Cook, Tahiti',
-'UM95'		=>	'(UTC -9:30) Fuseau horaire îles Marquises',
+'UM95'		=>	'(UTC -9:30) Fuseau horaire des îles Marquises',
 'UM9'		=>	'(UTC -9:00) Heure standard de l\'Alaska, îles Gambier',
 'UM8'		=>	'(UTC -8:00) Heure standard du Pacifique, île de Clipperton',
 'UM7'		=>	'(UTC -7:00) Heure standard des Montagnes Rocheuses',
