@@ -597,7 +597,7 @@ $lang = array(
 'Cliquez sur une image pour l\'insérer dans votre article',
 
 'no_emoticons' => 
-'Impossible de trouver la localisation de vos émoticônes',
+'Impossible de trouver l\'emplacement de vos émoticônes',
 
 'close_all' => 
 'Fermer tout',
@@ -1023,7 +1023,7 @@ $lang = array(
 'Conserver les proportions',
 
 'width_needed' => 
-'Une largeur ou une largeur/hauteur doit être sélectionnée',
+'Une largeur, une largeur/hauteur, ou une direction de rotation doit être sélectionnée',
 
 'edit_image' => 
 'Editer l\'image',
