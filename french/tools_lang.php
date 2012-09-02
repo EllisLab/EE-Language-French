@@ -10,7 +10,7 @@ $lang = array(
  *
  */
 
-'tools'					=> 'Outils',
+'tools'  				=> 'Outils',
 'tools_data' 			=> 'Données',
 'tools_files' 			=> 'Gestionnaire de fichiers',
 'tools_logs'			=> 'Journaux',
@@ -91,7 +91,7 @@ $lang = array(
 'no_file'				=> 'Aucun fichier sélectionné',
 'file_name'				=> 'Nom du fichier',
 'file_size'				=> 'Taille du fichier',
-'file_size_unit'		=> 'KO',
+'file_size_unit'		=> 'KB',
 'size'					=> 'Taille',
 'kind'					=> 'Type',
 'where'					=> 'Où',
@@ -107,10 +107,10 @@ $lang = array(
 'edit_modes'			=> 'Modes d\'édition',
 'resize'				=> 'Redimensionner',
 'crop'					=> 'Rogner',
-'resize_width'			=> 'Largeur de redimensionnement',
-'resize_height'			=> 'Hauteur de redimensionnement',
-'crop_width'			=> 'Largeur de rognage',
-'crop_height'			=> 'Hauteur de rognage',
+'resize_width'			=> 'Largeur',
+'resize_height'			=> 'Hauteur',
+'crop_width'			=> 'Largeur',
+'crop_height'			=> 'Hauteur',
 'crop_x'				=> 'X',
 'crop_y'				=> 'Y',
 'rotate'				=> 'Rotation',
