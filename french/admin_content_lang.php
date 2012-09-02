@@ -204,7 +204,7 @@ $lang = array(
 "Nom du nouveau groupe de modèles",
 
 "template_group_choose" =>
-"Veuillez choisir un groupe de modèles pour votre nouveau modèle",	//  for your new Template
+"Veuillez choisir un groupe de modèles pour votre nouveau modèle",  //  for your new Template
 
 "new_group_instructions" =>
 "Ce champ est requis si vous créez un nouveau groupe",
@@ -712,7 +712,7 @@ $lang = array(
 //----------------------------
 
 "field_settings" =>
-"Paramètres du groupe de champ personnalisé",
+"Préférences du groupe de champ personnalisé",
 
 
 "field_group" =>
