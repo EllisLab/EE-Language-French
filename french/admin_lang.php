@@ -165,10 +165,10 @@ $lang = array(
 'Nom de l\'extension',
 
 'setting' => 
-'Préférence',
+'Paramètre',
 
 'settings' => 
-'Préférences',
+'Paramètres',
 
 'documentation' => 
 'Documentation',
@@ -177,10 +177,10 @@ $lang = array(
 'Statut',
 
 'extension_settings' => 
-'Préférences d\'extension',
+'Paramètres d\'extension',
 
 'settings_update' => 
-'Les préférences ont été mises à jour',
+'Les paramètres ont été mis à jour',
 
 'extension_class_does_not_exist' => 
 'La classe %c n\'existe pas dans (%f)',
