@@ -18,7 +18,7 @@ $lang = array(
 'MP',
 
 'kb' =>
-'KO',
+'KB',
 
 'total_results' =>
 'Nombre de résultats :',
@@ -660,7 +660,7 @@ $lang = array(
 "Normal",
 
 "smileys" =>
-"Emôticones",
+"Emoticônes",
 
 "thread_review" =>
 "Vérification de fil",
@@ -885,7 +885,7 @@ $lang = array(
 "Nous ne pouvons accepter de pièces jointes pour le moment",
 
 "file_too_big" =>
-"La taille de vos pièces jointes ne doit pas excéder %x KO",
+"La taille de vos pièces jointes ne doit pas excéder %x KB",
 
 "dimensions_too_big" =>
 "Les images ne doivent pas dépasser une largeur de %x pixels par %y pixels",
