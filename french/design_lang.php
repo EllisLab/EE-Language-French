@@ -31,7 +31,7 @@ $lang = array(
 "Activer les URLs strictes",
 
 "strict_urls_exp" =>
-"Cette fonctionnalité applique les règles strictes pour vos URLs et interfère avec la gestion des pages 404 ci-dessous. Veuillez vous reporter au guide d'utilisation pour plus d'information.",
+"Cette fonctionnalité applique les règles strictes pour vos URLs et interfère avec la gestion des pages 404 ci-dessous. Veuillez vous reporter au guide utilisateur pour plus d'information.",
 
 "none" =>
 "Aucun",
@@ -184,7 +184,7 @@ $lang = array(
 "Nouveau modèle",
 
 "security_warning" =>
-"Note : Autoriser le PHP dans les modèles cause un risque de sécurité. Veuillez consulter la documentation.",
+"Note : Autoriser le PHP dans les modèles crée un risque de sécurité. Veuillez consulter la documentation.",
 
 "hit_counter" =>
 "Compteur de visite",
@@ -319,7 +319,7 @@ $lang = array(
 'Préférence',
 
 'setting' =>
-'Paramètres',
+'Paramètre',
 
 "edit_preferences" =>
 "Editer les préférences",
@@ -346,7 +346,7 @@ $lang = array(
 "Vous devez remplir tous les champs du formulaire",
 
 "illegal_characters" =>
-"Le nom que vous avez saisi ne peut contenir uniquement des caractères alphanumériques, des underscores ou des tirets",
+"Le nom que vous avez saisi ne peut uniquement contenir des caractères alphanumériques, des underscores ou des tirets",
 
 "edit_template_group_order" =>
 "Editer l'ordre des groupes",
@@ -403,7 +403,7 @@ $lang = array(
 "Exporter les fichiers comme",
 
 "export_will_be_zip" =>
-"Note : Les données exportées seront envoyés dans une archive ZIP",
+"Note : Les données exportées seront envoyées dans une archive ZIP",
 
 "choose_templates" =>
 "Choisissez les modèles que vous souhaitez exporter comme fichiers",
@@ -595,7 +595,7 @@ $lang = array(
 "Recherche",
 
 'no_results' =>
-"Le terme de recherche que vous avez sais n'a pu être trouvé dans aucun de vos modèles.",
+"Le terme de recherche que vous avez saisi n'a pu être trouvé dans aucun de vos modèles.",
 
 'search_terms' =>
 "Termes de recherche :",
@@ -630,7 +630,7 @@ HTTP, merci de lire la documentation.",
 
 'enable_http_authentication_note' =>
 "Si la connexion échoue, l'utilisateur verra une page 401 Non Autorisé et non le modèle de redirection ci-dessous.
-De plus, cette fonctionnalité est habituellement disponible que lorsque PHP est exécuté comme un module Apache.",
+De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP est exécuté comme un module Apache.",
 
 'http_auth_protected' =>
 'Protégé par Autenthification HTTP',
@@ -639,7 +639,7 @@ De plus, cette fonctionnalité est habituellement disponible que lorsque PHP est
 "Gestionnaire des préférences de modèle",
 
 'settings_manager' =>
-"Paeramètres/Gestionnaire",
+"Paramètres/Gestionnaire",
 
 'do_not_change' =>
 "Ne pas changer",

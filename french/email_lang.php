@@ -40,7 +40,7 @@ $lang = array(
 "Vous ne pouvez soumettre les formulaires d'email que toutes les %s secondes",
 
 "em_email_sent" =>
-"Votre message email a été .",
+"Votre message email a été expédié.",
 
 
 

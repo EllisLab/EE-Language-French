@@ -10,7 +10,7 @@ $lang = array(
 "Pages",
 
 "pages_module_description" =>
-"Utilises les articles du canal pour créer des pages statiques",
+"Utiliser les articles du canal pour créer des pages statiques",
 
 //----------------------------------------
 

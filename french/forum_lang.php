@@ -7,6 +7,7 @@ $lang = array(
 
 "forum_module_description" =>
 "Module de forum de discussion",
+
 'avatar' =>
 'Avatar',
 
@@ -32,16 +33,16 @@ $lang = array(
 'Propulsé par ExpressionEngine',
 
 'ee_discussion_forum' =>
-'Forum de Discussion ExpressionEngine',
+'Forum de discussion ExpressionEngine',
 
 'ee_forums' =>
 'Forums ExpressionEngine',
 
 'no_new_messages' =>
-'Aucun nouveaux messages',
+'Aucun nouveau message',
 
 'new_messages' =>
-'Nouveau messages',
+'Nouveaux messages',
 
 'post_permalink' =>
 'Lien permanent vers cet article',
@@ -290,7 +291,7 @@ $lang = array(
 "Auteur",
 
 "ago" =>
-"%Il y a x",
+"Il y a x%",
 
 "total_registered_members" =>
 "Nombre de membres inscrits :",
@@ -446,7 +447,7 @@ $lang = array(
 "Rétablissement de membre",
 
 "member_banning_form" =>
-"Formulaire d'exclusion de memebre",
+"Formulaire d'exclusion de membre",
 
 "member_ban_warning" =>
 "Etes-vous sûr de vouloir suspendre le compte du membre suivant ?",
@@ -629,13 +630,13 @@ $lang = array(
 "Réponse par",
 
 "move_reply_requires_id" =>
-"Vous dezvez spécifier un ID de sujet valide pour déplacer une réponse.",
+"Vous devez spécifier un ID de sujet valide pour déplacer une réponse.",
 
 'found_in' =>
 'Mots clés trouvés dans les réponses suivantes :',
 
 'found_in_many' =>
-'Mots clés trouvés dans plusieures réponses',
+'Mots clés trouvés dans plusieurs réponses',
 
 'search_thread' =>
 'Rechercher dans ce fil',
@@ -653,13 +654,13 @@ $lang = array(
 "Formatage",
 
 "guided" =>
-"Guideé",
+"Guidée",
 
 "normal" =>
 "Normal",
 
 "smileys" =>
-"Smileys",
+"Emoticônes",
 
 "thread_review" =>
 "Vérification de fil",
@@ -809,7 +810,7 @@ $lang = array(
 "Désabonnement effectué",
 
 "your_subscription_cancelled" =>
-"Votre abonnement au sujet suivant a été enlevé :",
+"Vous n'êtes plus abonné au sujet suivant :",
 
 "subscribe_to_thread" =>
 "S'abonner à ce fil",
@@ -827,7 +828,7 @@ $lang = array(
 "Vous êtes maintenant abonné au fil suivant :",
 
 "you_have_been_unsubscribed" =>
-"Votre abonement au fil suivant a été enlevé :",
+"Votre abonnement au fil suivant a été enlevé :",
 
 "post_throttle" =>
 "Vous n'êtes autorisé à publier que toutes les %x secondes",
@@ -836,7 +837,7 @@ $lang = array(
 "Impossible de recevoir votre soumission pour le moment",
 
 "post_too_big" =>
-"Votre message est trop grand. Le nombre maximum de caractères autorisés est %x",
+"Votre message est trop long. Le nombre maximum de caractères autorisés est %x",
 
 "announcement" =>
 "Annonce",
@@ -1025,7 +1026,7 @@ $lang = array(
 "Mots clés :",
 
 "enable_smileys" =>
-"Activer les smileys dans ce message",
+"Activer les émoticônes dans ce message",
 
 'forum_boards' =>
 "Tableau des forums",

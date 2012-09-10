@@ -10,7 +10,7 @@ $lang = array(
  *
  */
 
-'tools'					=> 'Outils',
+'tools'  				=> 'Outils',
 'tools_data' 			=> 'Données',
 'tools_files' 			=> 'Gestionnaire de fichiers',
 'tools_logs'			=> 'Journaux',
@@ -87,7 +87,7 @@ $lang = array(
 'confirm_del_file'		=> 'Etes-vous sûr de vouloir définitivement supprimer ce fichier ?',
 'confirm_del_files'		=> 'Etes-vous sûr de vouloir définitivement supprimer ces fichiers ?',
 'delete_success'		=> 'Suppression effectuée',
-'delete_fail'			=> 'Un problème est survenu lors de la suppression d\un ou plusieurs fichier(s). Veuillez vérifier la liste de fichiers ci-dessous.',
+'delete_fail'			=> 'Un problème est survenu lors de la suppression d\'un ou plusieurs fichier(s). Veuillez vérifier la liste de fichiers ci-dessous.',
 'no_file'				=> 'Aucun fichier sélectionné',
 'file_name'				=> 'Nom du fichier',
 'file_size'				=> 'Taille du fichier',
@@ -120,9 +120,9 @@ $lang = array(
 "rotate_flip_vert"		=> "Retourner verticalement",
 "rotate_flip_hor"		=> "Retourner horizontalement",
 "maintain_ratio"		=> "Conserver les proportions",
-'width_needed'			=> 'A Une largeur ou largeur/hauteur doivent être sélectionnés',
+'width_needed'			=> 'Une largeur ou largeur/hauteur doivent être sélectionnées',
 
-"crop_mode"				=> "Mode Rogner",
+"crop_mode"				=> "Mode Rognage",
 "resize_mode"			=> "Mode Redimensionnement",
 "rotate_mode"			=> "Mode Rotation",
 'apply_changes'			=> 'Appliquer les changements ?',

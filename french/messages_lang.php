@@ -18,7 +18,7 @@ $lang = array(
 'Vous n\'êtes pas autorisé à ajouter plus de pièces jointes.',
 
 'click_preview_to_attach' => 
-'Pour joindre plus d\'un élément cliquez sur aperçu après avoir choisi un fichier',
+'Pour joindre plus d\'un élément, cliquez sur aperçu après avoir choisi un fichier',
 
 'view_folder' => 
 'Voir le dossier',
@@ -177,7 +177,7 @@ $lang = array(
 'Message',
 
 'smileys' => 
-'Smileys',
+'Emoticônes',
 
 'empty_recipients_field' => 
 'Le message doit avoir au moins un destinataire.',

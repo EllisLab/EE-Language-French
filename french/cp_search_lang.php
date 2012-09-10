@@ -26,7 +26,7 @@ $lang = array(
 "Voir les membres",
 
 'member_ip_search' =>
-"Rechercher adresse IP d'un membre",
+"Rechercher l'adresse IP d'un membre",
 
 'member_custom_profile_fields' =>
 "Champs personnalisés de profil",
@@ -87,7 +87,7 @@ $lang = array(
 "Importer depuis Movable Type",
 
 'util_import_from_xml' =>
-"Importer depuis fichier XML",
+"Importer depuis un fichier XML",
 
 'util_translation_tool' =>
 "Utilitaire de traduction",

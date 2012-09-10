@@ -381,7 +381,7 @@ $lang = array(
 'Les administrateurs n\'autorisent pas le changement d\'identifiants',
 
 'password' => 
-'Mots de passe',
+'Mot de passe',
 
 'password_change' => 
 'Formulaire de changement de mot de passe',
