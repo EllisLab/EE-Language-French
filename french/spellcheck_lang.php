@@ -22,7 +22,7 @@ $lang = array(
 'Enregistrer l\'édition',
 
 'spell_edit_word' =>
-'Editer un mot',
+'Éditer un mot',
 
 'unsupported_browser' =>
 'Navigateur non supporté',
@@ -31,12 +31,12 @@ $lang = array(
 'Aucune erreur trouvée',
 
 'spellcheck_in_progress' =>
-'Vérification en cours...',
+'Vérification en cours&hellip',
 
 
 ''=>''
 );
 
 
-/* End of file lang.spellcheck.php */
-/* Location: ./system/expressionengine/language/french/lang.spellcheck.php */
+/* End of file spellcheck_lang.php */
+/* Location: ./system/expressionengine/language/french/spellcheck_lang.php */

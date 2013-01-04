@@ -29,6 +29,12 @@ $lang = array(
 "ip_result" =>
 "L'adresse IP que vous avez saisie provient du pays suivant :",
 
+'ip_not_valid' =>
+'L\'adresse IP que vous avez saisie n\'est pas une adresse IP valide.',
+
+'ip_not_found' =>
+'Aucun résultat pour l\'adresse IP saisie.',
+
 "manage_banlist" =>
 "Gestion de votre liste de pays exclus",
 
@@ -47,9 +53,44 @@ $lang = array(
 "banlist_updated" =>
 "La liste des exclus a été mise à jour avec succès",
 
+'update_ips' =>
+'Mettre à jour la base de données des adresses IP',
+
+'update_info' =>
+'Mettre à jour l\'information de l\'IP et du code pays',
+
+'update_blurb' =>
+'Les nouvelles données seront automatiquement téléchargées et appliquées. Cela peut prendre plusieurs minutues et augmenter la charge sur votre base de données.',
+
+'update_data_provider' =>
+'Source des données : <a href=\'%d\' title=\'Fournisseur de données\'>maxmind.com</a>',
+
+'last_update' =>
+'Dernière MAJ : ',
+
+'ip_db_updating' =>
+'Téléchargement de la MAJ&hellip;',
+
+'ip_db_downloaded' =>
+'Base de données des IP téléchargée. Décompactage&hellip;',
+
+'ip_db_unpacked' =>
+'Base de données des IP décompactée. Insertion des données&hellip;',
+
+'ip_db_updated' =>
+'La MAJ de la base de données des adresses IP a réussi !',
+
+'ip_db_failed' =>
+'La MAJ de la base de données des adresses IP a échoué !',
+
+'ip_db_connection_403' =>
+'Erreur de connection 403, merci d\'attendre 24 heures avant de retenter de rappatrier la base de données.',
+
+'ip_db_connection_error' =>
+'Impossible de se connecter au fournisseur de données.',
 
 ''=>''
 );
 
-/* End of file lang.ip_to_nation.php */
-/* Location: ./system/expressionengine/language/french/lang.ip_to_nation.php */
+/* End of file ip_to_nation_lang.php */
+/* Location: ./system/expressionengine/language/french/ip_to_nation_lang.php */

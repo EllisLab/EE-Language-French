@@ -1,1118 +1,1146 @@
 <?php
+
 $lang = array(
 
+//----------------------------
+// Publish page
+//----------------------------
 
-'url_title_is_index' => 
+'url_title_is_index' =>
 'Le titre URL ne peut être nommé "index"',
 
-'no_related_entries' => 
+'no_related_entries' =>
 'Aucun article n\'existe pour ce canal lié',
 
-'localized_date' => 
+'localized_date' =>
 'Localisé',
 
-'fixed_date' => 
+'fixed_date' =>
 'Fixé',
 
-'calendar' => 
+'calendar' =>
 'Calendrier',
 
-'edit_categories' => 
-'Editer les catégories',
+'edit_categories' =>
+'Éditer les catégories',
 
-'revisions' => 
+'revisions' =>
 'Révisions',
 
-'rev_date' => 
+'rev_date' =>
 'Date',
 
-'rev_author' => 
+'rev_author' =>
 'Auteur',
 
-'revision' => 
+'revision' =>
 'Révision',
 
-'formatting' => 
+'formatting' =>
 'Formatage :',
 
-'live_view' => 
+'live_view' =>
 'Cliquez pour l\'aperçu',
 
-'versioning_enabled' => 
+'versioning_enabled' =>
 'Activer les versions pour cet article',
 
-'revision_warning' => 
+'revision_warning' =>
 'Vous êtes sur le point de charger une révision précédente. Tout le contenu non sauvegardé sur cette page sera perdu.',
 
-'load_revision' => 
+'load_revision' =>
 'Charger une révision',
 
-'current_rev' => 
+'current_rev' =>
 'Actuellement chargé',
 
-'version_preview' => 
+'version_preview' =>
 'Révision numéro %s',
 
-'no_revisions_exist' => 
+'no_revisions_exist' =>
 'Il n\'y a actuellement aucune révision pour cet article.',
 
-'save_revision' => 
+'save_revision' =>
 'Sauvegarder la révision',
 
-'revision_saved' => 
+'revision_saved' =>
 'Révision sauvegardée',
 
-'dst_enabled' => 
+'dst_enabled' =>
 'Heure d\'été active pour la date de cet article',
 
-'multi_entries_updated' => 
+'multi_entries_updated' =>
 'Article(s) mis à jour',
 
-'multi_entry_editor' => 
-'Editeur multi-articles',
+'multi_entry_editor' =>
+'Éditeur multi-articles',
 
-'unauthorized_to_edit' => 
+'unauthorized_to_edit' =>
 'Vous n\'êtes pas autorisé à éditer l\'article que vous avez sélectionné.',
 
-'today' => 
+'today' =>
 'Aujourd\'hui',
 
-'edit_selected' => 
-'Editer la sélection',
+'edit_selected' =>
+'Éditer la sélection',
 
-'confirm_exit' => 
-'Lorsque vous quitterez, toutes les données seront perdues. Etes-vous sûr de vouloir quitter ?',
+'confirm_exit' =>
+'Lorsque vous quitterez, toutes les données seront perdues. Êtes-vous sûr de vouloir quitter ?',
 
-'delete_selected' => 
+'delete_selected' =>
 'Supprimer la sélection',
 
-'forum' => 
+'forum' =>
 'Forum',
 
-'forum_topic_id' => 
+'forum_topic_id' =>
 'ID du sujet de forum',
 
-'forum_topic_id_info' => 
+'forum_topic_id_info' =>
 'Ce champ permet à cet article d\'être associé avec un sujet de forum.',
 
-'forum_topic_id_exitsts' => 
+'forum_topic_id_exitsts' =>
 'Si un sujet de forum existe déjà et que vous souhaitez l\'associer avec votre article, saisissez le numéro ID du sujet et laissez les champs ci-dessus vides.',
 
-'forum_title' => 
+'forum_title' =>
 'Titre du sujet de forum',
 
-'forum_body' => 
+'forum_body' =>
 'Texte du sujet de forum',
 
-'forums_unavailable' => 
+'forums_unavailable' =>
 'Il n\'y a aucun forum ouvert à la publication',
 
-'view_comments' => 
+'view_comments' =>
 'Voir les commentaires',
 
-'live_look' => 
+'live_look' =>
 'Aperçu rapide',
 
-'delete_comments_confirm' => 
-'Etes-vous sûr de vouloir définitivement supprimer ces commentaires ?',
+'delete_comments_confirm' =>
+'Êtes-vous sûr de vouloir définitivement supprimer ces commentaires ?',
 
-'comment_updated' => 
+'comment_updated' =>
 'Commentaire mis à jour',
 
-'field_blank' => 
+
+
+'field_blank' =>
 'Vous avez laissé un champ vide.',
 
-'select_action' => 
+'select_action' =>
 'Choisissez vos options de placement',
 
-'image_location' => 
-'Location de l\'image',
+'image_location' =>
+'Emplacement de l\'image',
 
-'file_uploaded' => 
-'Fichier téléchargé :',
+'file_uploaded' =>
+'Fichier envoyé :',
 
-'place_file' => 
+'place_file' =>
 'Insérer le fichier',
 
-'place_image' => 
+'place_image' =>
 'Insérer l\'image',
 
-'place_file_close' => 
+'place_file_close' =>
 'Insérer le fichier et fermer la fenêtre',
 
-'place_image_close' => 
+'place_image_close' =>
 'Insérer l\'image et fermer la fenêtre',
 
-'embedded' => 
+'embedded' =>
 'Inclus dans l\'article',
 
-'popup_link' => 
+'popup_link' =>
 'Lien du pop-up d\'image',
 
-'popup_thumb' => 
+'popup_thumb' =>
 'Lien du pop-up de miniature',
 
-'thumb_info' => 
+'thumb_info' =>
 'Si vous ne souhaitez pas redimensionner ou créer une miniature, passez les options ci-dessous',
 
-'check_spelling' => 
+'check_spelling' =>
 'Vérifier l\'orthographe',
 
-'spell_check' => 
+'spell_check' =>
 'Vérificateur d\'orthographe',
 
-'no_spellcheck_lib' => 
+'no_spellcheck_lib' =>
 'Erreur : la bibliothèque Pspell ne semble pas installée.',
 
-'html_glossary' => 
+'html_glossary' =>
 'Glossaire',
 
-'no_glossary' => 
+'no_glossary' =>
 'Le glossaire n\'existe pas',
 
-'no_smileys' => 
+'no_smileys' =>
 'Impossible de localiser les émoticônes',
 
-'image_link' => 
+'image_link' =>
 'Lien de l\'image',
 
-'font' => 
+'font' =>
 'Police',
 
-'heading_1' => 
+'heading_1' =>
 'Titrage 1',
 
-'heading_2' => 
+'heading_2' =>
 'Titrage 2',
 
-'heading_3' => 
+'heading_3' =>
 'Titrage 3',
 
-'heading_4' => 
+'heading_4' =>
 'Titrage 4',
 
-'heading_5' => 
+'heading_5' =>
 'Titrage 5',
 
-'paragraph' => 
+'paragraph' =>
 'Paragraphe',
 
-'blockquote' => 
+'blockquote' =>
 'Citation',
 
-'pre' => 
+'pre' =>
 'Pre-formaté',
 
-'div' => 
+'div' =>
 'Div',
 
-'span' => 
+'span' =>
 'Span',
 
-'anchor' => 
+'anchor' =>
 'Hyperlien',
 
-'clear' => 
+'clear' =>
 'Effacer',
 
-'bold' => 
+'bold' =>
 'Gras',
 
-'italic' => 
+'italic' =>
 'Italique',
 
-'unordered_list' => 
+'unordered_list' =>
 'Liste désordonnée',
 
-'ordered_list' => 
+'ordered_list' =>
 'Liste ordonnée',
 
-'horizontal_rule' => 
+'horizontal_rule' =>
 'Règle horizontale',
 
-'nonbr_space' => 
+'nonbr_space' =>
 'Espace insécable',
 
-'line_break' => 
+'line_break' =>
 'Retour à la ligne',
 
-'publish_form' => 
+'publish_form' =>
 'Formulaire de publication',
 
-'pings' => 
+'pings' =>
 'Pings',
 
-'no_ping_sites' => 
+'no_ping_sites' =>
 'Aucun serveur de Ping n\'existe actuellement.',
 
-'add_ping_sites' => 
+'add_ping_sites' =>
 'Ajouter des serveurs de Ping.',
 
-'entry_date' => 
+'entry_date' =>
 'Date de l\'article',
 
-'url_title_is_numeric' => 
+'url_title_is_numeric' =>
 'Les nombres ne peuvent être utilisés comme titres URL',
 
-'unable_to_create_url_title' => 
+'unable_to_create_url_title' =>
 'Impossible de créer un titre URL valide pour votre article',
 
-'select_all' => 
+'select_all' =>
 'Sélectionner/Désélectionner tout',
 
-'results' => 
+'results' =>
 'résultats',
 
-'close_for_no_change' => 
+'close_for_no_change' =>
 'Fermer cette fenêtre pour annuler.',
 
-'date_calendar' => 
+'date_calendar' =>
 'Calendrier',
 
-'comment_expiration_date' => 
+'comment_expiration_date' =>
 'Expiration commentaire',
 
-'invalid_comment_date_formatting' => 
+'invalid_comment_date_formatting' =>
 'La date d\'expiration de commentaire que vous avez saisie n\'a pas été formatée correctement (année-mois-jour heure:minute). Laissez le champ vide si vous ne souhaitez pas que vos commentaires expirent.',
 
-'keywords' => 
+'keywords' =>
 'Mots clés',
 
-'title_only' => 
+'title_only' =>
 'Rechercher dans les titres uniquement',
 
-'title_and_body' => 
+'title_and_body' =>
 'Rechercher dans les titres et les articles',
 
-'title_body_comments' => 
+'title_body_comments' =>
 'Rechercher dans les titres, les articles et les commentaires',
 
-'exact_match' => 
+'exact_match' =>
 'Correspondance exacte',
 
-'search' => 
+'search' =>
 'Rechercher',
 
-'filter_by_channel' => 
+'filter_by_channel' =>
 'Filtrer par canal',
 
-'filter_by_category' => 
+'filter_by_category' =>
 'Filtrer par catégorie',
 
-'filter_by_status' => 
+'filter_by_status' =>
 'Filtrer par statut',
 
-'filter_by_author' => 
+'filter_by_author' =>
 'Filtrer par auteur',
 
-'status_changed' => 
+'status_changed' =>
 'Statut modifié',
 
-'publish' => 
+'publish' =>
 'Publier',
 
-'content_publish' => 
+'content_publish' =>
 'Publier',
 
-'content' => 
+'content' =>
 'Contenu',
 
-'no_channel_exists' => 
+'no_channel_exists' =>
 'Vous avez tenté d\'accéder à un canal qui n\'existe pas.',
 
-'no_entries_matching_that_criteria' => 
+'no_entries_matching_that_criteria' =>
 'Il n\'y a aucun article correspondant aux critères que vous avez spécifiés.',
 
-'no_entries_exist' => 
+'no_entries_exist' =>
 'Il n\'y a aucun article dans ce canal',
 
-'select_channel_to_post_in' => 
+'select_channel_to_post_in' =>
 'Choisissez le canal dans lequel publier',
 
-'select_channel_to_edit' => 
+'select_channel_to_edit' =>
 'Choisissez le canal que vous souhaitez afficher',
 
-'this_entry_will_appear_in' => 
+'this_entry_will_appear_in' =>
 'Cet article apparaîtra dans :',
 
-'unauthorized_for_this_channel' => 
+'unauthorized_for_this_channel' =>
 'Vous n\'êtes pas autorisé à publier dans ce canal',
 
-'unauthorized_for_any_channels' => 
+'unauthorized_for_any_channels' =>
 'Vous n\'êtes pas autorisé à publier des articles',
 
-'unauthorized_to_delete_others' => 
+'unauthorized_to_delete_others' =>
 'Vous n\'êtes autorisé qu\'à supprimer des articles dont vous êtes l\'auteur',
 
-'unauthorized_to_delete_self' => 
+'unauthorized_to_delete_self' =>
 'Vous n\'êtes pas autorisé à supprimer vos propres articles',
 
-'channel' => 
+'channel' =>
 'Canal',
 
-'channels' => 
+'channels' =>
 'Canaux',
 
-'pages' => 
+'pages' =>
 'Pages',
 
-'new_entry' => 
+'new_entry' =>
 'Nouvel article',
 
-'files' => 
+'files' =>
 'Fichiers',
 
-'tabs' => 
+'tabs' =>
 'Onglets',
 
-'add_tab' => 
+'add_tab' =>
 'Ajouter un onglet',
 
-'tab_name' => 
+'tab_name' =>
 'Nom de l\'onglet',
 
-'tab_name_required' => 
-'Veuillez choisir un nom pour votre onglet.',
+'tab_name_required' =>
+'Choisissez un nom pour votre onglet.',
 
-'duplicate_tab_name' => 
+'duplicate_tab_name' =>
 'Un onglet portant ce nom existe déjà.',
 
-'illegal_characters' => 
+'illegal_characters' =>
 'Les noms d\'onglet ne peuvent contenir que des caractères alphanumériques, des underscores ou des tirets',
 
-'authors' => 
+'authors' =>
 'Auteurs',
 
-'fields' => 
+'fields' =>
 'Champs',
 
-'publish_layout' => 
+'publish_layout' =>
 'Disposition page Publier',
 
-'save_layout' => 
+'save_layout' =>
 'Enregistrer la disposition',
 
-'remove_layout' => 
+'remove_layout' =>
 'Supprimer la disposition',
 
-'preview_layout' => 
+'preview_layout' =>
 'Aperçu de la disposition',
 
-'refresh_layout' => 
+'refresh_layout' =>
 'Actualiser la disposition',
 
-'tab_count_zero' => 
+'tab_count_zero' =>
 'Il doit y avoir au moins un onglet de disponible pour stocker les champs.',
 
-'no_member_groups' => 
+'no_member_groups' =>
 'Vous devez sélectionner au moins un groupe de membre pour appliquer/supprimer une disposition.',
 
-'layout_removed' => 
+'layout_removed' =>
 'Disposition supprimée.',
 
-'tab_has_req_field' => 
+'tab_has_req_field' =>
 'Cet onglet ne peut pas être effacé parce qu\'il contient les champs obligatoires :',
 
-'layout_group' => 
+'layout_group' =>
 'Groupe',
 
-'choose_layout_group_preview' => 
+'choose_layout_group_preview' =>
 'Sélectionnez le groupe de disposition que vous souhaitez prévisualiser.',
 
-'layout_save_warning' => 
+'layout_save_warning' =>
 'Si vous avez modifié votre disposition, les changements ne seront pas sauvegardés.',
 
-'autosave_success' => 
+'autosave_success' =>
 'Article sauvegardé automatiquement',
 
-'autosave_title' => 
+'autosave_title' =>
 'Données sauvegardées disponibles',
 
-'autosave_warning_1' => 
+'autosave_warning_1' =>
 'ExpressionEngine a enregistré des données de cet article avant sa sauvegarde.',
 
-'autosave_warning_2' => 
+'autosave_warning_2' =>
 'Les données enregistrées sont supprimées lorsque un article est sauvegardé ou re-sauvegardé.',
 
-'autosave_warning_3' => 
+'autosave_warning_3' =>
 'Souhaitez-vous charger ces données maintenant ?',
 
-'add_author' => 
+'add_author' =>
 'Ajouter un auteur',
 
-'add_author_desc' => 
+'add_author_desc' =>
 'Les paramètres de groupe outrepassent les paramètres individuels, et certains utilisateurs ne peuvent être supprimés de la liste d\'auteurs.',
 
-'no_potential_authors' => 
+'no_potential_authors' =>
 'Aucun membre disponible ne peut être ajouté à la liste d\'auteurs.',
 
-'hide_toolbar' => 
+'hide_toolbar' =>
 'Masquer la barre d\'outils',
 
-'show_toolbar' => 
+'show_toolbar' =>
 'Afficher la barre d\'outils',
 
-'button_mode' => 
-'Mode bouton:',
+'button_mode' =>
+'Mode bouton :',
 
-'guided' => 
+'guided' =>
 'Guidé',
 
-'normal' => 
+'normal' =>
 'Normal',
 
-'view_entry' => 
+'view_entry' =>
 'Voir l\'article',
 
-'preview_entry' => 
+'preview_entry' =>
 'Aperçu de l\'article',
 
-'edit_entry' => 
-'Editer l\'article',
+'edit_entry' =>
+'Éditer l\'article',
 
-'edit_channel_entries' => 
-'Editer les articles',
+'edit_channel_entries' =>
+'Éditer les articles',
 
-'continue_editing' => 
+'continue_editing' =>
 'Continuer l\'édition',
 
-'entry_status' => 
+'entry_status' =>
 'Statut de l\'article',
 
-'status' => 
+'status' =>
 'Statut',
 
-'comments' => 
+'comments' =>
 'Commentaires',
 
-'open' => 
+'open' =>
 'Ouvert',
 
-'close' => 
+'close' =>
 'Fermer',
 
-'closed' => 
+'closed' =>
 'Fermé',
 
-'options' => 
+'options' =>
 'Options',
 
-'sticky' => 
+'sticky' =>
 'Faire remonter l\'article',
 
-'allow_comments' => 
+'allow_comments' =>
 'Autoriser les commentaires',
 
-'ping_sites' => 
+'ping_sites' =>
 'Sites pour le Ping',
 
-'select_entries_to_ping' => 
+'select_entries_to_ping' =>
 'Choisissez les articles pour lesquels effectuer un Ping',
 
-'view_previous_pings' => 
+'view_previous_pings' =>
 'Voir les Pings précédents',
 
-'previously_pinged_urls' => 
+'previously_pinged_urls' =>
 'Vous avez précédemment effectué un Ping pour les URLs suivantes',
 
-'date' => 
+'date' =>
 'Date',
 
-'start_date' => 
+'start_date' =>
 'Début',
 
-'end_date' => 
+'end_date' =>
 'Fin',
 
-'expiration_date' => 
+'expiration_date' =>
 'Date d\'expiration',
 
-'invalid_date_formatting' => 
+'invalid_date_formatting' =>
 'La date saisie n\'a pas été formatée correctement (année-mois-jour heure:minute)',
 
-'date_outside_of_range' => 
+'date_outside_of_range' =>
 'La date que vous avez saisie est en dehors de la plage acceptée (1902 - 2037).',
 
-'category' => 
+'category' =>
 'Catégorie',
 
-'categories' => 
+'categories' =>
 'Catégories',
 
-'no_categories' => 
+'no_categories' =>
 'Aucune catégorie n\'a été assignée à ce canal.',
 
-'title' => 
+'title' =>
 'Titre',
 
-'url_title' => 
+'url_title' =>
 'Titre URL',
 
-'author' => 
+'author' =>
 'Auteur',
 
-'newline_format' => 
+'newline_format' =>
 'Formatage :',
 
-'none' => 
+'none' =>
 'Aucun',
 
-'xhtml' => 
+'xhtml' =>
 'XHTML',
 
-'auto_br' => 
+'auto_br' =>
 'Auto &lt;br /&gt;',
 
-'link' => 
+'link' =>
 'Lien',
 
-'image' => 
+'image' =>
 'Image',
 
-'email' => 
+'email' =>
 'Email',
 
-'upload' => 
+'upload' =>
 'Télécharger',
 
-'upload_file' => 
+'upload_file' =>
 'Télécharger Fichier',
 
-'file_upload' => 
-'Téléchargement de fichier',
+'file_upload' =>
+'Envoi de fichier',
 
-'upload_dir_choose' => 
-'Choisissez un répertoire de téléchargement',
-
-'upload_to' => 
-'',
-
-'emoticons' => 
-'Emoticônes',
-
-'choose_a_destination_for_emoticon' => 
-'Choisissez une destination pour votre émoticône',
-
-'click_emoticon' => 
-'Cliquez sur une image pour l\'insérer dans votre article',
-
-'no_emoticons' => 
-'Impossible de trouver l\'emplacement de vos émoticônes',
-
-'close_all' => 
-'Fermer tout',
-
-'missing_title' => 
-'Votre article doit avoir un titre.',
-
-'there_are_required_fields1' => 
-'Il y a ',
-
-'there_are_required_fields2' => 
-' des champs requis qui n\'ont pas été remplis.',
-
-'missing_date' => 
-'Votre article doit avoir une date.',
-
-'title_not_unique' => 
-'Un article portant ce titre existe déjà. Les titres doivent être uniques.',
-
-'url_title_not_unique' => 
-'Un article portant ce titre URL existe déjà. Les titres URL doivent être uniques.',
-
-'entry_has_been_added' => 
-'Nouvel article ajouté',
-
-'entry_has_been_updated' => 
-'L\'article a été mis à jour',
-
-'xmlrpc_ping_errors' => 
-'Les Ping XML-RPC suivants ont été refusés :',
-
-'click_to_view_your_entry' => 
-'Cliquez ici pour voir votre article',
-
-'view' => 
-'Voir',
-
-'edit_this_entry' => 
-'Editer cet article',
-
-'view_filtered' => 
-'Retournez aux articles filtrés',
-
-'autosaved_entries' => 
-'Articles auto-enregistrés',
-
-'autosaved' => 
-'Auto-enregistré',
-
-'original' => 
-'Original',
-
-'discard_autosave' => 
-'Effacer les données auto-enregistrées',
-
-'date_range' => 
-'Intervalle de date',
-
-'past_day' => 
-'Dernières 24 heures',
-
-'past_week' => 
-'Les 7 derniers jours',
-
-'past_month' => 
-'Les 30 derniers jours',
-
-'past_six_months' => 
-'Les 180 derniers jours',
-
-'past_year' => 
-'Les 365 derniers jours',
-
-'any_date' => 
-'Toutes les dates',
-
-'results_per_page' => 
-'Résultats par page',
-
-'order' => 
-'Ordre',
-
-'ascending' => 
-'Plus ancien en premier',
-
-'descending' => 
-'Plus récent en premier',
-
-'alpha' => 
-'Alphabétique',
-
-'delete_confirm' => 
-'Confirmation de suppression',
-
-'delete_entry_confirm' => 
-'Etes-vous sûr de vouloir définitivement supprimer cet article ?',
-
-'delete_entries_confirm' => 
-'Etes-vous sûr de vouloir définitivement supprimer ces articles ?',
-
-'entries_deleted' => 
-'Supprimé',
-
-'html_buttons_no_cursor' => 
-'Pour utiliser ces boutons vous devez d\'abord placer votre curseur dans un champ.',
-
-'html_buttons_url_text' => 
-'Saisissez l\'URL de l\'hyperlien',
-
-'html_buttons_webpage_text' => 
-'Saisissez le titre du lien',
-
-'html_buttons_title_text' => 
-'Optionnel : Saisissez un attribut de titre',
-
-'html_buttons_image_text' => 
-'Saisissez l\'URL de l\'image',
-
-'html_buttons_email_text' => 
-'Saisissez l\'adresse email',
-
-'html_buttons_email_title' => 
-'Saisissez le titre du lien (ou laissez le champ vide pour utiliser l\'adresse email comme titre)',
-
-'html_buttons_enter_text' => 
-'Saisissez le texte que vous souhaitez formater',
-
-'warning' => 
-'Avertissement',
-
-'file_exists' => 
-'Un fichier portant ce nom existe déjà',
-
-'file_exists_warning' => 
-'Attention ce fichier existe',
-
-'actions' => 
-'Actions',
-
-'action_delete' => 
-'Effacer',
-
-'overwrite_instructions' => 
-'Vous pouvez soit choisir un nouveau nom et le fichier sera renommé, soit soumettre ce formulaire avec le même nom et le fichier sera écrasé.',
-
-'select_destination_dir' => 
+'upload_dir_choose' =>
 'Choisissez un répertoire de destination',
 
-'file_manager' => 
+'upload_to' =>
+'Télécharger vers %s',
+
+'emoticons' =>
+'Émoticônes',
+
+'choose_a_destination_for_emoticon' =>
+'Choisissez une destination pour votre émoticône',
+
+'click_emoticon' =>
+'Cliquez sur une image pour l\'insérer dans votre article',
+
+'no_emoticons' =>
+'Impossible de trouver l\'emplacement de vos émoticônes',
+
+'close_all' =>
+'Fermer tout',
+
+'missing_title' =>
+'Votre article doit avoir un titre.',
+
+'there_are_required_fields1' =>
+'Il y a ',
+
+'there_are_required_fields2' =>
+' des champs requis qui n\'ont pas été remplis.',
+
+'missing_date' =>
+'Votre article doit avoir une date.',
+
+'title_not_unique' =>
+'Un article portant ce titre existe déjà. Les titres doivent être uniques.',
+
+'url_title_not_unique' =>
+'Un article portant ce titre URL existe déjà. Les titres URL doivent être uniques.',
+
+'entry_has_been_added' =>
+'Nouvel article ajouté',
+
+'entry_has_been_updated' =>
+'L\'article a été mis à jour',
+
+'xmlrpc_ping_errors' =>
+'Les Ping XML-RPC suivants ont été refusés :',
+
+'click_to_view_your_entry' =>
+'Cliquez ici pour voir votre article',
+
+'view' =>
+'Voir',
+
+'edit_this_entry' =>
+'Éditer cet article',
+
+'view_filtered' =>
+'Retournez aux articles filtrés',
+
+'publish_another_entry' =>
+'Publier un autre article',
+
+'autosaved_entries' =>
+'Articles auto-enregistrés',
+
+'autosaved' =>
+'Auto-enregistré',
+
+'original' =>
+'Original',
+
+'discard_autosave' =>
+'Effacer les données auto-enregistrées',
+
+'date_range' =>
+'Intervalle de date',
+
+'today' =>
+'Aujourd\'hui',
+
+'past_day' =>
+'Dernières 24 heures',
+
+'past_week' =>
+'Les 7 derniers jours',
+
+'past_month' =>
+'Les 30 derniers jours',
+
+'past_six_months' =>
+'Les 180 derniers jours',
+
+'past_year' =>
+'Les 365 derniers jours',
+
+'any_date' =>
+'Toutes les dates',
+
+'results_per_page' =>
+'Résultats par page',
+
+'order' =>
+'Ordre',
+
+'ascending' =>
+'Plus ancien en premier',
+
+'descending' =>
+'Plus récent en premier',
+
+'alpha' =>
+'Alphabétique',
+
+'delete_confirm' =>
+'Confirmation de suppression',
+
+'delete_entry_confirm' =>
+'Êtes-vous sûr de vouloir définitivement supprimer cet article ?',
+
+'delete_entries_confirm' =>
+'Êtes-vous sûr de vouloir définitivement supprimer ces articles ?',
+
+'entries_deleted' =>
+'Supprimé',
+
+'html_buttons_no_cursor' =>
+'Pour utiliser ces boutons vous devez d\'abord placer votre curseur dans un champ.',
+
+'html_buttons_url_text' =>
+'Saisissez l\'URL de l\'hyperlien',
+
+'html_buttons_webpage_text' =>
+'Saisissez le titre du lien',
+
+'html_buttons_title_text' =>
+'Optionnel : Saisissez un attribut de titre',
+
+'html_buttons_image_text' =>
+'Saisissez l\'URL de l\'image',
+
+'html_buttons_email_text' =>
+'Saisissez l\'adresse email',
+
+'html_buttons_email_title' =>
+'Saisissez le titre du lien (ou laissez le champ vide pour utiliser l\'adresse email comme titre)',
+
+'html_buttons_enter_text' =>
+'Saisissez le texte que vous souhaitez formater',
+
+'warning' =>
+'Avertissement',
+
+'file_exists' =>
+'Un fichier portant ce nom existe déjà',
+
+'file_exists_warning' =>
+'Attention ce fichier existe',
+
+'actions' =>
+'Actions',
+
+'action_delete' =>
+'Effacer',
+
+'overwrite_instructions' =>
+'Vous pouvez soit choisir un nouveau nom et le fichier sera renommé, soit soumettre ce formulaire avec le même nom et le fichier sera écrasé.',
+
+'select_destination_dir' =>
+'Choisissez un répertoire de destination',
+
+'file_manager' =>
 'Gestionnaire de fichiers',
 
-'file_type' => 
+'file_type' =>
 'Type de fichier',
 
-'file_saved' => 
+'file_saved' =>
 'Fichier enregistré',
 
-'non_image' => 
+'image' =>
+'Image',
+
+'non_image' =>
 'Autre qu\'image',
 
-'success' => 
+'success' =>
 'Réussi !',
 
-'you_have_uploaded' => 
+'you_have_uploaded' =>
 'Vous avez téléchargé le fichier suivant :',
 
-'choose_a_destination' => 
+'choose_a_destination' =>
 'Où souhaitez-vous que vos fichiers apparaissent ?',
 
-'no_entry_fields' => 
+'no_entry_fields' =>
 'Il n\'y a aucun champs d\'article dans ce canal.',
 
-'no_comments' => 
+'no_comments' =>
 'Aucun résultat n\'a été retourné pour cet article',
 
-'posted_by' => 
+'posted_by' =>
 'Auteur :',
 
-'located_in' => 
+'located_in' =>
 'Localisation :',
 
-'comment_date' => 
+'comment_date' =>
 'Date :',
 
-'comment_email' => 
+'comment_email' =>
 'Email :',
 
-'comment_url' => 
+'comment_url' =>
 'URL :',
 
-'comment_action' => 
+'comment_action' =>
 'Action :',
 
-'comment_ip' => 
+'comment_ip' =>
 'IP :',
 
-'channel_name' => 
+'channel_name' =>
 'Canal :',
 
-'comment' => 
+'comment' =>
 'Commentaire',
 
-'missing_comment' => 
+'missing_comment' =>
 'Vous devez saisir un commentaire',
 
-'edit_comment' => 
-'Editer le commentaire',
+'edit_comment' =>
+'Éditer le commentaire',
 
-'delete_comment' => 
+'delete_comment' =>
 'Supprimer les commentaires',
 
-'comment_deleted' => 
+'comment_deleted' =>
 'Commentaires supprimés',
 
-'delete_comment_confirm' => 
-'Etes-vous sûr de vouloir définitivement supprimer ce commentaire ?',
+'comment_updated' =>
+'Commentaire mis à jour',
 
-'name' => 
+'status_changed' =>
+'Statut modifié',
+
+'delete_comment_confirm' =>
+'Êtes-vous sûr de vouloir définitivement supprimer ce commentaire ?',
+
+'name' =>
 'Nom',
 
-'url' => 
+'url' =>
 'URL',
 
-'location' => 
-'Localisation',
+'location' =>
+'Ville, Pays',
 
-'continue' => 
+'continue' =>
 'Continuer',
 
-'image_options' => 
+'image_options' =>
 'Options d\'image',
 
-'create_popup' => 
+'create_popup' =>
 'Créer un pop-up pour l\'image ?',
 
-'create_thumb' => 
+'create_thumb' =>
 'Créer une miniature de l\'image',
 
-'constrain_proportions' => 
+'constrain_proportions' =>
 'Conserver les proportions',
 
-'thumb_settings' => 
+'thumb_settings' =>
 'Paramètres d\'image',
 
-'choose_a_destination_for_thumb' => 
+'choose_a_destination_for_thumb' =>
 'Où souhaitez-vous que l\'image apparaisse ?',
 
-'do_not_place_file' => 
+'do_not_place_file' =>
 'Ne pas placer le fichier dans l\'article',
 
-'image_size_not_different' => 
+'image_size_not_different' =>
 'La largeur et la hauteur que vous avez saisies sont identiques à l\'original.',
 
-'width' => 
+'width' =>
 'Largeur',
 
-'height' => 
-'Hauteurs',
+'height' =>
+'Hauteur',
 
-'pixels' => 
+'pixels' =>
 'Pixels',
 
-'percent' => 
+'percent' =>
 'Pourcent',
 
-'resize_image' => 
+'resize_image' =>
 'Redimensionner l\'image',
 
-'return_to_publish' => 
+'return_to_publish' =>
 'Retour à la publication',
 
-'create_thumb_copy' => 
+'create_thumb_copy' =>
 'Créer une copie distincte',
 
-'resize_original' => 
+'resize_original' =>
 'Redimensionner l\'image originale',
 
-'thumb_instructions' => 
+'thumb_instructions' =>
 'Vous pouvez de façon optionnelle redimensionner votre image ou créer une miniature de l\'image.',
 
-'thumbnail_created' => 
+'thumbnail_created' =>
 'Miniature créée',
 
-'image_resized' => 
+'image_resized' =>
 'Votre image a été redimensionnée',
 
-'close_window' => 
+'close_window' =>
 'Fermer la fenêtre',
 
-'close_selected' => 
+'close_selected' =>
 'Fermer la sélection',
 
-'open_selected' => 
+'open_selected' =>
 'Ouvrir la sélection',
 
-'instructions' => 
+'instructions' =>
 'Instructions : ',
 
-'choose_entry_for_comment_move' => 
+'choose_entry_for_comment_move' =>
 'Choisissez un article pour le déplacement de commentaire',
 
-'move_comments_to_entry' => 
+'move_comments_to_entry' =>
 'Déplacer les commentaires vers l\'article',
 
-'move_selected' => 
+'move_selected' =>
 'Déplacer la sélection',
 
-'choose_only_one_entry' => 
+'choose_only_one_entry' =>
 'Vous ne devez choisir qu\'un article',
 
-'add_category' => 
+'add_category' =>
 'Ajouter une catégorie',
 
-'add_categories' => 
+'add_categories' =>
 'Ajouter des catégories',
 
-'remove_categories' => 
+'remove_categories' =>
 'Supprimer des catégories',
 
-'no_autosave_data' => 
+'no_autosave_data' =>
 'Pas d\'article auto-enregistrés',
 
-'autosave_data_available' => 
+'autosave_data_available' =>
 'Données enregistrée automatiquement disponibles',
 
-'no_category_group_match' => 
-'Aucune correspondance de groupe de catégorie n\'a été trouvée pour tous les articles. Veuillez choisir des articles qui possèdent au moins un groupe de catégorie en commun.',
+'autosaved_entries' =>
+'Articles auto-enregistrés',
 
-'multi_entry_category_editor' => 
-'Editeur de catégorie multi-article',
+'no_category_group_match' =>
+'Aucune correspondance de groupe de catégorie n\'a été trouvée pour les articles. Choisissez des articles qui possèdent au moins un groupe de catégorie en commun.',
 
-'url_only' => 
+'multi_entry_category_editor' =>
+'Éditeur de catégorie multi-article',
+
+'url_only' =>
 'URL uniquement',
 
-'no_channels' => 
+'no_channels' =>
 'Aucun canal ne vous est assigné pour ce site.',
 
-'no_channels_exist' => 
+'no_channels_exist' =>
 'Il n\'y a actuellement aucun canal',
 
-'selection_required' => 
+'selection_required' =>
 'Au moins une sélection est nécessaire pour valider',
 
-'no_valid_selections' => 
+'no_valid_selections' =>
 'Aucune sélection valide n\'a été soumise',
 
-'entry_title_with_title' => 
+'entry_title_with_title' =>
 'Titre de l\'article : \'%title\'',
 
-'invalid_author' => 
+'invalid_author' =>
 'L\'auteur sélectionné est invalide.',
 
-'show_all' => 
+'show_all' =>
 'Montrer tous',
 
-'add_new_html_button' => 
+'add_new_html_button' =>
 'Ajouter un nouveau bouton HTML',
 
-'show' => 
+'show' =>
 'Afficher',
 
-'hide' => 
+'hide' =>
 'Masquer',
 
-'write_mode' => 
+'write_mode' =>
 'Mode écriture',
 
-'show_tools' => 
+'show_tools' =>
 'Afficher les outils',
 
-'wm_discard_changes' => 
+// writemode
+'wm_discard_changes' =>
 'Abandonner les modifications',
 
-'wm_publish_to_field' => 
+'wm_publish_to_field' =>
 'Publier dans le champ',
 
-'edit_modes' => 
+'edit_modes' =>
 'Modes d\'édition',
 
-'resize' => 
+'resize' =>
 'Redimensionner',
 
-'crop' => 
+'crop' =>
 'Rogner',
 
-'resize_width' => 
+'resize_width' =>
 'Largeur',
 
-'resize_height' => 
+'resize_height' =>
 'Hauteur',
 
-'crop_width' => 
+'crop_width' =>
 'Largeur',
 
-'crop_height' => 
+'crop_height' =>
 'Hauteur',
 
-'crop_x' => 
+'crop_x' =>
 'X',
 
-'crop_y' => 
+'crop_y' =>
 'Y',
 
-'rotate' => 
+'rotate' =>
 'Effectuer une rotation',
 
-'rotate_90r' => 
+'rotate_90r' =>
 '90&#176; à droite',
 
-'rotate_90l' => 
+'rotate_90l' =>
 '90&#176; à gauche',
 
-'rotate_180' => 
+'rotate_180' =>
 '180&#176',
 
-'rotate_flip_vert' => 
+'rotate_flip_vert' =>
 'Retourner verticalement',
 
-'rotate_flip_hor' => 
+'rotate_flip_hor' =>
 'Retourner horizontalement',
 
-'maintain_ratio' => 
+'maintain_ratio' =>
 'Conserver les proportions',
 
-'width_needed' => 
+'width_needed' =>
 'Une largeur, une largeur/hauteur, ou une direction de rotation doit être sélectionnée',
 
-'edit_image' => 
-'Editer l\'image',
+'edit_image' =>
+'Éditer l\'image',
 
-'layout_success' => 
+'layout_success' =>
 'Disposition sauvegardée',
 
-'layout_failure' => 
+'layout_failure' =>
 'Il y a eu un problème lors de la sauvegarde de votre disposition.',
 
-'layout_failure_required' => 
+'layout_failure_required' =>
 'Les champs suivants sont requis et ne peuvent être masqués :',
 
-'layout_failure_invalid_name' => 
+'layout_failure_invalid_name' =>
 'Les champs suivants contiennent des caractères invalides dans les noms courts :',
 
-'layout_preview' => 
+'layout_preview' =>
 'Vous prévisualisez le rendu de',
 
-'no_entry_to_update' => 
+'no_entry_to_update' =>
 'Vous avez tenté de mettre à jour un article qui n\'existe pas.',
 
-'invalid_date' => 
+'invalid_date' =>
 'La date que vous avez saisie est invalide.',
 
-'comment_moved' => 
+'fields' =>
+'Champs',
+
+'comment_moved' =>
 'Commentaire déplacé',
 
-'comments_moved' => 
+'comments_moved' =>
 'Commentaires déplacés',
 
-'search_entries' => 
+'search_entries' =>
 'Rechercher des articles',
 
-'unable_to_load_tab' => 
+'unable_to_load_tab' =>
 'Impossible de charger le fichier relatif à l\'onglet Publier demandé : s',
 
-'unable_to_load_field_type' => 
+'unable_to_load_field_type' =>
 'Impossible de charger le fichier relatif au type de champ demandé :  %s.<br /> Confirmez que le fichier relatif au type de champ se situe dans le répertoire expressionengine/third_party/',
 
-'no_templates' => 
+'no_templates' =>
 'Aucun modèles',
 
-'add_file' => 
+'add_file' =>
 'Ajouter un fichier',
 
-'remove_file' => 
+'remove_file' =>
 'Supprimer un fichier',
 
-'directory_no_access' => 
+'directory_no_access' =>
 'Vous n\'avez pas accès au répertoire choisi pour ce champ',
 
-'invalid_selection' => 
+'invalid_selection' =>
 'Sélection invalide',
 
-'field_not_editable' => 
+'field_not_editable' =>
 'Ce champ n\'est pas éditable',
 
-'screen_name' => 
-'Nom d\'utilisateur',
+'screen_name' =>
+'Pseudo',
 
-'member_group' => 
+'member_group' =>
 'Membre d\'un groupe',
 
-'menu_publish' => 
+/* PUblish Tabs */
+'menu_publish' =>
 'Publier',
 
-'menu_date' => 
+'menu_date' =>
 'Date',
 
-'menu_pings' => 
+'menu_pings' =>
 'Pings',
 
-'menu_pages' => 
+'menu_pages' =>
 'Pages',
 
-'menu_options' => 
+'menu_options' =>
 'Options',
 
-'menu_categories' => 
+'menu_categories' =>
 'Catégories',
 
-'menu_forum' => 
+'menu_forum' =>
 'Forums',
-
-'translate' => 
-'Update',
 
 ''=>''
 );
 
-// End of File
+
+/* End of file publish_lang.php */
+/* Location: ./system/expressionengine/language/french/publish_lang.php */

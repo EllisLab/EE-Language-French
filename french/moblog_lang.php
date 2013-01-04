@@ -33,47 +33,17 @@ $lang = array(
 'channel' =>
 'Canal',
 
-'gallery' =>
-'Galerie',
-
-'moblog_gallery_settings' =>
-'Paramètres de la galerie pour le Moblog',
-
-'gallery_id'	=>
-'Choisissez une galerie',
-
-'gallery_cat' =>
-'Catégorie d\'article',
-
-'gallery_status' =>
-'Statut de l\'article',
-
-'gallery_comments' =>
-'Autoriser les commentaires',
-
 'ping_sites' =>
 'Sites pour le Ping',
 
 'ping_servers' =>
 'Serveurs de Ping',
 
-'choose_gallery_category' =>
-'Vous devez choisir une catégorie pour votre article',
-
-'choose_gallery' =>
-'Vous devez choisir une galerie pour l\'article',
-
-'invalid_gallery' =>
-'La galerie choisie pour les articles est invalide',
-
 'invalid_upload_directory' =>
 'Répertoire de téléchargement invalide',
 
 'upload_directory_unwriteable' =>
-'Répertoire de téléchargement inaccessible en écriture',
-
-'gallery_author' =>
-'Auteur par défaut',
+'Impossible d\'écrire le fichier dans le répertoire de téléchargement',
 
 'pings_sent' =>
 'Pings envoyés :',
@@ -115,18 +85,18 @@ $lang = array(
 'moblog_email_settings' =>
 "Paramètres d'email",
 
-'moblog_image_settings' =>
-"Paramètres d'image",
+'moblog_file_settings' =>
+"Paramètres de fichier",
 
 
-'moblog_full_name'	=> 
+'moblog_full_name'	=>
 'Nom complet du Moblog',
 
-'moblog_short_name'	=> 
+'moblog_short_name'	=>
 'Nom court',
 
-'no_spaces'	=> 
-'Un seul mot, sans espace',
+'no_spaces'	=>
+'Un seul mot, sans espaces',
 
 'channel_id'	=>
 'Choisir un canal',
@@ -134,25 +104,25 @@ $lang = array(
 'cat_id' =>
 "Catégories par défaut",
 
-'field_id'	=> 
+'field_id'	=>
 'Champ par défaut',
 
-'status'	=> 
+'status'	=>
 'Statut par défaut',
 
-'author_id' => 
+'author_id' =>
 'Auteur par défaut',
 
-'none' => 
+'none' =>
 'Aucun',
 
-'all' => 
+'all' =>
 'Tous',
 
-'open' => 
+'open' =>
 'Ouvert',
 
-'closed' => 
+'closed' =>
 'Fermé',
 
 'moblog_auth_required' =>
@@ -165,36 +135,15 @@ $lang = array(
 'Lorsque l\'autorisation est requise et que l\'email saisit fait échouer cette autorisation, l\'email sera supprimé',
 
 'moblog_upload_directory' =>
-'Répertoire de téléchargement pour les fichiers',
+'Répertoire de destination des fichiers',
 
-'moblog_image_width' => 
-'Largeur d\'image',
+'moblog_image_size' =>
+'Taille de l\'image',
 
-'moblog_image_height' => 
-'Hauteur d\'image',
+'moblog_thumb_size' =>
+'Taille de la miniature',
 
-'moblog_resize_image' =>
-'Redimensionner l\'image lors de l\'importation ?',
-
-'moblog_resize_width' =>
-'Largeur du redimensionnement',
-
-'moblog_resize_height' =>
-'Hauteur du redimensionnement',
-
-'moblog_create_thumbnail' =>
-'Créer les miniatures lors de l\'importation ?',
-
-'moblog_thumbnail_width' =>
-'Largeur de la miniature',
-
-'moblog_thumbnail_height' =>
-'Hauteur de la miniature',
-
-'set_to_zero' => 
-'Le programme tente de déterminer la taille automatiquement, aussi paramétrez sur 0 si la taille de l\'image est inconnue',
-
-'moblog_email_type' => 
+'moblog_email_type' =>
 'Type de compte email',
 
 'moblog_email_address' =>
@@ -212,7 +161,7 @@ $lang = array(
 'moblog_email_password'	=>
 'Mot de passe du compte email',
 
-'data_encrypted' => 
+'data_encrypted' =>
 'Données chiffrées lors de l\'envoi',
 
 'moblog_subject_prefix'	=>
@@ -259,7 +208,7 @@ $lang = array(
 'Affecte la balise {exp:moblog:check}. Nombre défini en minutes. Vous êtes autorisé à utiliser des fractions décimales.',
 
 'moblog_time_interval_subtext' =>
-'Exemple: 1.5',
+'Exemple : 1.5',
 
 'pop3' =>
 'POP3',
@@ -279,16 +228,16 @@ $lang = array(
 'br' =>
 '&lt;br /&gt;',
 
-"invalid_short_name" => 
-"Le nom court de votre Moblog doit contenir uniquement des caractères alphanumériques sans espace",
+"invalid_short_name" =>
+"Le nom court de votre Moblog doit contenir uniquement des caractères alphanumériques sans espaces",
 
-"moblog_taken_short_name" => 
+"moblog_taken_short_name" =>
 "Ce nom court de Moblog est déjà utilisé",
 
-"moblog_taken_name" => 
+"moblog_taken_name" =>
 "Ce nom complet de Moblog est déjà utilisé",
 
-"moblog_missing_field" => 
+"moblog_missing_field" =>
 "Un champ requis est manquant ou a une valeur invalide : %e",
 
 'moblog_created' =>
@@ -324,8 +273,11 @@ $lang = array(
 'moblog_delete_confirm' =>
 'Supprimer les Moblogs',
 
+'moblog_delete_confirm_title' =>
+'Confirmation de suppression du Moblog',
+
 "moblog_delete_question" =>
-"Etes-vous sûr de vouloir définitivement supprimer le(s) Moblog(s) sélectionné(s) ?",
+"Êtes-vous sûr de vouloir définitivement supprimer le(s) Moblog(s) sélectionné(s) ?",
 
 "moblog__deleted" =>
 "Le Moblog a été supprimé",
@@ -394,9 +346,8 @@ $lang = array(
 'unable_to_resize' =>
 'Impossible de redimensionner l\'image',
 
-
 ''=>''
 );
 
-/* End of file lang.moblog.php */
-/* Location: ./system/expressionengine/language/french/lang.moblog.php */
+/* End of file moblog_lang.php */
+/* Location: ./system/expressionengine/language/french/moblog_lang.php */

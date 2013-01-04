@@ -14,6 +14,9 @@ $lang = array(
 
 //----------------------------------------
 
+'email' =>
+'Adresse Email',
+
 "mailinglist_disabled" =>
 "Cette liste de diffusion n'accepte actuellement plus aucune nouvelle inscription.",
 
@@ -26,6 +29,9 @@ $lang = array(
 "mailing_list" =>
 "Liste de diffusion :",
 
+'ml_email_address_field' =>
+'Adresse Email',
+
 "mailinglist_template" =>
 "Modèle de la liste de diffusion",
 
@@ -36,7 +42,7 @@ $lang = array(
 "Ne supprimez pas les deux variables requises :",
 
 "ml_edit_template" =>
-"Editer le modèle",
+"Éditer le modèle",
 
 "ml_create_new" =>
 "Créer une nouvelle liste de diffusion",
@@ -51,7 +57,7 @@ $lang = array(
 "Nom complet",
 
 "ml_edit_list" =>
-"Editer la liste",
+"Éditer la liste",
 
 "ml_view_list" =>
 "Voir la liste",
@@ -77,7 +83,7 @@ $lang = array(
 "ml_all_fields_required" =>
 "Tous les champs sont obligatoires.",
 
-"ml_invalid_short_name" => 
+"ml_invalid_short_name" =>
 "Le nom court de votre liste de diffusion ne doit contenir que des caractères alphanumériques sans espaces.",
 
 "ml_short_name_taken" =>
@@ -132,7 +138,7 @@ $lang = array(
 "Supprimer la liste de diffusion",
 
 "ml_delete_list_question" =>
-"Etes-vous sûr de vouloir supprimer les listes de diffusions suivantes ?",
+"Êtes-vous sûr de vouloir supprimer les listes de diffusions suivantes ?",
 
 "ml_all_data_nuked" =>
 "Toutes les adresses emails contenues dans les listes seront définitivement supprimées.",
@@ -162,7 +168,7 @@ $lang = array(
 "Supprimer les adresses email",
 
 "ml_delete_question" =>
-"Etes-vous sûr de vouloir supprimer les adresses emails sélectionnées ?",
+"Êtes-vous sûr de vouloir supprimer les adresses emails sélectionnées ?",
 
 "ml_email_deleted" =>
 "L'adresse email a été supprimée",
@@ -236,5 +242,5 @@ $lang = array(
 ''=>''
 );
 
-/* End of file lang.mailinglist.php */
-/* Location: ./system/expressionengine/language/french/lang.mailinglist.php */
+/* End of file mailinglist_lang.php */
+/* Location: ./system/expressionengine/language/french/mailinglist_lang.php */

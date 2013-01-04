@@ -43,7 +43,7 @@ $lang = array(
 "Accès invalide",
 
 'entry_uneditable' =>
-"Vous n'avez pas la permission d'éditer cet article. Veuillez vérifier les permissions du groupe de membres",
+"Vous n'avez pas la permission d'éditer cet article. Veuillez vérifier les permissions du groupe de membre",
 
 'no_metaweblog_configs' =>
 "Il n'y a actuellement aucune configuration d'API Metaweblog",
@@ -67,7 +67,7 @@ $lang = array(
 "Configurations d'API Metaweblog supprimées",
 
 "metaweblog_delete_question" =>
-"Etes-vous sûr de vouloir supprimer les configurations d'API MetaWeblog sélectionnées ?",
+"Êtes-vous sûr de vouloir supprimer les configurations d'API MetaWeblog sélectionnées ?",
 
 'delete' =>
 "Supprimer",
@@ -84,7 +84,7 @@ $lang = array(
 'metaweblog_pref_name' =>
 "Nom de la configuration",
 
-'metaweblog_parse_type' => 
+'metaweblog_parse_type' =>
 "Préférence de formatage de texte",
 
 'metaweblog_parse_type_subtext' =>
@@ -130,8 +130,11 @@ $lang = array(
 'unable_to_upload' =>
 "Impossible de télécharger le fichier",
 
+'invalid_file_content' =>
+'Le fichier que vous cherchez à télécharger à un contenu invalide pour son type MIME',
+
 'metaweblog_upload_dir' =>
-"Répertoire de téléchargement pour l'envoi de fichiers",
+"Répertoire de destination des fichiers",
 
 'metaweblog_upload_dir_subtext' =>
 "La plupart des éditeurs de canal n'autorisent pas cette option et vous ne souhaitez peut-être pas autoriser le téléchargement à travers l'API, paramétrez sur 'Non' empêchera ainsi tout téléchargement de fichier via l'éditeur de canal.",
@@ -152,5 +155,5 @@ $lang = array(
 ''=>''
 );
 
-/* End of file lang.metaweblog_api.php */
-/* Location: ./system/expressionengine/language/french/lang.metaweblog_api.php */
+/* End of file metaweblog_api_lang.php */
+/* Location: ./system/expressionengine/language/french/metaweblog_api_lang.php */

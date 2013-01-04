@@ -12,10 +12,10 @@ $lang = array(
 "yes" =>
 "Oui",
 
-"on" => 
+"on" =>
 "allumé",
 
-"off" => 
+"off" =>
 "eteint",
 
 "first" =>
@@ -24,13 +24,13 @@ $lang = array(
 "last" =>
 "Dernier",
 
-"enabled" => 
+"enabled" =>
 "activé",
 
-"disabled" => 
+"disabled" =>
 "désactivé",
 
-"back" => 
+"back" =>
 "Retour",
 
 "submit" =>
@@ -57,16 +57,22 @@ $lang = array(
 'dot' =>
 'point',
 
+'or' =>
+'ou',
+
+'id' =>
+'ID',
+
 'encoded_email' =>
 '(Le JavaScript doit être activé pour voir cette adresse email)',
 
 'search' =>
 "Recherche",
 
-"system_off_msg" => 
+"system_off_msg" =>
 "Ce site est actuellement désactivé.",
 
-"not_authorized" => 
+"not_authorized" =>
 "Vous n'êtes pas autorisé à exécuter cette action",
 
 "auto_redirection" =>
@@ -80,6 +86,15 @@ $lang = array(
 
 'not_available' =>
 'Indisponible',
+
+'setting' =>
+'Paramètre',
+
+'preference' =>
+'Préférence',
+
+'pag_first_link' => '&lsaquo; Début',
+'pag_last_link' => 'Fin &rsaquo;',
 
 //----------------------------
 // Errors
@@ -97,8 +112,14 @@ $lang = array(
 "general_error" =>
 "Les erreurs suivantes ont été rencontrées",
 
-"invalid_action" => 
+"invalid_action" =>
 "L'action que vous avez demandée est invalide.",
+
+'current_password_required' =>
+'Votre mot de passe actuel est requis.',
+
+'current_password_incorrect' =>
+'Vous n\'avez pas correctement saisi votre mot de passe actuel.',
 
 "captcha_required" =>
 "Vous devez saisir le mot qui apparaît dans l'image",
@@ -109,6 +130,9 @@ $lang = array(
 "nonexistent_page" =>
 "La page que vous avez demandée n'a pu être trouvée",
 
+'unable_to_load_field_type' =>
+'Impossible de charger le fichier de type de champ demandé :  %s.<br />
+Confirmez que le fichier de type de champ est bien situé dans le répertoire expressionengine/third_party/ ',
 
 //----------------------------
 // Member Groups
@@ -134,10 +158,10 @@ $lang = array(
 // Template.php
 //----------------------------
 
-"error_tag_syntax" => 
+"error_tag_syntax" =>
 "La balise suivante contient une erreur de syntaxe :",
 
-"error_fix_syntax" => 
+"error_fix_syntax" =>
 "Veuillez corriger la syntaxe dans votre modèle.",
 
 "error_tag_module_processing" =>
@@ -153,33 +177,20 @@ $lang = array(
 // Email
 //----------------------------
 
-"forgotten_email_sent" => 
+"forgotten_email_sent" =>
 "Les instructions pour réinitialiser votre mot de passe viennent de vous être envoyées par email.",
 
-"error_sending_email" => 
+"error_sending_email" =>
 "Impossible d'envoyer l'email pour le moment.",
 
-"no_email_found" => 
+"no_email_found" =>
 "L'adresse email que vous avez saisie n'a pu être trouvée dans la base de données.",
 
-"your_new_login_info" => 
+"your_new_login_info" =>
 "Information de connexion",
 
-"reset_link" => 
-"Pour réinitialiser votre mot de passe, veuillez vous rendre à la page suivante :",
-
-"password_will_be_reset" => 
-"Votre mot de passe sera automatiquement réinitialisé, et un nouveau mot de passe vous sera envoyé par email.",
-
-"ignore_password_message" => 
-"Si vous ne souhaitez pas réinitialiser votre mot de passe, ignorez ce message. Il expirera dans 24 heures.",
-
-"password_has_been_reset" => 
+"password_has_been_reset" =>
 "Votre mot de passe a été réinitialisé et un nouveau mot de passe vous a été envoyé par email.",
-
-"new_login_info" => 
-"Voici vos nouvelles informations de connexion :",
-
 
 //----------------------------
 // Date
@@ -237,142 +248,142 @@ $lang = array(
 "MATIN",
 
 "PM" =>
-"APRES MIDI",
+"APRÈS MIDI",
 
-"Sun" => 
+"Sun" =>
 "Dim",
 
-"Mon" => 
+"Mon" =>
 "Lun",
 
-"Tue" => 
+"Tue" =>
 "Mar",
 
-"Wed" => 
+"Wed" =>
 "Mer",
 
-"Thu" => 
+"Thu" =>
 "Jeu",
 
-"Fri" => 
+"Fri" =>
 "Ven",
 
-"Sat" => 
+"Sat" =>
 "Sam",
 
-"Su" =>  
+"Su" =>
 "D",
 
-"Mo" => 
+"Mo" =>
 "L",
 
-"Tu" => 
+"Tu" =>
 "M",
 
-"We" => 
+"We" =>
 "ME",
 
-"Th" => 
+"Th" =>
 "J",
 
-"Fr" => 
+"Fr" =>
 "V",
 
-"Sa" => 
+"Sa" =>
 "S",
 
-"Sunday" => 
+"Sunday" =>
 "Dimanche",
 
-"Monday" => 
+"Monday" =>
 "Lundi",
 
-"Tuesday" => 
+"Tuesday" =>
 "Mardi",
 
-"Wednesday" => 
+"Wednesday" =>
 "Mercredi",
 
-"Thursday" => 
+"Thursday" =>
 "Jeudi",
 
-"Friday" => 
+"Friday" =>
 "Vendredi",
 
-"Saturday" => 
+"Saturday" =>
 "Samedi",
 
 
-"Jan" => 
+"Jan" =>
 "Jan",
 
-"Feb" => 
+"Feb" =>
 "Fév",
 
-"Mar" => 
+"Mar" =>
 "Mar",
 
-"Apr" => 
+"Apr" =>
 "Avr",
 
-"May" => 
+"May" =>
 "Mai",
 
-"Jun" => 
+"Jun" =>
 "Juin",
 
-"Jul" => 
+"Jul" =>
 "Jui",
 
-"Aug" => 
+"Aug" =>
 "Aoû",
 
-"Sep" => 
+"Sep" =>
 "Sep",
 
-"Oct" => 
+"Oct" =>
 "Oct",
 
-"Nov" => 
+"Nov" =>
 "Nov",
 
-"Dec" => 
+"Dec" =>
 "Déc",
 
-"January" => 
+"January" =>
 "Janvier",
 
-"February" => 
+"February" =>
 "Février",
 
-"March" => 
+"March" =>
 "Mars",
 
-"April" => 
+"April" =>
 "Avril",
 
-"May_l" => 
+"May_l" =>
 "Mai",
 
-"June" => 
+"June" =>
 "Juin",
 
-"July" => 
+"July" =>
 "Juillet",
 
-"August" => 
+"August" =>
 "Août",
 
-"September" => 
+"September" =>
 "Septembre",
 
-"October" => 
+"October" =>
 "Octobre",
 
-"November" => 
+"November" =>
 "Novembre",
 
-"December" => 
+"December" =>
 "Décembre",
 
 
@@ -420,5 +431,5 @@ $lang = array(
 
 // IGNORE
 ''=>'');
-/* End of file lang.core.php */
-/* Location: ./system/expressionengine/language/french/lang.core.php */
+/* End of file core_lang.php */
+/* Location: ./system/expressionengine/language/french/core_lang.php */

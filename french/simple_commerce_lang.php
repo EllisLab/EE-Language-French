@@ -31,7 +31,7 @@ $lang = array(
 "Jours",
 
 'screen_name' =>
-'Nom à l\'écran',
+'Pseudo',
 
 'weeks' =>
 "Semaines",
@@ -58,13 +58,13 @@ $lang = array(
 "URL Notification de Paiement Instantané (IPN)",
 
 'ipn_details' =>
-"Notification de Paiement Instantané (IPC) est un service PayPal qui autorise le traitement
-de transaction sur leur site puis la notification d'ExpressionEngine lorsque la transaction est
+'Notification de Paiement Instantané (IPC) est un service PayPal qui autorise le traitement
+de transaction sur leur site puis la notification d\'ExpressionEngine lorsque la transaction est
 terminée et accepté. Ceci permet de ne pas enregistrer les achats dans le module Simple Commerce
-avant que la transaction ne soit finalisée. Le module Simple Commerce d'ExpressionEngine automatise
-tout cela en interne, donc tout ce que vous avez à faire est d'activer la Notification de Paiement
-Instantanée sur le site PayPal, et de leur fournir l'URL ci-dessus.<br /><br />
-Pour plus de détails :  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
+avant que la transaction ne soit finalisée. Le module Simple Commerce d\'ExpressionEngine automatise
+tout cela en interne, donc tout ce que vous avez à faire est d\'activer la Notification de Paiement
+Instantanée sur le site PayPal, et de leur fournir l\'URL ci-dessous.<br /><br />
+Pour plus de détails :  <a href="https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_admin_IPNIntro" rel="external">https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_admin_IPNIntro</a>',
 
 'items' =>
 'Produits',
@@ -87,9 +87,11 @@ Pour plus de détails :  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
 'purchase_date' =>
 'Date d\'achat',
 
-
 'recurring' =>
 'Récurrent',
+
+'recurring_purchase_warning' =>
+"Les achats récurrents doivent être paramétrés via PayPal pour un fonctionnement complet.",
 
 'current_subscriptions' =>
 'Date de fin d\'abonnement',
@@ -98,7 +100,7 @@ Pour plus de détails :  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
 "Ajouter les produits",
 
 'edit_items' =>
-"Editer les produits",
+"Éditer les produits",
 
 'export_items' =>
 "Exporter les produits",
@@ -107,7 +109,7 @@ Pour plus de détails :  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
 "Achats de la boutique",
 
 'edit_purchases' =>
-"Editer les achats",
+"Éditer les achats",
 
 'add_purchase' =>
 "Ajouter un achat",
@@ -127,7 +129,7 @@ Pour plus de détails :  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
 'invalid_purchases' =>
 "Aucuns achats valides",
 
-'use_sale_price' => 
+'use_sale_price' =>
 "Utiliser prix de vente ?",
 
 'entry_title' =>
@@ -157,8 +159,11 @@ Pour plus de détails :  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
 'add_email_template' =>
 "Ajouter un modèle email",
 
+'template_name' =>
+'Nom du modèle',
+
 'edit_email_templates' =>
-"Editer les modèles email",
+"Éditer les modèles email",
 
 'sales_information' =>
 "Information de ventes",
@@ -176,7 +181,7 @@ Pour plus de détails :  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
 "Nom du modèle email",
 
 'edit_emails' =>
-"Editer les emails",
+"Éditer les emails",
 
 'monthly_sales' =>
 "Ventes mensuelles",
@@ -285,7 +290,7 @@ Pour plus de détails :  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
 "Lorsque l'achat d'un produit est confirmé, un email peut être envoyé pour ce produit à une ou plusieures adresses emails. ces emails peuvent contenir certaines variables renvoyées depuis Paypal, qui sont les suivantes : ",
 
 'edit_selected' =>
-"Editer la sélection",
+"Éditer la sélection",
 
 'delete_selected' =>
 "Supprimer la sélection",
@@ -309,7 +314,7 @@ Pour plus de détails :  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
 "Membre non trouvé",
 
 'purchaser_screen_name' =>
-"Nom à l'écran de l'acheteur",
+"Pseudo de l'acheteur",
 
 'txn_id' =>
 "Numéro d'Identification de l'Achat (TXN ID)",
@@ -374,11 +379,11 @@ Pour plus de détails :  https://www.paypal.com/IntegrationCenter/ic_ipn.html",
 'paypal_account' =>
 "Compte PayPal",
 
-
-
+'no_entries_matching_that_criteria' =>
+'Aucun article ne concorde avec le(s) critère(s) que avez sélectionné(s)',
 
 ''=>''
 );
 
-/* End of file lang.simple_commerce.php */
-/* Location: ./system/expressionengine/language/french/lang.simple_commerce.php */
+/* End of file simple_commerce_lang.php */
+/* Location: ./system/expressionengine/language/french/simple_commerce_lang.php */

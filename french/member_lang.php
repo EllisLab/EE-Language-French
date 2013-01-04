@@ -21,13 +21,13 @@ $lang = array(
 "Accepter les messages privés qui vous sont envoyés par d'autres membres de ce site",
 
 "parse_smileys" =>
-"Afficher les images des émoticônes dans les .",
+"Afficher les images des émoticônes dans les articles",
 
 "invalid_email_address" =>
 "Vous n'avez pas saisi d'adresse email valide",
 
 "disallowed_screen_chars" =>
-"Le nom à l'écran contient des caractères illégaux",
+"Le pseudo contient des caractères illégaux",
 
 "return_to_forum" =>
 "Retourner aux forums",
@@ -42,10 +42,10 @@ $lang = array(
 "Note importante : L'administrateur a changé les conditions d'accès à ce site comme ci-dessous :",
 
 "choose_new_un" =>
-"Veuillez choisir un nouvel identifiant",
+"Choisissez un nouvel identifiant",
 
 "choose_new_pw" =>
-"Veuillez choisir un nouveau mot de passe",
+"Choisissez un nouveau mot de passe",
 
 "confirm_new_pw" =>
 "Confirmez le nouveau mot de passe",
@@ -54,7 +54,7 @@ $lang = array(
 "Votre identifiant actuel",
 
 "existing_pw" =>
-"Votre mot de passe actuel",
+"Votre mot de passe actuel", /** Absent de la dernière version US */
 
 "un_len" =>
 "Les identifiants doivent faire au moins %x caractères de long",
@@ -72,7 +72,7 @@ $lang = array(
 "Votre identifiant actuel",
 
 "existing_password" =>
-"Votre identifiant actuel",
+"Votre mot de passe actuel",
 
 "all_fields_required" =>
 "Vous devez remplir tous les champs",
@@ -126,7 +126,7 @@ $lang = array(
 "Normal",
 
 "smileys" =>
-"Emoticônes",
+"Émoticônes",
 
 "signature" =>
 "Signature",
@@ -183,7 +183,7 @@ $lang = array(
 "Console d'email",
 
 "edit_photo" =>
-"Editer la photo",
+"Éditer la photo",
 
 "update_photo" =>
 "Mettre à jour la photo",
@@ -219,13 +219,13 @@ $lang = array(
 "Votre profil public",
 
 "edit_signature" =>
-"Editer la signature",
+"Éditer la signature",
 
 "signatures_not_allowed" =>
 "Les signatures sont actuellement désactivées",
 
 "edit_avatar" =>
-"Editer l'avatar",
+"Éditer l'avatar",
 
 "avatars_not_enabled" =>
 "Les avatars sont actuellement désactivés",
@@ -238,6 +238,9 @@ $lang = array(
 
 "no_avatar" =>
 "Vous n'avez pas d'avatar",
+
+'no_user_avatar' =>
+'%s n\'a téléchargé aucun avatar',
 
 "choose_installed_avatar" =>
 "Parcourir notre bibliothèque d'avatars",
@@ -302,7 +305,7 @@ $lang = array(
 "size" =>
 "Taille",
 
-"search_glass" => 
+"search_glass" =>
 "Filtre de recherche",
 
 "small" =>
@@ -361,7 +364,7 @@ $lang = array(
 "Indique des champs obligatoires",
 
 "mbr_screen_name_explanation" =>
-"Si vous ne remplissez pas ce champ, votre nom à l'écran sera le même que votre identifiant",
+"Si vous ne remplissez pas ce champ, votre pseudo sera le même que votre identifiant",
 
 "mbr_message_disclaimer" =>
 "En envoyant ce message, votre adresse email sera révélée au destinataire.",
@@ -436,7 +439,7 @@ $lang = array(
 'Le mot de passe que vous avez saisi est invalide.',
 
 'mbr_delete_blurb' =>
-'Etes-vous sûr de vouloir supprimer votre compte ? Tous les articles, messages, commentaires et tout autre contenu associé à votre compte sera également supprimé.',
+'Êtes-vous sûr de vouloir supprimer votre compte ? Tous les articles, messages, commentaires et tout autre contenu associé à votre compte sera également supprimé.',
 
 'mbr_delete_warning' =>
 'ATTENTION : CETTE ACTION NE PEUT ÊTRE ANNULÉE !',
@@ -467,6 +470,12 @@ $lang = array(
 
 "mbr_login" =>
 "Connexion",
+
+'mbr_of' =>
+'de',
+
+'mbr_passwd_email_sent' =>
+'Email de réinitialisation du mot de passe envoyé',
 
 "mbr_form_empty" =>
 "Vous devez saisir votre identifiant et votre mot de passe",
@@ -544,7 +553,7 @@ $lang = array(
 "Yahoo",
 
 "mbr_screen_name" =>
-"Nom à l'écran",
+"Pseudo",
 
 "mbr_name" =>
 "Nom",
@@ -554,6 +563,9 @@ $lang = array(
 
 "mbr_field_required" =>
 "Le champ suivant est obligatoire :",
+
+'mbr_field_invalid' =>
+'Le champ suivant contient une sélection invalide :',
 
 "mbr_username_length" =>
 "Les noms d'utilisateur doivent faire au moins %x caractères de long",
@@ -634,7 +646,7 @@ $lang = array(
 "Email",
 
 "mbr_location" =>
-"Emplacement",
+"Ville, Pays",
 
 "mbr_birthday" =>
 "Anniversaire",
@@ -643,7 +655,7 @@ $lang = array(
 "Statistiques de votre compte",
 
 "mbr_edit_your_profile" =>
-"Editer votre profil",
+"Éditer votre profil",
 
 "mbr_profile_homepage" =>
 "Page d'accueil du profil",
@@ -700,7 +712,7 @@ Nous nous réservons le droit de supprimer, modifier ou déplacer n'importe quel
 "Le champ suivant est obligatoire :",
 
 "mbr_all_member_groups" =>
-"Tous les groupes de membres",
+"Tous les groupes de membre",
 
 "mbr_member_name" =>
 "Nom du membre",
@@ -733,10 +745,10 @@ Nous nous réservons le droit de supprimer, modifier ou déplacer n'importe quel
 "Biographie",
 
 "mbr_interests" =>
-"Intérêts",
+"Centres d'intérêt",
 
 "mbr_occupation" =>
-"Occupation",
+"Profession ou Activité",
 
 "mbr_email_member" =>
 "Console d'email",
@@ -811,7 +823,7 @@ Nous nous réservons le droit de supprimer, modifier ou déplacer n'importe quel
 "Rechercher champ",
 
 "edit_preferences" =>
-"Editer les préférences",
+"Éditer les préférences",
 
 "display_signatures" =>
 "Afficher les signatures des membres dans les articles",
@@ -853,13 +865,13 @@ Nous nous réservons le droit de supprimer, modifier ou déplacer n'importe quel
 'Ne plus ignorer le membre',
 
 'invalid_screen_name' =>
-'Nom à l\'écran invalide',
+'Pseudo invalide',
 
 'can_not_ignore_self' =>
 'Vous ne pouvez pas vous ignorer vous même',
 
 'invalid_screen_name_message' =>
-'Le nom à l\'écran que vous avez saisi est invalide',
+'Le pseudo que vous avez saisi est invalide',
 
 'ignore_list_updated' =>
 'Liste d\'ignorés mise à jour avec succès',
@@ -900,5 +912,5 @@ Nous nous réservons le droit de supprimer, modifier ou déplacer n'importe quel
 ''=>''
 );
 
-/* End of file lang.member.php */
-/* Location: ./system/expressionengine/language/french/lang.member.php */
+/* End of file member_lang.php */
+/* Location: ./system/expressionengine/language/french/member_lang.php */

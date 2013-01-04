@@ -29,8 +29,8 @@ $lang = array(
 'whitelist' =>
 "Liste blanche",
 
-'pmachine_whitelist' =>
-"Télécharger la liste blanche d'ExpressionEngine.com",
+'ee_whitelist' =>
+"Télécharger la liste blanche d'ExpressionEngine",
 
 'whitelist_updated' =>
 "Liste blanche mise à jour avec succès",
@@ -56,8 +56,8 @@ $lang = array(
 'blacklist' =>
 "Liste noire",
 
-"pmachine_blacklist" =>
-"Télécharger la liste noire d'ExpressionEngine.com",
+"ee_blacklist" =>
+"Télécharger la liste noire d'ExpressionEngine",
 
 'requires_license_number' =>
 "Numéro de licence requis dans la configuration générale",
@@ -98,5 +98,5 @@ $lang = array(
 ''=>''
 );
 
-/* End of file lang.blacklist.php */
-/* Location: ./system/expressionengine/language/french/lang.blacklist.php */
+/* End of file blacklist_lang.php */
+/* Location: ./system/expressionengine/language/french/blacklist_lang.php */

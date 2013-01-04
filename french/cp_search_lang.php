@@ -7,7 +7,7 @@ $lang = array(
 "Modèle de message utilisateur",
 
 'design_system_offline' =>
-"Modèle du système arrêté",
+"Modèle du système hors ligne",
 
 'design_email_notification' =>
 "Modèle de notification email",
@@ -32,7 +32,7 @@ $lang = array(
 "Champs personnalisés de profil",
 
 'member_group_manager' =>
-"Gestionnaire de groupe de membres",
+"Gestionnaire de groupe de membre",
 
 'member_config' =>
 "Configuration des membres",
@@ -56,15 +56,25 @@ $lang = array(
 'data_php_info' =>
 "Informations PHP",
 
-'data_pruning' =>
-"Purge des données",
-
 'data_clear_caching' =>
 "Vider le cache",
 
-// Tools_files
+// Content_files
 'file_index' =>
-"Gestionnaire de fichier",
+'Gestionnaire de fichiers',
+
+'cont_field_group_management' =>
+'Gestion des groupes de champ',
+
+'members_member_group_manager' =>
+'Gestion des groupes de membre',
+
+'cont_category_management' =>
+'Gestion des catégories',
+
+'members_custom_profile_fields' =>
+'Champs personnalisés des profils de membres',
+
 
 // Tools_logs
 'logs_view_cp_log' =>
@@ -74,7 +84,7 @@ $lang = array(
 'Voir le journal du filtrage',
 
 'logs_view_search_log' =>
-'Voir le journal de la recherche',
+'Voir le journal des termes de recherche',
 
 'logs_view_email_log' =>
 'Voir le journal d\'email',
@@ -83,17 +93,30 @@ $lang = array(
 'util_member_import' =>
 "Importation de membre",
 
-'util_import_from_mt' =>
-"Importer depuis Movable Type",
-
 'util_import_from_xml' =>
 "Importer depuis un fichier XML",
 
 'util_translation_tool' =>
 "Utilitaire de traduction",
 
+// Plugins
+'plug_index'	=>
+'Plugins',
+
+'modu_index'	=>
+'Modules',
+
+'exte_index'	=>
+'Extensions',
+
+'acce_index' =>
+'Accessoires',
+
+
+
+
 ''=>''
 );
 
-/* End of file lang.cp_search.php */
-/* Location: ./system/expressionengine/language/french/lang.cp_search.php */
+/* End of file cp_search_lang.php */
+/* Location: ./system/expressionengine/language/french/cp_search_lang.php */

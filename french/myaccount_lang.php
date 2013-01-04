@@ -1,572 +1,580 @@
 <?php
+
 $lang = array(
 
-
-'delete_member' => 
+'delete_member' =>
 'Supprimer le membre',
 
-'disallowed_screen_chars' => 
-'Le nom à l\'écran contient des caractères invalides',
+'disallowed_screen_chars' =>
+'Le pseudo contient des caractères invalides',
 
-'notify_of_pm' => 
+'notify_of_pm' =>
 'Me notifier par email lorsque quelqu\'un m\'envoie un message privé',
 
-'channel_preferences' => 
+'channel_preferences' =>
 'Paramètres de canal',
 
-'forum_post' => 
+'forum_post' =>
 'Sujet de forum',
 
-'existing_password_exp' => 
+'password_auth' =>
+'Pour poursuivre, vous devez saisir votre mot de passe actuel de Super Admin',
+
+'existing_password_exp' =>
 'Vous devez saisir votre mot de passe actuel pour mettre à jour cette page',
 
-'password_change_exp' => 
+'password_change_exp' =>
 'Laissez vide si vous ne souhaitez pas le modifier',
 
-'language' => 
+'language' =>
 'Sélectionnez la langue',
 
-'notepad_blurb' => 
+'notepad_blurb' =>
 'Utilisez ce formulaire pour stocker des notes personnelles et autres informations',
 
-'subscriptions' => 
+'subscriptions' =>
 'Gestionnaire d\'abonnement',
 
-'utilities' => 
+'utilities' =>
 'Utilitaires',
 
-'total_forum_topics' => 
+'total_forum_topics' =>
 'Nombre de sujets de forum',
 
-'total_forum_posts' => 
+'total_forum_posts' =>
 'Nombre de messages de forum',
 
-'total_forum_replies' => 
+'total_forum_replies' =>
 'Nombre de réponses de forum',
 
-'last_forum_post_date' => 
+'last_forum_post_date' =>
 'Message de forum le plus récent',
 
-'main_menu_manager' => 
+'main_menu_manager' =>
 'Gestionnaire du menu principal',
 
-'only_self_main_menu_manager_access' => 
+'only_self_main_menu_manager_access' =>
 'Vous n\'êtes pas autorisé à accéder au gestionnaire du menu d\'un autre membre',
 
-'main_menu_manager_updated' => 
+'main_menu_manager_updated' =>
 'Le gestionnaire des onglets à été mis à jour',
 
-'main_menu_manager_description' => 
-'Cette page vous permet de gérer la navigation par bouton. Les boutons que vous ajouter ne sont visibles que par vous.',
+'main_menu_manager_description' =>
+'Cette page vous permet de gérer la navigation par onglet. Les onglets que vous ajoutez ne sont visibles que par vous.',
 
-'main_menu_manager_description_more' => 
-'Note : vous ne pouvez pas créer de boutons pour des pages de premier niveaux puisqu\'ils sont déjà créés.',
+'main_menu_manager_description_more' =>
+'Note : vous ne pouvez pas créer d\'onglet pour des pages de premier niveau puisqu\'ils sont déjà créés.',
 
-'main_menu_manager_instructions' => 
-'Pour ajouter un nouveau bouton, visitez la page et cliquer "Ajouter" en haut à droite dans la navigation.',
+'main_menu_manager_instructions' =>
+'Pour ajouter un nouvel onglet, visitez la page et cliquez "+ Ajouter" en haut à droite dans la navigation.',
 
-'tab_manager_newlink' => 
+'tab_manager_newlink' =>
 'Ajouter un nouvel onglet ',
 
-'tab_manager_existing' => 
+'tab_manager_existing' =>
 'Onglets personnalisés actuels',
 
-'tab_manager_newlink_title' => 
+'tab_manager_newlink_title' =>
 'Nom de votre nouvel onglet',
 
-'tab_title' => 
+'tab_title' =>
 'Onglets actuels',
 
-'tab_manager_create_new' => 
+'tab_manager_create_new' =>
 'Créer un nouvel onglet',
 
-'new_tab_title' => 
+'new_tab_title' =>
 'Titre du nouvel onglet',
 
-'tab_url' => 
+'tab_url' =>
 'URL de l\'onglet',
 
-'can_not_edit' => 
+'can_not_edit' =>
 '(ne peut être modifié)',
 
-'new_tab_url' => 
+'new_tab_url' =>
 'URL du nouvel onglet',
 
-'tab_order' => 
+'tab_order' =>
 'Ordre',
 
-'member_preferences' => 
+'member_preferences' =>
 'Préférences de membre',
 
-'member_email' => 
+'member_email' =>
 'Envoyer un email au membre',
 
-'no_subscriptions' => 
+'no_subscriptions' =>
 'Vous n\'avez actuellement aucun abonnement',
 
-'type' => 
+'type' =>
 'Type',
 
-'title' => 
+'title' =>
 'Titre',
 
-'unsubscribe' => 
+'unsubscribe' =>
 'Se désabonner',
 
-'subscriptions_removed' => 
+'subscriptions_removed' =>
 'Les abonnements ont été enlevés',
 
-'comment' => 
+'comment' =>
 'Commentaire',
 
-'localization_is_site_default' => 
+'localization_is_site_default' =>
 'Utilisez ces paramètres de localisation de membre comme valeur par défaut du site principal ?',
 
-'preferences_updated' => 
+'preferences_updated' =>
 'Préférences mises à jour',
 
-'homepage_preferences' => 
+'homepage_preferences' =>
 'Préférences de la page d\'accueil',
 
-'set_display_order' => 
+'set_display_order' =>
 'Paramétrer l\'ordre d\'affichage',
 
-'please_update_order' => 
+'please_update_order' =>
 'Veuillez paramétrer l\'ordre d\'affichage de l\'élément',
 
-'left_column' => 
+'left_column' =>
 'Colonne de gauche',
 
-'right_column' => 
+'right_column' =>
 'Colonne de droite',
 
-'do_not_show' => 
+'do_not_show' =>
 'Ne pas afficher',
 
-'recent_entries' => 
+'recent_entries' =>
 'Articles les plus récents',
 
-'recent_comments' => 
+'recent_comments' =>
 'Commentaires les plus récents',
 
-'recent_members' => 
+'recent_members' =>
 'Les 10 inscriptions les plus récentes',
 
-'new_release_indicator' => 
+'new_release_indicator' =>
 'Indicateur de nouvelle version de logiciel',
 
-'site_statistics' => 
+'site_statistics' =>
 'Statistiques du site',
 
-'member_search_form' => 
+'member_search_form' =>
 'Formulaire de recherche de membre',
 
-'validating_members' => 
+'validating_members' =>
 'Membres en attente d\'activation',
 
-'php_sql_versions' => 
+'php_sql_versions' =>
 'Versions PHP/SQL',
 
-'system_offline_indicator' => 
-'Indicateur de système arrêté',
+'system_offline_indicator' =>
+'Indicateur de système hors ligne',
 
-'personal_settings' => 
+'personal_settings' =>
 'Paramètres personnels',
 
-'control_panel_settings' => 
+'control_panel_settings' =>
 'Personnalisation du TB',
 
-'administrative_settings' => 
+'administrative_settings' =>
 'Paramètres Admin',
 
-'current_member' => 
+'current_member' =>
 'Membre :',
 
-'member_stats' => 
+'member_stats' =>
 'Statistiques du compte pour :',
 
-'join_date' => 
-'Date d\'inscription',
+'join_date' =>
+'Date d\'inscription ',
 
-'last_visit' => 
-'Dernière visite',
+'last_visit' =>
+'Dernière visite ',
 
-'total_entries' => 
-'Nombre total d\'articles',
+'total_entries' =>
+'Nombre total d\'articles ',
 
-'last_entry_date' => 
-'Date de l\'article le plus récent',
+'last_entry_date' =>
+'Date de l\'article le plus récent ',
 
-'total_comments' => 
-'Nombre total de commentaires',
+'total_comments' =>
+'Nombre total de commentaires ',
 
-'last_comment_date' => 
-'Date du commentaire le plus récent',
+'last_comment_date' =>
+'Date du commentaire le plus récent ',
 
-'can_not_view_superadmin_profile' => 
+'can_not_view_superadmin_profile' =>
 'Vous ne pouvez consulter le profil d\'un Super Administrateur',
 
-'only_self_notpad_access' => 
+'only_self_notpad_access' =>
 'Vous n\'êtes pas autorisé à accéder au bloc note d\'un autre membre',
 
-'notepad_size' => 
+'notepad_size' =>
 'Taille du bloc note',
 
-'notepad_updated' => 
+'notepad_updated' =>
 'Bloc note mis à jour',
 
-'localization_settings' => 
+'localization_settings' =>
 'Paramètres de localisation',
 
-'localization_updated' => 
+'localization_updated' =>
 'Localisation mise à jour',
 
-'daylight_savings_time' => 
-'Heure d\'été',
+'daylight_savings_time' =>
+'Heure d\'été en vigueur ?',
 
-'timezone' => 
+'timezone' =>
 'Choisissez un fuseau horaire',
 
-'username_and_password' => 
+'username_and_password' =>
 'Identifiant et mot de passe',
 
-'extras' => 
+'extras' =>
 'Extras',
 
-'edit_profile' => 
-'Editer le profil',
+'edit_profile' =>
+'Éditer le profil',
 
-'profile_form' => 
+'profile_form' =>
 'Formulaire de profil',
 
-'base_profile' => 
+'base_profile' =>
 'Profil de base',
 
-'extended_profile' => 
+'extended_profile' =>
 'Profil étendu',
 
-'localization' => 
+'localization' =>
 'Paramètres de localisation',
 
-'time_format' => 
+'time_format' =>
 'Formatage de l\'heure',
 
-'united_states' => 
+'united_states' =>
 'Etats-Unis',
 
-'european' => 
+'european' =>
 'Européen',
 
-'your_ping_servers' => 
+'your_ping_servers' =>
 'Serveurs de Ping',
 
-'your_html_buttons' => 
+'your_html_buttons' =>
 'Boutons de formatage HTML',
 
-'change_password' => 
+'change_password' =>
 'Changer le mot de passe',
 
-'email_settings' => 
+'email_settings' =>
 'Paramètres email',
 
-'email_options' => 
+'email_options' =>
 'Options',
 
-'edit_subscriptions' => 
+'edit_subscriptions' =>
 'Voir les abonnements',
 
-'customize_homepage' => 
+'customize_homepage' =>
 'Personnaliser la page d\'accueil du tableau de bord',
 
-'customize_cp' => 
+'customize_cp' =>
 'Personnaliser le tableau de bord',
 
-'cp_homepage' => 
+'cp_homepage' =>
 'Page d\'accueil du tableau de bord',
 
-'cp_theme' => 
+'cp_theme' =>
 'Thème du tableau de bord',
 
-'myaccount_cp_theme' => 
+'myaccount_cp_theme' =>
 'Thème du tableau de bord',
 
-'choose_theme' => 
+'choose_theme' =>
 'Choisissez le thème du tableau de bord',
 
-'administrative_options' => 
+'administrative_options' =>
 'Administration de membre',
 
-'administrative_options_updated' => 
+'administrative_options_updated' =>
 'Options administratives mises à jour',
 
-'screen_name' => 
-'Nom à l\'écran',
+'screen_name' =>
+'Pseudo',
 
-'email' => 
-'Adresse email',
+'email' =>
+'Adresse email ',
 
-'email_confirm' => 
+'email_confirm' =>
 'Confirmer l\'adresse email',
 
-'url' => 
+'url' =>
 'URL',
 
-'bio' => 
+'bio' =>
 'Bio',
 
-'birthday' => 
+'birthday' =>
 'Anniversaire',
 
-'year' => 
+'year' =>
 'Année',
 
-'month' => 
+'month' =>
 'Mois',
 
-'day' => 
+'day' =>
 'Jour',
 
-'accept_admin_email' => 
+'accept_admin_email' =>
 'Accepter les emails des admnistrateurs du site',
 
-'accept_user_email' => 
+'accept_user_email' =>
 'Accepter les emails des autres membres de ce site',
 
-'notify_by_default' => 
+'notify_by_default' =>
 'Activer la notification d\'email par défaut lorsque vous publiez un message',
 
-'location' => 
-'Emplacement',
+'location' =>
+'Ville, Pays',
 
-'occupation' => 
-'Occupation',
+'occupation' =>
+'Profession ou Activité',
 
-'interests' => 
-'Intérêts',
+'interests' =>
+'Centres d\'intérêt',
 
-'icq' => 
+'icq' =>
 'ICQ',
 
-'aol_im' => 
+'aol_im' =>
 'AOL IM',
 
-'yahoo_im' => 
+'yahoo_im' =>
 'Yahoo IM',
 
-'msn_im' => 
+'msn_im' =>
 'MSN',
 
-'user_ip_address' => 
-'Adresse IP:',
+'user_ip_address' =>
+'Adresse IP ',
 
-'member_group_assignment' => 
+'member_group_assignment' =>
 'Assignation de groupe de membre',
 
-'member_group_warning' => 
+'member_group_warning' =>
 'Soyez très prudent en assignant ceci',
 
-'include_in_multiauthor_list' => 
+'include_in_multiauthor_list' =>
 'Inclure l\'utilisateur dans la liste multi-auteurs de la page PUBLIER ?',
 
-'profile_updated' => 
+'profile_updated' =>
 'Profil mis à jour',
 
-'super_admin_demotion_alert' => 
+'super_admin_demotion_alert' =>
 'En tant que Super Admin, vous n\'êtes pas autorisé à changer votre assignation de groupe de membre',
 
-'username' => 
+'username' =>
 'Identifiant',
 
-'username_change_not_allowed' => 
+'username_change_not_allowed' =>
 'Les administrateurs n\'autorisent pas le changement d\'identifiants',
 
-'password' => 
+'password' =>
 'Mot de passe',
 
-'password_change' => 
+'password_change' =>
 'Formulaire de changement de mot de passe',
 
-'new_password' => 
+'new_password' =>
 'Nouveau mot de passe',
 
-'password_confirm' => 
+'password_confirm' =>
 'Confirmation du mot de passe',
 
-'new_password_confirm' => 
+'new_password_confirm' =>
 'Confirmation du nouveau mot de passe',
 
-'existing_password' => 
+'existing_password' =>
 'Mot de passe actuel',
 
-'invalid_email_address' => 
+'invalid_email_address' =>
 'L\'email que vous avez saisi est invalide',
 
-'missing_username' => 
+'missing_username' =>
 'Vous devez saisir un identifiant',
 
-'invalid_characters_in_username' => 
+'invalid_characters_in_username' =>
 'L\'identifiant contient des caractères illégaux.',
 
-'missing_password' => 
+'missing_password' =>
 'Vous devez saisir un mot de passe',
 
-'missing_current_password' => 
+'missing_current_password' =>
 'Pour appliquer les changements vous devez saisir votre mot de passe actuel',
 
-'password_in_dictionary' => 
+'password_in_dictionary' =>
 'Vous n\'êtes pas autorisé à utiliser un mot du dictionnaire comme mot de passe',
 
-'not_secure_password' => 
+'not_secure_password' =>
 'Les mots de passe doivent contenir au moins un caractère en majuscule, un en minuscule et un nombre',
 
-'invalid_password' => 
+'invalid_password' =>
 'Le mot de passe que vous avez saisi est incorrect',
 
-'missing_email' => 
+'missing_email' =>
 'Vous devez saisir une adresse email',
 
-'banned_email' => 
+'banned_email' =>
 'L\'adresse email que vous avez saisie est exclue',
 
-'missmatched_passwords' => 
+'missmatched_passwords' =>
 'Le mot de passe et sa confirmation ne correspondent pas',
 
-'username_too_short' => 
+'username_too_short' =>
 'L\'identifiant que vous avez saisi doit faire au moins %x caractères de long',
 
-'password_too_short' => 
+'password_too_short' =>
 'Le mot de passe que vous avez saisi doit faire au moins %x caractères de long',
 
-'username_password_too_long' => 
+'username_password_too_long' =>
 'Les identifiants et mots de passe ne peuvent faire plus de 32 caractères de long',
 
-'username_taken' => 
+'username_taken' =>
 'L\'identifiant que vous avez choisi n\'est pas disponible',
 
-'screen_name_taken' => 
-'Le nom à l\'écran que vous avez choisi n\'est pas disponible',
+'screen_name_taken' =>
+'Le pseudo que vous avez choisi n\'est pas disponible',
 
-'email_taken' => 
+'email_taken' =>
 'L\'email que vous avez choisi n\'est pas disponible',
 
-'valid_user_email' => 
+'valid_user_email' =>
 'L\'email choisi n\'est pas valide',
 
-'password_based_on_username' => 
+'password_based_on_username' =>
 'Le mot de passe ne peut être basé sur l\'identifiant',
 
-'username_changed' => 
+'username_changed' =>
 'L\'identifiant a été changé pour :',
 
-'screen_name_changed' => 
-'Le nom a l\'écran a été changé pour :',
+'screen_name_changed' =>
+'Le pseudo a été changé pour :',
 
-'email_changed' => 
+'email_changed' =>
 'L\'email a été changée pour :',
 
-'settings_updated' => 
+'settings_updated' =>
 'Les paramètres ont été mis à jour',
 
-'new_member_added' => 
+'new_member_added' =>
 'Profil de membre créé :',
 
-'password_change_warning' => 
+'password_change_warning' =>
 'Note : Vous avez changez votre mot de passe, vous devrez donc vous reconnecter.',
 
-'ping_servers' => 
+'ping_servers' =>
 'Serveurs de Ping',
 
-'pingservers_updated' => 
+'pingservers_updated' =>
 'Serveurs de Ping mis à jour',
 
-'html_buttons' => 
+'html_buttons' =>
 'Boutons de formatage HTML',
 
-'html_buttons_updated' => 
+'html_buttons_updated' =>
 'Boutons HTML mis à jour',
 
-'only_self_qucklink_access' => 
+'only_self_qucklink_access' =>
 'Vous n\'êtes pas autorisé à accéder aux raccourcis d\'un autre membre',
 
-'quicklinks_updated' => 
+'quicklinks_updated' =>
 'Les raccourcis ont été mis à jour',
 
-'quick_link_description' => 
+'quick_link_description' =>
 'Utilisez ce formulaire pour ajouter des raccourcis personnels à la barre latérale.',
 
-'quick_link_description_more' => 
+'quick_link_description_more' =>
 'Ces liens ne seront visibles que par vous.',
 
-'quicklinks_delete_instructions' => 
+'quicklinks_delete_instructions' =>
 'Pour supprimer un élément, soumettez le formulaire en laissant le titre vide.',
 
-'link_title' => 
+'link_title' =>
 'Titre du lien',
 
-'link_url' => 
+'link_url' =>
 'URL du lien',
 
-'link_order' => 
+'link_order' =>
 'Ordre',
 
-'no_extended_fields' => 
+'no_extended_fields' =>
 'Il n\'y a actuellement aucun champ étendu de profil de membre',
 
-'bookmarklet' => 
-'Bookmarklet',
+'bookmarklet' =>
+'Mini-signet',
 
-'bookmarklet_created' => 
-'Bookmarklet créé',
+'bookmarklet_created' =>
+'Mini-signet créé',
 
-'bookmarklet_info' => 
-'Un Bookmarklet vous permet d\'ajouter des articles à votre canal sans vous connecter dans l\'interface du tableau de bord.',
+'bookmarklet_info' =>
+'Un mini-signet vous permet d\'ajouter des articles à votre canal sans vous connecter dans l\'interface du tableau de bord.',
 
-'bookmarklet_name' => 
-'Nom du Bookmarklet',
+'bookmarklet_name' =>
+'Nom du mini-signet',
 
-'single_word_no_spaces' => 
+'single_word_no_spaces' =>
 'Un seul mot, sans espaces',
 
-'channel_name' => 
+'channel_name' =>
 'Choisissez le canal dans lequel vous souhaitez que les articles soient publiés',
 
-'no_channels_assigned_to_user' => 
+'no_channels_assigned_to_user' =>
 'Il n\'y a aucun canal assigné à ce compte.',
 
-'select_field' => 
+'select_field' =>
 'Sélectionnez le champ par défaut dans lequel vous souhaitez que l\'article soit publié',
 
-'bookmarklet_next_step' => 
+'bookmarklet_next_step' =>
 'Etape suivante',
 
-'create_the_bookmarklet' => 
-'Créer le Bookmarklet',
+'create_the_bookmarklet' =>
+'Créer le mini-signet',
 
-'no_fields_assigned_to_channel' => 
+'no_fields_assigned_to_channel' =>
 'Le canal que vous avez choisi n\'a aucun groupe de champ qui lui est assigné',
 
-'bookmarklet_instructions' => 
+'bookmarklet_instructions' =>
 'Enregistrez ce lien dans vos favoris :',
 
-'smart_notifications' => 
+'smart_notifications' =>
 'Activer la notification intelligente',
 
-'existing_password_email' => 
+'existing_password_email' =>
 'Vous devez saisir le mot de passe actuel pour mettre à jour l\'adresse email',
 
-'bulletin_board' => 
+'bulletin_board' =>
 'Tableau des bulletins',
 
-'login_as_member' => 
+'login_as_member' =>
 'Se connecter comme membre',
 
-'sidebar_updated' => 
+'html_buttons_updated' =>
+'Boutons HTML mis à jour',
+
+'sidebar_updated' =>
 'Barre latérale mise à jour',
 
-'translate' => 
-'Update',
+'no_unlocked_member_groups' =>
+'Vous ne possédez pas les autorisations requises pour ajouter de nouveaux membres à un quelconque groupe.<br />
+Merci de <a href="%s">contacter votre Administrateur Système</a> si vous pensez qu\'il s\'agit d\'une erreur.',
 
 ''=>''
 );
 
-// End of File
+/* End of file myaccount_lang.php */
+/* Location: ./system/expressionengine/language/french/myaccount_lang.php */

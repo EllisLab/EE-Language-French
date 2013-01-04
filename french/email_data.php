@@ -55,9 +55,9 @@ Le titre de l'article est :
 {entry_title}
 
 Publié par : {name}
-Email: {email}
+Email : {email}
 
-Pour lire cet article, veuillez visiter : 
+Pour lire cet article, veuillez visiter :
 {entry_url}
 
 EOF;
@@ -85,9 +85,11 @@ if ( ! function_exists('admin_notify_reg'))
 	function admin_notify_reg()
 	{
 return <<<EOF
-La personne suivante a soumise une nouvelle inscription comme membre  : {name}
+Site d'inscription du nouveau membre : {site_name}
 
-À : {site_name}
+Pseudo : {name}
+Nom d'utilisateur : {username}
+Email : {email}
 
 URL de votre tableau de bord : {control_panel_url}
 EOF;
@@ -121,7 +123,7 @@ Un commentaire a été publié pour le canal suivant :
 Le titre de l'article est :
 {entry_title}
 
-Situé à : 
+Situé à :
 {comment_url}
 
 Publié par : {name}
@@ -145,7 +147,7 @@ if ( ! function_exists('mbr_activation_instructions_title'))
 	function mbr_activation_instructions_title()
 	{
 return <<<EOF
-Votre code d'activation se trouve inclus
+Votre code d'activation est inclus
 EOF;
 	}
 }
@@ -155,7 +157,7 @@ if ( ! function_exists('mbr_activation_instructions'))
 	function mbr_activation_instructions()
 	{
 return <<<EOF
-Merci pour votre inscription comme membre.
+Merci pour votre inscription comme nouveau membre.
 
 Pour activer votre nouveau compte, veuillez vous rendre à l'adresse suivante :
 
@@ -266,9 +268,9 @@ if ( ! function_exists('validated_member_notify'))
 return <<<EOF
 {name},
 
-Votre compte de membre a été activé et est prêt à l'emploi. 
+Votre compte de membre a été activé et est prêt à l'emploi.
 
-Merci ! 
+Merci !
 
 {site_name}
 {site_url}
@@ -328,11 +330,11 @@ if ( ! function_exists('mailinglist_activation_instructions'))
 	function mailinglist_activation_instructions()
 	{
 return <<<EOF
-Merci de vous être inscrit à la liste de diffusion "[mailing_list}" !
+Merci de vous être inscrit à la liste de diffusion "{mailing_list}" !
 
 Veuillez cliquer sur le lien ci-dessous pour confirmer votre email.
 
-Si vous ne souhaitez pas être ajouté à notre liste, ignorez cet email
+Si vous ne souhaitez pas être ajouté à notre liste, ignorez cet email.
 
 {unwrap}{activation_url}{/unwrap}
 
@@ -365,13 +367,13 @@ if ( ! function_exists('comment_notification'))
 	function comment_notification()
 	{
 return <<<EOF
-Quelqu'un a répondu à l'article auquel vous vous êtes abonné à :
+{name_of_commenter} a répondu à l'article auquel vous vous êtes abonné à :
 {channel_name}
 
 Le titre de l'article est :
 {entry_title}
 
-Vous pouvez voir le commentaire à l'adresse suivante  :
+Vous pouvez voir le commentaire à l'adresse suivante :
 {comment_url}
 
 {comment}
@@ -382,78 +384,43 @@ EOF;
 	}
 }
 
-
-
 //---------------------------------------------------
-//	Admin Notification of New Gallery Comment
+//	Comments Opened Notification
 //--------------------------------------------------
 
-if ( ! function_exists('admin_notify_gallery_comment_title'))
+if ( ! function_exists('comments_opened_notification_title'))
 {
-	function admin_notify_gallery_comment_title()
+	function comments_opened_notification_title()
 	{
 return <<<EOF
-Quelqu'un a répondu à votre commentaire
+De nouveaux commentaires ont été ajoutés
 EOF;
 	}
 }
 
-if ( ! function_exists('admin_notify_gallery_comment'))
+if ( ! function_exists('comments_opened_notification'))
 {
-	function admin_notify_gallery_comment()
+	function comments_opened_notification()
 	{
 return <<<EOF
-
-Vous avez reçu un nouveau commentaire pour la galerie photo suivante :
-{gallery_name}
+Des réponses ont été ajoutées à l'article auquel vous vous êtes abonné à :
+{channel_name}
 
 Le titre de l'article est :
 {entry_title}
 
-Situé à : 
+Vous pouvez voir le commentaire à l'adresse suivante :
 {comment_url}
 
+{comments}
 {comment}
-EOF;
-	}
-}
+{/comments}
 
-
-//---------------------------------------------------
-//	Gallery Comment Notification
-//--------------------------------------------------
-
-if ( ! function_exists('gallery_comment_notification_title'))
-{
-	function gallery_comment_notification_title()
-	{
-return <<<EOF
-Quelqu'un a répondu à votre commentaire
-EOF;
-	}
-}
-
-if ( ! function_exists('gallery_comment_notification'))
-{
-	function gallery_comment_notification()
-	{
-return <<<EOF
-Quelqu'un a répondu à l'article photo auquel vous vous êtes abonné à : :
-{gallery_name}
-
-Vous pouvez voir le commentaire à l'adresse suivante ::
-{comment_url}
-
-{comment}
-
-Pour ne plus recevoir de notifications pour ce commentaire, cliquez ici :
+Pour ne plus recevoir de notifications pour cet article, cliquez ici :
 {notification_removal_url}
 EOF;
 	}
 }
-
-
-
 
 //---------------------------------------------------
 //	Admin Notification of New Forum Post
@@ -554,7 +521,14 @@ return <<<EOF
 Vous pouvez consulter les messages privés en vous connectant à votre compte et en accédant à votre boîte de réception à :
 {site_url}
 
+Contenu :
+
+{message_content}
+
 Pour ne plus recevoir de notifications pour les messages privés, désactivez l'option dans vos paramètres email.
+
+{site_name}
+{site_url}
 EOF;
 	}
 }
@@ -649,7 +623,7 @@ return <<<EOF
 La raison de ce signalement :
 {reasons}
 
-Notes additionnelles de {reporter_name}:
+Notes additionnelles de {reporter_name} :
 {notes}
 
 Le message peut être consulté à :
@@ -674,13 +648,13 @@ return <<<EOF
 <html>
 <head>
 
-<title>Système arrêté</title>
+<title>Système Hors Ligne</title>
 
 <style type="text/css">
 
-body { 
-background-color:	#ffffff; 
-margin:				50px; 
+body {
+background-color:	#ffffff;
+margin:				50px;
 font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
 font-size:			11px;
 color:				#000;
@@ -695,7 +669,7 @@ text-decoration:	none;
 color:			  #330099;
 background-color:	transparent;
 }
-  
+
 a:visited {
 color:				#330099;
 background-color:	transparent;
@@ -737,7 +711,7 @@ color: 				#000;
 
 <div id="content">
 
-<h1>Système arrêté</h1>
+<h1>Système Hors Ligne</h1>
 
 <p>Ce site est actuellement indisponible</p>
 
@@ -771,9 +745,9 @@ return <<<EOF
 
 <style type="text/css">
 
-body { 
-background-color:	#ffffff; 
-margin:				50px; 
+body {
+background-color:	#ffffff;
+margin:				50px;
 font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
 font-size:			11px;
 color:				#000;
@@ -787,7 +761,7 @@ text-decoration:	none;
 color:			  #330099;
 background-color:	transparent;
 }
-  
+
 a:visited {
 color:				#330099;
 background-color:	transparent;
@@ -877,7 +851,7 @@ if ( ! function_exists('mailinglist_template'))
 return <<<EOF
 {message_text}
 
-Pour vous désabonner de la liste de diffusion, cliquez ici :
+Pour vous désabonner de cette liste de diffusion, cliquez ici :
 {if html_email}<a href="{unsubscribe_url}">{unsubscribe_url}</a>{/if}
 {if plain_email}{unsubscribe_url}{/if}
 EOF;

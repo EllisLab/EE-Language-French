@@ -53,6 +53,9 @@ $lang = array(
 "hide_formatting_buttons" =>
 "Masquer les boutons de formatage",
 
+'field_options' =>
+'Options de champs',
+
 "date_field" =>
 "Champ Date",
 
@@ -62,17 +65,8 @@ $lang = array(
 "related_to_channel" =>
 "Relier des articles d'un canal à ceux d'un autre canal",
 
-"related_to_gallery" =>
-"Relier des articles d'un canal à des articles de galerie",
-
 "select_related_channel" =>
 "Sélectionnez le canal avec lequel vous souhaitez établir un lien :",
-
-"select_related_gallery" =>
-"Sélectionnez la galerie avec laquelle vous souhaitez établir un lien ",
-
-"gallery_not_installed" =>
-"Le module de galerie n'est actuellement pas installé.",
 
 "rss_url" =>
 "URL du flux RSS",
@@ -137,11 +131,14 @@ $lang = array(
 "comment_notify" =>
 "Activer la liste des destinataires ci-dessous pour la notification de commentaire ?",
 
+'update_existing_comments_mod' =>
+"Mettre à jour tous les articles avec ce paramètre d'expiration ?",
+
 "update_existing_comments" =>
 "Mettre à jour tous les commentaires avec ce paramètre d'expiration ?",
 
 "category_order_confirm_text" =>
-"Etes-vous sûr de vouloir trier ce groupe de catégorie par ordre alphabétique ?",
+"Êtes-vous sûr de vouloir trier ce groupe de catégorie par ordre alphabétique ?",
 
 "category_sort_warning" =>
 "Si vous utilisez un ordre de tri personnalisé, il sera remplacé par un classement alphabétique.",
@@ -177,7 +174,7 @@ $lang = array(
 "Ordre",
 
 "delete_category_confirmation" =>
-"Etes-vous sûr de vouloir supprimer la catégorie suivante ?",
+"Êtes-vous sûr de vouloir supprimer la catégorie suivante ?",
 
 "category_description" =>
 "Description de la catégorie",
@@ -194,17 +191,17 @@ $lang = array(
 "use_a_theme" =>
 "Utiliser un des modèles par défaut",
 
-"myaccount_cp_theme" => 
+"myaccount_cp_theme" =>
 "Thème du tableau de bord",
 
 "duplicate_group" =>
-"Dupliquer un groupe de modèles existant",
+"Dupliquer un groupe de modèle existant",
 
 "template_group_name" =>
-"Nom du nouveau groupe de modèles",
+"Nom du nouveau groupe de modèle",
 
 "template_group_choose" =>
-"Veuillez choisir un groupe de modèles pour votre nouveau modèle",  //  for your new Template
+"Veuillez choisir un groupe de modèle pour votre nouveau modèle",  //  for your new Template
 
 "new_group_instructions" =>
 "Ce champ est requis si vous créez un nouveau groupe",
@@ -212,34 +209,10 @@ $lang = array(
 "publish_page_customization" =>
 "Personnalisation de la page PUBLIER",
 
-"show_url_title" =>
-"Afficher le champ Titre URL",
-
 "show_button_cluster" =>
 "Afficher les boutons de formatage",
 
-"show_author_menu" =>
-"Afficher le menu Auteur",
-
-"show_status_menu" =>
-"Afficher le menu Statut",
-
-"show_options_cluster" =>
-"Afficher les boutons d'options",
-
-"show_ping_cluster" =>
-"Afficher les boutons de Ping",
-
-"show_forum_cluster" =>
-"Afficher le champ de soumission de sujet de forum",
-
-"show_date_menu" =>
-"Afficher les champs Date",
-
-"show_categories_menu" =>
-"Afficher le menu de catégories",
-
-"paths" =>
+'paths' =>
 "Paramètres de chemin",
 
 "channel_url_exp" =>
@@ -264,7 +237,7 @@ $lang = array(
 "Durée en jours pendant lesquels il est possible de commenter un article. Entrez 0 (zero) si vous ne voulez pas limiter.",
 
 "restrict_status_to_group" =>
-"Restreindre le statut pour certains groupes de membres",
+"Restreindre le statut pour certains groupes de membre",
 
 "no_publishing_groups" =>
 "Aucun groupe de membre autorisé à publier n'est disponible",
@@ -281,13 +254,13 @@ $lang = array(
 "search_excerpt" =>
 "Quel champ doit être utilisé pour l'extraction de recherche ?",
 
-"channel_prefs" => 
+"channel_prefs" =>
 "Préférences du canal",
 
 "channel_settings" =>
 "Préférences de publication du canal",
 
-"comment_prefs" => 
+"comment_prefs" =>
 "Préférences de publication de commentaire",
 
 "comment_use_captcha" =>
@@ -302,14 +275,14 @@ $lang = array(
 "comment_system_enabled" =>
 "Autoriser les commentaires dans ce canal ?",
 
-"edit_channel_prefs" => 
-"Editer les préférences du canal",
+"edit_channel_prefs" =>
+"Éditer les préférences du canal",
 
-"edit_group_prefs" => 
-"Editer les préférences de groupe",
+"edit_group_prefs" =>
+"Éditer les préférences de groupe",
 
-"edit_group_assignments" => 
-"Editer les groupes",
+"edit_group_assignments" =>
+"Éditer les groupes",
 
 "duplicate_channel_prefs" =>
 "Dupliques les préférences du canal",
@@ -317,10 +290,10 @@ $lang = array(
 "do_not_duplicate" =>
 'Ne pas dupliquer',
 
-"no_channels_exist" => 
+"no_channels_exist" =>
 "Il n'y a actuellement aucun canal",
 
-"create_new_channel" => 
+"create_new_channel" =>
 "Créer un nouveau canal",
 
 "channel_base_setup" =>
@@ -329,7 +302,7 @@ $lang = array(
 "default_settings" =>
 "Préférences d'administration",
 
-"channel_name" => 
+"channel_name" =>
 "Nom court",
 
 "channel_url" =>
@@ -396,7 +369,7 @@ $lang = array(
 "Séparer les adresses par une virgule",
 
 "comment_notify_emails" =>
-"Adresse(s) email du(des) destinataire(s) de la notification",
+"Adresses email des destinataires de la notification",
 
 "comment_allow_img_urls" =>
 "Autoriser les URLs d'image dans les commentaires ?",
@@ -407,47 +380,47 @@ $lang = array(
 "auto_link_urls" =>
 "Convertir automatiquement URL et adresses email en lien ?",
 
-"single_word_no_spaces" => 
+"single_word_no_spaces" =>
 "Un seul mot, sans espaces",
 
-"channel_title" => 
+"channel_title" =>
 "Nom complet du canal",
 
-"edit_channel" => 
-"Editer le canal",
+"edit_channel" =>
+"Éditer le canal",
 
-"channel_name" => 
+"channel_full_name" =>
 "Nom du canal",
 
-"new_channel" => 
+"new_channel" =>
 "Nouveau canal",
 
-"channel_created" => 
+"channel_created" =>
 "Canal créé :",
 
-"channel_updated" => 
+"channel_updated" =>
 "Canal mis à jour :",
 
-"taken_channel_name" => 
+"taken_channel_name" =>
 "Ce nom de canal est déjà utilisé.",
 
-"no_channel_name" => 
+"no_channel_name" =>
 "Vous devez donner à votre canal un nom \"court\".",
 
 "no_channel_title" =>
 "Vous devez donner à votre canal un nom \"complet\".",
 
-"invalid_short_name" => 
+"invalid_short_name" =>
 "Le nom de votre canal ne doit contenir que des caractères alphanumériques et pas d'espaces.",
 
-"delete_channel" => 
+"delete_channel" =>
 "Supprimer le canal",
 
-"channel_deleted" => 
+"channel_deleted" =>
 "Canal supprimé :",
 
 "delete_channel_confirmation" =>
-"Etes-vous sûr de vouloir définitivement supprimer ce canal ?",
+"Êtes-vous sûr de vouloir définitivement supprimer ce canal ?",
 
 "be_careful" =>
 "ATTENTION !",
@@ -485,10 +458,10 @@ $lang = array(
 "missing_channel_data_for_pings" =>
 "Afin d'envoyer des pings, votre canal nécessite un titre et une URL. Veuillez mettre à jour vos préférences de canal.",
 
-"open" => 
+"open" =>
 "Ouvert",
 
-"closed" => 
+"closed" =>
 "Fermé",
 
 "none" =>
@@ -497,7 +470,7 @@ $lang = array(
 "define_html_buttons" =>
 "Définitions des boutons de formatage HTML",
 
-'no_buttons' => 
+'no_buttons' =>
 'Aucun bouton HTML n\'est défini.',
 
 "htmlbutton_delete_instructions" =>
@@ -548,6 +521,37 @@ $lang = array(
 "assign_channels" =>
 "Choisissez à quel(s) canal(canaux) vous souhaitez assigner ce groupe",
 
+
+//----------------------------
+// Generic Phrases
+//----------------------------
+
+'group'=>
+'Groupe',
+
+'group_name' =>
+'Nom du groupe',
+
+'new_group_name' =>
+'Nouveau nom du groupe : ',
+
+
+'total_fields' =>
+'Nombre total de champs',
+
+'rename' =>
+'Renommer',
+
+'rename_group' =>
+'Renommer le groupe',
+
+'delete' =>
+'Supprimer',
+
+'delete_group' =>
+'Supprimer le groupe',
+
+
 //----------------------------
 // Category Administration
 //----------------------------
@@ -568,33 +572,30 @@ $lang = array(
 "Créer un nouveau groupe de catégorie",
 
 "edit_category_group" =>
-"Editer le groupe de catégorie",
+"Éditer le groupe de catégorie",
 
 "name_of_category_group" =>
 "Nom du groupe de catégorie",
 
-"taken_category_group_name" => 
+"taken_category_group_name" =>
 "Ce nom de groupe est déjà utilisé.",
 
-"add_edit_categories" => 
-"Ajouter/Editer des catégories",
+"add_edit_categories" =>
+"Ajouter/Éditer des catégories",
 
-"edit_group_name" => 
-"Editer le groupe",
+"edit_group_name" =>
+"Éditer le groupe",
 
-"delete_group" => 
-"Supprimer le groupe",
-
-"category_group_created" => 
+"category_group_created" =>
 "Groupe de catégorie créé :",
 
-"category_group_updated" => 
-"Groupe mis à jour:",
+"category_group_updated" =>
+"Groupe mis à jour :",
 
 "delete_cat_group_confirmation" =>
-"Etes-vous sûr de vouloir de supprimer ce groupe de catégorie ?",
+"Êtes-vous sûr de vouloir de supprimer ce groupe de catégorie ?",
 
-"category_group_deleted" => 
+"category_group_deleted" =>
 "Groupe de catégorie supprimé :",
 
 "create_new_category" =>
@@ -604,10 +605,13 @@ $lang = array(
 "Ajouter une nouvelle catégorie",
 
 "edit_category" =>
-"Editer la catégorie",
+"Éditer la catégorie",
 
 "delete_category" =>
 "Supprimer la catégorie",
+
+'delete_cat_confirmation' =>
+'Êtes-vous sûr de vouloir supprimer cette catégorie de façon définitive ?',
 
 "category_deleted" =>
 "Catégorie supprimée",
@@ -646,7 +650,7 @@ $lang = array(
 'Supprimer le champ de catégorie',
 
 'delete_cat_field_confirmation' =>
-'Etes-vous sûr de vouloir supprimer définitivement ce champ de catégorie ?',
+'Êtes-vous sûr de vouloir supprimer définitivement ce champ de catégorie ?',
 
 'cat_field_deleted' =>
 'Champ de catégorie supprimé :',
@@ -655,7 +659,7 @@ $lang = array(
 'Champ de catégorie mis à jour :',
 
 'edit_cat_field' =>
-'Editer le champ de catégorie',
+'Éditer le champ de catégorie',
 
 'create_new_cat_field' =>
 'Créer un nouveau champ de catégorie',
@@ -673,7 +677,7 @@ $lang = array(
 'Catégorie édité',
 
 'cat_field_label_info' =>
-'Ceci est le nom qui apparaîtra sur la apge d\'édition de catégorie',
+'Ceci est le nom qui apparaîtra sur la page d\'édition de catégorie',
 
 'update_existing_cat_fields' =>
 'Mettre à jour toutes les catégories de ce groupe avec vos nouveaux paramètres de formatage ?',
@@ -691,21 +695,24 @@ $lang = array(
 'Peut supprimer des catégories',
 
 'exclude_from_channels_or_publish' =>
-'Exclure de ce canal ou d\'un groupe de champs ?',
-'exclude_from_publish' 		=> 'Editer le canal',
-'exclude_from_files'		=> 'Editer le fichier',
+'Exclure de ce canal ou d\'un groupe de champ ?',
+'exclude_from_publish' 		=> 'Éditer le canal',
+'exclude_from_files'		=> 'Éditer le fichier',
 
 'no_member_groups_available' =>
-'Il n\'y a aucun groupe de membres pour les catégories %x. Vous pouvez assigner ces privilèges depuis l\'éditeur de groupe de membres : ',
+'Il n\'y a aucun groupe de membre pour les catégories %x. Vous pouvez assigner ces privilèges depuis l\'éditeur de groupe de membre : ',
 
-'member_group' => 
-'Groupe de membres',
+'member_group' =>
+'Groupe de membre',
 
-'member_groups' => 
-'Groupes de membres',
+'member_groups' =>
+'Groupes de membre',
 
 'missing_required_fields' =>
 'Les champs requis sont manquants :',
+
+'update_category_image' =>
+'Merci de mettre à jour votre image de catégorie afin d\'utiliser le champ de fichier fourni, sinon l\'ancienne URL d\'image risque d\'être supprimée lors de la sauvegarde.',
 
 //----------------------------
 // Custom field Administration
@@ -714,15 +721,11 @@ $lang = array(
 "field_settings" =>
 "Préférences du groupe de champ personnalisé",
 
-
 "field_group" =>
 "Groupe de champ personnalisé",
 
 "field_groups" =>
-"Groupe de champs personnalisés",
-
-"field_group_name" =>
-"Nom du groupe de champs",
+"Groupes de champ personnalisés",
 
 "custom_fields" =>
 "Champs personnalisés",
@@ -736,11 +739,11 @@ $lang = array(
 "new_field_group" =>
 "Nouveau groupe de champ",
 
-"add_edit_fields" => 
-"Ajouter/Editer des champs personnalisés",
+"add_edit_fields" =>
+"Ajouter/Éditer des champs personnalisés",
 
 "edit_field_group_name" =>
-"Editer le groupe de champ",
+"Éditer le groupe de champ",
 
 "delete_field_group" =>
 "Supprimer le groupe de champ",
@@ -749,7 +752,7 @@ $lang = array(
 "Créer un nouveau champ",
 
 "edit_field" =>
-"Editer le champ",
+"Éditer le champ",
 
 "custom_field_edited" =>
 "Champ personnalisé édité",
@@ -776,7 +779,7 @@ $lang = array(
 "ID du champ",
 
 "field_label" =>
-"Etiquette du champ",
+"Étiquette du champ",
 
 "field_name" =>
 "Nom du champ",
@@ -824,7 +827,7 @@ $lang = array(
 "Formatage du champ",
 
 "edit_list" =>
-"Editer la liste",
+"Éditer la liste",
 
 "formatting_options" =>
 "Options du formatage de champ",
@@ -842,7 +845,7 @@ $lang = array(
 "Le champ est-il requis ?",
 
 "show_smileys" =>
-"Afficher les smileys",
+"Afficher les émoticônes",
 
 "show_glossary" =>
 "Afficher le glossaire",
@@ -865,20 +868,8 @@ $lang = array(
 "textarea" =>
 "Zone de texte",
 
-"file" =>
-"Téléchargement",
-
 "select_list" =>
 "Liste déroulante",
-
-"multi_select" =>
-"Liste multiple",
-
-"option_group" =>
-"Case à cocher ",
-
-"radio" =>
-"Radio",
 
 "auto_br" =>
 "Auto &lt;br /&gt;",
@@ -905,22 +896,19 @@ $lang = array(
 "Le nom que vous avez choisi est déjà utilisé",
 
 "field_group_created" =>
-"Groupe de champs créé :",
+"Groupe de champ créé :",
 
 "field_group_updated" =>
-"Groupe de champs mis à jour :",
+"Groupe de champ mis à jour :",
 
 "field_group_deleted" =>
-"Groupe de champs supprimé :",
-
-"field_group" =>
-"Groupe de champs",
+"Groupe de champ supprimé :",
 
 "delete_field_group_confirmation" =>
-"Etes-vous sûr de vouloir définitivement supprimer ce groupe de champs personnalisés ?",
+"Êtes-vous sûr de vouloir définitivement supprimer ce groupe de champ personnalisé ?",
 
 "delete_field_confirmation" =>
-"Etes-vous sûr de vouloir définitivement supprimer ce champ personnalisé ?",
+"Êtes-vous sûr de vouloir définitivement supprimer ce champ personnalisé ?",
 
 "channel_entries_will_be_deleted" =>
 "Tous les articles de canal contenu dans le(s) champ(s) suivant seront définitivement supprimés.",
@@ -930,6 +918,9 @@ $lang = array(
 
 'field_content_file' =>
 "Type de fichier :",
+
+'allowed_dirs_file' =>
+'Répertoire autorisé',
 
 'type_numeric' =>
 "Nombre",
@@ -951,60 +942,51 @@ $lang = array(
 //----------------------------
 
 "status_group" =>
-"Groupe de statuts",
-
-"status_groups" =>
-"Groupes de statuts",
+"Groupe(s) de statuts",
 
 "no_status_group_message" =>
-"Il n'y a actuellement aucun statuts personnalisés",
+"Il n'y a actuellement aucun statut personnalisé",
 
 "create_new_status_group" =>
-"Créer un nouveau groupe de statuts",
+"Créer un nouveau groupe de statut",
 
-"edit_status_group" =>
-"Editer le groupe de statuts",
+"taken_status_group_name" =>
+"Ce nom de groupe de statut est déjà utilisé.",
 
-"name_of_status_group" =>
-"Nom du groupe de statuts",
-
-"taken_status_group_name" => 
-"Ce nom de groupe de statuts est déjà utilisé.",
-
-"invalid_status_name" => 
+"invalid_status_name" =>
 "Les noms de statuts peuvent uniquement contenir des caractères alphanumériques, des espaces, des underscores ou des tirets.",
 
 "duplicate_status_name" =>
 "Un statut portant le même nom existe déjà.",
 
-"status_group_created" => 
-"Groupe de statuts créé :",
+"status_group_created" =>
+"Groupe de statut créé :",
 
-"new_status" => 
+"new_status" =>
 "Nouveau statut",
 
-"status_group_updated" => 
-"Groupe de statuts mis à jour :",
+"status_group_updated" =>
+"Groupe de statut mis à jour :",
 
-"add_edit_statuses" => 
-"Ajouter/Editer les statuts",
+"add_edit_statuses" =>
+"Ajouter/Éditer les statuts",
 
-"edit_status_group_name" => 
-"Editer le groupe de statuts",
+"edit_status_group_name" =>
+"Éditer le groupe de statut",
 
-"delete_status_group" => 
-"Supprimer le groupe de statuts",
+"delete_status_group" =>
+"Supprimer le groupe de statut",
 
 "delete_status_group_confirmation" =>
-"Etes-vous sûr de vouloir définitivement supprimer ce groupe de statuts ?",
+"Êtes-vous sûr de vouloir définitivement supprimer ce groupe de statut ?",
 
-"status_group_deleted" => 
-"Groupe de statuts supprimé :",
+"status_group_deleted" =>
+"Groupe de statut supprimé :",
 
-"create_new_status" => 
+"create_new_status" =>
 "Créer un nouveau statut",
 
-"status_name" => 
+"status_name" =>
 "Nom du statut",
 
 "status_order" =>
@@ -1016,17 +998,18 @@ $lang = array(
 "highlight" =>
 "Couleur (optionnel)",
 
-"statuses" => 
+"statuses" =>
 "Statuts",
 
 "edit_status" =>
-"Editer le statut",
+"Éditer le statut",
 
 "delete_status" =>
 "Supprimer le statut",
 
 "delete_status_confirmation" =>
-"Etes-vous sûr de vouloir définitivement supprimer le statut suivant ?",
+"Êtes-vous sûr de vouloir définitivement supprimer le statut suivant ?",
+
 
 'url_title_prefix' =>
 "Préfixe du titre URL",
@@ -1044,10 +1027,10 @@ $lang = array(
 "Préfixe du titre URL invalide",
 
 'multiple_cat_group_preferences' =>
-"Préférences du groupe de catégories multiples",
+"Préférences du groupe de catégorie multiple",
 
 'integrate_category_groups' =>
-"Intégrer les groupes de catégories",
+"Intégrer les groupes de catégorie",
 
 'text_direction' =>
 "Sens du texte",
@@ -1058,18 +1041,20 @@ $lang = array(
 "rtl" =>
 "De droite à gauche",
 
-"direction_unavailable" =>
-"Le sens du texte n'est pas disponible pour le type de champ choisi",
-
 'field_instructions' =>
 "Instructions du champ",
 
 'field_instructions_info' =>
-"Instructions pour les auteurs concernant la méthode de saisie et lecontenu pour le champ personnalisé lors de la soumission d'un article.",
+"Instructions pour les auteurs concernant la méthode de saisie et le contenu pour le champ personnalisé lors de la soumission d'un article.",
 
 "show_pages_cluster" =>
 "Afficher les champs de soumission de Pages",
 
+'content_type_changed' =>
+'Le type de contenu de votre champ va être modifié (avant : %s). Modifier les options des types de champ peut conduire à une perte de données. Agissez prudemment !',
+
+'field_name_too_lrg' =>
+'Votre nom de champ est trop long et a dû être tronqué. Merci de le revoir.',
 
 //----------------------------
 // Channel Entries API
@@ -1078,9 +1063,11 @@ $lang = array(
 'invalid_api_parameter' =>
 "Impossible de créer/mettre à jour l'article. Les paramètres de l'API sont manquants.",
 
+'unauthorized_for_this_channel' =>
+'Vous n\'êtes pas autorisé à publier dans ce canal',  // Allard says he rules...and Emmanuel thinks so, too
 
 ''=>''
 );
 
-/* End of file lang.admin_content.php */
-/* Location: ./system/expressionengine/language/french/lang.admin_content.php */
+/* End of file admin_content_lang.php */
+/* Location: ./system/expressionengine/language/french/admin_content_lang.php */

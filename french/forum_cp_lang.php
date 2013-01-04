@@ -129,7 +129,7 @@ $lang = array(
 "Modèles",
 
 "edit_template" =>
-"Editer le modèle",
+"Éditer le modèle",
 
 "forum_add_category" =>
 "Ajouter une nouvelle catégorie",
@@ -174,7 +174,7 @@ $lang = array(
 "Lecture seule",
 
 "edit" =>
-"Editer",
+"Éditer",
 
 "remove" =>
 "Effacer",
@@ -192,10 +192,10 @@ $lang = array(
 "Permissions pour la catégorie :",
 
 "forum_edit" =>
-"Editer les préférences du forum",
+"Éditer les préférences du forum",
 
 "forum_edit_category" =>
-"Editer les préférences de la catégorie",
+"Éditer les préférences de la catégorie",
 
 "forum_create" =>
 "Créer un nouveau forum",
@@ -216,10 +216,10 @@ $lang = array(
 "Confirmation de la suppression de la catégorie",
 
 "forum_delete_msg" =>
-"Etes-vous sûr de vouloir supprimer le forum suivant ?",
+"Êtes-vous sûr de vouloir supprimer le forum suivant ?",
 
 "forum_delete_cat_msg" =>
-"Etes-vous sûr de vouloir supprimer la catégorie suivante ?",
+"Êtes-vous sûr de vouloir supprimer la catégorie suivante ?",
 
 "forum_delete_warning" =>
 "Tous les sujets et messages du forum seront définitivement supprimés !",
@@ -288,7 +288,7 @@ $lang = array(
 "Messages minimums",
 
 "forum_rank_stars" =>
-"Etoiles",
+"Étoiles",
 
 "forum_add_rank" =>
 "Ajouter un nouveau rang de membres",
@@ -306,7 +306,7 @@ $lang = array(
 "Confirmation de suppression de rang de membres",
 
 "forum_delete_rank_msg" =>
-"Etes-vous sûr de vouloir supprimer le rang de membres suivant ?",
+"Êtes-vous sûr de vouloir supprimer le rang de membres suivant ?",
 
 "forum_rank_deleted" =>
 "Le rang de membres a été supprimé",
@@ -369,7 +369,7 @@ $lang = array(
 "Nouveau modérateur",
 
 "forum_edit_moderator" =>
-"Editer un modérateur",
+"Éditer un modérateur",
 
 "forum_moderator_name" =>
 "Nom et type du modérateur",
@@ -477,10 +477,13 @@ $lang = array(
 "Confirmation de suppression de modérateur",
 
 "forum_remove_moderator_msg" =>
-"Etes-vous sûr de vouloir enlever le modérateur suivant ?",
+"Êtes-vous sûr de vouloir enlever le modérateur suivant ?",
 
 "in_forum" =>
 "En forum :",
+
+'invalid_mod_id' =>
+'ID modérateur invalide',
 
 "moderator_removed" =>
 "Le modérateur a été enlevé",
@@ -531,7 +534,7 @@ $lang = array(
 "Uniquement les images",
 
 "all_files" =>
-"Tous types de fichiers",
+"Tous types de fichier",
 
 "pref_forum_url" =>
 "URL du forum",
@@ -570,10 +573,10 @@ $lang = array(
 "Préfixe des sujets déplacés",
 
 "pref_upload_url" =>
-"URL du répertoire de téléchargement",
+"URL du répertoire de destination",
 
 "pref_upload_path" =>
-"Chemin serveur du dossierr de téléchargemnt",
+"Chemin serveur du répertoire de destination",
 
 "pref_max_attach_perpost" =>
 "Nombre maximum de pièces jointes par message",
@@ -639,7 +642,7 @@ $lang = array(
 "Vous avez laissé les champs suivants vides :",
 
 "invalid_theme_path" =>
-"Le chemin serveur vers votre dossier Thèmes ne semble pas être valide.",
+"Le chemin serveur vers votre dossier \"themes\" ne semble pas être valide.",
 
 "invalid_upload_path" =>
 "Le chemin serveur vers votre dossier de téléchargement des images ne semble pas être valide.",
@@ -648,7 +651,7 @@ $lang = array(
 "Votre dossier de téléchargement des images est inaccessible en écriture. Veuillez vérifier que ses permissions sont paramétrées sur 777.",
 
 "forum_trigger_unavailable" =>
-"Le mot déclencheur de forum que vous avez saisi est déjà utilisé par un groupe de template. Il n'est donc pas disponible.",
+"Le mot déclencheur de forum que vous avez saisi est déjà utilisé par un groupe de modèle. Il n'est donc pas disponible.",
 
 "illegal_characters" =>
 "Le mot déclencheur de forum que vous avez saisi ne peut contenir que des caractères alphanumériques, des underscores ou des tirets",
@@ -699,19 +702,19 @@ $lang = array(
 "Préférences de notification Admin",
 
 "pref_notify_emails" =>
-"Adresse(s) email pour le(s) destinataire(s)s pour la notification de Réponse",
+"Adresses email des destinataires de la notification de Réponse",
 
 "pref_notify_emails_topics" =>
-"Adresse(s) email pour le(s) destinataire(s)s pour la notification de Sujets",
+"Adresses email des destinataires de la notification de Sujets",
 
 "pref_notify_emails_topics_more" =>
 "Si vous voulez avertir quelqu'un lorsqu'il y a de nouveaux SUJETS dans ce forum, entrez son adresse email. Séparez les adresses multiples par une virgule.",
 
 "pref_notify_emails_forums" =>
-"Si vous voulez avertir quelqu'un lorsqu'il y a de nouvelles REPONSES dans ce forum, entrez son adresse email. Séparez les adresses multiples par une virgule",
+"Si vous voulez avertir quelqu'un lorsqu'il y a de nouvelles RÉPONSES dans ce forum, entrez son adresse email. Séparez les adresses multiples par une virgule",
 
 "pref_notify_emails_all" =>
-"Si vous voulez avertir quelqu'un lorsqu'il y a de nouvelles REPONSES dans N'IMPORTE QUEL forum, entrez son adresse email. Séparez les adresses multiples par une virgule",
+"Si vous voulez avertir quelqu'un lorsqu'il y a de nouvelles RÉPONSES dans N'IMPORTE QUEL forum, entrez son adresse email. Séparez les adresses multiples par une virgule",
 
 "pref_notify_emails_topics_all" =>
 "Si vous voulez avertir quelqu'un lorsqu'il y a de nouveaux SUJETS dans N'IMPORTE QUEL forum, entrez son adresse email. Séparez les adresses multiples par une virgule",
@@ -747,7 +750,7 @@ $lang = array(
 "Créer nouvel administrateur",
 
 "forum_edit_admin" =>
-"Editer administrateur",
+"Éditer administrateur",
 
 "forum_admin_added" =>
 "Nouvel administreur créé",
@@ -764,11 +767,14 @@ $lang = array(
 "admin_removed" =>
 "Admin supprimé",
 
+'invalid_admin_id' =>
+'ID administrateur invalide',
+
 "forum_remove_admin_confirm" =>
 "Confirmation de suppression d'Admin",
 
 "forum_remove_admin_msg" =>
-"Etes-vous sûr de vouloir supprimer l'Admin suivant ?",
+"Êtes-vous sûr de vouloir supprimer l'Admin suivant ?",
 
 "forum_user_mgr_info" =>
 "N'importe quel membre d'un groupe avec le statut administrateur ",
@@ -777,10 +783,10 @@ $lang = array(
 "Impossible de localiser les modèles spécifiés",
 
 "theme_offline" =>
-"Modèle de forum arrêté",
+"Modèle de forum hors ligne",
 
 "offline_page" =>
-"Page de forum arrêté",
+"Page de forum hors ligne",
 
 "theme_announcements" =>
 "Modèles des annonces",
@@ -1149,7 +1155,7 @@ $lang = array(
 "Notifier les modérateurs de nouvelles réponses ?",
 
 'board_label' =>
-"Etiquette du panneau de forum",
+"Étiquette du panneau de forum",
 
 'board_name' =>
 "Nom court du panneau de forum",
@@ -1169,7 +1175,7 @@ $lang = array(
 "board_enabled" =>
 "Activer le panneau de forum",
 
-"single_word_no_spaces" => 
+"single_word_no_spaces" =>
 "Un seul mot, sans espaces",
 
 'forum_name_unavailable' =>
@@ -1179,7 +1185,7 @@ $lang = array(
 'Accueil du panneau de forum',
 
 'edit_forum_boards' =>
-'Editer les panneaux de forum',
+'Éditer les panneaux de forum',
 
 'board_id' =>
 'ID panneau',
@@ -1188,7 +1194,7 @@ $lang = array(
 'Activé ?',
 
 'edit_forum_board' =>
-'Editer le panneau',
+'Éditer le panneau',
 
 'add_forum_board' =>
 'Ajouter un nouveau panneau de forum ?',
@@ -1197,7 +1203,7 @@ $lang = array(
 'Confirmation de suppression de panneau de forum',
 
 'delete_board_confirmation_message' =>
-'Etes-vous sûr de vouloir supprimer ce panneau de forum ?',
+'Êtes-vous sûr de vouloir supprimer ce panneau de forum ?',
 
 'board_deleted' =>
 'Panneau de forum supprimé',
@@ -1209,13 +1215,13 @@ $lang = array(
 'Le mot déclencheur pour votre forum est déjà utilisé pour ce site',
 
 'board_alias_label' =>
-'Etiquette d\'alias pour ce panneau de forum',
+'Étiquette d\'alias pour ce panneau de forum',
 
 'board_alias_name' =>
 'Nom court d\'alias pour ce panneau de forum',
 
 'edit_alias' =>
-'Editer l\'alias',
+'Éditer l\'alias',
 
 'add_forum_board_alias' =>
 'Ajouter un nouvel alias de panneau de forum ?',
@@ -1232,10 +1238,23 @@ $lang = array(
 'no_forums_for_forum_board' =>
 'Il n\'y a aucun forum pour ce panneau de forum',
 
+// Used by the tabs
+
+'empty_title_field' =>
+'Votre message doit avoir un titre',
+
+'empty_body_field' =>
+'Votre champ message est vide',
+
+'invalid_forum_id' =>
+'ID de forum invalide',
+
+'invalid_topic_id' =>
+'ID de sujet invalide',
 
 
 ''=>''
 );
 
-/* End of file lang.forum_cp.php */
-/* Location: ./system/expressionengine/language/french/lang.forum_cp.php */
+/* End of file forum_cp_lang.php */
+/* Location: ./system/expressionengine/language/french/forum_cp_lang.php */

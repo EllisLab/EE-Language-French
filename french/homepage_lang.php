@@ -28,36 +28,37 @@ Les fichiers suivants sont concernés :
 {changed}
 
 Si vous avez effectué ces changements, veuillez accepter les modifications sur l'accueil du tableau de bord. Si vous n'avez pas modifié ces fichiers ceci peut indiquer une tentative de piratage. Vérifiez les fichiers pour tout contenu suspect (JavaScript ou iFrames) et contactez le support ExpressionEngine :
-http://expressionengine.com/forums/viewcategory/4/
-
-Veuillez vérifier la politique du support avant de poster sur les forums :
-http://expressionengine.com/support/policy/",
+https://support.ellislab.com/",
 
 'new_version_notice' =>
 'ExpressionEngine version %s est disponible.'."\n".'
 <a href=\'%s\' title=\'Téléchargez ici\'>Téléchargez ici</a> et suivez les <a href=\'%s\' title=\'instructions de mise à jour\'>instructions de mise à jour</a>.',
 
+'new_version_notice_high_priority' =>
+'<span style="font-size:18px;color:#3BA1DB;font-weight:bold">Mise à Jour de Sécurité</span><br />
+Une version %s d\'ExpressionEngine, moutûre %s, vient de sortir en tant que MAJ de sécurité. La dernière version est : %s, et la dernière moutûre est : %s.<br /><br />
+Merci de télécharger <a href="%s" title="Télécharger ici">ici</a> et suivez les <a href="%s" title="Instructions de mise à jour">instructions de mise à jour</a> afin de vous assurer que vous exécuter la version la plus à jour.',
+
 'new_version_error' =>
-'Une erreur s\'est produite en tentant de télécharger le numéro de version d\'ExpressionEngine. Veuillez vous rendre sur votre <a href=\'%s\' title=\'espace téléchargement\'>espace téléchargement</a> pour vérifier que vous utilisez la dernière version. Si l\'erreur persiste, veuillez prendre contact avec votre administrateur système.',
+'Une erreur s\'est produite en tentant de télécharger le numéro de la version actuelle d\'ExpressionEngine. Veuillez vous rendre sur votre <a href=\'%s\' title=\'espace téléchargement\'>espace téléchargement</a> pour vérifier que vous utilisez la dernière version. Si l\'erreur persiste, veuillez prendre contact avec votre administrateur système.',
 
 'important_messages' =>
 'Information',
 
-
 "cp_home" =>
 "Ma page d'accueil",
 
-"current_user" => 
-"Utilisateur actuel:",
+"current_user" =>
+"Utilisateur actuel :",
 
 "system_status" =>
 "Statut du système",
 
 "offline" =>
-"Arrêté",
+"Hors ligne",
 
 "online" =>
-"En marche",
+"En ligne",
 
 "member_search" =>
 "Recherche de membre",
@@ -66,13 +67,13 @@ http://expressionengine.com/support/policy/",
 "Saisissez des mot complets ou partiels",
 
 "member_group" =>
-"Groupe de membres",
+"Groupe de membre",
 
 "search_by" =>
 "Rechercher dans le champ",
 
 "screen_name" =>
-"Nom à l'écran",
+"Pseudo",
 
 "email_address" =>
 "Adresse email",
@@ -123,9 +124,9 @@ http://expressionengine.com/support/policy/",
 'Il n\'y a actuellement aucun canal',
 
 'no_templates_available' =>
-'Aucun modèle disponible',
+'Aucun groupe de modèle n\'existe.  <a href=\'%s\' title=\'Créer un groupe de modèle\'>Créer un groupe de modèle</a>',
 
-"select_channel_to_post_in" => 
+"select_channel_to_post_in" =>
 "Choisissez un canal dans lequel publier",
 
 "recent_members" =>
@@ -135,7 +136,7 @@ http://expressionengine.com/support/policy/",
 "Date d'inscription",
 
 "total_hits" =>
-"Nombre de visites combinés des pages",
+"Nombre de visites combinées des pages",
 
 "demo_expiration" =>
 "Votre compte démo expirera dans :",
@@ -155,21 +156,26 @@ http://expressionengine.com/support/policy/",
 'exact_match' =>
 "Correspondance exacte",
 
-'pmachine_news_feed' =>
-'Flux d\'actualité d\'EllisLab',
-
 'no_news' =>
 'Aucune actualité disponible',
 
 'more_news' =>
-'Plus d\'actualités...',
+'Plus d\'actualités&hellip',
 
 "site_status" =>
 "Statut du site",
 
+'close' =>
+'Fermer',
+
+'developer_logs' =>
+'Vous avez %d sujets non traités dans le <a href="%s">Journal Développeur</a>.',
+
+'version_mismatch' =>
+'La version (%s) de votre installation ExpressionEngine n\'est pas en phase avec la version (%s) du rapport. <a href="http://ellislab.com/expressionengine/user-guide/installation/update.html">Merci de mettre de nouveau à jour votre installation d\'ExpressionEngine</a>.',
 
 ''=>''
 );
 
-/* End of file lang.homepage.php */
-/* Location: ./system/expressionengine/language/french/lang.homepage.php */
+/* End of file homepage_lang.php */
+/* Location: ./system/expressionengine/language/french/homepage_lang.php */

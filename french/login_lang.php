@@ -28,14 +28,19 @@ $lang = array(
 "Retourner à la connexion",
 
 "password_lockout_in_effect" =>
-"Vous n'êtes autorisé qu'à effectuer 4 tentatives de connexion toutes les %x minutes",
+"Vous n'êtes autorisé à effectuer que 4 tentatives de connexion toutes les %x minutes",
 
 "unauthorized_request" =>
 "Vous n'êtes pas autorisé à exécuter cette action",
 
+'new_password_request' =>
+'Demande de nouveau mot de passe',
+
+'session_auto_timeout' =>
+'Votre session a expiré en raison de son inactivité',
 
 ''=>''
 );
 
-/* End of file lang.login.php */
-/* Location: ./system/expressionengine/language/french/lang.login.php */
+/* End of file login_lang.php */
+/* Location: ./system/expressionengine/language/french/login_lang.php */
