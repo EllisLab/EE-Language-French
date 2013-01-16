@@ -114,7 +114,7 @@ $lang = array(
 "Il n'y a encore aucune préférence pour le téléchargement de fichiers",
 
 'please_add_upload' =>
-"Il n'y a actuellement aucun répertoire de destination disponible. Merci d'en ajouter un (ou plus) afin de pouvoir utiliser le type de champs Fichier.",
+"Il n'y a actuellement aucun répertoire de destination disponible. Merci d'en ajouter un (ou plus) afin de pouvoir utiliser le type de champ Fichier.",
 
 'upload_pref_name' =>
 'Nom du répertoire de destination',
