@@ -193,19 +193,19 @@ $lang = array(
 
 
 'restrict_to_group' =>
-'Restreindre le téléchargement de fichier aux groupes de membre sélectionnés',
+'Restreindre le téléchargement de fichier aux groupes de membres sélectionnés',
 
 'restrict_notes_1' =>
-'Ces boutons radio vous permettent de définir les groupes de membre autorisés à télécharger des fichiers.',
+'Ces boutons radio vous permettent de définir les groupes de membres autorisés à télécharger des fichiers.',
 
 'restrict_notes_2' 			=> 'Les Super Admins peuvent toujours télécharger des fichiers',
 
 'restrict_notes_3' =>
 'Note : le téléchargement de fichiers n\'est actuellement autorisé que via le tableau de bord',
 
-'member_group' 				=> 'Le groupe de membre',
+'member_group' 				=> 'Le groupe de membres',
 'can_upload_files' 			=> 'Peut télécharger des fichiers',
-'no_results'				=> 'Aucun groupe de membre disponible.',
+'no_results'				=> 'Aucun groupe de membres disponible.',
 'images_only' 				=> 'Images uniquement',
 'all_filetypes' 			=> 'Tous les types de fichier',
 'file_properties' 			=> 'Propriétés du fichier',
@@ -220,9 +220,9 @@ $lang = array(
 'directory'					=> 'Répertoire',
 'no_sync_title'				=> 'Aucun résultat', // @todo, this phrase should change, just not sure what to put  -ga
 'no_file_sync_needed'		=> 'Il n\'y a aucun fichier à synchroniser dans vos répertoires de téléchargement en lot.',
-'file_count'				=> 'Nombre de fichier',
+'file_count'				=> 'Nombre de fichiers',
 'file_types'				=> 'Types de fichier',
-'files_processed'			=> 'Nombre de fichier traité',
+'files_processed'			=> 'Nombre de fichiers traité',
 'error_count'				=> 'Nombre d\'erreur',
 'sync_progress'				=> 'Progression',
 'sync_complete'				=> 'La synchonisation des fichiers est terminé.',

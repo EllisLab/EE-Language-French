@@ -24,7 +24,7 @@ $lang = array(
 'Champs personnalisés de membre',
 
 "member_cfg_existing" =>
-"Paramètres du groupe de membre \"%s\"",
+"Paramètres du groupe de membres \"%s\"",
 
 'member_cfg' =>
 'Préférences d\'adhésion',
@@ -42,7 +42,7 @@ $lang = array(
 'Recherche d\'adresse IP',
 
 'member_groups' =>
-'Groupes de membre',
+'Groupes de membres',
 
 'keywords' =>
 'Mot-clés',
@@ -54,10 +54,10 @@ $lang = array(
 'Filtrer par nom de membre',
 
 'filter_member_group' =>
-'Filtrer par groupe de membre',
+'Filtrer par groupe de membres',
 
 'member_group_assignment' =>
-'Assignation au groupe de membre',
+'Assignation au groupe de membres',
 
 'password_confirm' =>
 'Confirmation du mot de passe',
@@ -170,7 +170,7 @@ $lang = array(
 'Page Index principale',
 
 'member_assignment_warning' =>
-'%x membres(s) sont actuellement assignés à ce groupe. A quel groupe de membre doivent-ils être ré-assignés ?',
+'%x membres(s) sont actuellement assignés à ce groupe. A quel groupe de membres doivent-ils être ré-assignés ?',
 
 'can_moderate_comments' =>
 'Peut modérer les commentaires',
@@ -179,7 +179,7 @@ $lang = array(
 'Exclure le membre de la modération de commentaires',
 
 'total_members' =>
-'Nombre total de membres :',
+'Nombre total de membre :',
 
 'admin_members' =>
 'Membres administrateurs',
@@ -200,13 +200,13 @@ $lang = array(
 'Votre compte a été activé.',
 
 'your_account_ready' =>
-'Votre compte de membre a été activé et est prêt à être utilisé.',
+'Votre compte de membres a été activé et est prêt à être utilisé.',
 
 'thank_you' =>
 'Merci !',
 
 'no_members_to_validate' =>
-'Il n\'y a aucun compte de membre en attente d\'activation',
+'Il n\'y a aucun compte de membres en attente d\'activation',
 
 'members_are_validated' =>
 'Membre(s) ont été activé(s)',
@@ -263,7 +263,7 @@ $lang = array(
 'Dernière visite',
 
 'member_group' =>
-'Groupe de membre',
+'Groupe de membres',
 
 'group_id' =>
 'ID de groupe',
@@ -290,13 +290,13 @@ $lang = array(
 'Verrou de sécurité',
 
 'group_lock' =>
-'Verrou de sécurité du groupe de membre',
+'Verrou de sécurité du groupe de membres',
 
 'enable_lock' =>
 'Activer le verrou de sécurité du groupe',
 
 'lock_description' =>
-'Quand un groupe est verrouillé, seul un Super Administrateur peut y assigner un membre. Si vous autorisez d\'autres utilisateurs à administrer les comptes de membre, il est vivement recommandé que vous déverrouilliez UNIQUEMENT les groupes auxquels ils pourront assigner des utilisateurs.',
+'Quand un groupe est verrouillé, seul un Super Administrateur peut y assigner un membre. Si vous autorisez d\'autres utilisateurs à administrer les comptes de membres, il est vivement recommandé que vous déverrouilliez UNIQUEMENT les groupes auxquels ils pourront assigner des utilisateurs.',
 
 'locked' =>
 'Verrouillé',
@@ -305,25 +305,25 @@ $lang = array(
 'Déverrouillé',
 
 'create_new_member_group' =>
-'Créer un nouveau groupe de membre',
+'Créer un nouveau groupe de membres',
 
 'member_has_cp_access' =>
 'Peut accéder au tableau de bord',
 
 'edit_member_group' =>
-'Éditer groupe de membre',
+'Éditer groupe de membres',
 
 'create_member_group' =>
-'Créer un groupe de membre',
+'Créer un groupe de membres',
 
 'delete_member_group' =>
-'Supprimer un groupe de membre',
+'Supprimer un groupe de membres',
 
 'member_group_deleted' =>
-'Groupe de membre supprimé',
+'Groupe de membres supprimé',
 
 'delete_member_group_confirm' =>
-'Êtes-vous sûr de vouloir supprimer ce groupe de membre ?',
+'Êtes-vous sûr de vouloir supprimer ce groupe de membres ?',
 
 'delete_member' =>
 'Supprimer le membre',
@@ -403,19 +403,19 @@ $lang = array(
 //----------------------------
 
 'only_superadmins_can_admin_groups' =>
-'Seuls les Super Administrateurs peuvent accéder à la page des groupes de membre',
+'Seuls les Super Administrateurs peuvent accéder à la page des groupes de membres',
 
 'create_group_based_on_old' =>
 'Créer un nouveau groupe basé sur un groupe existant',
 
 'group_name' =>
-'Nom du groupe de membre',
+'Nom du groupe de membres',
 
 'missing_group_title' =>
-'Le groupe de membre doit avoir un nom',
+'Le groupe de membres doit avoir un nom',
 
 "group_title_exists" =>
-"Il existe déjà un groupe de membre avec ce nom !",
+"Il existe déjà un groupe de membres avec ce nom !",
 
 'site_access' =>
 'Accès au site',
@@ -577,7 +577,7 @@ $lang = array(
 'Peut administrer les modèles de profil de membre',
 
 'can_admin_templates' =>
-'Peut administrer les modèles et les groupes de modèle',
+'Peut administrer les modèles et les groupes de modèles',
 
 'can_admin_design' =>
 'Peut gérer les préférences de design',
@@ -592,7 +592,7 @@ $lang = array(
 'Peut envoyer des emails depuis le tableau de bord',
 
 'can_email_member_groups' =>
-'Peut envoyer des emails aux groupes de membre',
+'Peut envoyer des emails aux groupes de membres',
 
 'can_email_mailinglist' =>
 'Peut envoyer des emails à la liste de diffusion',
@@ -619,10 +619,10 @@ $lang = array(
 'Soyez EXTRÊMEMENT prudent lors de l\'assignation des préférences de groupe - en particulier ceux colorés.',
 
 'member_group_updated' =>
-'Groupe de membre mis à jour :',
+'Groupe de membres mis à jour :',
 
 'member_group_created' =>
-'Groupe de membre créé :',
+'Groupe de membres créé :',
 
 'cp_channel_privs' =>
 'Privilèges de publication en canal',
@@ -788,7 +788,7 @@ $lang = array(
 'Peut envoyer des bulletins',
 
 'group_description' =>
-'Description du groupe de membre',
+'Description du groupe de membres',
 
 'preferences' =>
 'Préférences',

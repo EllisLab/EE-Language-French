@@ -256,7 +256,7 @@ if ( ! function_exists('validated_member_notify_title'))
 	function validated_member_notify_title()
 	{
 return <<<EOF
-Votre compte de membre a été activé
+Votre compte de membres a été activé
 EOF;
 	}
 }
@@ -268,7 +268,7 @@ if ( ! function_exists('validated_member_notify'))
 return <<<EOF
 {name},
 
-Votre compte de membre a été activé et est prêt à l'emploi.
+Votre compte de membres a été activé et est prêt à l'emploi.
 
 Merci !
 
@@ -289,7 +289,7 @@ if ( ! function_exists('decline_member_validation_title'))
 	function decline_member_validation_title()
 	{
 return <<<EOF
-Votre compte de membre a été refusé
+Votre compte de membres a été refusé
 EOF;
 	}
 }

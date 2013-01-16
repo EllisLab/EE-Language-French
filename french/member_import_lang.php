@@ -36,7 +36,7 @@ $lang = array(
 'Nom du champ',
 
 'custom_member_fields' =>
-'Champs personnalisés de membres',
+'Champs personnalisés de membre',
 
 'new_fields_success' =>
 'Ces champs personnalisés de membre ont été ajoutés avec succès :',
@@ -45,7 +45,7 @@ $lang = array(
 'Assigner les champs',
 
 'assign_fields_blurb' =>
-'Faire correspondre vos champs de données aux champs de membres ExpressionEngine',
+'Faire correspondre vos champs de données aux champs de membre ExpressionEngine',
 
 'comma' =>
 'Virgule',
@@ -136,7 +136,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'L\'emplacement du fichier doit être relative au dossier du tableau de bord de votre site. Exemple : ../membres.txt, si placé à la racine du site.',
 
 'group_id' =>
-'Groupe de membre par défaut',
+'Groupe de membres par défaut',
 
 'import' =>
 'Importer !',
@@ -145,7 +145,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Importer depuis un fichier XML',
 
 'import_from_xml_blurb' =>
-': vous permet d\'importer des membres depuis un fichier XML dans le format XML de membres ExpressionEngine',
+': vous permet d\'importer des membres depuis un fichier XML dans le format XML de membre ExpressionEngine',
 
 'import_info' =>
 'Information d\'importation',
@@ -184,7 +184,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'ATTENTION : Si vous avez une balise &lt;member_id&gt; dans votre XML, les membres existants utilisant la même valeur pour \'member_id\' seront ÉCRASÉS ! Soyez prudents !',
 
 'member_import_utility' =>
-'Utilitaire d\'importation de membres',
+'Utilitaire d\'importation de membre',
 
 'member_import_welcome' =>
 'Cet utilitaire vous permet d\'importer des membres depuis d\'autres systèmes vers ExpressionEngine',
@@ -274,7 +274,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'L\'emplacement du fichier doit être relative au dossier du tableau de bord de votre site. Exemple : ../membres.xml, si placé à la racine du site.',
 
 'xml_imported' =>
-'Les données XML de membres ont été importées',
+'Les données XML de membre ont été importées',
 
 'yes' =>
 'Oui',

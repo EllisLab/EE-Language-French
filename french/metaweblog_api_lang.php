@@ -19,7 +19,7 @@ $lang = array(
 "Voir les URLs pour l'API MetaWeblog",
 
 'invalid_access' =>
-"Accès invalide à l'API Metaweblog. Veuillez vérifier que vous avez utilisé les bons identifiant et mot de passe pour un compte de membre avec les permissions pour publier dans au moins un canal.",
+"Accès invalide à l'API Metaweblog. Veuillez vérifier que vous avez utilisé les bons identifiant et mot de passe pour un compte de membres avec les permissions pour publier dans au moins un canal.",
 
 'no_channels_found' =>
 "Aucun canal trouvé pour cet utilisateur.",
@@ -43,7 +43,7 @@ $lang = array(
 "Accès invalide",
 
 'entry_uneditable' =>
-"Vous n'avez pas la permission d'éditer cet article. Veuillez vérifier les permissions du groupe de membre",
+"Vous n'avez pas la permission d'éditer cet article. Veuillez vérifier les permissions du groupe de membres",
 
 'no_metaweblog_configs' =>
 "Il n'y a actuellement aucune configuration d'API Metaweblog",

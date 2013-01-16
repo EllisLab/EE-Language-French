@@ -195,13 +195,13 @@ $lang = array(
 "Thème du tableau de bord",
 
 "duplicate_group" =>
-"Dupliquer un groupe de modèle existant",
+"Dupliquer un groupe de modèles existant",
 
 "template_group_name" =>
-"Nom du nouveau groupe de modèle",
+"Nom du nouveau groupe de modèles",
 
 "template_group_choose" =>
-"Veuillez choisir un groupe de modèle pour votre nouveau modèle",  //  for your new Template
+"Veuillez choisir un groupe de modèles pour votre nouveau modèle",  //  for your new Template
 
 "new_group_instructions" =>
 "Ce champ est requis si vous créez un nouveau groupe",
@@ -237,10 +237,10 @@ $lang = array(
 "Durée en jours pendant lesquels il est possible de commenter un article. Entrez 0 (zero) si vous ne voulez pas limiter.",
 
 "restrict_status_to_group" =>
-"Restreindre le statut pour certains groupes de membre",
+"Restreindre le statut pour certains groupes de membres",
 
 "no_publishing_groups" =>
-"Aucun groupe de membre autorisé à publier n'est disponible",
+"Aucun groupe de membres autorisé à publier n'est disponible",
 
 "status_updated" =>
 "Le statut a été mis à jour",
@@ -700,13 +700,13 @@ $lang = array(
 'exclude_from_files'		=> 'Éditer le fichier',
 
 'no_member_groups_available' =>
-'Il n\'y a aucun groupe de membre pour les catégories %x. Vous pouvez assigner ces privilèges depuis l\'éditeur de groupe de membre : ',
+'Il n\'y a aucun groupe de membres pour les catégories %x. Vous pouvez assigner ces privilèges depuis l\'éditeur de groupe de membres : ',
 
 'member_group' =>
-'Groupe de membre',
+'Groupe de membres',
 
 'member_groups' =>
-'Groupes de membre',
+'Groupes de membres',
 
 'missing_required_fields' =>
 'Les champs requis sont manquants :',
@@ -854,7 +854,7 @@ $lang = array(
 "Afficher le vérificateur d'orthographe",
 
 "show_file_selector" =>
-"Afficher le sélecteur de fichier",
+"Afficher le gestionnaire de fichier",
 
 "show_formatting_btns" =>
 "Afficher les boutons de formatage",

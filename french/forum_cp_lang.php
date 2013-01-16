@@ -291,25 +291,25 @@ $lang = array(
 "Étoiles",
 
 "forum_add_rank" =>
-"Ajouter un nouveau rang de membres",
+"Ajouter un nouveau rang de membre",
 
 "forum_missing_ranks" =>
 "Vous avez laissé des champs vides",
 
 "forum_rank_added" =>
-"Nouveau rang de membres ajouté",
+"Nouveau rang de membre ajouté",
 
 "forum_rank_updated" =>
-"Rang de membres mis à jour",
+"Rang de membre mis à jour",
 
 "forum_delete_rank_confirm" =>
-"Confirmation de suppression de rang de membres",
+"Confirmation de suppression de rang de membre",
 
 "forum_delete_rank_msg" =>
-"Êtes-vous sûr de vouloir supprimer le rang de membres suivant ?",
+"Êtes-vous sûr de vouloir supprimer le rang de membre suivant ?",
 
 "forum_rank_deleted" =>
-"Le rang de membres a été supprimé",
+"Le rang de membre a été supprimé",
 
 "forum_global_permissions" =>
 "Permissions par défaut",
@@ -321,7 +321,7 @@ $lang = array(
 "Activer les permissions par défaut",
 
 "forum_member_group" =>
-"Groupe de membre",
+"Groupe de membres",
 
 "forum_can_view" =>
 "Peut voir le forum",
@@ -375,13 +375,13 @@ $lang = array(
 "Nom et type du modérateur",
 
 "forum_moderator_inst" =>
-"Un modérateur peut être un membre unique ou un groupe de membre.",
+"Un modérateur peut être un membre unique ou un groupe de membres.",
 
 "forum_mod_type" =>
 "Type de modérateur",
 
 "forum_type_group" =>
-"Groupe de membre",
+"Groupe de membres",
 
 "forum_type_member" =>
 "Membre unique",
@@ -390,7 +390,7 @@ $lang = array(
 "Forum actuel :",
 
 "forum_member_group" =>
-"Groupe de membre",
+"Groupe de membres",
 
 "forum_find_user" =>
 "Trouver un identifiant",
@@ -468,7 +468,7 @@ $lang = array(
 "L'identifiant saisi semble invalide",
 
 "forum_user_identifier_required" =>
-"Un identifiant ou un groupe de membre est requis",
+"Un identifiant ou un groupe de membres est requis",
 
 "forum_no_mods" =>
 "Aucun modérateurs",
@@ -633,7 +633,7 @@ $lang = array(
 "Mot déclencheur du forum",
 
 "pref_forum_trigger_notes" =>
-"Lorsque ce mot sera présent dans l'URL, le forum s'affichera. Le mot que vous choisissez ne peut être le même qu'un groupe de modèle existant.",
+"Lorsque ce mot sera présent dans l'URL, le forum s'affichera. Le mot que vous choisissez ne peut être le même qu'un groupe de modèles existant.",
 
 "config_not_writable" =>
 "Votre fichier config.php semble inaccessible en écriture. Veuillez paramétrer les permissions du fichier sur 666",
@@ -651,7 +651,7 @@ $lang = array(
 "Votre dossier de téléchargement des images est inaccessible en écriture. Veuillez vérifier que ses permissions sont paramétrées sur 777.",
 
 "forum_trigger_unavailable" =>
-"Le mot déclencheur de forum que vous avez saisi est déjà utilisé par un groupe de modèle. Il n'est donc pas disponible.",
+"Le mot déclencheur de forum que vous avez saisi est déjà utilisé par un groupe de modèles. Il n'est donc pas disponible.",
 
 "illegal_characters" =>
 "Le mot déclencheur de forum que vous avez saisi ne peut contenir que des caractères alphanumériques, des underscores ou des tirets",
@@ -732,7 +732,7 @@ $lang = array(
 "Administrateurs",
 
 "forum_admin_inst" =>
-"Un administrateur peut être un membre unique ou un groupe de membre.",
+"Un administrateur peut être un membre unique ou un groupe de membres.",
 
 "forum_admin_type" =>
 "Type d'Administrateur",
@@ -825,7 +825,7 @@ $lang = array(
 "Modèles de formulaire de connexion",
 
 "theme_member" =>
-"Modèles de profil de membres",
+"Modèles de profil de membre",
 
 "theme_move_topic" =>
 "Modèles de déplacement de sujet",

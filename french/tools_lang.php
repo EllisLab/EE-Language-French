@@ -61,7 +61,7 @@ $lang = array(
 'trans_file_not_writable'=> 'Le fichier de traduction n\'est pas inscriptible.',
 'logs_deleted'			=> 'Journaux supprimés',
 
-'member_import' 		=> 'Utilitaire d\'importation de membres',
+'member_import' 		=> 'Utilitaire d\'importation de membre',
 'missing_password_type'	=> 'L\'attribut obligatoire de type est absent de l\'élément mot de passe pour l\'utilisateur : %x. Merci de consulter la documentation pour connaître le bon format d\'importation.',
 
 'united_states' 		=> 'Etats-Unis',

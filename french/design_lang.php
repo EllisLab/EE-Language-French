@@ -142,7 +142,7 @@ $lang = array(
 'Impossible de renommer le fichier modèle associé',
 
 "template_group_taken" =>
-"Le nom du groupe de modèle que vous avez saisi est déjà pris",
+"Le nom du groupe de modèles que vous avez saisi est déjà pris",
 
 "template_type" =>
 "Type de modèle",
@@ -151,7 +151,7 @@ $lang = array(
 "Ne pas dupliquer de groupe",
 
 "duplicate_existing_group" =>
-"Dupliquer un groupe de modèle existant ?",
+"Dupliquer un groupe de modèles existant ?",
 
 'search_template' =>
 "Rechercher",
@@ -160,7 +160,7 @@ $lang = array(
 "Restriction d'accès au modèle",
 
 "group_restriction" =>
-"Restreindre ce modèle à des groupes de membre spécifiques",
+"Restreindre ce modèle à des groupes de membres spécifiques",
 
 "select_all" =>
 "Tout sélectionner",
@@ -208,19 +208,19 @@ $lang = array(
 "Nouveau groupe",
 
 "create_new_template_group" =>
-"Créer un nouveau groupe de modèle",
+"Créer un nouveau groupe de modèles",
 
 "new_template_group_form" =>
-"Nouveau groupe de modèle",
+"Nouveau groupe de modèles",
 
 "edit_template_group_form" =>
-"Éditer le groupe de modèle",
+"Éditer le groupe de modèles",
 
 "name_of_template_group" =>
-"Nom du groupe de modèle",
+"Nom du groupe de modèles",
 
 "template_groups" =>
-"Groupes de modèle",
+"Groupes de modèles",
 
 "template_group_instructions" =>
 "Le nom doit être un seul mot sans espaces",
@@ -265,7 +265,7 @@ $lang = array(
 "Le nom de modèle que vous avez saisi est déjà pris",
 
 "template_group_del_conf" =>
-"Confirmation de suppression de groupe de modèle",
+"Confirmation de suppression de groupe de modèles",
 
 "template_del_conf" =>
 "Confirmation de suppression de modèle",
@@ -277,7 +277,7 @@ $lang = array(
 "Supprimer le groupe",
 
 "choose_delete_template_group" =>
-"Choisissez le groupe de modèle à supprimer",
+"Choisissez le groupe de modèles à supprimer",
 
 "edit_template_group" =>
 "Éditer le groupe",
@@ -364,19 +364,19 @@ $lang = array(
 "Éditer l'ordre des groupes",
 
 "template_group_updated" =>
-"Groupe de modèle mis à jour",
+"Groupe de modèles mis à jour",
 
 "template_group_created" =>
-"Groupe de modèle créé",
+"Groupe de modèles créé",
 
 "delete_this_group" =>
-"Supprimer le groupe de modèle suivant ?",
+"Supprimer le groupe de modèles suivant ?",
 
 "all_templates_will_be_nuked" =>
 "TOUS LES MODÈLES CONTENUS DANS CE GROUPE SERONT DÉFINITIVEMENT SUPPRIMÉS !",
 
 "template_group_deleted" =>
-"Groupe de modèle supprimé",
+"Groupe de modèles supprimé",
 
 "edit_group_order" =>
 "Éditer l'ordre des groupes",
@@ -481,7 +481,7 @@ $lang = array(
 "Votre modèle doit avoir un nom",
 
 "member_group" =>
-"Groupe de membre",
+"Groupe de membres",
 
 "can_view_template" =>
 "Peut voir cette page",
@@ -613,7 +613,7 @@ $lang = array(
 "Recherche",
 
 'tmpl_search_result' =>
-'(%s) résultats dans (%s) groupes de modèle',
+'(%s) résultats dans (%s) groupes de modèles',
 
 'no_results' =>
 "Le terme de recherche que vous avez saisi n'a pu être trouvé dans aucun de vos modèles.",
@@ -681,7 +681,7 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "L'ID de modèle sélectionné est l'invalide",
 
 'index_delete_disallowed' =>
-"Les groupes de modèle doivent avoir un modèle Index",
+"Les groupes de modèles doivent avoir un modèle Index",
 
 //----------------------------
 // Profile Theme Templates
@@ -748,10 +748,10 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "Formulaire de connexion",
 
 "memberlist" =>
-"Page de liste de membre",
+"Page de liste de membres",
 
 "memberlist_rows" =>
-"Lignes de la liste de membre",
+"Lignes de la liste de membres",
 
 "menu" =>
 "Menu du profil de membre",
@@ -814,7 +814,7 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "Envoyer et terminer",
 
 'group_description' =>
-"Description du groupe de membre",
+"Description du groupe de membres",
 
 'can_send_bulletins' =>
 "Peut envoyer des bulletins",

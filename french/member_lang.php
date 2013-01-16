@@ -466,7 +466,7 @@ $lang = array(
 "Note",
 
 "mbr_registration_not_allowed" =>
-"Les nouveaux comptes de membre ne sont pas acceptés pour le moment.",
+"Les nouveaux comptes de membres ne sont pas acceptés pour le moment.",
 
 "mbr_login" =>
 "Connexion",
@@ -481,7 +481,7 @@ $lang = array(
 "Vous devez saisir votre identifiant et votre mot de passe",
 
 "mbr_account_not_active" =>
-"Votre compte de membre n'a pas encore été activé.",
+"Votre compte de membres n'a pas encore été activé.",
 
 "mbr_you_are_logged_in" =>
 "Vous êtes maintenant connecté.",
@@ -610,7 +610,7 @@ $lang = array(
 "Profil de membre",
 
 "mbr_member_group" =>
-"Groupe de membre :",
+"Groupe de membres :",
 
 "mbr_last_visit" =>
 "Dernière visite",
@@ -712,7 +712,7 @@ Nous nous réservons le droit de supprimer, modifier ou déplacer n'importe quel
 "Le champ suivant est obligatoire :",
 
 "mbr_all_member_groups" =>
-"Tous les groupes de membre",
+"Tous les groupes de membres",
 
 "mbr_member_name" =>
 "Nom du membre",

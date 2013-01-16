@@ -345,7 +345,7 @@ $lang = array(
 'Bulletin publié avec succès',
 
 'member_group' =>
-'Groupe de membre',
+'Groupe de membres',
 
 'delete_bulletin' =>
 'Supprimer le bulletin',

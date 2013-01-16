@@ -214,16 +214,16 @@ Pour plus de détails :  <a href="https://cms.paypal.com/us/cgi-bin/?cmd=_render
 "Modèle admin d'email",
 
 'member_group' =>
-"Nouveau groupe de membre",
+"Nouveau groupe de membres",
 
 'admin_email_template_unsubscribe' =>
 "Modèle admin d'email de désabonnement",
 
 'member_group_subscribe' =>
-"Abonner groupe de membre",
+"Abonner groupe de membres",
 
 'member_group_unsubscribe' =>
-"Désabonner groupe de membre",
+"Désabonner groupe de membres",
 
 
 'send_no_email' =>

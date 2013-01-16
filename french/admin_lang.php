@@ -60,7 +60,7 @@ $lang = array(
 'Cette zone vous permet de gérer vos canaux et leurs préférences.',
 
 'members_and_groups_blurb' =>
-'Cette zone vous permet de gérer les membres et les groupes de membre.',
+'Cette zone vous permet de gérer les membres et les groupes de membres.',
 
 'specialty_templates_blurb' =>
 'Ces modèles sont destinés à un usage spécifique comme l\'affichage des messages d\'erreurs et les notifications emails.',
@@ -306,7 +306,7 @@ $lang = array(
 'Activer le filtrage ?',
 
 'enable_throttling_explanation' =>
-'Cette fonctionnalité génère un en-tête et un message 404 si une requête dans laquelle le groupe de modèle est absent de l\'URL est effectuée sur votre site. Le but principal est d\'empêcher les moteurs de recherche d\'indexer des pages inexistantes.',
+'Cette fonctionnalité génère un en-tête et un message 404 si une requête dans laquelle le groupe de modèles est absent de l\'URL est effectuée sur votre site. Le but principal est d\'empêcher les moteurs de recherche d\'indexer des pages inexistantes.',
 
 'max_caches' =>
 'Nombre maximum d\'URI en cache',
@@ -333,10 +333,10 @@ $lang = array(
 'Votre requête a réussi',
 
 'must_submit_number' =>
-'Vous devez entrer le nombre de jour pour le filtre du processus de purge.',
+'Vous devez entrer le nombre de jours pour le filtre du processus de purge.',
 
 'must_submit_group' =>
-'Vous devez choisir au moins un groupe de membre',
+'Vous devez choisir au moins un groupe de membres',
 
 'must_submit_channel' =>
 'Vous devez choisir au moins un canal',
@@ -345,16 +345,16 @@ $lang = array(
 'Ce nom de canal est déjà utilisé',
 
 'no_members_matched' =>
-'Il n\'y a aucun compte de membre correspondant aux critères saisis',
+'Il n\'y a aucun compte de membres correspondant aux critères saisis',
 
 'good_member_pruning' =>
-'%x comptes de membre ont été supprimés',
+'%x comptes de membres ont été supprimés',
 
 'prune_member_confirm_msg' =>
-'Êtes-vous sûr de vouloir supprimer les comptes de membre spécifiés ?',
+'Êtes-vous sûr de vouloir supprimer les comptes de membres spécifiés ?',
 
 'member_pruning' =>
-'Purge des comptes de membre',
+'Purge des comptes de membres',
 
 'mbr_prune_x_days' =>
 'Supprimer les comptes de membres plus anciens que X jours',
@@ -363,7 +363,7 @@ $lang = array(
 'Supprimer uniquement les utilisateurs qui n\'ont jamais publié d\'articles, de commentaires ou de message en forum',
 
 'mbr_prune_zero_note' =>
-'Si vous entrez 0, les comptes de membre de toutes les dates seront supprimés.',
+'Si vous entrez 0, les comptes de membres de toutes les dates seront supprimés.',
 
 'mbr_prune_groups' =>
 'Supprimer uniquement à l\'intérieur des groupes sélectionnés',
@@ -496,7 +496,7 @@ $lang = array(
 'Préférences de sortie et de débogage',
 
 'category_trigger_duplication' =>
-'Un modèle ou un groupe de modèle portant ce nom existe déjà.',
+'Un modèle ou un groupe de modèles portant ce nom existe déjà.',
 
 'invalid_path' =>
 'Le chemin saisi ci-après est invalide :',
@@ -511,7 +511,7 @@ $lang = array(
 'Mot déclencheur de profil',
 
 'profile_trigger_notes' =>
-'La présence de ce mot dans votre URL renverra à l\'affichage de votre espace de profil. Le mot choisi ne peut être le nom d\'un groupe de modèle existant',
+'La présence de ce mot dans votre URL renverra à l\'affichage de votre espace de profil. Le mot choisi ne peut être le nom d\'un groupe de modèles existant',
 
 'signature_cfg' =>
 'Préférences de signature',
@@ -724,7 +724,7 @@ $lang = array(
 'Indicateur URL de catégorie',
 
 'reserved_category_word_exp' =>
-'Si vous paramétrez la préférence ci-dessus sur "oui" vous devez alors choisir un mot réservé. Ce mot sera utilisé dans l\'URL pour indiquer au moteur d\'affichage du canal qu\'il s\'agit d\'une catégorie. Note : Quel que soit le mot que vous choisissez, il ne doit pas être utilisé par un modèle ou un groupe de modèle.',
+'Si vous paramétrez la préférence ci-dessus sur "oui" vous devez alors choisir un mot réservé. Ce mot sera utilisé dans l\'URL pour indiquer au moteur d\'affichage du canal qu\'il s\'agit d\'une catégorie. Note : Quel que soit le mot que vous choisissez, il ne doit pas être utilisé par un modèle ou un groupe de modèles.',
 
 'enable_sql_caching' =>
 'Mettre en cache les requêtes dynamique de Canal ?',
@@ -898,7 +898,7 @@ $lang = array(
 'Cette préférence vous permet d\'enregistrer tous les messages envoyé via la console d\'email des pages de profil de membre.',
 
 'default_member_group' =>
-'Groupe de membre affecté par défaut aux nouveaux membres',
+'Groupe de membres affecté par défaut aux nouveaux membres',
 
 'group_assignment_defaults_to_two' =>
 'Si vous avez requis l\'activation des comptes, ce paramètre ne leur sera affecté qu\'une fois leur compte activé',
@@ -1588,7 +1588,7 @@ $lang = array(
 'Ajouter un nouveau bouton HTML',
 
 'member_import' =>
-'Utilitaire d\'importation de membres',
+'Utilitaire d\'importation de membre',
 
 'specialty_templates' =>
 'Modèles spécialisés',

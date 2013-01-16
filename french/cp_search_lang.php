@@ -32,7 +32,7 @@ $lang = array(
 "Champs personnalisés de profil",
 
 'member_group_manager' =>
-"Gestionnaire de groupe de membre",
+"Gestionnaire de groupe de membres",
 
 'member_config' =>
 "Configuration des membres",
@@ -67,13 +67,13 @@ $lang = array(
 'Gestion des groupes de champ',
 
 'members_member_group_manager' =>
-'Gestion des groupes de membre',
+'Gestion des groupes de membres',
 
 'cont_category_management' =>
 'Gestion des catégories',
 
 'members_custom_profile_fields' =>
-'Champs personnalisés des profils de membres',
+'Champs personnalisés des profils de membre',
 
 
 // Tools_logs

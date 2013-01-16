@@ -141,10 +141,10 @@ $lang = array(
 "Dupliquer le canal et les articles",
 
 'move_template_group' =>
-"Déplacer le groupe de modèle",
+"Déplacer le groupe de modèles",
 
 'duplicate_template_group' =>
-"Dupliquer le groupe de modèle",
+"Dupliquer le groupe de modèles",
 
 'move_global_variables' =>
 "Déplacer les variables globales",

@@ -363,7 +363,7 @@ $lang = array(
 'Adresse IP ',
 
 'member_group_assignment' =>
-'Assignation de groupe de membre',
+'Assignation de groupe de membres',
 
 'member_group_warning' =>
 'Soyez très prudent en assignant ceci',
@@ -375,7 +375,7 @@ $lang = array(
 'Profil mis à jour',
 
 'super_admin_demotion_alert' =>
-'En tant que Super Admin, vous n\'êtes pas autorisé à changer votre assignation de groupe de membre',
+'En tant que Super Admin, vous n\'êtes pas autorisé à changer votre assignation de groupe de membres',
 
 'username' =>
 'Identifiant',

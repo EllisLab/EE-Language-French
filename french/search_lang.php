@@ -69,7 +69,7 @@ $lang = array(
 "Rechercher par nom de membre",
 
 'search_by_member_group' =>
-'Rechercher par groupe de membre',
+'Rechercher par groupe de membres',
 
 'switch_to_group' =>
 'Basculer vers la recherche par groupe',
@@ -78,7 +78,7 @@ $lang = array(
 'Basculer vers la recherche par nom',
 
 'search_all_groups' =>
-'Rechercher tous les groupes de membre',
+'Rechercher tous les groupes de membres',
 
 "search_exact_name_match" =>
 "Correspondance exacte du nom",

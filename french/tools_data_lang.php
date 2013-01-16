@@ -46,7 +46,7 @@ $lang = array(
 'channel_entry_title'	=> 'Titres des articles de canal',
 'channel_fields'		=> 'Champs de canal',
 'templates'				=> 'Dans TOUS les modèles',
-'template_groups'		=> 'Groupes de modèle',
+'template_groups'		=> 'Groupes de modèles',
 'rows_replaced'			=> 'Nombre d\'enregistrements de la base de données dans lesquels un remplacement a eu lieu :',
 'if_replacing_templates'=> 'Si vous procédez à des remplacements à l\'intérieur des modèles, <a href="%x">synchronisez avec la base de données</a> d\'abord, ou',
 'choose_below'			=> '(Choisissez parmi les suivants)',

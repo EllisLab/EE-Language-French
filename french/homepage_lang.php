@@ -67,7 +67,7 @@ Merci de télécharger <a href="%s" title="Télécharger ici">ici</a> et suivez 
 "Saisissez des mot complets ou partiels",
 
 "member_group" =>
-"Groupe de membre",
+"Groupe de membres",
 
 "search_by" =>
 "Rechercher dans le champ",
@@ -124,7 +124,7 @@ Merci de télécharger <a href="%s" title="Télécharger ici">ici</a> et suivez 
 'Il n\'y a actuellement aucun canal',
 
 'no_templates_available' =>
-'Aucun groupe de modèle n\'existe.  <a href=\'%s\' title=\'Créer un groupe de modèle\'>Créer un groupe de modèle</a>',
+'Aucun groupe de modèles n\'existe.  <a href=\'%s\' title=\'Créer un groupe de modèles\'>Créer un groupe de modèles</a>',
 
 "select_channel_to_post_in" =>
 "Choisissez un canal dans lequel publier",

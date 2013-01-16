@@ -201,7 +201,7 @@ $lang = array(
 "Vous n'êtes pas autorisé à publier des commentaires",
 
 "cmt_account_not_active" =>
-"Votre compte de membre n'a pas encore été activé",
+"Votre compte de membres n'a pas encore été activé",
 
 "cmt_comments_not_allowed" =>
 "Les commentaires ne sont pas autorisés pour ce canal",

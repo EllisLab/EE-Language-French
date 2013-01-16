@@ -411,7 +411,7 @@ $lang = array(
 'Il doit y avoir au moins un onglet de disponible pour stocker les champs.',
 
 'no_member_groups' =>
-'Vous devez sélectionner au moins un groupe de membre pour appliquer/supprimer une disposition.',
+'Vous devez sélectionner au moins un groupe de membres pour appliquer/supprimer une disposition.',
 
 'layout_removed' =>
 'Disposition supprimée.',

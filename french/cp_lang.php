@@ -51,7 +51,7 @@ $lang = array(
 'Créer un modèle',
 
 'nav_edit_template_group' =>
-'Éditer le groupe de modèle',
+'Éditer le groupe de modèles',
 
 'nav_edit_template_group_more' =>
 '...plus',
@@ -84,7 +84,7 @@ $lang = array(
 'Gestionnaire de modèles',
 
 'nav_template_manager_short_desc' =>
-'Créer, éditer, supprimer et gérer les modèles et groupes de modèle',
+'Créer, éditer, supprimer et gérer les modèles et groupes de modèles',
 
 'nav_template_preferences' =>
 'Préférences de modèle',
@@ -183,10 +183,10 @@ $lang = array(
 'Voir tous les membres',
 
 'nav_member_groups' =>
-'Groupes de membre',
+'Groupes de membres',
 
 'nav_member_groups_short_desc' =>
-'Créer, éditer et supprimer des groupes de membre',
+'Créer, éditer et supprimer des groupes de membres',
 
 'nav_ip_search' =>
 'Recherche par IP',
@@ -730,7 +730,7 @@ $lang = array(
 'Modèle',
 
 'template_group' =>
-'Groupe de modèle',
+'Groupe de modèles',
 
 'page' =>
 'Page',
@@ -795,7 +795,7 @@ $lang = array(
 'Chemin des avatars',
 
 'photo_path' =>
-'Chemin des photos de membres',
+'Chemin des photos de membre',
 
 'prv_msg_upload_path' =>
 'Chemin des messages privés',
