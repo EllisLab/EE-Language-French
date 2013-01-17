@@ -466,7 +466,7 @@ $lang = array(
 'Pas de module avec accès au panneau de contrôle installé',
 
 'can_access_mod' =>
-'Peut accéder aux modules :',
+'Peut accéder au module :',
 
 'global_cp_access' =>
 'Accès au tableau de bord',

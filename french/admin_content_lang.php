@@ -700,7 +700,7 @@ $lang = array(
 'exclude_from_files'		=> 'Éditer le fichier',
 
 'no_member_groups_available' =>
-'Il n\'y a aucun groupe de membres pour les catégories %x. Vous pouvez assigner ces privilèges depuis l\'éditeur de groupe de membres : ',
+'Il n\'y a aucun groupe de membres pour %x les catégories. Vous pouvez assigner ces privilèges depuis l\'éditeur de groupe de membres : ',
 
 'member_group' =>
 'Groupe de membres',
