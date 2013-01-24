@@ -24,7 +24,7 @@ $lang = array(
 'Tous les canaux',
 
 'nav_files' =>
-'Gestionnaire de fichiers',
+'Fichiers',
 
 'nav_file_manager' =>
 'Gestionnaire de fichiers',
@@ -90,7 +90,7 @@ $lang = array(
 'Préférences de modèle',
 
 'nav_template_preferences_short_desc' =>
-'Modifier les préférences de modèle par lots',
+'Modifier globalement les préférences des modèles',
 
 'nav_global_preferences' =>
 'Préférences globales',
@@ -177,7 +177,7 @@ $lang = array(
 'Membres',
 
 'nav_view_all_members' =>
-'Voir tous',
+'Voir tous les membres',
 
 'nav_view_all_members_short_desc' =>
 'Voir tous les membres',
@@ -210,7 +210,7 @@ $lang = array(
 'En attente d\'activation',
 
 'nav_activate_pending_members_short_desc' =>
-'Modérer les membres en attente',
+'Modérer les membres en attente d\'activation',
 
 'nav_custom_member_fields' =>
 'Champs personnalisés de membre',
@@ -228,7 +228,7 @@ $lang = array(
 'Admin',
 
 'nav_channel_management' =>
-'Gestion du canal',
+'Gestion de canal',
 
 'nav_channels' =>
 'Canaux',
@@ -249,16 +249,16 @@ $lang = array(
 'Créer, éditer et supprimer des champs personnalisés',
 
 'nav_status_group_management' =>
-'Groupes de statut personnalisés',
+'Statuts',
 
 'nav_status_group_management_short_desc' =>
-'Créer, éditer et supprimer des groupes de statut personnalisés',
+'Créer, éditer et supprimer des statuts personnalisés',
 
 'nav_global_channel_preferences' =>
 'Préférences globales',
 
 'nav_global_channel_preferences_short_desc' =>
-'Gérér les préférences globales des canaux',
+'Gérer les préférences globales des canaux',
 
 'nav_admin_content' =>
 'Administration du contenu ',
@@ -273,7 +273,7 @@ $lang = array(
 'Préférences de filigrane',
 
 'nav_file_manager_short_desc' =>
-'Préférences d\'envoi de fichiers',
+'Télécharger, éditer, supprimer et gérer tous vos fichiers',
 
 'nav_file_watermark_preferences_short_desc' =>
 'Créer, éditer et supprimer des préférences de filigrane',
@@ -375,10 +375,10 @@ $lang = array(
 'Gérer la censure de mots',
 
 'nav_search_log_configuration' =>
-'Configuration des journaux de recherche',
+'Configuration des journaux des termes de recherche',
 
 'nav_search_log_configuration_short_desc' =>
-'Gérer la configuration des journaux de recherche',
+'Gérer la configuration des journaux des termes de recherche',
 
 'nav_tools' =>
 'Outils',
@@ -414,7 +414,7 @@ $lang = array(
 'Éditeur de configuration',
 
 'nav_config_editor_short_desc' =>
-'Éditeur de configuration',
+'Éditeur du fichier de configuration',
 
 'nav_tools_data' =>
 'Données',
@@ -471,7 +471,7 @@ $lang = array(
 'Consulter et effacer le journal de la console d\'email',
 
 'nav_view_developer_log'		=> 'Journal Développeur',
-'nav_view_developer_log_short_desc'	=> 'Consulter et gérer le journal développeur',
+'nav_view_developer_log_short_desc'	=> 'Consulter et effacer le journal développeur',
 
 'nav_help' =>
 'Aide',
@@ -514,10 +514,10 @@ $lang = array(
 'Accueil TB',
 
 'username' =>
-'Identifiant',
+'Identifiant ',
 
 'password' =>
-'Mot de passe',
+'Mot de passe ',
 
 'logged_back_in' =>
 'Vous êtes maintenant reconnecté !',
@@ -562,7 +562,7 @@ $lang = array(
 'Moutûre :',
 
 'forgot_password' =>
-'Oubli du mot de passe ?',
+'Mot de passe oublié ?',
 
 'e_no_css' =>
 'Le fichier CSS demandé ne peut être ouvert.',

@@ -203,7 +203,7 @@ $lang = array(
 'restrict_notes_3' =>
 'Note : le téléchargement de fichiers n\'est actuellement autorisé que via le tableau de bord',
 
-'member_group' 				=> 'Le groupe de membres',
+'member_group' 				=> 'Groupe de membres',
 'can_upload_files' 			=> 'Peut télécharger des fichiers',
 'no_results'				=> 'Aucun groupe de membres disponible.',
 'images_only' 				=> 'Images uniquement',
@@ -231,11 +231,11 @@ $lang = array(
 'synchronize_directory'		=> 'Synchroniser le répertoire',
 'directory_manager'			=> 'Gestionnaire de répertoire de destination',
 
-'category_groups'			=> 'Groupes de catégorie de fichier',
-'category_group'			=> 'Groupes de catégorie',
-'no_assigned_category_groups' => 'Aucun groupe de catégorie n\'a été prévu pour le gestionnaire de fichiers.<br>
-								  <a href="%s" title="Affecter des groupes de catégorie">Affecter des groupes de catégorie</a>',
-'category_groups_text'		=> 'Affecter un ou plusieurs groupes de catégorie au répertoire de destination',
+'category_groups'			=> 'Groupes de catégories de fichier',
+'category_group'			=> 'Groupes de catégories',
+'no_assigned_category_groups' => 'Aucun groupe de catégories n\'a été prévu pour le gestionnaire de fichiers.<br>
+								  <a href="%s" title="Affecter des groupes de catégories">Affecter des groupes de catégories</a>',
+'category_groups_text'		=> 'Affecter un ou plusieurs groupes de catégories au répertoire de destination',
 
 'short_name'				=> 'Nom court',
 'manual_batch'				=> 'Téléchargement en lot, manuel',

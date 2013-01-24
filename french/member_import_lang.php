@@ -57,10 +57,10 @@ $lang = array(
 'Veuillez vérifier les détails ci-dessous avant d\'importer vos données. Si quoi que ce soit était incorrect, veuillez revenir en arrière et appliquer les modifications nécessaires.',
 
 'confirm_field_assignment' =>
-'Confirmer l\'assignation de champ',
+'Confirmer l\'affectation de champ',
 
 'confirm_field_assignment_blurb' =>
-'Veuillez vérifier votre assignation de champ. Si quoi que ce soit était incorrect, veuillez revenir en arrière et appliquer les modifications nécessaires.',
+'Veuillez vérifier votre affectation de champ. Si quoi que ce soit était incorrect, veuillez revenir en arrière et appliquer les modifications nécessaires.',
 
 'convert_from_delimited' =>
 'Convertir le texte délimité en XML',

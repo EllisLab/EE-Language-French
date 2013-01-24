@@ -99,7 +99,7 @@ des lettres, des nombres et des underscores.",
 "Nom court du Wiki",
 
 'name_short_subtext' =>
-" - mot unique, sans espaces",
+" - un seul mot, sans espaces",
 
 'basepath_unset' =>
 "Paramètre du chemin de base non défini",

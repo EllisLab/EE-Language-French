@@ -175,7 +175,7 @@ $lang = array(
 "Intervalle de rafraîchissement",
 
 "refresh_in_minutes" =>
-"En minutes",
+"en minutes",
 
 "enable_php" =>
 "Autoriser le PHP ?",
@@ -223,10 +223,10 @@ $lang = array(
 "Groupes de modèles",
 
 "template_group_instructions" =>
-"Le nom doit être un seul mot sans espaces",
+"Un seul mot sans espaces.",
 
 "undersores_allowed" =>
-"(les underscores et tirets sont autorisés)",
+" Les soulignés (underscores) et tirets sont autorisés.",
 
 "new_template_form" =>
 "Nouveau formulaire de modèle",
@@ -553,7 +553,7 @@ $lang = array(
 'La variable globale n\'existe pas',
 
 'variable_name_instructions' =>
-'Le nom doit être un seul mot sans espaces avec des caractères alphanumériques (les underscores, les tirets et les points sont autorisés)',
+'Un seul mot sans espaces, avec des caractères alphanumériques. Les soulignés (underscores), les tirets et les points sont autorisés.',
 
 'snippets' =>
 'Snippets',
@@ -675,7 +675,7 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "Aucun modèle disponible",
 
 'template_manager' =>
-"Gestionnaire de modèle",
+"Gestionnaire de modèles",
 
 'template_id_not_found' =>
 "L'ID de modèle sélectionné est l'invalide",

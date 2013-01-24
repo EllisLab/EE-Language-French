@@ -13,10 +13,10 @@ $lang = array(
 'Aucun article n\'existe pour ce canal lié',
 
 'localized_date' =>
-'Localisé',
+'Localisée',
 
 'fixed_date' =>
-'Fixé',
+'Fixe',
 
 'calendar' =>
 'Calendrier',
@@ -948,7 +948,7 @@ $lang = array(
 'Articles auto-enregistrés',
 
 'no_category_group_match' =>
-'Aucune correspondance de groupe de catégorie n\'a été trouvée pour les articles. Choisissez des articles qui possèdent au moins un groupe de catégorie en commun.',
+'Aucune correspondance de groupe de catégories n\'a été trouvée pour les articles. Choisissez des articles qui possèdent au moins un groupe de catégories en commun.',
 
 'multi_entry_category_editor' =>
 'Éditeur de catégorie multi-article',

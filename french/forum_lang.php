@@ -72,7 +72,7 @@ $lang = array(
 "Votre requête n'a retourné aucun résultat",
 
 "no_feed_specified" =>
-"L'URL que vous avez demandé ne contient pas de numéro ID de flux actif.",
+"L'URL que vous avez demandée ne contient pas de numéro ID de flux actif.",
 
 "split" =>
 "Diviser",

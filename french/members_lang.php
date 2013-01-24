@@ -57,7 +57,7 @@ $lang = array(
 'Filtrer par groupe de membres',
 
 'member_group_assignment' =>
-'Assignation au groupe de membres',
+'Affectation au groupe de membres',
 
 'password_confirm' =>
 'Confirmation du mot de passe',
@@ -80,7 +80,7 @@ $lang = array(
 'Inclure les membres dans la liste des membres du site ?',
 
 'include_in_authorlist' =>
-'Inclure les membres dans la liste multi-auteurs de la page PUBLIER ?',
+'Inclure les membres dans la liste multi-auteurs de la page CONTENU : Publier ?',
 
 'field_description' =>
 'Description du champ',
@@ -457,7 +457,7 @@ $lang = array(
 'Peut publier des commentaires',
 
 'cp_channel_post_privs' =>
-'Assignation de canal',
+'Affectation de canal',
 
 'cp_module_access_privs' =>
 'Privilèges d\'accès aux modules',
@@ -616,7 +616,7 @@ $lang = array(
 'Note : Vous ne pouvez éditer que le nom et la description du groupe Super Administrateur',
 
 'be_careful_assigning_groups' =>
-'Soyez EXTRÊMEMENT prudent lors de l\'assignation des préférences de groupe - en particulier ceux colorés.',
+'Soyez EXTRÊMEMENT prudent lors de l\'affectation des préférences de groupe - en particulier celles colorées, ci-dessous.',
 
 'member_group_updated' =>
 'Groupe de membres mis à jour :',
@@ -704,7 +704,7 @@ $lang = array(
 'Nom du champ',
 
 'fieldname_cont' =>
-'Mot unique, sans espaces. Underscores et tirets autorisés',
+'Un seul mot, sans espaces. Soulignés (underscores) et tirets autorisés',
 
 'field_format' =>
 'Formatage de texte',

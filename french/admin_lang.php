@@ -294,7 +294,7 @@ $lang = array(
 'Lorsque défini sur "non" toutes les dates et heures seront réglées sur les valeurs par défaut du site.',
 
 'publish_tab_behavior' =>
-'Comportement de l\'ongler Publier',
+'Comportement de l\'onglet CONTENU : Publier',
 
 'click' =>
 'Clic',
@@ -487,7 +487,7 @@ $lang = array(
 'Convertir le HTML en entités de caractères',
 
 'config_editor' =>
-'Configurer le Gestionnaire de fichiers',
+'Éditer les paramètres du fichier de configuration',
 
 'image_cfg' =>
 'Préférences du redimensionnement d\'image',
@@ -709,7 +709,7 @@ $lang = array(
 'Une erreur est survenue lors de la suppression du plugin suivant :',
 
 'auto_assign_cat_parents' =>
-'Assignation automatique des catégories parentes ?',
+'Affectation automatique des catégories parentes ?',
 
 'auto_assign_cat_parents_exp' =>
 'Si positionné sur "Oui", quand des nouveaux articles sont soumis, la catégorie parente est automatiquement assignée, que vous ayez choisi une catégorie enfant ou non.',
@@ -1294,7 +1294,7 @@ $lang = array(
 'Statut effacé',
 
 'taken_status_group_name' =>
-'Ce nom de groupe de statut est déjà utilisé',
+'Ce nom de groupe de statuts est déjà utilisé',
 
 'invalid_status_name' =>
 'Les noms de statut ne peuvent contenir que des caractères alphanumériques, espaces, soulignés (underscore) ou tirets',
@@ -1594,7 +1594,7 @@ $lang = array(
 'Modèles spécialisés',
 
 'plugin_manager' =>
-'Gestionnaire de plugin',
+'Gestionnaire de plugins',
 
 'installed_plugins' =>
 'Plugins installés',

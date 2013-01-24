@@ -363,19 +363,19 @@ $lang = array(
 'Adresse IP ',
 
 'member_group_assignment' =>
-'Assignation de groupe de membres',
+'Affectation au groupe de membres :',
 
 'member_group_warning' =>
 'Soyez très prudent en assignant ceci',
 
 'include_in_multiauthor_list' =>
-'Inclure l\'utilisateur dans la liste multi-auteurs de la page PUBLIER ?',
+'Inclure l\'utilisateur dans la liste multi-auteurs de la page CONTENU : Publier ?',
 
 'profile_updated' =>
 'Profil mis à jour',
 
 'super_admin_demotion_alert' =>
-'En tant que Super Admin, vous n\'êtes pas autorisé à changer votre assignation de groupe de membres',
+'En tant que Super Admin, vous n\'êtes pas autorisé à changer votre groupe de membres',
 
 'username' =>
 'Identifiant',
@@ -522,7 +522,7 @@ $lang = array(
 'Mini-signet créé',
 
 'bookmarklet_info' =>
-'Un mini-signet vous permet d\'ajouter des articles à votre canal sans vous connecter dans l\'interface du tableau de bord.',
+'Un mini-signet vous permet d\'ajouter des articles à votre canal sans vous connecter à l\'interface du tableau de bord.',
 
 'bookmarklet_name' =>
 'Nom du mini-signet',
@@ -546,7 +546,7 @@ $lang = array(
 'Créer le mini-signet',
 
 'no_fields_assigned_to_channel' =>
-'Le canal que vous avez choisi n\'a aucun groupe de champ qui lui est assigné',
+'Le canal que vous avez choisi n\'a aucun groupe de champs qui lui est assigné',
 
 'bookmarklet_instructions' =>
 'Enregistrez ce lien dans vos favoris :',

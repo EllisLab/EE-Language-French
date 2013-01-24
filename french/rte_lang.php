@@ -6,8 +6,8 @@ $lang = array(
 'rte_module_description' => 'Active le mode d\'édition en texte enrichi dans les zones de texte',
 
 // Headings
-'nav_rte_settings' => 'Paramètres de l\'éditeur de texte enrichi',
-'nav_rte_settings_short_desc' => 'Gère les outils et les jeux d\'outils de l\'éditeur de texte enrichi',
+'nav_rte_settings' => 'Éditeur de texte enrichi',
+'nav_rte_settings_short_desc' => 'Gérer les outils et les jeux d\'outils de l\'éditeur de texte enrichi',
 'rte_settings' => 'Préférences de site',
 'rte_prefs' => 'Préférences de l\'éditeur de texte enrichi',
 'toolsets' => 'Jeux d\'outils',

@@ -88,7 +88,7 @@ $lang = array(
 "Préférence de formatage de texte",
 
 'metaweblog_parse_type_subtext' =>
-"Paramétrer sur 'oui' affichera le contenu d'un article comme s'il était affiché sur une page web avec tout le BBCode et les répertoires de fichier interprétés.",
+"Paramétrer sur 'Oui' affichera le contenu d'un article comme s'il était affiché sur une page web avec tout le BBCode et les répertoires de fichier interprétés.",
 
 'yes' =>
 "Oui",
@@ -100,7 +100,7 @@ $lang = array(
 "Aucun",
 
 'metaweblog_field_group' =>
-"Groupe de champ de canal",
+"Groupe de champs de canal",
 
 'metaweblog_excerpt_field' =>
 "Champ extrait",
@@ -137,7 +137,8 @@ $lang = array(
 "Répertoire de destination des fichiers",
 
 'metaweblog_upload_dir_subtext' =>
-"La plupart des éditeurs de canal n'autorisent pas cette option et vous ne souhaitez peut-être pas autoriser le téléchargement à travers l'API, paramétrez sur 'Non' empêchera ainsi tout téléchargement de fichier via l'éditeur de canal.",
+"Peu d'éditeurs de canal autorisent cette option et vous ne souhaitez peut-être pas autoriser le téléchargement à travers l'API.<br />
+Le paramétrage sur 'Aucun' empêchera ainsi tout téléchargement de fichier via l'éditeur de canal.",
 
 'metaweblog_entry_status' =>
 "Statut de l'article",
