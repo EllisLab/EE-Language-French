@@ -27,7 +27,7 @@ $lang = array(
 "Utiliser Captcha ?",
 
 'text_format' =>
-"Formatage de texte pour les articles",
+"Formatage Texte pour les articles",
 
 'html_format' =>
 "Formatage HTML pour les articles",
@@ -45,7 +45,7 @@ $lang = array(
 "Autoriser uniquement le HTML sûr",
 
 "allow_all_html" =>
-"Autoriser TOUT LE HTML",
+"Autoriser tout le HTML",
 
 'auto_br' =>
 "Auto &lt;br /&gt;",
@@ -60,7 +60,7 @@ $lang = array(
 "Préférences mises à jour avec succès !",
 
 'revision_limit' =>
-"Nombres de révisions à conserver par article",
+"Nombre de révisions à conserver par article",
 
 'author_limit' =>
 "Nombre d'éditions autorisées par auteur et par jour",
@@ -78,19 +78,19 @@ $lang = array(
 "Le fichier existe déjà, veuillez essayer un nouveau nom",
 
 'filename_too_long' =>
-"Le nom de fichier ne doit excéder 60 caractères, merci d\'essayer un autre nom",
+"Le nom de fichier ne doit pas excéder 60 caractères, merci d\'essayer un autre nom",
 
 'moderation_emails' =>
 "Adresses email pour les notifications de modération",
 
 'namespaces_list' =>
-"Liste de noms d'espace",
+"Liste des espaces de nom",
 
 'namespaces_list_subtext' =>
-"Les noms d'espace sont utilisés pour séparer le contenu d'un wiki en plusieurs sections. Par exemple, vous pouvez souhaiter vouloir créer une section
-du wiki uniquement pour les articles en espagnol. Pour chaque nom d'espace, créez un intitulé, qui sera affiché sur les pages Wiki, un nom court, qui
-sera utilisé en interne et dans certains formulaires pour référencer le nom d'espace. Votre nom court ne doit contenir que des caractères de mots comme
-des lettres, des nombres et des underscores.",
+"Les espaces de nom sont utilisés pour séparer le contenu d'un wiki en plusieurs sections. Par exemple, vous pouvez souhaiter vouloir créer une section
+du wiki uniquement pour les articles en espagnol. Pour chaque espace de nom, créez un intitulé, qui sera affiché sur les pages Wiki, un nom court, qui
+sera utilisé en interne et dans certains formulaires pour référencer l'espace de nom. Votre nom court ne doit contenir que des caractères alphanumériques comme
+des lettres, des nombres et des soulignés (underscores).",
 
 'label_name' =>
 "Nom complet du Wiki",
@@ -105,16 +105,16 @@ des lettres, des nombres et des underscores.",
 "Paramètre du chemin de base non défini",
 
 'users' =>
-"Groupes d'utilisateur",
+"Groupes d'utilisateurs",
 
 'admins' =>
-"Groupes d'administrateur",
+"Groupes d'administrateurs",
 
 'wiki_homepage' =>
 "Page d'accueil du Wiki",
 
 'create_wiki' =>
-"Créer Wiki",
+"Créer un Wiki",
 
 'wiki_created' =>
 "Le Wiki a été créé. Vous pouvez maintenant modifier les préférences.",
@@ -144,10 +144,10 @@ des lettres, des nombres et des underscores.",
 "Bienvenue sur la page d'introduction de votre Wiki EE !",
 
 'namespace_label' =>
-"Intitulé du nom d'espace",
+"Intitulé de l'espace de nom",
 
 'namespace_short_name' =>
-"Nom court du nom d'espace",
+"Nom court de l'espace de nom",
 
 'file_ns' =>
 "Fichier",
@@ -162,7 +162,7 @@ des lettres, des nombres et des underscores.",
 "Categorie",
 
 'invalid_namespace' =>
-"Nom d'espace invalide",
+"Espace de nom invalide",
 
 'namespace_not_deleted' =>
 'Impossible de supprimer le nom d\'espace.',
@@ -171,7 +171,7 @@ des lettres, des nombres et des underscores.",
 'Nom d\'espace supprimé',
 
 'namespaces' =>
-"Noms d'espace",
+"Espaces de nom",
 
 'no_search_terms' =>
 'Vous devez inclure des termes de recherche lors de la recherche d\'un nom d\'espace.',
@@ -189,19 +189,19 @@ des lettres, des nombres et des underscores.",
 "Tous les Wikis",
 
 'any_namespace' =>
-"Tous les noms d'espace",
+"Tous les espaces de nom",
 
 'main_ns' =>
 "Principal",
 
 'wiki_themes' =>
-'Thèms du Wiki',
+'Thèmes du Wiki',
 
 'unable_to_find_themes' =>
-'Aucun thèms du Wiki trouvé',
+'Aucun thème de Wiki trouvé',
 
 'invalid_wiki_theme' =>
-'Thème du Wiki invalide',
+'Thème de Wiki invalide',
 
 'invalid_wiki_template' =>
 'Nom de modèle Wiki invalide',
