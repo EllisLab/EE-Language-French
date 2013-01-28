@@ -1,1664 +1,1697 @@
 <?php
+
 $lang = array(
 
 
-'pconnect' => 
-'Connexions persistantes à la base de données',
+'pconnect' =>
+'Connexions persistantes à la base de données ?',
 
-'cache_on' => 
+'cache_on' =>
 'Activer le cache des requêtes SQL',
 
-'db_debug' => 
-'Activer le débogage de la base de données',
+'db_debug' =>
+'Activer le débogage de la base de données ?',
 
-'enable_db_caching' => 
+'enable_db_caching' =>
 'Activer le cache des requêtes SQL',
 
-'xss_clean_uploads' => 
+// ---------------------------
+//  Member List Config
+// ---------------------------
+
+'xss_clean_uploads' =>
 'Appliquer le filtrage XSS aux fichiers téléchargés ?',
 
-'memberlist_cfg' => 
+'memberlist_cfg' =>
 'Préférences de la liste de membres',
 
-'total_posts' => 
+'total_posts' =>
 'Nombre de publications',
 
-'total_comments' => 
+'total_comments' =>
 'Nombre de commentaires',
 
-'total_entries' => 
+'total_entries' =>
 'Nombre d\'articles',
 
-'memberlist_order_by' => 
+'memberlist_order_by' =>
 'Liste de membres - Trier par',
 
-'memberlist_sort_order' => 
+'memberlist_sort_order' =>
 'Liste de membres - Ordre',
 
-'memberlist_desc' => 
+'memberlist_desc' =>
 'Descendant',
 
-'memberlist_asc' => 
+'memberlist_asc' =>
 'Ascendant',
 
-'memberlist_row_limit' => 
+'memberlist_row_limit' =>
 'Liste de membres - Lignes',
 
-'system_admin_blurb' => 
+// ---------------------------
+//  Explanatory Blurbs
+// ---------------------------
+
+'system_admin_blurb' =>
 'La plupart des fonctions d\'administration d\'ExpressionEngine sont géré depuis l\'une des cinq zones suivantes :',
 
-'channel_administration_blurb' => 
+'channel_administration_blurb' =>
 'Cette zone vous permet de gérer vos canaux et leurs préférences.',
 
-'members_and_groups_blurb' => 
+'members_and_groups_blurb' =>
 'Cette zone vous permet de gérer les membres et les groupes de membres.',
 
-'specialty_templates_blurb' => 
+'specialty_templates_blurb' =>
 'Ces modèles sont destinés à un usage spécifique comme l\'affichage des messages d\'erreurs et les notifications emails.',
 
-'system_preferences_blurb' => 
+'system_preferences_blurb' =>
 'Cette zone vous permet de gérer la configuration de votre système et les préférences globales.',
 
-'utilities_blurb' => 
+'utilities_blurb' =>
 'Cette zone contient des utilitaires pour vous aider à gérer ExpressionEngine.',
 
-'search' => 
+'search' =>
 'Recherche',
 
-'search_preferences' => 
+'search_preferences' =>
 'Préférences de recherche',
 
-'no_search_results' => 
+'no_search_results' =>
 'Aucun résultat',
 
-'search_results' => 
+'search_results' =>
 'Résultats de la recherche',
 
-'mailinglist_cfg' => 
+
+// ---------------------------
+//  Extensions Stuff
+// ---------------------------
+
+'mailinglist_cfg' =>
 'Préférences de la liste de diffusion',
 
-'mailinglist_notify' => 
+'mailinglist_notify' =>
 'Notifier les nouvelles inscriptions de la liste de diffusion',
 
-'mailinglist_enabled' => 
+'mailinglist_enabled' =>
 'La liste de diffusion est activée',
 
-'mailinglist_notify_emails' => 
+'mailinglist_notify_emails' =>
 'Adresses emails des destinataires',
 
-'censor_replacement' => 
+'censor_replacement' =>
 'Mot de remplacement pour la censure',
 
-'censor_replacement_info' => 
+'censor_replacement_info' =>
 'Si le champ est laissé vide, les mots seront remplacés par : #',
 
-'censored_wildcards' => 
+'censored_wildcards' =>
 'Les jokers sont autorisés. Par exemple, le joker test* censurera les mots test, testing, tester, etc.',
 
-'channel_relationships' => 
+'channel_relationships' =>
 'Relations entre les canaux',
 
-'webmaster_name' => 
-'Webmaster ou nom du site pour les emails générés automatiquement',
+'webmaster_name' =>
+'Webmestre ou nom du site pour les emails générés automatiquement',
 
-'search_log_cfg' => 
+'search_log_cfg' =>
 'Configuration des journaux des termes de recherche',
 
-'enable_search_log' => 
-'Activer l\'enregistrement des termes de recherche',
+'enable_search_log' =>
+'Activer l\'enregistrement des termes de recherche ?',
 
-'enable_search_log_exp' => 
-'Si l\'option est active, les saisies du formulaire de recherche seront enregistrées.',
+'enable_search_log_exp' =>
+'Si positionné à "Oui", les saisies du formulaire de recherche seront enregistrées.',
 
-'max_logged_searches' => 
+'max_logged_searches' =>
 'Nombre maximum de recherches récentes à enregistrer',
 
-'no_extensions_exist' => 
+'no_extensions_exist' =>
 'Aucune extension existante',
 
-'extensions_manager' => 
+'extensions_manager' =>
 'Gestionnaire d\'extensions',
 
-'available_extensions' => 
+'available_extensions' =>
 'Extensions disponibles',
 
-'extension' => 
+'extension' =>
 'Extension',
 
-'manage_extension' => 
+'manage_extension' =>
 'Gérer',
 
-'disable_extension_conf' => 
+'disable_extension_conf' =>
 'Confirmation de désactivation d\'extension',
 
-'disable_extensions_conf' => 
+'disable_extensions_conf' =>
 'Confirmation de désactivation d\'extensions',
 
-'enable_extension_conf' => 
+'enable_extension_conf' =>
 'Confirmation d\'activation d\'extension',
 
-'enable_extensions_conf' => 
+'enable_extensions_conf' =>
 'Confirmation d\'activation d\'extensions',
 
-'toggle_extension_confirmation' => 
-'Etes-vous sûr de vouloir exécuter cette action ?',
+'toggle_extension_confirmation' =>
+'Êtes-vous sûr de vouloir exécuter cette action ?',
 
-'extension_disabled' => 
+'extension_disabled' =>
 'Désactivé',
 
-'extension_enabled' => 
+'extension_enabled' =>
 'Activé',
 
-'disable_extensions' => 
+'disable_extensions' =>
 'Désactiver les extensions ?',
 
-'enable_extensions' => 
+'enable_extensions' =>
 'Activer les extensions ?',
 
-'disable_extension' => 
+'disable_extension' =>
 'Désactiver ?',
 
-'enable_extension' => 
+'enable_extension' =>
 'Activer ?',
 
-'extension_name' => 
+'extension_name' =>
 'Nom de l\'extension',
 
-'setting' => 
+'setting' =>
 'Paramètre',
 
-'settings' => 
+'settings' =>
 'Paramètres',
 
-'documentation' => 
+'documentation' =>
 'Documentation',
 
-'status' => 
+'status' =>
 'Statut',
 
-'extension_settings' => 
+'extension_settings' =>
 'Paramètres d\'extension',
 
-'settings_update' => 
+'settings_update' =>
 'Les paramètres ont été mis à jour',
 
-'extension_class_does_not_exist' => 
+'extension_class_does_not_exist' =>
 'La classe %c n\'existe pas dans (%f)',
 
-'guest' => 
+//----------------------------
+// Admin Page
+//----------------------------
+
+'guest' =>
 'Invité',
 
-'wiki_search' => 
+'wiki_search' =>
 'Wiki',
 
-'forum_search' => 
+'forum_search' =>
 'Forum',
 
-'site_search' => 
+'site_search' =>
 'Site',
 
-'searched_in' => 
+'searched_in' =>
 'Recherché dans',
 
-'search_terms' => 
+'search_terms' =>
 'Recherche de termes',
 
-'screen_name' => 
-'Nom à l\'écran',
+'screen_name' =>
+'Pseudo',
 
-'view_search_log' => 
+'view_search_log' =>
 'Voir les journaux des termes de recherche',
 
-'no_search_terms' => 
+'no_search_terms' =>
 'Aucun terme de recherche n\'a été enregistré',
 
-'throttling_cfg' => 
-'Configuration du filtrage',
+"extensions_manager" =>
+"Gestionnaire d'extension",
 
-'banish_masked_ips' => 
-'Refuser l\'accès si l\'adresse IP est absente',
+'throttling_cfg' =>
+'Préférences de filtrage',
 
-'max_page_loads' => 
+'banish_masked_ips' =>
+'Refuser l\'accès si l\'adresse IP est absente ?',
+
+'max_page_loads' =>
 'Nombre maximum de chargements de pages',
 
-'max_page_loads_exp' => 
+'max_page_loads_exp' =>
 'Le nombre maximum de fois qu\'un utilisateur est autorisé à charger n\'importe laquelle de vos pages web (durant l\'intervalle de temps ci-dessous) avant d\'être bloqué.',
 
-'time_interval' => 
+'time_interval' =>
 'Intervalle de temps (en secondes)',
 
-'time_interval_exp' => 
+'time_interval_exp' =>
 'Délai en secondes pendant lesquelles le nombre de chargements de pages ci-dessus sont permis.',
 
-'lockout_time' => 
+'lockout_time' =>
 'Durée du blocage (en secondes)',
 
-'lockout_time_exp' => 
+'lockout_time_exp' =>
 'La durée pendant laquelle l\'utilisateur doit être bloqué s\'il dépasse les limites.',
 
-'banishment_type' => 
+'banishment_type' =>
 'Action à exécuter',
 
-'banishment_type_exp' => 
+'banishment_type_exp' =>
 'L\'action a exécuter si un utilisateur dépasse les limites.',
 
-'url_redirect' => 
+'url_redirect' =>
 'Redirection d\'URL',
 
-'404_page' => 
+'404_page' =>
 'Envoyer les en-têtes 404',
 
-'show_message' => 
+'show_message' =>
 'Afficher un message personnalisé',
 
-'banishment_url' => 
+'banishment_url' =>
 'Adresse pour la redirection',
 
-'banishment_url_exp' => 
+'banishment_url_exp' =>
 'Si vous avez choisi l\'option de redirection d\'URL.',
 
-'banishment_message' => 
+'banishment_message' =>
 'Message personnalisé',
 
-'banishment_message_exp' => 
+'banishment_message_exp' =>
 'Si vous avez choisi l\'option de message personnalisé.',
 
-'email_charset' => 
+'email_charset' =>
 'Encodage des caractères d\'email',
 
-'allow_member_localization' => 
-'Autoriser les membres à choisir leur propre préférences de localisation ?',
+'allow_member_localization' =>
+'Autoriser les membres à choisir leurs propres préférences de localisation ?',
 
-'allow_member_loc_notes' => 
+'allow_member_loc_notes' =>
 'Lorsque défini sur "non" toutes les dates et heures seront réglées sur les valeurs par défaut du site.',
 
-'publish_tab_behavior' => 
-'Comportement de l\'ongler Publier',
+'publish_tab_behavior' =>
+'Comportement de l\'onglet CONTENU : Publier',
 
-'click' => 
+'click' =>
 'Clic',
 
-'hover' => 
+'hover' =>
 'Survol',
 
-'enable_throttling' => 
-'Activer le filtrage',
+'enable_throttling' =>
+'Activer le filtrage ?',
 
-'enable_throttling_explanation' => 
+'enable_throttling_explanation' =>
 'Cette fonctionnalité génère un en-tête et un message 404 si une requête dans laquelle le groupe de modèles est absent de l\'URL est effectuée sur votre site. Le but principal est d\'empêcher les moteurs de recherche d\'indexer des pages inexistantes.',
 
-'max_caches' => 
+'max_caches' =>
 'Nombre maximum d\'URI en cache',
 
-'max_caches_explanation' => 
+'max_caches_explanation' =>
 'Si vous activez le cache des pages ou de la base de données, cette préférence limitera le nombre total d\'instances en cache afin de prévenir une taille de cache excessive. 150 est une valeur correcte pour un petit site. Si vous avez un gros site et que l\'espace disque n\'est pas un problème, vous pouvez l\'augmenter (300 ou plus). Cependant, une limite interne de 1000 ne peut être dépassée.',
 
-'standby_recount' => 
-'Recomptage... Veuillez patienter...',
+'standby_recount' =>
+'Recomptage&hellip Veuillez patienter&hellip',
 
-'theme_folder_url' => 
-'URL de votre dossier "Thèmes"',
+'theme_folder_url' =>
+'URL de votre dossier "themes"',
 
-'exp_forums' => 
+'exp_forums' =>
 'Statistiques du forum',
 
-'exp_forum_topics' => 
+'exp_forum_topics' =>
 'Sujets du forum',
 
-'email_module_captchas' => 
-'Activer les CAPTCHAS pour les emails "Recommander" et "Contact"',
+'email_module_captchas' =>
+'Activer Captcha pour les emails "Recommander" et "Contact" ?',
 
-'sql_good_query' => 
+'sql_good_query' =>
 'Votre requête a réussi',
 
-'must_submit_number' => 
-'Vous devez entrer le nombre de jour pour le filtre du processus de purge.',
+'must_submit_number' =>
+'Vous devez entrer le nombre de jours pour le filtre du processus de purge.',
 
-'must_submit_group' => 
-'Vous devez choisir au moins un groupe de membre',
+'must_submit_group' =>
+'Vous devez choisir au moins un groupe de membres',
 
-'must_submit_channel' => 
+'must_submit_channel' =>
 'Vous devez choisir au moins un canal',
 
-'taken_channel_name' => 
+'taken_channel_name' =>
 'Ce nom de canal est déjà utilisé',
 
-'no_members_matched' => 
-'Il n\'y a aucun compte de membre correspondant aux critères saisis',
+'no_members_matched' =>
+'Il n\'y a aucun compte de membres correspondant aux critères saisis',
 
-'good_member_pruning' => 
-'%x comptes de membre ont été supprimés',
+'good_member_pruning' =>
+'%x comptes de membres ont été supprimés',
 
-'prune_member_confirm_msg' => 
-'Etes-vous sûr de vouloir supprimer les comptes de membre spécifiés ?',
+'prune_member_confirm_msg' =>
+'Êtes-vous sûr de vouloir supprimer les comptes de membres spécifiés ?',
 
-'member_pruning' => 
-'Purge des comptes de membre',
+'member_pruning' =>
+'Purge des comptes de membres',
 
-'mbr_prune_x_days' => 
+'mbr_prune_x_days' =>
 'Supprimer les comptes de membres plus anciens que X jours',
 
-'mbr_prune_never_posted' => 
+'mbr_prune_never_posted' =>
 'Supprimer uniquement les utilisateurs qui n\'ont jamais publié d\'articles, de commentaires ou de message en forum',
 
-'mbr_prune_zero_note' => 
-'Si vous entrez 0, les comptes de membre de toutes les dates seront supprimés.',
+'mbr_prune_zero_note' =>
+'Si vous entrez 0, les comptes de membres de toutes les dates seront supprimés.',
 
-'mbr_prune_groups' => 
+'mbr_prune_groups' =>
 'Supprimer uniquement à l\'intérieur des groupes sélectionnés',
 
-'channel_entry_pruning' => 
+'channel_entry_pruning' =>
 'Purge des articles des Canaux',
 
-'channel_prune_x_days' => 
+'channel_prune_x_days' =>
 'Supprimer les articles qui sont plus anciens que X jours',
 
-'channel_prune_never_posted' => 
+'channel_prune_never_posted' =>
 'Supprimer uniquement les articles qui n\'ont aucun commentaires',
 
-'prune_entry_confirm_msg' => 
-'Etes-vous sûr de vouloir supprimer les articles spécifiés ?',
+'prune_entry_confirm_msg' =>
+'Êtes-vous sûr de vouloir supprimer les articles spécifiés ?',
 
-'no_entries_matched' => 
+'no_entries_matched' =>
 'Aucun article ne correspond aux critères saisis',
 
-'good_entry_pruning' => 
+'good_entry_pruning' =>
 '%x articles ont été supprimés',
 
-'select_prune_channels' => 
+'select_prune_channels' =>
 'Supprimer uniquement à l\'intérieur des canaux sélectionnés',
 
-'comment_pruning' => 
+'comment_pruning' =>
 'Purge des commentaires',
 
-'comment_prune_x_days' => 
+'comment_prune_x_days' =>
 'Supprimer les commentaires plus anciens que X jours',
 
-'no_comments_matched' => 
+'no_comments_matched' =>
 'Aucun commentaire ne correspond aux critères saisis',
 
-'good_commennt_pruning' => 
+'good_commennt_pruning' =>
 '%x commentaires ont été supprimés',
 
-'prune_comment_confirm_msg' => 
-'Etes-vous sûr de vouloir supprimer les commentaires spécifiés ?',
+'prune_comment_confirm_msg' =>
+'Êtes-vous sûr de vouloir supprimer les commentaires spécifiés ?',
 
-'topic_pruning' => 
+/* Someday, oh someday...
+'pm_pruning' =>
+'Purge des messages privés',
+
+'good_pm_pruning' =>
+'%x messages privés ont été supprimés',
+
+'pm_prune_x_days' =>
+'Supprimer les messages plus anciens que X jours',
+
+'prune_pm_confirm_msg' =>
+'Êtes-vous sûr de vouloir supprimer les messages privés spécifiés ?',
+*/
+'topic_pruning' =>
 'Purge des sujets de forum',
 
-'good_topic_pruning' => 
+'good_topic_pruning' =>
 '%x sujets de forum ont été supprimés',
 
-'topic_prune_x_days' => 
+'topic_prune_x_days' =>
 'Supprimer les sujets de forums plus anciens que X jours',
 
-'must_submit_forums' => 
+'must_submit_forums' =>
 'Vous devez choisir au moins un forum',
 
-'prune_if_no_posts' => 
+'prune_if_no_posts' =>
 'Supprimer les sujets uniquement s\'ils ne contiennent aucun message',
 
-'select_prune_forums' => 
+'select_prune_forums' =>
 'Supprimer uniquement à l\'intérieur des forums sélectionnés',
 
-'must_select_one' => 
+'must_select_one' =>
 'Vous devez en sélectionner au moins un',
 
-'prune_topic_confirm_msg' => 
-'Etes-vous sûr de vouloir supprimer les sujets de forum spécifiés ?',
+'prune_topic_confirm_msg' =>
+'Êtes-vous sûr de vouloir supprimer les sujets de forum spécifiés ?',
 
-'no_topics_matched' => 
+'no_topics_matched' =>
 'Aucun sujet ne correspond aux critères saisis',
 
-'select_prune_topics' => 
+'select_prune_topics' =>
 'Supprimer uniquement à l\'intérieur des forums spécifiés',
 
-'pm_cfg' => 
+'pm_cfg' =>
 'Préférences des messages privés',
 
-'prv_msg_storage_limit' => 
+'prv_msg_storage_limit' =>
 'Nombre maximum de messages privés qu\'un utilisateur peut stocker',
 
-'prv_msg_send_limit' => 
+'prv_msg_send_limit' =>
 'Nombre maximum de messages privés qu\'un utilisateur peut envoyer par jour',
 
-'prv_msg_max_chars' => 
+'prv_msg_max_chars' =>
 'Nombre maximum de caractères autorisés dans un message privé',
 
-'prv_msg_max_attachments' => 
+'prv_msg_max_attachments' =>
 'Nombre maximum de pièces jointes par message privé',
 
-'prv_msg_upload_path' => 
+'prv_msg_upload_path' =>
 'Chemin serveur du dossier de téléchargement des pièces jointes',
 
-'prv_msg_attach_maxsize' => 
+'prv_msg_attach_maxsize' =>
 'Taille maximale d\'une pièce jointe d\'un message privé (en Kilobytes)',
 
-'prv_msg_attach_total' => 
+'prv_msg_attach_total' =>
 'Taille maximale de toutes les pièces jointes d\'un message privé (en Megabytes)',
 
-'prv_msg_html_format' => 
+'prv_msg_html_format' =>
 'Formatage HTML dans les messages privés',
 
-'prv_msg_auto_links' => 
+'prv_msg_auto_links' =>
 'Convertir automatiquement les URLs et adresses email en liens ?',
 
-'html_safe' => 
+'html_safe' =>
 'Autoriser uniquement le HTML sûr',
 
-'html_all' => 
+'html_all' =>
 'Autoriser tout le HTML (déconseillé)',
 
-'html_none' => 
+'html_none' =>
 'Convertir le HTML en entités de caractères',
 
-'config_editor' => 
-'Configurer le Gestionnaire de Fichiers',
+'config_editor' =>
+'Éditer les paramètres du fichier de configuration',
 
-'image_cfg' => 
+'image_cfg' =>
 'Préférences du redimensionnement d\'image',
 
-'output_cfg' => 
+'output_cfg' =>
 'Préférences de sortie et de débogage',
 
-'category_trigger_duplication' => 
-'Un modèle ou un groupe de modèle portant ce nom existe déjà.',
+'category_trigger_duplication' =>
+'Un modèle ou un groupe de modèles portant ce nom existe déjà.',
 
-'invalid_path' => 
+'invalid_path' =>
 'Le chemin saisi ci-après est invalide :',
 
-'not_writable_path' => 
+'not_writable_path' =>
 'Le chemin saisi est inaccessible en écriture. Veuillez vérifier que les permissions sont paramétrées sur 777.',
 
-'empty_profile_trigger' => 
+'empty_profile_trigger' =>
 'Vous devez spécifier un mot déclencheur de profil',
 
-'profile_trigger' => 
+'profile_trigger' =>
 'Mot déclencheur de profil',
 
-'profile_trigger_notes' => 
+'profile_trigger_notes' =>
 'La présence de ce mot dans votre URL renverra à l\'affichage de votre espace de profil. Le mot choisi ne peut être le nom d\'un groupe de modèles existant',
 
-'signature_cfg' => 
+'signature_cfg' =>
 'Préférences de signature',
 
-'notification_cfg' => 
+'notification_cfg' =>
 'Préférences de notification',
 
-'photo_cfg' => 
+'photo_cfg' =>
 'Préférences de photo de membre',
 
-'enable_photos' => 
-'Activer les photos de membre',
+'enable_photos' =>
+'Activer les photos de membre ?',
 
-'photo_url' => 
+'photo_url' =>
 'URL du dossier de photos',
 
-'photo_path' => 
+'photo_path' =>
 'Chemin serveur du dossier de photo',
 
-'photo_max_width' => 
+'photo_max_width' =>
 'Largeur maximale de photo',
 
-'photo_max_height' => 
+'photo_max_height' =>
 'Hauteur maximale de photo',
 
-'photo_max_kb' => 
+'photo_max_kb' =>
 'Taille maximale de photo (en Kilobytes)',
 
-'must_be_path' => 
+'must_be_path' =>
 'Note : ce doit être un chemin serveur complet et non une URL. Les permissions du dossier doivent être paramétrées sur 777.',
 
-'allow_signatures' => 
-'Autoriser les utilisateurs à avoir des Signatures ?',
+'allow_signatures' =>
+'Autoriser les utilisateurs à avoir des signatures ?',
 
-'sig_maxlength' => 
+'sig_maxlength' =>
 'Nombre maximum de caractères par signature',
 
-'sig_allow_img_hotlink' => 
+'sig_allow_img_hotlink' =>
 'Autoriser les liens d\'images dans les signatures ?',
 
-'sig_allow_img_upload' => 
+'sig_allow_img_upload' =>
 'Autoriser l\'insertion d\'image dans les signatures ?',
 
-'sig_img_url' => 
+'sig_img_url' =>
 'URL du dossier de téléchargement des images de signature',
 
-'sig_img_path' => 
+'sig_img_path' =>
 'Chemin serveur du dossier de téléchargement des images de signature',
 
-'sig_img_max_width' => 
+'sig_img_max_width' =>
 'Largeur maximale d\'une image de signature',
 
-'sig_img_max_height' => 
+'sig_img_max_height' =>
 'Hauteur maximale d\'une image de signature',
 
-'sig_img_max_kb' => 
+'sig_img_max_kb' =>
 'Taille maximale d\'une image de signature (en Kilobytes)',
 
-'avatar_cfg' => 
+'avatar_cfg' =>
 'Préférences des avatars',
 
-'enable_avatars' => 
-'Activer les avatars',
+'enable_avatars' =>
+'Activer les avatars ?',
 
-'allow_avatar_uploads' => 
+'allow_avatar_uploads' =>
 'Autoriser les membres à télécharger leurs propres avatars ?',
 
-'avatar_url' => 
+'avatar_url' =>
 'URL du dossier avatar',
 
-'avatar_path' => 
+'avatar_path' =>
 'Chemin serveur du dossier avatar',
 
-'avatar_max_width' => 
+'avatar_max_width' =>
 'Largeur maximale d\'un avatar',
 
-'avatar_max_height' => 
+'avatar_max_height' =>
 'Hauteur maximale d\'un avatar',
 
-'avatar_max_kb' => 
+'avatar_max_kb' =>
 'Taille maximale d\'un avatar (en Kilobytes)',
 
-'ignore_noncritical' => 
+'ignore_noncritical' =>
 'Ignorer les données non essentielles (recommandé)',
 
-'archive_destination' => 
+'archive_destination' =>
 'Destination',
 
-'archive_type' => 
+'archive_type' =>
 'Type de fichier',
 
-'mac_no_zip' => 
+'mac_no_zip' =>
 '(meilleur choix pour les utilisateurs Mac)',
 
-'max_referrers' => 
+'max_referrers' =>
 'Nombre maximum de référants récent à enregistrer',
 
-'new_version_check' => 
-'Recherche automatique de nouvelle version',
+'new_version_check' =>
+'Recherche automatique de nouvelle version ?',
 
-'profile_buttons' => 
+'profile_buttons' =>
 'Chemin des images de membre',
 
-'profile_buttons_exp' => 
+'profile_buttons_exp' =>
 'Le chemin du dossier contenant les images utilisées dans les pages de profil des membres.',
 
-'captcha_rand' => 
-'Ajouter un nombre aléatoire au mot Captcha',
+'captcha_rand' =>
+'Ajouter un nombre aléatoire au mot Captcha ?',
 
-'plugin_no_curl_support' => 
+'plugin_no_curl_support' =>
 'Votre serveur ne supporte pas la bibliothèque Curl qui est requise pour utiliser cette fonctionnalité.',
 
-'plugins' => 
+'plugins' =>
 'Plugins',
 
-'plugin_by_date' => 
+'plugin_by_date' =>
 'Par date',
 
-'plugin_by_letter' => 
+'plugin_by_letter' =>
 'Par lettre',
 
-'plugin_requires' => 
+'plugin_requires' =>
 'Requiert',
 
-'plugin_zlib_missing' => 
+'plugin_zlib_missing' =>
 'La bibliothèque Zlib est absente. Veuillez consulter le guide d\'utilisation.',
 
-'plugin_can_not_fetch' => 
+'plugin_can_not_fetch' =>
 'Impossible d\'accéder au plugin distant',
 
-'plugin_folder_not_writable' => 
+'plugin_folder_not_writable' =>
 'Votre dossier plugin est inaccessible en écriture. Les permissions doivent être paramétrées sur 777 avant que cette action ne puisse être exécutée.',
 
-'plugin_problem_creating_file' => 
+'plugin_problem_creating_file' =>
 'Impossible de créer une version locale de votre plugin',
 
-'plugin_version_check' => 
+'plugin_version_check' =>
 'Vérifier la version',
 
-'plugin_installed' => 
+'plugin_installed' =>
 'Plugin(s) installé(s)',
 
-'plugin_latest' => 
+'plugin_latest' =>
 'Derniers plugins',
 
-'plugin_installation' => 
+'plugin_installation' =>
 'Installation de plugin',
 
-'plugin_install' => 
+'plugin_install' =>
 'Installer',
 
-'plugin_install_status' => 
+'plugin_install_status' =>
 'Statut d\'installation de plugin',
 
-'plugin_install_success' => 
+'plugin_install_success' =>
 'Le plugin a été installé avec succès.',
 
-'plugin_install_other' => 
+'plugin_install_other' =>
 'Le fichier de plugin a été placé dans votre dossier de plugins.',
 
-'plugin_error_uncompress' => 
+'plugin_error_uncompress' =>
 'Impossible de décompresser l\'archive ZIP. Le fichier ZIP a été placé dans votre dossier de plugins.',
 
-'plugin_error_no_zlib' => 
+'plugin_error_no_zlib' =>
 'Votre serveur ne dispose pas du support Zlib, la décompression est donc impossible. Le fichier ZIP est placé dans votre dossier de plugins',
 
-'plugin_error_package_already_exists' => 
+'plugin_error_package_already_exists' =>
 'Le paquet du plugin existe déjà',
 
-'plugin_error_no_plugins_found' => 
+'plugin_error_no_plugins_found' =>
 'Impossible de localiser un fichier de plugin valide dans le téléchargement',
 
-'plugin_delete_confirm' => 
+'plugin_delete_confirm' =>
 'Confirmation de suppression de plugin',
 
-'plugin_single_confirm' => 
-'Etes-vous sûr de vouloir supprimer ce plugin ?',
+'plugin_single_confirm' =>
+'Êtes-vous sûr de vouloir supprimer ce plugin ?',
 
-'plugin_multiple_confirm' => 
-'Etes-vous sûr de vouloir supprimer ces plugins ?',
+'plugin_multiple_confirm' =>
+'Êtes-vous sûr de vouloir supprimer ces plugins ?',
 
-'plugin_remove' => 
+'plugin_remove' =>
 'Supprimer',
 
-'plugin_removal' => 
+'plugin_removal' =>
 'Suppression de plugin',
 
-'plugin_removal_status' => 
+'plugin_removal_status' =>
 'Statut de suppression de plugin',
 
-'plugin_removal_success' => 
+'plugin_removal_success' =>
 'Le plugin suivant a été correctement supprimé :',
 
-'plugin_removal_error' => 
+'plugin_removal_error' =>
 'Une erreur est survenue lors de la suppression du plugin suivant :',
 
-'auto_assign_cat_parents' => 
-'Assignation automatique des catégories parentes',
+'auto_assign_cat_parents' =>
+'Affectation automatique des catégories parentes ?',
 
-'auto_assign_cat_parents_exp' => 
-'Si défini sur "oui", lorsque des nouveaux articles sont soumis, la catégorie parente sera automatiquement assignée que vous ayez choisi une catégorie enfant on non.',
+'auto_assign_cat_parents_exp' =>
+'Si positionné sur "Oui", quand des nouveaux articles sont soumis, la catégorie parente est automatiquement assignée, que vous ayez choisi une catégorie enfant ou non.',
 
-'use_category_name' => 
+'use_category_name' =>
 'Utiliser les titres URL de catégorie dans les liens ?',
 
-'use_category_name_exp' => 
+'use_category_name_exp' =>
 'Cette préférence détermine lequel du nombre ID de catégorie ou du titre URL de catégorie est utilisé dans les liens apparentés aux catégories.',
 
-'reserved_category_word' => 
+'reserved_category_word' =>
 'Indicateur URL de catégorie',
 
-'reserved_category_word_exp' => 
-'Si vous paramétrez la préférence ci-dessus sur "oui" vous devez choisir un mot réservé. Ce mot sera utilisé dans l\'URL pour indiquer au moteur d\'affichage du canal qu\'il s\'agit d\'une catégorie. Note : Quel que soit le mot que vous choisissez, il ne doit pas être utilisé par un modèle ou un groupe de modèle.',
+'reserved_category_word_exp' =>
+'Si vous paramétrez la préférence ci-dessus sur "oui" vous devez alors choisir un mot réservé. Ce mot sera utilisé dans l\'URL pour indiquer au moteur d\'affichage du canal qu\'il s\'agit d\'une catégorie. Note : Quel que soit le mot que vous choisissez, il ne doit pas être utilisé par un modèle ou un groupe de modèles.',
 
-'enable_sql_caching' => 
+'enable_sql_caching' =>
 'Mettre en cache les requêtes dynamique de Canal ?',
 
-'enable_sql_caching_exp' => 
+'enable_sql_caching_exp' =>
 'Cette fonctionnalité augmentera la vitesse de chargement des pages de votre canal en mettant en cache les requêtes qui sont normalement exécutées dynamiquement. N\'activez cette option que si vous n\'utilisez pas les fonctions "Articles futurs" ou "Articles expirés".',
 
-'email_debug' => 
+'email_debug' =>
 'Activer le débogage email ?',
 
-'email_debug_exp' => 
+'email_debug_exp' =>
 'Les messages serveurs seront affichés lors de l\'envoi d\'email.',
 
-'none' => 
+'none' =>
 'Aucun',
 
-'channel_nomenclature' => 
+'channel_nomenclature' =>
 'Mot de désignation de section',
 
-'channel_nomenclature_exp' => 
+'channel_nomenclature_exp' =>
 'Par défaut, ExpressionEngine utilise le mot "Canal" sur le tableau de bord. Vous pouvez le changer par quelque chose de plus générique, comme "Section". Veuillez noter que ce mot ne changera pas dans vos modèles, mais uniquement sur le tableau de bord.',
 
-'site_404' => 
+'site_404' =>
 'Page 404',
 
-'site_404_exp' => 
+'site_404_exp' =>
 'Détermine quel modèle doit être affiché lorsque quelqu\'un tente d\'accéder à une URL invalide.',
 
-'db_cfg' => 
+'db_cfg' =>
 'Paramètres de la base de données',
 
-'cp_image_path' => 
+'cp_image_path' =>
 'URL du dossier image du tableau de bord',
 
-'auto_close' => 
+'auto_close' =>
 'Auto',
 
-'manual_close' => 
+'manual_close' =>
 'Manuel',
 
-'new_posts_clear_caches' => 
+'new_posts_clear_caches' =>
 'Réinitialiser tous les caches lorsqu\'un nouvel article est publié ?',
 
-'require_ip_for_posting' => 
+'require_ip_for_posting' =>
 'Requérir l\'adresse IP et l\'User Agent à la réception de commentaires ?',
 
-'redirect_submitted_links' => 
+'redirect_submitted_links' =>
 'Appliquer le déni de rang aux liens soumis par les utilisateurs ?',
 
-'redirect_submitted_links_explanation' => 
+'redirect_submitted_links_explanation' =>
 'Cette option réécrit les liens soumis par les utilisateurs pour qu\'ils pointent en premier vers une page de redirection intermédiaire. Ceci est une prévention contre le spam de commentaire qui empêche les moteurs de recherche d\'indexer les liens.',
 
-'captcha_cfg' => 
+'captcha_cfg' =>
 'Préférences de Captcha',
 
-'captcha_require_members' => 
-'Requérir captcha pour les membres connectés ?',
+'captcha_require_members' =>
+'Requérir un Captcha pour les membres connectés ?',
 
-'channel_cfg' => 
+'channel_cfg' =>
 'Préférences globales du canal',
 
-'auto_convert_high_ascii' => 
+'auto_convert_high_ascii' =>
 'Convertir automatiquement le texte ASCII étendu en entités',
 
-'cp_cfg' => 
+'cp_cfg' =>
 'Paramètres du tableau de bord',
 
-'query_cfg' => 
+'query_cfg' =>
 'Préférences du cache des requêtes',
 
-'debug_cfg' => 
+'debug_cfg' =>
 'Préférences du débogage',
 
-'license_number' => 
+'license_number' =>
 'Numéro de licence',
 
-'word_separator' => 
+'word_separator' =>
 'Séparateur de mot pour les titres URL',
 
-'dash' => 
+'dash' =>
 'Tiret',
 
-'underscore' => 
+'underscore' =>
 'Underscore',
 
-'site_name' => 
+'site_name' =>
 'Nom de votre site',
 
-'system_admin' => 
+'system_admin' =>
 'Administration du système',
 
-'content_admin' => 
+'content_admin' =>
 'Administration du contenu',
 
-'system_preferences' => 
+'system_preferences' =>
 'Préférences système',
 
-'is_system_on' => 
-'Le système est-il en marche ?',
+'is_system_on' =>
+'Le système est-il en ligne ?',
 
-'is_system_on_explanation' => 
-'Si le système est arrêté, seuls les Super Administrateurs pourront visualiser le(s) site(s)',
+'is_system_on_explanation' =>
+'Si le système est hors ligne, seuls les Super Administrateurs pourront visualiser le(s) site(s)',
 
-'system_off_msg' => 
-'Message d\'arrêt du système',
+'system_off_msg' =>
+'Message du système hors ligne',
 
-'template_updated' => 
+'template_updated' =>
 'Modèle mis à jour',
 
-'preference_information' => 
+'preference_information' =>
 'Guide des préférences',
 
-'preference' => 
+'preference' =>
 'Préférence',
 
-'value' => 
+'value' =>
 'Valeur',
 
-'general_cfg' => 
+'general_cfg' =>
 'Configuration générale',
 
-'allow_member_registration' => 
+'allow_member_registration' =>
 'Autoriser l\'inscription de nouveaux membres ?',
 
-'req_mbr_activation' => 
+'req_mbr_activation' =>
 'Activation de compte requise pour les nouveaux membres ?',
 
-'no_activation' => 
+'no_activation' =>
 'Pas d\'activation requise',
 
-'email_activation' => 
+'email_activation' =>
 'Auto-activation par email',
 
-'manual_activation' => 
+'manual_activation' =>
 'Activation manuelle par un administrateur',
 
-'require_terms_of_service' => 
-'Requier les conditions d\'utilisation',
+'require_terms_of_service' =>
+'Requiert les conditions d\'utilisation ?',
 
-'member_theme' => 
+'member_theme' =>
 'Thème par défaut du profil de membre',
 
-'member_theme_exp' => 
+'member_theme_exp' =>
 'Détermine quel thème utiliser pour les différentes pages de profil de membre : connexion, inscription, profil, etc.',
 
-'require_terms_of_service_exp' => 
+'require_terms_of_service_exp' =>
 'Mettre la valeur à "oui" force l\'utilisateur à cocher la case "accepter les conditions d\'utilisation" lors de l\'inscription',
 
-'use_membership_captcha' => 
+'use_membership_captcha' =>
 'Activer Captcha pour l\'inscription ?',
 
-'new_member_notification' => 
+'new_member_notification' =>
 'Notifier les administrateurs des nouvelles inscriptions ?',
 
-'mbr_notification_emails' => 
+'mbr_notification_emails' =>
 'Adresse email pour la notification',
 
-'separate_emails' => 
+'separate_emails' =>
 'Séparez les différentes adresses email par une virgule',
 
-'email_console_timelock' => 
+'email_console_timelock' =>
 'Verrouillage programmé de la console d\'email',
 
-'email_console_timelock_exp' => 
+'email_console_timelock_exp' =>
 'Nombre de minutes qui doivent s\'écouler avant qu\'un membre ne soit autorisé à envoyer un autre email. Note : ceci s\'applique uniquement à la console d\'email dans les pages de profil de membre.',
 
-'log_email_console_msgs' => 
-'Enregistrer les messages de la console d\'email',
+'log_email_console_msgs' =>
+'Enregistrer les messages de la console d\'email ?',
 
-'log_email_console_msgs_exp' => 
+'log_email_console_msgs_exp' =>
 'Cette préférence vous permet d\'enregistrer tous les messages envoyé via la console d\'email des pages de profil de membre.',
 
-'default_member_group' => 
-'Groupe de membre affecté par défaut aux nouveaux membres',
+'default_member_group' =>
+'Groupe de membres affecté par défaut aux nouveaux membres',
 
-'group_assignment_defaults_to_two' => 
+'group_assignment_defaults_to_two' =>
 'Si vous avez requis l\'activation des comptes, ce paramètre ne leur sera affecté qu\'une fois leur compte activé',
 
-'user_session_type' => 
+'user_session_type' =>
 'Type de session utilisateur',
 
-'admin_session_type' => 
+'admin_session_type' =>
 'Type de session du tableau de bord',
 
-'security_cfg' => 
+'security_cfg' =>
 'Préférences de sécurité et de session',
 
-'un_min_len' => 
+'un_min_len' =>
 'Longueur minimale du nom d\'utilisateur',
 
-'pw_min_len' => 
+'pw_min_len' =>
 'Longueur minimale du mot de passe',
 
-'cs_session' => 
+'cs_session' =>
 'Cookies et ID de session',
 
-'c_session' => 
+'c_session' =>
 'Cookies uniquement',
 
-'s_session' => 
+'s_session' =>
 'ID de session uniquement',
 
-'secure_forms' => 
+'secure_forms' =>
 'Traiter les données de formulaire en Mode Sécurisé ?',
 
-'deny_duplicate_data' => 
+'deny_duplicate_data' =>
 'Refuser les données dupliquées ?',
 
-'deny_duplicate_data_explanation' => 
+'deny_duplicate_data_explanation' =>
 'Cette option permet d\'éviter l\'enregistrement de doublons (commentaires, etc.) soumis par les utilisateurs si un duplicata exact des données existe.',
 
-'secure_forms_explanation' => 
+'secure_forms_explanation' =>
 'Empêche le spam et les soumissions multiples accidentelles.',
 
-'allow_multi_logins' => 
+'allow_multi_logins' =>
 'Autoriser les sessions multiples à partir d\'un seul compte ?',
 
-'allow_multi_logins_explanation' => 
+'allow_multi_logins_explanation' =>
 'Détermine si plus d\'une personne peut se connecter en même temps au système en utilisant le même compte utilisateur. Note : si votre type de session (ci-dessus) est paramétrée sur "Cookies uniquement" cette option ne fonctionnera pas.',
 
-'password_lockout' => 
+'password_lockout' =>
 'Activer le blocage de mot de passe ?',
 
-'password_lockout_explanation' => 
+'password_lockout_explanation' =>
 'Lorsque cette option est activée, seule quatres tentatives de connexion sont permises durant l\'intervalle de temps défini ci-après. C\'est une parade contre les attaques de pirates visant à deviner les mots de passes trop faciles.',
 
-'password_lockout_interval' => 
+'password_lockout_interval' =>
 'Intervalle de temps pour le blocage',
 
-'login_interval_explanation' => 
+'login_interval_explanation' =>
 'L\'intervalle est défini en minutes. Vous êtes autorisé à utiliser des décimales. Exemple : 1.5',
 
-'require_ip_for_login' => 
+'require_ip_for_login' =>
 'Requérir l\'adresse IP et l\'User Agent pour la connexion ?',
 
-'require_ip_explanation' => 
+'require_ip_explanation' =>
 'Empêche les utilisateurs de se connecter si leur navigateur n\'envoie pas l\'adresse IP et l\'User Agent. Ceci empêche les pirates de se connecter en utilisant une connexion directe par socket.',
 
-'allow_username_change' => 
+'allow_username_change' =>
 'Autoriser les membres à changer leur nom d\'utilisateur ?',
 
-'require_secure_passwords' => 
+'require_secure_passwords' =>
 'Requérir des mots de passe forts ?',
 
-'secure_passwords_explanation' => 
+'secure_passwords_explanation' =>
 'Les utilisateurs devront choisir des mots de passe contenant au moins une lettre majuscule, une lettre minuscule et un caractère numérique.',
 
-'allow_dictionary_pw' => 
+'allow_dictionary_pw' =>
 'Autoriser les mots du dictionnaire comme mot de passe ?',
 
-'real_word_explanation' => 
+'real_word_explanation' =>
 'Ce paramètre empêche les utilisateurs de choisir pour leur mot de passe des mots et noms contenus dans le dictionnaire.',
 
-'dictionary_note' => 
+'dictionary_note' =>
 'Note : Pour utiliser cette fonctionnalité vous devez installer un fichier dictionnaire. Consultez le guide d\'utilisation.',
 
-'name_of_dictionary_file' => 
+'name_of_dictionary_file' =>
 'Nom du fichier dictionnaire',
 
-'dictionary_explanation' => 
+'dictionary_explanation' =>
 'Le nom du fichier contenant votre liste de mots',
 
-'image_path' => 
+'image_path' =>
 'Chemin du répertoire image',
 
-'cp_url' => 
+'cp_url' =>
 'URL de la page Index du tableau de bord',
 
-'with_trailing_slash' => 
+'with_trailing_slash' =>
 'Avec slash de fin',
 
-'site_url' => 
+'site_url' =>
 'URL du répertoire racine de votre site',
 
-'url_explanation' => 
+'url_explanation' =>
 'Il s\'agit du répertoire contenant le fichier Index de votre site.',
 
-'doc_url' => 
+'doc_url' =>
 'URL du répertoire Documentation',
 
-'doc_url_explanation' => 
+'doc_url_explanation' =>
 'Répertoire racine uniquement, avec slash de fin',
 
-'site_index' => 
+'site_index' =>
 'Nom de la page Index de votre site',
 
-'system_path' => 
+'system_path' =>
 'Chemin absolu de votre dossier %x',
 
-'force_query_string' => 
-'Forcer les URL de chaînes de requête',
+'force_query_string' =>
+'Forcer les URL de chaînes de requête ?',
 
-'safe_mode' => 
+'safe_mode' =>
 'Votre serveur exécute-t-il PHP en mode sans échec (safe mode) ?',
 
-'force_query_string_explanation' => 
+'force_query_string_explanation' =>
 'Ceci est un mécanisme de sécurité pour les serveurs qui ne supportent pas la variable PATH_INFO.',
 
-'debug' => 
+'debug' =>
 'Préférence de débogage',
 
-'debug_explanation' => 
+'debug_explanation' =>
 'Autorise l\'affichage de messages d\'erreur, qui peuvent être précieux lors du développement du site',
 
-'show_profiler' => 
+'show_profiler' =>
 'Afficher les informations de traitement ?',
 
-'show_profiler_explanation' => 
+'show_profiler_explanation' =>
 'Si cette option est activée, les Super Administrateurs verront les résultats des tests de performances, toutes les requêtes SQL, ainsi que les données des formulaires s\'afficher au bas de la fenêtre du navigateur. Pratique pour le débogage.',
 
-'debug_zero' => 
-'0: Aucun message d\'erreur PHP/SQL généré',
+'debug_zero' =>
+'0 : Aucun message d\'erreur PHP/SQL généré',
 
-'debug_one' => 
-'1: Messages d\'erreur PHP/SQL visibles uniquement par les Super Administrateurs',
+'debug_one' =>
+'1 : Messages d\'erreur PHP/SQL visibles uniquement par les Super Administrateurs',
 
-'debug_two' => 
-'2: Messages d\'erreur PHP/SQL visibles par tous - SANS SECURITE',
+'debug_two' =>
+'2 : Messages d\'erreur PHP/SQL visibles par tous - SANS SÉCURITÉ',
 
-'deft_lang' => 
+'deft_lang' =>
 'Langue par défaut',
 
-'xml_lang' => 
+'xml_lang' =>
 'Langue XML par défaut',
 
-'used_in_meta_tags' => 
+'used_in_meta_tags' =>
 'Utilisé dans les meta-tags du tableau de bord',
 
-'gzip_output' => 
+'gzip_output' =>
 'Activer l\'export GZIP ?',
 
-'gzip_output_explanation' => 
+'gzip_output_explanation' =>
 'Si cette option est activée, votre site sera affiché dans un format compressé pour optimiser le chargement des pages.',
 
-'send_headers' => 
+'send_headers' =>
 'Générer les en-têtes HTTP des pages ?',
 
-'redirect_method' => 
+'redirect_method' =>
 'Méthode de redirection',
 
-'location_method' => 
+'location_method' =>
 'Location (plus rapide)',
 
-'refresh_method' => 
+'refresh_method' =>
 'Actualisation (serveurs Windows)',
 
-'localization_cfg' => 
+'localization_cfg' =>
 'Paramètres de localisation',
 
-'time_format' => 
+'time_format' =>
 'Format des dates et heures',
 
-'united_states' => 
+'united_states' =>
 'Américain',
 
-'european' => 
+'european' =>
 'Européen',
 
-'server_timezone' => 
+'server_timezone' =>
 'Fuseau horaire du serveur',
 
-'server_offset' => 
+'server_offset' =>
 'Décalage du serveur (en minutes)',
 
-'server_offset_explain' => 
+'server_offset_explain' =>
 'Utilisez le signe moins pour soustraire des minutes : -15',
 
-'daylight_savings' => 
-'Heure d\'été',
+'daylight_savings' =>
+'Heure d\'été en vigueur ?',
 
-'cookie_cfg' => 
+'cookie_cfg' =>
 'Paramètres du Cookie',
 
-'cookie_domain' => 
+'cookie_domain' =>
 'Domaine du Cookie',
 
-'cookie_domain_explanation' => 
+'cookie_domain_explanation' =>
 'Utilisez votredomaine.com pour des cookies couvrant tout le site',
 
-'cookie_prefix' => 
+'cookie_prefix' =>
 'Préfixe du Cookie',
 
-'cookie_prefix_explain' => 
+'cookie_prefix_explain' =>
 'A utiliser uniquement si vous avez plusieurs installations de ce programme',
 
-'cookie_path' => 
+'cookie_path' =>
 'Chemin du Cookie',
 
-'cookie_path_explain' => 
+'cookie_path_explain' =>
 'A utiliser uniquement si vous avez besoin d\'un chemin de serveur spécifique pour les cookies',
 
-'image_resize_protocol' => 
+'image_resize_protocol' =>
 'Protocole de redimensionnement d\'image',
 
-'image_resize_protocol_exp' => 
+'image_resize_protocol_exp' =>
 'Veuillez vérifer auprès de votre hébergeur que votre serveur supporte le protocole choisi.',
 
-'image_library_path' => 
+'image_library_path' =>
 'Chemin du convertisseur d\'image',
 
-'image_library_path_exp' => 
+'image_library_path_exp' =>
 'Si vous choisissez ImageMagick ou NetPBM vous devez spécifier le chemin serveur vers le convertisseur d\'image.',
 
-'gd' => 
+'gd' =>
 'GD',
 
-'gd2' => 
+'gd2' =>
 'GD 2',
 
-'netpbm' => 
+'netpbm' =>
 'NetPBM',
 
-'imagemagick' => 
+'imagemagick' =>
 'ImageMagik',
 
-'thumbnail_prefix' => 
+'thumbnail_prefix' =>
 'Suffixe des miniatures',
 
-'thumbnail_prefix_exp' => 
+'thumbnail_prefix_exp' =>
 'Ce suffixe sera ajouté à toutes les miniatures générées automatiquement. Exemple : photo_mini.jpg',
 
-'captcha_path' => 
+'captcha_path' =>
 'Chemin relatif du dossier Captcha',
 
-'captcha_url' => 
+'captcha_url' =>
 'URL complète du dossier Captcha',
 
-'captcha_font' => 
+'captcha_font' =>
 'Utiliser les polices TrueType pour Captcha ?',
 
-'email_cfg' => 
+'email_cfg' =>
 'Configuration des emails',
 
-'mail_protocol' => 
+'mail_protocol' =>
 'Protocole d\'email',
 
-'smtp_server' => 
+'smtp_server' =>
 'Adresse du serveur SMTP',
 
-'smtp_username' => 
+'smtp_username' =>
 'Nom d\'utilisateur SMTP',
 
-'smtp_password' => 
+'smtp_password' =>
 'Mot de passe SMTP',
 
-'only_if_smpte_chosen' => 
+'only_if_smpte_chosen' =>
 'A utiliser uniquement si vous avez choisi SMTP',
 
-'email_batchmode' => 
+'email_batchmode' =>
 'Utiliser le traitement par lots (Batches) ?',
 
-'batchmode_explanation' => 
+'batchmode_explanation' =>
 'Le traitement par lots divise les envois de masse en petits groupes et les envoie à intervalles réguliers. Ceci est recommandé si votre site est hébergé sur des infrastructures partagées',
 
-'email_batch_size' => 
+'email_batch_size' =>
 'Nombre d\'emails par lots',
 
-'batch_size_explanation' => 
+'batch_size_explanation' =>
 'Pour un serveur moyen, 300 est une valeur sûre',
 
-'webmaster_email' => 
+'webmaster_email' =>
 'Adresse email de retour pour les emails générés automatiquement',
 
-'return_email_explanation' => 
+'return_email_explanation' =>
 'Si vous laissez ce champ vide, beaucoup de serveurs email considéreront vos envois comme du spam',
 
-'php_mail' => 
+'php_mail' =>
 'PHP Mail',
 
-'sendmail' => 
+'sendmail' =>
 'Sendmail',
 
-'smtp' => 
+'smtp' =>
 'SMTP',
 
-'plain_text' => 
+'plain_text' =>
 'Texte entier',
 
-'html' => 
+'html' =>
 'HTML',
 
-'mail_format' => 
+'mail_format' =>
 'Format de mail par défaut',
 
-'word_wrap' => 
+'word_wrap' =>
 'Activer la césure de mot par défaut ?',
 
-'cp_theme' => 
+'cp_theme' =>
 'Thème par défaut du tableau de bord',
 
-'template_cfg' => 
+'template_cfg' =>
 'Préférences des modèles',
 
-'censoring_cfg' => 
+'censoring_cfg' =>
 'Censure de mot',
 
-'enable_censoring' => 
+'enable_censoring' =>
 'Activer la censure de mots ?',
 
-'censored_words' => 
+'censored_words' =>
 'Mots censurés',
 
-'censored_explanation' => 
+'censored_explanation' =>
 'Saisissez un mot par ligne.',
 
-'emoticon_cfg' => 
+'emoticon_cfg' =>
 'Préférences des émoticônes',
 
-'enable_emoticons' => 
+'enable_emoticons' =>
 'Afficher les émoticônes ?',
 
-'emoticon_path' => 
+'emoticon_url' =>
 'URL du répertoire contenant vos émoticônes ',
 
-'tracking_cfg' => 
+'tracking_cfg' =>
 'Préférences de suivi',
 
-'enable_online_user_tracking' => 
+'enable_online_user_tracking' =>
 'Activer le suivi des utilisateurs en ligne ?',
 
-'dynamic_tracking_disabling' => 
+'dynamic_tracking_disabling' =>
 'Suspendre TOUS les suivis lorsque le nombre de visiteurs en ligne dépasse :',
 
-'dynamic_tracking_disabling_info' => 
+'dynamic_tracking_disabling_info' =>
 'Le suivi des utilisateurs en ligne doit être activé pour utiliser cette fonctionnalitée, consultez le guide d\'utilisation pour plus d\'informations.',
 
-'enable_hit_tracking' => 
+'enable_hit_tracking' =>
 'Activer le suivi des modèles ?',
 
-'enable_entry_view_tracking' => 
-'Activer le suivi des vues d\'articles',
+'enable_entry_view_tracking' =>
+'Activer le suivi des vues d\'articles ?',
 
-'log_referrers' => 
+'log_referrers' =>
 'Activer le suivi des référants ?',
 
-'channel_administration' => 
+'channel_administration' =>
 'Administration du canal',
 
-'channels' => 
+'channels' =>
 'Canaux',
 
-'field_management' => 
-'Champs personnalisés du canal',
+'field_management' =>
+'Champs personnalisés de canal',
 
-'file_upload_prefs' => 
+'file_upload_prefs' =>
 'Préférences du téléchargement de fichier',
 
-'categories' => 
+'categories' =>
 'Gestion des catégories',
 
-'missing_required_fields' => 
+'missing_required_fields' =>
 'Les champs suivants sont requis :',
 
-'default_ping_servers' => 
+'default_ping_servers' =>
 'Serveur de Ping par défaut',
 
-'statuses' => 
-'Etats',
+'statuses' =>
+'Statuts',
 
-'status_created' => 
-'Etat créé',
+'status_created' =>
+'Statut créé',
 
-'status_updated' => 
-'Etat mis à jour',
+'status_updated' =>
+'Statut mis à jour',
 
-'status_deleted' => 
-'Etat effacé',
+'status_deleted' =>
+'Statut effacé',
 
-'taken_status_group_name' => 
-'Ce nom de groupe d\'état est déjà utilisé',
+'taken_status_group_name' =>
+'Ce nom de groupe de statuts est déjà utilisé',
 
-'invalid_status_name' => 
-'Les noms d\'état doivent être alphanumérique plus espace, soulignés ou tiret',
+'invalid_status_name' =>
+'Les noms de statut ne peuvent contenir que des caractères alphanumériques, espaces, soulignés (underscore) ou tirets',
 
-'duplicate_status_name' => 
-'Un état avec ce nom existe déjà',
+'duplicate_status_name' =>
+'Un statut du même nom existe déjà',
 
-'edit_preferences' => 
-'Editer les préférences',
+'edit_preferences' =>
+'Éditer les préférences',
 
-'preferences_updated' => 
+'preferences_updated' =>
 'Préférences mises à jour',
 
-'edit_groups' => 
-'Editer les groupes',
+'edit_groups' =>
+'Éditer les groupes',
 
-'members_and_groups' => 
+'members_and_groups' =>
 'Membres et groupes',
 
-'utilities' => 
+'utilities' =>
 'Utilitaires',
 
-'view_log_files' => 
+'view_log_files' =>
 'Voir le journal du tableau de bord',
 
-'clear_caching' => 
+'clear_caching' =>
 'Effacer les données en cache',
 
-'page_caching' => 
+'page_caching' =>
 'Fichiers cache des pages (modèles)',
 
-'tag_caching' => 
+'tag_caching' =>
 'Fichiers cache des balises',
 
-'db_caching' => 
+'db_caching' =>
 'Fichiers cache de la base de données',
 
-'all_caching' => 
+'all_caching' =>
 'Tous les fichiers cache',
 
-'cache_deleted' => 
+'cache_deleted' =>
 'Les fichiers cache ont été effacés',
 
-'php_info' => 
+'php_info' =>
 'Informations PHP',
 
-'sql_manager' => 
+'sql_manager' =>
 'Gestionnaire SQL',
 
-'sql_info' => 
+'sql_info' =>
 'Informations SQL',
 
-'sql_utilities' => 
+'sql_utilities' =>
 'Utilitaires SQL',
 
-'database_type' => 
+'database_type' =>
 'Type de la base de données',
 
-'sql_version' => 
+'sql_version' =>
 'Version de la base de données',
 
-'database_size' => 
+'database_size' =>
 'Taille de la base de données',
 
-'database_uptime' => 
+'database_uptime' =>
 'Uptime de la base de données',
 
-'total_queries' => 
+'total_queries' =>
 'Nombre total de requêtes depuis le démarrage du serveur',
 
-'sql_status' => 
+'sql_status' =>
 'Informations de statut SQL',
 
-'sql_system_vars' => 
+'sql_system_vars' =>
 'Variables système',
 
-'sql_processlist' => 
+'sql_processlist' =>
 'Liste des processus',
 
-'sql_query' => 
+'sql_query' =>
 'Formulaire de requête sur la base de données',
 
-'query_result' => 
+'query_result' =>
 'Résultat de la requête',
 
-'query' => 
+'query' =>
 'Requête SQL',
 
-'total_results' => 
+'total_results' =>
 'Nombre de résultats : %x',
 
-'total_affected_rows' => 
+'total_affected_rows' =>
 'Nombre d\'enregistrements affectés : ',
 
-'browse' => 
+'browse' =>
 'Parcourir',
 
-'tables' => 
+'tables' =>
 'tables',
 
-'table_name' => 
+'table_name' =>
 'Nom de la table',
 
-'records' => 
+'records' =>
 'Enregistrements de la base de données',
 
-'size' => 
+'size' =>
 'Taille',
 
-'type' => 
+'type' =>
 'Type',
 
-'analize' => 
+'analize' =>
 'Analyser les tables',
 
-'optimize' => 
+'optimize' =>
 'Optimiser les tables SQL',
 
-'repair' => 
+'repair' =>
 'Réparer les tables SQL',
 
-'optimize_table' => 
+'optimize_table' =>
 'Optimiser les tables sélectionnées',
 
-'repair_table' => 
+'repair_table' =>
 'Réparer les tables sélectionnées',
 
-'select_all' => 
+'select_all' =>
 'Tout sélectionner',
 
-'no_buttons_selected' => 
+'no_buttons_selected' =>
 'Vous devez sélectionner les tables auxquelles appliquer cette action',
 
-'unsupported_compression' => 
+'unsupported_compression' =>
 'Votre installation de PHP ne supporte pas cette méthode de compression',
 
-'backup_info' => 
+'backup_info' =>
 'Utilisez ce formulaire pour sauvegarder votre base de données.',
 
-'save_as_file' => 
+'save_as_file' =>
 'Enregistrer la sauvegarde sur le bureau',
 
-'view_in_browser' => 
+'view_in_browser' =>
 'Voir la sauvegarde dans le navigateur',
 
-'sql_query_instructions' => 
+'sql_query_instructions' =>
 'Utilisez ce formulaire pour soumettre une requête SQL',
 
-'sql_query_debug' => 
+'sql_query_debug' =>
 'Activer la sortie des erreurs MySQL',
 
-'file_type' => 
+'file_type' =>
 'Type de fichier : ',
 
-'zip' => 
+'zip' =>
 'Zip',
 
-'gzip' => 
+'gzip' =>
 'Gzip',
 
-'advanced_users_only' => 
+'advanced_users_only' =>
 'Utilisateurs avancés uniquement',
 
-'recount_stats' => 
+'recount_stats' =>
 'Recalculer les statistiques',
 
-'recount_prefs' => 
+'recount_prefs' =>
 'Préférence de recalcul',
 
-'recount_batch_total' => 
+'recount_batch_total' =>
 'Nombre total de lignes de base de données par lot.',
 
-'preference_updated' => 
+'preference_updated' =>
 'Préférence mise à jour',
 
-'click_to_recount' => 
+'click_to_recount' =>
 'Cliquez pour recompter les lignes %x à %y',
 
-'items_remaining' => 
+'items_remaining' =>
 'Enregistrements restant :',
 
-'recount_completed' => 
+'recount_completed' =>
 'Enregistrements traités',
 
-'return_to_recount_overview' => 
+'return_to_recount_overview' =>
 'Retourner à la page principale de recomptage',
 
-'recounting' => 
+'recounting' =>
 'Recomptage',
 
-'recount_info' => 
+'recount_info' =>
 'Le lien ci-après vous permet de mettre à jour différentes données statistiques, comme par exemple le nombre d\'articles soumis par chaque membre.',
 
-'source' => 
+'source' =>
 'Source',
 
-'total_records' => 
+"records" =>
+"Enregistrements en base",
+
+'total_records' =>
 'Nombre total d\'enregistrements :',
 
-'recalculate' => 
+'recalculate' =>
 'Recalculer les statistiques',
 
-'do_recount' => 
+'do_recount' =>
 'Exécuter le recomptage',
 
-'exp_members' => 
+'exp_members' =>
 'Membres',
 
-'exp_channel_titles' => 
+'exp_channel_titles' =>
 'Articles du canal',
 
-'search_and_replace' => 
+'search_and_replace' =>
 'Rechercher et remplacer',
 
-'sandr_instructions' => 
+'sandr_instructions' =>
 'Ces formulaires vous permettent de rechercher et remplacer un texte spécifique',
 
-'search_term' => 
+'search_term' =>
 'Rechercher ce texte',
 
-'replace_term' => 
+'replace_term' =>
 'Et remplacer par ce texte',
 
-'replace_where' => 
+'replace_where' =>
 'Dans quel champ de la base de données voulez-vous que le remplacement ait lieu ?',
 
-'search_replace_disclaimer' => 
+'search_replace_disclaimer' =>
 'Selon la syntaxe utilisée, cette fonction peut produire des résultats inattendus. Consultez le guide d\'utilisation et sauvegardez votre base de données.',
 
-'title' => 
+'title' =>
 'Titre',
 
-'channel_entry_title' => 
+'channel_entry_title' =>
 'Titre de l\'article du canal',
 
-'channel_fields' => 
+'channel_fields' =>
 'Champs du canal :',
 
-'templates' => 
+'templates' =>
 'Dans TOUS les modèles',
 
-'rows_replaced' => 
+'rows_replaced' =>
 'Nombre d\'enregistrements de la base de données affectés par le remplacement :',
 
-'view_database' => 
+'view_database' =>
 'Gérer les tables de la base de données',
 
-'sql_no_result' => 
+'sql_no_result' =>
 'La requête que vous avez soumise n\'a retourné aucun résultat',
 
-'sql_not_allowed' => 
+'sql_not_allowed' =>
 'Désolé, mais ce type de requête n\'est pas autorisé.',
 
-'site_statistics' => 
+'site_statistics' =>
 'Statistiques du site',
 
-'translation_tool' => 
+'translation_tool' =>
 'Utilitaire de traduction',
 
-'translation_dir_unwritable' => 
+'translation_dir_unwritable' =>
 'Avertissement : Votre répertoire de traduction est inaccessible en écriture.',
 
-'please_set_permissions' => 
+'please_set_permissions' =>
 'Veuillez paramétrer les permissions sur 666 ou 777 pour le répertoire suivant :',
 
-'choose_translation_file' => 
+'choose_translation_file' =>
 'Choisissez un fichier à traduire',
 
-'core_language_files' => 
+'core_language_files' =>
 'Fichiers de langue principaux :',
 
-'module_language_files' => 
+'module_language_files' =>
 'Fichiers de langue des modules :',
 
-'file_saved' => 
+'file_saved' =>
 'Le fichier a été sauvegardé',
 
-'default_html_buttons' => 
+'default_html_buttons' =>
 'Boutons HTML par défaut',
 
-'add_html_button' => 
+'add_html_button' =>
 'Ajouter un bouton HTML',
 
-'add_predefined_html_button' => 
+'add_predefined_html_button' =>
 'Ajouter un bouton HTML prédéfini',
 
-'add_new_html_button' => 
+'add_new_html_button' =>
 'Ajouter un nouveau bouton HTML',
 
-'import_from_mt' => 
-'Utilitaire d\'importation depuis Movable Type',
+'member_import' =>
+'Utilitaire d\'importation de membre',
 
-'member_import' => 
-'Utilitaire d\'importation des membres',
-
-'specialty_templates' => 
+'specialty_templates' =>
 'Modèles spécialisés',
 
-'plugin_manager' => 
-'Gestionnaire de plugin',
+'plugin_manager' =>
+'Gestionnaire de plugins',
 
-'installed_plugins' => 
+'installed_plugins' =>
 'Plugins installés',
 
-'no_plugins_exist' => 
+'no_plugins_exist' =>
 'Aucun plugin n\'est installé pour le moment',
 
-'view_info' => 
+'view_info' =>
 'Voir les informations',
 
-'plugin_information' => 
+'plugin_information' =>
 'Information du plugin',
 
-'pi_name' => 
+'pi_name' =>
 'Nom',
 
-'pi_author' => 
+'pi_author' =>
 'Auteur',
 
-'pi_version' => 
+'pi_version' =>
 'Version',
 
-'pi_author_url' => 
+'pi_author_url' =>
 'Site de l\'auteur',
 
-'pi_description' => 
+'pi_description' =>
 'Description',
 
-'pi_usage' => 
+'pi_usage' =>
 'Usage',
 
-'no_additional_info' => 
+'no_additional_info' =>
 'Aucune information additionnelle n\'est disponible pour ce plugin',
 
-'update_and_return' => 
+'update_and_return' =>
 'Mettre à jour et terminer',
 
-'cached_relationships' => 
+'cached_relationships' =>
 'Articles relatifs en cache',
 
-'template_debugging' => 
+'template_debugging' =>
 'Afficher le débogage des modèles ?',
 
-'template_debugging_explanation' => 
+'template_debugging_explanation' =>
 'Lorsque cette option est activée, les Super Administrateurs verront une liste d\'informations concernant l\'interprétation de la page. Utile pour le débogage.',
 
-'view_throttle_log' => 
+'view_throttle_log' =>
 'Voir le journal de filtrage',
 
-'no_throttle_logs' => 
+'no_throttle_logs' =>
 'Aucune IP n\'est actuellement filtré par le système.',
 
-'throttling_disabled' => 
+'throttling_disabled' =>
 'Filtrage désactivé',
 
-'hits' => 
+'hits' =>
 'Vues',
 
-'locked_out' => 
+'locked_out' =>
 'Bloqué',
 
-'last_activity' => 
+'last_activity' =>
 'Dernière activité',
 
-'blacklist_all_ips' => 
+'blacklist_all_ips' =>
 'Mettre toutes les IP en liste noire',
 
-'sites_tab_behavior' => 
+'sites_tab_behavior' =>
 'Comportement de l\'onglet Site',
 
-'is_site_on' => 
-'Le site est-il en marche ?',
+'is_site_on' =>
+'Le site est-il en ligne ?',
 
-'is_site_on_explanation' => 
-'Si le site est arrêté, seuls les Super Administrateurs pourront le visualiser',
+'is_site_on_explanation' =>
+'Si le site est hors ligne, seuls les Super Administrateurs pourront le visualiser',
 
-'theme_folder_path' => 
+'theme_folder_path' =>
 'Chemin du dossier Thème',
 
-'site_preferences' => 
+'site_preferences' =>
 'Préférence du site',
 
-'multiple_sites_enabled' => 
+'multiple_sites_enabled' =>
 'Activer le gestionnaire de sites multiples',
 
-'admin_content' => 
+'admin_content' =>
 'Administration',
 
-'admin_system' => 
+'admin_system' =>
 'Administration',
 
-'illegal_characters' => 
+'illegal_characters' =>
 'Le nom proposé ne doit contenir que des caractères alphanumérique, le souligné ou le tiret.',
 
-'translate' => 
-'Update',
 
 ''=>''
 );
 
-// End of File
+/* End of file admin_lang.php */
+/* Location: ./system/expressionengine/language/french/admin_lang.php */

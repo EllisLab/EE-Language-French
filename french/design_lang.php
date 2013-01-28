@@ -24,11 +24,14 @@ $lang = array(
 "404_page" =>
 "Envoyer les en-têtes 404",
 
+'id_not_found' =>
+'Groupe non trouvé',
+
 "site_404_exp" =>
-"Détermine quel modèle doit être affiché lorsqu'un visiteur tente d'accéder à une URL invalide. Note : si vous choisissez \"Aucun\", votre canal par défaut sera affiché lorsqu'une URL invalide est demandée.",
+"Détermine quel modèle doit être affiché lorsqu'un visiteur tente d'accéder à une URL invalide. À noter : si vous choisissez \"Aucun\", c'est votre canal par défaut qui sera alors affiché.",
 
 "strict_urls" =>
-"Activer les URLs strictes",
+"Activer les URLs strictes ?",
 
 "strict_urls_exp" =>
 "Cette fonctionnalité applique les règles strictes pour vos URLs et interfère avec la gestion des pages 404 ci-dessous. Veuillez vous reporter au guide utilisateur pour plus d'information.",
@@ -37,7 +40,7 @@ $lang = array(
 "Aucun",
 
 "save_tmpl_revisions" =>
-"Sauvegarder les révisions des modèles",
+"Sauvegarder les révisions des modèles ?",
 
 "sync_templates" =>
 "Synchroniser les modèles",
@@ -109,13 +112,13 @@ $lang = array(
 "Modèle de message utilisateur",
 
 "offline_template" =>
-"Modèle du système arrêté",
+"Modèle du système hors ligne",
 
 "offline_template_desc" =>
-"Ce modèle contient la page qui est affichée quand votre site est arrêté.",
+"Ce modèle contient la page qui est affichée quand votre site est hors ligne.",
 
 "system_offline" =>
-"Système arrêté ",
+"Système hors ligne ",
 
 'choose_group' =>
 "Choisissez le groupe",
@@ -135,8 +138,11 @@ $lang = array(
 "template_file_not_deleted" =>
 "Impossible de supprimer le fichier texte associé",
 
+'template_file_not_renamed' =>
+'Impossible de renommer le fichier modèle associé',
+
 "template_group_taken" =>
-"Le nom du groupe de modèle que vous avez saisi est déjà pris",
+"Le nom du groupe de modèles que vous avez saisi est déjà pris",
 
 "template_type" =>
 "Type de modèle",
@@ -145,16 +151,16 @@ $lang = array(
 "Ne pas dupliquer de groupe",
 
 "duplicate_existing_group" =>
-"Dupliquer un groupe de modèle existant ?",
+"Dupliquer un groupe de modèles existant ?",
 
-'search_template' => 
+'search_template' =>
 "Rechercher",
 
 "template_access" =>
 "Restriction d'accès au modèle",
 
 "group_restriction" =>
-"Restreindre ce modèle à des groupes de membre spécifiques",
+"Restreindre ce modèle à des groupes de membres spécifiques",
 
 "select_all" =>
 "Tout sélectionner",
@@ -169,7 +175,7 @@ $lang = array(
 "Intervalle de rafraîchissement",
 
 "refresh_in_minutes" =>
-"En minutes",
+"en minutes",
 
 "enable_php" =>
 "Autoriser le PHP ?",
@@ -208,7 +214,7 @@ $lang = array(
 "Nouveau groupe de modèles",
 
 "edit_template_group_form" =>
-"Editer le groupe de modèles",
+"Éditer le groupe de modèles",
 
 "name_of_template_group" =>
 "Nom du groupe de modèles",
@@ -217,16 +223,16 @@ $lang = array(
 "Groupes de modèles",
 
 "template_group_instructions" =>
-"Le nom doit être un seul mot sans espaces",
+"Un seul mot sans espaces.",
 
 "undersores_allowed" =>
-"(les underscores et tirets sont autorisés)",
+" Les soulignés (underscores) et tirets sont autorisés.",
 
 "new_template_form" =>
 "Nouveau formulaire de modèle",
 
 "edit_template_form" =>
-"Editer le formulaire de modèle",
+"Éditer le formulaire de modèle",
 
 "name_of_template" =>
 "Nom du modèle",
@@ -265,22 +271,28 @@ $lang = array(
 "Confirmation de suppression de modèle",
 
 "edit_template" =>
-"Editer le modèle",
+"Éditer le modèle",
 
 "delete_template_group" =>
 "Supprimer le groupe",
 
 "choose_delete_template_group" =>
-"Veuillez choisir le groupe de modèles à supprimer",
+"Choisissez le groupe de modèles à supprimer",
 
 "edit_template_group" =>
-"Editer le groupe",
+"Éditer le groupe",
 
 "group_order" =>
 "Ordre du groupe",
 
 "export_templates" =>
 "Exporter les modèles",
+
+'export_all' =>
+'Tout exporter',
+
+'export_group' =>
+'Exporter le groupe',
 
 "template_name" =>
 "Nom du modèle",
@@ -310,7 +322,7 @@ $lang = array(
 "Gestion des modèles",
 
 "current_template" =>
-"Modèle courant:",
+"Modèle courant :",
 
 "preferences" =>
 "Préférences",
@@ -322,7 +334,7 @@ $lang = array(
 'Paramètre',
 
 "edit_preferences" =>
-"Editer les préférences",
+"Éditer les préférences",
 
 "prefs" =>
 "Préférences",
@@ -346,10 +358,10 @@ $lang = array(
 "Vous devez remplir tous les champs du formulaire",
 
 "illegal_characters" =>
-"Le nom que vous avez saisi ne peut uniquement contenir des caractères alphanumériques, des underscores ou des tirets",
+"Le nom que vous avez saisi ne doit contenir QUE des caractères alphanumériques, des soulignés (underscores) ou des tirets",
 
 "edit_template_group_order" =>
-"Editer l'ordre des groupes",
+"Éditer l'ordre des groupes",
 
 "template_group_updated" =>
 "Groupe de modèles mis à jour",
@@ -361,13 +373,13 @@ $lang = array(
 "Supprimer le groupe de modèles suivant ?",
 
 "all_templates_will_be_nuked" =>
-"TOUS LES MODÈLES CONTENUS DANS CE GROUPE SERONT DÉFINITVEMENT SUPPRIMÉS !",
+"TOUS LES MODÈLES CONTENUS DANS CE GROUPE SERONT DÉFINITIVEMENT SUPPRIMÉS !",
 
 "template_group_deleted" =>
 "Groupe de modèles supprimé",
 
 "edit_group_order" =>
-"Editer l'ordre des groupes",
+"Éditer l'ordre des groupes",
 
 "template_size" =>
 "Taille du modèle",
@@ -444,16 +456,19 @@ $lang = array(
 "is_site_default" =>
 "Faire du modèle Index de ce groupe la page d'accueil de votre site ?",
 
-"consult_manual" =>
-"Veuillez consulter le manuel",
-
 "preferences_updated" =>
 "Préférences mises à jour",
 
-"choose_default_data" =>
+'do_not_duplicate_template' =>
+'Ne pas dupliquer un modèle',
+
+'duplicate_existing_template' =>
+'Dupliquer un modèle existant ?',
+
+"choose_default_data" => /** Absent de la dernière version US */
 "Données par défaut des modèles",
 
-"blank_template" =>
+"blank_template" => /** Absent de la dernière version US */
 "Aucun - créer un modèle vide",
 
 "template_from_library" =>
@@ -534,8 +549,11 @@ $lang = array(
 'duplicate_var_name' =>
 "Une variable globale portant ce nom existe déjà.",
 
+'variable_does_not_exist' =>
+'La variable globale n\'existe pas',
+
 'variable_name_instructions' =>
-'Le nom doit être un seul mot sans espace avec des caractères alphanumériques (les underscores, les tirets et les points sont autorisés)',
+'Un seul mot sans espaces, avec des caractères alphanumériques. Les soulignés (underscores), les tirets et les points sont autorisés.',
 
 'snippets' =>
 'Snippets',
@@ -556,13 +574,13 @@ $lang = array(
 'Nom du Snippet',
 
 'snippet_edit' =>
-'Editer le Snippet : %s',
+'Éditer le Snippet : %s',
 
 'snippet_create' =>
 'Créer le Snippet',
 
 'snippet_updated' =>
-'Snippet mis à joru',
+'Snippet mis à jour',
 
 'snippet_created' =>
 'Snippet créé',
@@ -594,6 +612,9 @@ $lang = array(
 'search' =>
 "Recherche",
 
+'tmpl_search_result' =>
+'(%s) résultats dans (%s) groupes de modèles',
+
 'no_results' =>
 "Le terme de recherche que vous avez saisi n'a pu être trouvé dans aucun de vos modèles.",
 
@@ -606,10 +627,10 @@ $lang = array(
 "export_template" =>
 "Exporter le modèle",
 
-'export_all' => 
+'export_all' => /** Absent de la dernière version US */
 'Tout exporter',
 
-'export_group' =>
+'export_group' => /** Absent de la dernière version US */
 'Exporter le groupe',
 
 'default_template_group' =>
@@ -628,7 +649,7 @@ un flux RSS/Atom d'un canal restreint des utilisateurs non autorisés, mais un l
 l'authentification HTTP sera capable de récupérer le flux. Il y a des problèmes de sécurité avec l'authentification
 HTTP, merci de lire la documentation.",
 
-'enable_http_authentication_note' =>
+'enable_http_authentication_note' => /** Absent de la dernière version US */
 "Si la connexion échoue, l'utilisateur verra une page 401 Non Autorisé et non le modèle de redirection ci-dessous.
 De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP est exécuté comme un module Apache.",
 
@@ -654,7 +675,7 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "Aucun modèle disponible",
 
 'template_manager' =>
-"Gestionnaire de modèle",
+"Gestionnaire de modèles",
 
 'template_id_not_found' =>
 "L'ID de modèle sélectionné est l'invalide",
@@ -670,7 +691,7 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "Séries de modèles disponibles",
 
 "unable_to_find_templates" =>
-"Impossible de localiser les modèles de profil des membres.",
+"Impossible de localiser les modèles de profil de membre.",
 
 "unable_to_find_template_file" =>
 "Impossible de localiser le fichier de modèle de membre.",
@@ -685,7 +706,7 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "Note : ce fichier est inaccessible en écriture",
 
 "error_opening_template" =>
-"Erreur : Impossible d'ouvrir le fichier modèle pour y écrire son contenu.",
+"Erreur : impossible d'ouvrir le fichier modèle pour y écrire son contenu.",
 
 "file_writing_instructions" =>
 "Vous ne pourrez plus sauvegarder les modifications de ce modèle jusqu'à qu'il soit donné les permissions d'écriture sur ce serveur.",
@@ -700,7 +721,7 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "Information de Copyright",
 
 "edit_profile_form" =>
-"Formulaire de profil de memnbre",
+"Formulaire de profil de membre",
 
 "email_form" =>
 "Console d'email",
@@ -721,16 +742,16 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "Console ICQ",
 
 "localization_form" =>
-"Formulaire de préférence de localisation",
+"Formulaire de préférences de localisation",
 
 "login_form" =>
 "Formulaire de connexion",
 
 "memberlist" =>
-"Page de liste de membre",
+"Page de liste de membres",
 
 "memberlist_rows" =>
-"Lignes de la liste de membre",
+"Lignes de la liste de membres",
 
 "menu" =>
 "Menu du profil de membre",
@@ -742,7 +763,7 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "Avertissement de modification de mot de passe",
 
 "public_custom_profile_fields" =>
-"Champs personnalisés de profile pour les profils publics",
+"Champs personnalisés de profil pour les profils publics",
 
 "public_profile" =>
 "Profil de membre public",
@@ -793,22 +814,22 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "Envoyer et terminer",
 
 'group_description' =>
-"Description du groupe de membre",
+"Description du groupe de membres",
 
 'can_send_bulletins' =>
 "Peut envoyer des bulletins",
 
 'login_as_user' =>
-"SuperAdmin connexion comme membre",
+"SuperAdmin se connectant comme membre",
 
 'control_panel' =>
 "Tableau de bord",
 
 'site_homepage' =>
-"age d'accueil du site",
+"Page d'accueil du site",
 
 'login_as_member_description' =>
-"Lorsque vous cliquez sur le bouton valider vous serez connecté sur le compte du membre '%screen_name%' et redirigé à la page suivante.",
+"Lorsque vous cliquerez sur le bouton valider vous serez connecté sur le compte du membre '%screen_name%' et redirigé à la page suivante.",
 
 'other' =>
 "Autre",
@@ -829,7 +850,7 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "Bulletin",
 
 "bulletin_form" =>
-"Formulaire de Bulletin",
+"Formulaire de bulletin",
 
 "new_member_search" =>
 "Nouvelle recherche de membre",
@@ -841,13 +862,13 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 'Lignes de la liste d\'ignorés',
 
 "member_page" =>
-"Boîter externe du profil de membre",
+"Enveloppe externe du profil de membre",
 
 "full_profile" =>
-"Page profil complète",
+"Page complète de profil",
 
 "basic_profile" =>
-"Page profil limité",
+"Page limitée de profil",
 
 "message_success" =>
 "Message privé - Succès",
@@ -916,10 +937,10 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "Message privé - Liste vide",
 
 "subscriptions_form" =>
-"Page d'abonnements",
+"Page des abonnements",
 
 "no_subscriptions_message" =>
-"Aucun message d'abonnements",
+"Aucun message d'abonnement",
 
 "subscription_result_heading" =>
 "En-tête des résultats d'abonnement",
@@ -961,13 +982,16 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 "Page d'édition d'avatar",
 
 "avatar_folder_list" =>
-"Liste de dossier pré-installé d'avater",
+"Liste de dossier pré-installé d'avatar",
 
 "browse_avatars" =>
-"Parcourir les pages d'avatars",
+"Parcourir les pages d'avatar",
 
-"custom_profile_fields" => 
+"custom_profile_fields" =>
 "Champs personnalisés de membre",
+
+'bulletin_board' =>
+'Tableau des bulletins',
 
 //----------------------------
 // Tag Validation
@@ -977,7 +1001,7 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 'Avertissements de modèle',
 
 'template_warnings_blurb' =>
-'Les balises suivantes ont déclenchés les avertissements.',
+'Les balises suivantes ont déclenché les avertissements.',
 
 'template_warnings_actions' =>
 'Suggestions',
@@ -994,9 +1018,11 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 'tag_class_error' =>
 'Balise invalide (aucun plugin ou module correspondant)',
 
+'tmpl_revisions_not_enabled' =>
+'Les révisions de modèle ne sont pas activées.',
 
 ''=>''
 );
 
-/* End of file lang.design.php */
-/* Location: ./system/expressionengine/language/french/lang.design.php */
+/* End of file design_lang.php */
+/* Location: ./system/expressionengine/language/french/design_lang.php */

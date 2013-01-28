@@ -1,4 +1,4 @@
-<?php  if (!defined('BASEPATH')) exit('Accès direct au script ');
+<?php  if (!defined('BASEPATH')) exit('Aucun accès direct au script autorisé');
 
 $lang = array(
 
@@ -6,5 +6,5 @@ $lang = array(
 ''=>''
 );
 
-/* End of file lang.css.php */
-/* Location: ./system/expressionengine/language/french/lang.css.php */
+/* End of file css_lang.php */
+/* Location: ./system/expressionengine/language/french/css_lang.php */

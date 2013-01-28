@@ -2,151 +2,151 @@
 $lang = array(
 
 
-'addons' => 
+'addons' =>
 'Add-ons',
 
-'accessories' => 
+'accessories' =>
 'Accessoires',
 
-'modules' => 
+'modules' =>
 'Modules',
 
-'extensions' => 
+'extensions' =>
 'Extensions',
 
-'plugins' => 
+'plugins' =>
 'Plugins',
 
-'accessory' => 
+'accessory' =>
 'Accessoire',
 
-'module' => 
+'module' =>
 'Module',
 
-'extension' => 
+'extension' =>
 'Extension',
 
-'addons_accessories' => 
+'rte_tool' =>
+'Outil Éditeur de Texte Enrichi',
+
+'addons_accessories'=>
 'Accessoires',
 
-'addons_modules' => 
+'addons_modules' =>
 'Modules',
 
-'addons_plugins' => 
+'addons_plugins' =>
 'Plugins',
 
-'addons_extensions' => 
+'addons_extensions' =>
 'Extensions',
 
-'addons_fieldtypes' => 
-'Types de champs',
+'addons_fieldtypes' =>
+'Types de champ',
 
-'accessory_name' => 
+'accessory_name' =>
 'Nom de l\'accessoire',
 
-'fieldtype_name' => 
+'fieldtype_name' =>
 'Nom du type de champ',
 
-'install' => 
+'install' =>
 'Installer',
 
-'uninstall' => 
+'uninstall' =>
 'Désinstaller',
 
-'installed' => 
+'installed' =>
 'Installé',
 
-'not_installed' => 
+'not_installed' =>
 'Non installé',
 
-'uninstalled' => 
+'uninstalled' =>
 'Désinstallé',
 
-'remove' => 
+'remove' =>
 'Supprimer',
 
-'preferences_updated' => 
+'preferences_updated' =>
 'Préférences mises à jour',
 
-'extension_enabled' => 
+'extension_enabled' =>
 'Extension activée',
 
-'extension_disabled' => 
+'extension_disabled' =>
 'Extension désactivée',
 
-'extensions_enabled' => 
+'extensions_enabled' =>
 'Extensions activées',
 
-'extensions_disabled' => 
+'extensions_disabled' =>
 'Extensions désactivées',
 
-'delete_fieldtype_confirm' => 
-'Etes-vous certain de vouloir supprimer ce type de champs ?',
+'delete_fieldtype_confirm' =>
+'Êtes-vous sûr de vouloir supprimer ce type de champ ?',
 
-'delete_fieldtype' => 
-'Supprimer le type de champs',
+'delete_fieldtype' =>
+'Supprimer le type de champ',
 
-'data_will_be_lost' => 
-'Toutes les données associées à ce type de champs, y compris les données dans les canaux, seront effacées de façon irréversible',
+'data_will_be_lost' =>
+'Toutes les données associées à ce type de champ, y compris les données dans les canaux, seront effacées de façon irréversible',
 
-'global_settings_saved' => 
+'global_settings_saved' =>
 'Paramètres enregistrés',
 
-'package_settings' => 
+'package_settings' =>
 'Paramètres du paquet',
 
-'component' => 
+'component' =>
 'Composant',
 
-'current_status' => 
-'Statut courant',
+'current_status' =>
+'Statut actuel',
 
-'required_by' => 
+'required_by' =>
 'Utilisé par :',
 
-'available_to_member_groups' => 
-'Disponible aux groupes de membre',
+'available_to_member_groups' =>
+'Disponible pour les groupes de membres',
 
-'specific_page' => 
+'specific_page' =>
 'Page spécifique ?',
 
-'description' => 
+'description' =>
 'Description',
 
-'version' => 
+'version' =>
 'Version',
 
-'status' => 
+'status' =>
 'Statut',
 
-'fieldtype' => 
-'Type de champs',
+'fieldtype' =>
+'Type de champ',
 
-'edit_accessory_preferences' => 
-'Editer les préférences d\'accessoire',
+'edit_accessory_preferences' =>
+'Éditer les préférences d\'accessoire',
 
-'member_group_assignment' => 
-'Groupes de membre assignés',
+'member_group_assignment' =>
+'Groupes de membres assignés',
 
-'page_assignment' => 
+'page_assignment' =>
 'Pages assignées',
 
-'none' => 
+'none' =>
 'Aucun',
 
-'and_more' => 
-'et %x de plus...',
+'and_more' =>
+'et %x de plus&hellip',
 
-'plugins_not_available' => 
+'plugins_not_available' =>
 'Le plugin "Feed" est désactivé en version beta',
 
-'no_extension_id' => 
+'no_extension_id' =>
 'Aucune extension choisie',
 
-'translate' => 
-'Update',
-
-''=>''
-);
-
-// End of File
+// IGNORE
+''=>'');
+/* End of file addons_lang.php */
+/* Location: ./system/expressionengine/language/french/addons_lang.php */

@@ -24,7 +24,7 @@ $lang = array(
 "Valeur de la préférence",
 
 'use_captchas' =>
-"Utiliser les CAPTCHAs ?",
+"Utiliser Captcha ?",
 
 'text_format' =>
 "Formatage de texte pour les articles",
@@ -33,10 +33,10 @@ $lang = array(
 "Formatage HTML pour les articles",
 
 'upload_dir' =>
-"Répertoire de téléchargement de fichier pour le Wiki",
+"Répertoire de destination des fichiers pour le Wiki",
 
 'upload_url' =>
-"URL du répertoire de téléchargement",
+"URL du répertoire de destination",
 
 "convert_to_entities" =>
 "Convertir le HTML en entités de caractères",
@@ -60,7 +60,7 @@ $lang = array(
 "Préférences mises à jour avec succès !",
 
 'revision_limit' =>
-"Nombre de révisions à conserver par article",
+"Nombres de révisions à conserver par article",
 
 'author_limit' =>
 "Nombre d'éditions autorisées par auteur et par jour",
@@ -77,16 +77,19 @@ $lang = array(
 'file_exists' =>
 "Le fichier existe déjà, veuillez essayer un nouveau nom",
 
+'filename_too_long' =>
+"Le nom de fichier ne doit excéder 60 caractères, merci d\'essayer un autre nom",
+
 'moderation_emails' =>
 "Adresses email pour les notifications de modération",
 
 'namespaces_list' =>
-"Liste des espaces de noms",
+"Liste de noms d'espace",
 
 'namespaces_list_subtext' =>
-"Les espaces de noms sont utilisés pour séparer le contenu d'un wiki en plusieurs sections. Par exemple, vous pouvez souhaiter vouloir créer une section
-du wiki uniquement pour les articles en espagnol. Pour chaque espace de noms, créez un intitulé, qui sera affiché sur les pages Wiki, un nom court, qui 
-sera utilisé en interne et dans certains formulaires pour référencer l'espace de noms. Votre nom court ne doit contenir que des caractères de mots comme
+"Les noms d'espace sont utilisés pour séparer le contenu d'un wiki en plusieurs sections. Par exemple, vous pouvez souhaiter vouloir créer une section
+du wiki uniquement pour les articles en espagnol. Pour chaque nom d'espace, créez un intitulé, qui sera affiché sur les pages Wiki, un nom court, qui
+sera utilisé en interne et dans certains formulaires pour référencer le nom d'espace. Votre nom court ne doit contenir que des caractères de mots comme
 des lettres, des nombres et des underscores.",
 
 'label_name' =>
@@ -96,16 +99,16 @@ des lettres, des nombres et des underscores.",
 "Nom court du Wiki",
 
 'name_short_subtext' =>
-" - mot unique, sans espaces",
+" - un seul mot, sans espaces",
 
 'basepath_unset' =>
 "Paramètre du chemin de base non défini",
 
 'users' =>
-"Groupes d'utilisateurs",
+"Groupes d'utilisateur",
 
 'admins' =>
-"Groupes d'administrateurs",
+"Groupes d'administrateur",
 
 'wiki_homepage' =>
 "Page d'accueil du Wiki",
@@ -123,7 +126,7 @@ des lettres, des nombres et des underscores.",
 "Supprimer les Wikis",
 
 'wiki_delete_question' =>
-"Etes-vous sûr de vouloir supprimer le(s) Wiki(s) sélectionné(s) ?",
+"Êtes-vous sûr de vouloir supprimer le(s) Wiki(s) sélectionné(s) ?",
 
 'wiki_deleted' =>
 "Wiki supprimé !",
@@ -134,17 +137,17 @@ des lettres, des nombres et des underscores.",
 'duplicate_short_name' =>
 "Un autre Wiki utilisant ce nom court existe déjà.",
 
-'default_index_note' => 
+'default_index_note' =>
 "Création de la première page",
 
-'default_index_content' => 
+'default_index_content' =>
 "Bienvenue sur la page d'introduction de votre Wiki EE !",
 
 'namespace_label' =>
-"Intitulé de l'espace de noms",
+"Intitulé du nom d'espace",
 
 'namespace_short_name' =>
-"Nom court de l'espace de noms",
+"Nom court du nom d'espace",
 
 'file_ns' =>
 "Fichier",
@@ -159,13 +162,19 @@ des lettres, des nombres et des underscores.",
 "Categorie",
 
 'invalid_namespace' =>
-"Espace de noms invalide",
+"Nom d'espace invalide",
+
+'namespace_not_deleted' =>
+'Impossible de supprimer le nom d\'espace.',
+
+'namespace_deleted' =>
+'Nom d\'espace supprimé',
 
 'namespaces' =>
-"Espaces de noms",
+"Noms d'espace",
 
 'no_search_terms' =>
-'Vous devez inclure des termes de recherche lors de la recherche d\'un espace de noms.',
+'Vous devez inclure des termes de recherche lors de la recherche d\'un nom d\'espace.',
 
 'duplicate_article' =>
 'Un article portant ce nom existe déjà.',
@@ -180,16 +189,16 @@ des lettres, des nombres et des underscores.",
 "Tous les Wikis",
 
 'any_namespace' =>
-"Tous les espaces de noms",
+"Tous les noms d'espace",
 
 'main_ns' =>
 "Principal",
 
 'wiki_themes' =>
-'Thèmes du Wiki',
+'Thèms du Wiki',
 
 'unable_to_find_themes' =>
-'Aucun thème du Wiki trouvé',
+'Aucun thèms du Wiki trouvé',
 
 'invalid_wiki_theme' =>
 'Thème du Wiki invalide',
@@ -201,7 +210,7 @@ des lettres, des nombres et des underscores.",
 'Modèles de Thème du Wiki',
 
 'edit_template' =>
-'Editer le modèle Wiki',
+'Éditer le modèle Wiki',
 
 'unable_to_find_template_file' =>
 'Impossible de localiser le fichier ',
@@ -213,7 +222,7 @@ des lettres, des nombres et des underscores.",
 'Mettre à jour et terminer',
 
 "file_not_writable" =>
-"Note : ce fichier est inaccessible en écriture",
+"Note : ce fichier n\'est pas inscriptible",
 
 "error_opening_template" =>
 "Erreur : Impossible d'ouvrir le fichier modèle pour y écrire son contenu.",
@@ -224,5 +233,5 @@ des lettres, des nombres et des underscores.",
 ''=>''
 );
 
-/* End of file lang.wiki.php */
-/* Location: ./system/expressionengine/french/english/lang.wiki.php */
+/* End of file wiki_lang.php */
+/* Location: ./system/expressionengine/language/french/wiki_lang.php */

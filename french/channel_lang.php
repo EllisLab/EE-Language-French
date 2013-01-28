@@ -30,5 +30,5 @@ $lang = array(
 ''=>''
 );
 
-/* End of file lang.channel.php */
-/* Location: ./system/expressionengine/language/french/lang.channel.php */
+/* End of file channel_lang.php */
+/* Location: ./system/expressionengine/language/french/channel_lang.php */

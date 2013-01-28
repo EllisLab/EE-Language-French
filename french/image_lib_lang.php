@@ -9,7 +9,7 @@ $lang = array(
 "Votre serveur ne supporte pas la fonction GD nécessaire pour traiter ce type d'image.",
 
 "imglib_gif_not_supported" =>
-"Les images GIF ne sont généralement pas supportées à cause de restrictions de licences. Vous devriez utiliser des images JPG ou PNG à la place.",
+"Les images GIF ne sont généralement pas supportées à cause de restrictions de licence. Vous devriez utiliser des images JPG ou PNG à la place.",
 
 "imglib_jpg_not_supported" =>
 "Les images JPG ne sont pas supportées",
@@ -30,7 +30,7 @@ $lang = array(
 "Le chemin vers votre bibliothèque d'image est incorrect. Veuillez définir le chemin correct dans vos préférences d'images.",
 
 "imglib_image_process_failed" =>
-"Traitement de l'image échoué. Veuillez vérifier que votre serveur supporte le protocole choisi et que le chemin vers votre bibliothèque d'image est correct.",
+"Le traitement de l'image a échoué. Veuillez vérifier que votre serveur supporte le protocole choisi et que le chemin vers votre bibliothèque d'image est correct.",
 
 "imglib_rotation_angle_required" =>
 "Un angle de rotation est requis pour effectuer une rotation sur l'image.",
@@ -47,5 +47,5 @@ $lang = array(
 
 // IGNORE
 ''=>'');
-/* End of file lang.image_lib.php */
-/* Location: ./system/expressionengine/language/french/lang.image_lib.php */
+/* End of file image_lib_lang.php */
+/* Location: ./system/expressionengine/language/french/image_lib_lang.php */

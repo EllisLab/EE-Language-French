@@ -74,7 +74,7 @@ $lang = array(
 "Confirmer la suppression",
 
 "referrer_delete_question" =>
-"Etes-vous sûr de vouloir supprimer le(s) référant(s) sélectionné(s) ?",
+"Êtes-vous sûr de vouloir supprimer le(s) référant(s) sélectionné(s) ?",
 
 'blacklist_question' =>
 "En plus de la suppression de ces référants, vous pouvez également :",
@@ -100,5 +100,5 @@ $lang = array(
 ''=>''
 );
 
-/* End of file lang.referrer.php */
-/* Location: ./system/expressionengine/language/french/lang.referrer.php */
+/* End of file referrer_lang.php */
+/* Location: ./system/expressionengine/language/french/referrer_lang.php */

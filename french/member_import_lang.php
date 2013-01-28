@@ -15,7 +15,7 @@ $lang = array(
 'Intitulé du champ',
 
 'map_elements' =>
-'Map elements',
+'Éléments Map',
 
 'create_xml' =>
 'Créer le XML',
@@ -36,16 +36,16 @@ $lang = array(
 'Nom du champ',
 
 'custom_member_fields' =>
-'Champs personnalisés de membres',
+'Champs personnalisés de membre',
 
 'new_fields_success' =>
-'Les champs personnalisés de membres suivants ont été ajoutés avec succès :',
+'Ces champs personnalisés de membre ont été ajoutés avec succès :',
 
 'assign_fields' =>
 'Assigner les champs',
 
 'assign_fields_blurb' =>
-'Faire correspondre vos champs de données aux champs de membres ExpressionEngine',
+'Faire correspondre vos champs de données aux champs de membre ExpressionEngine',
 
 'comma' =>
 'Virgule',
@@ -57,16 +57,16 @@ $lang = array(
 'Veuillez vérifier les détails ci-dessous avant d\'importer vos données. Si quoi que ce soit était incorrect, veuillez revenir en arrière et appliquer les modifications nécessaires.',
 
 'confirm_field_assignment' =>
-'Confirmer l\'assignation de champ',
+'Confirmer l\'affectation de champ',
 
 'confirm_field_assignment_blurb' =>
-'Veuillez vérifier votre assignation de champ. Si quoi que ce soit était incorrect, veuillez revenir en arrière et appliquer les modifications nécessaires.',
+'Veuillez vérifier votre affectation de champ. Si quoi que ce soit était incorrect, veuillez revenir en arrière et appliquer les modifications nécessaires.',
 
 'convert_from_delimited' =>
 'Convertir le texte délimité en XML',
 
 'convert_from_delimited_blurb' =>
-'Vous permet de créer un fichier de membre ExpressionEngine XML depuis un fichier de texte délimité d\'une autre application',
+': vous permet de créer un fichier de membre ExpressionEngine XML depuis un fichier de texte délimité d\'une autre application',
 
 'daylight_savings' =>
 'Heure d\'été',
@@ -84,17 +84,17 @@ $lang = array(
 'Fournissez les options par défaut',
 
 'default_settings_blurb' =>
-'Paramétrez toutes les options que vous souhaitez utiliser comme valeurs par défaut. Veuillez noter que ces paramètres par défaut ne seront utilisé que lorsqu\'une valeur
+'Paramétrez toutes les options que vous souhaitez utiliser comme valeurs par défaut. Veuillez noter que ces paramètres par défaut ne seront utilisés que lorsqu\'une valeur
 n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas écraser les données XML.',
 
 'delimited_file_loc' =>
-'Localisation du fichier membre',
+'Emplacement du fichier Membres',
 
 'delimiter' =>
 'Caractère délimiteur',
 
 'delimiter_blurb' =>
-'Ce caractère sépare vos données, comme une tabulation, une virgule, un symbole \'Pipe\', etc...',
+'Ce caractère sépare vos données, comme une tabulation, une virgule, un symbole \'Pipe\', etc.',
 
 'download' =>
 'Télécharger le fichier XML',
@@ -112,10 +112,10 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Dupliquer l\'ID de membre : "%x"<br />Il est recommandé de ne pas utiliser une balise &lt;member_id&gt; et d\'autoriser ExpressionEngine à incrémenter automatiquement \'member_id\'',
 
 'duplicate_screen_name' =>
-'Dupliquer screen_name: ',
+'Dupliquer screen_name : ',
 
 'duplicate_username' =>
-'Dupliquer username: ',
+'Dupliquer username : ',
 
 'enclosure' =>
 'Caractère d\'encadrement',
@@ -124,7 +124,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Ce caractère encadre vos données s\'il existe. Dans l\'exemple suivant, le caractère d\'encadrement est un guillement double : "<br />',
 
 'enclosure_example' =>
-'"John Doe", "jdoe", "john@exemple.com", ...',
+'"John Doe", "jdoe", "john@exemple.com", etc.',
 
 'enclosure_label' =>
 'Encadrement : ',
@@ -133,10 +133,10 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Les mots de passe sont déja encryptés',
 
 'file_loc_blurb' =>
-'La localisation du fichier doit être relative au dossier du tableau de bord de votre site. Exemple : ../membres.txt, si placé à la racine du site.',
+'L\'emplacement du fichier doit être relative au dossier du tableau de bord de votre site. Exemple : ../membres.txt, si placé à la racine du site.',
 
 'group_id' =>
-'Groupe de membre par défaut',
+'Groupe de membres par défaut',
 
 'import' =>
 'Importer !',
@@ -145,7 +145,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Importer depuis un fichier XML',
 
 'import_from_xml_blurb' =>
-'Vous permet d\'importer des membres depuis un fichier XML dans le format XML de membres ExpressionEngine',
+': vous permet d\'importer des membres depuis un fichier XML dans le format XML de membre ExpressionEngine',
 
 'import_info' =>
 'Information d\'importation',
@@ -157,7 +157,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Vos données de membre XML ont été importées dans la base de données avec succès !',
 
 'info_blurb' =>
-'Pour utiliser cet utilitaire, vous devez au préalable déposer le fichier contenant les données de membre exportées sur votre serveur, puis saisir la localisation du fichier.',
+'Pour utiliser cet utilitaire, vous devez d\'abord déposer sur votre serveur le fichier contenant les données de membre exportées, puis saisir l\'emplacement du fichier.',
 
 'invalid_element' =>
 'Element manquant ou invalide - &lt;member&gt; attendu',
@@ -173,6 +173,9 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 
 'language' =>
 'Langue par défaut',
+
+'timezone' =>
+'Fuseau horaire par défaut',
 
 'member_fields' =>
 'Champs membre',
@@ -205,7 +208,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Vous devez fournir un caractère délimiteur avec l\'option "%x".',
 
 'no_file_submitted' =>
-'Vous devez saisir un chemin relatif vers votre fichier de données membre',
+'Vous devez saisir un chemin relatif vers votre fichier de données Membres',
 
 'no_read_access' =>
 'Impossible de lire le fichier : ',
@@ -235,7 +238,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Les mots de passes sont en clair',
 
 'required_fields' =>
-'* Identifiant, nom à l\'écran et adresse email sont requis.',
+'* Identifiant, pseudo et adresse email sont requis.',
 
 'tab' =>
 'Onglet',
@@ -243,7 +246,7 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'time_format' =>
 'Format horaire par défaut',
 
-'timezone' =>
+'timezones' =>
 'Fuseau horaire par défaut',
 
 'total_members_imported' =>
@@ -265,10 +268,10 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'Fichier XML',
 
 'xml_file_loc' =>
-'Localisation du fichier XML membre',
+'Emplacement du fichier XML Membres',
 
 'xml_file_loc_blurb' =>
-'La localisation du fichier doit être relative au dossier du tableau de bord de votre site. Exemple : ../membres.xml, si placé à la racine du site.',
+'L\'emplacement du fichier doit être relative au dossier du tableau de bord de votre site. Exemple : ../membres.xml, si placé à la racine du site.',
 
 'xml_imported' =>
 'Les données XML de membre ont été importées',
@@ -295,5 +298,5 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 ''=>''
 );
 
-/* End of file lang.member_import.php */
-/* Location: ./system/expressionengine/language/french/lang.member_import.php */
+/* End of file member_import_lang.php */
+/* Location: ./system/expressionengine/language/french/member_import_lang.php */

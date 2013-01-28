@@ -33,7 +33,7 @@ $lang = array(
 "Nom de la page",
 
 'edit_page' =>
-"Editer la page",
+"Éditer la page",
 
 'view_page' =>
 "Voir la page",
@@ -60,7 +60,7 @@ $lang = array(
 "Supprimer les pages",
 
 'pages_delete_question' =>
-"Etes-vous sûr de vouloir supprimer les URI des pages sélectionnées ?<br/><em>Note : Supprimer une page ne supprime que l'URL, pas l'article.</em>",
+"Êtes-vous sûr de vouloir supprimer les URI des pages sélectionnées ?<br/><em>Note : Supprimer une page ne supprime que l'URL, pas l'article.</em>",
 
 'page_deleted' =>
 "Page supprimée",
@@ -88,6 +88,9 @@ $lang = array(
 
 'invalid_page_uri' =>
 "URI de page invalide",
+
+'invalid_page_num_segs' =>
+'Vous avez dépassé le nombre autorisé de segments d\'URI dans les URL des pages',
 
 'pages_configuration' =>
 "Configuration du module",
@@ -122,11 +125,18 @@ $lang = array(
 'not_nested' =>
 "Non imbriquées",
 
+'preference' =>
+'Préférence',
 
+'setting' =>
+'Paramètre',
+
+'example_uri' =>
+'/example/pages/uri/',
 
 
 ''=>''
 );
 
-/* End of file lang.pages.php */
-/* Location: ./system/expressionengine/language/french/lang.pages.php */
+/* End of file pages_lang.php */
+/* Location: ./system/expressionengine/language/french/pages_lang.php */

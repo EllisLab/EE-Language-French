@@ -1,6 +1,6 @@
 <?php
 $lang = array(
-	
+
 'your_name'				=> 'Votre nom',
 'your_email'			=> 'Votre email',
 'recipient'				=> 'Destinataire',
@@ -15,6 +15,7 @@ $lang = array(
 'not_allowed_to_email_members'			=> 'Vous n\'êtes pas autorisé à envoyer des emails aux membres',
 'not_allowed_to_email_member_groups'	=> 'Vous n\'êtes pas autorisé à envoyer des emails aux groupes de membres',
 'not_allowed_to_email_mailinglist'		=> 'Vous n\'êtes pas autorisé à envoyer des emails à la liste de diffusion',
+'not_allowed_to_email_cache'			=> 'Vous n\'êtes pas autorisé à visualiser le cache des emails.',
 'subject'				=> 'Sujet',
 'message'				=> 'Message',
 'plaintext_alt'			=> 'Texte alternatif (optionnel, emails HTML uniquement, aucun formatage de texte appliqué)',
@@ -24,7 +25,7 @@ $lang = array(
 'batchmode_warning'		=> 'Ne touchez pas à votre navigateur avant que le processus ne soit complètement terminé !',
 'problem_with_id'		=> 'Un problème est survenu avec le numéro ID requis pour envoyer des emails',
 'cache_data_missing'	=> 'Les données cache d\'email n\'ont pu être localisées.',
-'currently_sending_batch'	=> 'Envoi des emails %x à %y',
+'currently_sending_batch'	=> 'Envoi des emails de %x à %y',
 'emails_remaining'		=> 'Emails restant :',
 'email_error'			=> 'Erreur email',
 'send_it'				=> 'Envoyer',
@@ -36,11 +37,12 @@ $lang = array(
 'none'					=> 'Aucun',
 'auto_br'				=> 'Auto &lt;br /&gt;',
 'xhtml'					=> 'XHTML',
-'word_wrap'				=> 'Coupure de mot',
+'wordwrap'				=> 'Césure de mot',
 'priority'				=> 'Priorité',
 'attachment'			=> 'Pièce jointe',
-'attachment_unavailable'	=> 'Pour envoyer des pièces jointes vous devez définir un répertoire de téléchargement.',
-'attachment_warning'	=> 'Les pièces jointes ne sont <strong>pas enregistrées</strong> par ExpressionEngine, et doivent être sauvegardés localement.',
+'attachment_problem'	=> 'Un problème est survenu au moment de joindre votre fichier.',
+'attachment_unavailable'	=> 'Pour envoyer des pièces jointes vous devez définir un répertoire de destination.',
+'attachment_warning'	=> 'Les pièces jointes ne sont <strong>pas enregistrées</strong> par ExpressionEngine, et doivent être sauvegardées localement.',
 'chars'					=> 'caractères',
 'highest'				=> 'La plus haute',
 'high'					=> 'Haute',
@@ -61,17 +63,18 @@ $lang = array(
 'no_cached_email'		=> 'Il n\'y a aucun email en cache',
 'delete_emails'			=> 'Supprimer emails',
 'delete_confirm'		=> 'Confirmation de suppression d\'email',
-'delete_question'		=> 'Etes-vous sûr de vouloir supprimer les emails spécifiés ?',
+'delete_question'		=> 'Êtes-vous sûr de vouloir supprimer les emails spécifiés ?',
 'bad_cache_ids'			=> 'Il n\'y a aucun email correspondant aux critères spécifiés',
 'email_deleted'			=> 'Les emails ont été supprimés',
 'mailinglist_unsubscribe'		=> 'Pour vous désabonner de cette liste de diffusion, cliquez ici :',
 'mailinglist_unsubscribe_all'	=> 'Pour vous désabonner de toutes les listes de diffusion, cliquez ici :',
 'complete'				=> 'Terminé',
 'incomplete'			=> 'Incomplet',
+'finish_sending'		=> 'Envoi terminé',
 'on'					=> 'Activé',
 'off'					=> 'Désactivé',
 
 ''=>''
 );
-/* End of file lang.communicate.php */
-/* Location: ./system/expressionengine/language/french/lang.communicate.php */
+/* End of file communicate.php */
+/* Location: ./system/expressionengine/language/french/communicate_lang.php */

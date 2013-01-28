@@ -16,7 +16,7 @@ $lang = array(
 "Toutes les données associées à ce module seront définitivement supprimées !",
 
 "module_access" =>
-"Editer le module",
+"Éditer le module",
 
 "module_no_access" =>
 "Vous n'êtes pas autorisé à accéder aux modules",
@@ -25,7 +25,7 @@ $lang = array(
 "Désinstaller le module",
 
 "delete_module_confirm" =>
-"Etes-vous sûr de vouloir désinstaller les modules suivants :",
+"Êtes-vous sûr de vouloir désinstaller les modules suivants :",
 
 "module_backend" =>
 "TB Utilisateur",
@@ -48,8 +48,20 @@ $lang = array(
 "install" =>
 "Installer",
 
+'update_modules' =>
+'Mettre à jour les modules',
+
+'updated' =>
+'Mis à jour',
+
+'updated_to_version' =>
+'mis à jour vers la version',
+
+'all_modules_up_to_date' =>
+'Tous les modules sont à jour.',
+
 "deinstall" =>
-"Désinstaller",
+"Supprimer",
 
 "module_can_not_be_found" =>
 "Impossible de localiser les fichiers nécessaires à l'installation de ce module",
@@ -69,5 +81,5 @@ $lang = array(
 ''=>''
 );
 
-/* End of file lang.modules.php */
-/* Location: ./system/expressionengine/language/french/lang.modules.php */
+/* End of file modules_lang.php */
+/* Location: ./system/expressionengine/language/french/modules_lang.php */

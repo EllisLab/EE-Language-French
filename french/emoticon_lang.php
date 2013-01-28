@@ -7,7 +7,7 @@ $lang = array(
 //----------------------------------------
 
 "emoticon_module_name" =>
-"Emoticône",
+"Émoticône",
 
 "emoticon_module_description" =>
 "Module d'émoticônes (smileys)",
@@ -18,7 +18,7 @@ $lang = array(
 //----------------------------------------
 
 "emoticon_heading" =>
-"Emoticône",
+"Émoticône",
 
 "emoticon_glyph" =>
 "Glyphe",
@@ -40,5 +40,5 @@ $lang = array(
 ''=>''
 );
 
-/* End of file lang.emoticon.php */
-/* Location: ./system/expressionengine/language/french/lang.emoticon.php */
+/* End of file emoticon_lang.php */
+/* Location: ./system/expressionengine/language/french/emoticon_lang.php */

@@ -72,7 +72,7 @@ $lang = array(
 "Votre requête n'a retourné aucun résultat",
 
 "no_feed_specified" =>
-"L'URL que vous avez demandé ne contient pas de numéro ID de flux actif.",
+"L'URL que vous avez demandée ne contient pas de numéro ID de flux actif.",
 
 "split" =>
 "Diviser",
@@ -150,7 +150,7 @@ $lang = array(
 'Ignorer',
 
 'edited' =>
-'Edité',
+'Édité',
 
 "search_this_forum" =>
 "Rechercher dans ce forum",
@@ -189,7 +189,7 @@ $lang = array(
 "Modérateur",
 
 "error_message" =>
-"Message d'erreur:",
+"Message d'erreur :",
 
 "home" =>
 "Accueil du Forum",
@@ -333,7 +333,7 @@ $lang = array(
 "Fil",
 
 "edit_preferences" =>
-"Editer les préférences",
+"Éditer les préférences",
 
 "display_signatures" =>
 "Afficher les signatures des membres dans les fils du forum",
@@ -354,7 +354,10 @@ $lang = array(
 "Vues",
 
 "moderated_by" =>
-"Modérateurs :",
+"Modérateur :",
+
+'moderated_by_plural' =>
+'Modérateurs :',
 
 "recent_post" =>
 "Message le plus récent",
@@ -390,13 +393,13 @@ $lang = array(
 "Nouvelle recherche de sujet",
 
 "edit_topic" =>
-"Editer le sujet",
+"Éditer le sujet",
 
 "new_reply" =>
 "Ajouter une nouvelle réponse",
 
 "edit_reply" =>
-"Editer une réponse",
+"Éditer une réponse",
 
 "body" =>
 "Message",
@@ -450,7 +453,7 @@ $lang = array(
 "Formulaire d'exclusion de membre",
 
 "member_ban_warning" =>
-"Etes-vous sûr de vouloir suspendre le compte du membre suivant ?",
+"Êtes-vous sûr de vouloir suspendre le compte du membre suivant ?",
 
 "member_name" =>
 "Nom du membre :",
@@ -521,6 +524,9 @@ $lang = array(
 "ip_addresses_banned" =>
 "Les adresses IP suivantes ont été exclues :",
 
+'topic_no_exists' =>
+'Désolé, ce sujet de forum n\'existe plus',
+
 "thread_no_exists" =>
 "Le fil spécifié n'existe pas",
 
@@ -540,10 +546,10 @@ $lang = array(
 "Confirmation de suppression",
 
 "post_delete_warning" =>
-"Etes-vous sûr de vouloir supprimer le message suivant ?",
+"Êtes-vous sûr de vouloir supprimer le message suivant ?",
 
 "thread_delete_warning" =>
-"Etes-vous sûr de vouloir supprimer tout ce fil ?",
+"Êtes-vous sûr de vouloir supprimer tout ce fil ?",
 
 "thread_delete_info" =>
 "Tous les messages dans ce fil seront définitivement supprimés ! ",
@@ -552,7 +558,7 @@ $lang = array(
 "Cette action ne peut être annulée",
 
 "edit" =>
-"Editer",
+"Éditer",
 
 "delete_thread" =>
 "Supprimer le fil",
@@ -660,7 +666,7 @@ $lang = array(
 "Normal",
 
 "smileys" =>
-"Emoticônes",
+"Émoticônes",
 
 "thread_review" =>
 "Vérification de fil",
@@ -705,7 +711,7 @@ $lang = array(
 "Ajouter un sondage à ce sujet",
 
 "edit_poll" =>
-"Editer le sondage",
+"Éditer le sondage",
 
 "poll_question" =>
 "Question du sondage",
@@ -801,7 +807,7 @@ $lang = array(
 "Confirmer le désabonnement",
 
 "remove_subscription_question" =>
-"Etes-vous sûr de vouloir vous désabonner du fil suivant ?",
+"Êtes-vous sûr de vouloir vous désabonner du fil suivant ?",
 
 "subscription_confirmation_link" =>
 "Cliquez ici pour confirmer",
@@ -909,7 +915,7 @@ $lang = array(
 "Taille du fichier :",
 
 "allowed_mimes" =>
-"Types de fichiers autorisés :",
+"Types de fichier autorisés :",
 
 "member_profile" =>
 "Profil membre",
@@ -1037,9 +1043,53 @@ $lang = array(
 'choose_forum_board' =>
 "Choisissez un tableau de forum",
 
+'forum_not_installed' =>
+'Forum ne semble pas installé',
+
+'sort_results_by' =>
+'Trier les résultats par',
+
+'exact_name_match' =>
+'Correspondance exacte',
+
+'any_date' =>
+'N\'importe quelle date',
+
+'today_and' =>
+'Aujourd\'hui et&hellip',
+
+'this_week_and' =>
+'Cette semaine et&hellip',
+
+'one_month_ago_and' =>
+'Il y a 1 mois et&hellip',
+
+'three_months_ago_and' =>
+'Il y a 3 mois et&hellip',
+
+'six_months_ago_and' =>
+'Il y a 6 mois et&hellip',
+
+'one_year_ago_and' =>
+'Il y a 1 an et&hellip',
+
+'newer' =>
+'Plus récent',
+
+'older' =>
+'Plus ancien',
+
+'sort_results_by' =>
+'Trier les résultats par',
+
+'descending' =>
+'Décroissant',
+
+'ascending' =>
+'Croissant',
 
 ''=>''
 );
 
-/* End of file lang.forum.php */
-/* Location: ./system/expressionengine/language/french/lang.forum.php */
+/* End of file forum_lang.php */
+/* Location: ./system/expressionengine/language/french/forum_lang.php */

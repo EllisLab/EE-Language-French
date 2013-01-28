@@ -19,7 +19,7 @@ $lang = array(
 "Voir les URLs pour l'API MetaWeblog",
 
 'invalid_access' =>
-"Accès invalide à l'API Metaweblog. Veuillez vérifier que vous avez utilisé les bons identifiant et mot de passe pour un compte de membre avec les permissions pour publier dans au moins un canal.",
+"Accès invalide à l'API Metaweblog. Veuillez vérifier que vous avez utilisé les bons identifiant et mot de passe pour un compte de membres avec les permissions pour publier dans au moins un canal.",
 
 'no_channels_found' =>
 "Aucun canal trouvé pour cet utilisateur.",
@@ -67,7 +67,7 @@ $lang = array(
 "Configurations d'API Metaweblog supprimées",
 
 "metaweblog_delete_question" =>
-"Etes-vous sûr de vouloir supprimer les configurations d'API MetaWeblog sélectionnées ?",
+"Êtes-vous sûr de vouloir supprimer les configurations d'API MetaWeblog sélectionnées ?",
 
 'delete' =>
 "Supprimer",
@@ -84,11 +84,11 @@ $lang = array(
 'metaweblog_pref_name' =>
 "Nom de la configuration",
 
-'metaweblog_parse_type' => 
+'metaweblog_parse_type' =>
 "Préférence de formatage de texte",
 
 'metaweblog_parse_type_subtext' =>
-"Paramétrer sur 'oui' affichera le contenu d'un article comme s'il était affiché sur une page web avec tout le BBCode et les répertoires de fichier interprétés.",
+"Paramétrer sur 'Oui' affichera le contenu d'un article comme s'il était affiché sur une page web avec tout le BBCode et les répertoires de fichier interprétés.",
 
 'yes' =>
 "Oui",
@@ -100,7 +100,7 @@ $lang = array(
 "Aucun",
 
 'metaweblog_field_group' =>
-"Groupe de champ de canal",
+"Groupe de champs de canal",
 
 'metaweblog_excerpt_field' =>
 "Champ extrait",
@@ -130,11 +130,15 @@ $lang = array(
 'unable_to_upload' =>
 "Impossible de télécharger le fichier",
 
+'invalid_file_content' =>
+'Le fichier que vous cherchez à télécharger à un contenu invalide pour son type MIME',
+
 'metaweblog_upload_dir' =>
-"Répertoire de téléchargement pour l'envoi de fichiers",
+"Répertoire de destination des fichiers",
 
 'metaweblog_upload_dir_subtext' =>
-"La plupart des éditeurs de canal n'autorisent pas cette option et vous ne souhaitez peut-être pas autoriser le téléchargement à travers l'API, paramétrez sur 'Non' empêchera ainsi tout téléchargement de fichier via l'éditeur de canal.",
+"Peu d'éditeurs de canal autorisent cette option et vous ne souhaitez peut-être pas autoriser le téléchargement à travers l'API.<br />
+Le paramétrage sur 'Aucun' empêchera ainsi tout téléchargement de fichier via l'éditeur de canal.",
 
 'metaweblog_entry_status' =>
 "Statut de l'article",
@@ -152,5 +156,5 @@ $lang = array(
 ''=>''
 );
 
-/* End of file lang.metaweblog_api.php */
-/* Location: ./system/expressionengine/language/french/lang.metaweblog_api.php */
+/* End of file metaweblog_api_lang.php */
+/* Location: ./system/expressionengine/language/french/metaweblog_api_lang.php */

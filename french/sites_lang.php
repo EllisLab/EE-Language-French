@@ -9,7 +9,7 @@ $lang = array(
 'Version : ',
 
 'msm_build_number' =>
-'Build : ',
+'Moutûre : ',
 
 'sites_administration' =>
 "Administration des sites",
@@ -30,7 +30,7 @@ $lang = array(
 "Créer un nouveau site",
 
 'edit_site' =>
-"Editer le site",
+"Éditer le site",
 
 'site_description' =>
 "Description du site",
@@ -75,7 +75,7 @@ $lang = array(
 "Supprimer le site",
 
 'delete_site_confirmation' =>
-"Etes-vous sûr de vouloir définitivement supprimer ce site ?",
+"Êtes-vous sûr de vouloir définitivement supprimer ce site ?",
 
 'site_deleted' =>
 "Site supprimé",
@@ -87,7 +87,7 @@ $lang = array(
 "Nouveau Set",
 
 'edit_set' =>
-"Editer Set",
+"Éditer Set",
 
 'create_new_set' =>
 "Créer un nouveau Set",
@@ -105,7 +105,7 @@ $lang = array(
 "Supprimer le Set",
 
 'delete_set_confirmation' =>
-"Etes-vous sûr de vouloir définitivement supprimer ce set ?",
+"Êtes-vous sûr de vouloir définitivement supprimer ce set ?",
 
 'set_deleted' =>
 "Set supprimé",
@@ -168,9 +168,8 @@ $lang = array(
 "La duplication de grande quantité de données peut être un processus intensif, et peut causer un dépassement des limites de mémoire et de temps d'exécution du serveur, causant la perte de données.<br/><br/> Veillez à toujours sauvegarder votre base de données avant d'exécuter une duplication, et si vous rencontrez des problèmes consultez votre hébergeur pour augmenter les capacités du serveur.",
 
 
-
 ''=>''
 );
 
-/* End of file lang.sites.php */
-/* Location: ./system/expressionengine/language/french/lang.sites.php */
+/* End of file sites_lang.php */
+/* Location: ./system/expressionengine/language/french/sites_lang.php */

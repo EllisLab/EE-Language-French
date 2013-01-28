@@ -69,7 +69,7 @@ $lang = array(
 "Rechercher par nom de membre",
 
 'search_by_member_group' =>
-'Rechercher par groupe de membre',
+'Rechercher par groupe de membres',
 
 'switch_to_group' =>
 'Basculer vers la recherche par groupe',
@@ -90,28 +90,28 @@ $lang = array(
 "Catégories",
 
 "search_also_search_comments" =>
-"Rechercher aussi dans commentaires",
+"Rechercher aussi dans les commentaires",
 
 "search_any_date" =>
 "N'importe quelle date",
 
 "search_today_and" =>
-"Aujourd'hui et...",
+"Aujourd'hui et&hellip;",
 
 "search_this_week_and" =>
-"Cette semaine et...",
+"Cette semaine et&hellip;",
 
 "search_one_month_ago_and" =>
-"1 mois et...",
+"1 mois et&hellip;",
 
 "search_three_months_ago_and" =>
-"3 mois et...",
+"3 mois et&hellip;",
 
 "search_six_months_ago_and" =>
-"6 mois et...",
+"6 mois et&hellip;",
 
 "search_one_year_ago_and" =>
-"1 an et...",
+"1 an et&hellip;",
 
 "search_newer" =>
 "Plus récent",
@@ -224,22 +224,14 @@ $lang = array(
 'any_category' =>
 "N'importe quelle catégorie",
 
+'rebuild_search_index' =>
+'Reconstruire l\'index de recherche',
 
-
-
-
-
-
-
-
-
-
-
-
-
+'searched_for' =>
+'Terme(s) recherché(s) :',
 
 ''=>''
 );
 
-/* End of file lang.search.php */
-/* Location: ./system/expressionengine/language/french/lang.search.php */
+/* End of file search_lang.php */
+/* Location: ./system/expressionengine/language/french/search_lang.php */
