@@ -113,6 +113,9 @@ $lang = array(
 'no_upload_prefs' =>
 "Il n'y a encore aucune préférence pour le téléchargement de fichiers",
 
+'no_upload_directories' =>
+'Aucun répertoire de téléchargement n\'est disponible pour le moment. Merci d\'<a href="%s" rel="external" target="_blank">ajouter un ou plusieurs répertoire de téléchargement</a> avant d\'utiliser le type de champ fichier.',
+
 'please_add_upload' =>
 "Il n'y a actuellement aucun répertoire de destination disponible. Merci d'en ajouter un (ou plus) afin de pouvoir utiliser le type de champ Fichier.",
 
@@ -133,6 +136,8 @@ $lang = array(
 
 'max_size' =>
 'Taille maximale de fichier (en bytes)',
+
+'php_max_filesize'=>'La taille maximale de téléchargement autorisée par PHP est %s',
 
 'max_height' =>
 'Hauteur maximale d\'image (en pixels)',
@@ -414,6 +419,9 @@ $lang = array(
 
 'security_failure' =>
 'Le type de fichier que vous cherchez à télécharger n\'est pas autorisé.',
+
+'gd_not_installed' =>
+'La miniature de l\'image n\'a pas pu être créée. GD est obligatoire pour pouvoir créer des miniatures.',
 
 'thumb_not_created' =>
 'La miniature de l\'image n\'a pas pu être créée. Merci de vous assurer que le répertoire des miniatures est inscriptible.',

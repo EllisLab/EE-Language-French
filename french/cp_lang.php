@@ -248,6 +248,12 @@ $lang = array(
 'nav_field_group_management_short_desc' =>
 'Créer, éditer et supprimer des champs personnalisés',
 
+'nav_channel_form_settings' =>
+'Formulaire de canal',
+
+'nav_channel_form_settings_short_desc'=>
+'Gérer les préférences de formulaire de canal',
+
 'nav_status_group_management' =>
 'Statuts',
 
@@ -263,6 +269,9 @@ $lang = array(
 'nav_admin_content' =>
 'Administration du contenu ',
 
+'nav_file_manager_short_desc' =>
+'Télécharger, éditer, supprimer et gérer tous vos fichiers',
+
 'nav_file_upload_preferences' =>
 'Préférences de téléchargement',
 
@@ -272,17 +281,8 @@ $lang = array(
 'nav_file_watermark_preferences' =>
 'Préférences de filigrane',
 
-'nav_file_manager_short_desc' =>
-'Télécharger, éditer, supprimer et gérer tous vos fichiers',
-
 'nav_file_watermark_preferences_short_desc' =>
 'Créer, éditer et supprimer des préférences de filigrane',
-
-'nav_default_ping_servers' =>
-'Serveurs de Ping par défaut',
-
-'nav_default_ping_servers_short_desc' =>
-'Créer, éditer et supprimer des serveurs de Ping par défaut',
 
 'nav_default_html_buttons' =>
 'Boutons HTML par défaut',
@@ -534,14 +534,17 @@ $lang = array(
 'user_guide' =>
 'Guide d\'utilisation',
 
-'logout_confirm' =>
-'Êtes-vous sûr de vouloir vous déconnecter ?',
-
 'logout' =>
 'Déconnexion',
 
-'session_timeout' =>
-'Votre session va expirer, faute d\'activité',
+'session_idle' =>
+'Session inactive détectée',
+
+'session_idle_description' =>
+'Votre session est devenue inactive, merci d\'entrer votre mot de passe pour continuer.',
+
+'session_idle_not_name' =>
+'Pas %s ?',
 
 'login' =>
 'Connexion',
@@ -596,9 +599,6 @@ $lang = array(
 
 'any' =>
 'N\'importe lequel',
-
-'mobile_not_supported' =>
-'Cette fonction n\'est pas supportée sur un navigateur mobile',
 
 'required_fields' =>
 'Indique des champs requis',

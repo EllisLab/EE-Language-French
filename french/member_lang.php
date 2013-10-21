@@ -53,9 +53,6 @@ $lang = array(
 "existing_un" =>
 "Votre identifiant actuel",
 
-"existing_pw" =>
-"Votre mot de passe actuel", /** Absent de la dernière version US */
-
 "un_len" =>
 "Les identifiants doivent faire au moins %x caractères de long",
 
@@ -381,6 +378,9 @@ $lang = array(
 "login_required" =>
 "Connexion requise",
 
+'sign_in' =>
+'Connectez-vous à votre compte',
+
 "must_be_logged_in" =>
 "Cette page n'est accessible qu'aux utilisateurs connectés avec les privilèges correspondants",
 
@@ -476,6 +476,7 @@ $lang = array(
 
 'mbr_passwd_email_sent' =>
 'Email de réinitialisation du mot de passe envoyé',
+
 
 "mbr_form_empty" =>
 "Vous devez saisir votre identifiant et votre mot de passe",
@@ -908,6 +909,26 @@ Nous nous réservons le droit de supprimer, modifier ou déplacer n'importe quel
 
 'powered_by_ee' =>
 "Propulsé par ExpressionEngine",
+
+// Used Primarily in the Member_auth::forgot_password()
+// through Member_auth::process_reset_password() call chain
+
+'mbr_reset_password' =>
+'Merci de saisir un nouveau mot de passe',
+
+'mbr_missing_password' =>
+'Merci de saisir un nouveau mot de passe.',
+
+'mbr_missing_confirm' =>
+'Vous devez confirmer votre nouveau mot de passe.',
+
+'mbr_password_changed' =>
+'Mot de passe modifié avec succès',
+
+'mbr_successfully_changed_password' =>
+'Vous avez modifié votre mot de passe avec succès. Merci de vous reconnecter en utilisant votre nouveau mot de passe.',
+
+
 
 ''=>''
 );

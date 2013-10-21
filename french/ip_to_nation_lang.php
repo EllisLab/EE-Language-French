@@ -35,6 +35,9 @@ $lang = array(
 'ip_not_found' =>
 'Aucun résultat pour l\'adresse IP saisie.',
 
+'cache_full' =>
+'Le Cache est plein et doit être effacé manuellement afin de pouvoir continuer.',
+
 "manage_banlist" =>
 "Gestion de votre liste de pays exclus",
 
