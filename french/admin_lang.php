@@ -1053,6 +1053,18 @@ $lang = array(
 'used_in_meta_tags' =>
 'Utilisé dans les meta-tags du tableau de bord',
 
+"use_newrelic" =>
+"Activer le Javascript RUM New Relic ?",
+
+"use_newrelic_explanation" =>
+'Une fois activé, New Relic ajoutera un <a href="https://newrelic.com/docs/features/real-user-monitoring" rel="external">suivi Javascript des utilisateurs réels</a> à toutes vos pages web.',
+
+"newrelic_app_name" =>
+"Nom de l'application New Relic",
+
+"newrelic_app_name_explanation" =>
+"Modifie le nom de l'application qui s'affiche dans le tableau de bord New Relic pour cette installation d'ExpressionEngine.",
+
 'gzip_output' =>
 'Activer l\'export GZIP ?',
 
@@ -1083,17 +1095,8 @@ $lang = array(
 'european' =>
 'Européen',
 
-'server_timezone' =>
-'Fuseau horaire du serveur',
-
-'server_offset' =>
-'Décalage du serveur (en minutes)',
-
-'server_offset_explain' =>
-'Utilisez le signe moins pour soustraire des minutes : -15',
-
-'daylight_savings' =>
-'Heure d\'été en vigueur ?',
+"default_site_timezone" =>
+"Fuseau horaire du site",
 
 'cookie_cfg' =>
 'Paramètres du Cookie',
@@ -1163,6 +1166,12 @@ $lang = array(
 
 'smtp_server' =>
 'Adresse du serveur SMTP',
+
+"smtp_port" =>
+"Port du serveur SMTP",
+
+'empty_stmp_fields' =>
+'Le champ %s est obligatoire pour SMTP.',
 
 'smtp_username' =>
 'Nom d\'utilisateur SMTP',
@@ -1277,9 +1286,6 @@ $lang = array(
 
 'missing_required_fields' =>
 'Les champs suivants sont requis :',
-
-'default_ping_servers' =>
-'Serveur de Ping par défaut',
 
 'statuses' =>
 'Statuts',
@@ -1632,9 +1638,6 @@ $lang = array(
 'update_and_return' =>
 'Mettre à jour et terminer',
 
-'cached_relationships' =>
-'Articles relatifs en cache',
-
 'template_debugging' =>
 'Afficher le débogage des modèles ?',
 
@@ -1689,6 +1692,8 @@ $lang = array(
 'illegal_characters' =>
 'Le nom proposé ne doit contenir que des caractères alphanumérique, le souligné ou le tiret.',
 
+'developer_logs' =>
+'Vous avez %d entrée(s) non parcourue(s) dans le <a href="%s">Journal Développeur</a>.',
 
 ''=>''
 );

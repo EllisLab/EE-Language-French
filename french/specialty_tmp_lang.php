@@ -77,12 +77,6 @@ $lang = array(
 "mbr_activation_instructions_desc" =>
 "Ce modèle définit les instructions d'activation du compte membre qui sont envoyées aux personnes s'inscrivant sur le site.",
 
-"reset_password_notification" =>
-"Notification de réinitialisation du mot de passe",
-
-"reset_password_notification_desc" =>
-"Ce modèle définit les instructions pour la réinitialisation du mot de passe.",
-
 "validated_member_notify" =>
 "Notification de validation de compte membre",
 

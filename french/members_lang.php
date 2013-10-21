@@ -101,10 +101,10 @@ $lang = array(
 'Le membre que vous êtes sur le point de supprimer a des articles de canal qui lui sont assignés',
 
 'heir_to_member_entries' =>
-'Ce membre a des articles assignés à son compte. Choisissez un membre auquel réassigner ces articles.',
+'Ce membre a des articles assignés à son compte. Que souhaitez-vous faire de ces articles ?',
 
 'heir_to_members_entries' =>
-'Certains de ces membres ont des articles assignés à leurs comptes. Choisissez un membre auquel réassigner ces articles.',
+'Certains de ces membres ont des articles assignés à leurs comptes. Que souhaitez-vous faire de leurs articles ?',
 
 'forum_topics' =>
 'Sujets de forum',
@@ -818,7 +818,10 @@ $lang = array(
 'Autoriser les membres dans la liste de diffusion du site et aux capacités liées ? (par exemple les groupes disponibles dans la section Communiquer)',
 
 'member_delete_dont_reassign_entries' =>
-"Ne réassignez pas les articles de ce membre, supprimez les TOUS",
+"Supprimer tous les articles de ce membre",
+
+'member_delete_reassign_entries' =>
+"Réaffecter les articles de ce membre à ",
 
 ''=>''
 );

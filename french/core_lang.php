@@ -173,12 +173,15 @@ Confirmez que le fichier de type de champ est bien situé dans le répertoire ex
 "template_loop" =>
 "Vous avez causé une boucle de modèle due à un sous-modèle mal imbriqué ('%s' est appelé de façon récursive)",
 
+'template_load_order' =>
+'Ordre de chargement des modèles',
+
 //----------------------------
 // Email
 //----------------------------
 
 "forgotten_email_sent" =>
-"Les instructions pour réinitialiser votre mot de passe viennent de vous être envoyées par email.",
+"Si cette adresse email est associée à un compte, Les instructions pour réinitialiser votre mot de passe viennent de vous être envoyées par email.",
 
 "error_sending_email" =>
 "Impossible d'envoyer l'email pour le moment.",
@@ -428,6 +431,11 @@ Confirmez que le fichier de type de champ est bien situé dans le répertoire ex
 'UP13'		=>	'(UTC +13:00) Fuseau horaire des Tonga et Samoa, îles Phoenix',
 'UP14'		=>	'(UTC +14:00) Fuseau horaire des îles de la Ligne (île Christmas)',
 
+"select_timezone" =>
+"Sélectionner le fuseau horaire",
+
+"no_timezones" =>
+"Aucun fuseau horaire",
 
 // IGNORE
 ''=>'');

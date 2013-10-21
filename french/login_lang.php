@@ -39,6 +39,34 @@ $lang = array(
 'session_auto_timeout' =>
 'Votre session a expiré en raison de son inactivité',
 
+//-----------------------------------
+// Reset Password
+//-----------------------------------
+
+'forgotten_password' =>
+'Réinitialiser le mot de passe',
+
+'no_reset_id' =>
+'Le code identifiant que vous avez soumis ne semble pas valide. Merci de vérifier le lien que vous avez suivi.',
+
+'id_not_found' =>
+'Le code que vous avez soumis n\'a pas été trouvé dans la base de données.',
+
+'password_changed' =>
+'Mot de passe modifié avec succès',
+
+'successfully_changed_password' =>
+'Vous avez modifié votre mot de passe avec succès. Merci de vous reconnecter en utilisant votre nouveau mot de passe.',
+
+'new_password' =>
+'Nouveau mot de passe',
+
+'new_password_confirm' =>
+'Confirmer le nouveau mot de passe',
+
+'enter_new_password' =>
+'Entrer un nouveau mot de passe',
+
 ''=>''
 );
 

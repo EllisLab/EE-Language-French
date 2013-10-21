@@ -88,13 +88,13 @@ $lang = array(
 "Le nombre maximum de révisions qui doivent être conservées pour CHAQUE modèle. Par exemple, si vous paramétrez sur 5, seules les 5 plus récentes versions seront sauvegardées pour chaque modèle spécifié.",
 
 "save_tmpl_files" =>
-"Autoriser la sauvegarde des modèles comme fichiers ?",
+"Enregistrer les modèles sous forme de fichiers",
 
 "save_tmpl_files_exp" =>
-"Lors de la sauvegarde de vos modèles vous pouvez également les enregistrer comme fichiers sur votre serveur. Veuillez vous référer au guide d'utilisation pour plus d'informations concernant cette fonctionnalité.",
+"Enregistre les modèles sous forme de fichiers directement sur votre serveur. Cliquer sur Aide pour plus d'informations.",
 
 "tmpl_file_basepath" =>
-"Chemin de base du dossier des fichiers modèles",
+"Chemin serveur des fichiers modèles du site",
 
 "tmpl_file_basepath_exp" =>
 "Chemin serveur du répertoire dans lequel les fichiers modèles doivent être sauvegardés.",
@@ -770,6 +770,9 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 
 "registration_form" =>
 "Formulaire d'inscription",
+
+"reset_password_form" =>
+"Formulaire de réinitialisation du mot de passe",
 
 "stylesheet" =>
 "Feuille de style CSS",

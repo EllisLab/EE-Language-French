@@ -168,9 +168,6 @@ Merci de télécharger <a href="%s" title="Télécharger ici">ici</a> et suivez 
 'close' =>
 'Fermer',
 
-'developer_logs' =>
-'Vous avez %d sujets non traités dans le <a href="%s">Journal Développeur</a>.',
-
 'version_mismatch' =>
 'La version (%s) de votre installation ExpressionEngine n\'est pas en phase avec la version (%s) du rapport. <a href="http://ellislab.com/expressionengine/user-guide/installation/update.html">Merci de mettre de nouveau à jour votre installation d\'ExpressionEngine</a>.',
 
