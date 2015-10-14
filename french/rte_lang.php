@@ -61,10 +61,10 @@ $lang = array(
 'enable_rte_for_field' => 'Activer l\'éditeur de texte enrichi ?',
 'rte_image_caption'	=> 'Légende d\'image :',
 'rte_center_error' => 'Vous ne pouvez pas centrer un élément habillé',
-'url' => 'URL',
-'title' => 'Titre',
-'relationship' => 'Relations',
-'selection_error' => 'Sélectionnez d\'abord du texte ou des images.',
+'rte_url' => 'URL',
+'rte_title' => 'Titre',
+'rte_relationship' => 'Relations',
+'rte_selection_error' => 'Sélectionnez d\'abord du texte ou des images.',
 
 // Tool names (based on class name)
 'blockquote_rte' 	=> 'Citer',

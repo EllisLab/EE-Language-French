@@ -43,7 +43,6 @@ $lang = array(
 'page_caching' 			=> 'Fichiers cache des pages (modèles)',
 'tag_caching' 			=> 'Fichiers cache des balises',
 'db_caching' 			=> 'Fichiers cache de la base de données',
-'cached_relationships' 	=> 'Relations d\'articles en cache',
 'all_caching' 			=> 'Tous les caches',
 
 'sandr_instructions' 	=> 'Ces formulaires vous permettent de rechercher une expression particulière et de la remplacer par une autre',
@@ -88,16 +87,22 @@ $lang = array(
 'deprecated_on_line'	=> 'dans %s à la ligne %d.',
 'deprecated_since'		=> 'Obsolète depuis %s.',
 'deprecated_use_instead'	=> 'Utilisez plutôt %s.',
-'deprecation_detected'	=> 'Le système a détecté un add-on qui utilise du code obsolète qui pourrait ne plus fonctionner, voire provoquer des problèmes avec le système.',
+'deprecated_template'	=> 'Depuis la balise de modèle %s dans %s.',
+'deprecated_snippets'	=> 'Cette balise peut avoir été hachée à partir de l\'un de ces snippets : %s',
+'deprecation_detected'	=> 'Ceci est un journal pour les développeurs destiné à sensibiliser les Super Admins à certains messages ou alertes.',
 'dev_log_view_report'	=> 'Voir le rapport',
 'dev_log_help'			=> 'Qu\'est-ce que cela veut dire ?',
 'deprecated_meaning'	=>
-'<p>Le système a détecté un add-on qui utilise du code obsolète qui pourrait ne plus fonctionner, voire provoquer des problèmes avec le système. Cela signifie qu\'un add-on dans votre installation accède à une partie du code source d\'ExpressionEngine qu\'EllisLab a prévu de retirer dans le futur afin d\'améliorer la qualité du produit.</p>
+'<p>Une de ces 2 choses vient de se produire :</p>
+<ol>
+	<li>Le système a détecté du code natif ou un add-on qui utilise du code obsolète qui pourrait ne plus fonctionner, voire provoquer des problèmes avec le système. Cela signifie qu\'un add-on dans votre installation accède à une partie du code source d\'ExpressionEngine qu\'EllisLab a prévu de retirer dans le futur afin d\'améliorer la qualité du produit.</li>
+	<li>Une alerte ou un message a été émis par le code natif ou un add-on afin d\'être porté à l\'attention d\'un Super Admin.</li>
+</ol>
 <p>Pour remédier à cette alerte, vous pouvez effectuer tout ou partie des actions suivantes :</p>
 <ul>
 	<li>Contacter le développeur qui gère votre installation d\'ExpressionEngine afin qu\'il vous aide</li>
 	<li>Vérifier que vous avez les dernières versions de tous vos add-ons installés</li>
-	<li>Contacter le développeur de l\'add-on problématique afin de vous assurer qu\'il est au courant du problème et qu\'il a bien prévu de sortir une MAJ</li>
+	<li>Contacter le développeur de l\'add-on problématique afin de vous assurer qu\'il est au courant du problème et qu\'il a bien prévu de publier une MAJ</li>
 </ul>',
 
 

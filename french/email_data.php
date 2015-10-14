@@ -199,8 +199,6 @@ Pour réinitialiser votre mot de passe, veuillez vous rendre à la page suivante
 
 {reset_url}
 
-Votre mot de passe sera automatiquement réinitialisé, et un nouveau mot de passe vous sera envoyé par email.
-
 Si vous ne souhaitez pas réinitialiser votre mot de passe, ignorez ce message. Il expirera dans 24 heures.
 
 {site_name}
@@ -208,43 +206,6 @@ Si vous ne souhaitez pas réinitialiser votre mot de passe, ignorez ce message. 
 EOF;
 	}
 }
-
-
-
-
-//---------------------------------------------------
-//	Reset Password Notification
-//--------------------------------------------------
-
-if ( ! function_exists('reset_password_notification_title'))
-{
-	function reset_password_notification_title()
-	{
-return <<<EOF
-Nouvelles informations de connexion
-EOF;
-	}
-}
-
-if ( ! function_exists('reset_password_notification'))
-{
-	function reset_password_notification()
-	{
-return <<<EOF
-{name},
-
-Voici vos nouvelles informations de connexion :
-
-Nom d'utilisateur : {username}
-Mot de passe : {password}
-
-{site_name}
-{site_url}
-EOF;
-	}
-}
-
-
 
 
 //---------------------------------------------------

@@ -68,9 +68,6 @@ $lang = array(
 'convert_from_delimited_blurb' =>
 ': vous permet de créer un fichier de membre ExpressionEngine XML depuis un fichier de texte délimité d\'une autre application',
 
-'daylight_savings' =>
-'Heure d\'été',
-
 'auto_custom_field' =>
 'Créer les champs personnalisés',
 
@@ -98,9 +95,6 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 
 'download' =>
 'Télécharger le fichier XML',
-
-'dst_enabled' =>
-'Heure d\'été activée',
 
 'duplicate_email' =>
 'Dupliquer les emails : ',

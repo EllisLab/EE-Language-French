@@ -42,6 +42,9 @@ $lang = array(
 'invalid_access' =>
 "Accès invalide",
 
+'new_entry_errors' =>
+'Erreurs de validation de l\'article : ',
+
 'entry_uneditable' =>
 "Vous n'avez pas la permission d'éditer cet article. Veuillez vérifier les permissions du groupe de membres",
 

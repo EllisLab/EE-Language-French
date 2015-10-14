@@ -224,12 +224,6 @@ $lang = array(
 "search_results_url_exp" =>
 "L'adresse vers laquelle les résultats de la recherche venant de ce canal doivent pointer.",
 
-"ping_return_url" =>
-"URL de retour de Ping",
-
-"ping_return_url_exp" =>
-"L'adresse que vous souhaitez associer aux liens de trackback sur d'autres sites.",
-
 "comment_expiration" =>
 "Expiration des commentaires",
 
@@ -455,9 +449,6 @@ $lang = array(
 "invalid_field_group_selected" =>
 "Groupe de champs invalide",
 
-"missing_channel_data_for_pings" =>
-"Afin d'envoyer des pings, votre canal nécessite un titre et une URL. Veuillez mettre à jour vos préférences de canal.",
-
 "open" =>
 "Ouvert",
 
@@ -493,34 +484,6 @@ $lang = array(
 
 "row" =>
 "Ligne",
-
-"server_name" =>
-"Nom du serveur",
-
-"server_url" =>
-"URL/Chemin du serveur",
-
-"port" =>
-"Port",
-
-"protocol" =>
-"Protocole",
-
-"is_default" =>
-"Défaut",
-
-"server_order" =>
-"Ordre",
-
-"define_ping_servers" =>
-"Ce formulaire vous permet de définir une liste de serveurs qui recevront un ping lors de la publication de nouveaux articles",
-
-"pingserver_delete_instructions" =>
-"Pour supprimer un élément, soumettez le formulaire en laissant le nom de serveur vide",
-
-"assign_channels" =>
-"Choisissez à quel(s) canal(canaux) vous souhaitez affecter ce groupe",
-
 
 //----------------------------
 // Generic Phrases
@@ -631,8 +594,11 @@ $lang = array(
 "category_name" =>
 "Nom de la catégorie",
 
+'category_url_title' =>
+'Titre URL de la catégorie',
+
 "category_image" =>
-"URL de l'image de la catégorie",
+"Image de la catégorie",
 
 "category_img_blurb" =>
 "Ce champ optionnel vous permet d'affecter une image à vos catégories.",
@@ -892,6 +858,9 @@ $lang = array(
 "duplicate_field_name" =>
 "Le nom de champ que vous avez choisi est déjà utilisé",
 
+'duplicate_truncated_field_name' =>
+'Le nom de champ que vous avez choisi est trop long et le nom tronqué est déjà utilisé.',
+
 "taken_field_group_name" =>
 "Le nom que vous avez choisi est déjà utilisé",
 
@@ -915,12 +884,6 @@ $lang = array(
 
 'field_content_text' =>
 "Contenu du champ :",
-
-'field_content_file' =>
-"Type de fichier :",
-
-'allowed_dirs_file' =>
-'Répertoire autorisé',
 
 'type_numeric' =>
 "Nombre",
@@ -1055,6 +1018,31 @@ $lang = array(
 
 'field_name_too_lrg' =>
 'Votre nom de champ est trop long et a dû être tronqué. Merci de le revoir.',
+
+//----------------------------
+// Channel Form Settings
+//----------------------------
+
+'channel_form_settings' =>
+'Paramètres du formulaire de canal',
+
+'channel_form_settings_updated' =>
+'Paramètres du formulaire de canal enregistrés',
+
+'channel_form_default_status' =>
+'Statut par défaut',
+
+'channel_form_allow_guest_posts' =>
+'Autoriser les soumissions par les invités ?',
+
+'channel_form_guest_captcha' =>
+'Captcha pour les invités ?',
+
+'channel_form_guest_author' =>
+'Auteur invité',
+
+'channel_form_default_status_empty' =>
+'-- Utiliser le paramétrage par défaut --',
 
 //----------------------------
 // Channel Entries API

@@ -122,9 +122,6 @@ $lang = array(
 'comment' =>
 'Commentaire',
 
-'localization_is_site_default' =>
-'Utilisez ces paramètres de localisation de membre comme valeur par défaut du site principal ?',
-
 'preferences_updated' =>
 'Préférences mises à jour',
 
@@ -224,9 +221,6 @@ $lang = array(
 'localization_updated' =>
 'Localisation mise à jour',
 
-'daylight_savings_time' =>
-'Heure d\'été en vigueur ?',
-
 'timezone' =>
 'Choisissez un fuseau horaire',
 
@@ -259,9 +253,6 @@ $lang = array(
 
 'european' =>
 'Européen',
-
-'your_ping_servers' =>
-'Serveurs de Ping',
 
 'your_html_buttons' =>
 'Boutons de formatage HTML',
@@ -476,12 +467,6 @@ $lang = array(
 'password_change_warning' =>
 'Note : Vous avez changez votre mot de passe, vous devrez donc vous reconnecter.',
 
-'ping_servers' =>
-'Serveurs de Ping',
-
-'pingservers_updated' =>
-'Serveurs de Ping mis à jour',
-
 'html_buttons' =>
 'Boutons de formatage HTML',
 
@@ -572,6 +557,9 @@ $lang = array(
 'no_unlocked_member_groups' =>
 'Vous ne possédez pas les autorisations requises pour ajouter de nouveaux membres à un quelconque groupe.<br />
 Merci de <a href="%s">contacter votre Administrateur Système</a> si vous pensez qu\'il s\'agit d\'une erreur.',
+
+'invalid_group_id' =>
+'Vous devez sélectionner un groupe valide.',
 
 ''=>''
 );

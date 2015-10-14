@@ -66,9 +66,6 @@ $lang = array(
 'revision_saved' =>
 'Révision sauvegardée',
 
-'dst_enabled' =>
-'Heure d\'été active pour la date de cet article',
-
 'multi_entries_updated' =>
 'Article(s) mis à jour',
 
@@ -244,15 +241,6 @@ $lang = array(
 
 'publish_form' =>
 'Formulaire de publication',
-
-'pings' =>
-'Pings',
-
-'no_ping_sites' =>
-'Aucun serveur de Ping n\'existe actuellement.',
-
-'add_ping_sites' =>
-'Ajouter des serveurs de Ping.',
 
 'entry_date' =>
 'Date de l\'article',
@@ -509,18 +497,6 @@ $lang = array(
 'allow_comments' =>
 'Autoriser les commentaires',
 
-'ping_sites' =>
-'Sites pour le Ping',
-
-'select_entries_to_ping' =>
-'Choisissez les articles pour lesquels effectuer un Ping',
-
-'view_previous_pings' =>
-'Voir les Pings précédents',
-
-'previously_pinged_urls' =>
-'Vous avez précédemment effectué un Ping pour les URLs suivantes',
-
 'date' =>
 'Date',
 
@@ -631,9 +607,6 @@ $lang = array(
 
 'entry_has_been_updated' =>
 'L\'article a été mis à jour',
-
-'xmlrpc_ping_errors' =>
-'Les Ping XML-RPC suivants ont été refusés :',
 
 'click_to_view_your_entry' =>
 'Cliquez ici pour voir votre article',
@@ -1123,9 +1096,6 @@ $lang = array(
 'menu_date' =>
 'Date',
 
-'menu_pings' =>
-'Pings',
-
 'menu_pages' =>
 'Pages',
 
@@ -1137,6 +1107,8 @@ $lang = array(
 
 'menu_forum' =>
 'Forums',
+
+'rel_ft_no_entries'			=> 'Aucune entrée',
 
 ''=>''
 );
