@@ -1,5 +1,7 @@
 # French Translation Pack for ExpressionEngine 3.x
 
+[![Build Status](https://travis-ci.org/EllisLab/EE-Language-French.svg?branch=master)](https://travis-ci.org/EllisLab/EE-Language-French/branches)
+
 - Copyright (C) 2009-2016 EllisLab, Inc.
 - Original French translation provided by: Jeremie Werner / Studio Meta (@studiometa)
 - 2.5.5, 2.7.x and 3.x versions by: Emmanuel Beauchamps / Putitinred (@putitinred)
