@@ -194,15 +194,6 @@ $lang = array(
 
 'year' => "Année",
 
-'ipn_url' => "URL Notification de Paiement Instantané (IPN)",
-
-'ipn_details' => 'Notification de Paiement Instantané (IPN) est un service PayPal qui autorise le traitement
-des transactions sur leur site puis la notification d\'ExpressionEngine lorsque la transaction est
-terminée et acceptée. Ceci permet de ne pas enregistrer les achats dans le module Simple Commerce
-avant que la transaction ne soit finalisée. Le module Simple Commerce d\'ExpressionEngine automatise
-tout cela en interne, donc tout ce que vous avez à faire est d\'activer la Notification de Paiement
-Instantanée sur le site PayPal, et de leur fournir l\'URL ci-dessous.',
-
 'purchases' => 'Achats',
 
 'purchase' => 'Achat',
@@ -225,19 +216,7 @@ Instantanée sur le site PayPal, et de leur fournir l\'URL ci-dessous.',
 
 'recurring_purchase_warning' => "Les achats récurrents doivent être paramétrés via PayPal pour un fonctionnement complet.",
 
-'current_subscriptions' => 'Date de fin d\'abonnement',
-
-'add_items' => "Ajouter les produits",
-
-'edit_items' => "Modifier les produits",
-
 'export_items' => "Exporter les produits",
-
-'store_purchases' => "Achats de la boutique",
-
-'edit_purchases' => "Modifier les achats",
-
-'add_purchase' => "Ajouter un achat",
 
 'export_purchases' => "Exporter les achats",
 
@@ -255,45 +234,17 @@ Instantanée sur le site PayPal, et de leur fournir l\'URL ci-dessous.',
 
 'entry_title' => "Titre de l'article",
 
-'update_item' => "Mettre à jour le produit",
-
-'update_items' => "Mettre à jour les produits",
-
 'sale_price' => "Prix promo",
 
 'regular_price' => "Prix standard",
-
-'item_enabled' => "Produit activé",
-
-'purchase_actions' => "Actions d'achat",
-
-'store_emails' => "Stocker les emails",
-
-'add_email_template' => "Ajouter un modèle d'email",
-
-'template_name' => 'Nom du modèle',
-
-'edit_email_templates' => "Modifier les modèles d'email",
 
 'sales_information' => "Information de ventes",
 
 'no_email_templates' => "modèle d'email",
 
-'no_purchases' => "Aucun achat",
-
 'perform_item_actions' => "Exécuter les actions pour le produit ?",
 
 'email_name' => "Nom du modèle d'email",
-
-'edit_emails' => "Modifier les emails",
-
-'monthly_sales' => "Ventes mensuelles",
-
-'customer_email' => "Modèle d'email client",
-
-'on_subscribe' => "À l'abonnement",
-
-'on_unsubscribe' => "Au désabonnement",
 
 'email_options' => 'Options email',
 
@@ -308,8 +259,6 @@ Instantanée sur le site PayPal, et de leur fournir l\'URL ci-dessous.',
 'admin_email_address' => "Adresse email Administrateur",
 
 'admin_email_address_desc' => 'Adresse email à notifier après une vente.',
-
-'invalid_price' => "Prix invalide !",
 
 'select_admin_template' => "Doit choisir le modèle d'email Administrateur si l'adresse email est renseignée",
 

@@ -232,6 +232,14 @@ $lang = array(
 'member_logged_out' =>
 'Déconnecté',
 
+'member_changed_password' => 'Mot de passe modifié pour "%s" (%d)',
+
+'member_changed_email' => 'Email modifié pour "%s" (%d)',
+
+'member_changed_member_group' => 'Groupe de membres modifié vers "%s" pour "%s" (%d)',
+
+'member_login_as' => 'Membre connecté en tant que "%s" (%d)',
+
 'close' =>
 'Fermer',
 

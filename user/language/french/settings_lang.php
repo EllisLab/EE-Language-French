@@ -246,7 +246,7 @@ $lang = array(
 
 'enable_errors' => 'Activer les rapports d\'erreurs ?',
 
-'enable_errors_desc' => 'S\'il est sur <b>Activer</b>, les Super Administrateurs et les groupes de membres avec les permissions suffisantes pourront voir les erreurs PHP/MySQL quand elles surviendront.',
+'enable_errors_desc' => 'S\'il est sur <b>Activer</b>, les Super Administrateurs pourront voir les erreurs PHP/MySQL quand elles surviendront.',
 
 'show_profiler' => 'Activer le débogage ?',
 
@@ -697,7 +697,7 @@ $lang = array(
 
 'name_of_dictionary_file_desc' => 'Nom de votre fichier <mark>dictionnaire</mark> dans votre répertoire config.',
 
-'form_security_settings' => 'Paramètres de sécurité des formulaires',
+'form_security_settings' => 'Paramètres de soumission du contenu',
 
 'deny_duplicate_data' => 'Refuser les données dupliquées ?',
 
@@ -710,6 +710,10 @@ $lang = array(
 'xss_clean_uploads' => 'Appliquer un filtrage <abbr title="Cross Site Scripting">XSS</abbr> ?',
 
 'xss_clean_uploads_desc' => 'Si positionné à <b>Oui</b>, les formulaires appliqueront un filtrage <abbr title="Cross Site Scripting">XSS</abbr> lors des soumissions.',
+
+'enable_rank_denial' => 'Activer le refus de rang aux liens soumis ?',
+
+'enable_rank_denial_desc' => 'S\'il est sur <b>Activer</b>, tous les liens sortants sont envoyés vers une page de redirection. Cela évite que les spammeurs ne <a href="%s" rel="external">gagne un meilleur classement de page</a>.',
 
 /**
  * Access Throttling
