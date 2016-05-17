@@ -24,7 +24,7 @@ $lang = array(
 'view_developer_log'	=> 'Journaux Développeur',
 
 'logs_deleted'			=> 'Journaux effacés',
-'logs_deleted_desc'		=> '<b>%d</b> journal(aux) effacé(s) parmi <b>%s</b> journaux',
+'logs_deleted_desc'		=> '<b>%d</b> journal(aux) effacé(s) dans les journaux <b>%s</b>',
 
 'clear_cp_logs'			=> 'Effacer tous les journaux des accès au panneau de contrôle',
 
