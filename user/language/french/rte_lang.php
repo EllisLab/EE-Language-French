@@ -174,12 +174,12 @@ $lang = array(
 
 'img_add' => 'Image',
 'img_remove' => 'Supprimer l\'image',
-'img_align_left' => 'Aligner à Gauche',
-'img_align_center' => 'Aligner au Centre',
-'img_align_right' => 'Aligner à Droite',
-'img_wrap_left' => 'Habiller à Gauche',
+'img_align_left' => 'Aligner l\'image à Gauche',
+'img_align_center' => 'Centrer l\'image',
+'img_align_right' => 'Aligner l\'image à Droite',
+'img_wrap_left' => 'Ajuster l\'image à Gauche du texte',
 'img_wrap_none' => 'Séparer l\'image du texte',
-'img_wrap_right' => 'Habiller à Droite',
+'img_wrap_right' => 'Ajuster l\'image à Droite du texte',
 'img_title' => 'télécharger un fichier', // is original string "upload file" OK in context?
 
 ''=>''

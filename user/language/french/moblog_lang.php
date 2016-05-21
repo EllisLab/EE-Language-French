@@ -74,7 +74,7 @@ $lang = array(
 
 'moblog_email_password'	=> 'Mot de passe compte email',
 
-'data_encrypted' => 'Donnée encryptée lors de l\'enregistrement',
+'data_encrypted' => 'Donnée chiffrée lors de l\'enregistrement',
 
 'moblog_subject_prefix'	=> 'Préfixe d\'objet Moblog',
 
@@ -133,6 +133,12 @@ $lang = array(
 'upload_directory_unwriteable' => 'Impossible d\'écrire le fichier dans le répertoire de téléchargement',
 
 'invalid_moblog' => 'Sélection moblog invalide',
+
+'emails_done' => 'Emails récupérés :',
+
+'entries_added' => 'Articles ajoutés :',
+
+'attachments_uploaded' => 'Pièces jointes téléchargées :',
 
 // ------------------------
 // Processing Errors
