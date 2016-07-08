@@ -8,7 +8,7 @@ $lang = array(
 
 'settings' => 'paramètres',
 
-'overview' => 'Vue d\'ensemble',
+'overview' => ': vue d\'ensemble',
 
 'comments' => 'Commentaires',
 
@@ -36,7 +36,7 @@ $lang = array(
 
 'channels_desc' => 'Les canaux sont utilisés pour stocker le contenu de votre site web. Par exemple, si vous voulez un journal, vous devrez d\'abord créer un canal afin de stocker les articles. Voyez-les comme des dossiers ou des répertoires.',
 
-'has' => 'a',
+'has' => 'a ',
 
 'field_groups' => 'Groupes de champs',
 
@@ -44,19 +44,19 @@ $lang = array(
 
 'register_new' => 'Nouveau membre',
 
-'members_desc' => 'Les membres sont des utilisateurs enregistrés de votre site. Vous <em>devez</em> avoir au moins un membre, un administrateur.',
+'members_desc' => 'Les membres sont des utilisateurs enregistrés de votre site. Vous <em>devez</em> avoir au moins un membre : un administrateur.',
 
 'new_members_permission_desc' => 'Vous pouvez <a href="%s">modifier le paramètre</a> pour autoriser ou interdire l\'inscription de nouveaux membres.',
 
-'banned_members' => 'Membres Exclus',
+'banned_members' => 'Membres exclus',
 
 'content' => 'Contenu',
 
 'content_desc' => 'Articles de canal, raison pour laquelle vous avez des visiteurs.',
 
-'entries_with_comments' => '<b>%d</b> articles avec %d commentaires.',
+'entries_with_comments' => '<b>%d</b> articles avec %d commentaires',
 
-'closed_entries_with_comments' => '<b>%d</b> articles fermés avec %d commentaires.',
+'closed_entries_with_comments' => '<b>%d</b> articles fermés avec %d commentaires',
 
 ''=>''
 );

@@ -377,6 +377,9 @@ $lang = array(
 "fast_reply" =>
 "Réponse rapide",
 
+'no_topics' =>
+'Il n\'y a aucun sujet dans ce forum pour le moment',
+
 "title" =>
 "Titre",
 
