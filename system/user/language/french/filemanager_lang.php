@@ -24,6 +24,8 @@ $lang = array(
 
 'upload_new_file' => 'Télécharger un nouveau fichier',
 
+'search_files' => 'Rechercher des fichiers',
+
 'filter_upload_directories' => 'filtrer les répertoires de téléchargement',
 
 'title_or_name' => 'Titre/Nom',

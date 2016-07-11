@@ -97,7 +97,7 @@ $lang = array(
 
 'layout_options' => 'Options de disposition',
 
-'member_groups' => 'Groupe(s) de membres ?',
+'layout_member_groups' => 'Groupe(s) de membres ?',
 
 'member_groups_desc' => 'Choisissez le(s) groupe(s) de membres à qui appliquer cette disposition.',
 
