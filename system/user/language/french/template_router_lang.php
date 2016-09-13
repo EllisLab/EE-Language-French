@@ -11,8 +11,11 @@ $lang = array(
 	'validation_failed' => 'La validation a échoué.',
 	'variable_in_use' => 'Variable segment déjà utilisée : ',
 	'template_routes_header' => 'Routes de modèle',
+	'template_routes_header_desc' => 'Les routes sont listées dans l\'ordre que le routeur de modèle utilisera pour matcher vos modèles.',	
 	'route' => 'Route',
-	'segments_required' => 'Exiger toutes les variables ?',
+	'group' => 'Groupe',
+	'segments_required' => 'Segments obligatoires ?',
+	'new_route' => 'Nouvelle route',
 );
 
 // EOF

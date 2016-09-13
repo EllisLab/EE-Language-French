@@ -10,6 +10,7 @@ $lang = array(
 // Develop Menu
 //----------------------------
 
+'nav_developer'	=>	'Développeur',
 'nav_developer_tools'  => 'Outils Développeur',
 'channel_manager'  => 'Gestionnaire de Canaux',
 'template_manager' => 'Gestionnaire de Modèles',
@@ -171,6 +172,8 @@ $lang = array(
 
 'reveal_sidebar' =>
 'Afficher la barre latérale',
+
+'retry' => 'Réessayer ?',
 
 //----------------------------
 // Buttons
@@ -453,6 +456,7 @@ $lang = array(
 'alphadash_desc' => '<i>Aucun espace. Les soulignés (underscore) et les tirets sont autorisés.</i>',
 'btn_fix_errors' => 'Erreurs trouvées',
 'btn_save' => 'Enregistrer %s',
+'btn_save_and_close' => 'Enregistrer &amp; Fermer',
 'btn_saving' => 'Enregistrement...',
 'no_found' => 'Aucun <b>%s</b> trouvé',
 'filters' => 'filtres',
@@ -503,6 +507,8 @@ $lang = array(
 'rev_date' => 'Date',
 'rev_author' => 'Auteur',
 'current' => 'Actuel',
+'auto_br' => 'Saut de ligne auto',
+'xhtml' => 'XHTML',
 
 /**
  * Footer

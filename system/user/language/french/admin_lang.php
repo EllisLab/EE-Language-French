@@ -876,12 +876,6 @@ $lang = array(
 'url_explanation' =>
 'Il s\'agit du répertoire contenant le fichier Index de votre site.',
 
-'doc_url' =>
-'URL du répertoire Documentation',
-
-'doc_url_explanation' =>
-'Répertoire racine uniquement, avec slash de fin',
-
 'site_index' =>
 'Nom de la page Index de votre site',
 
@@ -1545,8 +1539,12 @@ $lang = array(
 'illegal_characters' =>
 'Le nom proposé ne doit contenir que des caractères alphanumérique, le souligné ou le tiret.',
 
+'deprecation_notice' => 'Info d\'obsolescence',
+
 'developer_logs' =>
-'Vous avez %d entrée(s) non parcourue(s) dans le <a href="%s">Journal Développeur</a>.',
+'Vous avez %d entrées non parcourues dans le <a href="%s">Journal Développeur</a>.',
+
+'developer_one_log' => 'Vous avez %d entrée non parcourue dans le <a href="%s">Journal Développeur</a>.',
 
 ''=>''
 );

@@ -673,8 +673,6 @@ Merci de <a href="%s">contacter votre Administrateur Système</a> si vous pensez
 
 'upload_avatar' => 'Télécharger — .gif, .jpg, .png (max 50kb)',
 
-'link_avatar' => ' Lien vers avatar',
-
 'rte_settings' => 'Paramètres RTE',
 
 'rte_enabled' => 'Activer l\'éditeur de texte enrichi ?',

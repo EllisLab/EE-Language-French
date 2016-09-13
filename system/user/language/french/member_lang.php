@@ -38,8 +38,10 @@ $lang = array(
 "your_current_un_pw" =>
 "Votre identifiant et votre mot de passe actuel",
 
+'new_requirements' => 'Nouvelles conditions d\'accès',
+
 "access_notice" =>
-"Note importante : L'administrateur a changé les conditions d'accès à ce site comme ci-dessous :",
+"L'administrateur a changé les conditions d'accès à ce site.",
 
 "choose_new_un" =>
 "Choisissez un nouvel identifiant",

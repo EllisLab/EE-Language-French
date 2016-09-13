@@ -548,9 +548,6 @@ $lang = array(
 "closed" =>
 "Fermé",
 
-"none" =>
-"Aucun",
-
 'html_button' => 'Bouton HTML',
 
 'html_buttons' => 'Boutons <abbr title="Hyper-Text Markup Language">HTML</abbr>',
@@ -924,12 +921,6 @@ $lang = array(
 
 "select_list" =>
 "Liste déroulante",
-
-"auto_br" =>
-"Auto &lt;br /&gt;",
-
-"xhtml" =>
-"XHTML",
 
 "no_field_name" =>
 "Vous devez saisir un nom de champ",

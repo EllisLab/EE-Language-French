@@ -78,9 +78,6 @@ $lang = array(
 'page_settings' =>
 "Paramètres de page",
 
-'none' =>
-"Aucune",
-
 'template' =>
 "Modèle",
 

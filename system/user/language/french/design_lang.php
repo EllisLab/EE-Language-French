@@ -362,9 +362,6 @@ $lang = array(
 "strict_urls_exp" =>
 "Cette fonctionnalité applique les règles strictes pour vos URLs et interfère avec la gestion des pages 404 ci-dessous. Veuillez vous reporter au guide utilisateur pour plus d'information.",
 
-"none" =>
-"Aucun",
-
 "save_tmpl_revisions" =>
 "Sauvegarder les versions des modèles ?",
 

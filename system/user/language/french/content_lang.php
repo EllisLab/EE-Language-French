@@ -27,6 +27,12 @@ $lang = array(
 
 'btn_search_entries' => 'Rechercher des articles',
 
+'entry_limit_reached' => 'Limite de ce canal atteinte',
+
+'entry_limit_reached_desc' => 'Ce canal est limité à %d articles.',
+
+'entry_limit_reached_one_desc' => 'Ce canal est limité à un seul article.',
+
 'by' => 'par',
 'in' => 'dans',
 
@@ -176,6 +182,10 @@ $lang = array(
 
 'edit_categories' =>
 'Modifier les catégories',
+
+'no_categories_assigned' => 'Aucune catégorie affectée',
+
+'no_categories_assigned_desc' => 'Aucune catégorie n\'est affectée à ce canal. <a href="%s">Affecter un groupe de catégories.</a>',
 
 'revisions' =>
 'Versions',
@@ -612,15 +622,6 @@ $lang = array(
 
 'newline_format' =>
 'Formatage :',
-
-'none' =>
-'Aucun',
-
-'xhtml' =>
-'XHTML',
-
-'auto_br' =>
-'Auto &lt;br /&gt;',
 
 'link' =>
 'Lien',

@@ -30,6 +30,8 @@ $lang = array(
 
 'word_censoring' => 'Censure de mots',
 
+'menu_manager' => 'Gestionnaire de menu',
+
 'members' => 'Membres',
 
 'messages' => 'Messages',
@@ -144,6 +146,14 @@ $lang = array(
 
 'url_path_settings_title' => 'Paramètres <abbr title="Uniform Resource Location">URL</abbr> et chemin serveur',
 
+'base_url' => 'URL de base par défaut',
+
+'base_url_desc' => 'Utilisez <code>{base_url}</code> pour construire des URLs dans les champs "URL" du panneau de contrôle.',
+
+'base_path' => 'Chemin de base par défaut',
+
+'base_path_desc' => 'Utilisez <code>{base_path}</code> pour construire des chemins serveur dans les champs "chemin" du panneau de contrôle.',
+
 'site_index' => 'Page d\'index du site web',
 
 'site_index_desc' => 'Plus communément <mark>index.php</mark>.',
@@ -251,6 +261,10 @@ $lang = array(
 'show_profiler' => 'Activer le débogage ?',
 
 'show_profiler_desc' => 'S\'il est sur <b>Activer</b>, les Super Administrateurs verront les résultats des tests de performances, toutes les requêtes SQL, ainsi que les données des formulaires s\'afficher au bas de la fenêtre du navigateur.',
+
+'enable_devlog_alerts' => 'Activer les alertes du Journal Développeur ?',
+
+'enable_devlog_alerts_desc' => 'S\'il est sur <b>Activer</b>, les Super Administrateurs verront des alertes dans le panneau de contrôle quand de nouveaux éléments du <a href="%s">Journal Développeur</a> exigeront une action. Actuellement <b>%s élément(s)</b> est/sont journalisé(s).',
 
 'output_options' => 'Options de sortie',
 
@@ -512,6 +526,45 @@ $lang = array(
 'mbr_notification_emails' => 'Destinataires des notifications',
 
 'mbr_notification_emails_desc' => 'Séparer les emails multiples avec une virgule.',
+
+ /**
++ * Menu Manager
++ */
+
+'menu_sets' => 'Jeux de menu',
+'menu_set' => 'Jeu de menu',
+'edit_menu_set' => 'Modifier le jeu de menu',
+'create_menu_set' => 'Créer un jeu de menu',
+'menu_set_updated' => 'Jeu de menu mis à jour',
+'menu_set_created' => 'Jeu de menu créé',
+'menu_set_created_desc' => 'Le jeu de menu <b>%s</b> a été créé.',
+'menu_set_updated_desc' => 'Le jeu de menu <b>%s</b> a été mis à jour.',
+'menu_sets_removed' => 'Jeux de menu supprimés',
+'menu_sets_removed_desc' => '%d jeux de menu ont été supprimés.',
+'no_menu_items' => 'Aucun <b>élément de menu</b> trouvé.',
+'create_menu_item' => 'Créer un élément de menu',
+'set_name' => 'Nom',
+'set_assigned' => 'Affecté',
+'assigned_to' => 'affecté à',
+'set_member_groups' => 'Groupe(s) de membres ?',
+'set_member_groups_desc' => 'Choisir les groupes de membres auxquels appliquer ce menu.',
+'menu_options' => 'Options de menu',
+'menu_items' => 'Eléments de menu',
+'menu_items_desc' => 'Gérer le contenu de ce jeu de menu', /** Manage this menu sets contents ?? **/
+'menu_type' => 'Type',
+'menu_single' => 'Lien simple',
+'menu_dropdown' => 'Menu déroulant',
+'submenu' => 'Sous-menu',
+'submenu_desc' => 'Liens dans menu déroulant',
+'menu_label' => 'Nom',
+'menu_label_desc' => 'Etiquette de lien',
+'menu_url' => '<abbr title="Uniform Resource Locator">URL</abbr>',
+'menu_url_desc' => 'Lien <abbr title="Uniform Resource Locator">URL</abbr>',
+'menu_addon' => 'Add-On',
+'menu_addon_desc' => 'Navigation dans les Add-Ons installés',
+'menu_no_addons' => 'Aucun <b>Add-On avec menus</b> trouvé.',
+'edit_menu_item' => 'Modifier élément de menu',
+'add_menu_item' => 'Ajouter élément de menu',
 
 /**
  * Messages

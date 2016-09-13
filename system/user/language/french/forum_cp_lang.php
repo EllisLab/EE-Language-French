@@ -175,10 +175,6 @@ $lang = array(
 'text_formatting' => 'Formatage du texte',
 'text_formatting_desc' => 'Type de format du texte des commentaires.',
 
-'none' => 'Aucun',
-'auto_br' => 'Auto &lt;br&gt;',
-'xhtml' => 'XHTML',
-
 'html_formatting' => 'Format <abbr title="Hyper-Text Markup Language">HTML</abbr>',
 
 'html_all' => 'Autoriser tout le HTML',

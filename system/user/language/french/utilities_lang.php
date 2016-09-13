@@ -81,8 +81,6 @@ $lang = array(
 'btn_send_email_working' => 'Envoi en cours...',
 
 'none'		=> 'Texte brut',
-'auto_br'	=> 'Auto &lt;br /&gt;',
-'xhtml'		=> 'XHTML',
 
 'no_cached_emails' => 'Aucun <b>email envoyé</b> trouvé.',
 
@@ -110,7 +108,7 @@ $lang = array(
 'cannot_create_zip'		=>	'impossible de créer un fichier .zip',
 'no_files_selected'		=>	'Aucun fichier sélectionné pour l\'exportation',
 'invalid_path' 			=> 'Le chemin d\'accès que vous avez soumis n\'est pas valide :',
-'file_saved'			=> 'Le fichier de traduction a été enregistré sous <b>system/ee/legacy/translations/%s</b>',
+'file_saved'			=> 'Le fichier de traduction a été enregistré sous <b>%s</b>',
 'trans_file_not_writable'=> 'Le fichier de traduction n\'est pas inscriptible.',
 'translate_btn' 		=>	'Enregistrer les traductions',
 'translations_saved'	=>	'Traductions enregistrées',
