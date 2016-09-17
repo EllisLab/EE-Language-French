@@ -12,10 +12,10 @@ $lang = array(
 
 'nav_developer'	=>	'Développeur',
 'nav_developer_tools'  => 'Outils Développeur',
-'channel_manager'  => 'Gestionnaire de Canaux',
-'template_manager' => 'Gestionnaire de Modèles',
-'msm_manager'      => 'Gestionnaire de Sites',
-'addon_manager'    => 'Gestionnaire d\'Add-Ons',
+'channel_manager'  => 'Gestion des Canaux',
+'template_manager' => 'Gestion des Modèles',
+'msm_manager'      => 'Gestion des Sites',
+'addon_manager'    => 'Gestion des Add-Ons',
 'utilities'        => 'Utilitaires',
 'logs'             => 'Journaux',
 
@@ -506,7 +506,7 @@ $lang = array(
 'rev_id' => '#',
 'rev_date' => 'Date',
 'rev_author' => 'Auteur',
-'current' => 'Actuel',
+'current' => 'A jour',
 'auto_br' => 'Saut de ligne auto',
 'xhtml' => 'XHTML',
 

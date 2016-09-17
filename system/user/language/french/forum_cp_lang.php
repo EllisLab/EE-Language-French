@@ -10,7 +10,7 @@ $lang = array(
 "forum_module_name" => "Forum de discussion",
 
 'forum_listing' => 'Listing du forum',
-"forum_manager" => "Gestionnaire du forum",
+"forum_manager" => "Gestion des Forums",
 
 'new_category' => 'Nouvelle catégorie',
 

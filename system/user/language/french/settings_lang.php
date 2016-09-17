@@ -30,7 +30,7 @@ $lang = array(
 
 'word_censoring' => 'Censure de mots',
 
-'menu_manager' => 'Gestionnaire de menu',
+'menu_manager' => 'Gestion des Menus',
 
 'members' => 'Membres',
 
@@ -330,7 +330,7 @@ $lang = array(
 
 'auto_assign_cat_parents_desc' => 'Si positionné à <b>Oui</b>, ExpressionEngine assignera automatiquement la catégorie parente lors de la sélection d\'une catégorie enfant.',
 
-'channel_manager' => 'Gestionnaire de Canaux',
+'channel_manager' => 'Gestion des Canaux',
 
 'image_resizing' => 'Redimensionnement d\'image',
 
@@ -395,7 +395,7 @@ $lang = array(
  * Template Settings
  */
 
-'template_manager' => 'Gestionnaire de Modèles',
+'template_manager' => 'Gestion des Modèles',
 
 'strict_urls' => 'Activer les <abbr title="Uniform Resource Location">URL</abbr> strictes ?',
 

@@ -216,7 +216,7 @@ $lang = array(
 'Aucun terme de recherche n\'a été enregistré',
 
 "extensions_manager" =>
-"Gestionnaire d'extensions",
+"Gestion des Extensions",
 
 'throttling_cfg' =>
 'Préférences de filtrage',
@@ -1147,7 +1147,7 @@ $lang = array(
 'Préférences du téléchargement de fichier',
 
 'categories' =>
-'Gestion des catégories',
+'Gestion des Catégories',
 
 'missing_required_fields' =>
 'Les champs suivants sont requis :',
@@ -1297,7 +1297,7 @@ $lang = array(
 'Votre installation de PHP ne supporte pas cette méthode de compression',
 
 'backup_info' =>
-'Utilisez ce formulaire pour sauvegarder votre base de données.',
+'Utilisez ce formulaire pour enregistrer votre base de données.',
 
 'save_as_file' =>
 'Enregistrer la sauvegarde sur le bureau',
@@ -1459,7 +1459,7 @@ $lang = array(
 'Modèles spécialisés',
 
 'plugin_manager' =>
-'Gestionnaire de plugins',
+'Gestion des Plugins',
 
 'installed_plugins' =>
 'Plugins installés',

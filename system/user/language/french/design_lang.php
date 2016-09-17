@@ -6,7 +6,7 @@ $lang = array(
 
 // 3.0
 
-'template_manager' => 'Gestionnaire de Modèles',
+'template_manager' => 'Gestion des Modèles',
 
 'sync_all_templates' => 'Synchroniser tous les modèles',
 
@@ -88,7 +88,7 @@ $lang = array(
 
 'all_sites' => 'Tous les sites',
 
-'template_partial' => 'Partiel de modèles',
+'template_partial' => 'Partiel de modèle',
 
 'export_partials' => 'Exporter les partiels',
 
@@ -110,19 +110,19 @@ $lang = array(
 
 'enable_partial_on_all_sites_desc' => 'S\'il est sur <b>Activer</b>, ce partiel sera disponible pour être utilisé dans tous les sites.',
 
-'create_template_partial_success' => 'Partiel de modèles créé',
+'create_template_partial_success' => 'Partiel de modèle créé',
 
-'create_template_partial_success_desc' => 'Le partiel de modèles <b>%s</b> a été créé.',
+'create_template_partial_success_desc' => 'Le partiel de modèle <b>%s</b> a été créé.',
 
-'create_template_partial_error' => 'Impossible de créer le partiel de modèles',
+'create_template_partial_error' => 'Impossible de créer le partiel de modèle',
 
 'create_template_partial_error_desc' => 'Nous n\'avons pas pu créer ce partiel, merci de vérifier et corriger les erreurs ci-dessous.',
 
-'edit_template_partial_success' => 'Partiel de modèles mis à jour',
+'edit_template_partial_success' => 'Partiel de modèle mis à jour',
 
-'edit_template_partial_success_desc' => 'Le partiel de modèles <b>%s</b> a été mis à jour.',
+'edit_template_partial_success_desc' => 'Le partiel de modèle <b>%s</b> a été mis à jour.',
 
-'edit_template_partial_error' => 'Impossible de mettre à jour le partiel de modèles',
+'edit_template_partial_error' => 'Impossible de mettre à jour le partiel de modèle',
 
 'edit_template_partial_error_desc' => 'Nous n\'avons pas pu mettre à jour ce partiel, merci de vérifier et corriger les erreurs ci-dessous.',
 
@@ -132,45 +132,45 @@ $lang = array(
 
 'template_name_taken' => 'Le nom de modèle que vous avez soumis est déjà pris',
 
-'snippet_name_taken' => 'Le nom du partiel de modèles que vous avez soumis est déjà pris',
+'snippet_name_taken' => 'Le nom du partiel de modèle que vous avez soumis est déjà pris',
 
 'snippets_removed_desc' => 'Les partiels de modèle suivants ont été supprimés :',
 
 'template_variables_header' => 'Variables de modèle<br><i>Remplacements de contenu statique réutilisables.</i>',
 
-'template_variable' => 'Variable de modèles',
+'template_variable' => 'Variable de modèle',
 
 'variable' => 'Variable',
 
-'no_template_routes' => 'Aucune <b>route de modèles</b> trouvée.',
+'no_template_routes' => 'Aucune <b>route de modèle</b> trouvée.',
 
-'no_template_variables' => 'Aucune <b>variable de modèles</b> trouvée.',
+'no_template_variables' => 'Aucune <b>variable de modèle</b> trouvée.',
 
-'no_snippets' => 'Aucun <b>partiel de modèles</b> trouvé.',
+'no_snippets' => 'Aucun <b>partiel de modèle</b> trouvé.',
 
-'btn_create_template_variable' => 'Créer une variable de modèles',
+'btn_create_template_variable' => 'Créer une variable de modèle',
 
-'btn_edit_template_variable' => 'Modifier une variable de modèles',
+'btn_edit_template_variable' => 'Modifier une variable de modèle',
 
-'create_template_variable_success' => 'Variable de modèles créée',
+'create_template_variable_success' => 'Variable de modèle créée',
 
-'create_template_variable_success_desc' => 'La variable de modèles <b>%s</b> a été créée.',
+'create_template_variable_success_desc' => 'La variable de modèle <b>%s</b> a été créée.',
 
-'create_template_variable_error' => 'Impossible de créer la variable de modèles',
+'create_template_variable_error' => 'Impossible de créer la variable de modèle',
 
 'create_template_variable_error_desc' => 'Nous n\'avons pas pu créer cette variable, merci de vérifier et corriger les erreurs ci-dessous.',
 
-'edit_template_variable_success' => 'Variable de modèles mise à jour',
+'edit_template_variable_success' => 'Variable de modèle mise à jour',
 
-'edit_template_variable_success_desc' => 'La variable de modèles <b>%s</b> a été mise à jour.',
+'edit_template_variable_success_desc' => 'La variable de modèle <b>%s</b> a été mise à jour.',
 
-'edit_template_variable_error' => 'Impossible de mettre à jour la variable de modèles',
+'edit_template_variable_error' => 'Impossible de mettre à jour la variable de modèle',
 
-'edit_template_variable_error_desc' => 'Nous n\'avons pas pu mettre à jour la variable de modèles, merci de vérifier et corriger les erreurs ci-dessous.',
+'edit_template_variable_error_desc' => 'Nous n\'avons pas pu mettre à jour la variable de modèle, merci de vérifier et corriger les erreurs ci-dessous.',
 
-'create_template_variable' => 'Créer une variable de modèles',
+'create_template_variable' => 'Créer une variable de modèle',
 
-'edit_template_variable' => 'Modifier une variable de modèles',
+'edit_template_variable' => 'Modifier une variable de modèle',
 
 'variable_name' => 'Nom',
 
@@ -250,7 +250,7 @@ $lang = array(
 
 'enable_http_authentication_desc' => 'S\'il est sur <b>Activer</b>, les utilisateurs ayant les autorisations suffisantes devront se connecter pour voir ce modèle.',
 
-'template_route_override' => 'Contournement de route de modèles',
+'template_route_override' => 'Contournement de route de modèle',
 
 'template_route_override_desc' => 'Passe outre la gestion standard ExpressionEngine des routes de <mark>groupe/modèle</mark>.',
 
@@ -324,7 +324,7 @@ $lang = array(
 
 // System Templates -> Forums
 
-'forum_manager' => 'Gestionnaire de Forum',
+'forum_manager' => 'Gestion des Forums',
 
 'forum_templates' => 'Modèles de Forum',
 
@@ -363,7 +363,7 @@ $lang = array(
 "Cette fonctionnalité applique les règles strictes pour vos URLs et interfère avec la gestion des pages 404 ci-dessous. Veuillez vous reporter au guide utilisateur pour plus d'information.",
 
 "save_tmpl_revisions" =>
-"Sauvegarder les versions des modèles ?",
+"Enregistrer les versions des modèles ?",
 
 "sync_templates" =>
 "Synchroniser les modèles",
@@ -441,7 +441,7 @@ $lang = array(
 "Préférences globales des modèles",
 
 "template_not_saved" =>
-"Impossible de sauvegarder votre modèle comme fichier texte",
+"Impossible d'enregistrer votre modèle comme fichier texte",
 
 "template_file_not_deleted" =>
 "Impossible de supprimer le fichier texte associé",
@@ -569,7 +569,7 @@ $lang = array(
 "Depuis le fichier",
 
 'save_to_sync' =>
-"Sauvegarder le modèle pour synchroniser la base de données.",
+"Enregistrer le modèle pour synchroniser la base de données.",
 
 'from_db' =>
 "Depuis la base de données",
@@ -584,7 +584,7 @@ $lang = array(
 "Fichier modifié :",
 
 "template_management" =>
-"Gestion des modèles",
+"Gestion des Modèles",
 
 "current_template" =>
 "Modèle courant :",
@@ -853,18 +853,18 @@ $lang = array(
 'alphabetize_group_order' =>
 "Trier les groupes par ordre alphabétique",
 
-'template_route' => 'Route de modèles :',
+'template_route' => 'Route de modèle :',
 
 'template_route_subtext' => 'Si une route est fournie ici, elle passera outre la structure URL groupe/modèle par défaut.',
 
-'enable_template_routes' => 'Activer les routes de modèles',
+'enable_template_routes' => 'Activer les routes de modèle',
 
 'enable_template_routes_exp' => 'La désactivation des routes de modèle supprimera les options de route du panneau de contrôle
 et les modèles seront uniquement accessibles à partir de l\'URL groupe/modèle par défaut.',
 
 'route_required' => 'Exiger tous les segments :',
 
-'route_required_subtext' => 'Si les segments de route sont obligatoires, tous les segments de la route de modèles doivent être présents dans l\'URI appelée.',
+'route_required_subtext' => 'Si les segments de route sont obligatoires, tous les segments de la route de modèle doivent être présents dans l\'URI appelée.',
 
 'template_routes_saved' => 'Routes de modèle enregistrées',
 
@@ -878,7 +878,7 @@ et les modèles seront uniquement accessibles à partir de l\'URL groupe/modèle
 'Protégé par Autenthification HTTP',
 
 'template_preferences_manager' =>
-"Gestionnaire des préférences de modèle",
+"Gestion des Préférences de Modèle",
 
 'settings_manager' =>
 "Paramètres/Gestionnaire",
@@ -894,7 +894,7 @@ et les modèles seront uniquement accessibles à partir de l\'URL groupe/modèle
 
 'no_templates_found' => 'Aucun <b>modèle</b> trouvé.',
 
-'url_manager' => 'Gestionnaire de routes de modèle',
+'url_manager' => 'Gestion des routes de modèle',
 
 'template_route_notice' => 'Les routes sont listées dans l\'ordre dans lequel le routeur de modèle appariera vos modèles.
 vous pouvez glisser-déposer pour modifier cet ordre.',

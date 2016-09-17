@@ -221,7 +221,7 @@ https://support.ellislab.com/",
 "Veuillez vérifier que le module '%x' est installé et que '%y' est une méthode disponible pour ce module",
 
 "template_loop" =>
-"Vous avez causé une boucle de modèle due à un sous-modèle mal imbriqué ('%s' est appelé de façon récursive)",
+"Vous avez provoqué une boucle de modèle due à un sous-modèle mal imbriqué ('%s' est appelé de façon récursive)",
 
 'template_load_order' =>
 'Ordre de chargement des modèles',

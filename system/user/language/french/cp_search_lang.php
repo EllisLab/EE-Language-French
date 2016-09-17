@@ -32,7 +32,7 @@ $lang = array(
 "Champs personnalisés de profil",
 
 'member_group_manager' =>
-"Gestionnaire de groupes de membres",
+"Gestion des Groupes de Membres",
 
 'member_config' =>
 "Configuration des membres",
@@ -61,16 +61,16 @@ $lang = array(
 
 // Content_files
 'file_index' =>
-'Gestionnaire de fichiers',
+'Gestion des Fichiers',
 
 'cont_field_group_management' =>
-'Gestion des groupes de champ',
+'Gestion des Groupes de Champs',
 
 'members_member_group_manager' =>
-'Gestion des groupes de membres',
+'Gestion des Groupes de Membres',
 
 'cont_category_management' =>
-'Gestion des catégories',
+'Gestion des Catégories',
 
 'members_custom_profile_fields' =>
 'Champs personnalisés des profils de membre',

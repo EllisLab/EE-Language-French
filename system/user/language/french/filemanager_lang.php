@@ -8,7 +8,7 @@ $lang = array(
 'files' => 'fichier', // initially Fichiers
 'pixels' => 'pixels',
 
-'file_manager' => 'Gestionnaire de fichiers',
+'file_manager' => 'Gestion des Fichiers',
 
 'upload_directory' => 'Répertoire de téléchargement',
 
@@ -436,7 +436,7 @@ $lang = array(
 
 // 2.x
 
-'content_files' 		=> 'Gestionnaire de fichiers',
+'content_files' 		=> 'Gestion des Fichiers',
 
 'upload_dir_choose'		=> 'Choisir un répertoire de destination',
 'file_upload_prefs' 	=> 'Préférences de téléchargement',
@@ -511,7 +511,7 @@ $lang = array(
 'processing_image'		=> 'Traitement de l\'image',
 'done'					=> 'Sortir',
 'edit_image'			=> 'Modifier l\'image',
-'save_image'			=> 'Sauvegarder l\'image',
+'save_image'			=> 'Enregistrer l\'image',
 'image_edit_success'	=> 'Image modifiée avec succès',
 'no_edit_selected'		=> 'Aucune opération d\'édition sélectionnée',
 'uploading_file'		=> 'Fichier en cours d\'envoi',
@@ -620,7 +620,7 @@ $lang = array(
 'errors'					=> 'Erreurs rencontrées',
 'no_errors'					=> 'Aucune erreur',
 'synchronize_directory'		=> 'Synchroniser le répertoire',
-'directory_manager'			=> 'Gestionnaire de répertoires de destination',
+'directory_manager'			=> 'Gestion des répertoires de destination',
 
 'category_groups'			=> 'Groupes de catégories de fichier',
 'category_group'			=> 'Groupes de catégories',

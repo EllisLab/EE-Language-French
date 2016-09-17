@@ -8,7 +8,7 @@ $lang = array(
 'manage_extensions'				=>		'Gérer les extensions',
 'manage_addon_extensions'		=>		'Gérer les extensions Add-Ons',
 
-'addon_manager'					=>		'Gestionnaire d\'Add-Ons',
+'addon_manager'					=>		'Gestion des Add-Ons',
 'search_addons_button'			=>		'rechercher des add-ons',
 
 'addon'							=>		'Add-On',

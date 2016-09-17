@@ -32,7 +32,7 @@ $lang = array(
 
 'data_operations' => 'Opérations sur les données',
 
-'cache_manager' => 'Gestionnaire de cache',
+'cache_manager' => 'Gestion des Caches',
 
 'statistics' => 'Statistiques',
 

@@ -6,7 +6,7 @@ $lang = array(
 
 'edit_channel_entries' => 'Modifier les articles de canal',
 
-'all_channel_entries' => 'Tous les %s articles',
+'all_channel_entries' => 'Tous les articles dans <b>%s</b>',
 
 'filter_by_channel' => 'canal',
 'filter_by_category' => 'catégorie',
@@ -23,7 +23,7 @@ $lang = array(
 
 'manage_categories' => 'Gérer les catégories',
 
-'entry_manager' => 'Gestionnaire d\'articles',
+'entry_manager' => 'Gestion des Articles',
 
 'btn_search_entries' => 'Rechercher des articles',
 
@@ -217,7 +217,7 @@ $lang = array(
 'Il n\'y a actuellement aucune version pour cet article.',
 
 'save_revision' =>
-'Sauvegarder la version',
+'Enregistrer la version',
 
 'revision_saved' =>
 'Version enregistrée',
@@ -808,7 +808,7 @@ $lang = array(
 'Choisissez un répertoire de destination',
 
 'file_manager' =>
-'Gestionnaire de fichiers',
+'Gestion des Fichiers',
 
 'file_type' =>
 'Type de fichier',

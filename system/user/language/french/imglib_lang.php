@@ -17,7 +17,7 @@ $lang['imglib_writing_failed_gif'] = "Image GIF.";
 $lang['imglib_invalid_path'] = "Le chemin vers l'image n'est pas correct.";
 $lang['imglib_copy_failed'] = "La routine de copie d'image a échoué.";
 $lang['imglib_missing_font'] = "Impossible de trouver une police de caractère à utiliser.";
-$lang['imglib_save_failed'] = "Impossible de sauvegarder l'image. Merci de vous assurer que l'image et son répertoire son inscriptibles.";
+$lang['imglib_save_failed'] = "Impossible d'enregistrer l'image. Merci de vous assurer que l'image et son répertoire son inscriptibles.";
 
 
 // EOF
