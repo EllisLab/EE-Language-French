@@ -220,7 +220,7 @@ $lang = array(
 
 'enable_caching_desc' => 'S\'il est sur <b>Activer</b>, ExpressionEngine mettra en cache ce modèle.',
 
-'refresh_interval' => 'Interval de rafraîchissement',
+'refresh_interval' => 'Intervalle de rafraîchissement',
 
 'refresh_interval_desc' => 'Temps (en minutes) entre deux mises à jour des caches.',
 
@@ -318,7 +318,7 @@ $lang = array(
 
 // System Templates -> Members
 
-'file_not_writable' => '<b>Attention</b> : ces fichier n\'est pas inscriptible',
+'file_not_writable' => '<b>Attention</b> : ce fichier n\'est pas inscriptible',
 
 'file_writing_instructions' => 'Vous ne pourrez pas enregistrer les modifications de ce modèle tant que vous ne donnerez pas les droits d\'écriture pour ce serveur.',
 

@@ -213,7 +213,7 @@ $lang = array(
 
 'import_convert_btn' => 'Convertir le fichier',
 
-'import_convert_btn_saving' => 'Convertion...',
+'import_convert_btn_saving' => 'Conversion...',
 
 'assign_fields' => 'Affecter les champs',
 

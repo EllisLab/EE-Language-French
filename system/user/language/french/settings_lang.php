@@ -30,7 +30,7 @@ $lang = array(
 
 'word_censoring' => 'Censure de mots',
 
-'menu_manager' => 'Gestion des Menus',
+'menu_manager' => 'Gestion des menus',
 
 'members' => 'Membres',
 
@@ -493,9 +493,9 @@ $lang = array(
 
 'default_member_group' => 'Groupe de membres par défaut',
 
-'member_theme' => 'Thème de profil de membres',
+'member_theme' => 'Thème de profil de membre',
 
-'member_theme_desc' => 'Thème utilisé par défaut pour les profils de membres.',
+'member_theme_desc' => 'Thème utilisé par défaut pour les profils de membre.',
 
 'member_listing_settings' => 'Préférences de la liste de membres',
 
@@ -766,7 +766,7 @@ $lang = array(
 
 'enable_rank_denial' => 'Activer le refus de rang aux liens soumis ?',
 
-'enable_rank_denial_desc' => 'S\'il est sur <b>Activer</b>, tous les liens sortants sont envoyés vers une page de redirection. Cela évite que les spammeurs ne <a href="%s" rel="external">gagne un meilleur classement de page</a>.',
+'enable_rank_denial_desc' => 'S\'il est sur <b>Activer</b>, tous les liens sortants sont envoyés vers une page de redirection. Cela évite que les spammeurs ne <a href="%s" rel="external">gagnent un meilleur classement de page</a>.',
 
 /**
  * Access Throttling
