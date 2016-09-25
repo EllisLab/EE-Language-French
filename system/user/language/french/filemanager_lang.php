@@ -8,7 +8,7 @@ $lang = array(
 'files' => 'fichier', // initially Fichiers
 'pixels' => 'pixels',
 
-'file_manager' => 'Gestionnaire de fichiers',
+'file_manager' => 'Gestion des Fichiers',
 
 'upload_directory' => 'Répertoire de téléchargement',
 
@@ -38,6 +38,10 @@ $lang = array(
 
 'edit_file_metadata' => 'Modifier les métadonnées de "%s"',
 
+'file_data' => 'Données de fichier',
+
+'categories' => 'Catégories',
+
 'title' => 'Titre',
 
 'description' => 'Description',
@@ -46,7 +50,7 @@ $lang = array(
 
 'location' => 'Emplacement',
 
-'btn_edit_file_meta' => 'Modifier les métadonnées du fichier',
+'btn_edit_file_meta' => 'Enregistrer les métadonnées du fichier',
 
 'edit_file_metadata_success' => 'Métadonnées du fichier mises à jour',
 
@@ -62,7 +66,11 @@ $lang = array(
 
 'no_upload_destination' => 'Aucune destination de téléchargement trouvée',
 
+// sidebar
 'zero_directories_found' => 'Aucun <b>répertoire</b> trouvé',
+
+// modal
+'zero_upload_directories_found' => 'Aucun <b>répertoire de téléchargement</b> trouvé.',
 
 'files_in_directory' => 'Fichiers dans <b>%s</b>',
 
@@ -81,6 +89,10 @@ $lang = array(
 'size_mb' => '<abbr title="Megaoctet">mb</abbr>',
 'size_gb' => '<abbr title="Gigaoctet">gb</abbr>',
 'size_tb' => '<abbr title="Teraoctet">tb</abbr>',
+
+'file_categories_desc' => 'Catégoriser ce fichier.',
+
+'no_categories_assigned_file_desc' => 'Aucune catégorie n\'est affectée à ce fichier. <a href="%s">Affecter un groupe de catégories.</a>',
 
 'success' => 'Succès',
 
@@ -275,9 +287,9 @@ $lang = array(
 'upload_member_groups_desc' => 'Les groupes de membres suivants sont autorisés à télécharger dans ce répertoire.</em>
 <em>Les Super Administrateurs y sont <b>toujours</b> autorisés.',
 
-'upload_category_groups' => 'Groupes de catégories autorisés',
+'upload_category_groups' => 'Groupes de catégories',
 
-'upload_category_groups_desc' => 'Les groupes de catégories suivants sont autorisés à télécharger dans ce répertoire.',
+'upload_category_groups_desc' => 'Autoriser les fichiers à être affectés à des catégories appartenant aux groupes suivants.',
 
 'directory_saved' => 'Répertoire de téléchargement enregistré',
 
@@ -424,7 +436,7 @@ $lang = array(
 
 // 2.x
 
-'content_files' 		=> 'Gestionnaire de fichiers',
+'content_files' 		=> 'Gestion des Fichiers',
 
 'upload_dir_choose'		=> 'Choisir un répertoire de destination',
 'file_upload_prefs' 	=> 'Préférences de téléchargement',
@@ -499,7 +511,7 @@ $lang = array(
 'processing_image'		=> 'Traitement de l\'image',
 'done'					=> 'Sortir',
 'edit_image'			=> 'Modifier l\'image',
-'save_image'			=> 'Sauvegarder l\'image',
+'save_image'			=> 'Enregistrer l\'image',
 'image_edit_success'	=> 'Image modifiée avec succès',
 'no_edit_selected'		=> 'Aucune opération d\'édition sélectionnée',
 'uploading_file'		=> 'Fichier en cours d\'envoi',
@@ -608,7 +620,7 @@ $lang = array(
 'errors'					=> 'Erreurs rencontrées',
 'no_errors'					=> 'Aucune erreur',
 'synchronize_directory'		=> 'Synchroniser le répertoire',
-'directory_manager'			=> 'Gestionnaire de répertoires de destination',
+'directory_manager'			=> 'Gestion des répertoires de destination',
 
 'category_groups'			=> 'Groupes de catégories de fichier',
 'category_group'			=> 'Groupes de catégories',

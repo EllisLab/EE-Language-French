@@ -204,9 +204,6 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'no_read_access' =>
 'Impossible de lire le fichier : ',
 
-'none' =>
-'aucun',
-
 'not_enough_fields' =>
 'Vous devez avoir au moins trois champs : username (identifiant), screen_name (pseudo), et email',
 

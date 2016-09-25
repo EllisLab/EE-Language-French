@@ -50,7 +50,7 @@ $lang = array(
 
 //----------------------------------------
 
-'pages_manager' => 'Gestionnaire de Pages',
+'pages_manager' => 'Gestion des Pages',
 
 // 2.x:
 
@@ -77,9 +77,6 @@ $lang = array(
 
 'page_settings' =>
 "Paramètres de page",
-
-'none' =>
-"Aucune",
 
 'template' =>
 "Modèle",

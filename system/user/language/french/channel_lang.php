@@ -30,7 +30,7 @@ $lang = array(
 
 'search_for' => 'Recherche de "%s"',
 
-'channel_manager' => 'Gestionnaire de Canaux',
+'channel_manager' => 'Gestion des Canaux',
 
 'manage_channels' => 'Gérer les canaux',
 
@@ -44,7 +44,7 @@ $lang = array(
 
 'custom_fields' => 'Champs personnalisés',
 
-'custom_fields_for' => 'Champs personnalisés pour %s',
+'custom_fields_for' => 'Champs personnalisés pour <b>%s</b>',
 
 'field_group' => 'Groupe de champs',
 
@@ -163,8 +163,12 @@ $lang = array(
 
 'channel_publishing_options' => 'Options de publication',
 
-'channel_publishing_options_warning' => '<b>Attention</b> : les canaux ont besoin de groupes de champs personnalisés pour collecter toutes données autres que titre et date.',
+'channel_publishing_options_warning' => '<b>Attention</b> : les canaux ont besoin de groupes de champs personnalisés pour collecter toutes les données autres que Titre et Date.',
 'channel_publishing_options_warning2' => 'Si vous avez besoin de collecter d\'autres données pour ce canal, il est fortement conseillé de créer <b>d\'abord</b> vos <a href="%s">groupes de champs personnalisés</a>.',
+
+'channel_max_entries' => 'Nombre maximal d\'articles',
+
+'channel_max_entries_desc' => 'Laissez à blanc pour le rendre infini &infin;.',
 
 'default_status_group' => 'Statuts par défaut',
 
@@ -371,10 +375,6 @@ $lang = array(
 'allow_all_html' => 'Autoriser tout le HTML',
 
 'allow_all_html_not_recommended' => 'Autoriser tout le HTML (déconseillé)',
-
-'auto_br' => 'Auto &lt;br /&gt;',
-
-'xhtml' => 'XHTML',
 
 'open' => 'Ouvert',
 

@@ -58,6 +58,14 @@ $lang = array(
 
 'closed_entries_with_comments' => '<b>%d</b> articles fermés avec %d commentaires',
 
+'rss' => 'RSS',
+
+'eecms_news' => 'Nouvelles d\'ExpressionEngine',
+
+'news_fetch_failure' => 'Oups, nous n\'avons pas pu récupérer les dernières nouvelles.',
+
+'latest_news_and_articles' => 'Dernières nouvelles et articles',
+
 ''=>''
 );
 

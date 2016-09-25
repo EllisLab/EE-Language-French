@@ -10,7 +10,7 @@ $lang = array(
 "forum_module_name" => "Forum de discussion",
 
 'forum_listing' => 'Listing du forum',
-"forum_manager" => "Gestionnaire du forum",
+"forum_manager" => "Gestion des Forums",
 
 'new_category' => 'Nouvelle catégorie',
 
@@ -174,10 +174,6 @@ $lang = array(
 
 'text_formatting' => 'Formatage du texte',
 'text_formatting_desc' => 'Type de format du texte des commentaires.',
-
-'none' => 'Aucun',
-'auto_br' => 'Auto &lt;br&gt;',
-'xhtml' => 'XHTML',
 
 'html_formatting' => 'Format <abbr title="Hyper-Text Markup Language">HTML</abbr>',
 

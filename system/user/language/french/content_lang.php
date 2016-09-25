@@ -6,7 +6,7 @@ $lang = array(
 
 'edit_channel_entries' => 'Modifier les articles de canal',
 
-'all_channel_entries' => 'Tous les %s articles',
+'all_channel_entries' => 'Tous les articles dans <b>%s</b>',
 
 'filter_by_channel' => 'canal',
 'filter_by_category' => 'catégorie',
@@ -23,9 +23,15 @@ $lang = array(
 
 'manage_categories' => 'Gérer les catégories',
 
-'entry_manager' => 'Gestionnaire d\'articles',
+'entry_manager' => 'Gestion des Articles',
 
 'btn_search_entries' => 'Rechercher des articles',
+
+'entry_limit_reached' => 'Limite de ce canal atteinte',
+
+'entry_limit_reached_desc' => 'Ce canal est limité à %d articles.',
+
+'entry_limit_reached_one_desc' => 'Ce canal est limité à un seul article.',
 
 'by' => 'par',
 'in' => 'dans',
@@ -177,6 +183,10 @@ $lang = array(
 'edit_categories' =>
 'Modifier les catégories',
 
+'no_categories_assigned' => 'Aucune catégorie affectée',
+
+'no_categories_assigned_desc' => 'Aucune catégorie n\'est affectée à ce canal. <a href="%s">Affecter un groupe de catégories.</a>',
+
 'revisions' =>
 'Versions',
 
@@ -207,7 +217,7 @@ $lang = array(
 'Il n\'y a actuellement aucune version pour cet article.',
 
 'save_revision' =>
-'Sauvegarder la version',
+'Enregistrer la version',
 
 'revision_saved' =>
 'Version enregistrée',
@@ -613,15 +623,6 @@ $lang = array(
 'newline_format' =>
 'Formatage :',
 
-'none' =>
-'Aucun',
-
-'xhtml' =>
-'XHTML',
-
-'auto_br' =>
-'Auto &lt;br /&gt;',
-
 'link' =>
 'Lien',
 
@@ -807,7 +808,7 @@ $lang = array(
 'Choisissez un répertoire de destination',
 
 'file_manager' =>
-'Gestionnaire de fichiers',
+'Gestion des Fichiers',
 
 'file_type' =>
 'Type de fichier',

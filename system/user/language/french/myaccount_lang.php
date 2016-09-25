@@ -40,7 +40,7 @@ Uniquement utilisée dans le panneau de contrôle.',
 'administration' => 'Administration',
 
 'subscriptions' =>
-'Gestionnaire d\'abonnements',
+'Gestion des Abonnements',
 
 'search_subscriptions' => 'Rechercher des abonnements',
 
@@ -64,7 +64,7 @@ Uniquement utilisée dans le panneau de contrôle.',
 'Message de forum le plus récent',
 
 'main_menu_manager' =>
-'Gestionnaire du menu principal',
+'Gestion du menu principal',
 
 'only_self_main_menu_manager_access' =>
 'Vous n\'êtes pas autorisé à accéder au gestionnaire du menu d\'un autre membre',
@@ -672,8 +672,6 @@ Merci de <a href="%s">contacter votre Administrateur Système</a> si vous pensez
 'update_avatar_path' => '<em>Mettez à jour vos paramètres de téléchargement d\'<a href="%s">avatar</a></em>',
 
 'upload_avatar' => 'Télécharger — .gif, .jpg, .png (max 50kb)',
-
-'link_avatar' => ' Lien vers avatar',
 
 'rte_settings' => 'Paramètres RTE',
 

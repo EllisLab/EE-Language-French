@@ -11,6 +11,7 @@ $lang['profiler_get']                  = '$_GET';
 $lang['profiler_post']                 = '$_POST';
 $lang['profiler_userdata']             = 'Userdata';
 $lang['profiler_no_variables']         = 'Aucune variable <code><b>%s</b></code> trouvée.';
+$lang['profiler_query_time']           = 'Temps de Fonctionnement de la Base de Données';
 $lang['profiler_queries']              = 'Requêtes';
 $lang['profiler_duplicate_queries']    = 'Requêtes en doublon';
 $lang['profiler_no_duplicate_queries'] = 'Aucune requête en doublon.';
