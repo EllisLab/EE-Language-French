@@ -339,6 +339,8 @@ $lang = array(
 
 'member_import_error_desc' => 'Nous n\'avons pas pu terminer l\'importation, merci de vérifier et corriger les erreurs ci-dessous.',
 
+'member_import_no_custom_fields_selected' => 'Aucun champ personnalisé sélectionné pour l\'importation. Merci de cliquer les cases à cocher situées à côté des champs que vous souhaitez créer.',
+
 /**
  * SQL Query Form
  */

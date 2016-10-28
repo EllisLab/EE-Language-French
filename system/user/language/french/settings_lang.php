@@ -720,7 +720,7 @@ $lang = array(
 
 'allow_multi_logins' => 'Autoriser les sessions multiples à partir d\'un seul compte ?',
 
-'allow_multi_logins_desc' => 'Si positionné à <b>Oui</b>, les membres pourront se connecter plusieurs fois simultanément au système en utilisant le même compte utilisateur. Si votre type de session est paramétré sur <mark>Cookies uniquement</mark>, cette option ne fonctionnera pas.',
+'allow_multi_logins_desc' => 'Si positionné à <b>Non</b>, les membres ne pourront pas se connecter à partir d\'un emplacement ou d\'un navigateur différent s\'ils ont déjà une session active.',
 
 'require_ip_for_login' => 'Exiger l\'adresse <abbr title="Internet Protocol">IP</abbr> et l\'User Agent pour la connexion ?',
 
