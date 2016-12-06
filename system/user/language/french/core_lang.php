@@ -178,7 +178,7 @@ Les fichiers suivants sont affectés :
 {changed}
 
 Si vous avez effectué ces changements, veuillez accepter les modifications sur l'accueil du panneau de contrôle. Si vous n'avez pas modifié ces fichiers ceci peut indiquer une tentative de piratage. Vérifiez les fichiers pour tout contenu suspect (JavaScript ou iFrames) et contactez le support ExpressionEngine :
-https://support.ellislab.com/",
+https://expressionengine.com/support",
 
 'new_version_error' => 'Une erreur s\'est produite en tentant de télécharger le numéro de la version actuelle d\'ExpressionEngine. Veuillez vous rendre sur votre <a href="%s" title="download account" rel="external">Espace Téléchargement</a> pour vérifier que vous utilisez la dernière version. Si l\'erreur persiste, veuillez prendre contact avec votre administrateur système.',
 
