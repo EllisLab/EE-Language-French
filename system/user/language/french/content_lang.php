@@ -1028,7 +1028,7 @@ $lang = array(
 'open_emoji' => 'ouvrir les émoticônes',
 
 // Relationships
-'search_avilable_entries' => 'Rechercher les articles disponibles',
+'search_available_entries' => 'Rechercher les articles disponibles',
 'search_related_entries' => 'Rechercher les articles liés',
 'item_to_relate_with' => 'Elément à <strong>relier avec</strong> cet article.',
 'items_to_relate_with' => 'Eléments à <strong>relier avec</strong> cet article.',
