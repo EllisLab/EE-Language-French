@@ -100,6 +100,8 @@ $lang = array(
 
 'btn_upload_file' => 'Télécharger un fichier',
 
+'btn_uploading' => 'Téléchargement...',
+
 'upload_directory_removed' => 'Répertoire de téléchargement supprimé',
 
 'upload_directory_removed_desc' => 'Le répertoire de téléchargement <b>%s</b> a été supprimé.',

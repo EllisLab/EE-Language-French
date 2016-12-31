@@ -383,9 +383,9 @@ $lang = array(
 
 'comment_word_censoring_desc' => 'S\'il est sur <b>Activer</b>, le module de commentaires utilisera les filtres de <a href="%s">censure de mots</a>.',
 
-'comment_moderation_override' => 'Modérer les articles ayant expiré ?',
+'comment_moderation_override' => 'Modérer après que les commentaires aient expiré ?',
 
-'comment_moderation_override_desc' => 'Si positionné à <b>Oui</b>, les commentaires faits sur un article ayant expiré seront soumis comme Fermés et devront être revus par un modérateur.',
+'comment_moderation_override_desc' => 'Si positionné à <b>Oui</b>, les commentaires faits sur un article possédant des commentaires ayant expiré seront soumis comme Fermés et devront être revus par un modérateur.',
 
 'comment_edit_time_limit' => 'Limite du temps d\'édition des commentaires (en secondes)',
 
