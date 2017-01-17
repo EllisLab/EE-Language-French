@@ -470,12 +470,16 @@ Uniquement utilisée dans le panneau de contrôle.',
 'Le mot de passe et sa confirmation ne correspondent pas',
 
 'username_too_short' =>
-'L\'identifiant que vous avez saisi doit faire au moins %x caractères de long',
+'L\'identifiant que vous avez saisi doit faire au moins %d caractères de long',
 
-'username_too_long' => 'Votre identifiant ne peut pas excéder 50 caractères',
+'username_too_long' => 'Votre identifiant ne peut pas excéder '.USERNAME_MAX_LENGTH.' caractères',
+
+'screenname_too_long' => 'Votre pseudo ne peut pas excéder '.USERNAME_MAX_LENGTH.' caractères',
+
+'email_too_long' => 'Votre adresse email ne peut pas excéder '.USERNAME_MAX_LENGTH.' caractères',
 
 'password_too_short' =>
-'Le mot de passe que vous avez saisi doit faire au moins %x caractères de long',
+'Le mot de passe que vous avez saisi doit faire au moins %d caractères de long',
 
 'password_too_long' => 'Votre mot de passe ne peut pas excéder '.PASSWORD_MAX_LENGTH.' caractères',
 
