@@ -89,21 +89,33 @@ $lang = array(
 'field_tools' => 'Outils champ',
 
 'checkbox_options' => 'Options des cases à cocher',
-'checkbox_options_desc' => 'Choisissez comment créer les options pour ce champ.</em><em><i>Chaque élément va générer une paire case à cocher simple / étiquette dans le formulaire de publication.</i>',
+'checkbox_options_desc' => '<em><i>Chaque élément de la zone de texte va générer une seule paire case à cocher / étiquette dans le formulaire de publication.</i>',
 
 'select_options' => 'Options du menu choix unique',
-'select_options_desc' => 'Choisissez comment créer les options pour ce champ.</em><em><i>Chaque élément sera intégré dans un menu déroulant à choix unique dans le formulaire de publication.</i>',
+'select_options_desc' => '<em><i>Chaque élément de la zone de texte sera intégré dans un menu déroulant à choix unique dans le formulaire de publication.</i>',
 
 'multiselect_options' => 'Options du menu sélection multiple',
-'multiselect_options_desc' => 'Choisissez comment créer les options pour ce champ.</em><em><i>Chaque élément sera intégré dans un menu déroulant à sélection multiple dans le formulaire de publication.</i>',
+'multiselect_options_desc' => '<em><i>Chaque élément de la zone de texte sera intégré dans un menu déroulant à sélection multiple dans le formulaire de publication.</i>',
 
 'radio_options' => 'Options du bouton radio',
-'radio_options_desc' => 'Choisissez comment créer les options pour ce champ.</em><em><i>Chaque élément va générer une paire bouton radio / étiquette dans le formulaire de publication.</i>',
+'radio_options_desc' => '<em><i>Chaque élément de la zone de texte va générer une seule paire bouton radio / étiquette dans le formulaire de publication.</i>',
 
-'grid_checkbox_options_desc' => 'Chaque élément va générer une paire case à cocher simple / étiquette dans le formulaire de publication',
-'grid_select_options_desc' => 'Chaque élément sera intégré dans un menu déroulant à choix unique dans le formulaire de publication.',
-'grid_multiselect_options_desc' => 'Chaque élément sera intégré dans un menu déroulant à sélection multiple dans le formulaire de publication.',
-'grid_radio_options_desc' => 'Chaque élément va générer une paire bouton radio / étiquette dans le formulaire de publication.',
+'options_field_desc' => 'Choisissez comment créer les options pour ce champ.</em>
+<em><i>Les paires Valeur/Etiquette peuvent être utilisées pour faciliter la sélection du contenu par les auteurs. Par exemple, si vous devez stocker une valeur de <b>1</b>, vous pourriez utiliser une étiquette de <b>Un</b></i></em>',
+
+'add' => 'Ajouter',
+'no_value_label_pairs' => 'Aucune <b>paire valeur/étiquette</b> trouvée.',
+
+'grid_checkbox_options_desc' => 'Indiquez des paires valeur/étiquette, ou alors chaque élément de la zone de texte générera une seule paire case à cocher / étiquette dans le formulaire de publication.',
+
+'grid_select_options_desc' => 'Indiquez des paires valeur/étiquette, ou alors chaque élément de la zone de texte sera intégré dans un menu déroulant à choix unique dans le formulaire de publication.',
+
+'grid_multiselect_options_desc' => 'Indiquez des paires valeur/étiquette, ou alors chaque élément de la zone de texte sera intégré dans un menu déroulant à sélection multiple dans le formulaire de publication.',
+
+'grid_radio_options_desc' => 'Indiquez des paires valeur/étiquette, ou alors chaque élément de la zone de texte générera une seule paire bouton radio / étiquette dans le formulaire de publication.',
+
+'value_label_duplicate_values' => 'Chaque valeur doit être unique.',
+'value_label_empty_field' => 'Les valeurs ou les étiquettes ne peuvent pas être vides.',
 
 'localize_date' => 'Ajuster la date en fonction de la localisation ?',
 'localize_date_desc' => 'Si positionné à <b>Oui</b>, les dates s\'appuieront sur les <a href="%s">paramètres de dates &amp; heure</a>.',
@@ -199,6 +211,8 @@ $lang = array(
 
 "max_revisions_note" =>
 "Les versions peuvent utiliser un espace considérable de la base de données, il est donc fortement recommandé de limiter leur nombre.",
+
+'field_value_label_pairs' => 'Paires Valeur/Etiquette',
 
 "field_populate_manually" =>
 "Remplir le menu manuellement",
