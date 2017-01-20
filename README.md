@@ -2,7 +2,39 @@
 
 [![Build Status](https://travis-ci.org/EllisLab/EE-Language-French.svg?branch=master)](https://travis-ci.org/EllisLab/EE-Language-French/branches)
 
-- Copyright (C) 2009-2016 EllisLab, Inc.
+## Changes Between Versions
+
+- [3.5.0 → 3.5.1](https://github.com/EllisLab/EE-Language-French/compare/3.5.0...3.5.1)
+- [3.4.7 → 3.5.0](https://github.com/EllisLab/EE-Language-French/compare/3.4.7...3.5.0)
+- [3.4.6 → 3.4.7](https://github.com/EllisLab/EE-Language-French/compare/3.4.6...3.4.7)
+- [3.4.5 → 3.4.6](https://github.com/EllisLab/EE-Language-French/compare/3.4.5...3.4.6)
+- [3.4.4 → 3.4.5](https://github.com/EllisLab/EE-Language-French/compare/3.4.4...3.4.5)
+- [3.4.2 → 3.4.4](https://github.com/EllisLab/EE-Language-French/compare/3.4.2...3.4.4)
+- [3.4.1 → 3.4.2](https://github.com/EllisLab/EE-Language-French/compare/3.4.1...3.4.2)
+- [3.4.0 → 3.4.1](https://github.com/EllisLab/EE-Language-French/compare/3.4.0...3.4.1)
+- [3.3.4 → 3.4.0](https://github.com/EllisLab/EE-Language-French/compare/3.3.4...3.4.0)
+- [3.3.3 → 3.3.4](https://github.com/EllisLab/EE-Language-French/compare/3.3.3...3.3.4)
+- [3.3.2 → 3.3.3](https://github.com/EllisLab/EE-Language-French/compare/3.3.2...3.3.3)
+- [3.3.1 → 3.3.2](https://github.com/EllisLab/EE-Language-French/compare/3.3.1...3.3.2)
+- [3.3.0 → 3.3.1](https://github.com/EllisLab/EE-Language-French/compare/3.3.0...3.3.1)
+- [3.2.1 → 3.3.0](https://github.com/EllisLab/EE-Language-French/compare/3.2.1...3.3.0)
+- [3.2.0 → 3.2.1](https://github.com/EllisLab/EE-Language-French/compare/3.2.0...3.2.1)
+- [3.1.4 → 3.2.0](https://github.com/EllisLab/EE-Language-French/compare/3.1.4...3.2.0)
+- [3.1.3 → 3.1.4](https://github.com/EllisLab/EE-Language-French/compare/3.1.3...3.1.4)
+- [3.1.2 → 3.1.3](https://github.com/EllisLab/EE-Language-French/compare/3.1.2...3.1.3)
+- [3.1.1 → 3.1.2](https://github.com/EllisLab/EE-Language-French/compare/3.1.1...3.1.2)
+- [3.1.0 → 3.1.1](https://github.com/EllisLab/EE-Language-French/compare/3.1.0...3.1.1)
+- [3.0.6 → 3.1.0](https://github.com/EllisLab/EE-Language-French/compare/3.0.6...3.1.0)
+- [3.0.5 → 3.0.6](https://github.com/EllisLab/EE-Language-French/compare/3.0.5...3.0.6)
+- [3.0.4 → 3.0.5](https://github.com/EllisLab/EE-Language-French/compare/3.0.4...3.0.5)
+- [3.0.3 → 3.0.4](https://github.com/EllisLab/EE-Language-French/compare/3.0.3...3.0.4)
+- [3.0.2 → 3.0.3](https://github.com/EllisLab/EE-Language-French/compare/3.0.2...3.0.3)
+- [3.0.1 → 3.0.2](https://github.com/EllisLab/EE-Language-French/compare/3.0.1...3.0.2)
+- [3.0.0 → 3.0.1](https://github.com/EllisLab/EE-Language-French/compare/3.0.0...3.0.1)
+
+## License
+
+- Copyright (C) 2009-2017 EllisLab, Inc.
 - Original French translation provided by: Jeremie Werner / Studio Meta (@studiometa)
 - 2.5.5, 2.7.x and 3.x versions by: Emmanuel Beauchamps / Putitinred (@putitinred)
 
