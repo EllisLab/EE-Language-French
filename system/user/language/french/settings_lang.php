@@ -228,6 +228,8 @@ $lang = array(
 
 'smtp_server_desc' => 'Emplacement URL de votre <mark>serveur SMTP</mark>.',
 
+'smtp_port' => 'Port du serveur',
+
 'sending_options' => 'Options d\'envoi',
 
 'mail_format' => 'Format d\'email',
@@ -238,7 +240,7 @@ $lang = array(
 
 'word_wrap_desc' => 'S\'il est sur <b>Activer</b>, le système appliquera une césure automatique sur les longues lignes de texte afin de rendre ce dernier plus lisible.',
 
-'php_mail' => 'PHP Mail',
+'php_mail' => 'PHP mail',
 
 'sendmail' => 'Sendmail',
 
