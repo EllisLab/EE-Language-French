@@ -5,7 +5,7 @@
 ## Changes Between Versions
 
 - [3.5.0 → 3.5.1](https://github.com/EllisLab/EE-Language-French/compare/3.5.0...3.5.1)
-- [3.4.7 → 3.5.0](https://github.com/EllisLab/EE-Language-French/compare/3.4.7...3.5.0)
+- [3.4.7 → 3.5.0](https://github.com/EllisLab/EE-Language-French/compare/88a86e658b6597ccdcfea2b493b25e22561b62ba...f1870e87cd7d1bed71f29a26544a4620496db462)
 - [3.4.6 → 3.4.7](https://github.com/EllisLab/EE-Language-French/compare/3.4.6...3.4.7)
 - [3.4.5 → 3.4.6](https://github.com/EllisLab/EE-Language-French/compare/3.4.5...3.4.6)
 - [3.4.4 → 3.4.5](https://github.com/EllisLab/EE-Language-French/compare/3.4.4...3.4.5)
