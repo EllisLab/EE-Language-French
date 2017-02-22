@@ -455,6 +455,7 @@ $lang = array(
 // Common
 'alphadash_desc' => '<i>Aucun espace. Les soulignés (underscore) et les tirets sont autorisés.</i>',
 'btn_fix_errors' => 'Erreurs trouvées',
+'btn_authenticate_and_save' => 'Authentifier &amp; Enregistrer',
 'btn_save' => 'Enregistrer %s',
 'btn_save_and_close' => 'Enregistrer &amp; Fermer',
 'btn_saving' => 'Enregistrement...',

@@ -4,15 +4,21 @@
 
 ## Changes Between Versions
 
-- [3.5.0 → 3.5.1](https://github.com/EllisLab/EE-Language-French/compare/f1870e87cd7d1bed71f29a26544a4620496db462...a3856d5409d7ac6f1a8387f9edaf03396dc6bf2b)
-- [3.4.7 → 3.5.0](https://github.com/EllisLab/EE-Language-French/compare/88a86e658b6597ccdcfea2b493b25e22561b62ba...f1870e87cd7d1bed71f29a26544a4620496db462)
-- [3.4.6 → 3.4.7](https://github.com/EllisLab/EE-Language-French/compare/9842800d6f47507a5589e75a6488b63ca7f7ffde...88a86e658b6597ccdcfea2b493b25e22561b62ba)
-- [3.4.5 → 3.4.6](https://github.com/EllisLab/EE-Language-French/compare/97666be4abc2a0f4b4707c9fd123290484515e93...9842800d6f47507a5589e75a6488b63ca7f7ffde)
-- [3.4.4 → 3.4.5](https://github.com/EllisLab/EE-Language-French/compare/5e527ec0150004b62352f7e78ca0a5df979310b3...97666be4abc2a0f4b4707c9fd123290484515e93)
-- [3.4.2 patch-2 → 3.4.4](https://github.com/EllisLab/EE-Language-French/compare/c4d17d883dbd011fe436ad414086dde5595db0b0...5e527ec0150004b62352f7e78ca0a5df979310b3)
-- [3.4.2 patch-1 → 3.4.2 patch-2](https://github.com/EllisLab/EE-Language-French/compare/4daafc3a806dbeb67ab851605547788e2779472e...c4d17d883dbd011fe436ad414086dde5595db0b0)
-- [3.4.2 → 3.4.2 patch-1](https://github.com/EllisLab/EE-Language-French/compare/6450a36d24cac706861cf1790a2808cbb0f7a60f...4daafc3a806dbeb67ab851605547788e2779472e)
-- [3.3.4 → 3.4.2](https://github.com/EllisLab/EE-Language-French/compare/dbf39a65b4ed8951304aaa4d8faf83c40094cd9b...6450a36d24cac706861cf1790a2808cbb0f7a60f)
+- [3.5.1 → 3.5.2](https://github.com/EllisLab/EE-Language-French/compare/a3856d5...c7c0b6d)
+- [3.5.0 → 3.5.1](https://github.com/EllisLab/EE-Language-French/compare/f1870e8...a3856d5)
+- [3.4.7 → 3.5.0](https://github.com/EllisLab/EE-Language-French/compare/88a86e6...f1870e8)
+- [3.4.6 → 3.4.7](https://github.com/EllisLab/EE-Language-French/compare/9842800...88a86e6)
+- [3.4.5 → 3.4.6](https://github.com/EllisLab/EE-Language-French/compare/97666be...9842800)
+- [3.4.4 → 3.4.5](https://github.com/EllisLab/EE-Language-French/compare/5e527ec...97666be)
+- [3.4.2 patch-2 → 3.4.4](https://github.com/EllisLab/EE-Language-French/compare/c4d17d8...5e527ec)
+- [3.4.2 patch-1 → 3.4.2 patch-2](https://github.com/EllisLab/EE-Language-French/compare/4daafc3...c4d17d8)
+- [3.4.2 → 3.4.2 patch-1](https://github.com/EllisLab/EE-Language-French/compare/6450a36...4daafc3)
+- [3.3.4 → 3.4.2](https://github.com/EllisLab/EE-Language-French/compare/dbf39a6...6450a36)
+- [3.3.3 → 3.3.4](https://github.com/EllisLab/EE-Language-French/compare/6ddb713...dbf39a6)
+- [3.3.2 → 3.3.3](https://github.com/EllisLab/EE-Language-French/compare/7094aa9...6ddb713)
+- [3.3.1 → 3.3.2](https://github.com/EllisLab/EE-Language-French/compare/c2e7359...7094aa9)
+- [3.3.0 → 3.3.1](https://github.com/EllisLab/EE-Language-French/compare/8ed814d...c2e7359)
+- [2.7.2 → 3.3.0](https://github.com/EllisLab/EE-Language-French/compare/2c75acb...8ed814d)
 
 ## License
 
