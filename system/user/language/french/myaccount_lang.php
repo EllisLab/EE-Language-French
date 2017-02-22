@@ -434,7 +434,7 @@ Uniquement utilisée dans le panneau de contrôle.',
 'new_password_confirm_desc' => 'Afin de confirmer, saisissez de nouveau votre mot de passe.',
 
 'existing_password' =>
-'Mot de passe actuel',
+'Saisir votre mot de passe',
 
 'invalid_email_address' =>
 'L\'email que vous avez saisi est invalide',
@@ -696,6 +696,8 @@ Merci de <a href="%s">contacter votre Administrateur Système</a> si vous pensez
 'site_index' => 'Index du site',
 
 'btn_login' => 'Connexion',
+
+'btn_authenticate_and_login' => 'Authentification &amp; Connexion',
 
 'quick_links_ajax_reorder_fail' => 'Attention : impossible d\'enregistrer l\'ordre des liens rapides',
 'quick_links_ajax_reorder_fail_desc' => 'Nous n\'avons pas réussi à enregistrer le nouvel ordre des liens rapides. Raffraîchissez la page et assurez-vous d\'être connecté.',
