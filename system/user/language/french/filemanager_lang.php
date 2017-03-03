@@ -64,7 +64,29 @@ $lang = array(
 
 'no_file' => 'Aucun fichier sélectionné',
 
+'no_filename' => 'Un nouveau nom de fichier n\'a pas été soumis.',
+
 'no_upload_destination' => 'Aucune destination de téléchargement trouvée',
+
+'file_upload_stopped' => 'Téléchargement des fichiers arrêté',
+
+'file_conflict' => 'Conflit de fichiers rencontré',
+
+'file_conflict_desc' => 'Un fichier nommé <b>%s</b> existe déjà dans ce répertoire.',
+
+'upload_options' => 'Options de téléchargement',
+
+'rename' => 'Renommer le fichier <em>le plus récent</em>',
+
+'replace' => 'Remplacer seulement le fichier <em>le plus ancien</em> <i>&mdash; action destructrice !</i>',
+
+'replace_no_metadata' => 'Seul le fichier a été remplacé. Le Titre, la Description, les Crédits, l\'Emplacement et les Catégories n\'ont pas été mis à jour.',
+
+'append' => 'Ajouter un chiffre au fichier <em>le plus récent</em> <i>&mdash; exemple : %s</i>',
+
+'btn_finish_upload' => 'Finaliser Téléchargement',
+
+'btn_cancel_upload' => 'Annuler Téléchargement',
 
 // sidebar
 'zero_directories_found' => 'Aucun <b>répertoire</b> trouvé',
@@ -92,7 +114,7 @@ $lang = array(
 
 'file_categories_desc' => 'Catégoriser ce fichier.',
 
-'no_categories_assigned_file_desc' => 'Aucune catégorie n\'est affectée à ce fichier. <a href="%s">Affecter un groupe de catégories.</a>',
+'no_categories_assigned_file_desc' => 'Aucune catégorie n\'est affectée à ce fichier. <a href="%s" rel="external">Affecter un groupe de catégories.</a>',
 
 'success' => 'Succès',
 
@@ -499,7 +521,7 @@ $lang = array(
 'rotate_flip_hor'		=> 'Basculer horizontalement',
 'maintain_ratio'		=> 'Conserver les proportions',
 'width_needed'			=> 'Une largeur, une largeur/hauteur, ou une direction de rotation doit être sélectionnée.',
-'file_exists_replacement_error' => 'Un fichier avec ce nom existe déjà mais il n\'est pas accessible dans la base de données et ne peut donc être remplacé.',
+'file_exists_replacement_error' => 'Un fichier avec ce nom existe déjà.',
 
 'resize_over_confirmation' => 'Redimensionner cette image dans une taille plus grande que celle de la source donnera une image de moindre qualité. Êtes-vous sûr de vouloir faire cela ?',
 

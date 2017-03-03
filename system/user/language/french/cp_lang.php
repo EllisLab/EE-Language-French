@@ -459,6 +459,7 @@ $lang = array(
 'btn_save' => 'Enregistrer %s',
 'btn_save_and_close' => 'Enregistrer &amp; Fermer',
 'btn_saving' => 'Enregistrement...',
+'btn_canceling' => 'Annulation...',
 'no_found' => 'Aucun <b>%s</b> trouvé',
 'filters' => 'filtres',
 'clear_filters' => 'Effacer les filtres',
