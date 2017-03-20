@@ -48,7 +48,7 @@ $lang = array(
 
 'fields_removed_desc' => 'Les champs suivants ont été supprimés :',
 
-'create_field' => 'Créer un champ',
+'create_field' => 'Créer un champ dans %s',
 
 'label_desc' => 'Nom du champ, tel qu\'il sera affiché dans le formulaire de publication.',
 

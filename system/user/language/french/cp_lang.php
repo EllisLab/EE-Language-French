@@ -54,6 +54,8 @@ $lang = array(
 'username' =>
 'Identifiant ',
 
+'username_filter' => 'identifiant',
+
 'password' =>
 'Mot de passe ',
 
@@ -288,6 +290,8 @@ $lang = array(
 
 'site' =>
 'Site',
+
+'site_filter' => 'site',
 
 'most_recent_entry' =>
 'Dernier article',
