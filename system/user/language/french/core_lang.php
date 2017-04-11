@@ -166,6 +166,8 @@ Pour corriger : définissez les permissions du fichier de configuration (/system
 
 'theme_folder_wrong' => 'Le chemin serveur de votre dossier thème est incorrect. Merci de visiter <a href="%s">Paramètres URL et chemin serveur</a> et de vérifier le <mark>Chemin serveur des thèmes</mark> et le <mark>Répertoire des thèmes</mark>.',
 
+'missing_encryption_key' => 'Aucune valeur n\'est définie dans votre fichier config.php pour <code>%s</code>. Ceci peut rendre vulnérable la sécurité de votre installation. Restaurez les clefs ou <a href="%s">contactez le support</a> pour obtenir de l\'aide.',
+
 'checksum_changed_warning' => 'Un ou plusieurs fichiers principaux d\ExpressionEngine ont été altérés :',
 
 'checksum_changed_accept' => 'Accepter les modifications',
