@@ -117,7 +117,7 @@ $lang = array(
 'all_files' => 'Tous les types',
 
 'file_size' => 'Taille de fichier',
-'file_size_desc' => 'Taille maximale de fichier en mégaoctets.',
+'file_size_desc' => 'Taille maximale de fichier en kiloctets.',
 
 'image_width' => 'Largeur d\'image',
 'image_width_desc' => 'Largeur maximale d\'image, en pixels.',
