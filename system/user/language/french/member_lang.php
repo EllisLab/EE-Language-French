@@ -85,6 +85,9 @@ $lang = array(
 "return_to_login" =>
 "Retourner à la page de connexion",
 
+'screen_name_taken' =>
+"Le pseudo choisi n'est pas disponible",
+
 "member_login" =>
 "Connexion Membre",
 
