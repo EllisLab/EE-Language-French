@@ -92,6 +92,8 @@ $lang = array(
 'copyright' =>
 'Copyright',
 
+'custom_limit' => 'limite personnalisée',
+
 'rights_reserved' =>
 'Tous droits réservés',
 

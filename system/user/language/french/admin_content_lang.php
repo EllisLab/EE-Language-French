@@ -188,6 +188,8 @@ $lang = array(
 "select_related_channel" =>
 "Sélectionnez le canal avec lequel vous souhaitez établir un lien :",
 
+'show_all_channels' => 'Tous les canaux (%d)',
+
 "rss_url" =>
 "URL du flux RSS",
 
@@ -654,6 +656,8 @@ $lang = array(
 "no_category_message" =>
 "Il n'y a actuellement aucune catégorie affecté à ce groupe",
 
+'show_all_category_groups' => 'Tous les groupes de catégories (%d)',
+
 "create_new_category_group" =>
 "Créer un nouveau groupe de catégories",
 
@@ -936,6 +940,10 @@ $lang = array(
 "select_list" =>
 "Liste déroulante",
 
+'show_all_field_groups' => 'Tous les groupes de champs (%d)',
+
+'show_all_fields' => 'Tous les champs (%d)',
+
 "no_field_name" =>
 "Vous devez saisir un nom de champ",
 
@@ -1092,6 +1100,10 @@ $lang = array(
 
 "rtl" =>
 "De droite à gauche",
+
+'show_all_status_groups' => 'Tous les groupes de statuts (%d)',
+
+'show_all_statuses' => 'Tous les statuts (%d)',
 
 'field_instructions' =>
 "Instructions du champ",

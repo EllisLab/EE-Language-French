@@ -11,6 +11,7 @@ $lang['imglib_jpg_or_png_required'] = "Le protocole de redimensionnement spécif
 $lang['imglib_copy_error'] = "Une erreur a été rencontrée lors de la tentative de remplacement du fichier. Veuillez vérifier que le répertoire est accessible en écriture.";
 $lang['imglib_rotate_unsupported'] = "La rotation d'image ne semble pas être supportée par votre serveur.";
 $lang['imglib_libpath_invalid'] = "Le chemin vers votre bibliothèque d'image est incorrect. Veuillez définir le chemin correct dans vos préférences d'images.";
+$lang['imglib_unsafe_config'] = 'Un élément de configuration contient des caractères qui ne sont pas sûrs quand votre système fonctionne en environnement shell.';
 $lang['imglib_image_process_failed'] = "Le traitement de l'image a échoué. Veuillez vérifier que votre serveur supporte le protocole choisi et que le chemin vers votre bibliothèque d'image est correct.";
 $lang['imglib_rotation_angle_required'] = "Un angle de rotation est requis pour effectuer une rotation sur l'image.";
 $lang['imglib_writing_failed_gif'] = "Image GIF.";
