@@ -877,13 +877,19 @@ et les modèles seront uniquement accessibles à partir de l\'URL groupe/modèle
 'template_routes_not_saved_desc' => 'Nous n\'avons pas pu enregistrer les routes de modèle, merci de vérifier et corriger les erreurs ci-dessous.',
 
 'http_auth_protected' =>
-'Protégé par Autenthification HTTP',
+'Protégé par Authentification HTTP',
 
 'template_preferences_manager' =>
 "Gestion des Préférences de Modèle",
 
 'settings_manager' =>
 "Paramètres/Gestionnaire",
+
+'show_all_partials' => 'Tous les partiels (%d)',
+
+'show_all_templates' => 'Tous les modèles (%d)',
+
+'show_all_variables' => 'Toutes les variables (%d)',
 
 'do_not_change' =>
 "Ne pas changer",
@@ -896,7 +902,7 @@ et les modèles seront uniquement accessibles à partir de l\'URL groupe/modèle
 
 'no_templates_found' => 'Aucun <b>modèle</b> trouvé.',
 
-'url_manager' => 'Gestion des routes de modèle',
+'url_manager' => 'Gestion des Routes de Modèle',
 
 'template_route_notice' => 'Les routes sont listées dans l\'ordre dans lequel le routeur de modèle appariera vos modèles.
 vous pouvez glisser-déposer pour modifier cet ordre.',
@@ -910,7 +916,7 @@ vous pouvez glisser-déposer pour modifier cet ordre.',
 'route_manager_required' => 'Segments obligatoires',
 
 'template_id_not_found' =>
-"L'ID de modèle sélectionné est l'invalide",
+"L'ID de modèle sélectionné est invalide",
 
 'index_delete_disallowed' =>
 "Les groupes de modèles doivent avoir un modèle Index",
@@ -922,13 +928,13 @@ vous pouvez glisser-déposer pour modifier cet ordre.',
 //----------------------------
 
 "template_set_names" =>
-"Séries de modèles disponibles",
+"Jeux de modèles disponibles",
 
 "template_updated" =>
 "Le modèle a été mis à jour",
 
 "template_set" =>
-"Série de modèle :",
+"Jeu de modèle :",
 
 "error_opening_template" =>
 "Erreur : impossible d'ouvrir le fichier modèle pour y écrire son contenu.",

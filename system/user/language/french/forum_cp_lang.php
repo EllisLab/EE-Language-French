@@ -79,6 +79,12 @@ $lang = array(
 'name' => 'Nom',
 'name_desc' => 'Description complète de ce forum.',
 
+'new_replies' => 'Nouvelles réponses',
+
+'new_topics' => 'Nouveaux sujets',
+
+'notify_moderators' => 'Notifications modérateur',
+
 'short_name' => 'Nom court',
 'short_name_desc' => 'Nom court pour ce forum.<br><i>Sans espace. Les soulignés (underscore) et les tirets sont autorisés.</i>',
 
@@ -164,11 +170,11 @@ $lang = array(
 
 'notification_settings' => 'Paramètres de notification',
 
-'topic_notifications' => 'Notifications de sujet',
-'topic_notifications_desc' => 'Quand il est sur <b>Activer</b>, tous les destinataires listés recevront une notification par email à chaque fois qu\'un <b>nouveau</b> sujet sera publié.</em><em>Séparez les adresses multiples avec une <mark>virgule (,)</mark>.',
+'topic_notification' => 'Notifications de sujet',
+'topic_notification_desc' => 'Tous les destinataires listés recevront une notification par email à chaque fois qu\'un <b>nouveau</b> sujet sera publié.</em><em>Séparez les adresses multiples avec une <mark>virgule (,)</mark>.',
 
-'reply_notification' => 'Notification de réponse',
-'reply_notification_desc' => 'Quand il est sur <b>Activer</b>, tous les destinataires listés recevront une notification par email à chaque fois qu\'une <b>nouvelle</b> réponse sera publiée.</em><em>Séparez les adresses multiples avec une <mark>virgule (,)</mark>.',
+'reply_notification' => 'Notifications de réponse',
+'reply_notification_desc' => 'Tous les destinataires listés recevront une notification par email à chaque fois qu\'une <b>nouvelle</b> réponse sera publiée.</em><em>Séparez les adresses multiples avec une <mark>virgule (,)</mark>.',
 
 'text_and_html_formatting' => 'Formatage Texte et HTML',
 
