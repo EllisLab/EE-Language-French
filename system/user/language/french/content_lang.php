@@ -284,7 +284,7 @@ $lang = array(
 'Emplacement de l\'image',
 
 'file_uploaded' =>
-'Fichier envoyé :',
+'Fichier téléchargé :',
 
 'place_file' =>
 'Insérer le fichier',
@@ -642,10 +642,10 @@ $lang = array(
 'choose_file' => 'Choisir le fichier',
 
 'file_upload' =>
-'Envoi de fichier',
+'Téléchargement',
 
 'upload_dir_choose' =>
-'Choisissez un répertoire de destination',
+'Choisissez un répertoire de téléchargement',
 
 'upload_to' =>
 'Télécharger vers %s',
@@ -809,7 +809,7 @@ $lang = array(
 'Vous pouvez soit choisir un nouveau nom et le fichier sera renommé, soit soumettre ce formulaire avec le même nom et le fichier sera écrasé.',
 
 'select_destination_dir' =>
-'Choisissez un répertoire de destination',
+'Choisissez un répertoire de téléchargement',
 
 'file_manager' =>
 'Gestion des Fichiers',
