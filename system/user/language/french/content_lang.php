@@ -258,6 +258,10 @@ $lang = array(
 'forum_body' =>
 'Texte du sujet de forum',
 
+'forum_no_forum_body' => 'Vous ne pouvez pas créer un sujet de forum sans contenu.',
+
+'forum_no_forum_title' => 'Vous devez donner un titre au sujet de forum.',
+
 'forums_unavailable' =>
 'Il n\'y a aucun forum ouvert à la publication',
 

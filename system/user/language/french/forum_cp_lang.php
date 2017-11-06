@@ -446,7 +446,6 @@ $lang = array(
 'no_forum_topic_id' => 'Il n\'existe aucun sujet de forum avec cette ID.',
 'no_forum_permissions' => 'Vous n\'avez pas les autorisations nécessaires pour publier un message sur ce forum.',
 
-''=>''
 );
 
 // EOF

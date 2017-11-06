@@ -1187,8 +1187,6 @@ $lang = array(
 
 'select_menu_options_desc' => 'Choisissez comment créer les options pour ce champ.',
 
-
-''=>''
 );
 
 // EOF
