@@ -775,7 +775,6 @@ $lang = array(
 'invalid_short_name' => 'Le nom court des manipulations d\'image ne peut contenir que des caractères alphanumériques, des tirets et des soulignés (underscore) et il ne peut être ni "miniatures" ni "thumbs".',
 
 
-''=>''
 );
 
 // EOF

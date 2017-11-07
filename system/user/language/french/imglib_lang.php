@@ -1,5 +1,5 @@
 <?php
-$lang => array(
+$lang = array(
 'imglib_source_image_required' => "Vous devez préciser une image source dans vos préférences.",
 
 'imglib_gd_required' => "Votre serveur doit supporter la bibliothèque d'image GD pour utiliser cette fonctionnalité.",
