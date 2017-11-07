@@ -1228,7 +1228,6 @@ vous pouvez glisser-déposer pour modifier cet ordre.',
 'tmpl_revisions_not_enabled' =>
 'Les versions de modèle ne sont pas activées.',
 
-''=>''
 );
 
 // EOF

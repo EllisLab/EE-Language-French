@@ -73,6 +73,10 @@ $lang = array(
 'channel_set_upload_error' => 'Impossible d\'importer le canal',
 'channel_set_upload_error_desc' => 'Nous n\'avons pas pu importer ce canal, merci de vérifier que votre répertoire cache est inscriptible.',
 
+'channel_set_invalid' => 'Canal invalide. Il manque le fichier channel_set.json.',
+
+'channel_set_incompatible' => 'Canal incompatible. Ce canal nécessite ExpressionEngine %d.0.0 ou plus récent.',
+
 'channel_set_duplicates_error' => 'L\'import crée des doublons',
 'channel_set_duplicates_error_desc' => 'Cette définition de canal utilise des noms qui existent déjà dans votre site. Merci de renommer les éléments suivants.',
 

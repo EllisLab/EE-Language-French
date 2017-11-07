@@ -66,7 +66,7 @@ $lang = array(
 
 'no_filename' => 'Un nouveau nom de fichier n\'a pas été soumis.',
 
-'no_upload_destination' => 'Aucune destination de téléchargement trouvée',
+'no_upload_destination' => 'Aucun répertoire de téléchargement trouvé',
 
 'file_upload_stopped' => 'Téléchargement des fichiers arrêté',
 
@@ -462,13 +462,13 @@ $lang = array(
 
 'content_files' 		=> 'Gestion des Fichiers',
 
-'upload_dir_choose'		=> 'Choisir un répertoire de destination',
+'upload_dir_choose'		=> 'Choisir un répertoire de téléchargement',
 'file_upload_prefs' 	=> 'Préférences de téléchargement',
-'create_new_upload_pref' => 'Créer un nouveau répertoire de destination',
+'create_new_upload_pref' => 'Créer un nouveau répertoire de téléchargement',
 'file_information'		=> 'Propriétés du fichier',
 'upload' 				=> 'Télécharger',
 'upload_file' 			=> 'Télécharger le fichier',
-'file_upload' 			=> 'Envoi de fichier',
+'file_upload' 			=> 'Téléchargement',
 'file_download' 		=> 'Télécharger',
 'file_tools'			=> 'Outils Fichier',
 'choose_file'			=> 'Choisissez le(s) fichier(s) à supprimer',
@@ -487,7 +487,7 @@ $lang = array(
 'upload_edit'			=> 'Redimensionner &amp; Orienter',
 'upload_rename'			=> 'Le fichier existe déjà',
 'upload_rename_message'	=> 'Un fichier avec ce nom existe déjà. Vous pouvez soit choisir un nouveau nom et le fichier sera renommé, soit utiliser le même nom et le fichier existant sera remplacé par celui-ci.',
-'no_upload_dirs'		=> 'Aucun répertoire de destination n\'est défini',
+'no_upload_dirs'		=> 'Aucun répertoire de téléchargement n\'est défini',
 'image_editor'			=> 'Éditeur d\'image',
 'download_selected'		=> 'Télécharger les fichiers sélectionnés',
 'email_files'			=> 'Envoyer les fichiers sélectionnés par email',
@@ -538,7 +538,7 @@ $lang = array(
 'save_image'			=> 'Enregistrer l\'image',
 'image_edit_success'	=> 'Image modifiée avec succès',
 'no_edit_selected'		=> 'Aucune opération d\'édition sélectionnée',
-'uploading_file'		=> 'Fichier en cours d\'envoi',
+'uploading_file'		=> 'Fichier en cours de téléchargement',
 'apply_changes'			=> 'Appliquer les modifications',
 
 'list'						=> 'une liste',
@@ -548,7 +548,7 @@ $lang = array(
 'pagination_page'			=> 'Page',
 'all_categories'			=> 'toutes les catégories',
 'total_dir_size'            => 'Taille totale du répertoire :',
-'no_upload_dirs_available'	=> 'Aucun répertoire de destination disponible',
+'no_upload_dirs_available'	=> 'Aucun répertoire de téléchargement disponible',
 
 'save_crop' 			=> 'Enregistrer le rognage',
 'cancel_crop'			=> 'Annuler le rognage',
@@ -558,7 +558,7 @@ $lang = array(
 
 'new_file_upload_preferences' => "Nouvelle préférence du téléchargement de fichiers",
 
-'new_file_upload_created' => "Nouveau répertoire de destination créé",
+'new_file_upload_created' => "Nouveau répertoire de téléchargement créé",
 
 'file_upload_preferences' => "Préférences du téléchargement de fichiers",
 
@@ -566,13 +566,13 @@ $lang = array(
 
 'no_upload_directories' => 'Aucun répertoire de téléchargement n\'est disponible pour le moment. Merci d\'<a href="%s" rel="external" target="_blank">ajouter un ou plusieurs répertoire de téléchargement</a> avant d\'utiliser le type de champ fichier.',
 
-'please_add_upload' => "Il n'y a actuellement aucun répertoire de destination disponible. Merci d'en ajouter un (ou plus) afin de pouvoir utiliser le type de champ Fichier.",
+'please_add_upload' => "Il n'y a actuellement aucun répertoire de téléchargement disponible. Merci d'en ajouter un (ou plus) afin de pouvoir utiliser le type de champ Fichier.",
 
-'upload_pref_name' => 'Nom du répertoire de destination',
+'upload_pref_name' => 'Nom du répertoire de téléchargement',
 
-'server_path' => 'Chemin serveur vers le répertoire de destination',
+'server_path' => 'Chemin serveur vers le répertoire de téléchargement',
 
-'url_to_upload_dir' => 'URL du répertoire de destination',
+'url_to_upload_dir' => 'URL du répertoire de téléchargement',
 
 'allowed_types' => 'Types de fichier autorisés',
 
@@ -644,13 +644,13 @@ $lang = array(
 'errors'					=> 'Erreurs rencontrées',
 'no_errors'					=> 'Aucune erreur',
 'synchronize_directory'		=> 'Synchroniser le répertoire',
-'directory_manager'			=> 'Gestion des répertoires de destination',
+'directory_manager'			=> 'Gestion des répertoires de téléchargement',
 
 'category_groups'			=> 'Groupes de catégories de fichier',
 'category_group'			=> 'Groupes de catégories',
 'no_assigned_category_groups' => 'Aucun groupe de catégories n\'a été prévu pour le gestionnaire de fichiers.<br>
 								  <a href="%s" title="Affecter des groupes de catégories">Affecter des groupes de catégories</a>',
-'category_groups_text'		=> 'Affecter un ou plusieurs groupes de catégories au répertoire de destination',
+'category_groups_text'		=> 'Affecter un ou plusieurs groupes de catégories au répertoire de téléchargement',
 
 'short_name'				=> 'Nom court',
 'manual_batch'				=> 'Téléchargement en lot, manuel',
@@ -662,7 +662,7 @@ $lang = array(
 'file_title'				=> 'Titre de fichier',
 'custom_fields'				=> 'Champs personnalisés',
 'search_files'				=> 'Rechercher des fichiers',
-'dir_name'					=> 'Nom du répertoire de destination',
+'dir_name'					=> 'Nom du répertoire de téléchargement',
 
 
 // Batch Page:
@@ -775,7 +775,6 @@ $lang = array(
 'invalid_short_name' => 'Le nom court des manipulations d\'image ne peut contenir que des caractères alphanumériques, des tirets et des soulignés (underscore) et il ne peut être ni "miniatures" ni "thumbs".',
 
 
-''=>''
 );
 
 // EOF

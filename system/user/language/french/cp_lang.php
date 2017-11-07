@@ -576,7 +576,7 @@ $lang = array(
 
 'confirm_show_all' => 'Attention !',
 
-'confirm_show_all_desc' => 'Visualiser plus de %d éléments à la fois peut entraîner une réduction des performances.',
+'confirm_show_all_desc' => 'Visualiser plus de %d éléments à la fois peut entraîner une diminution des performances.',
 
 'confirm_show_all_btn' => 'Allons-y !',
 
@@ -600,7 +600,6 @@ $lang = array(
 'html_button_ajax_reorder_fail' => 'Attention : impossible d\'enregistrer l\'ordre des boutons html',
 'html_button_ajax_reorder_fail_desc' => 'Nous n\'avons pas réussi à enregistrer le nouvel ordre des boutons html. Raffraîchissez la page et assurez-vous d\'être connecté.',
 
-''=>''
 );
 
 // EOF
