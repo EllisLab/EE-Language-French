@@ -1,37 +1,14 @@
-# French Translation Pack for ExpressionEngine 3.x
-
-[![Build Status](https://travis-ci.org/EllisLab/EE-Language-French.svg?branch=master)](https://travis-ci.org/EllisLab/EE-Language-French/branches)
+# French Translation Pack for ExpressionEngine 4.x
 
 ## Changes Between Versions
 
-- [3.5.11 → 3.5.12](https://github.com/EllisLab/EE-Language-French/compare/7b9df2e...e69e705)
-- [3.5.10 → 3.5.11](https://github.com/EllisLab/EE-Language-French/compare/5944c77...7b9df2e)
-- [3.5.9 → 3.5.10](https://github.com/EllisLab/EE-Language-French/compare/420135e...5944c77)
-- [3.5.5 → 3.5.9](https://github.com/EllisLab/EE-Language-French/compare/34c9c88...420135e)
-- [3.5.4 → 3.5.5](https://github.com/EllisLab/EE-Language-French/compare/ffe4d25...34c9c88)
-- [3.5.3 → 3.5.4](https://github.com/EllisLab/EE-Language-French/compare/5580d16...ffe4d25)
-- [3.5.2 → 3.5.3](https://github.com/EllisLab/EE-Language-French/compare/c7c0b6d...5580d16)
-- [3.5.1 → 3.5.2](https://github.com/EllisLab/EE-Language-French/compare/a3856d5...c7c0b6d)
-- [3.5.0 → 3.5.1](https://github.com/EllisLab/EE-Language-French/compare/f1870e8...a3856d5)
-- [3.4.7 → 3.5.0](https://github.com/EllisLab/EE-Language-French/compare/88a86e6...f1870e8)
-- [3.4.6 → 3.4.7](https://github.com/EllisLab/EE-Language-French/compare/9842800...88a86e6)
-- [3.4.5 → 3.4.6](https://github.com/EllisLab/EE-Language-French/compare/97666be...9842800)
-- [3.4.4 → 3.4.5](https://github.com/EllisLab/EE-Language-French/compare/5e527ec...97666be)
-- [3.4.2 patch-2 → 3.4.4](https://github.com/EllisLab/EE-Language-French/compare/c4d17d8...5e527ec)
-- [3.4.2 patch-1 → 3.4.2 patch-2](https://github.com/EllisLab/EE-Language-French/compare/4daafc3...c4d17d8)
-- [3.4.2 → 3.4.2 patch-1](https://github.com/EllisLab/EE-Language-French/compare/6450a36...4daafc3)
-- [3.3.4 → 3.4.2](https://github.com/EllisLab/EE-Language-French/compare/dbf39a6...6450a36)
-- [3.3.3 → 3.3.4](https://github.com/EllisLab/EE-Language-French/compare/6ddb713...dbf39a6)
-- [3.3.2 → 3.3.3](https://github.com/EllisLab/EE-Language-French/compare/7094aa9...6ddb713)
-- [3.3.1 → 3.3.2](https://github.com/EllisLab/EE-Language-French/compare/c2e7359...7094aa9)
-- [3.3.0 → 3.3.1](https://github.com/EllisLab/EE-Language-French/compare/8ed814d...c2e7359)
-- [2.7.2 → 3.3.0](https://github.com/EllisLab/EE-Language-French/compare/2c75acb...8ed814d)
+- [3.5.12 → 4.0.6](https://github.com/EllisLab/EE-Language-French/compare/ef207c4...fd18e53)
 
 ## License
 
-- Copyright (C) 2009-2017 EllisLab, Inc.
+- Copyright (C) 2009-2018 EllisLab, Inc.
 - Original French translation provided by: Jeremie Werner / Studio Meta (@studiometa)
-- 2.5.5, 2.7.x and 3.x versions by: Emmanuel Beauchamps / Putitinred (@putitinred)
+- 2.5.5, 2.7.x, 3.x and 4.x versions by: Emmanuel Beauchamps / Putitinred (@putitinred)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
