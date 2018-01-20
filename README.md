@@ -2,6 +2,7 @@
 
 ## Changes Between Versions
 
+- [4.0.6 → 4.0.7](https://github.com/EllisLab/EE-Language-French/compare/fd18e53...2e064ef)
 - [3.5.12 → 4.0.6](https://github.com/EllisLab/EE-Language-French/compare/ef207c4...fd18e53)
 
 ## License
