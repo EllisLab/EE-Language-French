@@ -71,6 +71,8 @@ $lang = array(
 
 'details' => 'Détails',
 
+'do_not_duplicate' => 'Ne pas dupliquer',
+
 'e_no_css' => 'Le fichier CSS demandé n\'a pas pu être ouvert.',
 
 'edit_quicklinks' => 'Editer les raccourcis',
