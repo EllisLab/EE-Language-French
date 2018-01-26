@@ -67,6 +67,7 @@ $lang = array(
 'group_title' => 'Titre du groupe',
 'heir_to_member_entries' => 'Ce membre a des articles affectés à son compte. Que souhaitez-vous faire de ces articles ?',
 'heir_to_members_entries' => 'Certains de ces membres ont des articles affectés à leurs comptes. Que souhaitez-vous faire de leurs articles ?',
+'heir_required' => 'Vous devez sélectionner un compte auquel réaffecter les articles.',
 'include_in_authorlist' => 'Liste des auteurs',
 'include_in_memberlist' => 'Liste des membres',
 'index' => 'Page Index principale',
