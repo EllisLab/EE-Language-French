@@ -140,7 +140,11 @@ https://expressionengine.com/support",
 
 'new_version_error' => 'Une erreur s\'est produite en tentant de télécharger le numéro de la version actuelle d\'ExpressionEngine. Veuillez vous rendre sur votre <a href="%s" title="download account" rel="external">Espace Téléchargement</a> pour vérifier que vous utilisez la dernière version. Si l\'erreur persiste, veuillez prendre contact avec votre administrateur système.',
 
+'license_disabled' => 'Votre licence logicielle a été désactivée ou mise à jour. Merci de visiter la page <a href="%s">License & Registration</a> et d\'installer la licence active à partir de votre <a href="%s" title="download account" rel="external">Compte de téléchargement</a>. Si l\'erreur persiste, merci de contacter votre administrateur système.',
+
 'file_not_found' => 'Le fichier %s n\'existe pas.',
+
+
 
 //----------------------------
 // Member Groups
