@@ -135,6 +135,8 @@ $lang = array(
 
 'heir_to_members_entries' => 'Certains de ces membres ont des articles affectés à leurs comptes. Que souhaitez-vous faire de leurs articles ?',
 
+'heir_required' => 'Vous devez sélectionner un compte auquel réaffecter les articles.',
+
 'include_in_authorlist' => 'Liste des auteurs',
 
 'include_in_memberlist' => 'Liste des membres',

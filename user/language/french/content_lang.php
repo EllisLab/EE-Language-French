@@ -879,11 +879,11 @@ $lang = array(
 
 'resize' => 'Redimensionner',
 
-'rotate_180' => '180&#176',
+'rotate_180' => "180°",
 
-'rotate_90l' => '90&#176; à gauche',
+'rotate_90l' => "90° à gauche",
 
-'rotate_90r' => '90&#176; à droite',
+'rotate_90r' => "90° à droite",
 
 'rotate_flip_hor' => 'Retourner horizontalement',
 

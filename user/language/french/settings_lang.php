@@ -703,7 +703,7 @@ $lang = array(
 
 'cookie_httponly' => 'Envoyer uniquement les cookies en <abbr title="Hyper Text Transfer Protocol">HTTP</abbr> ?',
 
-'cookie_path_desc' => 'Chemin pour appliquer les cookies au domaine ci-dessus. (<a href="%s">plus d\'infos</a>)',
+'cookie_path_desc' => 'Chemin pour appliquer les cookies au domaine ci-dessus. (<a href="%s" rel="external">plus d\'infos</a>)',
 
 'cookie_path' => 'Chemin',
 

@@ -164,9 +164,9 @@ $lang = array(
 'zero_directories_found' => 'Aucun <b>répertoire</b> trouvé',
 
 // modal
-'90_degrees_left' => '90&#176; à gauche',
+'90_degrees_left' => "90° à gauche",
 
-'90_degrees_right' => '90&#176; à droite',
+'90_degrees_right' => "90° à droite",
 
 'btn_crop_and_save_image' => 'Rogner &amp; enregistrer l\'image',
 
@@ -732,11 +732,11 @@ $lang = array(
 
 'restrict_to_group' => 'Restreindre le téléchargement de fichier aux groupes de membres sélectionnés',
 
-'rotate_180'			=> '180&#176',
+'rotate_180'			=> "180°",
 
-'rotate_90l'			=> '90&#176; à gauche',
+'rotate_90l'			=> "90° à gauche",
 
-'rotate_90r'			=> '90&#176; à droite',
+'rotate_90r'			=> "90° à droite",
 
 'rotate_flip_hor'		=> 'Basculer horizontalement',
 
