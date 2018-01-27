@@ -169,6 +169,9 @@ $lang = array(
 'enable_extensions' =>
 'Activer les extensions ?',
 
+'extensions_disabled_manage' =>
+"Les extensions doivent <a href='%s'>être activées</a> pour pouvoir gérer les extensions installées.",
+
 'disable_extension' =>
 'Désactiver ?',
 
@@ -308,14 +311,26 @@ $lang = array(
 'enable_throttling_explanation' =>
 'Cette fonctionnalité génère un en-tête et un message 404 si une requête dans laquelle le groupe de modèles est absent de l\'URL est effectuée sur votre site. Le but principal est d\'empêcher les moteurs de recherche d\'indexer des pages inexistantes.',
 
+"caching_driver" =>
+"Driver de cache",
+
+"caching_driver_failover" =>
+"Impossible de se connecter à %s, utilisation du driver %s à la place",
+
+"caching_driver_file_fail" =>
+"Impossible d\'utiliser le driver %s, vérifiez les permissions du chemin du cache",
+
+"disable_caching" =>
+"Désactiver la mise en cache",
+
 'max_caches' =>
 'Nombre maximum d\'URI en cache',
 
 'max_caches_explanation' =>
-'Si vous activez le cache des pages ou de la base de données, cette préférence limitera le nombre total d\'instances en cache afin de prévenir une taille de cache excessive. 150 est une valeur correcte pour un petit site. Si vous avez un gros site et que l\'espace disque n\'est pas un problème, vous pouvez l\'augmenter (300 ou plus). Cependant, une limite interne de 1000 ne peut être dépassée.',
+'Si vous activez le cache des pages ou de la base de données, ceci limitera le nombre total d\'instances en cache. Nous recommandons 150 pour les petits sites et 300 pour les grands. Le maximum autorisé est 1000.',
 
 'standby_recount' =>
-'Recomptage&hellip Veuillez patienter&hellip',
+'Recomptage... Veuillez patienter...',
 
 'theme_folder_url' =>
 'URL de votre dossier "themes"',
@@ -450,6 +465,9 @@ $lang = array(
 'pm_cfg' =>
 'Préférences des messages privés',
 
+'prv_msg_enabled' =>
+'Activer les échanges de messages privés entre membres ?',
+
 'prv_msg_storage_limit' =>
 'Nombre maximum de messages privés qu\'un utilisateur peut stocker',
 
@@ -458,6 +476,9 @@ $lang = array(
 
 'prv_msg_max_chars' =>
 'Nombre maximum de caractères autorisés dans un message privé',
+
+'prv_msg_allow_attachments' =>
+'Autoriser les pièces jointes dans les messages privés ?',
 
 'prv_msg_max_attachments' =>
 'Nombre maximum de pièces jointes par message privé',
@@ -798,8 +819,17 @@ $lang = array(
 'debug_cfg' =>
 'Préférences du débogage',
 
+"software_registration" =>
+"Enregistrement du logiciel",
+
+"license_contact" =>
+"Email de contact du détenteur de la licence",
+
 'license_number' =>
 'Numéro de licence',
+
+'invalid_license_number' =>
+'Le numéro de licences fourni n\'est pas un numéro valide.',
 
 'word_separator' =>
 'Séparateur de mot pour les titres URL',
@@ -903,11 +933,11 @@ $lang = array(
 'group_assignment_defaults_to_two' =>
 'Si vous avez requis l\'activation des comptes, ce paramètre ne leur sera affecté qu\'une fois leur compte activé',
 
-'user_session_type' =>
-'Type de session utilisateur',
+"website_session_type" =>
+"Type de session site web",
 
-'admin_session_type' =>
-'Type de session du tableau de bord',
+"cp_session_type" =>
+"Type de session panneau de contrôle",
 
 'security_cfg' =>
 'Préférences de sécurité et de session',
@@ -927,17 +957,11 @@ $lang = array(
 's_session' =>
 'ID de session uniquement',
 
-'secure_forms' =>
-'Traiter les données de formulaire en Mode Sécurisé ?',
-
 'deny_duplicate_data' =>
 'Refuser les données dupliquées ?',
 
 'deny_duplicate_data_explanation' =>
 'Cette option permet d\'éviter l\'enregistrement de doublons (commentaires, etc.) soumis par les utilisateurs si un duplicata exact des données existe.',
-
-'secure_forms_explanation' =>
-'Empêche le spam et les soumissions multiples accidentelles.',
 
 'allow_multi_logins' =>
 'Autoriser les sessions multiples à partir d\'un seul compte ?',
@@ -986,6 +1010,12 @@ $lang = array(
 
 'dictionary_explanation' =>
 'Le nom du fichier contenant votre liste de mots',
+
+'license_contact_explanation' =>
+'L\'adresse email de contact du détenteur de la licence logicielle.',
+
+'license_number_explanation' =>
+'Vous pouvez trouver et gérer vos licences logicielles sur la page <a href="https://store.ellislab.com/manage">Manage Purchases</a> de EllisLab.com,',
 
 'image_path' =>
 'Chemin du répertoire image',
@@ -1086,14 +1116,20 @@ $lang = array(
 'localization_cfg' =>
 'Paramètres de localisation',
 
+"date_format" =>
+"Format de date par défaut",
+
 'time_format' =>
-'Format des dates et heures',
+'Format d\'heure par défaut',
 
-'united_states' =>
-'Américain',
+"24_hour" =>
+"24 heures",
 
-'european' =>
-'Européen',
+"12_hour" =>
+"12 heures avec AM/PM",
+
+"include_seconds" =>
+"Inclure les secondes au format d\'heure par défaut",
 
 "default_site_timezone" =>
 "Fuseau horaire du site",
@@ -1691,6 +1727,9 @@ $lang = array(
 
 'illegal_characters' =>
 'Le nom proposé ne doit contenir que des caractères alphanumérique, le souligné ou le tiret.',
+
+'invalid_xss_check' =>
+'Les données que vous avez soumises n\'ont pas réussi notre examen de sécurité. Si vous n\'aviez pas l\'intention de soumettre ce formulaire, merci de <a href="%s">cliquer ici</a> et aucun paramètre ne sera modifié.',
 
 'developer_logs' =>
 'Vous avez %d entrée(s) non parcourue(s) dans le <a href="%s">Journal Développeur</a>.',

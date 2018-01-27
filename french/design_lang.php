@@ -183,6 +183,9 @@ $lang = array(
 "parse_stage" =>
 "Analyse du PHP",
 
+'protect_javascript' =>
+'Protéger Javascript',
+
 "access" =>
 "Accès",
 
@@ -627,12 +630,6 @@ $lang = array(
 "export_template" =>
 "Exporter le modèle",
 
-'export_all' => /** Absent de la dernière version US */
-'Tout exporter',
-
-'export_group' => /** Absent de la dernière version US */
-'Exporter le groupe',
-
 'default_template_group' =>
 "Groupe par défaut :",
 
@@ -649,9 +646,26 @@ un flux RSS/Atom d'un canal restreint des utilisateurs non autorisés, mais un l
 l'authentification HTTP sera capable de récupérer le flux. Il y a des problèmes de sécurité avec l'authentification
 HTTP, merci de lire la documentation.",
 
-'enable_http_authentication_note' => /** Absent de la dernière version US */
-"Si la connexion échoue, l'utilisateur verra une page 401 Non Autorisé et non le modèle de redirection ci-dessous.
-De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP est exécuté comme un module Apache.",
+'template_route' =>
+'Route de modèle :',
+
+'template_route_subtext' =>
+'Si une route est communiquée ici, elle outrepassera la structure d\'URL groupe/modèle par défaut.',
+
+'enable_template_routes' =>
+'Activer les routes de modèle',
+
+'enable_template_routes_exp' =>
+'Désactiver les routes de modèle supprimera les options de routes du panneau d\'accès et les modèles ne seront accessibles qu\'à partir de l\'URL groupe/modèle par défaut.',
+
+'route_required' =>
+'Exiger tous les segments :',
+
+'route_required_subtext' =>
+'Si les segments de routes sont obligatoires, tous les segments de la route de modèle devront être présent dans l\'URI de la requête.',
+
+'template_routes_saved' =>
+'Routes de modèle enregistrées',
 
 'http_auth_protected' =>
 'Protégé par Autenthification HTTP',
@@ -677,11 +691,33 @@ De plus, cette fonctionnalité n'est habituellement disponible que lorsque PHP e
 'template_manager' =>
 "Gestionnaire de modèles",
 
+'url_manager' =>
+'Gestionnaire de routes de modèle',
+
+'template_route_notice' =>
+'Les routes sont listées dans l\'ordre que le routeur de modèles analysera vos modèles.
+Vous pouvez glisser-déposer pour modifier cet ordre.', // à revoir
+
+'route_manager_group' =>
+'Groupe',
+
+'route_manager_template' =>
+'Modèle',
+
+'route_manager_route' =>
+'Route',
+
+'route_manager_required' =>
+'Segments obligatoires',
+
 'template_id_not_found' =>
 "L'ID de modèle sélectionné est l'invalide",
 
 'index_delete_disallowed' =>
 "Les groupes de modèles doivent avoir un modèle Index",
+
+'toggle_editor' =>
+'Basculer l\'éditeur',
 
 //----------------------------
 // Profile Theme Templates

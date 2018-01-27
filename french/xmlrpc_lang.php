@@ -3,7 +3,7 @@
 $lang = array(
 
 'invalid_license' =>
-'License invalide',
+'Licence invalide',
 
 ''=>''
 );

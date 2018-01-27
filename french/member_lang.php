@@ -215,6 +215,9 @@ $lang = array(
 "your_profile" =>
 "Votre profil public",
 
+'update_preferences' =>
+'Préférences mises à jour',
+
 "edit_signature" =>
 "Éditer la signature",
 
@@ -491,7 +494,7 @@ $lang = array(
 "Vous êtes maintenant déconnecté.",
 
 "mbr_no_reset_id" =>
-"Le numéro ID que vous avez saisi ne semble pas être valide. Veuillez vérifier le lien que vous avez suivi.",
+"Le jeton de réinitialisation du mot de passe ne semble pas être valide. Veuillez vérifier le lien que vous avez suivi.",
 
 "mbr_id_not_found" =>
 "Le numéro de code que vous avez saisi n'a pas été trouvé dans la base de données.",

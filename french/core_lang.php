@@ -57,6 +57,9 @@ $lang = array(
 'dot' =>
 'point',
 
+'and' =>
+'et',
+
 'or' =>
 'ou',
 
@@ -103,6 +106,9 @@ $lang = array(
 "error" =>
 "Erreur",
 
+'generic_fatal_error' =>
+'Une erreur est survenue et cette URL ne peut être rendue pour le moment.',
+
 "invalid_url" =>
 "L'URL que vous avez soumise est invalide.",
 
@@ -114,6 +120,9 @@ $lang = array(
 
 "invalid_action" =>
 "L'action que vous avez demandée est invalide.",
+
+'csrf_token_expired' =>
+'Ce formulaire a expiré. Merci de raffraîchir l\'écran et de réessayer.',
 
 'current_password_required' =>
 'Votre mot de passe actuel est requis.',
@@ -133,6 +142,22 @@ $lang = array(
 'unable_to_load_field_type' =>
 'Impossible de charger le fichier de type de champ demandé :  %s.<br />
 Confirmez que le fichier de type de champ est bien situé dans le répertoire expressionengine/third_party/ ',
+
+'unwritable_cache_folder' =>
+'Votre répertoire Cache ne possède pas les permissions nécessaires.<br>
+Correction : mettez les permissions du répertoire Cache (/expressionengine/cache/) à 777 (ou équivalent pour votre serveur).',
+
+'unwritable_config_file' =>
+'Votre fichier de configuration ne possède pas les permissions nécessaires.<br>
+Correction: mettez les permissions du fichier de configuration (/expressionengine/config/config.php) à 666 (ou équivalent pour votre serveur).',
+
+'redirect_xss_fail' => 'Le lien vers lequel vous êtes redirigé contient du code potentiellement malicieux ou dangereux. Nous vous recommandons de cliquer sur le bouton de retour arrière et d\'envoyer un email à %s pour communiquer le lien qui a généré ce message.',
+
+'missing_mime_config' =>
+'Impossible d\'importer votre liste blanche de types MIME : le fichier %s n\'existe pas ou ne peut pas être lu.',
+
+'file_not_found' =>
+'Le fichier %s n\'existe pas.',
 
 //----------------------------
 // Member Groups
@@ -176,6 +201,19 @@ Confirmez que le fichier de type de champ est bien situé dans le répertoire ex
 'template_load_order' =>
 'Ordre de chargement des modèles',
 
+'error_multiple_layouts' =>
+'Plusieurs dispositions trouvées, merci de vous assurer que vous n\'avez qu\'une balise de disposition par modèle.',
+
+'error_layout_too_late' =>
+'Balise de plugin ou de module trouvée avant la déclaration de disposition. Merci de déplacer la balise de disposition tout en haut de votre modèle.',
+
+'error_invalid_conditional' =>
+'Vous avez une conditionnelle invalide dans votre modèle. Merci de vérifier vos conditionnelles en cherchant une chaîne non fermée, des opérateurs invalides, un } manquant ou un {/if} manquant.',
+
+'layout_contents_reserved' =>
+'Le nom "contents" est réservé pour les données de modèle et ne peut pas être utilisé en tant que variable de disposition (ex. {layout:set name="contents"} or {layout="foo/bar" contents=""}).',
+
+
 //----------------------------
 // Email
 //----------------------------
@@ -189,6 +227,9 @@ Confirmez que le fichier de type de champ est bien situé dans le répertoire ex
 "no_email_found" =>
 "L'adresse email que vous avez saisie n'a pu être trouvée dans la base de données.",
 
+'password_reset_flood_lock' =>
+'Vous avez essayé de réinitialiser votre mot de passe de trop nombreuses fois aujourd\'hui. Merci de vérifier vos dossiers Boîte de réception et Spam (courrier indésirable) pour les requêtes précédentes, ou contacter l\'administrateur du site.',
+
 "your_new_login_info" =>
 "Information de connexion",
 
@@ -198,6 +239,24 @@ Confirmez que le fichier de type de champ est bien situé dans le répertoire ex
 //----------------------------
 // Date
 //----------------------------
+
+'singular' =>
+'une',
+
+'less_than' =>
+'moins de',
+
+'about' =>
+'environ',
+
+'past' =>
+'il y a %s',
+
+'future' =>
+'dans %s',
+
+'ago' =>
+'il y a %x',
 
 "year" =>
 "année",
@@ -210,6 +269,12 @@ Confirmez que le fichier de type de champ est bien situé dans le répertoire ex
 
 "months" =>
 "mois",
+
+'fortnight' =>
+'quinzaine',
+
+'fortnights' =>
+'quinzaines',
 
 "week" =>
 "semaine",

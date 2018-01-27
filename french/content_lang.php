@@ -966,65 +966,44 @@ $lang = array(
 'Afficher les outils',
 
 // writemode
-'wm_discard_changes' =>
-'Abandonner les modifications',
+'wm_discard_changes' => 'Abandonner les modifications',
+'wm_publish_to_field' => 'Publier dans le champ',
 
-'wm_publish_to_field' =>
-'Publier dans le champ',
+'edit_modes' => 'Modes d\'édition',
 
-'edit_modes' =>
-'Modes d\'édition',
+'resize' => 'Redimensionner',
 
-'resize' =>
-'Redimensionner',
+'crop' => 'Rogner',
 
-'crop' =>
-'Rogner',
+'resize_width' => 'Largeur',
 
-'resize_width' =>
-'Largeur',
+'resize_height' => 'Hauteur',
 
-'resize_height' =>
-'Hauteur',
+'crop_width' => 'Largeur',
 
-'crop_width' =>
-'Largeur',
+'crop_height' => 'Hauteur',
 
-'crop_height' =>
-'Hauteur',
+'crop_x' => 'X',
 
-'crop_x' =>
-'X',
+'crop_y' => 'Y',
 
-'crop_y' =>
-'Y',
+'rotate' => 'Effectuer une rotation',
 
-'rotate' =>
-'Effectuer une rotation',
+'rotate_90r' => '90&#176; à droite',
 
-'rotate_90r' =>
-'90&#176; à droite',
+'rotate_90l' => '90&#176; à gauche',
 
-'rotate_90l' =>
-'90&#176; à gauche',
+'rotate_180' => '180&#176',
 
-'rotate_180' =>
-'180&#176',
+'rotate_flip_vert' => 'Retourner verticalement',
 
-'rotate_flip_vert' =>
-'Retourner verticalement',
+'rotate_flip_hor' => 'Retourner horizontalement',
 
-'rotate_flip_hor' =>
-'Retourner horizontalement',
+'maintain_ratio' => 'Conserver les proportions',
 
-'maintain_ratio' =>
-'Conserver les proportions',
+'width_needed' => 'Une largeur, une largeur/hauteur, ou une direction de rotation doit être sélectionnée',
 
-'width_needed' =>
-'Une largeur, une largeur/hauteur, ou une direction de rotation doit être sélectionnée',
-
-'edit_image' =>
-'Éditer l\'image',
+'edit_image' => 'Éditer l\'image',
 
 'layout_success' =>
 'Disposition sauvegardée',
@@ -1046,6 +1025,9 @@ $lang = array(
 
 'invalid_date' =>
 'La date que vous avez saisie est invalide.',
+
+'invalid_date_ambiguous' =>
+'La date soumise est ambigüe, Merci de mettre l\'année sur 4 chiffres ou d\'utiliser des slashs plutot que des tirets.',
 
 'fields' =>
 'Champs',

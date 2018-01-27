@@ -89,6 +89,7 @@ $lang = array(
 'deprecated_use_instead'	=> 'Utilisez plutôt %s.',
 'deprecated_template'	=> 'Depuis la balise de modèle %s dans %s.',
 'deprecated_snippets'	=> 'Cette balise peut avoir été hachée à partir de l\'un de ces snippets : %s',
+'deprecated_hook'		=> 'Connecteur d\'extension obsolète appelé par les extensions suivantes (Class::method) <ul>%s</ul>',
 'deprecation_detected'	=> 'Ceci est un journal pour les développeurs destiné à sensibiliser les Super Admins à certains messages ou alertes.',
 'dev_log_view_report'	=> 'Voir le rapport',
 'dev_log_help'			=> 'Qu\'est-ce que cela veut dire ?',

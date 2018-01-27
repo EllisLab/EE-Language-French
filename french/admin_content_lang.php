@@ -2,1057 +2,716 @@
 
 $lang = array(
 
-"reserved_word" =>
-"Le nom de champ que vous avez choisi est réservé et ne peut être utilisé. Veuillez vous reporter au guide d'utilisation pour plus d'information.",
+"reserved_word" => "Le nom de champ que vous avez choisi est réservé et ne peut être utilisé. Veuillez vous reporter au guide d'utilisation pour plus d'information.",
 
-"list_edit_warning" =>
-"Si vous n'avez pas enregistré les changements sur cette page ils seront perdus lorsque vous serez envoyé vers l'éditeur de formatage.",
+"list_edit_warning" => "Si vous n'avez pas enregistré les changements sur cette page ils seront perdus lorsque vous serez envoyé vers l'éditeur de formatage.",
 
-"fmt_has_changed" =>
-"Note : Vous avez sélectionné un choix de formatage de champ différent de celui sauvegardé précedemment.",
+"fmt_has_changed" => "Note : Vous avez sélectionné un choix de formatage de champ différent de celui sauvegardé précedemment.",
 
-"update_existing_fields" =>
-"Mettre à jour tous les articles avec ce nouveau choix de formatage ?",
+"update_existing_fields" => "Mettre à jour tous les articles avec ce nouveau choix de formatage ?",
 
-"display_criteria" =>
-"Sélectionnez les critères d'affichage de la page CONTENU : Publier",
+"display_criteria" => "Sélectionnez les critères d'affichage de la page CONTENU : Publier",
 
-"field_type_options" =>
-"Options du champ",
+"field_type_options" => "Options du champ",
 
-"limit" =>
-"limite",
+"limit" => "limite",
 
-"orderby_title" =>
-"Trier par Titre",
+"orderby_title" => "Trier par Titre",
 
-"orderby_date" =>
-"Trier par Date",
+"orderby_date" => "Trier par Date",
 
-"sort_desc" =>
-"Ordre Descendant",
+"sort_desc" => "Ordre Descendant",
 
-"in" =>
-"dans",
+"in" => "dans",
 
-"sort_asc" =>
-"Ordre Ascendant",
+"sort_asc" => "Ordre Ascendant",
 
-"field_label_info" =>
-"Ceci est le nom qui apparaîtra sur la page CONTENU : Publier",
+"field_label_info" => "Ceci est le nom qui apparaîtra sur la page CONTENU : Publier",
 
-"deft_field_formatting" =>
-"Formatage de texte par défaut",
+"deft_field_formatting" => "Formatage de texte par défaut",
 
-"formatting_no_available" =>
-"Le formatage de texte est indisponible pour le type de champ choisi",
+"formatting_no_available" => "Le formatage de texte est indisponible pour le type de champ choisi",
 
-"show_formatting_buttons" =>
-"Paramétrage modifiable sur la page CONTENU : Publier ?",
+"show_formatting_buttons" => "Paramétrage modifiable sur la page CONTENU : Publier ?",
 
-"hide_formatting_buttons" =>
-"Masquer le menu de formatage",
+"hide_formatting_buttons" => "Masquer le menu de formatage",
 
-'field_options' =>
-'Options de champs',
+'field_options' => 'Options de champs',
 
-"date_field" =>
-"Champ Date",
+"date_field" => "Champ Date",
 
-"relationship" =>
-"Relation",
+"relationship" => "Relation",
 
-"related_to_channel" =>
-"Relier des articles d'un canal à ceux d'un autre canal",
+"related_to_channel" => "Relier des articles d'un canal à ceux d'un autre canal",
 
-"select_related_channel" =>
-"Sélectionnez le canal avec lequel vous souhaitez établir un lien :",
+"select_related_channel" => "Sélectionnez le canal avec lequel vous souhaitez établir un lien :",
 
-"rss_url" =>
-"URL du flux RSS",
+"rss_url" => "URL du flux RSS",
 
-"rss_url_exp" =>
-"L'adresse à laquelle le flux RSS de ce canal peut être consulté.",
+"rss_url_exp" => "L'adresse à laquelle le flux RSS de ce canal peut être consulté.",
 
-"update_publish_cats" =>
-"Fermer la fenêtre et mettre à jour les catégories de la page CONTENU : Publier",
+"update_publish_cats" => "Fermer la fenêtre et mettre à jour les catégories de la page CONTENU : Publier",
 
-"versioning" =>
-"Préférences des révisions",
+"versioning" => "Préférences des révisions",
 
-"enable_versioning" =>
-"Activer les versions d'articles",
+"enable_versioning" => "Activer les versions d'articles",
 
-"clear_versioning_data" =>
-"Supprimer toutes les données de version de ce canal",
+"clear_versioning_data" => "Supprimer toutes les données de version de ce canal",
 
-"max_revisions" =>
-"Nombre maximum de révisions récentes par article",
+"max_revisions" => "Nombre maximum de révisions récentes par article",
 
-"max_revisions_note" =>
-"Les révisions peuvent utiliser un espace considérable de la base de données, il est donc fortement recommandé de limiter leur nombre.",
+"max_revisions_note" => "Les révisions peuvent utiliser un espace considérable de la base de données, il est donc fortement recommandé de limiter leur nombre.",
 
-"field_populate_manually" =>
-"Remplir le menu manuellement",
+"field_populate_manually" => "Remplir le menu manuellement",
 
-"field_populate_from_channel" =>
-"Remplir le menu depuis un autre champ personnalisé",
+"field_populate_from_channel" => "Remplir le menu depuis un autre champ personnalisé",
 
-"select_channel_for_field" =>
-"Sélectionnez le champ source pour le remplissage :",
+"select_channel_for_field" => "Sélectionnez le champ source pour le remplissage :",
 
-"field_val" =>
-"Vous devez choisir un nom de champ de ce menu, pas un nom de canal.",
+"field_val" => "Vous devez choisir un nom de champ de ce menu, pas un nom de canal.",
 
-"channel_notify" =>
-"Activer la liste des destinataires ci-dessous pour la notification des nouveaux articles ?",
+"channel_notify" => "Activer la liste des destinataires ci-dessous pour la notification des nouveaux articles ?",
 
-"no_statuses" =>
-"Aucun statut n'a été trouvé",
+"no_statuses" => "Aucun statut n'a été trouvé",
 
-"status_created" =>
-"Le statut a été créé",
+"status_created" => "Le statut a été créé",
 
-"field_is_hidden" =>
-"Afficher ce champ par défaut ?",
+"field_is_hidden" => "Afficher ce champ par défaut ?",
 
-"hidden_field_blurb" =>
-"Cette préférence détermine si le champ est visible sur la page CONTENU : Publier. Si elle est paramétrée sur \"non\" un lien permettant d'ouvrir le champ sera affiché à la place.",
+"hidden_field_blurb" => "Cette préférence détermine si le champ est visible sur la page CONTENU : Publier. Si elle est paramétrée sur \"non\" un lien permettant d'ouvrir le champ sera affiché à la place.",
 
-"include_rss_templates" =>
-"Inclure les modèles RSS",
+"include_rss_templates" => "Inclure les modèles RSS",
 
-"notification_settings" =>
-"Préférences de notification",
+"notification_settings" => "Préférences de notification",
 
-"comment_notify_authors" =>
-"Prévenir l'auteur d'un article lorsqu'un commentaire est publié ?",
+"comment_notify_authors" => "Prévenir l'auteur d'un article lorsqu'un commentaire est publié ?",
 
-"comment_notify" =>
-"Activer la liste des destinataires ci-dessous pour la notification de commentaire ?",
+"comment_notify" => "Activer la liste des destinataires ci-dessous pour la notification de commentaire ?",
 
-'update_existing_comments_mod' =>
-"Mettre à jour tous les articles avec ce paramètre d'expiration ?",
+'update_existing_comments_mod' => "Mettre à jour tous les articles avec ce paramètre d'expiration ?",
 
-"update_existing_comments" =>
-"Mettre à jour tous les commentaires avec ce paramètre d'expiration ?",
+"update_existing_comments" => "Mettre à jour tous les commentaires avec ce paramètre d'expiration ?",
 
-"category_order_confirm_text" =>
-"Êtes-vous sûr de vouloir trier ce groupe de catégories par ordre alphabétique ?",
+"category_order_confirm_text" => "Êtes-vous sûr de vouloir trier ce groupe de catégories par ordre alphabétique ?",
 
-"category_sort_warning" =>
-"Si vous utilisez un ordre de tri personnalisé, il sera remplacé par un classement alphabétique.",
+"category_sort_warning" => "Si vous utilisez un ordre de tri personnalisé, il sera remplacé par un classement alphabétique.",
 
-"global_sort_order" =>
-"Ordre de tri prioritaire",
+"global_sort_order" => "Ordre de tri prioritaire",
 
-"custom" =>
-"Personnalisé",
+"custom" => "Personnalisé",
 
-"alpha" =>
-"Alphabétique",
+"alpha" => "Alphabétique",
 
-'id' =>
-'ID',
+'id' => 'ID',
 
-"channel_id" =>
-"ID",
+"channel_id" => "ID",
 
-"channel_short_name" =>
-"Nom court",
+"channel_short_name" => "Nom court",
 
-"group_required" =>
-"Vous devez spécifier un nom de groupe.",
+"group_required" => "Vous devez spécifier un nom de groupe.",
 
-"comment_url" =>
-"URL de la page commentaire",
+"comment_url" => "URL de la page commentaire",
 
-"comment_url_exp" =>
-"L'adresse à laquelle est située la page commentaire de ce canal.",
+"comment_url_exp" => "L'adresse à laquelle est située la page commentaire de ce canal.",
 
-"order" =>
-"Ordre",
+"order" => "Ordre",
 
-"delete_category_confirmation" =>
-"Êtes-vous sûr de vouloir supprimer la catégorie suivante ?",
+"delete_category_confirmation" => "Êtes-vous sûr de vouloir supprimer la catégorie suivante ?",
 
-"category_description" =>
-"Description de la catégorie",
+"category_description" => "Description de la catégorie",
 
-"category_updated" =>
-"Catégorie mise à jour",
+"category_updated" => "Catégorie mise à jour",
 
-"new_category" =>
-"Créer une nouvelle catégorie",
+"new_category" => "Créer une nouvelle catégorie",
 
-"template_creation" =>
-"Créer de nouveaux modèles pour ce canal ?",
+"template_creation" => "Créer de nouveaux modèles pour ce canal ?",
 
-"use_a_theme" =>
-"Utiliser un des modèles par défaut",
+"use_a_theme" => "Utiliser un des modèles par défaut",
 
-"myaccount_cp_theme" =>
-"Thème du tableau de bord",
+"myaccount_cp_theme" => "Thème du tableau de bord",
 
-"duplicate_group" =>
-"Dupliquer un groupe de modèles existant",
+"duplicate_group" => "Dupliquer un groupe de modèles existant",
 
-"template_group_name" =>
-"Nom du nouveau groupe de modèles",
+"template_group_name" => "Nom du nouveau groupe de modèles",
 
-"template_group_choose" =>
-"Veuillez choisir un groupe de modèles",
+"template_group_choose" => "Veuillez choisir un groupe de modèles",
 
-"new_group_instructions" =>
-"Ce champ est requis si vous créez un nouveau groupe",
+"new_group_instructions" => "Ce champ est requis si vous créez un nouveau groupe",
 
-"publish_page_customization" =>
-"Personnalisation de la page CONTENU : Publier",
+"publish_page_customization" => "Personnalisation de la page CONTENU : Publier",
 
-"show_button_cluster" =>
-"Afficher les boutons de formatage",
+"show_button_cluster" => "Afficher les boutons de formatage",
 
-'paths' =>
-"Paramètres de chemin",
+'paths' => "Paramètres de chemin",
 
-"channel_url_exp" =>
-"L'adresse qui pointe vers ce canal précis.",
+"channel_url_exp" => "L'adresse qui pointe vers ce canal précis.",
 
-"search_results_url" =>
-"URL des résultats de recherche",
+"search_results_url" => "URL des résultats de recherche",
 
-"search_results_url_exp" =>
-"L'adresse vers laquelle les résultats de la recherche venant de ce canal doivent pointer.",
+"search_results_url_exp" => "L'adresse vers laquelle les résultats de la recherche venant de ce canal doivent pointer.",
 
-"comment_expiration" =>
-"Expiration des commentaires",
+"comment_expiration" => "Expiration des commentaires",
 
-"comment_expiration_desc" =>
-"Durée en jours pendant lesquels il est possible de commenter un article. Entrez 0 (zero) si vous ne voulez pas limiter.",
+"comment_expiration_desc" => "Durée en jours pendant lesquels il est possible de commenter un article. Entrez 0 (zero) si vous ne voulez pas limiter.",
 
-"restrict_status_to_group" =>
-"Restreindre le statut pour certains groupes de membres",
+"restrict_status_to_group" => "Restreindre le statut pour certains groupes de membres",
 
-"no_publishing_groups" =>
-"Aucun groupe de membres autorisé à publier n'est disponible",
+"no_publishing_groups" => "Aucun groupe de membres autorisé à publier n'est disponible",
 
-"status_updated" =>
-"Le statut a été mis à jour",
+"status_updated" => "Le statut a été mis à jour",
 
-"status_deleted" =>
-"Le statut a été supprimé",
+"status_deleted" => "Le statut a été supprimé",
 
-"can_edit_status" =>
-"Peut accéder au statut",
+"can_edit_status" => "Peut accéder au statut",
 
-"search_excerpt" =>
-"Quel champ doit être utilisé pour l'extraction de recherche ?",
+"search_excerpt" => "Quel champ doit être utilisé pour l'extraction de recherche ?",
 
-"channel_prefs" =>
-"Préférences du canal",
+"channel_prefs" => "Préférences du canal",
 
-"channel_settings" =>
-"Préférences de publication du canal",
+"channel_settings" => "Préférences de publication du canal",
 
-"comment_prefs" =>
-"Préférences de publication de commentaire",
+"comment_prefs" => "Préférences de publication de commentaire",
 
-"comment_use_captcha" =>
-"Activer Captcha pour la publication de commentaire ?",
+"comment_use_captcha" => "Activer Captcha pour la publication de commentaire ?",
 
-"comment_moderate" =>
-"Modérer les commentaires ?",
+"comment_moderate" => "Modérer les commentaires ?",
 
-"comment_moderate_exp" =>
-"Si paramétré sur oui, les commentaires ne seront visibles qu'après approbation par un modérateur.",
+"comment_moderate_exp" => "Si paramétré sur oui, les commentaires ne seront visibles qu'après approbation par un modérateur.",
 
-"comment_system_enabled" =>
-"Autoriser les commentaires dans ce canal ?",
+"comment_system_enabled" => "Autoriser les commentaires dans ce canal ?",
 
-"edit_channel_prefs" =>
-"Éditer les préférences du canal",
+"edit_channel_prefs" => "Éditer les préférences du canal",
 
-"edit_group_prefs" =>
-"Éditer les préférences de groupe",
+"edit_group_prefs" => "Éditer les préférences de groupe",
 
-"edit_group_assignments" =>
-"Éditer les groupes",
+"edit_group_assignments" => "Éditer les groupes",
 
-"duplicate_channel_prefs" =>
-"Dupliquer les préférences du canal",
+"duplicate_channel_prefs" => "Dupliquer les préférences du canal",
 
-"do_not_duplicate" =>
-'Ne pas dupliquer',
+"do_not_duplicate" => 'Ne pas dupliquer',
 
-"no_channels_exist" =>
-"Il n'y a actuellement aucun canal",
+"no_channels_exist" => "Il n'y a actuellement aucun canal",
 
-"create_new_channel" =>
-"Créer un nouveau canal",
+"create_new_channel" => "Créer un nouveau canal",
 
-"channel_base_setup" =>
-"Préférences générales du canal",
+"channel_base_setup" => "Préférences générales du canal",
 
-"default_settings" =>
-"Préférences d'administration",
+"default_settings" => "Préférences d'administration",
 
-"channel_name" =>
-"Nom court",
+"channel_name" => "Nom court",
 
-"channel_url" =>
-"URL du canal",
+"channel_url" => "URL du canal",
 
-"channel_lang" =>
-"Langue XML",
+"channel_lang" => "Langue XML",
 
-"channel_description" =>
-"Description du canal",
+"channel_description" => "Description du canal",
 
-"illegal_characters" =>
-"Le nom doit contenir uniquement des caractères alphanumériques, des espaces, des underscores ou des tirets",
+"illegal_characters" => "Le nom doit contenir uniquement des caractères alphanumériques, des espaces, des underscores ou des tirets",
 
-"comment_require_membership" =>
-"Requérir une inscription pour publier des commentaires ?",
+"comment_require_membership" => "Requérir une inscription pour publier des commentaires ?",
 
-"channel_require_membership" =>
-"Requérir une inscription pour publier des articles ?",
+"channel_require_membership" => "Requérir une inscription pour publier des articles ?",
 
-"comment_require_email" =>
-"Requérir l'adresse email pour publier des commentaires ?",
+"comment_require_email" => "Requérir l'adresse email pour publier des commentaires ?",
 
-"channel_require_email" =>
-"Requérir l'adresse email pour publier des articles ?",
+"channel_require_email" => "Requérir l'adresse email pour publier des articles ?",
 
-"channel_max_chars" =>
-"Nombre maximum de caractères autorisés dans les articles",
+"channel_max_chars" => "Nombre maximum de caractères autorisés dans les articles",
 
-"comment_max_chars" =>
-"Nombre maximum de caractères autorisés dans les commentaires",
+"comment_max_chars" => "Nombre maximum de caractères autorisés dans les commentaires",
 
-"comment_timelock" =>
-"Intervalle de temps entre chaque publication de commentaire",
+"comment_timelock" => "Intervalle de temps entre chaque publication de commentaire",
 
-"comment_timelock_desc" =>
-"Nombre de secondes avant qu'un utilisateur puisse soumettre un autre commentaire. Laisser vide ou saisir 0 pour ne pas limiter.",
+"comment_timelock_desc" => "Nombre de secondes avant qu'un utilisateur puisse soumettre un autre commentaire. Laisser vide ou saisir 0 pour ne pas limiter.",
 
-"comment_text_formatting" =>
-"Formatage du texte des commentaires",
+"comment_text_formatting" => "Formatage du texte des commentaires",
 
-"channel_text_formatting" =>
-"Formatage par défaut du texte des articles",
+"channel_text_formatting" => "Formatage par défaut du texte des articles",
 
-"comment_html_formatting" =>
-"Formatage HTML des commentaires",
+"comment_html_formatting" => "Formatage HTML des commentaires",
 
-"channel_html_formatting" =>
-"Formatage HTML par défaut des articles",
+"channel_html_formatting" => "Formatage HTML par défaut des articles",
 
-"convert_to_entities" =>
-"Convertir le HTML en entité de caractères",
+"convert_to_entities" => "Convertir le HTML en entité de caractères",
 
-"allow_safe_html" =>
-"Autoriser le HTML sûr uniquement",
+"allow_safe_html" => "Autoriser le HTML sûr uniquement",
 
-"allow_all_html" =>
-"Autoriser tout le HTML",
+"allow_all_html" => "Autoriser tout le HTML",
 
-"allow_all_html_not_recommended" =>
-"Autoriser tout le HTML (déconseillé)",
+"allow_all_html_not_recommended" => "Autoriser tout le HTML (déconseillé)",
 
-"comment_notify_note" =>
-"Séparer les adresses par une virgule",
+"comment_notify_note" => "Séparer les adresses par une virgule",
 
-"comment_notify_emails" =>
-"Adresses email des destinataires de la notification",
+"comment_notify_emails" => "Adresses email des destinataires de la notification",
 
-"comment_allow_img_urls" =>
-"Autoriser les URLs d'image dans les commentaires ?",
+"comment_allow_img_urls" => "Autoriser les URLs d'image dans les commentaires ?",
 
-"channel_allow_img_urls" =>
-"Autoriser les URLs d'image dans les articles ?",
+"channel_allow_img_urls" => "Autoriser les URLs d'image dans les articles ?",
 
-"auto_link_urls" =>
-"Convertir automatiquement URL et adresses email en lien ?",
+"auto_link_urls" => "Convertir automatiquement URL et adresses email en lien ?",
 
-"single_word_no_spaces" =>
-"Un seul mot, sans espaces",
+"single_word_no_spaces" => "Un seul mot, sans espaces",
 
-"channel_title" =>
-"Nom complet du canal",
+"channel_title" => "Nom complet du canal",
 
-"edit_channel" =>
-"Éditer le canal",
+"edit_channel" => "Éditer le canal",
 
-"channel_full_name" =>
-"Nom du canal",
+"channel_full_name" => "Nom du canal",
 
-"new_channel" =>
-"Nouveau canal",
+"new_channel" => "Nouveau canal",
 
-"channel_created" =>
-"Canal créé :",
+"channel_created" => "Canal créé :",
 
-"channel_updated" =>
-"Canal mis à jour :",
+"channel_updated" => "Canal mis à jour :",
 
-"taken_channel_name" =>
-"Ce nom de canal est déjà utilisé.",
+"taken_channel_name" => "Ce nom de canal est déjà utilisé.",
 
-"no_channel_name" =>
-"Vous devez donner à votre canal un nom \"court\".",
+"no_channel_name" => "Vous devez donner à votre canal un nom \"court\".",
 
-"no_channel_title" =>
-"Vous devez donner à votre canal un nom \"complet\".",
+"no_channel_title" => "Vous devez donner à votre canal un nom \"complet\".",
 
-"invalid_short_name" =>
-"Le nom de votre canal ne doit contenir que des caractères alphanumériques et pas d'espaces.",
+"invalid_short_name" => "Le nom de votre canal ne doit contenir que des caractères alphanumériques et pas d'espaces.",
 
-"delete_channel" =>
-"Supprimer le canal",
+"delete_channel" => "Supprimer le canal",
 
-"channel_deleted" =>
-"Canal supprimé :",
+"channel_deleted" => "Canal supprimé :",
 
-"delete_channel_confirmation" =>
-"Êtes-vous sûr de vouloir définitivement supprimer ce canal ?",
+"delete_channel_confirmation" => "Êtes-vous sûr de vouloir définitivement supprimer ce canal ?",
 
-"be_careful" =>
-"ATTENTION !",
+"be_careful" => "ATTENTION !",
 
-"action_can_not_be_undone" =>
-"CETTE ACTION NE PEUT ÊTRE ANNULÉE",
+"action_can_not_be_undone" => "CETTE ACTION NE PEUT ÊTRE ANNULÉE",
 
-"assign_group_to_channel" =>
-"Note : Afin d'utiliser votre nouveau groupe, vous devez l'affecter à un canal.",
+"assign_group_to_channel" => "Note : Afin d'utiliser votre nouveau groupe, vous devez l'affecter à un canal.",
 
-"click_to_assign_group" =>
-"Cliquez ici pour l'affecter",
+"click_to_assign_group" => "Cliquez ici pour l'affecter",
 
-"default" =>
-"Défaut",
+"default" => "Défaut",
 
-"category" =>
-"Catégorie",
+"category" => "Catégorie",
 
-"deft_status" =>
-"Statut par défaut",
+"deft_status" => "Statut par défaut",
 
-"deft_category" =>
-"Catégorie par défaut",
+"deft_category" => "Catégorie par défaut",
 
-"deft_comments" =>
-"Cocher \"Autoriser les commentaires\" par défaut dans la page de publication ?",
+"deft_comments" => "Cocher \"Autoriser les commentaires\" par défaut dans la page de publication ?",
 
-"no_field_group_selected" =>
-"Aucun groupe de champs disponible pour ce canal",
+"no_field_group_selected" => "Aucun groupe de champs disponible pour ce canal",
 
-"invalid_field_group_selected" =>
-"Groupe de champs invalide",
+"invalid_field_group_selected" => "Groupe de champs invalide",
 
-"open" =>
-"Ouvert",
+"open" => "Ouvert",
 
-"closed" =>
-"Fermé",
+"closed" => "Fermé",
 
-"none" =>
-"Aucun(e)",
+"none" => "Aucun(e)",
 
-"define_html_buttons" =>
-"Définitions des boutons de formatage HTML",
+"define_html_buttons" => "Définitions des boutons de formatage HTML",
 
-'no_buttons' =>
-'Aucun bouton HTML n\'est défini.',
+'no_buttons' => 'Aucun bouton HTML n\'est défini.',
 
-"htmlbutton_delete_instructions" =>
-"Pour supprimer un élément, soumettez le formulaire en laissant le nom de balise vide",
+"htmlbutton_delete_instructions" => "Pour supprimer un élément, soumettez le formulaire en laissant le nom de balise vide",
 
-"tag_name" =>
-"Nom de la balise",
+"tag_name" => "Nom de la balise",
 
-"tag_open" =>
-"Balise d'ouverture",
+"tag_open" => "Balise d'ouverture",
 
-"tag_close" =>
-"Balise de fermeture",
+"tag_close" => "Balise de fermeture",
 
-"accesskey" =>
-"Raccourci",
+"accesskey" => "Raccourci",
 
-"tag_order" =>
-"Ordre",
+"tag_order" => "Ordre",
 
-"row" =>
-"Ligne",
+"row" => "Ligne",
 
 //----------------------------
 // Generic Phrases
 //----------------------------
 
-'group'=>
-'Groupe',
+'group'=> 'Groupe',
 
-'group_name' =>
-'Nom du groupe',
+'group_name' => 'Nom du groupe',
 
-'new_group_name' =>
-'Nom du groupe : ',
+'new_group_name' => 'Nom du groupe : ',
 
 
-'total_fields' =>
-'Nombre total de champs',
+'total_fields' => 'Nombre total de champs',
 
-'rename' =>
-'Renommer',
+'rename' => 'Renommer',
 
-'rename_group' =>
-'Renommer le groupe',
+'rename_group' => 'Renommer le groupe',
 
-'delete' =>
-'Supprimer',
+'delete' => 'Supprimer',
 
-'delete_group' =>
-'Supprimer le groupe',
+'delete_group' => 'Supprimer le groupe',
 
 
 //----------------------------
 // Category Administration
 //----------------------------
 
-"category_group" =>
-"Groupe de catégories",
+"category_group" => "Groupe de catégories",
 
-"category_groups" =>
-"Groupes de catégories",
+"category_groups" => "Groupes de catégories",
 
-"no_category_group_message" =>
-"Il n'y a actuellement aucune catégorie",
+"no_category_group_message" => "Il n'y a actuellement aucune catégorie",
 
-"no_category_message" =>
-"Il n'y a actuellement aucune catégorie assigné à ce groupe",
+"no_category_message" => "Il n'y a actuellement aucune catégorie assigné à ce groupe",
 
-"create_new_category_group" =>
-"Créer un nouveau groupe de catégories",
+"create_new_category_group" => "Créer un nouveau groupe de catégories",
 
-"edit_category_group" =>
-"Éditer le groupe de catégories",
+"edit_category_group" => "Éditer le groupe de catégories",
 
-"name_of_category_group" =>
-"Nom du groupe de catégories",
+"name_of_category_group" => "Nom du groupe de catégories",
 
-"taken_category_group_name" =>
-"Ce nom de groupe est déjà utilisé.",
+"taken_category_group_name" => "Ce nom de groupe est déjà utilisé.",
 
-"add_edit_categories" =>
-"Ajouter/Éditer des catégories",
+"add_edit_categories" => "Ajouter/Éditer des catégories",
 
-"edit_group_name" =>
-"Éditer le groupe",
+"edit_group_name" => "Éditer le groupe",
 
-"category_group_created" =>
-"Groupe de catégories créé :",
+"category_group_created" => "Groupe de catégories créé :",
 
-"category_group_updated" =>
-"Groupe mis à jour :",
+"category_group_updated" => "Groupe mis à jour :",
 
-"delete_cat_group_confirmation" =>
-"Êtes-vous sûr de vouloir de supprimer ce groupe de catégories ?",
+"delete_cat_group_confirmation" => "Êtes-vous sûr de vouloir de supprimer ce groupe de catégories ?",
 
-"category_group_deleted" =>
-"Groupe de catégories supprimé :",
+"category_group_deleted" => "Groupe de catégories supprimé :",
 
-"create_new_category" =>
-"Créer une nouvelle catégorie",
+"create_new_category" => "Créer une nouvelle catégorie",
 
-"add_new_category" =>
-"Ajouter une nouvelle catégorie",
+"add_new_category" => "Ajouter une nouvelle catégorie",
 
-"edit_category" =>
-"Éditer la catégorie",
+"edit_category" => "Éditer la catégorie",
 
-"delete_category" =>
-"Supprimer la catégorie",
+"delete_category" => "Supprimer la catégorie",
 
-'delete_cat_confirmation' =>
-'Êtes-vous sûr de vouloir supprimer cette catégorie de façon définitive ?',
+'delete_cat_confirmation' => 'Êtes-vous sûr de vouloir supprimer cette catégorie de façon définitive ?',
 
-"category_deleted" =>
-"Catégorie supprimée",
+"category_deleted" => "Catégorie supprimée",
 
-'category_url_title' =>
-'Titre URL de la catégorie',
+'category_url_title' => 'Titre URL de la catégorie',
 
-'cat_url_title_is_numeric' =>
-'Les nombres ne peuvent être utilisés comme titre URL de catégorie',
+'cat_url_title_is_numeric' => 'Les nombres ne peuvent être utilisés comme titre URL de catégorie',
 
-'unable_to_create_cat_url_title' =>
-'Impossible de créer un titre URL valide pour votre catégorie',
+'unable_to_create_cat_url_title' => 'Impossible de créer un titre URL valide pour votre catégorie',
 
-'duplicate_cat_url_title' =>
-'Une catégorie portant le titre URL spécifié existe déjà dans ce groupe de catégories',
+'duplicate_cat_url_title' => 'Une catégorie portant le titre URL spécifié existe déjà dans ce groupe de catégories',
 
-"category_name" =>
-"Nom de la catégorie",
+"category_name" => "Nom de la catégorie",
 
-'category_url_title' =>
-'Titre URL de la catégorie',
+'category_url_title' => 'Titre URL de la catégorie',
 
-"category_image" =>
-"Image de la catégorie",
+"category_image" => "Image de la catégorie",
 
-"category_img_blurb" =>
-"Ce champ optionnel vous permet d'affecter une image à vos catégories.",
+"category_img_blurb" => "Ce champ optionnel vous permet d'affecter une image à vos catégories.",
 
-"category_parent" =>
-"Catégorie parente",
+"category_parent" => "Catégorie parente",
 
-"custom_category_fields" =>
-"Champs personnalisés de catégorie",
+"custom_category_fields" => "Champs personnalisés de catégorie",
 
-'manage_custom_fields' =>
-'Gérer les champs personnalisés',
+'manage_custom_fields' => 'Gérer les champs personnalisés',
 
-'delete_cat_field' =>
-'Supprimer le champ de catégorie',
+'delete_cat_field' => 'Supprimer le champ de catégorie',
 
-'delete_cat_field_confirmation' =>
-'Êtes-vous sûr de vouloir supprimer définitivement ce champ de catégorie ?',
+'delete_cat_field_confirmation' => 'Êtes-vous sûr de vouloir supprimer définitivement ce champ de catégorie ?',
 
-'cat_field_deleted' =>
-'Champ de catégorie supprimé :',
+'cat_field_deleted' => 'Champ de catégorie supprimé :',
 
-'cat_field_updated' =>
-'Champ de catégorie mis à jour :',
+'cat_field_updated' => 'Champ de catégorie mis à jour :',
 
-'edit_cat_field' =>
-'Éditer le champ de catégorie',
+'edit_cat_field' => 'Éditer le champ de catégorie',
 
-'create_new_cat_field' =>
-'Créer un nouveau champ de catégorie',
+'create_new_cat_field' => 'Créer un nouveau champ de catégorie',
 
-'cat_field_created' =>
-'Nouveau champ de catégorie créé : ',
+'cat_field_created' => 'Nouveau champ de catégorie créé : ',
 
-'cat_field_edited' =>
-'Champ de catégorie édité :',
+'cat_field_edited' => 'Champ de catégorie édité :',
 
-'category_created' =>
-'Nouvelle catégorie créée',
+'category_created' => 'Nouvelle catégorie créée',
 
-'category_edited' =>
-'Catégorie édité',
+'category_edited' => 'Catégorie édité',
 
-'cat_field_label_info' =>
-'Ceci est le nom qui apparaîtra sur la page d\'édition de catégorie',
+'cat_field_label_info' => 'Ceci est le nom qui apparaîtra sur la page d\'édition de catégorie',
 
-'update_existing_cat_fields' =>
-'Mettre à jour toutes les catégories de ce groupe avec vos nouveaux paramètres de formatage ?',
+'update_existing_cat_fields' => 'Mettre à jour toutes les catégories de ce groupe avec vos nouveaux paramètres de formatage ?',
 
-'formatting' =>
-'Formatage :',
+'formatting' => 'Formatage :',
 
-'cat_field_html_formatting' =>
-'Formatage HTML des champs de catégorie',
+'cat_field_html_formatting' => 'Formatage HTML des champs de catégorie',
 
-'can_edit_categories' =>
-'Peut éditer les catégories',
+'can_edit_categories' => 'Peut éditer les catégories',
 
-'can_delete_categories' =>
-'Peut supprimer des catégories',
+'can_delete_categories' => 'Peut supprimer des catégories',
 
-'exclude_from_channels_or_publish' =>
-'Exclure de l\'affectation à un Canal ou à un Fichier ?',
+'exclude_from_channels_or_publish' => 'Exclure de l\'affectation à un Canal ou à un Fichier ?',
 'exclude_from_publish' 		=> 'Affectation à un Canal',
 'exclude_from_files'		=> 'Affectation à un Fichier',
 
-'no_member_groups_available' =>
-'Aucun groupe de membres pour %x les catégories. Vous pouvez assigner ces privilèges depuis l\'éditeur de groupe de membres : ',
+'no_member_groups_available' => 'Aucun groupe de membres pour %x les catégories. Vous pouvez assigner ces privilèges depuis l\'éditeur de groupe de membres : ',
 
-'member_group' =>
-'Groupe de membres',
+'member_group' => 'Groupe de membres',
 
-'member_groups' =>
-'Groupes de membres',
+'member_groups' => 'Groupes de membres',
 
-'missing_required_fields' =>
-'Les champs requis sont manquants :',
+'missing_required_fields' => 'Les champs requis sont manquants :',
 
-'update_category_image' =>
-'Merci de mettre à jour votre image de catégorie afin d\'utiliser le champ de fichier fourni, sinon l\'ancienne URL d\'image risque d\'être supprimée lors de la sauvegarde.',
+'update_category_image' => 'Merci de mettre à jour votre image de catégorie afin d\'utiliser le champ de fichier fourni, sinon l\'ancienne URL d\'image risque d\'être supprimée lors de la sauvegarde.',
 
 //----------------------------
 // Custom field Administration
 //----------------------------
 
-"field_settings" =>
-"Préférences du champ",
+"field_settings" => "Préférences du champ",
 
-"field_group" =>
-"Groupe de champs personnalisés",
+"field_group" => "Groupe de champs personnalisés",
 
-"field_groups" =>
-"Groupes de champs",
+"field_groups" => "Groupes de champs",
 
-"custom_fields" =>
-"Groupes de champs personnalisés",
+"custom_fields" => "Groupes de champs personnalisés",
 
-"no_field_group_message" =>
-"Il n'y a actuellement aucun champ personnalisé de canal",
+"no_field_group_message" => "Il n'y a actuellement aucun champ personnalisé de canal",
 
-"create_new_field_group" =>
-"Créer un nouveau groupe de champs personnalisés",
+"create_new_field_group" => "Créer un nouveau groupe de champs personnalisés",
 
-"new_field_group" =>
-"Nouveau groupe de champs",
+"new_field_group" => "Nouveau groupe de champs",
 
-"add_edit_fields" =>
-"Ajouter/Éditer des champs personnalisés",
+"add_edit_fields" => "Ajouter/Éditer des champs personnalisés",
 
-"edit_field_group_name" =>
-"Renommer",
+"edit_field_group_name" => "Renommer",
 
-"delete_field_group" =>
-"Supprimer le groupe de champs",
+"delete_field_group" => "Supprimer le groupe de champs",
 
-"create_new_field" =>
-"Créer un nouveau champ",
+"create_new_field" => "Créer un nouveau champ",
 
-"edit_field" =>
-"Éditer le champ",
+"edit_field" => "Éditer le champ",
 
-"custom_field_edited" =>
-"Champ personnalisé édité",
+"custom_field_edited" => "Champ personnalisé édité",
 
-"custom_field_created" =>
-"Champ personnalisé créé",
+"custom_field_created" => "Champ personnalisé créé",
 
-"no_field_groups" =>
-"Il n'y a aucun champ personnalisé dans ce groupe",
+"no_field_groups" => "Il n'y a aucun champ personnalisé dans ce groupe",
 
-"delete_field" =>
-"Supprimer le champ",
+"delete_field" => "Supprimer le champ",
 
-"field_deleted" =>
-"Champ personnalisé supprimé :",
+"field_deleted" => "Champ personnalisé supprimé :",
 
-"edit_field_order" =>
-"Ordre des champs",
+"edit_field_order" => "Ordre des champs",
 
-"create_new_custom_field" =>
-"Créer un nouveau champ personnalisé",
+"create_new_custom_field" => "Créer un nouveau champ personnalisé",
 
-"field_id" =>
-"ID du champ",
+"field_id" => "ID du champ",
 
-"field_label" =>
-"Étiquette du champ",
+"field_label" => "Étiquette du champ",
 
-"field_name" =>
-"Nom court du champ",
+"field_name" => "Nom court du champ",
 
-"field_name_cont" =>
-"Un seul mot, sans espaces. Soulignés (underscores) et tirets autorisés",
+"field_name_cont" => "Un seul mot, sans espaces. Soulignés (underscores) et tirets autorisés",
 
-"field_type" =>
-"Type de champ",
+"field_type" => "Type de champ",
 
-"field_max_length" =>
-"Longueur maximale",
+"field_max_length" => "Longueur maximale",
 
-"field_max_length_cont" =>
-"Si vous utilisez un champ de type \"texte\"",
+"field_max_length_cont" => "Si vous utilisez un champ de type \"texte\"",
 
-"textarea_rows" =>
-"Nombre de lignes de la zone de texte",
+"textarea_rows" => "Nombre de lignes de la zone de texte",
 
-"textarea_rows_cont" =>
-"Si vous utilisez un champ de type \"zone de texte\"",
+"textarea_rows_cont" => "Si vous utilisez un champ de type \"zone de texte\"",
 
-"dropdown_sub" =>
-"Si vous utilisez un champ de type \"liste déroulante\"",
+"dropdown_sub" => "Si vous utilisez un champ de type \"liste déroulante\"",
 
-"field_list_items" =>
-"Options de la liste",
+"field_list_items" => "Options de la liste",
 
-"multi_list_items" =>
-"Options de la liste multiple",
+"multi_list_items" => "Options de la liste multiple",
 
-"option_group_items" =>
-"Options des cases à cocher",
+"option_group_items" => "Options des cases à cocher",
 
-"radio_items" =>
-"Options des radios",
+"radio_items" => "Options des radios",
 
-"field_list_items_cont" =>
-"Si vous avez choisi menu déroulant",
+"field_list_items_cont" => "Si vous avez choisi menu déroulant",
 
-"field_list_instructions" =>
-"Mettre chaque choix sur une ligne séparée",
+"field_list_instructions" => "Mettre chaque choix sur une ligne séparée",
 
-"field_formatting" =>
-"Formatage du champ",
+"field_formatting" => "Formatage du champ",
 
-"edit_list" =>
-"Éditer la liste",
+"edit_list" => "Éditer la liste",
 
-"formatting_options" =>
-"Options du formatage de champ",
+"formatting_options" => "Options du formatage de champ",
 
-"field_formatting_cont" =>
-"Si vous avez choisi le type de champ zone de texte",
+"field_formatting_cont" => "Si vous avez choisi le type de champ zone de texte",
 
-"field_order" =>
-"Ordre d'affichage du champ",
+"field_order" => "Ordre d'affichage du champ",
 
-"is_field_searchable" =>
-"Le champ peut-il être recherché ?",
+"is_field_searchable" => "Le champ peut-il être recherché ?",
 
-"is_field_required" =>
-"Le champ est-il requis ?",
+"is_field_required" => "Le champ est-il requis ?",
 
-"show_smileys" =>
-"Afficher les émoticônes",
+"show_smileys" => "Afficher les émoticônes",
 
-"show_glossary" =>
-"Afficher le glossaire",
+"show_glossary" => "Afficher le glossaire",
 
-"show_spellcheck" =>
-"Afficher le vérificateur d'orthographe",
+"show_spellcheck" => "Afficher le vérificateur d'orthographe",
 
-"show_file_selector" =>
-"Afficher le gestionnaire de fichiers",
+"show_file_selector" => "Afficher le gestionnaire de fichiers",
 
-"show_formatting_btns" =>
-"Afficher les boutons de formatage",
+"show_formatting_btns" => "Afficher les boutons de formatage",
 
-"show_writemode" =>
-"Afficher le mode d'écriture",
+"show_writemode" => "Afficher le mode d'écriture",
 
-"text_input" =>
-"Entrée de texte",
+"text_input" => "Entrée de texte",
 
-"textarea" =>
-"Zone de texte",
+"textarea" => "Zone de texte",
 
-"select_list" =>
-"Liste déroulante",
+"select_list" => "Liste déroulante",
 
-"auto_br" =>
-"Auto &lt;br /&gt;",
+"auto_br" => "Auto &lt;br /&gt;",
 
-"xhtml" =>
-"XHTML",
+"xhtml" => "XHTML",
 
-"no_field_name" =>
-"Vous devez saisir un nom de champ",
+"no_field_name" => "Vous devez saisir un nom de champ",
 
-"no_field_label" =>
-"Vous devez saisir une étiquette de champ",
+"no_field_label" => "Vous devez saisir une étiquette de champ",
 
-"invalid_characters" =>
-"Le nom de champ que vous avez saisi contient des caractères invalides",
+"invalid_characters" => "Le nom de champ que vous avez saisi contient des caractères invalides",
 
-"custom_field_empty" =>
-"Les champs suivants sont requis :",
+"custom_field_empty" => "Les champs suivants sont requis :",
 
-"duplicate_field_name" =>
-"Le nom de champ que vous avez choisi est déjà utilisé",
+"duplicate_field_name" => "Le nom de champ que vous avez choisi est déjà utilisé",
 
-'duplicate_truncated_field_name' =>
-'Le nom de champ que vous avez choisi est trop long et le nom tronqué est déjà utilisé.',
+'duplicate_truncated_field_name' => 'Le nom de champ que vous avez choisi est trop long et le nom tronqué est déjà utilisé.',
 
-"taken_field_group_name" =>
-"Le nom que vous avez choisi est déjà utilisé",
+"taken_field_group_name" => "Le nom que vous avez choisi est déjà utilisé",
 
-"field_group_created" =>
-"Groupe de champs créé :",
+"field_group_created" => "Groupe de champs créé :",
 
-"field_group_updated" =>
-"Groupe de champs mis à jour :",
+"field_group_updated" => "Groupe de champs mis à jour :",
 
-"field_group_deleted" =>
-"Groupe de champs supprimé :",
+"field_group_deleted" => "Groupe de champs supprimé :",
 
-"delete_field_group_confirmation" =>
-"Êtes-vous sûr de vouloir définitivement supprimer ce groupe de champs personnalisés ?",
+"delete_field_group_confirmation" => "Êtes-vous sûr de vouloir définitivement supprimer ce groupe de champs personnalisés ?",
 
-"delete_field_confirmation" =>
-"Êtes-vous sûr de vouloir définitivement supprimer ce champ personnalisé ?",
+"delete_field_confirmation" => "Êtes-vous sûr de vouloir définitivement supprimer ce champ personnalisé ?",
 
-"channel_entries_will_be_deleted" =>
-"Tous les articles de canal contenu dans le(s) champ(s) suivant seront définitivement supprimés.",
+"channel_entries_will_be_deleted" => "Tous les articles de canal contenu dans le(s) champ(s) suivant seront définitivement supprimés.",
 
-'field_content_text' =>
-"Contenu du champ :",
+'field_content_text' => "Contenu du champ :",
 
-'type_numeric' =>
-"Nombre",
+'type_numeric' => "Nombre",
 
-'type_integer' =>
-"Entier",
+'type_integer' => "Entier",
 
-'type_decimal' =>
-'Décimal',
+'type_decimal' => 'Décimal',
 
-'type_file' =>
-"Fichier",
+'type_file' => "Fichier",
 
-'type_image' =>
-"Image",
+'type_image' => "Image",
 
 //----------------------------
 // Status Administration
 //----------------------------
 
-"status_group" =>
-"Groupe de statuts",
+"status_group" => "Groupe de statuts",
 
-"no_status_group_message" =>
-"Il n'y a actuellement aucun statut personnalisé",
+"no_status_group_message" => "Il n'y a actuellement aucun statut personnalisé",
 
-"create_new_status_group" =>
-"Créer un nouveau groupe de statuts",
+"create_new_status_group" => "Créer un nouveau groupe de statuts",
 
-"taken_status_group_name" =>
-"Ce nom de groupe de statuts est déjà utilisé.",
+"taken_status_group_name" => "Ce nom de groupe de statuts est déjà utilisé.",
 
-"invalid_status_name" =>
-"Les noms de statuts peuvent uniquement contenir des caractères alphanumériques, des espaces, des underscores ou des tirets.",
+"invalid_status_name" => "Les noms de statuts peuvent uniquement contenir des caractères alphanumériques, des espaces, des underscores ou des tirets.",
 
-"duplicate_status_name" =>
-"Un statut portant le même nom existe déjà.",
+"duplicate_status_name" => "Un statut portant le même nom existe déjà.",
 
-"status_group_created" =>
-"Groupe de statuts créé :",
+"status_group_created" => "Groupe de statuts créé :",
 
-"new_status" =>
-"Nouveau statut",
+"new_status" => "Nouveau statut",
 
-"status_group_updated" =>
-"Groupe de statuts mis à jour :",
+"status_group_updated" => "Groupe de statuts mis à jour :",
 
-"add_edit_statuses" =>
-"Ajouter/Éditer des statuts",
+"add_edit_statuses" => "Ajouter/Éditer des statuts",
 
-"edit_status_group_name" =>
-"Éditer le groupe de statuts",
+"edit_status_group_name" => "Éditer le groupe de statuts",
 
-"delete_status_group" =>
-"Supprimer le groupe de statuts",
+"delete_status_group" => "Supprimer le groupe de statuts",
 
-"delete_status_group_confirmation" =>
-"Êtes-vous sûr de vouloir définitivement supprimer ce groupe de statuts ?",
+"delete_status_group_confirmation" => "Êtes-vous sûr de vouloir définitivement supprimer ce groupe de statuts ?",
 
-"status_group_deleted" =>
-"Groupe de statuts supprimé :",
+"status_group_deleted" => "Groupe de statuts supprimé :",
 
-"create_new_status" =>
-"Créer un nouveau statut",
+"create_new_status" => "Créer un nouveau statut",
 
-"status_name" =>
-"Nom du statut",
+"status_name" => "Nom du statut",
 
-"status_order" =>
-"Ordre du statut",
+"status_order" => "Ordre du statut",
 
-"change_status_order" =>
-"Changer l'ordre des statuts",
+"change_status_order" => "Changer l'ordre des statuts",
 
-"highlight" =>
-"Couleur (optionnel)",
+"highlight" => "Couleur (optionnel)",
 
-"statuses" =>
-"Statuts",
+"statuses" => "Statuts",
 
-"edit_status" =>
-"Éditer le statut",
+"edit_status" => "Éditer le statut",
 
-"delete_status" =>
-"Supprimer le statut",
+"delete_status" => "Supprimer le statut",
 
-"delete_status_confirmation" =>
-"Êtes-vous sûr de vouloir définitivement supprimer le statut suivant ?",
+"delete_status_confirmation" => "Êtes-vous sûr de vouloir définitivement supprimer le statut suivant ?",
 
 
-'url_title_prefix' =>
-"Préfixe du titre URL",
+'url_title_prefix' => "Préfixe du titre URL",
 
-'live_look_template' =>
-'Modèle d\'aperçu rapide',
+'live_look_template' => 'Modèle d\'aperçu rapide',
 
-'no_live_look_template' =>
-'- Aucun modèle d\'aperçu rapide -',
+'no_live_look_template' => '- Aucun modèle d\'aperçu rapide -',
 
-'default_entry_title' =>
-"Titre d'article par défaut",
+'default_entry_title' => "Titre d'article par défaut",
 
-'invalid_url_title_prefix' =>
-"Préfixe du titre URL invalide",
+'invalid_url_title_prefix' => "Préfixe du titre URL invalide",
 
-'multiple_cat_group_preferences' =>
-"Préférences du groupe de catégories multiple",
+'multiple_cat_group_preferences' => "Préférences du groupe de catégories multiple",
 
-'integrate_category_groups' =>
-"Intégrer les groupes de catégories",
+'integrate_category_groups' => "Intégrer les groupes de catégories",
 
-'text_direction' =>
-"Sens du texte",
+'text_direction' => "Sens du texte",
 
-'ltr' =>
-"De gauche à droite",
+'ltr' => "De gauche à droite",
 
-"rtl" =>
-"De droite à gauche",
+"rtl" => "De droite à gauche",
 
-'field_instructions' =>
-"Instructions du champ",
+'field_instructions' => "Instructions du champ",
 
-'field_instructions_info' =>
-"Instructions à suivre par les auteurs, avant soumission d'un article, quant au contenu de ce champ personnalisé et à son mode de saisie.",
+'field_instructions_info' => "Instructions à suivre par les auteurs, avant soumission d'un article, quant au contenu de ce champ personnalisé et à son mode de saisie.",
 
-"show_pages_cluster" =>
-"Afficher les champs de soumission de Pages",
+"show_pages_cluster" => "Afficher les champs de soumission de Pages",
 
-'content_type_changed' =>
-'Le type de contenu de votre champ va être modifié (avant : %s). Modifier les options des types de champ peut conduire à une perte de données. Agissez prudemment !',
+'content_type_changed' => 'Le type de contenu de votre champ va être modifié (avant : %s). Modifier les options des types de champ peut conduire à une perte de données. Agissez prudemment !',
 
-'field_name_too_lrg' =>
-'Votre nom de champ est trop long et a dû être tronqué. Merci de le revoir.',
+'field_name_too_lrg' => 'Votre nom de champ est trop long et a dû être tronqué. Merci de le revoir.',
 
 //----------------------------
 // Channel Form Settings
 //----------------------------
 
-'channel_form_settings' =>
-'Paramètres du formulaire de canal',
+'channel_form_settings' => 'Paramètres du formulaire de canal',
 
-'channel_form_settings_updated' =>
-'Paramètres du formulaire de canal enregistrés',
+'channel_form_settings_updated' => 'Paramètres du formulaire de canal enregistrés',
 
-'channel_form_default_status' =>
-'Statut par défaut',
+'channel_form_default_status' => 'Statut par défaut',
 
-'channel_form_allow_guest_posts' =>
-'Autoriser les soumissions par les invités ?',
+'channel_form_allow_guest_posts' => 'Autoriser les soumissions par les invités ?',
 
-'channel_form_guest_captcha' =>
-'Captcha pour les invités ?',
+'channel_form_guest_captcha' => 'Captcha pour les invités ?',
 
-'channel_form_guest_author' =>
-'Auteur invité',
+'channel_form_guest_author' => 'Auteur invité',
 
-'channel_form_default_status_empty' =>
-'-- Utiliser le paramétrage par défaut --',
+'channel_form_default_status_empty' => '-- Utiliser le paramétrage par défaut --',
 
 //----------------------------
 // Channel Entries API
 //----------------------------
 
-'invalid_api_parameter' =>
-"Impossible de créer/mettre à jour l'article. Les paramètres de l'API sont manquants.",
+'invalid_api_parameter' => "Impossible de créer/mettre à jour l'article. Les paramètres de l'API sont manquants.",
 
-'unauthorized_for_this_channel' =>
-'Vous n\'êtes pas autorisé à publier dans ce canal',  // Allard says he rules...and Emmanuel thinks so, too
+'unauthorized_for_this_channel' => 'Vous n\'êtes pas autorisé à publier dans ce canal',  // Allard says he rules...and Emmanuel thinks so, too
 
 ''=>''
 );

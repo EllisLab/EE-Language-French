@@ -31,7 +31,7 @@ $lang = array(
 'Aucune erreur trouvée',
 
 'spellcheck_in_progress' =>
-'Vérification en cours&hellip',
+'Vérification en cours...',
 
 
 ''=>''

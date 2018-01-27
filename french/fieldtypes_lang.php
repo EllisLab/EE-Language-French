@@ -55,6 +55,7 @@ $lang = array(
 'file_ft_limit_right'			=> 'renvoyés',
 'file_ft_limit_files_subtext'	=> 'laisser la zone vide pour afficher TOUS les fichiers',
 'file_ft_select_existing'		=> 'Sélectionner un fichier existant',
+'file_ft_cannot_find_file'		=> 'Fichier non trouvé. Impossible de retrouver %s sur le serveur.',
 
 // Grid
 'grid_options'				=> 'Options du champ grille',
@@ -73,6 +74,7 @@ $lang = array(
 'grid_col_width_percent'	=> 'Pourcentage.',
 'grid_col_required'			=> 'Obligatoire ?',
 'grid_col_searchable'		=> 'Recherchable ?',
+'grid_show_fmt_btns'		=> 'Afficher les boutons de formatage ?',
 'grid_output_format'		=> 'Formatage de la sortie ?',
 'grid_text_direction'		=> 'Sens d\'écriture ?',
 'grid_limit_input'			=> 'Limiter la saisie ?',

@@ -115,8 +115,14 @@ $lang = array(
 'topic' =>
 'Sujet',
 
+"title" =>
+"Titre",
+
 'author' =>
 'Auteur',
+
+"comment" =>
+"Commentaire",
 
 'comments' =>
 'Commentaires',
@@ -741,6 +747,9 @@ $lang = array(
 
 'no_custom_profile_fields' =>
 'Il n\'y a actuellement aucun champ de profil personnalisé',
+
+"delete_profile_field_confirmation" =>
+"Êtes-vous sûr de vouloir supprimer de façon définitive ce champ de profil de membres ?",
 
 "member_search" =>
 "Recherche de membre",

@@ -72,13 +72,13 @@ $lang = array(
 'Dernière MAJ : ',
 
 'ip_db_updating' =>
-'Téléchargement de la MAJ&hellip;',
+'Téléchargement de la MAJ...',
 
 'ip_db_downloaded' =>
-'Base de données des IP téléchargée. Décompactage&hellip;',
+'Base de données des IP téléchargée. Décompactage...',
 
 'ip_db_unpacked' =>
-'Base de données des IP décompactée. Insertion des données&hellip;',
+'Base de données des IP décompactée. Insertion des données...',
 
 'ip_db_updated' =>
 'La MAJ de la base de données des adresses IP a réussi !',

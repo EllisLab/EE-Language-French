@@ -2,149 +2,106 @@
 $lang = array(
 
 
-'addons' =>
-'Add-ons',
+'addons' => 'Add-ons',
 
-'accessories' =>
-'Accessoires',
+'accessories' => 'Accessoires',
 
-'modules' =>
-'Modules',
+'modules' => 'Modules',
 
-'extensions' =>
-'Extensions',
+'extensions' => 'Extensions',
 
-'plugins' =>
-'Plugins',
+'plugins' => 'Plugins',
 
-'accessory' =>
-'Accessoire',
+'accessory' => 'Accessoire',
 
-'module' =>
-'Module',
+'module' => 'Module',
 
-'extension' =>
-'Extension',
+'extension' => 'Extension',
 
-'rte_tool' =>
-'Outil Éditeur de Texte Enrichi',
+'rte_tool' => 'Outil Éditeur de Texte Enrichi',
 
-'addons_accessories'=>
-'Accessoires',
+'addons_accessories'=> 'Accessoires',
 
-'addons_modules' =>
-'Modules',
+'addons_modules' => 'Modules',
 
-'addons_plugins' =>
-'Plugins',
+'addons_plugins' => 'Plugins',
 
-'addons_extensions' =>
-'Extensions',
+'addons_extensions' => 'Extensions',
 
-'addons_fieldtypes' =>
-'Types de champ',
+'addons_fieldtypes' => 'Types de champ',
 
-'accessory_name' =>
-'Nom de l\'accessoire',
+'accessory_name' => 'Nom de l\'accessoire',
 
-'fieldtype_name' =>
-'Nom du type de champ',
+'fieldtype_name' => 'Nom du type de champ',
 
-'install' =>
-'Installer',
+'install' => 'Installer',
 
-'uninstall' =>
-'Désinstaller',
+'uninstall' => 'Désinstaller',
 
-'installed' =>
-'Installé',
+'installed' => 'Installé',
 
-'not_installed' =>
-'Non installé',
+'not_installed' => 'Non installé',
 
-'uninstalled' =>
-'Désinstallé',
+'uninstalled' => 'Désinstallé',
 
-'remove' =>
-'Supprimer',
+'remove' => 'Supprimer',
 
-'preferences_updated' =>
-'Préférences mises à jour',
+'preferences_updated' => 'Préférences mises à jour',
 
-'extension_enabled' =>
-'Extension activée',
+'extension_enabled' => 'Extension activée',
 
-'extension_disabled' =>
-'Extension désactivée',
+'extension_disabled' => 'Extension désactivée',
 
-'extensions_enabled' =>
-'Extensions activées',
+'extensions_enabled' => 'Extensions activées',
 
-'extensions_disabled' =>
-'Extensions désactivées',
+'extensions_disabled' => 'Extensions désactivées',
 
-'delete_fieldtype_confirm' =>
-'Êtes-vous sûr de vouloir supprimer ce type de champ ?',
+'ext_enabled_short'				=>		'activé',
+'ext_disabled_short'			=>		'désactivé',
 
-'delete_fieldtype' =>
-'Supprimer le type de champ',
+'delete_fieldtype_confirm' => 'Êtes-vous sûr de vouloir supprimer ce type de champ ?',
 
-'data_will_be_lost' =>
-'Toutes les données associées à ce type de champ, y compris les données dans les canaux, seront effacées de façon irréversible',
+'delete_fieldtype' => 'Supprimer le type de champ',
 
-'global_settings_saved' =>
-'Paramètres enregistrés',
+'fieldtype_data_will_be_lost' => 'Toutes les données associées à ce type de champ, y compris les données dans les canaux, seront effacées de façon irréversible',
 
-'package_settings' =>
-'Paramètres du paquet',
+'global_settings_saved' => 'Paramètres enregistrés',
 
-'component' =>
-'Composant',
+'package_settings' => 'Paramètres du paquet',
 
-'current_status' =>
-'Statut actuel',
+'component' => 'Composant',
 
-'required_by' =>
-'Utilisé par :',
+'current_status' => 'Statut actuel',
 
-'available_to_member_groups' =>
-'Disponible pour les groupes de membres',
+'required_by' => 'Utilisé par :',
 
-'specific_page' =>
-'Page spécifique ?',
+'extensions_disabled_warning'	=>		'Pour pouvoir installer cet add-on, vous devez d\'abord activer les extensions. Souhaitez-vous les activer ?',
 
-'description' =>
-'Description',
+'available_to_member_groups' => 'Disponible pour les groupes de membres',
 
-'version' =>
-'Version',
+'specific_page' => 'Page spécifique ?',
 
-'status' =>
-'Statut',
+'description' => 'Description',
 
-'fieldtype' =>
-'Type de champ',
+'version' => 'Version',
 
-'edit_accessory_preferences' =>
-'Éditer les préférences d\'accessoire',
+'status' => 'Statut',
 
-'member_group_assignment' =>
-'Groupes de membres assignés',
+'fieldtype' => 'Type de champ',
 
-'page_assignment' =>
-'Pages assignées',
+'edit_accessory_preferences' => 'Éditer les préférences d\'accessoires ',
 
-'none' =>
-'Aucun',
+'member_group_assignment' => 'Groupes de membres assignés',
 
-'and_more' =>
-'et %x de plus&hellip',
+'page_assignment' => 'Pages assignées',
 
-'plugins_not_available' =>
-'Le plugin "Feed" est désactivé en version beta',
+'none' => 'Aucun',
 
-'no_extension_id' =>
-'Aucune extension choisie',
+'and_more' => 'et %x de plus...',
+
+'plugins_not_available' => 'Le plugin "Feed" est désactivé en version beta',
+
+'no_extension_id' => 'Aucune extension choisie',
 
 // IGNORE
 ''=>'');

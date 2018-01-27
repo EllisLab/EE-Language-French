@@ -24,7 +24,7 @@ $lang = array(
 "Valeur de la préférence",
 
 'use_captchas' =>
-"Utiliser Captcha ?",
+"Utiliser les Captchas ?",
 
 'text_format' =>
 "Formatage Texte pour les articles",
@@ -150,31 +150,31 @@ des lettres, des nombres et des soulignés (underscores).",
 "Nom court de l'espace de nom",
 
 'file_ns' =>
-"Fichier",
+"fichier",
 
 'image_ns' =>
-"Image",
+"image",
 
 'special_ns' =>
-"Spécial",
+"special",
 
 'category_ns' =>
-"Categorie",
+"categorie",
 
 'invalid_namespace' =>
 "Espace de nom invalide",
 
 'namespace_not_deleted' =>
-'Impossible de supprimer le nom d\'espace.',
+'Impossible de supprimer le espace de nom.',
 
 'namespace_deleted' =>
-'Nom d\'espace supprimé',
+'Espace de nom supprimé',
 
 'namespaces' =>
 "Espaces de nom",
 
 'no_search_terms' =>
-'Vous devez inclure des termes de recherche lors de la recherche d\'un nom d\'espace.',
+'Vous devez inclure des termes de recherche lors de la recherche d\'un espace de nom.',
 
 'duplicate_article' =>
 'Un article portant ce nom existe déjà.',
@@ -228,7 +228,345 @@ des lettres, des nombres et des soulignés (underscores).",
 "Erreur : Impossible d'ouvrir le fichier modèle pour y écrire son contenu.",
 
 "file_writing_instructions" =>
-"Vous ne pourrez pas sauvegarder les modifications de ce modèle avant qu'il lui soit donné les permissions en écriture pour ce serveur.",
+"Vous ne pourrez pas sauvegarder les modifications de ce modèle tant qu'il n'aura pas les permissions d'écriture sur ce serveur.",
+
+//----------------------------------------
+
+'login' =>
+'Connexion',
+
+'register' =>
+'S\'inscrire',
+
+'member_list' =>
+'Liste des membres',
+
+'logged_in_as' =>
+'Connecté en tant que',
+
+'your_profile' =>
+'Votre profil',
+
+'your_control_panel' =>
+'Votre panneau de contrôle',
+
+'logout' =>
+'Déconnexion',
+
+'wiki_home' =>
+'Accueil Wiki',
+
+'editing' =>
+'Modification',
+
+'source' =>
+'Source',
+
+'history' =>
+'Historique',
+
+'revision' =>
+'Révision',
+
+'navigation' =>
+'Navigation',
+
+'wiki_help' =>
+'Aide Wiki',
+
+'categories' =>
+'Catégories',
+
+'list_of_titles' =>
+'Liste de Titres',
+
+'title_list' =>
+'Liste de titres',
+
+'uncategorized_pages' =>
+'Pages non catégorisées',
+
+'random_page' =>
+'Page au hasard',
+
+'uploads' =>
+'Téléchargements',
+
+'file_upload' =>
+'Téléchargement de fichier',
+
+'uploaded_files' =>
+'Fichiers téléchargés',
+
+'recent_changes' =>
+'Modifications récentes',
+
+'recent_changes_page' =>
+'Page des modifications récentes',
+
+'rss' =>
+'RSS',
+
+'recent_changes_rss' =>
+'Modifications récentes dans le flux RSS',
+
+'atom' =>
+'Atom',
+
+'recent_changes_atom' =>
+'Modifications récentes dans le flux Atom',
+
+'what_links_here' =>
+'Liens pointant sur cette page',
+
+'active_members' =>
+'Membres actifs',
+
+'search' =>
+'Rechercher',
+
+'go' =>
+'Go',
+
+'special_page' =>
+'Page spéciale',
+
+'file_page' =>
+'Page fichier',
+
+'create_or_find_page' =>
+'Créer ou trouver une page',
+
+'view' =>
+'Voir',
+
+'edit' =>
+'Modifier',
+
+'view_source' =>
+'Voir la source',
+
+'viewing_history' =>
+'Affichage de l\'historique',
+
+'redirected_from' =>
+'Redirigée depuis',
+
+'page_redirects_to' =>
+'La page est redirigée vers',
+
+'no_article' =>
+'Cet article n\'existe pas encore',
+
+'click_edit_to_create' =>
+'Cliquer sur Modifier pour Créer !',
+
+'cannot_add' =>
+'Vous n\'êtes pas en mesure de rajouter des articles au wiki. Désolé !',
+
+'cannot_edit' =>
+'Vous n\'êtes pas autorisé à modifier cette page.',
+
+'revision_from' =>
+'Révision depuis',
+
+'subcategories' =>
+'Sous-catégories',
+
+'submissions_moderated' =>
+'Les soumissions à cet article sont modérées et ne seront pas publiées "Live" tant qu\'elles ne sont pas approuvées par un Administrateur.',
+
+'old_revision_warning' =>
+'ATTENTION : vous êtes en train d\'éditer une révision dépassée et votre soumission viendra écraser des versions plus récentes de cet article.',
+
+'preview_warning' =>
+'ATTENTION : vous êtes en train de visualiser un aperçu de votre soumission. Aucune modification de cette article n\'a encore été enregistrée.',
+
+'recent_file_uploads' =>
+'Visualiser les 10 téléchargements de fichiers les plus récents',
+
+'recent_files' =>
+'Fichiers récents',
+
+'add_file' =>
+'Ajouter un fichier',
+
+'add_image' =>
+'Ajouter une image',
+
+'notes' =>
+'Notes ',
+
+'redirect' =>
+'Rediriger vers ',
+
+'rename' =>
+'Renommer en ',
+
+'lock_article' =>
+'Verrouiller l\'article',
+
+'moderate_article' =>
+'Modérer l\'article',
+
+'delete_category' =>
+'Supprimer la catégorie',
+
+'delete_article' =>
+'Supprimer l\'article',
+
+'submit' =>
+'Valider',
+
+'preview' =>
+'Aperçu',
+
+'uploaded' =>
+'Téléchargé(s)',
+
+'download_file' =>
+'Télécharger un fichier',
+
+'mime_type' =>
+'Type MIME',
+
+'delete' =>
+'Supprimer ?',
+
+'no_summary' =>
+'Aucun résumé',
+
+'quick_links' =>
+'Liens rapides',
+
+'no_file' =>
+'Aucun fichier avec ce nom n\'existe.',
+
+'no_files' =>
+'Aucun fichier n\'a été téléchargé',
+
+'no_history' =>
+'Il n\'existe aucun historique pour cette page.',
+
+'open' =>
+'Ouvert',
+
+'closed' =>
+'Fermé',
+
+'no_search_results' =>
+'Aucun résultat pour votre recherche',
+
+'keywords' =>
+'Mots-clefs',
+
+'last_updated' =>
+'Dernière mise à jour',
+
+'by' =>
+'Par',
+
+'choose_namespace' =>
+'Choisir l\'espace de nom',
+
+'no_namespace_results' =>
+'Désolé, il ne semble pas y avoir d\'article pour cet espace de nom.',
+
+'no_uncategorized_results' =>
+'Désolé, il ne semble pas y avoir d\'article non catégorisé pour cet espace de nom.',
+
+'image_uploads_only' =>
+'Seuls les téléchargements d\'images sont autorisés',
+
+'allowed_file_types' =>
+'Types de fichiers autorisés',
+
+'new_filename' =>
+'Nouveau nom du fichier',
+
+'summary' =>
+'Résumé',
+
+'no_image_uploads' =>
+'Vous n\êtes pas autorisé à télécharger des images.',
+
+'no_uploads' =>
+'Les téléchargement de fichiers n\'est pas autorisé pour ce wiki.',
+
+'page' =>
+'Page',
+
+'of' =>
+'sur',
+
+'pages' =>
+'pages',
+
+'no_articles_link_to' =>
+'Aucun article n\'est lié à',
+
+'articles_that_link_to' =>
+'Articles liés à',
+
+'pages_link_to' =>
+'Les pages suivantes sont liées à',
+
+'there' =>
+'Il y',
+
+'is' =>
+'a',
+
+'are' =>
+'a',
+
+'subcategory' =>
+'sous-catégorie',
+
+'subcategories' =>
+'sous-catégories',
+
+'for_this_category' =>
+'pour cette catégorie',
+
+'article' =>
+'article',
+
+'articles' =>
+'articles',
+
+'articles_in_category' =>
+'Articles dans la catégorie',
+
+'powered_by_ee' =>
+'Propulsé par ExpressionEngine',
+
+'ee_wiki' =>
+'Wiki ExpressionEngine',
+
+'version' =>
+'Version',
+
+'elapsed_time' =>
+'Script exécuté en {elapsed_time} secondes',
+
+'moderated_wiki_revision' =>
+'Révision modérée du Wiki',
+
+'new_revision' =>
+'Une nouvelle révision a été publiée pour le titre',
+
+'url_to_view_revision' =>
+'URL pour visualiser la révision',
+
+'url_to_open_revision' =>
+'URL pour ouvrir la révision',
+
+'view_topic' =>
+'Voir le sujet',
+
+'revision_content' =>
+'Contenu de la révision',
 
 ''=>''
 );

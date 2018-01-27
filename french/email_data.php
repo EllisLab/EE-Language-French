@@ -199,6 +199,8 @@ Pour réinitialiser votre mot de passe, veuillez vous rendre à la page suivante
 
 {reset_url}
 
+Puis connectez-vous avec votre identifiant : {username}
+
 Si vous ne souhaitez pas réinitialiser votre mot de passe, ignorez ce message. Il expirera dans 24 heures.
 
 {site_name}
