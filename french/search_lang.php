@@ -96,22 +96,22 @@ $lang = array(
 "N'importe quelle date",
 
 "search_today_and" =>
-"Aujourd'hui et&hellip;",
+"Aujourd'hui et...",
 
 "search_this_week_and" =>
-"Cette semaine et&hellip;",
+"Cette semaine et...",
 
 "search_one_month_ago_and" =>
-"1 mois et&hellip;",
+"1 mois et...",
 
 "search_three_months_ago_and" =>
-"3 mois et&hellip;",
+"3 mois et...",
 
 "search_six_months_ago_and" =>
-"6 mois et&hellip;",
+"6 mois et...",
 
 "search_one_year_ago_and" =>
-"1 an et&hellip;",
+"1 an et...",
 
 "search_newer" =>
 "Plus récent",

@@ -237,8 +237,20 @@ n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas é
 'tab' =>
 'Onglet',
 
-'time_format' =>
-'Format horaire par défaut',
+"date_format" =>
+"Format de date",
+
+"time_format" =>
+"Format d\'heures",
+
+"24_hour" =>
+"24 heures",
+
+"12_hour" =>
+"12 heures avec AM/PM",
+
+"include_seconds" =>
+"Inclure les secondes dans le format d'heures",
 
 'timezones' =>
 'Fuseau horaire par défaut',

@@ -6,12 +6,6 @@ $lang = array(
 // Home page
 //----------------------------
 
-"install_lock_warning" =>
-"Attention : Votre dossier d'installation est toujours sur le serveur.",
-
-"install_lock_removal" =>
-"Pour des raisons de sécurité, veuillez supprimer le dossier intitulé <strong>installer</strong> de votre serveur en utilisant votre logiciel FTP.",
-
 "checksum_changed_warning" =>
 "Un ou plusieurs fichiers principaux ont été endommagés :",
 
@@ -160,7 +154,7 @@ Merci de télécharger <a href="%s" title="Télécharger ici">ici</a> et suivez 
 'Aucune actualité disponible',
 
 'more_news' =>
-'Plus d\'actualités&hellip',
+'Plus d\'actualités...',
 
 "site_status" =>
 "Statut du site",
@@ -169,7 +163,7 @@ Merci de télécharger <a href="%s" title="Télécharger ici">ici</a> et suivez 
 'Fermer',
 
 'version_mismatch' =>
-'La version (%s) de votre installation ExpressionEngine n\'est pas en phase avec la version (%s) du rapport. <a href="http://ellislab.com/expressionengine/user-guide/installation/update.html">Merci de mettre de nouveau à jour votre installation d\'ExpressionEngine</a>.',
+'La version (%s) de votre installation ExpressionEngine n\'est pas en phase avec la version (%s) du rapport. <a href="https://docs.expressionengine.com/v2/installation/update.html">Merci de mettre de nouveau à jour votre installation d\'ExpressionEngine</a>.',
 
 ''=>''
 );

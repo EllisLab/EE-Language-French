@@ -221,7 +221,7 @@ $lang = array(
 'batch_upload' 				=> 'Téléchargement en lot',
 
 'upload_dir_dropdown'		=> '%s (%s fichiers)',
-'please_select'				=> 'Merci de sélectionner&hellip',
+'please_select'				=> 'Merci de sélectionner...',
 'directory'					=> 'Répertoire',
 'no_sync_title'				=> 'Aucun résultat', // @todo, this phrase should change, just not sure what to put  -ga
 'no_file_sync_needed'		=> 'Il n\'y a aucun fichier à synchroniser dans vos répertoires de téléchargement en lot.',

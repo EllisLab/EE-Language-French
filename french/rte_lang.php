@@ -46,6 +46,7 @@ $lang = array(
 'valid_url_required' => 'une URL valide est requise.',
 'name_required' => 'Le nom du jeu d\'outils est requis.',
 'unique_name_required' => 'Le nom du jeu d\'outils doit être unique.',
+'valid_name_required' => 'Le nom du jeu d\'outils ne doit pas inclure des caractères spéciaux.',
 
 // Labels
 'enable_rte_globally' => 'Activer l\'éditeur de texte enrichi ?',

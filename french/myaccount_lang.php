@@ -18,7 +18,7 @@ $lang = array(
 'Sujet de forum',
 
 'password_auth' =>
-'Pour poursuivre, vous devez saisir votre mot de passe actuel de Super Admin',
+'Pour poursuivre, vous devez saisir votre mot de passe actuel',
 
 'existing_password_exp' =>
 'Vous devez saisir votre mot de passe actuel pour mettre à jour cette page',
@@ -245,14 +245,20 @@ $lang = array(
 'localization' =>
 'Paramètres de localisation',
 
-'time_format' =>
-'Formatage de l\'heure',
+"date_format" =>
+"Format de date",
 
-'united_states' =>
-'Etats-Unis',
+"time_format" =>
+"Format d'heures",
 
-'european' =>
-'Européen',
+"24_hour" =>
+"24 heures",
+
+"12_hour" =>
+"12 heures avec AM/PM",
+
+"include_seconds" =>
+"Inclure les secondes dans le format d'heures",
 
 'your_html_buttons' =>
 'Boutons de formatage HTML',
@@ -321,7 +327,7 @@ $lang = array(
 'Jour',
 
 'accept_admin_email' =>
-'Accepter les emails des admnistrateurs du site',
+'Accepter les emails des administrateurs du site',
 
 'accept_user_email' =>
 'Accepter les emails des autres membres de ce site',
@@ -426,13 +432,16 @@ $lang = array(
 'Le mot de passe et sa confirmation ne correspondent pas',
 
 'username_too_short' =>
-'L\'identifiant que vous avez saisi doit faire au moins %x caractères de long',
+'Votre identifiant doit faire au moins %x caractères de long',
+
+'username_too_long' =>
+'Votre identifiant ne doit pas dépasser 50 caractères',
 
 'password_too_short' =>
-'Le mot de passe que vous avez saisi doit faire au moins %x caractères de long',
+'Votre mot de passe doit faire au moins %x caractères de long',
 
-'username_password_too_long' =>
-'Les identifiants et mots de passe ne peuvent faire plus de 32 caractères de long',
+'password_too_long' =>
+'Votre mot de passe ne doit pas dépasser '.PASSWORD_MAX_LENGTH.' caractères',
 
 'username_taken' =>
 'L\'identifiant que vous avez choisi n\'est pas disponible',

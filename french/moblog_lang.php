@@ -33,20 +33,11 @@ $lang = array(
 'channel' =>
 'Canal',
 
-'ping_sites' =>
-'Sites pour le Ping',
-
-'ping_servers' =>
-'Serveurs de Ping',
-
 'invalid_upload_directory' =>
 'Répertoire de téléchargement invalide',
 
 'upload_directory_unwriteable' =>
 'Impossible d\'écrire le fichier dans le répertoire de téléchargement',
-
-'pings_sent' =>
-'Pings envoyés :',
 
 'moblog_entry_settings' =>
 'Paramètres des articles de canal',
