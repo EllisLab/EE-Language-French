@@ -734,9 +734,9 @@ $lang = array(
 
 'can_not_delete_only_member' => 'Vous ne pouvez pas supprimer le seul membre de la base de données',
 
-'can_send_bulletins_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront envoyer et recevoir des bulletins.",
+'can_send_bulletins_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront envoyer des bulletins.",
 
-'can_send_bulletins' => 'Accès aux bulletins',
+'can_send_bulletins' => 'Envoyer des bulletins',
 
 'cannot_change_your_group' => "Les Super Administrateurs ne peuvent pas modifier leur propre groupe de membres. Un autre Super Administrateur doit vous réaffecter.",
 

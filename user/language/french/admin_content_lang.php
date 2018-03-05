@@ -786,13 +786,9 @@ $lang = array(
 
 'invalid_url_title_prefix' => "Préfixe URL du titre invalide",
 
-'live_look_template' => 'Modèle d\'aperçu rapide',
-
 'ltr' => "De gauche à droite",
 
 'multiple_cat_group_preferences' => "Préférences du groupe de catégories multiple",
-
-'no_live_look_template' => '- Aucun modèle d\'aperçu rapide -',
 
 'show_all_statuses' => 'Tous les statuts (%d)',
 

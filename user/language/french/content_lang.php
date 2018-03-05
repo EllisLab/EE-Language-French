@@ -233,6 +233,8 @@ $lang = array(
 
 'calendar' => 'Calendrier',
 
+'cancel_preview' => 'Annuler l\'aperçu',
+
 'category' => 'Catégorie',
 
 'channel_name' => 'Canal :',
@@ -485,8 +487,6 @@ $lang = array(
 
 'link' => 'Lien',
 
-'live_look' => 'Aperçu rapide',
-
 'live_view' => 'Cliquez pour l\'aperçu',
 
 'load_revision' => 'Charger une version',
@@ -609,6 +609,8 @@ $lang = array(
 
 'pre' => 'Pre-formaté',
 
+'preview' => 'Aperçu',
+
 'preview_entry' => 'Aperçu de l\'article',
 
 'preview_layout' => 'Aperçu de la disposition',
@@ -723,6 +725,8 @@ $lang = array(
 
 'unordered_list' => 'Liste à puces',
 
+'unpublished' => 'non publié',
+
 'upload_dir_choose' => 'Choisissez un répertoire de téléchargement',
 
 'upload_file' => 'Télécharger Fichier',
@@ -754,6 +758,8 @@ $lang = array(
 'view_entry' => 'Voir l\'article',
 
 'view_filtered' => 'Retournez aux articles filtrés',
+
+'view_wider' => 'Voir plus grand',
 
 'view' => 'Voir',
 
@@ -918,6 +924,50 @@ $lang = array(
 'menu_publish' => 'Publier',
 
 'rel_ft_no_entries'			=> 'Aucune entrée',
+
+/* Bulk Edit */
+
+'add_categories' => 'Ajouter des catégories',
+
+'add_categories_entries' => 'Ajouter des catégories à %d entrées',
+
+'add_editable_fields' => 'Ajouter des champs modifiables',
+
+'add_editable_fields_desc' => 'Les champs choisis seront ajoutés en dessous et seront modifiables pour <b>toutes</b> les entrées sélectionnées.',
+
+'btn_save_all_and_close' => 'Tout enregistrer & fermer',
+
+'editing_entries' => 'Modification de %d entrées',
+
+'entries_updated' => '%d entrées ont été mises à jour.',
+
+'filter_selected_entries' => 'Filtrer les entrées sélectionnées',
+
+'important' => 'Important !',
+
+'no_cat_groups_in_common' => 'Aucun <b>Groupe de catégories</b> en commun.',
+
+'bulk_edit' => 'Modification en masse',
+
+'bulk_edit_add_categories_notice' => 'Toutes les catégories sélectionnées seront affectées aux entrées sélectionnées <b>en plus</b> des catégories déjà présentes sur ces entrées.',
+
+'bulk_edit_destructive' => 'C\'est une action destructrice et irréversible.',
+
+'bulk_edit_notice' => 'Tous les champs soumis écraseront le contenu déjà stocké pour ce ou ces champs pour toutes les entrées sélectionnées.',
+
+'bulk_edit_remove_categories_notice' => 'Toutes les catégories sélectionnées seront <b>supprimées</b> des entrées sélectionnées, sans impacter les autres catégories encore affectées aux entrées.',
+
+'remove_categories' => 'Supprimer les catégories',
+
+'remove_categories_entries' => 'Supprimer les catégories de %d entrées',
+
+'remove_from_selection' => 'Supprimer de la sélection',
+
+'selected_entries' => 'Entrées sélectionnées',
+
+'showing' => 'Affichage de',
+
+'unauthorized_entry_desc' => 'Vous ne disposez pas des permissions suffisantes pour modifier au moins une des entrées sélectionnées.'
 
 );
 

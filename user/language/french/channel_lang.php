@@ -328,10 +328,6 @@ $lang = array(
 
 'invalid_url_title_prefix' => 'Ce champ ne peut pas contenir d\'espace.',
 
-'live_look_template_desc' => 'Modèle à utiliser pour la fonctionnalité d\'<mark>aperçu rapide</mark>.',
-
-'live_look_template' => 'Modèle d\'aperçu rapide',
-
 'max_characters_desc' => 'Nombre total de caractères autorisé pour les commentaires soumis.',
 
 'max_characters' => 'Nombre maximum de caractères autorisé ?',
@@ -344,11 +340,13 @@ $lang = array(
 
 'moderate_comments' => 'Modérer les commentaires ?',
 
-'no_live_look_template' => 'Aucun modèle choisi',
-
 'notifications' => 'Notifications',
 
 'open' => 'Ouvert',
+
+'preview_url_desc' => 'Chemin du modèle ou route à utiliser pour l\'aperçu rapide. Utilisez <code>{url_title}</code> ou <code>{entry_id}</code> pour les modèles à entrée unique. Ex. <b><code>blog/entry/{url_title}</code></b>',
+
+'preview_url' => '<abbr title="Unified Resource Locator">URL</abbr> pour l\'aperçu',
 
 'publishing' => 'Publication',
 

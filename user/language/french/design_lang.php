@@ -72,6 +72,8 @@ $lang = array(
 
 'default' => 'défaut',
 
+'default_404_option' => 'Page 404 par défaut',
+
 'duplicate_existing_template_desc' => 'Sera créé avec tout le code trouvé dans le modèle copié.',
 
 'duplicate_existing_template' => 'Dupliquer un modèle existant ?',

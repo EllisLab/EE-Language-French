@@ -178,6 +178,59 @@ EOF;
 	}
 }
 
+if ( ! function_exists('password_changed_notification_title'))
+{
+	function password_changed_notification_title()
+	{
+return <<<EOF
+Mot de passe modifié
+EOF;
+	}
+}
+
+if ( ! function_exists('password_changed_notification'))
+{
+	function password_changed_notification()
+	{
+return <<<EOF
+{name},
+
+Votre mot de passe vient d'être modifié.
+
+Si vous n'avez pas effectué cette modification vous-même, merci de contacter immédiatement un administrateur.
+
+{site_name}
+{site_url}
+EOF;
+	}
+}
+
+if ( ! function_exists('email_changed_notification_title'))
+{
+	function email_changed_notification_title()
+	{
+return <<<EOF
+Adresse email modifiée
+EOF;
+	}
+}
+
+if ( ! function_exists('email_changed_notification'))
+{
+	function email_changed_notification()
+	{
+return <<<EOF
+{name},
+
+Votre adresse email a été modifiée et cette adresse email n'est plus associée à votre compte utilisateur.
+
+Si vous n'avez pas effectué cette modification vous-même, merci de contacter immédiatement un administrateur.
+
+{site_name}
+{site_url}
+EOF;
+	}
+}
 
 //---------------------------------------------------
 //	Validated Member Notification

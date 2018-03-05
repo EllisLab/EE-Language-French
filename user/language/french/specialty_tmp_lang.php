@@ -78,6 +78,10 @@ $lang = array(
 
 'notification_has_char_limit' => 'La plupart des variables ci-dessus acceptent un paramètre char_limit : {title char_limit="40"}',
 
+'password_changed_notification' => 'Notification de Mot de passe &ndash; Utilisateur modifié',
+
+'password_changed_notification_desc' => 'Ce modèle définit le message que recevra un utilisateur quand son mot de passe aura été modifié sur le frontal.',
+
 'pm_inbox_full_desc' => 'Ce modèle définit le message qu\'un utilisateur reçoit lorsqu\'il ne peut plus recevoir de message privé à cause d\'une boîte de réception pleine.',
 
 'pm_inbox_full' => 'Notification de boîte de réception de messagerie privée pleine',
@@ -125,6 +129,10 @@ $lang = array(
 "comment_notification" => "Notification de commentaire utilisateur",
 
 "decline_member_validation" => "Notification de rejet de compte membre",
+
+"email_changed_notification" => 'Notification d\'Email &ndash; Utilisateur modifié',
+
+"email_changed_notification_desc" => 'Ce modèle définit le message qu\'un utilisateur recevra quand son adresse email aura été modifiée.',
 
 "email_message" => "Message de l'email",
 
