@@ -552,7 +552,7 @@ $lang = array(
 
 'mod_can_announce' => 'Créer des annonces',
 
-'mod_can_view_ip' => 'Visualiser les adresses <abbr title="Internet Protocol">IP</abbr>',
+'mod_can_view_ip' => 'Visualiser les adresses IP',
 
 'btn_save_moderator' => 'Enregistrer le modérateur',
 
