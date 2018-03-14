@@ -244,6 +244,8 @@ $lang = array(
 
 'template_partials' => 'Partiels de modèle',
 
+'template_path_not_user' => 'Modèles introuvables dans themes/user, merci de vous référer à <a href="%s">la documentation</a> pour les détails.',
+
 'template_route_override_desc' => 'Passe outre la gestion standard ExpressionEngine des routes de <mark>groupe/modèle</mark>.',
 
 'template_route_override' => 'Contournement de route de modèle',

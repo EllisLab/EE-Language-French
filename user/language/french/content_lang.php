@@ -491,6 +491,8 @@ $lang = array(
 
 'load_revision' => 'Charger une version',
 
+'loading' => 'chargement',
+
 'localized_date' => 'Localisée',
 
 'located_in' => 'Localisation :',
