@@ -405,7 +405,7 @@ $lang = array(
 
 'missing_license' => 'Cette copie de ExpressionEngine est <strong>non enregistrée</strong>. <a href="%s">Merci de télécharger votre licence.</a>',
 
-'missing_pubkey' => 'Il manque des données dans ce produit ExpressionEngine. Merci de visiter <a href="%s" rel="external">EllisLab.com</a> et de télécharger un exemplaire à jour.',
+'missing_pubkey' => 'Il manque des données dans ce produit ExpressionEngine. Merci de visiter <a href="%s" rel="external">expressionengine.com</a> et de télécharger un exemplaire à jour.',
 
 'software_unregistered' => 'Logiciel non enregistré',
 
