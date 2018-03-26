@@ -42,7 +42,7 @@ $lang = array(
 
 'site_deleted' => 'Site supprimé',
 
-'site_limit_reached_desc' => 'Le gestionnaire de sites vous permet de gérer des sites web supplémentaires à partir d\'une seule installation d\'ExpressionEngine. Vous avez atteint cette limite.</p><p>Vous pouvez <a href="%s" rel="external">acheter des licenses de site supplémentaires</a> sur EllisLab.com.',
+'site_limit_reached_desc' => 'Le gestionnaire de sites vous permet de gérer des sites web supplémentaires à partir d\'une seule installation d\'ExpressionEngine. Vous avez atteint cette limite.</p><p>Vous pouvez <a href="%s" rel="external">acheter des licenses de site supplémentaires</a> sur expressionengine.com.',
 
 'site_limit_reached' => 'Nombre maximal de site atteint',
 

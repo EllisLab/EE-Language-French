@@ -117,7 +117,7 @@ $lang = array(
 
 'license_file_invalid_signature' => 'Le fichier de licence fourni n\'a pas une signature valide.',
 
-'license_file_missing_pubkey' => 'Il manque des données dans le produit ExpressionEngine. Merci de visiter <a href="%s" rel="external">EllisLab.com</a> et de télécharger un nouvel exemplaire.',
+'license_file_missing_pubkey' => 'Il manque des données dans le produit ExpressionEngine. Merci de visiter <a href="%s" rel="external">expressionengine.com</a> et de télécharger un nouvel exemplaire.',
 
 'license_file_permissions' => 'Nous n\'avons pas pu enregistrer le fichier de licence. Vérifiez les permission sur <b>%s</b>.',
 
