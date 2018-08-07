@@ -6,8 +6,6 @@ $lang = array(
     <b>Email </b>: %s / <b>IP </b>: %s
 </div>',
 
-'accept_admin_email' => 'De la part des Admins',
-
 'accept_user_email' => 'De la part des autres membres de ce site',
 
 'administration' => 'Administration',
@@ -19,6 +17,10 @@ $lang = array(
 'administrative_settings' => 'Paramètres Admin',
 
 'allow_messages' => 'Accepter les messages venant d\'autres membres',
+
+'anonymize_username' => 'Rendre anonyme %s',
+
+'anonymize_member_desc' => 'Vous êtes sur le point de rendre anonyme ce membre, ce qui implique que toutes les données considérées comme de l\'information sensible et personnelle seront effacées, mais l\'enregistrement du membre restera valide. Merci de confirmer cette action.',
 
 'aol_im' => 'AOL IM',
 
@@ -93,6 +95,16 @@ $lang = array(
 'choose_theme' => 'Choisissez le thème du panneau de contrôle',
 
 'comment' => 'Commentaire',
+
+'consent_granted' => 'Consentement accordé',
+
+'consent_granted_desc' => 'Votre consentement a été accordé pour les requêtes suivantes :',
+
+'consent_withdrawn' => 'Consentement retiré',
+
+'consent_withdrawn_desc' => 'Votre consentement a été retiré pour les requêtes suivantes :',
+
+'consents' => 'Consentements',
 
 'control_panel_settings' => 'Personnalisation du panneau de contrôle',
 
@@ -303,6 +315,8 @@ $lang = array(
 'new_tab_title' => 'Titre du nouvel onglet',
 
 'new_tab_url' => 'URL du nouvel onglet',
+
+'no_consents_found' => 'Aucun <b>Consentement</b> trouvé.',
 
 'no_blocked_members_found' => 'Aucun <b>membre bloqué</b> trouvé.',
 

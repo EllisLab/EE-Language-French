@@ -19,6 +19,10 @@ $lang = array(
 
 'banned_email' => 'L\'adresse email que vous avez soumise a été exclue définitivement',
 
+'btn_confirm_and_anonymize' => 'Confirmer et Rendre Anonyme',
+
+'btn_confirm_and_anonymize_working' => 'Anonymisation...',
+
 'btn_confirm_and_decline_working' => 'En cours de refus...',
 
 'btn_confirm_and_decline' => 'Confirmer le refus',
@@ -143,6 +147,8 @@ $lang = array(
 
 'index' => 'Page Index principale',
 
+'invalid_password' => 'Le mot de passe saisit est invalide.',
+
 'invalid_path_description' => 'Le chemin suivant est invalide :',
 
 'invalid_path' => 'Le chemin que vous avez saisi est invalide.',
@@ -189,11 +195,19 @@ $lang = array(
 
 'member_activation_resent_success' => "Email d'activation renvoyé",
 
+'member_anonymize_problem' => 'Un problème est survenu en tentant de rendre le membre anonyme.',
+
+'member_anonymize_success' => 'Membre rendu anonyme',
+
+'member_anonymize_success_desc' => 'Le membre a été rendu anonyme.',
+
 'member_approve' => "Approuver le membre",
 
 'member_approved_success_desc' => "Le membre <b>%s</b> a été approuvé.",
 
 'member_approved_success' => "Membre approuvé",
+
+'member_assignment_none' => 'Aucun, les membres de ce groupe seront supprimés',
 
 'member_assignment_warning' => '%x membres(s) sont actuellement affectés à ce groupe. A quel groupe de membres doivent-ils être ré-affectés ?',
 
@@ -208,6 +222,8 @@ $lang = array(
 'member_declined_success_desc' => "Le membre <b>%s</b> a été refusé.",
 
 'member_declined_success' => "Membre refusé",
+
+'member_delete_problem' => 'Un problème est survenu en tentant de supprimer les membres.',
 
 'member_delete_success' => "Membre supprimé",
 
@@ -232,6 +248,8 @@ $lang = array(
 'member_group_updated_desc' => "Le groupe de membres a été enregistré avec succès.",
 
 'member_group' => 'Groupe de membres',
+
+'member_groups_remove_problem' => 'Un problème est survenu en tentant de supprimer les groupes de membres.',
 
 'member_groups_removed_desc' => "Le groupe de membres a été supprimé avec succès.",
 
@@ -387,6 +405,12 @@ $lang = array(
 
 'your_password' => "Votre mot de passe",
 
+'your_password_anonymize_members_desc' => 'Vous <b>devez</b> entrer votre mot de passe afin de pouvoir rendre anonyme des membres.',
+
+'your_password_delete_members_desc' => 'Vous <b>devez</b> entrer votre mot de passe afin de pouvoir supprimer des membres.',
+
+'your_password_delete_member_groups_desc' => 'Vous <b>devez</b> entrer votre mot de passe afin de pouvoir supprimer des groupes de membres.',
+
 //----------------------------
 // Member banning
 //----------------------------
@@ -427,7 +451,7 @@ $lang = array(
 //----------------------------
 // Member group settings
 //----------------------------
-'access_privilege_caution' => "Les paramètres marqués avec <span title='faire preuve de prudence'></span> doivent être uniquement accordés à des personnes en qui vous avez pleine confiance.",
+'access_privilege_caution' => 'Les paramètres marqués avec <span class="icon--caution" title="faire preuve de prudence"></span> doivent être uniquement autorisés à des personnes en qui vous avez pleine confiance.',
 
 'access_privilege_warning' => "<b>Attention</b> : soyez vigilant sur les privilèges d'accès que vous accordez.",
 
@@ -556,6 +580,10 @@ $lang = array(
 'can_email_from_profile' => 'Peut envoyer des emails à d\'autres membres depuis la console email du profil',
 
 'can_email_member_groups' => 'Envoyer des emails aux groupes de membres',
+
+'can_manage_consents' => 'Requêtes de Consentement',
+
+'can_manage_consents_desc' => 'Si activé, les membres de ce groupe pourront gérer les requêtes de consentement.',
 
 'can_post_comments_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront publier des commentaires sur le site.",
 
@@ -837,6 +865,10 @@ $lang = array(
 'email_deleted' => 'Message(s) email supprimé(s)',
 
 'email_title' => 'Titre de l\'email',
+
+'exclude_from_anonymization' => 'Exclure des actions d\'anonymisation ?',
+
+'exclude_from_anonymization_desc' => 'Si activé, ce champ ne sera pas affecté par les actions d\'anonymisation (droit à l\'oubli).', // TODO: docs link
 
 'field_created' => 'Champ créé',
 

@@ -55,23 +55,29 @@ $lang = array(
 
 'addons_installed_desc'			=>		'Les add-ons suivants on été installés : ',
 
-'addons_installed'				=>		'Add-Ons Installés',
+'addons_installed'				=>		'Add-Ons installés',
+
+'addons_not_installed'			=>		'Add-Ons non installés',
 
 'addons_uninstalled_desc'		=>		'Les add-ons suivants ont été désinstallés : ',
 
-'addons_uninstalled'			=>		'Add-Ons Désinstallés',
+'addons_uninstalled'			=>		'Add-Ons désinstallés',
 
 'addons_updated_desc'			=>		'Les add-ons suivants ont été mis à jour : ',
 
 'addons_updated'				=>		'Add-Ons mis à jour',
 
-'btn_save_settings'             =>      'Enregistrer les Paramètres',
+'btn_save_settings'             =>      'Enregistrer les paramètres',
+
+'contact_developer'				=>		'Merci de contacter le développeur de l\'add-on pour assistance.',
 
 'custom_limit'					=>		'limite personnalisée',
 
 'developer'						=>		'développeur',
 
 'entries'						=>		'Articles',
+
+'existing_consent_request'		=>		'Les add-ons suivants n\'ont pas pu être installés en raison d\'une Requête de Consentement déjà existante que les add-ons essaient de créer :',
 
 'extension_class_does_not_exist' => 'La classe %c n\'existe pas dans (%f)',
 

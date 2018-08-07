@@ -20,7 +20,7 @@ $lang = array(
 
 'php_info' => 'Infos <abbr title="PHP: Hypertext Processor">PHP</abbr>',
 
-'import_tools' => 'Outils d\'importation',
+'member_tools' => 'Outils Membres',
 
 'file_converter' => 'Convertisseur de fichier',
 
@@ -193,10 +193,6 @@ $lang = array(
 
 'import_converter' => 'Convertisseur de fichier importé',
 
-'file_location' => 'Emplacement du fichier',
-
-'file_location_desc' => 'Chemin d\'accès à votre fichier <mark>délimité</mark>.',
-
 'delimiting_char' => 'Caractère délimiteur',
 
 'delimiting_char_desc' => 'Ce caractère sépare vos données dans le fichier ci-dessus (tabulation, virgule, symbole \'Pipe\', etc.)',
@@ -212,6 +208,10 @@ $lang = array(
 'enclosing_char' => 'Caractère d\'encadrement',
 
 'enclosing_char_desc' => 'Ce caractère encadre vos données s\'il existe.',
+
+'import_cache_file_not_writable' => 'Répertoire Cache non inscriptible',
+
+'import_cache_file_instructions' => 'Pour télécharger le fichier, le répertoire Cache doit être inscriptible.',
 
 'import_convert_btn' => 'Convertir le fichier',
 
@@ -232,6 +232,10 @@ $lang = array(
 'duplicate_member_id' => 'ID de membre en doublon : "%x"<br />Nous vous recommandons de ne pas utiliser de balise &lt;member_id&gt; et d\'autoriser ExpressionEngine à incrémenter de manière automatique member_id',
 
 'duplicate_username' => 'Identifiant en doublon : ',
+
+'member_file' => 'Fichier de membre',
+
+'member_file_desc' => 'Fichier délimité contenant les données de membre',
 
 'member_id_warning' => 'ATTENTION : si vous avez des balises &lt;member_id&gt; dans votre XML, les membres déjà présents avec la même member_id seront ECRASES ! Soyez prudent !',
 
@@ -276,8 +280,6 @@ $lang = array(
 
 'mbr_xml_file' => 'Emplacement du fichier <abbr title="Extensible Markup Language">XML</abbr>',
 
-'mbr_xml_file_location' => 'Chemin serveur vers votre fichier <abbr title="Extensible Markup Language"><mark>xml</mark></abbr>.',
-
 'mbr_import_default_options' => 'Options par défaut',
 
 'member_group' => 'Groupe de membres',
@@ -296,8 +298,7 @@ $lang = array(
 
 'confirm_import' => 'Confirmez l\'importation',
 
-'confirm_import_warning' => '<p class="caution"><span title="soyez prudent"></span> <b>ATTENTION</b> : si votre fichier <abbr title="Extensible Markup Language">XML</abbr> contient une balise nommée "<b>member_id</b>", arrêtez tout !</p>
-<p>Les membres présents dans votre base de données avec la même <abbr title="Identifier">ID</abbr>s seront <b>écrasés</b> si vous confirmez cette importation.</p>',
+'confirm_import_warning' => '<p class="txt-caution"><span class="icon--caution" title="soyez prudent"></span> <b>ATTENTION</b> : si votre fichier <abbr title="Extensible Markup Language">XML</abbr> contient une balise nommée "<b>member_id</b>", arrêtez tout !</p><p>Les membres présents dans votre base de données avec la même <abbr title="Identifier">ID</abbr> seront <b>écrasés</b> si vous confirmez cette importation.</p>',
 
 'option' => 'Option',
 
@@ -342,6 +343,10 @@ $lang = array(
 'member_import_error_desc' => 'Nous n\'avons pas pu terminer l\'importation, merci de vérifier et corriger les erreurs ci-dessous.',
 
 'member_import_no_custom_fields_selected' => 'Aucun champ personnalisé sélectionné pour l\'importation. Merci de cliquer les cases à cocher situées à côté des champs que vous souhaitez créer.',
+
+'member_xml_file' => 'Fichier XML de membre',
+
+'member_xml_file_desc' => 'Fichier XML contenant les données de membre',
 
 /**
  * SQL Query Form
@@ -469,7 +474,29 @@ $lang = array(
 
 'table_count' => '<b>%s</b> tables',
 
-''=>''
+/* Export Email Addresses */
+ 'mass_notification_export' => 'Export en masse',
+
+ 'export_email_addresses_title' => 'Exporter un fichier <abbr title="Comma Separated Values">CSV</abbr>',
+
+ 'export_email_addresses_desc' => 'Exporter les noms et adresses email de vos %s membres.',
+
+ 'export_warning_desc' => 'Cette action ne devrait être réalisée que par des utilisateurs habilités. Le fichier <abbr title="Comma Separated Values">CSV</abbr> obtenu devrait être traité en accord avec votre politique de traitement des données personnelles.',
+
+ 'download_valid_email_addresses' => 'Télécharger les emails valides',
+
+ 'download_invalid_email_addresses' => 'Télécharger les emails invalides',
+
+ 'exported_valid_email_addresses' => 'Les adresses email valides des membres ont été exportées',
+
+ 'exported_invalid_email_addresses' => 'Les adresses email invalides des membres ont été exportées',
+
+ 'validate_addresses' => 'Valider les adresses emails ?',
+
+ 'validate_addresses_desc' => 'Vérifie si l\'email est au bon format et si le domaine existe.',
+
+ 'export_email_addresses_fail' => 'L\'export a échoué',
+
 );
 
 // EOF

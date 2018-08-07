@@ -195,11 +195,17 @@ $lang = array(
 // Buttons
 //----------------------------
 
+'accept' => 'Accepter',
+
 'cancel' => 'Annuler',
+
+'decline' => 'Refuser',
 
 'delete' => 'Supprimer',
 
 'done' => 'Terminé',
+
+'needs_review' => 'A besoin d\'être revu',
 
 'preview' => 'Aperçu',
 
@@ -231,6 +237,8 @@ $lang = array(
 
 'ip' => 'IP',
 
+'member_anonymized_member' => 'Membre anonyme d\'ID : %d',
+
 'member_changed_email' => 'Email modifié pour "%s" (%d) de "%s" à "%s"',
 
 'member_changed_member_group' => 'Groupe de membres modifié vers "%s" pour "%s" (%d)',
@@ -249,11 +257,15 @@ $lang = array(
 // Common
 //----------------------------
 
-'by_date'						=> 'par date',
+'btn_downloading' => 'Téléchargement',
 
-'by_site'						=> 'par site',
+'btn_exporting' => 'Export',
 
-'by_username'					=> 'par identifiant',
+'by_date' => 'par date',
+
+'by_site' => 'par site',
+
+'by_username' => 'par identifiant',
 
 'channel' => 'Canal',
 
@@ -261,17 +273,23 @@ $lang = array(
 
 'create' => 'Créer',
 
-'custom_date_range'				=> 'Plage de dates',
+'custom_date_range' => 'Plage de dates',
 
-'edit'							=>	'Modifier',
+'date_added' => 'Date ajoutée',
+
+'edit' => 'Modifier',
 
 'ee_wiki' => 'Wiki EE',
 
 'entry' => 'Article',
 
-'limit_by'						=> 'limiter par',
+'export' => 'Export',
 
-'manage'						=>	'Gérer',
+'important' => 'Important !',
+
+'limit_by' => 'limiter par',
+
+'manage' =>	'Gérer',
 
 'modify' => 'Modifier',
 
@@ -279,7 +297,7 @@ $lang = array(
 
 'most_recent_entry' => 'Dernier article',
 
-'no_search_results'	 			=> 'Aucun <b>résultat</b> trouvé',
+'no_search_results' => 'Aucun <b>résultat</b> trouvé',
 
 'or_delete' => 'ou supprimer',
 
@@ -292,6 +310,8 @@ $lang = array(
 'results' => 'résultats',
 
 'select_all' => 'Tout sélectionner',
+
+'search_in' => 'Rechercher dans',
 
 'show' => 'afficher',
 
@@ -307,15 +327,17 @@ $lang = array(
 
 'template' => 'Modèle',
 
-'total_entries'					=> 'nombre total d\'articles',
+'total_entries' => 'nombre total d\'articles',
 
-'type_phrase'					=> 'termes à rechercher...',
+'type_phrase' => 'termes à rechercher...',
 
-'user_guide' 					=>	'Guide utilisateur',
+'user_guide' =>	'Guide utilisateur',
 
 'view' => 'Voir',
 
-'with_selected'					=> 'action sur sélection', // to review
+'will_be_logged' => 'Cette action sera journalisée',
+
+'with_selected' => 'action sur sélection', // to review
 
 //----------------------------
 // Sites and Channels
@@ -454,6 +476,8 @@ $lang = array(
 
 'enable' => 'Activer',
 
+'filter_authors' => 'filtrer les auteurs',
+
 'filter_categories' => 'filtrer les catégories',
 
 'filter_channels' => 'filtrer les canaux',
@@ -539,11 +563,13 @@ $lang = array(
 
 'authenticating' => 'authentification...',
 
+'checking_for_updates' => 'Vérification des mises à jour...',
+
 'download' => 'télécharger',
 
 'installed' => 'Installée',
 
-'latest_version' => 'Dernière version',
+'latest_version' => 'Dernière',
 
 'license_no' => 'Licence #',
 
@@ -553,9 +579,9 @@ $lang = array(
 
 'not_entered' => 'non renseignée',
 
-'out_of_date_recommended' => 'Obsolète, mise à jour recommandée',
+'out_of_date_recommended' => 'Mise à jour recommandée',
 
-'out_of_date_upgrade' => 'Obsolète, merci de metre à jour',
+'out_of_date_upgrade' => 'Nouvelle version disponible',
 
 'out_of_date' => 'obsolète',
 
@@ -571,6 +597,10 @@ $lang = array(
 
 'session_timeout' => 'Votre session d\'accès Administrateur s\'est achevée. Merci d\'utiliser le formulaire ci-dessous pour vous connecter de nouveau à votre panneau de contrôle.',
 
+'up_to_date' => 'Vous êtes à jour !',
+
+'version' => 'Version',
+
 //----------------------------
 // confirm removal modal
 //----------------------------
@@ -579,19 +609,23 @@ $lang = array(
 
 'confirm_removal_desc' => 'Vous essayer de supprimer les éléments suivants, merci de confirmer cette action.',
 
-'btn_confirm_and_remove' => 'Confirmer, et Supprimer',
+'btn_confirm_and_remove' => 'Confirmer et Supprimer',
 
 'btn_confirm_and_remove_working' => 'Suppression...',
+
+'btn_confirm_and_save' => 'Confirmer et Enregistrer',
+
+'btn_confirm_and_save_working' => 'Enregistrement...',
 
 //----------------------------
 // confirm show all modal
 //----------------------------
 
-'confirm_show_all' => 'Attention !',
+'confirm_show_all' => 'Confirmez Tout Afficher',
 
 'confirm_show_all_desc' => 'Visualiser plus de %d éléments à la fois peut entraîner une diminution des performances.',
 
-'confirm_show_all_btn' => 'Allons-y !',
+'confirm_show_all_btn' => 'Tout Afficher',
 
 'all_items' => 'Tous les éléments (%d)',
 

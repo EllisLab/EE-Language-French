@@ -5,6 +5,8 @@ $lang = array(
 'system_logs'			=> 'Journaux Système',
 
 /* Sidebar */
+'all_consent_logs'		=> 'Tous les journaux Audit de Consentement (%d)',
+
 'all_cp_logs' 			=> 'Tous les journaux Panneau de Contrôle (%d)',
 
 'all_developer_logs' 	=> 'Tous les journaux Développeur (%d)',
@@ -17,6 +19,8 @@ $lang = array(
 
 'clear_cp_logs'			=> 'Effacer tous les journaux des accès au panneau de contrôle',
 
+'consent_log'			=> 'Consentement',
+
 'cp_log' 				=> 'Panneau de Contrôle',
 
 'date_logged'			=> 'Date enregistrée',
@@ -28,6 +32,8 @@ $lang = array(
 'logs_deleted_desc'		=> '<b>%d</b> journal(aux) effacé(s) dans les journaux <b>%s</b>',
 
 'logs_deleted'			=> 'Journaux effacés',
+
+'no_consent_logs_found' => 'Aucun <b>Journal Audit de Consentement</b> trouvé.',
 
 'no_control_panel_logs_found' => 'Aucun <b>Journal Panneau de Contrôle</b> trouvé.',
 
@@ -44,6 +50,8 @@ $lang = array(
 'site_search' 			=> 'Site',
 
 'throttle_log' 			=> 'Filtrage',
+
+'view_consent_log'		=> 'Journaux des audits de consentement',
 
 'view_cp_log' 			=> 'Journaux des accès au panneau de contrôle',
 
