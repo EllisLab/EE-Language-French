@@ -32,7 +32,7 @@ $lang = array(
 
 'btn_create_new' => 'Créer',
 
-'btn_edit_comment' => 'Modifier un commentaire',
+'btn_edit_comment' => 'Enregistrer',
 
 'btn_publish' => 'Publier',
 
@@ -141,6 +141,8 @@ $lang = array(
 'expiration_date' => 'Date d\'expiration',
 
 'filter_autosaves' => 'filtrer les auto-enregistrés',
+
+'filter_by_author' => 'auteur',
 
 'filter_by_category' => 'catégorie',
 
@@ -491,8 +493,6 @@ $lang = array(
 
 'load_revision' => 'Charger une version',
 
-'loading' => 'chargement',
-
 'localized_date' => 'Localisée',
 
 'located_in' => 'Localisation :',
@@ -701,15 +701,13 @@ $lang = array(
 
 'thumbnail_created' => 'Miniature créée',
 
-'title_and_body' => 'Rechercher dans les titres et les articles',
-
-'title_body_comments' => 'Rechercher dans les titres, les articles et les commentaires',
+'titles_and_content' => 'Titres & Contenu',
 
 'title_not_unique' => 'Un article portant ce titre existe déjà. Les titres doivent être uniques.',
 
-'title_only' => 'Rechercher dans les titres uniquement',
-
 'title' => 'Titre',
+
+'titles' => 'Titres',
 
 'today' => 'Aujourd\'hui',
 
@@ -802,6 +800,8 @@ $lang = array(
 'add_new_row' => 'Ajouter une nouvelle ligne',
 
 'collapse' => 'Réduire',
+
+'creating_new_in_rel' => 'Création d\'un nouvel article dans <b>#to_channel#</b> pour une relation avec <b>#from_channel#</b>',
 
 'hide' => 'Masquer',
 
@@ -945,8 +945,6 @@ $lang = array(
 
 'filter_selected_entries' => 'Filtrer les entrées sélectionnées',
 
-'important' => 'Important !',
-
 'no_cat_groups_in_common' => 'Aucun <b>Groupe de catégories</b> en commun.',
 
 'bulk_edit' => 'Modification en masse',
@@ -964,6 +962,8 @@ $lang = array(
 'remove_categories_entries' => 'Supprimer les catégories de %d entrées',
 
 'remove_from_selection' => 'Supprimer de la sélection',
+
+'save_and_next' => 'Enregistrer & Suivant',
 
 'selected_entries' => 'Entrées sélectionnées',
 

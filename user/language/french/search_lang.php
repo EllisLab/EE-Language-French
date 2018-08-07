@@ -96,7 +96,9 @@ $lang = array(
 
 "search_keywords" => "Mots clés",
 
-"search_min_length" => "Les termes de recherche doivent avoir au moins  %x caractères de long",
+'search_max_length' => 'Les termes de recherche ne doivent pas faire plus de %x caractères de long',
+
+"search_min_length" => "Les termes de recherche doivent faire au moins %x caractères de long",
 
 "search_module_description" => "Module de recherche",
 

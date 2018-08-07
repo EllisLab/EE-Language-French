@@ -84,6 +84,8 @@ $lang = array(
 
 'info_blurb' => 'Pour utiliser cet utilitaire, vous devez d\'abord déposer sur votre serveur le fichier contenant les données de membre exportées, puis saisir l\'emplacement du fichier.',
 
+'invalid_avatar_filename' => 'Nom de fichier avatar invalide : "%x"',
+
 'invalid_element' => 'Element manquant ou invalide - &lt;member&gt; attendu',
 
 'invalid_path' => 'CHEMIN INVALIDE ! Le fichier n\'existe pas : ',
@@ -165,6 +167,8 @@ $lang = array(
 'unable_to_parse_xml' => 'Impossible d\'interpréter le XML.',
 
 'unable_to_read_file' => 'Impossible de lire le fichier.',
+
+'upload_problem' => 'Le téléchargement a échoué',
 
 'value' => 'Valeur',
 

@@ -166,6 +166,8 @@ $lang = array(
 
 'make_default_group' => 'Définir comme groupe par défaut ?',
 
+'member_groups' => 'Groupes de membres',
+
 'messages' => 'Messages',
 
 'name_desc' => 'Aucun espace. Les soulignés (underscore) et les tirets sont autorisés.',
@@ -231,6 +233,10 @@ $lang = array(
 'template_groups' => 'Groupes de modèles',
 
 'template_manager' => 'Gestion des Modèles',
+
+'template_member_groups' => 'Groupes de membres autorisés',
+
+'template_member_groups_desc' => 'Les utilisateurs placés dans ces groupes de membres peuvent créer, modifier et/ou supprimer des modèles dans ce groupe de modèles.',
 
 'template_name_taken' => 'Le nom de modèle que vous avez soumis est déjà pris',
 
@@ -415,6 +421,8 @@ $lang = array(
 
 'no_templates_found' => 'Aucun <b>modèle</b> trouvé.',
 
+'no_user_templates_found' => 'Aucun <b>modèle</b> trouvé. Consultez la <a href="%s" title="Documentation" rel="external">documentation</a>.',
+
 'no_templates_selected' => "Aucun modèle sélectionné",
 
 'php_in_templates_warning' => '<b>Attention</b> : autoriser le PHP dans les modèles peut poser des problèmes de sécurité de vos données.',
@@ -584,8 +592,6 @@ $lang = array(
 "export_templates" => "Exporter les modèles",
 
 "export_will_be_zip" => "Note : Les données exportées seront envoyées dans une archive ZIP",
-
-"export" => "Exporter",
 
 "file_exists_warning" => "Un fichier texte existe pour ce modèle et sera supprimé pendant cette action.",
 

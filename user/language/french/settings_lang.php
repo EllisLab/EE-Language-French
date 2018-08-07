@@ -11,6 +11,8 @@ $lang = array(
 
 'comment_settings' => 'Paramètres de commentaires',
 
+'consent_requests' => 'Requêtes de consentement',
+
 'content_and_design' => 'Contenu & design',
 
 'debugging_output' => 'Débogage & sortie',
@@ -729,6 +731,10 @@ $lang = array(
 
 'enable_rank_denial' => 'Activer le refus de rang aux liens soumis ?',
 
+'force_interstitial' => 'Imposer une confirmation de redirection aux liens soumis ?',
+
+'force_interstitial_desc' => 'Affiche un écran de confirmation quand un lien est cliqué et que le refus de rang des liens soumis est activé.',
+
 'form_security_settings' => 'Paramètres de soumission du contenu',
 
 'member_security_settings' => 'Paramètres de sécurité des membres',
@@ -749,6 +755,10 @@ $lang = array(
 
 'pw_min_len' => 'Longueur minimale du mot de passe',
 
+'require_cookie_consent' => 'Exiger le consentement de l\'utilisateur pour définir des cookies ?',
+
+'require_cookie_consent_desc' => 'Si activé, les cookies ne seront pas définis pour le visiteur (exceptés ceux <b>strictement nécessaires</b> au fonctionnement du site web) tant qu\'ils n\'aura pas accepté la politique de cookies de votre site. Consultez la <a href="'.DOC_URL.'add-ons/consent/">documentation du module de consentement</a> pour plus de détails.',
+
 'require_ip_for_login_desc' => 'Si activé, les membres ne pourront pas se connecter si leur navigateur n\'envoie pas l\'adresse <abbr title="Internet Protocol">IP</abbr> et un User Agent valide.',
 
 'require_ip_for_login' => 'Exiger l\'adresse <abbr title="Internet Protocol">IP</abbr> et l\'User Agent pour la connexion ?',
@@ -763,7 +773,7 @@ $lang = array(
 
 's_session' => 'ID de session uniquement',
 
-'security_tip_desc' => 'Les paramètres marqués avec <span title="amélioration de la sécurité"></span> augmenteront et amélioreront la sécurité de votre site.',
+'security_tip_desc' => 'Les paramètres marqués avec <span class="icon--caution" title="amélioration de la sécurité"></span> augmenteront et amélioreront la sécurité de votre site.',
 
 'security_tip' => '<b>N\'oubliez pas</b> : la sécurité de votre site, c\'est important.',
 
@@ -830,6 +840,21 @@ $lang = array(
 'edit_html_buttons_success_desc' => 'Le bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> <b>%s</b> a été mis à jour.',
 
 'edit_html_buttons_success' => 'Bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> mis à jour',
+
+/* Consent Requests */
+'consent_request_versions' => 'Versions de %s',
+
+'new_version' => 'Nouvelle version',
+
+'app_consent_requests' => 'Requêtes de consentement Application',
+
+'user_consent_requests' => 'Requêtes de consentement Utilisateur',
+
+'author' => 'Auteur',
+
+'cookie_consent_disabled' => 'Consentement Cookie Désactivé',
+
+'cookie_consent_disabled_desc' => 'Les requêtes de consentement liées aux cookies n\'ont aucun effet sur la définition des cookies, à moins que le <a href="%s">paramètre de consentement des cookies</a> ne soit activé.'
 
 );
 
