@@ -518,7 +518,7 @@ $lang = array(
 
 'update_avatar_path' => '<em>Mettez à jour vos paramètres de téléchargement d\'<a href="%s">avatar</a></em>',
 
-'upload_avatar' => 'Télécharger — .gif, .jpg, .png (max 50kb)',
+'upload_avatar' => 'Télécharger — .gif, .jpg, .png (max %skb)',
 
 'url_desc' => 'URL de votre site web personnel',
 
