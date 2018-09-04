@@ -108,11 +108,11 @@ $lang = array(
 
 "nonexistent_page" => "La page que vous avez demandée n'a pu être trouvée",
 
-'unable_to_load_field_type' => 'Impossible de charger le fichier de type de champ demandé :  %s.<br />Confirmez que le fichier de type de champ est bien situé dans le répertoire /system/user/addons/ ',
+'unable_to_load_field_type' => 'Impossible de charger le fichier de type de champ demandé :  %s.<br />Confirmez que le fichier de type de champ est bien situé dans le répertoire /'.SYSDIR.'/user/addons/ ',
 
-'unwritable_cache_folder' => 'Votre répertoire Cache n\'a pas les permissions requises.<br />Pour corriger : définissez les permissions du répertoire Cache (/system/user/cache/) à 777 (ou équivalent, selon votre serveur).',
+'unwritable_cache_folder' => 'Votre répertoire Cache n\'a pas les permissions requises.<br />Pour corriger : définissez les permissions du répertoire Cache (/'.SYSDIR.'/user/cache/) à 777 (ou équivalent, selon votre serveur).',
 
-'unwritable_config_file' => 'Votre fichier de configuration n\'a pas les permissions requises.<br />Pour corriger : définissez les permissions du fichier de configuration (/system/user/config/config.php) à 666 (ou équivalent, selon votre serveur).',
+'unwritable_config_file' => 'Votre fichier de configuration n\'a pas les permissions requises.<br />Pour corriger : définissez les permissions du fichier de configuration (/'.SYSDIR.'/user/config/config.php) à 666 (ou équivalent, selon votre serveur).',
 
 'redirect_xss_fail' => 'Le lien vers lequel vous êtes redirigé contient du code potentiellement malicieux ou dangereux. Nous vous recommandons de cliquer sur le bouton "Retour Arrière" de votre navigateur et d\'envoyer un email à %s pour lui rapporter le lien qui a généré ce message d\'alerte.',
 
