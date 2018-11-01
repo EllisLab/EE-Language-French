@@ -245,6 +245,8 @@ $lang = array(
 
 'member_group_desc' => "Affecter à ce membre les permissions d'accès.",
 
+'member_group_filter' => 'groupe de membres',
+
 'member_group_updated_desc' => "Le groupe de membres a été enregistré avec succès.",
 
 'member_group' => 'Groupe de membres',

@@ -313,7 +313,17 @@ $lang = array(
 
 'search_in' => 'Rechercher dans',
 
-'show' => 'afficher',
+'search_in_filter' => 'rechercher dans',
+
+'perpage_filter' => 'afficher',
+
+'date_filter' => 'date',
+
+'group_filter' => 'groupe',
+
+'type_filter' => 'type',
+
+'show' => 'Afficher',
 
 'site_filter' => 'site',
 

@@ -188,6 +188,8 @@ $lang = array(
 
 'channel_publishing_options_warning' => '<b>Attention</b> : les canaux ont besoin de groupes de champs personnalisés pour collecter toutes les données autres que Titre et Date.',
 
+'channel_preview_url_invalid' => 'L\'URL de prévisualisation doit simplement être un chemin ou une route de modèle, elle ne peut pas être une URL complète (incluant {base_url})',
+
 'channel_publishing_options_warning2' => 'Si vous avez besoin de collecter d\'autres données pour ce canal, il est fortement conseillé de créer <b>d\'abord</b> vos <a href="%s">groupes de champs personnalisés</a>.',
 
 'channel_publishing_options' => 'Options de publication',
