@@ -1,7 +1,8 @@
-# French Translation Pack for ExpressionEngine 4.x
+# French Translation Pack for ExpressionEngine 4.x and 5.x
 
 ## Changes Between Versions
 
+- [4.3.6 → 5.0.1](https://github.com/EllisLab/EE-Language-French/compare/7b0082b...7b0082b)
 - [4.3.4 → 4.3.6](https://github.com/EllisLab/EE-Language-French/compare/801a8f2...7b0082b)
 - [4.3.3 → 4.3.4](https://github.com/EllisLab/EE-Language-French/compare/f6e0091...801a8f2)
 - [4.1.3 → 4.3.3](https://github.com/EllisLab/EE-Language-French/compare/9dcd9af...f6e0091)
@@ -16,7 +17,7 @@
 
 - Copyright (C) 2009-2018 EllisLab, Inc.
 - Original French translation provided by: Jeremie Werner / Studio Meta (@studiometa)
-- 2.5.5, 2.7.x, 3.x and 4.x versions by: Emmanuel Beauchamps / Putitinred (@putitinred)
+- 2.5.5, 2.7.x, 3.x, 4.x and 5.x versions by: Emmanuel Beauchamps
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
