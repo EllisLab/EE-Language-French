@@ -58,7 +58,7 @@ $lang = array(
 
 'defaults' => 'Valeurs par défaut',
 
-'enable_msm_desc' => 'Si activé, les Super Administrateurs et les groupes de membres avec les permissions suffisantes pourront gérer des sites web supplémentaires à partir du <abbr title="Panneau de Contrôle">PC</abbr>.',
+'enable_msm_desc' => 'Si activé, les Super Administrateurs et les membres des groupes avec les permissions suffisantes pourront gérer des sites web supplémentaires à partir du <abbr title="Panneau de Contrôle">PC</abbr>.',
 
 'enable_msm' => 'Activer le gestionnaire de sites ?',
 
@@ -76,11 +76,15 @@ $lang = array(
 
 'online' => 'En Ligne',
 
+'show_ee_news' => 'Afficher les nouvelles d\'ExpressionEngine ?',
+
+'show_ee_news_desc' => 'Si activé, les dernières nouvelles d\'ExpressionEngine apparaîtront sur la page d\'accueil du panneau de contrôle.',
+
 'site_default' => 'Utiliser les valeurs par défaut du site',
 
 'site_name' => 'Nom de votre site',
 
-'site_online_desc' => 'Si le site est désactivé, seuls les Super Administrateurs et les groupes de membres avec les permissions suffisantes pourront le visualiser',
+'site_online_desc' => 'Si le site est désactivé, seuls les Super Administrateurs et les membres des groupes avec les permissions suffisantes pourront le visualiser',
 
 'site_online' => 'Le site est-il en ligne ?',
 
@@ -97,43 +101,6 @@ $lang = array(
 "12_hour" => "12 heures avec AM/PM",
 
 "24_hour" => "24 heures",
-
-/* License & Registration */
-'features_limited_desc' => 'La version Core d\'ExpressionEngine a des fonctionnalités limitées. <a href="%s" rel="external">Mettez-la à jour maintenant.</a>',
-
-'features_limited' => 'Fonctionnalités limitées',
-
-'license_and_registration_settings' => 'Paramètres de licence et d\'enregistrement',
-
-'license_and_registration' => 'Licence & enregistrement',
-
-'license_file_corrupt_license_file' => 'Il manque des données dans le fichier de licence fourni.',
-
-'license_file_desc' => 'Tel que trouvé sur votre page <a href="%s" rel="external">gestion des achats</a>.',
-
-'license_file_error' => 'Licence invalide',
-
-'license_file_fail' => 'Licence non enregistrée',
-
-'license_file_invalid_license_number' => 'Le fichier de licence fourni est invalide.',
-
-'license_file_invalid_signature' => 'Le fichier de licence fourni n\'a pas une signature valide.',
-
-'license_file_missing_pubkey' => 'Il manque des données dans le produit ExpressionEngine. Merci de visiter <a href="%s" rel="external">expressionengine.com</a> et de télécharger un nouvel exemplaire.',
-
-'license_file_permissions' => 'Nous n\'avons pas pu enregistrer le fichier de licence. Vérifiez les permission sur <b>%s</b>.',
-
-'license_file_upload_error_desc' => 'Nous n\'avons pas pu mettre à jour les informations de licence et d\'enregistrement, merci de vérifier et corriger les erreurs ci-dessous.',
-
-'license_file_upload_error' => 'Impossible de mettre à jour les informations de licence et d\'enregistrement',
-
-'license_file' => 'Fichier de licence',
-
-'license_updated_desc' => 'Vos informations de licence et d\'enregistrement ont été mises à jour avec succès.',
-
-'license_updated' => 'Licence & enregistrement mis à jour',
-
-'site_limit' => 'Limite de site',
 
 /* URLs and Path Settings */
 'base_path_desc' => 'Utilisez <code>{base_path}</code> pour construire des chemins serveur dans les champs "chemin" du panneau de contrôle.',
@@ -776,6 +743,10 @@ $lang = array(
 'security_tip_desc' => 'Les paramètres marqués avec <span class="icon--caution" title="amélioration de la sécurité"></span> augmenteront et amélioreront la sécurité de votre site.',
 
 'security_tip' => '<b>N\'oubliez pas</b> : la sécurité de votre site, c\'est important.',
+
+'share_analytics' => 'Partager des statistiques d\'utilisation avec l\'Equipe de Développement d\'ExpressionEngine ?',
+
+'share_analytics_desc' => 'EllisLab demande aux utilisateurs de l\'aider à améliorer ExpressionEngine en lui <a href="%s">transmettant occasionnellement des stats, des informations d\'utilisation et des diagnostics</a>.',
 
 'un_min_len_desc' => 'Nombre minimum de caractères exigé pour les identifiants des nouveaux membres.',
 

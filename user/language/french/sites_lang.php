@@ -46,7 +46,7 @@ $lang = array(
 
 'site_limit_reached' => 'Nombre maximal de site atteint',
 
-'site_online_desc' => 'Si le site est désactivé, seuls les Super Administrateurs et les groupes de membres avec les permissions adéquates peuvent naviguer sur ce site web.',
+'site_online_desc' => 'Si le site est désactivé, seuls les Super Administrateurs et les membres des groupes avec les permissions suffisantes peuvent naviguer sur ce site web.',
 
 'site_online' => 'Site web en ligne ?',
 
