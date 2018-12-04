@@ -122,7 +122,7 @@ $lang = array(
 
 'theme_folder_wrong' => 'Le chemin serveur de votre dossier thème est incorrect. Merci de visiter <a href="%s">Paramètres URL et chemin serveur</a> et de vérifier le <mark>Chemin serveur des thèmes</mark> et le <mark>Répertoire des thèmes</mark>.',
 
-'missing_encryption_key' => 'Aucune valeur n\'est définie dans votre fichier config.php pour <code>%s</code>. Ceci peut rendre vulnérable la sécurité de votre installation. Restaurez les clefs ou <a href="%s">contactez le support</a> pour obtenir de l\'aide.',
+'missing_encryption_key' => 'Aucune valeur n\'est définie dans votre fichier config.php pour <code>%s</code>. Ceci peut rendre vulnérable la sécurité de votre installation. Restaurez les clefs ou consultez <a href="%s">cet article</a> du guide utilisateur pour obtenir de l\'aide.',
 
 'checksum_changed_warning' => 'Un ou plusieurs fichiers principaux d\ExpressionEngine ont été altérés :',
 
@@ -135,8 +135,7 @@ $lang = array(
 Les fichiers suivants sont affectés :
 {changed}
 
-Si vous avez effectué ces changements, veuillez accepter les modifications sur l'accueil du panneau de contrôle. Si vous n'avez pas modifié ces fichiers ceci peut indiquer une tentative de piratage. Vérifiez les fichiers pour tout contenu suspect (JavaScript ou iFrames) et contactez le support ExpressionEngine :
-https://expressionengine.com/support",
+Si vous avez effectué ces changements, veuillez accepter les modifications sur l'accueil du panneau de contrôle. Si vous n'avez pas modifié ces fichiers ceci peut indiquer une tentative de piratage. Vérifiez les fichiers pour tout contenu suspect (JavaScript ou iFrames) et consultez : '.DOC_URL.'troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html",
 
 'new_version_error' => 'Une erreur s\'est produite en tentant de télécharger le numéro de la version actuelle d\'ExpressionEngine. Veuillez vous rendre sur votre <a href="%s" title="download account" rel="external">Espace Téléchargement</a> pour vérifier que vous utilisez la dernière version. Si l\'erreur persiste, veuillez prendre contact avec votre administrateur système.',
 
