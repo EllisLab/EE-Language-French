@@ -439,8 +439,6 @@ $lang = array(
 
 'missing_pubkey' => 'Il manque des données dans ce produit ExpressionEngine. Merci de visiter <a href="%s" rel="external">expressionengine.com</a> et de télécharger un exemplaire à jour.',
 
-'software_unregistered' => 'Logiciel non enregistré',
-
 // CP Errors
 '404_does_not_exist' => 'erreur 404 : l\'élément n\'existe pas',
 

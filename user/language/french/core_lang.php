@@ -137,9 +137,7 @@ Les fichiers suivants sont affectés :
 
 Si vous avez effectué ces changements, veuillez accepter les modifications sur l'accueil du panneau de contrôle. Si vous n'avez pas modifié ces fichiers ceci peut indiquer une tentative de piratage. Vérifiez les fichiers pour tout contenu suspect (JavaScript ou iFrames) et consultez : '.DOC_URL.'troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html",
 
-'new_version_error' => 'Une erreur s\'est produite en tentant de télécharger le numéro de la version actuelle d\'ExpressionEngine. Veuillez vous rendre sur votre <a href="%s" title="download account" rel="external">Espace Téléchargement</a> pour vérifier que vous utilisez la dernière version. Si l\'erreur persiste, veuillez prendre contact avec votre administrateur système.',
-
-'license_disabled' => 'Votre licence logicielle a été désactivée ou mise à jour. Merci de visiter la page <a href="%s">License & Registration</a> et d\'installer la licence active à partir de votre <a href="%s" title="download account" rel="external">Compte de téléchargement</a>. Si l\'erreur persiste, merci de contacter votre administrateur système.',
+'new_version_error' => 'Une erreur s\'est produite en tentant de télécharger le numéro de la version actuelle d\'ExpressionEngine. Consultez ce <a href="%s" rel="external noreferrer">document de dépannage</a> pour de plus amples informations.',
 
 'file_not_found' => 'Le fichier %s n\'existe pas.',
 
