@@ -2,7 +2,7 @@
 
 $lang = array(
 
-'add_site' => 'Ajouter une site',
+'add_site' => 'Ajouter un site',
 
 'btn_site_limit_reached' => 'Nombre maximal de site atteint',
 
@@ -32,9 +32,9 @@ $lang = array(
 
 'invalid_short_name' => 'Le nom de votre site ne peut contenir que des caractères alphanumériques, des soulignés (underscore) et des tirets (aucun espace).',
 
-'name_desc' => "Description complète du site.",
+'name_desc' => "Le nom complet de ce site.",
 
-'short_name_desc' => "Nom court du site.<br><i>Aucun espace. Les soulignés (underscore) et tirets sont autorisés.</i>",
+'short_name_desc' => "<i>Aucun espace. Les soulignés (underscore) et tirets sont autorisés.</i>",
 
 'short_name' => "Nom court du site",
 
