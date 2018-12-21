@@ -60,7 +60,7 @@ $lang = array(
 
 'file_conflict' => 'Conflit de fichiers rencontré',
 
-'file_data' => 'Données de fichier',
+'file_data' => 'Données du fichier',
 
 'file_download' 		=> 'Télécharger',
 
@@ -144,7 +144,7 @@ $lang = array(
 
 'upload_edit'			=> 'Redimensionner &amp; Orienter',
 
-'upload_file' 			=> 'Télécharger le fichier',
+'upload_file' 			=> 'Télécharger un fichier',
 
 'upload_new_file' => 'Télécharger un nouveau fichier',
 

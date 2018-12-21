@@ -103,6 +103,8 @@ $lang = array(
 
 'file_ft_content_type'			=> 'Types de fichier autorisés',
 
+'file_ft_images_only' => 'Images uniquement',
+
 'file_ft_limit_desc'			=> 'Nombre maximal de fichier à afficher dans le menu déroulant.<br><i>laisser la zone vide pour afficher TOUS les fichiers.</i>',
 
 'file_ft_limit'					=> 'Limite pour les fichiers existants',
@@ -116,6 +118,41 @@ $lang = array(
 'file_ft_show_files'			=> 'Afficher les fichiers existants ?',
 
 'file_ft_upload_directories' => 'Répertoires de téléchargement',
+
+/* File Drag and Drop */
+'file_dnd_choose_directory' => 'Merci de choisir un répertoire',
+
+'file_dnd_choose_file_directory' => 'Choisir un répertoire de fichiers',
+
+'file_dnd_choose_directory_before_uploading' => 'Vous devez choisir un répertoire pour télécharger des fichiers',
+
+'file_dnd_choose_directory_btn' => 'Choisir un répertoire',
+
+'file_dnd_choose_existing' => 'Choisir répertoire existant',
+
+'file_dnd_dismiss' => 'Ignorer',
+
+'file_dnd_drop_file' => 'Déposer le fichier ici pour le télécharger',
+
+'file_dnd_drop_files' => 'Déposer les fichiers ici pour les télécharger',
+
+'file_dnd_file_name' => 'Nom du fichier',
+
+'file_dnd_filter_directories' => 'Filtrer les répertoires',
+
+'file_dnd_images_only' => 'Ce champ n\'accepte que des images.',
+
+'file_dnd_progress' => 'Progression',
+
+'file_dnd_resolve_conflict' => 'Résoudre les conflits',
+
+'file_dnd_single_file_allowed' => 'Ce champ ne peut contenir qu\'un seul fichier',
+
+'file_dnd_unexpected_error' => 'Erreur inattendue. Vérifiez le paramètre "post_max_size" de votre configuration PHP.',
+
+'file_dnd_uploading_to' => 'Téléchargement vers %s',
+
+'file_dnd_upload_new' => 'Nouveau téléchargement',
 
 // Grid
 'grid_add_field'			=> 'ajouter un nouveau champ',
@@ -189,6 +226,11 @@ $lang = array(
 'grid_text_direction'		=> 'Sens d\'écriture ?',
 
 'grid_validation_error'		=> 'Un problème est survenu avec au moins un champ de la grille',
+
+/* File Grid */
+'file_grid_setup' => 'Configuration grille de fichiers',
+
+'file_grid_maximum_rows_hit' => 'Télécharger autant de fichiers entraînera le dépassement du paramètre "Nombre de lignes maxi" fixé à %s',
 
 // URL
 'url_ft_allowed_url_schemes'         => 'Schémas URL autorisés',

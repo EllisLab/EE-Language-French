@@ -266,7 +266,7 @@ $lang = array(
 
 'xml_code' => 'Code XML',
 
-'btn_download_file' => 'Télécharger le fichier',
+'btn_download_file' => 'Télécharger un fichier',
 
 'btn_copy_to_clipboard' => 'Copier dans le presse-papier',
 

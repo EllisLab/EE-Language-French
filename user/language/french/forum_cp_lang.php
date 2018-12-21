@@ -106,7 +106,7 @@ $lang = array(
 
 'name' => 'Nom',
 
-'name_desc' => 'Description complète de ce forum.',
+'name_desc' => 'Le nom complet de ce forum.',
 
 'new_replies' => 'Nouvelles réponses',
 
@@ -442,7 +442,7 @@ $lang = array(
 
 'rank_title' => 'Titre',
 
-'rank_title_desc' => 'Description complète de ce rang.',
+'rank_title_desc' => 'Le nom complet de ce rang.',
 
 'posts_desc' => 'Nombre minimal de messages que doit avoir un utilisateur pour atteindre ce rang.',
 

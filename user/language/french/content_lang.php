@@ -729,7 +729,7 @@ $lang = array(
 
 'upload_dir_choose' => 'Choisissez un répertoire de téléchargement',
 
-'upload_file' => 'Télécharger Fichier',
+'upload_file' => 'Télécharger un fichier',
 
 'upload_to' => 'Télécharger vers %s',
 
