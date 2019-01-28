@@ -2,7 +2,7 @@
 
 ## Changes Between Versions
 
-- [5.0.2 → 5.1.0](https://github.com/EllisLab/EE-Language-French/compare/0dfe235...4ba59a5)
+- [5.0.2 → 5.1.3](https://github.com/EllisLab/EE-Language-French/compare/0dfe235...4ba59a5)
 - [5.0.1 → 5.0.2](https://github.com/EllisLab/EE-Language-French/compare/8c33c88...0dfe235)
 - [4.3.6 → 5.0.1 (updated)](https://github.com/EllisLab/EE-Language-French/compare/7b0082b...8c33c88)
 - [4.3.4 → 4.3.6](https://github.com/EllisLab/EE-Language-French/compare/801a8f2...7b0082b)
@@ -17,7 +17,7 @@
 
 ## License
 
-- Copyright (C) 2009-2018 EllisLab, Inc.
+- Copyright (C) 2009-2019 EllisLab, Inc.
 - Original French translation provided by: Jeremie Werner / Studio Meta (@studiometa)
 - 2.5.5, 2.7.x, 3.x, 4.x and 5.x versions by: Emmanuel Beauchamps
 
