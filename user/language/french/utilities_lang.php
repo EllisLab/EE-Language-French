@@ -462,6 +462,8 @@ $lang = array(
 
 'backup_error' => 'Impossible de sauvegarder',
 
+'backup_out_of_memory' => 'Le serveur est tombé en saturation mémoire lors de la tentative d\'export de votre base de données. Essayez de paramétrer <a href="%s" rel="external noreferrer"><code>db_backup_row_limit</code></a> à une valeur inférieure.',
+
 'backup_success' => 'Sauvegarde réussie',
 
 'backup_success_desc' => 'Votre sauvegarde a été enregistrée dans votre dossier Système à : <b>%s</b>',

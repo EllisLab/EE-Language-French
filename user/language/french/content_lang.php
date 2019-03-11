@@ -235,7 +235,7 @@ $lang = array(
 
 'calendar' => 'Calendrier',
 
-'cancel_preview' => 'Annuler l\'aperçu',
+'cancel_preview' => 'Fermer l\'aperçu',
 
 'category' => 'Catégorie',
 
@@ -759,7 +759,7 @@ $lang = array(
 
 'view_filtered' => 'Retournez aux articles filtrés',
 
-'view_wider' => 'Voir plus grand',
+'view_wider' => 'Plein écran',
 
 'view' => 'Voir',
 
