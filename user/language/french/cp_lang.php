@@ -239,6 +239,8 @@ $lang = array(
 
 'member_anonymized_member' => 'Membre anonyme d\'ID : %d',
 
+'member_hash_algo_changed' => 'Algorithme de hachage modifié pour "%s" (%d)',
+
 'member_changed_email' => 'Email modifié pour "%s" (%d) de "%s" à "%s"',
 
 'member_changed_member_group' => 'Groupe de membres modifié vers "%s" pour "%s" (%d)',
