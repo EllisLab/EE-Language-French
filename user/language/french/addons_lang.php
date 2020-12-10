@@ -159,6 +159,8 @@ $lang = array(
 
 'extensions_disabled_desc'		=>		'Les extensions ont été désactivées.',
 
+'extensions_disabled_message' => 'Les extensions ont été désactivées dans la configuration système, elles ne sont donc pas présentes dans cette liste.',
+
 'extensions_disabled_warning'	=>		'Afin d\'installer cet add-on, vous devez activer les extensions. Souhaitez-vous activer les extensions ?',
 
 'extensions_disabled' => 'Extensions désactivées',

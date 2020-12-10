@@ -16,8 +16,6 @@ $lang = array(
 
 'cp_translation' => 'Traduction du <abbr title="Panneau de Contrôle">panneau de contrôle</abbr>',
 
-'debug_extensions' => 'Déboguer les extensions',
-
 'php_info' => 'Infos <abbr title="PHP: Hypertext Processor">PHP</abbr>',
 
 'member_tools' => 'Outils Membres',
@@ -39,6 +37,10 @@ $lang = array(
 'statistics' => 'Statistiques',
 
 'search_and_replace' => 'Rechercher et remplacer',
+
+'manage_extensions' => 'Gérer les extensions',
+
+'debug_tools' => 'Outils de débogage',
 
 'default' => 'Par défaut',
 
@@ -498,6 +500,52 @@ $lang = array(
  'validate_addresses_desc' => 'Vérifie si l\'email est au bon format et si le domaine existe.',
 
  'export_email_addresses_fail' => 'L\'export a échoué',
+
+ /* Debug Tools */
+
+'debug_tools_overview' => 'Synthèse',
+
+'debug_tools_instruction' => '<a href="%s">Cliquer ici</a> pour naviguer vers Développeur &rarr; Utilitaires &rarr; Outils de débogage dans le panneau de contrôle pour avoir les détails et résoudre le problème.',
+
+'debug_tools_debug_tags' => 'Déboguer les balises de modèle',
+
+'debug_tools_broken_tags_found' => 'Nous avons trouvé %s balises de modèle cassées ou problématiques.',
+
+'debug_tools_corrupt_categories' => 'Catégories corrompues',
+
+'debug_tools_corrupt_categories_found' => 'Nous avons trouvé %s catégories corrompues.',
+
+'tag_inclusions' => 'Inclusions de balises',
+
+'debug_tools_fix_corrupt_categories' => 'Réparer les catégories corrompues',
+
+'debug_tools_categories_fixed' => 'Les catégories corrompues ont été réparées',
+
+'debug_tools_duplicate_layout_tabs' => 'Onglets de disposition de canaux en doublon',
+
+'debug_tools_duplicate_layout_tabs_found' => 'Nous avons trouvé %s onglets de disposition de canaux en doublon.',
+
+'debug_tools_remove_duplicate_layout_tabs' => 'Supprimer les doublons',
+
+'debug_tools_fieldtypes' => 'Déboguer les types de champ',
+
+'debug_tools_show_missing_fieldtypes' => 'Afficher les types de champ manquants',
+
+'debug_tools_found_missing_fieldtypes' => 'Nous avons trouvé %s types de champ manquants.',
+
+'debug_tools_missing_fieldtypes' => 'Types de champ manquants',
+
+'debug_tools_missing_fieldtypes_desc' => 'Les types de champ suivants sont trouvés dans la base de données, mais ne sont en fait pas installés correctement. Cela va générer des problèmes lors de la modification des canaux, des champs et des entrées. Pour résoudre ceci, installez les addons manquants ou supprimez les champs de leurs tables.',
+
+'debug_tools_no_missing_fieldtypes_desc' => 'Aucun type de champ manquant n\'a été trouvé dans la base de données. Parfait !',
+
+'debug_tools_installed_unused_fieldtypes' => 'Types de champ installés mais non utilisés',
+
+'debug_tools_installed_unused_fieldtypes_desc' => 'Ces types de champ sont installés mais ne sont pas actuellement utilisés :',
+
+'debug_tools_all_used_fieldtypes' => 'Tous les types de champ utilisés',
+
+'debug_tools_members' => 'Déboguer les membres',
 
 );
 

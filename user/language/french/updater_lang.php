@@ -30,6 +30,8 @@ $lang = array(
 
 'unpack_step' => 'Dépaquettage de la mise à jour',
 
+'updateAddons_step' => 'Vérification des mises à jour automatiques des addons',
+
 'updateFiles_step' => 'Mise à  jour des fichiers',
 
 'files_not_writable' => 'Les chemins suivants ne sont pas inscriptibles :

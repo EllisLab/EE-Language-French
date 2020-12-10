@@ -34,6 +34,8 @@ $lang = array(
 
 'prev' => 'Précédent',
 
+'required_fields' => 'Champs Obligatoires',
+
 'search' => "Rechercher",
 
 'setting' => 'Paramètre',

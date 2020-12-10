@@ -480,6 +480,8 @@ $lang = array(
 
 'category_not_updated' => 'Impossible de mettre à jour la catégorie',
 
+'category_parent_invalid' => 'La catégorie parente doit être à la fois dans le même groupe et différente de la catégorie elle-même',
+
 'category_permissions_warning' => '<b>Attention</b> : soyez vigilant sur les privilèges d\'accès que vous accordez.',
 
 'category_permissions_warning2' => 'Les paramètres marqués d\'un %s doivent être uniquement accordés à des personnes en qui vous avez pleine confiance.',

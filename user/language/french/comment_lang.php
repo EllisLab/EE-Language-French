@@ -18,6 +18,8 @@ $lang = array(
 
 'closed' => 'Fermé',
 
+'cmt_must_be_logged_in' => 'Cette page est uniquement accessible aux utilisateurs connectés.',
+
 'cmt_subscribe' => 'Abonnez-vous à ce commentaire',
 
 'cmt_unsubscribe' => 'Désabonnez-vous à ce commentaire',
