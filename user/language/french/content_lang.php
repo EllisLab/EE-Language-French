@@ -969,7 +969,13 @@ $lang = array(
 
 'showing' => 'Affichage de',
 
-'unauthorized_entry_desc' => 'Vous ne disposez pas des permissions suffisantes pour modifier au moins une des entrées sélectionnées.'
+'unauthorized_entry_desc' => 'Vous ne disposez pas des permissions suffisantes pour modifier au moins une des entrées sélectionnées.',
+
+/* DB column type */
+
+'db_column_type' => 'Type de colonne dans la base de données',
+
+'db_column_type_desc' => 'Choisissez le type de colonne de base de données qui contiendra vos données. TEXT (64Kb) est normalement OK pour un article. Si le contenu de votre champ est plutôt un livre, sélectionnez MEDIUMTEXT (16Mb).'
 
 );
 

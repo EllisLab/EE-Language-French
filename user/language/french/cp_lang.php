@@ -137,8 +137,6 @@ $lang = array(
 
 'required_field' => 'champ obligatoire',
 
-'required_fields' => 'Champs obligatoires',
-
 'retry' => 'Réessayer ?',
 
 'reveal_sidebar' => 'Afficher la barre latérale',
@@ -452,6 +450,8 @@ $lang = array(
 
 'auto_br' => 'Saut de ligne auto',
 
+'btn_authenticate' => 'Authentifier',
+
 'btn_authenticate_and_save' => 'Authentifier &amp; Enregistrer',
 
 'btn_canceling' => 'Annulation...',
@@ -589,9 +589,15 @@ $lang = array(
 
 'not_entered' => 'non renseignée',
 
+'one_click_major_update_instructions' => '<a href="https://docs.expressionengine.com/v6/installation/updating.html#upgrading-major-version" target="_blank">Lisez les avertissements de mise à jour avant de continuer !</a><br><br>Entrez votre mot de passe pour continuer :',
+
+'one_click_major_update_confirm_error' => '<b>Impossible de s\'authentifier</b><br><br>Des détails supplémentaires peuvent être disponibles dans la console de votre navigateur',
+
 'out_of_date_recommended' => 'Mise à jour recommandée',
 
 'out_of_date_upgrade' => 'Nouvelle version disponible',
+
+'out_of_date_upgrade_major' => 'Nouvelle version majeure disponible',
 
 'out_of_date' => 'obsolète',
 
