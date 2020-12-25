@@ -40,7 +40,7 @@ $lang = array(
 
 'email_no_recipients' => "Vous devez inclure des destinataires : À, Cc, Cci",
 
-'email_no_smtp_unpw' => "Erreur : vous devez inscrire un nom d\'utilisateur et un mot de passe SMTP.",
+'email_no_smtp_unpw' => "Erreur : vous devez inscrire un identifiant et un mot de passe SMTP.",
 
 'email_no_socket' => "Impossible d\'ouvrir un socket vers Sendmail. Merci de vérifier vos paramètres.",
 
@@ -54,7 +54,7 @@ $lang = array(
 
 'email_smtp_auth_pw' => "Impossible d\'authentifier le mot de passe. Erreur : %s",
 
-'email_smtp_auth_un' => "Impossible d\'authentifier le nom d\'utilisateur. Erreur : %s",
+'email_smtp_auth_un' => "Impossible d\'authentifier l\'identifiant. Erreur : %s",
 
 'email_smtp_data_failure' => "Impossible d\'envoyer les données : %s",
 

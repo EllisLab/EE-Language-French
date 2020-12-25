@@ -26,7 +26,7 @@ $lang = array(
 
 'db_must_use_index' => 'Vous devez spécifier l\'index à matcher pour les mises à jour par lot.',
 
-'db_must_use_set' => 'Vous devez utiliser la méthode "set" pour mettre à jour une entrée.',
+'db_must_use_set' => 'Vous devez utiliser la méthode "set" pour mettre à jour un article.',
 
 'db_must_use_where' => 'Les mises à jour (Update) ne sont pas autorisées à moins qu\'elles ne contiennent une clause "where".',
 

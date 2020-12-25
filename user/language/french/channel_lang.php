@@ -22,7 +22,7 @@ $lang = array(
 
 'channel_form_layouts' => '%s &ndash; dispositions de publication',
 
-'channel_manager' => 'Gestion des Canaux',
+'channel_manager' => 'Canaux',
 
 'channel_set_duplicates_error_desc' => 'Cette définition de canal utilise des noms qui existent déjà dans votre site. Merci de renommer les éléments suivants.',
 
@@ -46,9 +46,9 @@ $lang = array(
 
 'channel' => 'Canal',
 
-'channels_removed_desc' => '%d canaux ont été supprimés.',
+'channels_deleted_desc' => '%d canaux ont été supprimés.',
 
-'channels_removed' => 'Canaux supprimés',
+'channels_deleted' => 'Canaux supprimés',
 
 'channels' => 'Canaux',
 
@@ -71,6 +71,8 @@ $lang = array(
 'duplicate_tab_name' => 'Un onglet avec ce nom existe déjà',
 
 'edit_form_layout' => 'Modifier la disposition de publication',
+
+'edit_layout'	=>	'Modifier la disposition',
 
 'edit_layout_error_desc' => 'Nous n\'avons pas pu mettre à jour cette disposition de publication, merci de vérifier et corriger les erreurs ci-dessous.',
 
@@ -108,13 +110,13 @@ $lang = array(
 
 'import' => 'Import',
 
-'layout_member_groups' => 'Groupe(s) de membres ?',
+'layout_roles' => 'Rôle(s) de membres ?',
 
 'layout_options' => 'Options de disposition',
 
 'layout' => 'Disposition',
 
-'layouts_removed_desc' => 'Les dispositions de publication suivantes ont été supprimées',
+'layouts_deleted_desc' => 'Les dispositions de publication suivantes ont été supprimées',
 
 'layouts' => 'Dispositions',
 
@@ -124,7 +126,7 @@ $lang = array(
 
 'member_group' => 'Groupes de membres',
 
-'member_groups_desc' => 'Choisissez le(s) groupe(s) de membres à qui appliquer cette disposition.',
+'roles_desc' => 'Choisissez le(s) rôle(s) de membres à qui appliquer cette disposition.',
 
 'new_layout' => 'Nouvelle disposition',
 
@@ -134,7 +136,7 @@ $lang = array(
 
 'search_for' => 'Recherche de "%s"',
 
-'section_search_results' => 'résultats pour le terme de recherche <mark>%s</mark>',
+'section_search_results' => 'résultats pour le terme de recherche <code>%s</code>',
 
 'settings' => 'Paramètres',
 
@@ -302,7 +304,7 @@ $lang = array(
 
 'default_status' => 'Statut',
 
-'default_title_desc' => 'Titre affecté à toutes les <b>nouveaux</b> articles de ce canal.',
+'default_title_desc' => 'Titre affecté à tous les <b>nouveaux</b> articles de ce canal.',
 
 'default_title' => 'Titre généré',
 
@@ -310,21 +312,21 @@ $lang = array(
 
 'enable_author_notification' => 'Activer la notification des auteurs ?',
 
-'enable_channel_entry_notification_desc' => 'Si activé, tous les destinataires listés recevront une notification par email à chaque fois qu\'un nouvel article sera publié dans ce canal.</em><br /><em>Séparez les emails multiples avec une <mark>virgule (,)</mark>.',
+'enable_channel_entry_notification_desc' => 'Si activé, tous les destinataires listés recevront une notification par email à chaque fois qu\'un nouvel article sera publié dans ce canal.</em><br /><em>Séparez les emails multiples avec une <code>virgule (,)</code>.',
 
 'enable_channel_entry_notification' => 'Activer la notification d\'article de canal ?',
 
-'enable_comment_notification_desc' => 'Si activé, tous les destinataires listés recevront une notification par email à chaque fois qu\'un nouveau commentaire sera publié dans ce canal.</em><br /><em>Séparez les emails multiples avec une <mark>virgule (,)</mark>.',
+'enable_comment_notification_desc' => 'Si activé, tous les destinataires listés recevront une notification par email à chaque fois qu\'un nouveau commentaire sera publié dans ce canal.</em><br /><em>Séparez les emails multiples avec une <code>virgule (,)</code>.',
 
 'enable_comment_notification' => 'Activer la notification de commentaire ?',
+
+'enable_sticky' => 'Activer les articles persistants ?',
+
+'enable_sticky_desc' => 'Si activé, les articles peuvent être marqués comme persistants et sont privilégiés dans les listes triées.',
 
 'enable_versioning_desc' => 'Si activé, ExpressionEngine enregistrera des versions pour chaque article de ce canal.',
 
 'enable_versioning' => "Activer les versions d'articles ?",
-
-'extra_publish_controls_desc' => 'Si activé, un deuxième jeu de contrôles de publication apparaîtra en haut du formulaire de publication pour ce canal.',
-
-'extra_publish_controls' => 'Afficher plus de contrôles de publication ?',
 
 'html_formatting' => 'Formatage <abbr title="Hyper-Text Markup Language">HTML</abbr>',
 
@@ -398,7 +400,7 @@ $lang = array(
 
 'cat_field_ajax_reorder_fail' => 'Attention : impossible d\'enregistrer l\'ordre des champs de catégorie',
 
-'cat_group_no_member_groups_found' => 'Aucun <b>groupe de membres</b> existe avec les permissions nécessaires',
+'cat_group_no_roles_found' => 'Aucun <b>rôle</b> existe avec les permissions nécessaires',
 
 'cat_image_choose' => 'Choisir dans le répertoire',
 
@@ -408,9 +410,9 @@ $lang = array(
 
 'categories_not_found' => 'Aucune <b>catégorie</b> trouvée.',
 
-'categories_removed_desc' => '%d catégories ont été supprimées.',
+'categories_deleted_desc' => '%d catégories ont été supprimées.',
 
-'categories_removed' => 'Catégories supprimées',
+'categories_deleted' => 'Catégories supprimées',
 
 'categories' => 'Catégories',
 
@@ -466,11 +468,11 @@ $lang = array(
 
 'category_group' => 'Groupe de catégories',
 
-'category_groups_removed_desc' => 'Le groupe de catégories <b>%s</b> a été supprimé.',
+'category_groups_deleted_desc' => 'Le groupe de catégories <b>%s</b> a été supprimé.',
 
-'category_groups_removed' => 'Groupe de catégories supprimé',
+'category_groups_deleted' => 'Groupe de catégories supprimé',
 
-'category_manager' => 'Gestion des catégories',
+'category_manager' => 'Catégories',
 
 'category_not_created_desc' => 'Nous n\'avons pas pû créer cette catégorie, merci de vérifier et corriger les erreurs ci-dessous.',
 
@@ -500,7 +502,7 @@ $lang = array(
 
 'create_category' => 'Créer une catégorie',
 
-'delete_categories_desc' => 'Les utilisateurs des groupes sélectionnés seront autorisés à supprimer les catégories dans ce groupe de catégories.</em><em>Les Super Administrateurs y sont <b>toujours</b> autorisés.',
+'delete_categories_desc' => 'Les utilisateurs des rôles sélectionnés seront autorisés à supprimer les catégories dans ce groupe de catégories.</em><em>Les Super Administrateurs y sont <b>toujours</b> autorisés.',
 
 'delete_categories' => 'Supprimer des catégories',
 
@@ -508,7 +510,7 @@ $lang = array(
 
 'duplicate_field_name' => 'Le nom de champ que vous avez choisi est déjà pris.',
 
-'edit_categories_desc' => 'Les utilisateurs des groupes sélectionnés seront autorisés à modifier les catégories dans ce groupe de catégories.</em><em>Les Super Administrateurs y sont <b>toujours</b> autorisés.',
+'edit_categories_desc' => 'Les utilisateurs des rôles sélectionnés seront autorisés à modifier les catégories dans ce groupe de catégories.</em><em>Les Super Administrateurs y sont <b>toujours</b> autorisés.',
 
 'edit_categories' => 'Modifier les catégories',
 
@@ -603,6 +605,15 @@ $lang = array(
 'statuses_removed' => 'Statuts supprimés',
 
 'statuses' => 'Statuts',
+
+/* 6.x */
+
+'channel_roles' => 'Rôles autorisés',
+
+'channel_roles_desc' => 'Les membres avec ces rôles peuvent réaliser toutes les actions sélectionnées dans ce canal.',
+
+'edit_in_full_form'	=> 'Modifier sans limitation'
+
 
 );
 

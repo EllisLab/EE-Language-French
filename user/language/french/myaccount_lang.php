@@ -6,7 +6,11 @@ $lang = array(
     <b>Email </b>: %s / <b>IP </b>: %s
 </div>',
 
+'accept_admin_email'	=>	'De la part des administrateurs',
+
 'accept_user_email' => 'De la part des autres membres de ce site',
+
+'account' => 'Compte',
 
 'administration' => 'Administration',
 
@@ -26,7 +30,11 @@ $lang = array(
 
 'auth_settings' => 'Identifiant & Mot de Passe',
 
-'avatar_settings' => 'Paramètres d\'avatar',
+'avatars_disabled' => 'Les avatars sont désactivés. Merci de mettre à jour vos paramètres de téléchargement des <a href="%s">avatars</a>.',
+
+'avatar_path_does_not_exist' => 'Votre répertoire de téléchargement des avatars n\'existe pas. Merci de vérifier vos paramètres de téléchargement des <a href="%s">avatars</a>.',
+
+'avatar_settings' => 'Avatar',
 
 'banned_email' => 'L\'adresse email que vous avez saisie est exclue',
 
@@ -72,6 +80,8 @@ $lang = array(
 
 'btn_login' => 'Connexion',
 
+'btn_login_working' => 'Connexion en cours...',
+
 'btn_save_settings' => 'Enregistrer les paramètres',
 
 'bulletin_board' => 'Tableau des bulletins',
@@ -80,7 +90,7 @@ $lang = array(
 
 'can_not_view_superadmin_profile' => 'Vous ne pouvez consulter le profil d\'un Super Administrateur',
 
-'change_avatar_desc' => 'Ajouter un avatar à votre profil.',
+'change_avatar_desc' => 'Ajouter un avatar à votre profil — .gif, .jpg, .png (max %skb)',
 
 'change_avatar' => 'Changer d\'avatar',
 
@@ -150,8 +160,6 @@ $lang = array(
 
 'disallowed_screen_chars' => 'Le pseudo contient des caractères invalides',
 
-'display_avatars' => "Afficher les avatars des autres membres",
-
 'do_not_show' => 'Ne pas afficher',
 
 'edit_bookmarklet' => 'Modifier un mini-signet',
@@ -206,7 +214,7 @@ $lang = array(
 
 'html_buttons_updated' => 'Boutons HTML mis à jour',
 
-'html_buttons' => 'Boutons de formatage <abbr title="Hyper-Text Markup Language">HTML</abbr>',
+'html_buttons' => 'Boutons de formatage HTML',
 
 'icq' => 'ICQ',
 
@@ -215,6 +223,8 @@ $lang = array(
 'include_in_author_list' => 'Inclure dans la liste des auteurs ?',
 
 'include_seconds' => 'Afficher les secondes?',
+
+'info_and_activity' => 'Infos & Activités',
 
 'interests' => 'Centres d\'intérêt',
 
@@ -328,7 +338,7 @@ $lang = array(
 
 'no_fields_assigned_to_channel' => 'Le canal que vous avez choisi n\'a aucun groupe de champs qui lui est affecté',
 
-'no_quick_links_found' => 'Aucun <b>Lien rapide</b> trouvé.',
+'no_quick_links_found' => 'Aucun <b>Raccourci</b> trouvé.',
 
 'no_subscriptions_found' => 'Aucun <b>abonnement</b> trouvé.',
 
@@ -424,16 +434,6 @@ $lang = array(
 
 'right_column' => 'Colonne de droite',
 
-'rte_enabled_desc' => 'Si activé, l\'éditeur de texte enrichi choisi ci-dessous apparaîtra dans les formulaires de publication pour cet utilisateur.',
-
-'rte_enabled' => 'Activer l\'éditeur de texte enrichi ?',
-
-'rte_settings' => 'Paramètres RTE',
-
-'rte_toolset_desc' => 'Choisissez votre jeu d\'outils RTE préféré.',
-
-'rte_toolset' => 'Jeu d\'outils RTE',
-
 'save_bookmarklet' => 'Enregistrer le mini-signet',
 
 'screen_name_changed' => 'Le pseudo a été changé pour :',
@@ -466,13 +466,13 @@ $lang = array(
 
 'site_statistics' => 'Statistiques du site',
 
-'smart_notifications_desc' => 'Si activé, les notifications intelligentes seront possibles',
+'smart_notifications_desc' => 'Si activé, une fois la première notification d\'un fil de discussion reçue, vous n\'en recevrez plus jusqu\'à ce que vous visitiez ce fil.',
 
 'smart_notifications' => 'Activer la notification intelligente',
 
 'subscriptions_removed' => 'Les abonnements ont été enlevés',
 
-'subscriptions' => 'Gestion des Abonnements',
+'subscriptions' => 'Abonnements',
 
 'super_admin_demotion_alert' => 'En tant que Super Admin, vous n\'êtes pas autorisé à changer votre groupe de membres',
 
@@ -516,8 +516,6 @@ $lang = array(
 
 'unsubscribe' => 'Se désabonner',
 
-'update_avatar_path' => '<em>Mettez à jour vos paramètres de téléchargement d\'<a href="%s">avatar</a></em>',
-
 'upload_avatar' => 'Télécharger — .gif, .jpg, .png (max %skb)',
 
 'url_desc' => 'URL de votre site web personnel',
@@ -554,7 +552,7 @@ $lang = array(
 
 'year' => 'Année',
 
-'your_html_buttons' => 'Boutons de formatage <abbr title="Hyper-Text Markup Language">HTML</abbr>',
+'your_html_buttons' => 'Boutons de formatage HTML',
 
 "date_format" => "Format de Date & Heure",
 

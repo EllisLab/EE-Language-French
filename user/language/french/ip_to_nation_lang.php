@@ -48,7 +48,7 @@ $lang = array(
 
 'update_ips' => 'Mettre à jour la base de données des adresses IP',
 
-"ban_info" => "Sélectionnez les pays que vous désirez bannir. Lorsqu'un pays est banni, le titulaire de l'adresse IP correspondante n'est pas autorisé à soumettre commentaires, trackbacks ou à utiliser les formulaires Email et Recommander. Ils resteront toutefois capables de visualiser le site.",
+"ban_info" => "Sélectionnez les pays que vous désirez exclure. Lorsqu'un pays est exclu, le titulaire de l'adresse IP correspondante n'est pas autorisé à soumettre commentaires, trackbacks ou à utiliser les formulaires Email et Recommander. Ils resteront toutefois capables de visualiser le site.",
 
 "banlist_updated" => "Liste des exclus mise à jour",
 

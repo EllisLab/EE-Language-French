@@ -32,6 +32,8 @@ $lang = array(
 
 'delete_fail'			=> 'Un problème est survenu lors de la suppression d\'un ou plusieurs fichier(s). Veuillez vérifier la liste de fichiers ci-dessous.',
 
+'delete_file' => 'Supprimer le fichier',
+
 'delete_selected_files'	=> 'Supprimer les fichiers sélectionnés',
 
 'delete_success'		=> 'Suppression effectuée',
@@ -50,7 +52,7 @@ $lang = array(
 
 'edit_file_metadata_success' => 'Métadonnées du fichier mises à jour',
 
-'edit_file_metadata' => 'Modifier les métadonnées de "%s"',
+'edit_file_metadata' => 'Modifier les métadonnées du fichier',
 
 'edit_file'				=> 'Modifier le fichier',
 
@@ -66,7 +68,7 @@ $lang = array(
 
 'file_information'		=> 'Propriétés du fichier',
 
-'file_manager' => 'Gestion des Fichiers',
+'file_manager' => 'Fichiers',
 
 'file_metadata'			=> 'Métadonnées du fichier',
 
@@ -128,7 +130,7 @@ $lang = array(
 
 'search_files' => 'Rechercher des fichiers',
 
-'show_all_files' => 'Tous les fichiers (%d)',
+'show_all_files' => 'TOUS (%d)',
 
 'size'					=> 'Taille',
 
@@ -184,7 +186,9 @@ $lang = array(
 
 'constraints' => 'Contraintes',
 
-'coordiantes_desc' => 'Point de coordonnées X (horizontale) et Y (verticale) à partir duquel le rognage doit commencer.',
+'coordiantes_desc' => 'Point de coordonnées X (horizontale) et Y (verticale) à partir duquel le rognage doit commencer.', // Typo
+
+'coordinates_desc' => 'Point de coordonnées X (horizontale) et Y (verticale) à partir duquel le rognage doit commencer.',
 
 'coordinates' => 'Coordonnées',
 
@@ -236,7 +240,7 @@ $lang = array(
 
 'files_not_found' => 'Fichiers non trouvés',
 
-'files_removed_desc' => 'Les fichiers suivants ont été supprimés :',
+'files_deleted_desc' => 'Les fichiers suivants ont été supprimés :',
 
 'flip_horizontally' => 'Basculer horizontalement',
 
@@ -270,9 +274,9 @@ $lang = array(
 
 'success' => 'Succès',
 
-'upload_directory_removed_desc' => 'Le répertoire de téléchargement <b>%s</b> a été supprimé.',
+'upload_directory_deleted_desc' => 'Le répertoire de téléchargement <b>%s</b> a été supprimé.',
 
-'upload_directory_removed' => 'Répertoire de téléchargement supprimé',
+'upload_directory_deleted' => 'Répertoire de téléchargement supprimé',
 
 'upload_filedata_error' => 'Impossible de télécharger le fichier',
 
@@ -324,7 +328,7 @@ $lang = array(
 
 'create_watermark' => 'Créer un filigrane',
 
-'default_modal_view_desc' => 'Présentation par défaut de l\'affichage de ce répertoire de téléchargement dans la fenêtre de sélection des fichiers.',
+'default_modal_view_desc' => 'Présentation par défaut de l\'affichage des fichiers de ce répertoire de téléchargement.',
 
 'default_modal_view_list' => 'Liste',
 
@@ -356,7 +360,7 @@ $lang = array(
 
 'file_limits' => 'Limites pour les fichiers',
 
-'file_sync_desc_images' => '<b>%d</b> fichiers <mark>image</mark>',
+'file_sync_desc_images' => '<b>%d</b> fichiers <codeimage</code>',
 
 'file_sync_desc' => '<b>%d</b> fichiers',
 
@@ -397,6 +401,8 @@ $lang = array(
 'left' => 'Gauche',
 
 'middle' => 'Milieu',
+
+'new_directory' => 'Nouveau répertoire',
 
 'new_upload_directory' => 'Nouveau répertoire de téléchargement',
 
@@ -452,11 +458,11 @@ $lang = array(
 
 'upload_manage' => 'Gérer',
 
-'upload_member_groups_desc' => 'Les groupes de membres suivants sont autorisés à télécharger dans ce répertoire.</em><em>Les Super Administrateurs y sont <b>toujours</b> autorisés.',
+'upload_roles_desc' => 'Les rôles suivants sont autorisés à télécharger dans ce répertoire.</em><em>Les Super Administrateurs y sont <b>toujours</b> autorisés.',
 
-'upload_member_groups' => 'Groupes de membres autorisés',
+'upload_roles' => 'Rôles autorisés',
 
-'upload_path_desc' => 'Chemin serveur complet de l\'emplacement de ce répertoire de <mark>téléchargement</mark>.',
+'upload_path_desc' => 'Chemin serveur complet de l\'emplacement de ce répertoire de téléchargement. Nous vous recommandons d\'utiliser <code>{base_path}votre_répertoire</code>.',
 
 'upload_path' => 'Chemin de téléchargement',
 
@@ -466,7 +472,7 @@ $lang = array(
 
 'upload_remove_modal_upload_directory' => 'Répertoire de téléchargement',
 
-'upload_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de ce répertoire de <mark>téléchargement</mark>.',
+'upload_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de ce répertoire de téléchargement. Nous vous recommandons d\'utiliser <code>{base_url}votre_répertoire</code>.',
 
 'upload_url' => 'Répertoire de téléchargement',
 
@@ -532,9 +538,9 @@ $lang = array(
 
 'watermark' => 'Filigrane',
 
-'watermarks_removed_desc' => '%d filigranes ont été supprimés.',
+'watermarks_deleted_desc' => '%d filigranes ont été supprimés.',
 
-'watermarks_removed' => 'Filigranes supprimés',
+'watermarks_deleted' => 'Filigranes supprimés',
 
 'watermarks_true_type_desc' => 'Si activé, les filigranes en texte seront rendus avec TrueType.',
 

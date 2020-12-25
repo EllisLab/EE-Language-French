@@ -6,11 +6,11 @@ $lang = array(
 
 'all_sites' => 'Tous les sites',
 
-'allowed_member_groups_desc' => 'Les groupes de membres suivants sont autorisés à accéder à ce modèle.',
+'allowed_roles_desc' => 'Les rôles suivants sont autorisés à accéder à ce modèle.',
 
-'allowed_member_groups_super_admin' => 'Les Super Administrateurs y sont <b>toujours</b> autorisés.',
+'allowed_roles_super_admin' => 'Les Super Administrateurs y sont <b>toujours</b> autorisés.',
 
-'allowed_member_groups' => 'Groupes de membres autorisés',
+'allowed_roles' => 'Rôles autorisés',
 
 'author_unknown' => 'inconnu',
 
@@ -74,6 +74,8 @@ $lang = array(
 
 'default_404_option' => 'Page 404 par défaut',
 
+'design' => 'Design',
+
 'duplicate_existing_template_desc' => 'Sera créé avec tout le code trouvé dans le modèle copié.',
 
 'duplicate_existing_template' => 'Dupliquer un modèle existant ?',
@@ -102,6 +104,8 @@ $lang = array(
 
 'edit_template_partial_success' => 'Partiel de modèle mis à jour',
 
+'edit_template_title' => 'Modifier le modèle',
+
 'edit_template_variable_error_desc' => 'Nous n\'avons pas pu mettre à jour la variable de modèle, merci de vérifier et corriger les erreurs ci-dessous.',
 
 'edit_template_variable_error' => 'Impossible de mettre à jour la variable de modèle',
@@ -128,7 +132,7 @@ $lang = array(
 
 'enable_partial_on_all_sites' => 'Activer sur tous les sites ?',
 
-'enable_php_desc' => 'Si activé, vous pouvez utiliser le PHP standard dans ce modèle. <a href="'.DOC_URL.'templates/php.html" rel="external">Avant d\'activer, lisez ce que cela implique</a>.',
+'enable_php_desc' => 'Si activé, vous pouvez utiliser le PHP standard dans ce modèle. <a href="'.DOC_URL.'templates/overview.html#php-in-templates" rel="external">Avant d\'activer, lisez ce que cela implique</a>.',
 
 'enable_php' => 'Autoriser le PHP ?',
 
@@ -156,7 +160,7 @@ $lang = array(
 
 'hit_counter_desc' => 'Montre le nombre de fois que ce modèle a été appelé par le site web.',
 
-'hit_counter' => 'Compteur de Hit',
+'hit_counter' => 'Compteur de vues',
 
 'illegal_characters' => 'Le nom que vous avez soumis ne peut contenir que des caractères alphanumériques, des soulignés (underscore) et des tirets',
 
@@ -165,8 +169,6 @@ $lang = array(
 'make_default_group_desc' => 'Si activé, ce groupe deviendra le groupe par défaut pour ce site web.',
 
 'make_default_group' => 'Définir comme groupe par défaut ?',
-
-'member_groups' => 'Groupes de membres',
 
 'messages' => 'Messages',
 
@@ -206,6 +208,8 @@ $lang = array(
 
 'reserved_name' => 'Le nom que vous avez choisi est un mot réservé qui ne peut pas être utilisé.',
 
+'roles'	=>	'Rôles',
+
 'routes' => 'Routes',
 
 'search_templates' => 'Rechercher dans les modèles',
@@ -218,25 +222,21 @@ $lang = array(
 
 'snippet_name' => 'Nom',
 
-'snippets_removed_desc' => 'Les partiels de modèle suivants ont été supprimés :',
+'snippets_deleted_desc' => 'Les partiels de modèle suivants ont été supprimés :',
 
 'sync_all_templates' => 'Synchroniser tous les modèles',
 
 'system_templates' => 'Modèles du système',
 
-'template_group_removed_desc' => 'Le groupe de modèles <b>%s</b> a été supprimé.',
+'template_group_deleted_desc' => 'Le groupe de modèles <b>%s</b> a été supprimé.',
 
-'template_group_removed' => 'Groupe de modèles supprimé',
+'template_group_deleted' => 'Groupe de modèles supprimé',
 
 'template_group_taken' => 'Le nom de groupe de modèles que vous avez soumis est déjà pris.',
 
 'template_groups' => 'Groupes de modèles',
 
-'template_manager' => 'Gestion des Modèles',
-
-'template_member_groups' => 'Groupes de membres autorisés',
-
-'template_member_groups_desc' => 'Les utilisateurs placés dans ces groupes de membres peuvent créer, modifier et/ou supprimer des modèles dans ce groupe de modèles.',
+'template_manager' => 'Modèles',
 
 'template_name_taken' => 'Le nom de modèle que vous avez soumis est déjà pris',
 
@@ -252,7 +252,11 @@ $lang = array(
 
 'template_path_not_user' => 'Modèles introuvables dans themes/user, merci de vous référer à <a href="%s">la documentation</a> pour les détails.',
 
-'template_route_override_desc' => 'Passe outre la gestion standard ExpressionEngine des routes de <mark>groupe/modèle</mark>.',
+'template_roles' => 'Rôles autorisés',
+
+'template_roles_desc' => 'Les membres possédant ces rôles peuvent réaliser toutes les actions sélectionnées dans ce groupe de modèles.',
+
+'template_route_override_desc' => 'Passe outre la gestion standard ExpressionEngine des routes de <code>groupe/modèle</code>.',
 
 'template_route_override' => 'Contournement de route de modèle',
 
@@ -266,13 +270,13 @@ $lang = array(
 
 'template_variables_header' => 'Variables de modèle<br><i>Remplacements de contenu statique réutilisables.</i>',
 
-'template_variables_removed_desc' => 'Les variables de modèle suivantes ont été supprimées',
+'template_variables_deleted_desc' => 'Les variables de modèle suivantes ont été supprimées',
 
 'template_variables' => 'Variables de modèle',
 
 'templates_in_group' => 'Modèles dans <b>%s</b>',
 
-'templates_removed_desc' => 'Les modèles suivants ont été supprimés :',
+'templates_deleted_desc' => 'Les modèles suivants ont été supprimés :',
 
 'update_template_error_desc' => 'Nous n\'avons pas pu mettre à jour ce modèle, merci de vérifier et corriger les erreurs ci-dessous.',
 
@@ -288,17 +292,17 @@ $lang = array(
 
 'variable' => 'Variable',
 
-'view_rendered' => 'Aperçu',
+'view_rendered' => 'Vue restituée',
 
 'zero_template_groups_found' => 'Aucun <b>groupe de modèles</b> trouvé',
-
-"design" => "Design",
 
 // System Templates -> Messages
 
 'system' => 'Système',
 
 'system_message_templates' => 'Modèles de messages système',
+
+'post_install_message_template' => 'Message post-installation',
 
 'offline_template' => 'Site Hors Ligne',
 
@@ -425,7 +429,9 @@ $lang = array(
 
 'no_templates_selected' => "Aucun modèle sélectionné",
 
-'php_in_templates_warning' => '<b>Attention</b> : autoriser le PHP dans les modèles peut poser des problèmes de sécurité de vos données.',
+'php_in_templates_config_warning' => 'Vous devez définir <code>$config[\'allow_php\'] = \'y\';</code> dans le fichier <code>config.php</code> si vous souhaitez utiliser cette fonctionnalité.',
+
+'php_in_templates_warning' => '<b>Attention</b> : autoriser le PHP dans les modèles peut poser des <a href="'.DOC_URL.'templates/overview.html#php-in-templates" target="_blank" rel="external">problèmes de sécurité de vos données</a>.',
 
 'php_in_templates_warning2' => 'Les paramètres marqués d\'un %s doivent être gérés avec précaution.',
 
@@ -619,11 +625,11 @@ $lang = array(
 
 "group_order" => "Ordre du groupe",
 
-"group_restriction" => "Restreindre ce modèle à des groupes de membres spécifiques",
+"group_restriction" => "Restreindre ce modèle à des rôles spécifiques",
 
 "history_cleared" => "L'historique de version des modèles a été supprimé.",
 
-"hits" => "Visites",
+"hits" => "Vues",
 
 "input" => "Entrée",
 
@@ -947,7 +953,7 @@ $lang = array(
 
 "template_updated" => "Le modèle a été mis à jour",
 
-"update_un_pw_form" => "Formulaire de mise à jour du nom d'utilisateur et du mot de passe",
+"update_un_pw_form" => "Formulaire de mise à jour de l\'identifiant et du mot de passe",
 
 "username_change_disallowed" => "Message d'interdiction de changement d'identifiant",
 
@@ -963,7 +969,7 @@ $lang = array(
 
 'tag_class_error' => 'Balise invalide (aucun plugin ou module correspondant)',
 
-'tag_docs_link_error' => "Veuillez consulter la <a href='%s'>documentation</a> du module si vous rencontrez un problème.",
+'tag_docs_link_error' => 'Veuillez consulter la <a href="%s">documentation</a> du module si vous rencontrez un problème.',
 
 'tag_install_error' => 'Le module n\'est pas installé',
 

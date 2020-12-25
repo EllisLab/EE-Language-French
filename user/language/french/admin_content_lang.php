@@ -76,11 +76,11 @@ $lang = array(
 
 'field_groups_desc' => 'Utilisé pour regrouper des champs personnalisés liés.',
 
-'field_groups_removed_desc' => 'Les groupes de champs suivants ont été supprimés :',
+'field_groups_deleted_desc' => 'Les groupes de champs suivants ont été supprimés :',
 
 'field_groups_uc' => 'Groupes de champs',
 
-'field_manager' => 'Gestion des champs',
+'field_manager' => 'Champs',
 
 'field_max_length' => 'Nombre maximum de caractères',
 
@@ -104,7 +104,7 @@ $lang = array(
 
 'fields_assign_to_group' => 'Affecter un ou plusieurs champs à ce groupe.',
 
-'fields_removed_desc' => 'Les champs suivants ont été supprimés :',
+'fields_deleted_desc' => 'Les champs suivants ont été supprimés :',
 
 'fields' => 'Champs',
 
@@ -124,7 +124,7 @@ $lang = array(
 
 'html_button' => 'Bouton HTML',
 
-'html_buttons' => 'Boutons <abbr title="Hyper-Text Markup Language">HTML</abbr>',
+'html_buttons' => 'Boutons HTML',
 
 'id' => 'ID#',
 
@@ -851,6 +851,12 @@ $lang = array(
 'invalid_api_parameter' => "Impossible de créer/mettre à jour l'article. Les paramètres de l'API sont manquants.",
 
 'unauthorized_for_this_channel' => 'Vous n\'êtes pas autorisé à publier dans ce canal',
+
+/* DB column type */
+
+'db_column_type' => 'Type de colonne dans la base de données',
+
+'db_column_type_desc' => 'Choisissez le type de colonne de base de données qui contiendra vos données. TEXT (64Kb) est normalement OK pour un article. Si le contenu de votre champ est plutôt un livre, sélectionnez MEDIUMTEXT (16Mb).'
 
 );
 

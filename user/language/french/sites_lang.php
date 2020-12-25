@@ -2,8 +2,6 @@
 
 $lang = array(
 
-'add_site' => 'Ajouter un site',
-
 'btn_site_limit_reached' => 'Nombre maximal de site atteint',
 
 'cannot_remove_site_1' => 'Vous ne pouvez pas supprimer le site <b>%s</b>.',
@@ -54,7 +52,7 @@ $lang = array(
 
 'site' => 'Site',
 
-'sites_removed_desc' => 'Les sites suivants ont été supprimés :',
+'sites_deleted_desc' => 'Les sites suivants ont été supprimés :',
 
 'sites' => 'Sites',
 

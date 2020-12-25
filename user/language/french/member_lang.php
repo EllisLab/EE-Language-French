@@ -40,6 +40,8 @@ $lang = array(
 
 'invalid_screen_name' => 'Pseudo invalide',
 
+'legacy_member_templates_not_enabled' => 'Cette page n\'est pas accessible car les <a href="'.DOC_URL.'member/profile-templates.html" target="_blank" rel="external">modèles historiques de membres</a> ne sont pas activés.',
+
 'mbr_account_deleted' => 'Votre compte et tout le contenu associé a été supprimé.',
 
 'mbr_delete_blurb' => 'Êtes-vous sûr de vouloir supprimer votre compte ? Tous les articles, messages, commentaires et tout autre contenu associé à votre compte sera également supprimé.',
@@ -108,10 +110,6 @@ $lang = array(
 
 "avatar_updated" => "L'avatar a été mis à jour",
 
-"avatar_upload_disallowed" => "Le téléchargement d'avatar n'est actuellement pas activé.",
-
-"avatars_not_enabled" => "Les avatars sont actuellement désactivés",
-
 "avatars_not_found" => "Impossible de localiser les avatars désirés",
 
 "blue" => "Bleu",
@@ -145,8 +143,6 @@ $lang = array(
 "current_photo" => "Photo actuelle",
 
 "disallowed_screen_chars" => "Le pseudo contient des caractères illégaux",
-
-"display_avatars" => "Afficher les avatars des membres dans les articles",
 
 "display_signatures" => "Afficher les signatures des membres dans les articles",
 
@@ -433,6 +429,8 @@ $lang = array(
 "mbr_update" => "Mettre à jour",
 
 "mbr_url" => "URL",
+
+'mbr_username_email_sent' => 'L\'email pour identifiant oublié a été envoyé',
 
 "mbr_username_length" => "Les identifiants doivent faire au moins %x caractères de long",
 

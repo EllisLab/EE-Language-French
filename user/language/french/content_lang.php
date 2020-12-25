@@ -50,6 +50,8 @@ $lang = array(
 
 'channel' => 'Canal',
 
+'column_categories'	=>	'Catégories',
+
 'column_comment_date' => 'Date',
 
 'column_comment_total' => 'Commentaires',
@@ -76,7 +78,7 @@ $lang = array(
 
 'comment_status_desc' => 'Statut de ce commentaire.',
 
-'comments_removed_desc' => 'Les commentaires suivants ont été supprimés :',
+'comments_deleted_desc' => 'Les commentaires suivants ont été supprimés :',
 
 'comments_status_updated_desc' => 'Les commentaires suivants ont été mis au statut %s',
 
@@ -84,7 +86,7 @@ $lang = array(
 
 'create_entry_error' => 'Impossible de créer l\'article',
 
-'create_entry_success_desc' => 'L\'article <b>%s</b> a été créé.',
+'create_entry_success_desc' => 'L\'article <a href=\'%1$s\'><b>%2$s</b></a> a été créé.',
 
 'create_entry_success' => 'Article créé',
 
@@ -108,15 +110,15 @@ $lang = array(
 
 'edit_entry_error' => 'Impossible de mettre à jour l\'article',
 
-'edit_entry_success_desc' => 'L\'article <b>%s</b> a été mis à jour.',
+'edit_entry_success_desc' => 'L\'article <a href=\'%1$s\'><b>%2$s</b></a> a été mis à jour.',
 
 'edit_entry_success' => 'Article mis à jour',
 
 'edit_entry_with_title' => 'Modifier l\'article : %s',
 
-'entries_removed_desc' => 'Les articles suivants ont été supprimés :',
+'entries_deleted_desc' => 'Les articles suivants ont été supprimés :',
 
-'entries' => 'articles',
+'entries' => 'Articles',
 
 'entry_date_desc' => 'Date de publication de cet article.',
 
@@ -128,11 +130,11 @@ $lang = array(
 
 'entry_limit_reached' => 'Limite de ce canal atteinte',
 
-'entry_manager' => 'Gestion des Articles',
+'entry_manager' => 'Articles',
 
 'entry_status_desc' => 'Statut de l\'article.',
 
-'entry_status' => 'Statut',
+'entry_status' => 'Statut Article',
 
 'entry' => 'Article',
 
@@ -185,6 +187,8 @@ $lang = array(
 
 'actions' => 'Actions',
 
+'add'	=>	'Ajouter',
+
 'add_author_desc' => 'Les paramètres de groupe outrepassent les paramètres individuels, et certains utilisateurs ne peuvent être supprimés de la liste d\'auteurs.',
 
 'add_author' => 'Ajouter un auteur',
@@ -192,6 +196,8 @@ $lang = array(
 'add_categories' => 'Ajouter des catégories',
 
 'add_category' => 'Ajouter une catégorie',
+
+'add_field' => 'Ajouter un champ',
 
 'all_channels' => 'Tous les canaux',
 
@@ -235,7 +241,7 @@ $lang = array(
 
 'calendar' => 'Calendrier',
 
-'cancel_preview' => 'Fermer l\'aperçu',
+'cancel_preview' => 'Annuler l\'aperçu',
 
 'category' => 'Catégorie',
 
@@ -268,6 +274,8 @@ $lang = array(
 'close_all' => 'Fermer tout',
 
 'close_for_no_change' => 'Fermer cette fenêtre pour annuler.',
+
+'close_preview' => 'Fermer l\'aperçu',
 
 'close_selected' => 'Fermer la sélection',
 
@@ -323,11 +331,7 @@ $lang = array(
 
 'date' => 'Date',
 
-'delete_comment_confirm' => 'Êtes-vous sûr de vouloir définitivement supprimer ce commentaire ?',
-
 'delete_comment' => 'Supprimer les commentaires',
-
-'delete_comments_confirm' => 'Êtes-vous sûr de vouloir définitivement supprimer ces commentaires ?',
 
 'delete_confirm' => 'Confirmation de suppression',
 
@@ -523,7 +527,7 @@ $lang = array(
 
 'no_autosave_data' => 'Pas d\'article auto-enregistré',
 
-'no_categories_assigned_desc' => 'Aucune catégorie n\'est affectée à ce canal. <a href="%s">Affecter un groupe de catégories.</a>',
+'no_categories_assigned_desc' => 'Aucune catégorie n\'est affectée à ce canal. <a href="%s" target="_blank">Affecter un groupe de catégories.</a>',
 
 'no_categories_assigned' => 'Aucune catégorie affectée',
 
@@ -545,7 +549,7 @@ $lang = array(
 
 'no_glossary' => 'Le glossaire n\'existe pas',
 
-'no_member_groups' => 'Vous devez sélectionner au moins un groupe de membres pour appliquer/supprimer une disposition.',
+'no_member_roles' => 'Vous devez sélectionner au moins un rôle pour appliquer/supprimer une disposition.',
 
 'no_related_entries' => 'Aucun article n\'existe pour ce canal lié',
 
@@ -565,7 +569,7 @@ $lang = array(
 
 'open_selected' => 'Ouvrir la sélection',
 
-'open' => 'Ouvert',
+'open' => 'Ouvrir',
 
 'options' => 'Options',
 
@@ -613,9 +617,19 @@ $lang = array(
 
 'preview' => 'Aperçu',
 
+'preview_cannot_display' => 'L\'aperçu rapide ne peut pas être affiché',
+
+'preview_domain_mismatch_desc' => "L\'URL de votre site est définie pour utiliser <code>%1\$s</code> mais vous accédez au panneau de contrôle à partir de <code>%2\$s</code>.",
+
 'preview_entry' => 'Aperçu de l\'article',
 
 'preview_layout' => 'Aperçu de la disposition',
+
+'preview_protocol_mismatch_desc' => "L\'URL de votre site est définie pour utiliser <code>%1\$s</code> mais vous accédez au panneau de contrôle avec <code>%2\$s</code>.",
+
+'preview_url_not_set' => 'L\'URL de l\'aperçu n\'est pas définie',
+
+'preview_url_not_set_desc' => 'Merci d\'ajouter une <a href="%s" target="_blank">URL pour l\'aperçu</a> dans vos préférences de canal.',
 
 'publish_another_entry' => 'Publier un autre article',
 
@@ -799,9 +813,17 @@ $lang = array(
 
 'add_new_row' => 'Ajouter une nouvelle ligne',
 
+'add_row'	=>	'Ajouter une ligne',
+
 'collapse' => 'Réduire',
 
+'collapse_all'	=>	'Tout réduire',
+
 'creating_new_in_rel' => 'Création d\'un nouvel article dans <b>#to_channel#</b> pour une relation avec <b>#from_channel#</b>',
+
+'expand' => 'Développer',
+
+'expand_all' => 'Tout développer',
 
 'hide' => 'Masquer',
 
@@ -925,57 +947,69 @@ $lang = array(
 
 'menu_publish' => 'Publier',
 
-'rel_ft_no_entries'			=> 'Aucune entrée',
+'rel_ft_no_entries'			=> 'Aucun article',
 
 /* Bulk Edit */
 
 'add_categories' => 'Ajouter des catégories',
 
-'add_categories_entries' => 'Ajouter des catégories à %d entrées',
+'add_categories_entries' => 'Ajouter des catégories à %d articles',
 
 'add_editable_fields' => 'Ajouter des champs modifiables',
 
-'add_editable_fields_desc' => 'Les champs choisis seront ajoutés en dessous et seront modifiables pour <b>toutes</b> les entrées sélectionnées.',
+'add_editable_fields_desc' => 'Les champs choisis seront ajoutés en dessous et seront modifiables pour <b>tous</b> les articles sélectionnés.',
 
 'btn_save_all_and_close' => 'Tout enregistrer & fermer',
 
-'editing_entries' => 'Modification de %d entrées',
+'editing_entries' => 'Modification de %d articles',
 
-'entries_updated' => '%d entrées ont été mises à jour.',
+'entries_updated' => '%d articles ont été mis à jour.',
 
-'filter_selected_entries' => 'Filtrer les entrées sélectionnées',
+'filter_selected_entries' => 'Filtrer les articles sélectionnés',
 
 'no_cat_groups_in_common' => 'Aucun <b>Groupe de catégories</b> en commun.',
 
 'bulk_edit' => 'Modification en masse',
 
-'bulk_edit_add_categories_notice' => 'Toutes les catégories sélectionnées seront affectées aux entrées sélectionnées <b>en plus</b> des catégories déjà présentes sur ces entrées.',
+'bulk_edit_add_categories_notice' => 'Toutes les catégories sélectionnées seront affectées aux articles sélectionnés <b>en plus</b> des catégories déjà présentes sur ces articles.',
 
 'bulk_edit_destructive' => 'C\'est une action destructrice et irréversible.',
 
-'bulk_edit_notice' => 'Tous les champs soumis écraseront le contenu déjà stocké pour ce ou ces champs pour toutes les entrées sélectionnées.',
+'bulk_edit_notice' => 'Tous les champs soumis écraseront le contenu déjà stocké pour ce ou ces champs pour toutes les articles sélectionnés.',
 
-'bulk_edit_remove_categories_notice' => 'Toutes les catégories sélectionnées seront <b>supprimées</b> des entrées sélectionnées, sans impacter les autres catégories encore affectées aux entrées.',
+'bulk_edit_remove_categories_notice' => 'Toutes les catégories sélectionnées seront <b>supprimées</b> des articles sélectionnés, sans impacter les autres catégories encore affectées aux articles.',
 
 'remove_categories' => 'Supprimer les catégories',
 
-'remove_categories_entries' => 'Supprimer les catégories de %d entrées',
+'remove_categories_entries' => 'Supprimer les catégories de %d articles',
 
 'remove_from_selection' => 'Supprimer de la sélection',
 
 'save_and_next' => 'Enregistrer & Suivant',
 
-'selected_entries' => 'Entrées sélectionnées',
+'selected_entries' => 'Articles sélectionnés',
 
 'showing' => 'Affichage de',
 
-'unauthorized_entry_desc' => 'Vous ne disposez pas des permissions suffisantes pour modifier au moins une des entrées sélectionnées.',
+'unauthorized_entry_desc' => 'Vous ne disposez pas des permissions suffisantes pour modifier au moins un des articles sélectionnés.',
 
-/* DB column type */
+/* Entry Manager */
 
-'db_column_type' => 'Type de colonne dans la base de données',
+'entry_manager_view_created' => 'Vue créée',
 
-'db_column_type_desc' => 'Choisissez le type de colonne de base de données qui contiendra vos données. TEXT (64Kb) est normalement OK pour un article. Si le contenu de votre champ est plutôt un livre, sélectionnez MEDIUMTEXT (16Mb).'
+'entry_manager_view_created_desc' => 'La vue <b>%s</b> a été créée.',
+
+'entry_manager_view_updated' => 'Vue mise à jour',
+
+'entry_manager_view_updated_desc' => 'La vue <b>%s</b> a été mise à jour.',
+
+'entry_manager_view_not_created' => 'Impossible de créer la vue',
+
+'entry_manager_view_not_created_desc' => 'Nous n\'avons pas pu créer cette vue, merci de revoir et de corriger les erreurs ci-dessous.',
+
+'entry_manager_view_not_updated' => 'Impossible de mettre à jour la vue',
+
+'entry_manager_view_not_updated_desc' => 'Nous n\'avons pas pu mettre à jour cette vue, merci de revoir et de corriger les erreurs ci-dessous.',
 
 );
 

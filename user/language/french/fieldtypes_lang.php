@@ -21,6 +21,8 @@ $lang = array(
 
 'any_status' 				=> 'N\'importe quel statut',
 
+'relate_entry' => 'Relier l\'article',
+
 'rel_ft_allow_multi_desc'=> 'Si activé, les auteurs seront autorisés à sélectionner plus d\'un article à relier',
 
 'rel_ft_allow_multi'		=> 'Autoriser les relations multiples ?',
@@ -130,6 +132,8 @@ $lang = array(
 
 'file_dnd_choose_existing' => 'Choisir répertoire existant',
 
+'file_dnd_conflict' => 'Erreur. Le fichier existe déjà.',
+
 'file_dnd_dismiss' => 'Ignorer',
 
 'file_dnd_drop_file' => 'Déposer le fichier ici pour le télécharger',
@@ -153,6 +157,8 @@ $lang = array(
 'file_dnd_uploading_to' => 'Téléchargement vers %s',
 
 'file_dnd_upload_new' => 'Nouveau téléchargement',
+
+'file_dnd_upload_to' => 'Télécharger vers',
 
 // Grid
 'grid_add_field'			=> 'ajouter un nouveau champ',
@@ -244,6 +250,29 @@ $lang = array(
 'url_ft_url_scheme_placeholder_desc' => 'Valeur fictive affichée pour ce paramètre quand aucune URL n\'a été précisée.',
 
 'url_ft_url_scheme_placeholder'      => 'Schéma URL fictif',
+
+
+/* Color Picker */
+'colorpicker_allowed_colors' => 'Couleurs autorisées',
+'colorpicker_allowed_colors_desc' => 'Choisissez les couleurs qui pourront être sélectionnées.',
+
+'colorpicker_allowed_colors_any' => 'N\'importe laquelle',
+'colorpicker_allowed_colors_swatches' => 'Nuancier',
+
+'colorpicker_default_color' => 'Couleur par défaut',
+'colorpicker_default_color_desc' => 'Quand elle est définie, si aucune couleur n\'est sélectionnée alors la couleur par défaut sera utilisée à la place.',
+
+'colorpicker_color_not_allowed' => 'cette couleur n\'est pas autorisée.',
+
+'no_colorpicker_swatches' => 'Aucun <b>nuancier</b> n\'existe.',
+
+'swatches' => 'Nuancier',
+
+'colorpicker_swatches_options_desc' => 'Spécifiez une liste de couleurs pré-définies à afficher dans le sélecteur de couleurs.',
+
+'colorpicker_swatches_populate_values' => 'Valeurs',
+'colorpicker_swatches_populate_manually' => 'Remplir le nuancier manuellement',
+
 
 );
 

@@ -17,11 +17,15 @@ $lang = array(
 
 'debugging_output' => 'Débogage & sortie',
 
+'email_settings' => 'Paramètres des emails',
+
+'general' => 'Général',
+
 'general_settings' => 'Paramètres généraux',
 
-'hit_tracking' => 'Suivi des modèles',
+'hit_tracking' => 'Compteur de vues',
 
-'html_buttons' => 'Boutons <abbr title="Hyper-Text Markup Language">HTML</abbr>',
+'html_buttons' => 'Boutons HTML',
 
 'members' => 'Membres',
 
@@ -33,7 +37,11 @@ $lang = array(
 
 'pages_settings' => 'Paramètres des pages',
 
+'relationship_module_name' => 'Relations',
+
 'security_privacy' => 'Securité & vie privée',
+
+'settings' => 'Paramètres',
 
 'system_settings' => 'Paramètres Système',
 
@@ -60,7 +68,7 @@ $lang = array(
 
 'enable_msm_desc' => 'Si activé, les Super Administrateurs et les membres des groupes avec les permissions suffisantes pourront gérer des sites web supplémentaires à partir du <abbr title="Panneau de Contrôle">PC</abbr>.',
 
-'enable_msm' => 'Activer le gestionnaire de sites ?',
+'enable_msm' => 'Activer le gestionnaire de sites (MSM) ?',
 
 'error_getting_version'	=> 'Vous utilisez ExpressionEngine %s. Impossible de déterminer à cet instant si une version plus récente est disponible.',
 
@@ -76,9 +84,9 @@ $lang = array(
 
 'online' => 'En Ligne',
 
-'show_ee_news' => 'Afficher les nouvelles d\'ExpressionEngine ?',
+'show_ee_news' => 'Afficher les Actualités sur ExpressionEngine ?',
 
-'show_ee_news_desc' => 'Si activé, les dernières nouvelles d\'ExpressionEngine apparaîtront sur la page d\'accueil du panneau de contrôle.',
+'show_ee_news_desc' => 'Si activé, les dernières actualités sur ExpressionEngine apparaîtront sur la page d\'accueil du panneau de contrôle.',
 
 'site_default' => 'Utiliser les valeurs par défaut du site',
 
@@ -125,35 +133,35 @@ $lang = array(
 
 'cp_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre panneau de contrôle.',
 
-'cp_url' => 'Répertoire du panneau de contrôle',
+'cp_url' => 'URL pointant sur la page index de votre panneau de contrôle',
 
-'docs_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre répertoire de la <mark>documentation</mark>.',
+'docs_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre répertoire de la <code>documentation</code>.',
 
 'docs_url' => 'Répertoire de la documentation',
 
 'member_segment_trigger_desc' => 'Mot qui déclenche l\'affichage du profil de membre. <b>Ne peut pas</b> être identique à celui identifiant un modèle ou un groupe de modèles.',
 
-'member_segment_trigger' => 'Segment <abbr title="Uniform Resource Location">URL</abbr> de profil',
+'member_segment_trigger' => 'Segment <abbr title="Uniform Resource Location">URL</abbr> de profil de membre',
 
-'site_index_desc' => 'Habituellement <mark>index.php</mark>.',
+'site_index_desc' => 'Habituellement <code>index.php</code>.',
 
 'site_index' => 'Page d\'index du site web',
 
-'site_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre fichier <mark>index.php</mark>.',
+'site_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre fichier <code>index.php</code>.',
 
 'site_url' => 'Répertoire racine du site web',
 
-'themes_path_desc' => 'Chemin serveur complet vers votre répertoire des <mark>thèmes</mark>.',
+'themes_path_desc' => 'Chemin serveur complet vers votre répertoire des <code>thèmes</code>.',
 
 'themes_path' => 'Chemin serveur des thèmes',
 
-'themes_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre répertoire des <mark>thèmes</mark>.',
+'themes_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre répertoire des <code>thèmes</code>.',
 
-'themes_url' => 'Répertoire des thèmes',
+'themes_url' => 'URL du répertoire des thèmes',
 
 'url_path_settings_title' => 'Paramètres <abbr title="Uniform Resource Location">URL</abbr> et chemin serveur',
 
-'url_title_separator_desc' => 'Caractère utilisé pour séparer les mots dans les <abbr title="Uniform Resource Location">URL</abbr>s générées, <mark>les tirets (-)</mark> sont recommandés.',
+'url_title_separator_desc' => 'Caractère utilisé pour séparer les mots dans les <abbr title="Uniform Resource Location">URL</abbr>s générées, <code>les tirets (-)</code> sont recommandés.',
 
 'url_title_separator_opt_hyphen' => 'Tiret (mots-différents)',
 
@@ -168,7 +176,7 @@ $lang = array(
 
 'email_newline_desc' => '\\\n procure la meilleure compatibilité ; si ce paramètre ne fonctionne pas pour vous, contactez votre fournisseur de service email pour obtenir les instructions nécessaires.',
 
-'email_newline' => 'Caractère de nouvelle ligne',
+'email_newline' => 'Caractère de nouvelle ligne sur les emails',
 
 'email_smtp_crypto_desc' => 'Contactez votre fournisseur de service SMTP pour obtenir les instructions nécessaires.',
 
@@ -198,7 +206,7 @@ $lang = array(
 
 'smtp_port' => 'Port du serveur',
 
-'smtp_server_desc' => 'Emplacement URL de votre <mark>serveur SMTP</mark>.',
+'smtp_server_desc' => 'Emplacement URL de votre <code>serveur SMTP</code>.',
 
 'smtp_server' => 'Adresse du serveur',
 
@@ -247,7 +255,7 @@ $lang = array(
 
 'enable_errors' => 'Visibilité des erreurs',
 
-'force_query_string_desc' => 'Si activé, les serveurs qui ne supportent pas la variable <mark>PATH_INFO</mark> utiliseront les URLs de chaînes de requête à la place.',
+'force_query_string_desc' => 'Si activé, les serveurs qui ne supportent pas la variable <code>PATH_INFO</code> utiliseront les URLs de chaînes de requête à la place.',
 
 'force_query_string' => 'Forcer les <abbr title="Uniform Resource Location">URL</abbr> de chaînes de requête ?',
 
@@ -267,7 +275,7 @@ $lang = array(
 
 'output_options' => 'Options de sortie',
 
-'redirect_method_desc' => 'Précise la méthode de redirection de page que le système utilisera pour <mark>{redirect=\'\'}</mark> et les autres redirections intégrées.',
+'redirect_method_desc' => 'Précise la méthode de redirection de page que le système utilisera pour <code>{redirect=\'\'}</code> et les autres redirections intégrées.',
 
 'redirect_method_opt_location' => 'Localisation (plus rapide)',
 
@@ -296,7 +304,7 @@ $lang = array(
 
 'channel_manager' => 'Gestion des Canaux',
 
-'emoticon_url_desc' => '<abbr title="Unified Resource Locator">URL</abbr> du répertoire contenant vos <mark>émoticônes</mark>.',
+'emoticon_url_desc' => '<abbr title="Unified Resource Locator">URL</abbr> du répertoire contenant vos <code>émoticônes</code>.',
 
 'emoticon_url' => '<abbr title="Unified Resource Locator">URL</abbr>',
 
@@ -314,7 +322,7 @@ $lang = array(
 
 'gd2' => 'GD 2',
 
-'image_library_path_desc' => 'Chemin serveur complet pour le <mark>programme image</mark>.</em><br /><em><b>Obligatoire</b> pour ImageMagick and NetPBM.',
+'image_library_path_desc' => 'Chemin serveur complet pour le <code>programme image</code>.</em><br /><em><b>Obligatoire</b> pour ImageMagick and NetPBM.',
 
 'image_library_path' => 'Chemin du convertisseur d\'image',
 
@@ -368,7 +376,7 @@ $lang = array(
 
 'save_tmpl_files' => 'Enregistrer les modèles sous forme de fichiers ?',
 
-'save_tmpl_revisions_desc' => 'Si activé, ExpressionEngine enregistrera jusqu\'à <b>5</b> versions des modèles dans la base de données.',
+'save_tmpl_revisions_desc' => 'Si activé, ExpressionEngine enregistrera les versions des modèles dans la base de données, jusqu\'au nombre maximal spécifié.',
 
 'save_tmpl_revisions' => 'Enregistrer les versions des modèles ?',
 
@@ -393,7 +401,7 @@ $lang = array(
 
 'enable_hit_tracking_desc' => 'Si activé, ExpressionEngine comptera le nombre de fois qu\'un modèle est affiché.',
 
-'enable_hit_tracking' => 'Activer le suivi des modèles ?',
+'enable_hit_tracking' => 'Activer le compteur de vues ?',
 
 'enable_online_user_tracking_desc' => 'Si activé, ExpressionEngine suivra les utilisateurs en ligne.',
 
@@ -435,7 +443,7 @@ $lang = array(
 
 'declined_member_notification' => 'Notifier les membres après un refus ?',
 
-'default_member_group' => 'Groupe de membres par défaut',
+'default_primary_role' => 'Rôle principal par défaut',
 
 'mbr_notification_emails_desc' => 'Séparer les emails multiples avec une virgule.',
 
@@ -528,9 +536,9 @@ $lang = array(
 
 'menu_set' => 'Jeu de menu',
 
-'menu_sets_removed_desc' => '%d jeux de menu ont été supprimés.',
+'menu_sets_deleted_desc' => '%d jeux de menu ont été supprimés.',
 
-'menu_sets_removed' => 'Jeux de menu supprimés',
+'menu_sets_deleted' => 'Jeux de menu supprimés',
 
 'menu_sets' => 'Jeux de menu',
 
@@ -546,11 +554,11 @@ $lang = array(
 
 'set_assigned' => 'Affecté',
 
-'set_member_groups_desc' => 'Choisir les groupes de membres auxquels appliquer ce menu.',
-
-'set_member_groups' => 'Groupe(s) de membres ?',
-
 'set_name' => 'Nom',
+
+'set_roles_desc' => 'Choisir les roles auxquels appliquer ce menu.',
+
+'set_roles' => 'Rôle(s) de membres ?',
 
 'submenu_desc' => 'Liens dans menu déroulant',
 
@@ -579,11 +587,11 @@ $lang = array(
 
 'prv_msg_max_chars' => 'Nombre maximum de caractères',
 
-'prv_msg_upload_path_desc' => 'Chemin serveur complet de votre répertoire <mark>pièces jointes</mark>.',
+'prv_msg_upload_path_desc' => 'Chemin serveur complet de votre répertoire <code>pièces jointes</code>.',
 
 'prv_msg_upload_path' => 'Chemin de téléchargement',
 
-'prv_msg_upload_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre répertoire <mark>pièces jointes</mark>.',
+'prv_msg_upload_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre répertoire <code>pièces jointes</code>.',
 
 'prv_msg_upload_url' => 'Répertoire de téléchargement',
 
@@ -594,10 +602,6 @@ $lang = array(
 "html_safe" => "Autoriser uniquement le HTML sûr",
 
 /* Avatars */
-'allow_avatar_uploads_desc' => 'Si activé, les membres pourront télécharger leurs propres avatars (images figuratives).',
-
-'allow_avatar_uploads' => 'Autoriser le téléchargement des avatars ?',
-
 'avatar_file_restrictions' => 'Restrictions des fichiers avatars',
 
 'avatar_max_height' => 'Hauteur maximale (<abbr title="pixels">px</abbr>)',
@@ -606,26 +610,22 @@ $lang = array(
 
 'avatar_max_width' => 'Largeur maximale (<abbr title="pixels">px</abbr>)',
 
-'avatar_path_desc' => 'Chemin serveur complet de votre répertoire <mark>avatars</mark>.',
+'avatar_path_desc' => 'Chemin serveur complet de votre répertoire <code>avatars</code>.',
 
 'avatar_path' => 'Chemin serveur du répertoire avatars',
 
 'avatar_settings' => 'Paramétrage des avatars',
 
-'avatar_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre répertoire <mark>avatars</mark>.',
+'avatar_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre répertoire <code>avatars</code>.',
 
 'avatar_url' => 'Répertoire des avatars',
-
-'enable_avatars_desc' => 'Si activé, les membres pourront utiliser les avatars (images figuratives) dans les commentaires et les forums.',
-
-'enable_avatars' => 'Autoriser les avatars ?',
 
 /* CAPTCHA */
 'captcha_font_desc' => 'Si activé, les champs <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr> utiliseront une police TrueType pour l\'affichage.',
 
 'captcha_font' => 'Utiliser les polices TrueType ?',
 
-'captcha_path_desc' => 'Chemin serveur complet de votre répertoire <mark><abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr></mark>.',
+'captcha_path_desc' => 'Chemin serveur complet de votre répertoire <code><abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr></code>.',
 
 'captcha_path' => 'Chemin serveur du répertoire <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>',
 
@@ -641,7 +641,7 @@ $lang = array(
 
 'captcha_settings' => 'Paramétrage CAPTCHA',
 
-'captcha_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre répertoire <mark><abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr></mark>.',
+'captcha_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre répertoire <code><abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr></code>.',
 
 'captcha_url' => 'Répertoire <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>',
 
@@ -650,7 +650,7 @@ $lang = array(
 'require_captcha' => 'Exiger un <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>?',
 
 /* Security & Privacy */
-'allow_dictionary_pw_desc' => 'Si activé, les membres seront autorisés à utiliser des mots communs du dictionnaire dans leur mot de passe. <mark>nécessite qu\'un fichier dictionnaire soit installé pour pouvoir être opérationnel.</mark>',
+'allow_dictionary_pw_desc' => 'Si activé, les membres seront autorisés à utiliser des mots communs du dictionnaire dans leur mot de passe. <code>nécessite qu\'un fichier dictionnaire soit installé pour pouvoir être opérationnel.</code>',
 
 'allow_dictionary_pw' => 'Autoriser des mots du dictionnaire comme mot de passe ?',
 
@@ -664,7 +664,7 @@ $lang = array(
 
 'c_session' => 'Cookies uniquement',
 
-'cookie_domain_desc' => 'Utilisez <mark>.votredomaine.com</mark> pour des cookies couvrant tout le site',
+'cookie_domain_desc' => 'Utilisez <code>.votredomaine.com</code> pour des cookies couvrant tout le site',
 
 'cookie_domain' => 'Domaine',
 
@@ -706,7 +706,7 @@ $lang = array(
 
 'member_security_settings' => 'Paramètres de sécurité des membres',
 
-'name_of_dictionary_file_desc' => 'Nom de votre fichier <mark>dictionnaire</mark> dans votre répertoire config.',
+'name_of_dictionary_file_desc' => 'Nom de votre fichier <code>dictionnaire</code> dans votre répertoire config.',
 
 'name_of_dictionary_file' => 'Fichier dictionnaire',
 
@@ -746,7 +746,7 @@ $lang = array(
 
 'share_analytics' => 'Partager des statistiques d\'utilisation avec l\'Equipe de Développement d\'ExpressionEngine ?',
 
-'share_analytics_desc' => 'EllisLab demande aux utilisateurs de l\'aider à améliorer ExpressionEngine en lui <a href="%s">transmettant occasionnellement des stats, des informations d\'utilisation et des diagnostics</a>.',
+'share_analytics_desc' => 'Packet Tide demande aux utilisateurs de l\'aider à améliorer ExpressionEngine en lui <a href="%s">transmettant occasionnellement des stats, des informations d\'utilisation et des diagnostics</a>.',
 
 'un_min_len_desc' => 'Nombre minimum de caractères exigé pour les identifiants des nouveaux membres.',
 
@@ -773,7 +773,7 @@ $lang = array(
 
 'banishment_type' => 'Action de blocage à exécuter',
 
-'banishment_url_desc' => 'Adresse <abbr title="Uniform Resource Location">URL</abbr> pour les membres bloqués.',
+'banishment_url_desc' => 'Adresse URL pour les membres bloqués.',
 
 'banishment_url' => 'Adresse de redirection',
 
@@ -796,21 +796,21 @@ $lang = array(
 "time_interval" => "Intervalle de temps",
 
 /* HTML Buttons */
-'create_html_buttons_error_desc' => 'Nous n\'avons pas pu créer ce bouton <abbr title="Hyper-Text Markup Language">HTML</abbr>, merci de vérifier et corriger les erreurs ci-dessous.',
+'create_html_buttons_error_desc' => 'Nous n\'avons pas pu créer ce bouton HTML, merci de vérifier et corriger les erreurs ci-dessous.',
 
-'create_html_buttons_error' => 'Impossible de créer le bouton <abbr title="Hyper-Text Markup Language">HTML</abbr>',
+'create_html_buttons_error' => 'Impossible de créer le bouton HTML',
 
-'create_html_buttons_success_desc' => 'Le bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> <b>%s</b> a été créé.',
+'create_html_buttons_success_desc' => 'Le bouton HTML <b>%s</b> a été créé.',
 
-'create_html_buttons_success' => 'Bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> créé',
+'create_html_buttons_success' => 'Bouton HTML créé',
 
-'edit_html_buttons_error_desc' => 'Nous n\'avons pas pu mettre à jour ce bouton <abbr title="Hyper-Text Markup Language">HTML</abbr>, merci de vérifier et corriger les erreurs ci-dessous.',
+'edit_html_buttons_error_desc' => 'Nous n\'avons pas pu mettre à jour ce bouton HTML, merci de vérifier et corriger les erreurs ci-dessous.',
 
-'edit_html_buttons_error' => 'Impossible de mettre à jour le bouton <abbr title="Hyper-Text Markup Language">HTML</abbr>',
+'edit_html_buttons_error' => 'Impossible de mettre à jour le bouton HTML',
 
-'edit_html_buttons_success_desc' => 'Le bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> <b>%s</b> a été mis à jour.',
+'edit_html_buttons_success_desc' => 'Le bouton HTML <b>%s</b> a été mis à jour.',
 
-'edit_html_buttons_success' => 'Bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> mis à jour',
+'edit_html_buttons_success' => 'Bouton HTML mis à jour',
 
 /* Consent Requests */
 'consent_request_versions' => 'Versions de %s',
