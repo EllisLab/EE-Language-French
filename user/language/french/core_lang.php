@@ -16,6 +16,8 @@ $lang = array(
 
 'dot' => 'point',
 
+'edit_this'	=>	'Modifier ceci',
+
 'encoded_email' => '(Le JavaScript doit être activé pour voir cette adresse email)',
 
 'id' => 'ID',
@@ -36,7 +38,7 @@ $lang = array(
 
 'required_fields' => 'Champs Obligatoires',
 
-'search' => "Rechercher",
+'search' => 'Rechercher',
 
 'setting' => 'Paramètre',
 
@@ -44,71 +46,100 @@ $lang = array(
 
 'updating' => 'Mise à Jour',
 
-"auto_redirection" => "Vous serez redirigé automatiquement dans %x secondes",
+'auto_redirection' => 'Vous serez redirigé automatiquement dans %x secondes',
 
-"back" => "Retour",
+'back' => 'Retour',
 
-"click_if_no_redirect" => "Cliquez ici si vous n'êtes pas redirigé automatiquement",
+'click_if_no_redirect' => 'Cliquez ici si vous n\'êtes pas redirigé automatiquement',
 
-"disabled" => "désactivé",
+'disabled' => 'désactivé',
 
-"enabled" => "activé",
+'enabled' => 'activé',
 
-"first" => "Premier",
+'first' => 'Premier',
 
-"last" => "Dernier",
+'last' => 'Dernier',
 
-"no" => "Non",
+'no' => 'Non',
 
-"not_authorized" => "Vous n'êtes pas autorisé à exécuter cette action",
+'not_authorized' => 'Vous n\'êtes pas autorisé à exécuter cette action',
 
-"of" => "sur",
+'of' => 'sur',
 
-"off" => "éteint",
+'off' => 'éteint',
 
-"on" => "allumé",
+'on' => 'sur',
 
-"page" => "Page",
+'page' => 'Page',
 
-"return_to_previous" => "Retourner à la page précédente",
+'return_to_previous' => 'Retourner à la page précédente',
 
-"submit" => "Envoyer",
+'submit' => 'Envoyer',
 
-"system_off_msg" => "Ce site est actuellement désactivé.",
+'system_off_msg' => 'Ce site est actuellement désactivé.',
 
-"thank_you" => "Merci !",
+'thank_you' => 'Merci !',
 
-"update" => "Mettre à jour",
+'update' => 'Mettre à jour',
 
-"yes" => "Oui",
+'yes' => 'Oui',
 
 //----------------------------
 // Errors
 //----------------------------
 
-"error" => "Erreur",
+'captcha_incorrect' => 'Vous n\'avez pas saisi le mot exactement comme il apparaît dans l\'image',
 
-'generic_fatal_error' => 'Oups, quelque chose s\'est mal passé et cete URL ne peut pas être rendue pour le moment.',
+'captcha_required' => 'Vous devez saisir le mot qui apparaît dans l\'image',
 
-"invalid_url" => "L'URL que vous avez soumise est invalide.",
+'checksum_changed_accept' => 'Accepter les modifications',
 
-"submission_error" => "Le formulaire que vous avez soumis contient les erreurs suivantes",
+'checksum_changed_warning' => 'Un ou plusieurs fichiers principaux d\ExpressionEngine ont été altérés :',
 
-"general_error" => "Les erreurs suivantes ont été rencontrées",
+'checksum_email_message' => 'ExpressionEngine a détecté la modification de l\'un de ses fichiers principaux sur : {url}
 
-"invalid_action" => "L'action que vous avez demandée est invalide.",
+Les fichiers suivants sont affectés :
+{changed}
+
+Si vous avez effectué ces changements, veuillez accepter les modifications sur l\'accueil du panneau de contrôle. Si vous n\'avez pas modifié ces fichiers ceci peut indiquer une tentative de piratage. Vérifiez les fichiers pour tout contenu suspect (JavaScript ou iFrames) et consultez : '.DOC_URL.'troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html',
+
+'checksum_email_subject' => 'Un fichier principal d\'ExpressionEngine a été modifié sur votre site.',
 
 'csrf_token_expired' => 'Ce formulaire a expiré. Merci de rafraîchir et de re-essayer.',
 
-'current_password_required' => 'Votre mot de passe actuel est requis.',
-
 'current_password_incorrect' => 'Vous n\'avez pas correctement saisi votre mot de passe actuel.',
 
-"captcha_required" => "Vous devez saisir le mot qui apparaît dans l'image",
+'current_password_required' => 'Votre mot de passe actuel est requis.',
 
-"captcha_incorrect" => "Vous n'avez pas saisi le mot exactement comme il apparaît dans l'image",
+'el_folder_present' => 'Le répertoire <code>%s</code> est présent sur votre serveur. Merci de vous assurer que vous avez remplacé votre <code>index.php</code> et <code>admin.php</code> comme stipulé dans les <a href="%s">instructions de mise à jour</a> et supprimé ce répertoire.',
 
-"nonexistent_page" => "La page que vous avez demandée n'a pu être trouvée",
+'error' => 'Erreur',
+
+'file_not_found' => 'Le fichier %s n\'existe pas.',
+
+'general_error' => 'Les erreurs suivantes ont été rencontrées',
+
+'generic_fatal_error' => 'Oups, quelque chose s\'est mal passé et cete URL ne peut pas être rendue pour le moment.',
+
+'invalid_action' => 'L\'action que vous avez demandée est invalide.',
+
+'invalid_url' => 'L\'URL que vous avez soumise est invalide.',
+
+'missing_encryption_key' => 'Aucune valeur n\'est définie dans votre fichier config.php pour <code>%s</code>. Ceci peut rendre vulnérable la sécurité de votre installation. Restaurez les clefs ou consultez <a href="%s">cet article</a> du guide utilisateur pour obtenir de l\'aide.',
+
+'missing_mime_config' => 'Impossible d\'importer votre liste blanche de types MIME : le fichier %s n\'existe pas ou ne peut pas être lu.',
+
+'new_version_error' => 'Une erreur s\'est produite en tentant de télécharger le numéro de la version actuelle d\'ExpressionEngine. Consultez ce <a href="%s" rel="external noreferrer">document de dépannage</a> pour de plus amples informations.',
+
+'nonexistent_page' => 'La page que vous avez demandée n\'a pu être trouvée',
+
+'php72_intl_error' => 'Votre extension PHP <code>intl</code> est obsolète. Merci de vous assurer que vous avez installé <code>ICU 4.6</code> ou plus récent.',
+
+'redirect_xss_fail' => 'Le lien vers lequel vous êtes redirigé contient du code potentiellement malicieux ou dangereux. Nous vous recommandons de cliquer sur le bouton "Retour Arrière" de votre navigateur et d\'envoyer un email à %s pour lui rapporter le lien qui a généré ce message d\'alerte.',
+
+'submission_error' => 'Le formulaire que vous avez soumis contient les erreurs suivantes',
+
+'theme_folder_wrong' => 'Le chemin serveur de votre dossier thème est incorrect. Merci de visiter <a href="%s">Paramètres URL et chemin serveur</a> et de vérifier le <code>Chemin serveur des thèmes</code> et le <code>Répertoire des thèmes</code>.',
 
 'unable_to_load_field_type' => 'Impossible de charger le fichier de type de champ demandé :  %s.<br />Confirmez que le fichier de type de champ est bien situé dans le répertoire /'.SYSDIR.'/user/addons/ ',
 
@@ -116,89 +147,67 @@ $lang = array(
 
 'unwritable_config_file' => 'Votre fichier de configuration n\'a pas les permissions requises.<br />Pour corriger : définissez les permissions du fichier de configuration (/'.SYSDIR.'/user/config/config.php) à 666 (ou équivalent, selon votre serveur).',
 
-'redirect_xss_fail' => 'Le lien vers lequel vous êtes redirigé contient du code potentiellement malicieux ou dangereux. Nous vous recommandons de cliquer sur le bouton "Retour Arrière" de votre navigateur et d\'envoyer un email à %s pour lui rapporter le lien qui a généré ce message d\'alerte.',
-
-'missing_mime_config' => 'Impossible d\'importer votre liste blanche de types MIME : le fichier %s n\'existe pas ou ne peut pas être lu.',
-
 'version_mismatch' => 'Votre version d\'ExpressionEngine installée (%s) n\'est pas en phase avec la version rapportée (%s). <a href="'.DOC_URL.'installation/update.html" rel="external">Merci de mettre de nouveau à jour votre installation d\'ExpressionEngine</a>.',
-
-'theme_folder_wrong' => 'Le chemin serveur de votre dossier thème est incorrect. Merci de visiter <a href="%s">Paramètres URL et chemin serveur</a> et de vérifier le <mark>Chemin serveur des thèmes</mark> et le <mark>Répertoire des thèmes</mark>.',
-
-'missing_encryption_key' => 'Aucune valeur n\'est définie dans votre fichier config.php pour <code>%s</code>. Ceci peut rendre vulnérable la sécurité de votre installation. Restaurez les clefs ou consultez <a href="%s">cet article</a> du guide utilisateur pour obtenir de l\'aide.',
-
-'checksum_changed_warning' => 'Un ou plusieurs fichiers principaux d\ExpressionEngine ont été altérés :',
-
-'checksum_changed_accept' => 'Accepter les modifications',
-
-'checksum_email_subject' => 'Un fichier principal d\'ExpressionEngine a été modifié sur votre site.',
-
-'checksum_email_message' => "ExpressionEngine a détecté la modification de l\'un de ses fichiers principaux sur : {url}
-
-Les fichiers suivants sont affectés :
-{changed}
-
-Si vous avez effectué ces changements, veuillez accepter les modifications sur l'accueil du panneau de contrôle. Si vous n'avez pas modifié ces fichiers ceci peut indiquer une tentative de piratage. Vérifiez les fichiers pour tout contenu suspect (JavaScript ou iFrames) et consultez : '.DOC_URL.'troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html",
-
-'new_version_error' => 'Une erreur s\'est produite en tentant de télécharger le numéro de la version actuelle d\'ExpressionEngine. Consultez ce <a href="%s" rel="external noreferrer">document de dépannage</a> pour de plus amples informations.',
-
-'file_not_found' => 'Le fichier %s n\'existe pas.',
-
 
 
 //----------------------------
 // Member Groups
 //----------------------------
 
-"banned" => "Exclu",
+'banned' => 'Exclu',
 
-"guests" => "Invités",
+'guests' => 'Invités',
 
-"members" => "Membres",
+'members' => 'Membres',
 
-"pending" => "En attente",
+'pending' => 'En attente',
 
-"super_admins" => "Super Administrateurs",
+'super_admins' => 'Super Administrateurs',
 
 
 //----------------------------
 // Template.php
 //----------------------------
 
-"error_tag_syntax" => "La balise suivante contient une erreur de syntaxe :",
+'error_fix_module_processing' => "Veuillez vérifier que le module '%x' est installé et que '%y' est une méthode disponible pour ce module",
 
-"error_fix_syntax" => "Veuillez corriger la syntaxe dans votre modèle.",
-
-"error_tag_module_processing" => "La balise suivante ne peut être interprétée :",
-
-"error_fix_module_processing" => "Veuillez vérifier que le module '%x' est installé et que '%y' est une méthode disponible pour ce module",
-
-"template_loop" => "Vous avez provoqué une boucle de modèle due à un sous-modèle mal imbriqué ('%s' est appelé de façon récursive)",
-
-'template_load_order' => 'Ordre de chargement des modèles',
-
-'error_multiple_layouts' => 'Plusieurs dispositions trouvées, merci de vous assurer que vous n\'avez qu\'une seule balise de dispostion (layout tag) par modèle',
-
-'error_layout_too_late' => 'Balise module ou plugin trouvée avant la déclaration de disposition. Merci de déplacer la balise de disposition (layout tag) en haut de votre modèle.',
+'error_fix_syntax' => 'Veuillez corriger la syntaxe dans votre modèle.',
 
 'error_invalid_conditional' => "Il y a une boucle conditionnelle invalide dans votre modèle. Merci de rechercher dans vos boucles conditionnelles une chaîne restée ouverte, des opérateurs invalides, un } ou un {/if} manquant.",
 
+'error_layout_too_late' => 'Balise module ou plugin trouvée avant la déclaration de disposition. Merci de déplacer la balise de disposition (layout tag) en haut de votre modèle.',
+
+'error_multiple_layouts' => 'Plusieurs dispositions trouvées, merci de vous assurer que vous n\'avez qu\'une seule balise de disposition (layout tag) par modèle',
+
+'error_tag_module_processing' => 'La balise suivante ne peut être interprétée :',
+
+'error_tag_syntax' => 'La balise suivante contient une erreur de syntaxe :',
+
 'layout_contents_reserved' => 'Le nom "contents" est réservé aux données de modèle est ne peut pas être utilisé comme variable de disposition (ex. {layout:set name="contents"} ou {layout="foo/bar" contents=""}).',
+
+'template_load_order' => 'Ordre de chargement des modèles',
+
+'template_loop' => "Vous avez provoqué une boucle de modèle due à un sous-modèle mal imbriqué ('%s' est appelé de façon récursive)",
+
 
 //----------------------------
 // Email
 //----------------------------
 
-"forgotten_email_sent" => "Si cette adresse email est associée à un compte, Les instructions pour réinitialiser votre mot de passe viennent de vous être envoyées par email.",
+'error_sending_email' => 'Impossible d\'envoyer l\'email pour le moment.',
 
-"error_sending_email" => "Impossible d'envoyer l'email pour le moment.",
+'forgotten_email_sent' => 'Si cette adresse email est associée à un compte, Les instructions pour réinitialiser votre mot de passe viennent de vous être envoyées par email.',
 
-"no_email_found" => "L'adresse email que vous avez saisie n'a pu être trouvée dans la base de données.",
+'forgotten_username_email_sent' => 'Si cette adresse email est associée à un compte, un email contenant votre identifiant vient de vous être envoyé à l\'instant.',
+
+'no_email_found' => 'L\'adresse email que vous avez saisie n\'a pu être trouvée dans la base de données.',
+
+'password_has_been_reset' => 'Votre mot de passe a été réinitialisé et un nouveau mot de passe vous a été envoyé par email.',
 
 'password_reset_flood_lock' => 'Vous avez tenté de réinitialiser votre mot de passe de trop nombreuse fois aujourd\'hui. Merci de vérifier vos boîte de réception et boîte Spam pour récupérer les demandes précédentes, sinon contactez l\'administrateur du site.',
 
-"your_new_login_info" => "Information de connexion",
+'your_new_login_info' => 'Information de connexion',
 
-"password_has_been_reset" => "Votre mot de passe a été réinitialisé et un nouveau mot de passe vous a été envoyé par email.",
 
 //----------------------------
 // Date
@@ -216,136 +225,135 @@ Si vous avez effectué ces changements, veuillez accepter les modifications sur 
 
 'ago' => 'il y a %x',
 
-"year" => "année",
+'year' => 'année',
 
-"years" => "années",
+'years' => 'années',
 
-"month" => "mois",
+'month' => 'mois',
 
-"months" => "mois",
+'months' => 'mois',
 
 'fortnight' => 'quinzaine',
 
 'fortnights' => 'quinzaines',
 
-"week" => "semaine",
+'week' => 'semaine',
 
-"weeks" => "semaines",
+'weeks' => 'semaines',
 
-"day" => "jour",
+'day' => 'jour',
 
-"days" => "jours",
+'days' => 'jours',
 
-"hour" => "heure",
+'hour' => 'heure',
 
-"hours" => "heures",
+'hours' => 'heures',
 
-"minute" => "minute",
+'minute' => 'minute',
 
-"minutes" => "minutes",
+'minutes' => 'minutes',
 
-"second" => "seconde",
+'second' => 'seconde',
 
-"seconds" => "secondes",
+'seconds' => 'secondes',
 
-"am" => "matin",
+'am' => 'matin',
 
-"pm" => "après-midi",
+'pm' => 'après-midi',
 
-"AM" => "MATIN",
+'AM' => 'MATIN',
 
-"PM" => "APRÈS-MIDI",
+'PM' => 'APRÈS-MIDI',
 
-"Sun" => "Dim",
+'Sun' => 'Dim',
 
-"Mon" => "Lun",
+'Mon' => 'Lun',
 
-"Tue" => "Mar",
+'Tue' => 'Mar',
 
-"Wed" => "Mer",
+'Wed' => 'Mer',
 
-"Thu" => "Jeu",
+'Thu' => 'Jeu',
 
-"Fri" => "Ven",
+'Fri' => 'Ven',
 
-"Sat" => "Sam",
+'Sat' => 'Sam',
 
-"Su" => "Di",
+'Su' => 'Di',
 
-"Mo" => "Lu",
+'Mo' => 'Lu',
 
-"Tu" => "Ma",
+'Tu' => 'Ma',
 
-"We" => "Me",
+'We' => 'Me',
 
-"Th" => "Je",
+'Th' => 'Je',
 
-"Fr" => "Ve",
+'Fr' => 'Ve',
 
-"Sa" => "Sa",
+'Sa' => 'Sa',
 
-"Sunday" => "Dimanche",
+'Sunday' => 'Dimanche',
 
-"Monday" => "Lundi",
+'Monday' => 'Lundi',
 
-"Tuesday" => "Mardi",
+'Tuesday' => 'Mardi',
 
-"Wednesday" => "Mercredi",
+'Wednesday' => 'Mercredi',
 
-"Thursday" => "Jeudi",
+'Thursday' => 'Jeudi',
 
-"Friday" => "Vendredi",
+'Friday' => 'Vendredi',
 
-"Saturday" => "Samedi",
+'Saturday' => 'Samedi',
 
-"Jan" => "Jan",
+'Jan' => 'Jan',
 
-"Feb" => "Fév",
+'Feb' => 'Fév',
 
-"Mar" => "Mar",
+'Mar' => 'Mar',
 
-"Apr" => "Avr",
+'Apr' => 'Avr',
 
-"May" => "Mai",
+'May' => 'Mai',
 
-"Jun" => "Juin",
+'Jun' => 'Juin',
 
-"Jul" => "Juil",
+'Jul' => 'Juil',
 
-"Aug" => "Aoû",
+'Aug' => 'Aoû',
 
-"Sep" => "Sep",
+'Sep' => 'Sep',
 
-"Oct" => "Oct",
+'Oct' => 'Oct',
 
-"Nov" => "Nov",
+'Nov' => 'Nov',
 
-"Dec" => "Déc",
+'Dec' => 'Déc',
 
-"January" => "Janvier",
+'January' => 'Janvier',
 
-"February" => "Février",
+'February' => 'Février',
 
-"March" => "Mars",
+'March' => 'Mars',
 
-"April" => "Avril",
+'April' => 'Avril',
 
-"May_l" => "Mai",
+'May_l' => 'Mai',
 
-"June" => "Juin",
+'June' => 'Juin',
 
-"July" => "Juillet",
+'July' => 'Juillet',
 
-"August" => "Août",
+'August' => 'Août',
 
-"September" => "Septembre",
+'September' => 'Septembre',
 
-"October" => "Octobre",
+'October' => 'Octobre',
 
-"November" => "Novembre",
+'November' => 'Novembre',
 
-"December" => "Décembre",
-
+'December' => 'Décembre',
 
 'UM12'  	=>	'(UTC -12:00) Fuseau horaire des îles Baker et Howland',
 
@@ -429,13 +437,13 @@ Si vous avez effectué ces changements, veuillez accepter les modifications sur 
 
 'UP14'		=>	'(UTC +14:00) Fuseau horaire des îles de la Ligne (île Christmas)',
 
-"select_timezone" => "Sélectionner le fuseau horaire",
+'select_timezone' => 'Sélectionner le fuseau horaire',
 
-"no_timezones" => "Aucun fuseau horaire",
+'no_timezones' => 'Aucun fuseau horaire',
 
-'invalid_timezone' => "Le fuseau horaire soumis est invalide.",
+'invalid_timezone' => 'Le fuseau horaire soumis est invalide.',
 
-'invalid_date_format' => "Le format de date soumis est invalide.",
+'invalid_date_format' => 'Le format de date soumis est invalide.',
 
 'curl_not_installed' => 'cURL n\'est pas installé sur votre serveur.',
 

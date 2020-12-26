@@ -226,7 +226,7 @@ $lang = array(
 
 "click_for_fullsize" => "Cliquez sur la miniature pour voir l'image en taille réelle",
 
-"click_preview_to_attach" => "Pour joindre plus qu'un élément cliquez sur aperçu après avoir choisi un fichier",
+"click_preview_to_attach" => 'Pour joindre plus d\'un élément, cliquez sur aperçu après avoir choisi un fichier',
 
 "close_post" => "Paramétrer le statut du message sur 'Fermé'",
 
@@ -257,8 +257,6 @@ $lang = array(
 "delete" => "Supprimer",
 
 "dimensions_too_big" => "Les images ne doivent pas dépasser une largeur de %x pixels par %y pixels",
-
-"display_avatars" => "Afficher les avatars des membres dans les fils du forum",
 
 "display_signatures" => "Afficher les signatures des membres dans les fils du forum",
 

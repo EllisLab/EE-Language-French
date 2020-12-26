@@ -35,7 +35,7 @@ $lang = array(
 
 'successfully_changed_password' => 'Vous avez modifié votre mot de passe avec succès. Merci de vous reconnecter en utilisant votre nouveau mot de passe.',
 
-"credential_missmatch" => "Nom d'utilisateur ou mot de passe invalide.",
+"credential_missmatch" => "Identifiant ou mot de passe invalide.",
 
 "multi_login_warning" => "Quelqu'un est déjà connecté avec ce compte.",
 

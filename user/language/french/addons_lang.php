@@ -3,9 +3,11 @@ $lang = array(
 
 /* Sidebar Menu */
 
-'addon_manager'					=>		'Gestion des Add-Ons',
+'addon_manager'					=>		'Add-Ons',
 
 'addon'							=>		'Add-On',
+
+'add-on-store'	=>	'Boutique des Add-ons',
 
 'addons'						=>		'Add-Ons',
 
@@ -38,6 +40,8 @@ $lang = array(
 'update_to_version'				=>		'Mise à jour vers %s',
 
 'update'						=>		'Mise à Jour',
+
+'updates'	=>	'Mises à Jour',
 
 
 /* Confirm uninstall modal */
@@ -202,8 +206,6 @@ $lang = array(
 'remove' => 'Supprimer',
 
 'required_by' => 'Utilisé par :',
-
-'rte_tool' => 'Outil Éditeur de Texte Enrichi',
 
 'specific_page' => 'Page spécifique ?',
 

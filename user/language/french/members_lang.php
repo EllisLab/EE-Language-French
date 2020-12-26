@@ -3,9 +3,7 @@ $lang = array(
 
 'admin_members' => 'Membres administrateurs',
 
-'all_member_groups' => "Tous les groupes de membres",
-
-'all_members' => "Tous les membres",
+'all_roles' => "Tous les rôles",
 
 'alpha_desc' => 'Ordre alphabétique descendant',
 
@@ -27,7 +25,7 @@ $lang = array(
 
 'btn_confirm_and_decline' => 'Confirmer le refus',
 
-'can_attach_in_private_messages_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront joindre des fichiers à leurs messages privés.",
+'can_attach_in_private_messages_desc' => "Si activé, les utilisateurs avec ce rôle pourront joindre des fichiers à leurs messages privés.",
 
 'can_attach_in_private_messages' => 'Autoriser les pièces jointes',
 
@@ -39,7 +37,7 @@ $lang = array(
 
 'can_not_delete_self' => 'Vous n\'êtes pas autorisé à supprimer votre propre compte membre.',
 
-'can_send_private_messages_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront envoyer et recevoir des messages privés.",
+'can_send_private_messages_desc' => "Si activé, les utilisateurs avec ce rôle pourront envoyer et recevoir des messages privés.",
 
 'can_send_private_messages' => 'Accès aux messages privés',
 
@@ -55,15 +53,15 @@ $lang = array(
 
 'control_panel' => 'Panneau de contrôle',
 
-'copy_member_group' => "Créer un nouveau groupe de membres basé sur <b>%s</b>",
+'copy_role' => "Créer un nouveau rôle basé sur <b>%s</b>",
 
 'cp_log' => "Activité dans le panneau de contrôle",
 
-'create_member_group' => 'Créer un groupe de membres',
-
 'create_member' => "Créé un membre",
 
-'create_new_member_group' => 'Créer un nouveau groupe de membres',
+'create_new_role' => 'Créer un nouveau rôle',
+
+'create_role' => 'Créer un rôle',
 
 'custom_fields' => "Champs personnalisés",
 
@@ -75,13 +73,13 @@ $lang = array(
 
 'delete_member_confirm' => 'Êtes-vous sûr de vouloir supprimer ce membre ?',
 
-'delete_member_group_confirm' => 'Êtes-vous sûr de vouloir supprimer ce groupe de membres ?',
-
-'delete_member_group' => 'Supprimer un groupe de membres',
-
 'delete_member' => 'Supprimer le membre',
 
 'delete_members_confirm' => 'Êtes-vous sûr de vouloir supprimer ces membres ?',
+
+'delete_role_confirm' => 'Êtes-vous sûr de vouloir supprimer ce rôle ?',
+
+'delete_role' => 'Supprimer un rôle',
 
 'delete_selected' => 'Supprimer les membres sélectionnés',
 
@@ -89,9 +87,9 @@ $lang = array(
 
 'edit_group' => 'Modifier le groupe',
 
-'edit_member_group' => 'Modifier groupe de membres',
-
 'edit_profile' => 'Modifier le profil',
+
+'edit_role' => 'Modifier le rôle',
 
 'email_address' => 'Adresse email',
 
@@ -105,7 +103,7 @@ $lang = array(
 
 'enable_lock' => 'Activer le verrou de sécurité du groupe',
 
-'exclude_from_moderation_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront commenter les articles sans être restreints par la valeur par défaut des <a href='%s'>paramètres de commentaires</a>.",
+'exclude_from_moderation_desc' => "Si activé, les utilisateurs avec ce rôle pourront commenter les articles sans être restreints par la valeur par défaut des <a href='%s'>paramètres de commentaires</a>.",
 
 'exclude_from_moderation' => 'Outrepasser la modération de commentaires',
 
@@ -117,11 +115,11 @@ $lang = array(
 
 'fieldlabel' => 'Intitulé du champ',
 
-'filter_by' => 'Filtré par',
-
-'filter_member_group' => 'Filtrer par groupe de membres',
+'filter_by' => 'Filtrer par',
 
 'filter_member_name' => 'Filtrer par nom de membre',
+
+'filter_role' => 'Filtrer par rôle',
 
 'forum_posts' => 'Messages de forum',
 
@@ -131,7 +129,7 @@ $lang = array(
 
 'group_id' => 'ID de groupe',
 
-'group_lock' => 'Verrou de sécurité du groupe de membres',
+'group_lock' => 'Verrou de sécurité du rôle',
 
 'group_title' => 'Titre du groupe',
 
@@ -147,11 +145,15 @@ $lang = array(
 
 'index' => 'Page Index principale',
 
+'invalid_new_primary_role' => 'Le nouveau rôle principal n\'est pas valide.',
+
 'invalid_password' => 'Le mot de passe saisit est invalide.',
 
 'invalid_path_description' => 'Le chemin suivant est invalide :',
 
 'invalid_path' => 'Le chemin que vous avez saisi est invalide.',
+
+'invalid_role_id' => 'Vous devez sélectionner un rôle de membre valide.',
 
 'ip_search_instructions' => 'Vous pouvez soumettre une adresse IP partielle ou complète',
 
@@ -171,7 +173,7 @@ $lang = array(
 
 'last_visit' => 'Dernière visite',
 
-'lock_description' => "Si activé, seuls les Super Administrateurs pourront ajouter ou supprimer des membres à ce groupe.",
+'lock_description' => "Seuls les <code>Super Administrateurs</code> peuvent ajouter ou supprimer des membres à ce rôle.",
 
 'locked' => 'Verrouillé',
 
@@ -207,13 +209,13 @@ $lang = array(
 
 'member_approved_success' => "Membre approuvé",
 
-'member_assignment_none' => 'Aucun, les membres de ce groupe seront supprimés',
+'member_assignment_none' => 'Aucun, les membres avec ce rôle principal seront supprimés',
 
-'member_assignment_warning' => '%x membres(s) sont actuellement affectés à ce groupe. A quel groupe de membres doivent-ils être ré-affectés ?',
+'member_assignment_warning' => 'Des membres possèdent certains de ces rôles comme rôle principal. A quel rôle principal doivent-ils être réaffectés ?',
 
-'member_cfg_existing' => "Paramètres du groupe de membres \"%s\"",
+'member_cfg_existing' => 'Paramètres du rôle \'%s\'',
 
-'member_cfg' => 'Préférences d\'adhésion',
+'member_cfg' => 'Paramètres des rôles',
 
 'member_created_desc' => 'Le membre <b>%s</b> a été créé.',
 
@@ -237,31 +239,13 @@ $lang = array(
 
 'member_field_saved' => "Champ de membres enregistré",
 
-'member_fields_removed_desc' => "Les champs de membres suivants ont été supprimés :",
-
-'member_group_assignment' => 'Affectation au groupe de membres',
-
-'member_group_deleted' => 'Groupe de membres supprimé',
-
-'member_group_desc' => "Affecter à ce membre les permissions d'accès.",
-
-'member_group_filter' => 'groupe de membres',
-
-'member_group_updated_desc' => "Le groupe de membres a été enregistré avec succès.",
-
-'member_group' => 'Groupe de membres',
-
-'member_groups_remove_problem' => 'Un problème est survenu en tentant de supprimer les groupes de membres.',
-
-'member_groups_removed_desc' => "Le groupe de membres a été supprimé avec succès.",
-
-'member_groups' => 'Groupes de membres',
+'member_fields_deleted_desc' => "Les champs de membres suivants ont été supprimés :",
 
 'member_has_cp_access' => 'Peut accéder au panneau de contrôle',
 
 'member_id' => "ID",
 
-'member_manager' => "Gestion des Membres",
+'member_manager' => "Membres",
 
 'member_not_created_desc' => 'Nous n\'avons pas pu créer le membre, merci de vérifier et corriger les erreurs ci-dessous.',
 
@@ -299,7 +283,7 @@ $lang = array(
 
 'missmatched_passwords' => 'Le mot de passe et sa confirmation ne sont pas identiques',
 
-'moderation_actions_desc' => "Les utilisateurs affectés à ce groupe seront autorisés à réaliser toutes les actions sélectionnées.",
+'moderation_actions_desc' => "Les utilisateurs possédant ce rôle seront autorisés à réaliser toutes les actions sélectionnées.",
 
 'moderation_actions' => "Actions de modération",
 
@@ -331,21 +315,45 @@ $lang = array(
 
 'pending_activation' => "En attente d'activation",
 
-'pending_members' => "Tous les membres (en attente d'activation)",
-
 'personal_messaging' => "Messagerie privée",
 
 'preferences_updated' => 'Préférences mises à jour',
 
+'primary_role' => 'Rôle principal',
+
+'primary_role_desc' => 'Affecter le rôle principal pour cet utilisateur.',
+
 'priv_msg_privs' => 'Privilèges de messagerie privée',
+
+'profile' => 'Profil',
 
 'profile_templates' => 'Modèles de profil de membre',
 
-'register_member' => 'Nouveau membre',
+'register_member' => 'Enregistrer un nouveau membre',
 
 'resend' => "Renvoyer l'email d'activation",
 
-'save_member_group' => "Modifier le groupe de membres",
+'role' => 'Rôle',
+
+'role_assignment' => 'Affectation de rôle',
+
+'role_deleted' => 'Rôle supprimé',
+
+'role_deleted_desc' => 'Le rôle a été supprimé avec succès.',
+
+'role_desc' => 'Affecter des droits d\'accès à cet utilisateur.',
+
+'role_filter' => 'rôle',
+
+'role_groups' => 'Groupes de rôles',
+
+'role_groups_desc' => 'Affecter un groupe de droits d\'accès à cet utilisateur.',
+
+'roles_desc' => 'Affecter des droits d\'accès à cet utilisateur.',
+
+'roles_remove_problem' => 'Un problème est survenu lors de la suppression des rôles.',
+
+'save_role' => "Modifier le rôle",
 
 'screen_name_asc' => 'Pseudo - ascendant',
 
@@ -411,7 +419,7 @@ $lang = array(
 
 'your_password_delete_members_desc' => 'Vous <b>devez</b> entrer votre mot de passe afin de pouvoir supprimer des membres.',
 
-'your_password_delete_member_groups_desc' => 'Vous <b>devez</b> entrer votre mot de passe afin de pouvoir supprimer des groupes de membres.',
+'your_password_delete_roles_desc' => 'Vous <b>devez</b> entrer votre mot de passe afin de pouvoir supprimer des rôles.',
 
 //----------------------------
 // Member banning
@@ -457,9 +465,11 @@ $lang = array(
 
 'access_privilege_warning' => "<b>Attention</b> : soyez vigilant sur les privilèges d'accès que vous accordez.",
 
-'access_utilities_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront accéder à la section des utilitaires système.",
+'access_utilities_desc' => "Si activé, les utilisateurs avec ce rôle pourront accéder à la section des utilitaires système.",
 
 'access_utilities' => "Accès aux utilitaires système",
+
+'add_on_manager' => 'Add-Ons',
 
 'addon_access' => "Permissions d'accès aux Add-Ons",
 
@@ -481,27 +491,31 @@ $lang = array(
 
 'applies_to_all_sites' => 's\'applique à tous les sites',
 
+'assigned_templates' => 'Modèles autorisés',
+
+'assigned_templates_desc' => 'Les membres avec ce rôle sont autorisés à accéder aux pages qui utilisent les modèles sélectionnés.',
+
 'be_careful_assigning_groups' => 'Soyez EXTRÊMEMENT prudent lors de l\'affectation des préférences de groupe - en particulier celles colorées, ci-dessous.',
 
-'can_access_addons_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront accéder au gestionnaire d'add-ons.",
+'can_access_addons_desc' => "Si activé, les utilisateurs avec ce rôle pourront accéder au gestionnaire d'add-ons.",
 
 'can_access_addons' => 'Accès aux add-ons',
 
 'can_access_communicate'  => 'Communiquer',
 
-'can_access_cp_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront accéder au panneau de contrôle.",
+'can_access_cp_desc' => "Si activé, les utilisateurs avec ce rôle pourront accéder au panneau de contrôle.",
 
 'can_access_cp' => 'Accès au panneau de contrôle',
 
 'can_access_data' => 'Opérations sur les données',
 
-'can_access_design_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront accéder au gestionnaire de modèles.",
+'can_access_design_desc' => "Si activé, les utilisateurs avec ce rôle pourront accéder au gestionnaire de modèles.",
 
 'can_access_design' => 'Accès au gestionnaire de modèles',
 
 'can_access_file_manager' => 'Accès au gestionnaire de fichiers',
 
-'can_access_files' => 'Gestion des Fichiers',
+'can_access_files' => 'Fichiers',
 
 'can_access_import'  => 'Import',
 
@@ -509,7 +523,7 @@ $lang = array(
 
 'can_access_logs' => 'Journaux',
 
-'can_access_members_desc' => "Si activé, les utilisateurs affectés à ce groupe pouront accéder à la section Membres du panneau de contrôle.",
+'can_access_members_desc' => "Si activé, les utilisateurs avec ce rôle pouront accéder à la section Membres du panneau de contrôle.",
 
 'can_access_members' => 'Accès aux membres',
 
@@ -517,57 +531,51 @@ $lang = array(
 
 'can_access_sql'  => 'Gestion SQL',
 
-'can_access_sys_prefs_desc' => 'Si activé, les utilisateurs affectés à ce groupe pourront accéder aux paramètres du logiciel.',
+'can_access_sys_prefs_desc' => 'Si activé, les utilisateurs avec ce rôle pourront accéder aux paramètres du logiciel.',
 
 'can_access_sys_prefs' => 'Accès au paramétrage',
 
-'can_access_tg' => 'Peut modifier des modèles dans ce groupe :',
+'can_access_tg' => 'Peut modifier des modèles avec ce rôle :',
 
 'can_access_translate'  => 'Traduction',
 
 'can_access_utilities' => 'Utilitaires',
 
-'can_admin_addons_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront installer et supprimer des add-ons.",
+'can_admin_addons_desc' => "Si activé, les utilisateurs avec ce rôle pourront installer et supprimer des add-ons.",
 
 'can_admin_addons' => "Installer ou supprimer des add-ons",
 
-'can_admin_channels_desc' => "Si activé, les utilisateur affectés à ce groupe pourront accéder au gestionnaire de canaux et, de manière optionnelle, aux champs, catégories et statuts des canaux.",
+'can_admin_channels_desc' => "Si activé, les utilisateur avec ce rôle pourront accéder au gestionnaire de canaux et, de manière optionnelle, aux champs, catégories et statuts des canaux.",
 
 'can_admin_channels' => 'Accès au gestionnaire de canaux',
 
-'can_admin_design_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront accéder aux paramètres des modèles de globales et aux routes de modèle.",
+'can_admin_design_desc' => "Si activé, les utilisateurs avec ce rôle pourront accéder aux paramètres des modèles de globales et aux routes de modèle.",
 
 'can_admin_design' => 'Paramètres des modèles de globales',
 
-'can_admin_mbr_groups_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront accéder aux paramètres des groupes de membres.",
+'can_admin_mbr_groups_desc' => "Si activé, les utilisateurs avec ce rôle pourront accéder aux paramètres des rôles.",
 
-'can_admin_mbr_groups' => 'Accès aux groupes de membres',
+'can_admin_mbr_groups' => 'Accès aux rôles',
 
 'can_admin_mbr_templates' => 'Peut administrer les modèles de profil de membre',
 
 'can_admin_members' => 'Créer et modifier les membres',
 
-'can_admin_templates_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront gérer les groupes de modèles et les modèles.",
+'can_admin_templates_desc' => "Si activé, les utilisateurs avec ce rôle pourront gérer les groupes de modèles et les modèles.",
 
 'can_admin_templates' => 'Gestion des groupes de modèles et modèles',
 
 'can_admin_upload_prefs' => 'Peut administrer les préférences de téléchargement',
 
-'can_assign_post_authors' => 'Peut changer le nom d\'auteur lors de la publication d\'articles',
-
 'can_ban_users' => 'Peut exclure des utilisateurs',
 
 'can_delete_all_comments' => 'Peut supprimer les commentaires de N\'IMPORTE QUEL article',
-
-'can_delete_all_entries' => 'Peut supprimer des articles rédigés par d\'autres auteurs',
 
 'can_delete_members' => 'Peut supprimer des membres',
 
 'can_delete_own_comments' => 'Peut supprimer les commentaires de ses propres articles',
 
-'can_delete_self_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront supprimer leur propre compte sans autorisation supplémentaire.",
-
-'can_delete_self_entries' => 'Peut supprimer ses propres articles',
+'can_delete_self_desc' => "Si activé, les utilisateurs avec ce rôle pourront supprimer leur propre compte sans autorisation supplémentaire.",
 
 'can_delete_self' => 'Suppression de compte',
 
@@ -575,25 +583,23 @@ $lang = array(
 
 'can_edit_html_buttons' => 'Peut modifier ses propres boutons de formatage HTML',
 
-'can_edit_other_entries' => 'Peut modifier des articles rédigés par d\'autres auteurs',
-
 'can_edit_own_comments' => 'Peut modifier les commentaires de ses propres articles',
 
 'can_email_from_profile' => 'Peut envoyer des emails à d\'autres membres depuis la console email du profil',
 
-'can_email_member_groups' => 'Envoyer des emails aux groupes de membres',
+'can_email_roles' => 'Envoyer des emails aux rôles',
 
 'can_manage_consents' => 'Requêtes de Consentement',
 
-'can_manage_consents_desc' => 'Si activé, les membres de ce groupe pourront gérer les requêtes de consentement.',
+'can_manage_consents_desc' => 'Si activé, les membres avec ce rôle pourront gérer les requêtes de consentement.',
 
-'can_post_comments_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront publier des commentaires sur le site.",
+'can_post_comments_desc' => "Si activé, les utilisateurs avec ce rôle pourront publier des commentaires sur le site.",
 
 'can_post_comments' => 'Publication de commentaires',
 
 'can_post_in' => 'Peut publier et modifier des articles dans :',
 
-'can_search_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront utiliser la fonctionnalité de recherche du site.",
+'can_search_desc' => "Si activé, les utilisateurs avec ce rôle pourront utiliser la fonctionnalité de recherche du site.",
 
 'can_search' => 'Accès à l\'utilitaire de recherche',
 
@@ -607,7 +613,7 @@ $lang = array(
 
 'can_view_other_entries' => 'Peut voir les articles rédigés par d\'autres auteurs',
 
-'can_view_profiles_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront visualiser les profils publics des autres membres.",
+'can_view_profiles_desc' => "Si activé, les utilisateurs avec ce rôle pourront visualiser les profils publics des autres membres.",
 
 'can_view_profiles' => 'Accès aux profils publics',
 
@@ -625,13 +631,15 @@ $lang = array(
 
 'choose_channels_per_site' => 'choisir les canaux, par site ci-dessous',
 
-'comment_actions_desc' => "Les utilisateurs de ce groupe seront autorisés à réaliser toutes les actions sélectionnées.",
+'comment_actions_desc' => "Les utilisateurs avec ce rôle pourront réaliser toutes les actions sélectionnées.",
 
 'comment_actions' => "Actions de modération",
 
 'commenting_privs' => 'Privilèges de publication de commentaire',
 
 'commenting' => 'Commentaires',
+
+'cp_access' => 'Accès au panneau de contrôle',
 
 'cp_admin_privs' => 'Administration du panneau de contrôle',
 
@@ -645,7 +653,7 @@ $lang = array(
 
 'cp_module_access_privs' => 'Privilèges d\'accès aux modules',
 
-'cp_overview' => 'Synthèse du <abbr title="Panneau de Contrôle">PC</abbr>',
+'cp_overview' => 'Vue d\'ensemble du panneau de contrôle',
 
 'cp_template_access_privs' => 'Privilèges d\'édition des modèles',
 
@@ -655,7 +663,7 @@ $lang = array(
 
 'default_cp_homepage_desc' => 'Page du <abbr title="Panneau de Contrôle">PC</abbr> que ce groupe doit voir après connexion.',
 
-'default_cp_homepage' => 'Page d\'accueil par défaut du <abbr title="Panneau de Contrôle">PC</abbr>',
+'default_cp_homepage' => 'Page d\'accueil par défaut',
 
 'delete_confirmation_form' => 'Formulaire de confirmation de suppression de compte',
 
@@ -663,11 +671,11 @@ $lang = array(
 
 'edit_listing' => 'Liste de tous les articles',
 
-'file_manager_desc' => 'Si activé, les utilisateurs affectés à ce groupe pourront accéder au gestionnaire de fichiers.',
+'file_manager_desc' => 'Si activé, les utilisateurs avec ce rôle pourront accéder au gestionnaire de fichiers.',
 
-'file_manager' => 'Gestion des Fichiers',
+'file_manager' => 'Fichiers',
 
-'footer_helper_links_desc' => "Choisir les liens auxquels ce groupe de membres aura accès dans le pied de page du panneau de contrôle.",
+'footer_helper_links_desc' => "Choisir les liens auxquels ce rôle aura accès dans le pied de page du panneau de contrôle.",
 
 'footer_helper_links' => "Accès aux liens rapides de pied de page",
 
@@ -677,35 +685,31 @@ $lang = array(
 
 'group_name' => 'Nom du groupe de membres',
 
-'group_title_exists' => "Il existe déjà un groupe de membres avec ce nom !",
+'group_title_exists' => "Il existe déjà un rôle avec ce nom !",
 
-'homepage_news_desc' => "Si activé, les utilisateurs affectés à ce groupe verront les nouvelles d'ExpressionEngine sur la page d'accueil du panneau de contrôle.",
+'homepage_news_desc' => "Si activé, les utilisateurs avec ce rôle verront les nouvelles d'ExpressionEngine sur la page d'accueil du panneau de contrôle.",
 
 'homepage_news' => "Afficher les nouvelles sur la page d\'accueil du PC",
 
-'include_members_in_desc' => 'Les utilisateurs de ce groupe seront inclus dans tous les types de liste sélectionnés.',
+'include_members_in_desc' => 'Les membres avec ce rôle seront intégrés dans les listes sélectionnées.',
 
-'include_members_in' => 'Inclure les membres dans',
+'include_members_in' => 'Intégrer les membres dans',
 
 'mbr_account_privs' => 'Privilèges de compte de membres',
 
-'mbr_delete_notify_emails_desc' => 'Tous les destinataires seront notifiés à chaque fois qu\'un utilisateur supprimera son compte. Séparer les e-mails avec une virgule.',
+'mbr_delete_notify_emails_desc' => 'Tous les destinataires seront notifiés à chaque fois qu\'un utilisateur supprimera son compte. Séparer les emails avec une virgule.',
 
 'mbr_delete_notify_emails' => 'Adresses email des destinataires de la notification de suppression',
 
-'member_group_created' => 'Groupe de membres créé :',
-
-'member_group_updated' => 'Groupe de membres mis à jour :',
-
 'members' => "Membres",
 
-'missing_group_title' => 'Le groupe de membres doit avoir un nom',
+'missing_group_title' => 'Le rôle doit avoir un nom',
 
 'must_have_channels' => 'Tous les sites doivent avoir des canaux.',
 
 'no_cp_modules_installed' => 'Pas de module avec accès au panneau de contrôle installé',
 
-'only_superadmins_can_admin_groups' => 'Seuls les Super Administrateurs peuvent accéder à la page des groupes de membres',
+'only_superadmins_can_admin_groups' => 'Seuls les Super Administrateurs peuvent accéder à la page des rôles',
 
 'prv_msg_send_limit_desc' => 'Nombre maximum de messages privés qu\'un utilisateur peut envoyer par jour',
 
@@ -717,19 +721,25 @@ $lang = array(
 
 'publish_form' => 'Formulaire de publication',
 
+'role_created' => 'Rôle créé :',
+
+'role_updated' => 'Rôle mis à jour :',
+
 'search_flood_control_desc' => "Nombre de secondes que doit attendre un utilisateur entre deux recherches.",
 
 'search_flood_control' => 'Attente entre deux recherches',
 
 'search_privs' => 'Privilèges de recherche',
 
-'site_access_desc' => "Les utilisateurs de ce groupe seront autorisés à accéder au site En et/ou Hors ligne selon le statut sélectionné.",
+'site_access_desc' => 'Les utilisateurs avec ce rôle pourront accéder au site quand il sera au statut :',
 
 'site_access' => 'Accès au site',
 
 'super_admin_edit_note' => 'Note : Vous ne pouvez modifier que le nom et la description du groupe Super Administrateur',
 
-'template_manager' => "Gestion des Modèles",
+'template_access' => 'Accès aux modèles',
+
+'template_manager' => "Modèles",
 
 'tools_utilities' => 'Utilitaires',
 
@@ -752,23 +762,19 @@ $lang = array(
 
 'can_access_addon_settings' => "Add-ons",
 
-'can_access_security_settings_desc' => "Si activé les membres de ce groupe auront les droits d'accès aux paramètres système de sécurité et vie privée.",
+'can_access_security_settings_desc' => "Si activé les membres avec ce rôle auront les droits d'accès aux paramètres système de sécurité et vie privée.",
 
 'can_access_security_settings' => "Sécurité &amp; Vie privée",
 
 'can_access_site' => 'Peut accéder au site',
 
-'can_create_entries' => "Peut créer des articles",
-
-'can_edit_self_entries' => "Peut modifier ses propres articles",
-
 'can_not_delete_only_member' => 'Vous ne pouvez pas supprimer le seul membre de la base de données',
 
-'can_send_bulletins_desc' => "Si activé, les utilisateurs affectés à ce groupe pourront envoyer des bulletins.",
+'can_send_bulletins_desc' => "Si activé, les utilisateurs avec ce rôle pourront envoyer des bulletins.",
 
 'can_send_bulletins' => 'Envoyer des bulletins',
 
-'cannot_change_your_group' => "Les Super Administrateurs ne peuvent pas modifier leur propre groupe de membres. Un autre Super Administrateur doit vous réaffecter.",
+'cannot_change_your_group' => "Les Super Administrateurs ne peuvent pas modifier leur propre rôle. Un autre Super Administrateur doit vous réaffecter.",
 
 'cannot_delete_super_admin' => "Vous ne pouvez pas supprimer le seul Super Administrateur. Merci d'en créer un nouveau d'abord.",
 
@@ -788,13 +794,13 @@ $lang = array(
 
 'create_member_field' => 'Créer un champ',
 
-'create_member_groups' => "Créer de nouveaux groupes",
-
 'create_members' => "Créer de nouveaux membres",
 
 'create_new_profile_field' => 'Créer un nouveau champ de profil',
 
 'create_new_templates' => "Créer de nouveaux modèles",
+
+'create_roles' => "Créer de nouveaux rôles",
 
 'create_statuses' => "Créer des statuts",
 
@@ -808,8 +814,6 @@ $lang = array(
 
 'current_fields' => 'Champs de profil de membre',
 
-'custom_member_fields' => 'Champs de profil personnalisés',
-
 'delete_categories' => "Supprimer des catégories",
 
 'delete_channel_fields' => "Supprimer des champs de canaux",
@@ -818,9 +822,9 @@ $lang = array(
 
 'delete_files' => "Supprimer des fichiers",
 
-'delete_member_groups' => "Supprimer des groupes",
-
 'delete_profile_field_confirmation' => 'Êtes-vous sûr de vouloir supprimer de manière définitive ce champ de profil de membre ?',
+
+'delete_roles' => "Supprimer des rôles",
 
 'delete_statuses' => "Supprimer des statuts",
 
@@ -844,9 +848,11 @@ $lang = array(
 
 'edit_member_field' => 'Modifier le champ',
 
-'edit_member_groups' => "Modifier des groupes",
+'edit_member' => 'Modifier un membre',
 
 'edit_members' => "Modifier des membres",
+
+'edit_roles' => "Modifier des rôles",
 
 'edit_statuses' => "Modifier des statuts",
 
@@ -900,6 +906,8 @@ $lang = array(
 
 'invalid_characters' => 'Le nom du champ que vous avez saisi contient des caractères invalides',
 
+'invalid_characters_in_username' => 'Votre identifiant ne peut pas utiliser les caractères suivants : | " \' ! < > { }',
+
 'is_field_cp_reg' => 'Le champ est-il visible dans la page d\'enregistrement administratif du panneau de contrôle ?',
 
 'is_field_public_cont' => 'Si activé, ce champ sera visible dans les profils publics.',
@@ -928,7 +936,7 @@ $lang = array(
 
 'message_sent_to' => 'Message envoyé à :',
 
-'must_be_superadmin_to_delete_one' => 'Vous devez être un Super Administrateur pour supprimer un autre Super Administrateur',
+'must_be_superadmin_to_delete_one' => 'Vous devez être un Super Administrateur pour supprimer un membre avec ce rôle',
 
 'no_cached_email' => 'Il n\'y a aucun messages email en cache.',
 
@@ -952,11 +960,9 @@ $lang = array(
 
 'resend_activation_emails' => 'Renvoyer les emails d\'activation',
 
-'rte_toolsets' => "Jeux d'outils RTE",
-
-'search_member_groups_button' => "Rechercher des Groupes de membres",
-
 'search_members_button' => "Rechercher des Membres",
+
+'search_roles_button' => "Rechercher des rôles",
 
 'setting' => 'Paramètre',
 
@@ -964,11 +970,11 @@ $lang = array(
 
 'show_all_banned' => 'Tous les membres exclus (%d)',
 
-'show_all_member_groups' => 'Tous les groupes de membres (%d)',
-
 'show_all_members' => 'Tous les membres (%d)',
 
 'show_all_pending' => 'Tous les membres en attente d\'activation (%d)',
+
+'show_all_roles' => 'Tous les roles (%d)',
 
 'template_groups' => "Groupes de modèles",
 
@@ -991,6 +997,280 @@ $lang = array(
 'upload_new_toolsets' => "Télécharger de nouveaux jeux d'outils",
 
 'utility' => 'Utilitaires',
+
+/* Roles */
+
+'roles_manager' => 'Rôles des membres',
+
+'role_groups' => 'Groupes de rôles',
+
+'role_group' => 'Groupe de rôles',
+
+'new_role' => 'Nouveau rôle',
+
+'group_roles_desc' => 'Affecter un ou plusieurs rôles à ce groupe.',
+
+'create_role_group' => 'Nouveau groupe de rôles',
+
+'create_role_group_error' => 'Impossible de créer le groupe de rôles',
+
+'create_role_group_error_desc' => 'Nous n\'avons pas pu créer ce groupe de rôles, merci de vérifier et corriger les erreurs ci-dessous.',
+
+'create_role_group_success' => 'Groupe de rôles créé',
+
+'create_role_group_success_desc' => 'Le groupe de rôles <b>%s</b> a été créé.',
+
+'edit_role_group' => 'Modifier le groupe de rôles',
+
+'edit_role_group_error' => 'Impossible de modifier le groupe de rôles',
+
+'edit_role_group_error_desc' => 'Nous n\'avons pas pu modifier ce groupe de rôles, merci de vérifier et corriger les erreurs ci-dessous.',
+
+'edit_role_group_success' => 'Groupe de rôles mis à jour',
+
+'edit_role_group_success_desc' => 'Le groupe de rôles <b>%s</b> a été mis à jour.',
+
+'role_groups_removed_desc' => 'Les groupes de rôles suivants ont été supprimés',
+
+'create_role' => 'Nouveau rôle',
+
+'create_role_error' => 'Impossible de créer le rôle',
+
+'create_role_error_desc' => 'Nous n\'avons pas pu créer ce rôle, merci de vérifier et corriger les erreurs ci-dessous.',
+
+'create_role_success' => 'Rôle créé',
+
+'create_role_success_desc' => 'Le rôle <b>%s</b> a été créé.',
+
+'edit_role' => 'Modifier le rôle',
+
+'edit_role_error' => 'Impossible de modifier le rôle',
+
+'edit_role_error_desc' => 'Nous n\'avons pas pu modifier ce rôle, merci de vérifier et corriger les erreurs ci-dessous.',
+
+'edit_role_success' => 'Rôle mis à jour',
+
+'edit_role_success_desc' => 'Le rôle <b>%s</b> a été mis à jour.',
+
+'roles_deleted_desc' => 'Les rôles suivants ont été supprimés',
+
+'roles_delete_error' => 'Impossible de supprimer les rôles',
+
+'roles_not_deleted_desc' => 'Les rôles suivants n\'ont pas pu être supprimés',
+
+'channel_access' => 'Accès au canal',
+
+'channel_access_desc' => 'Les utilisateurs peuvent réaliser toutes les actions sélectionnées sur le canal choisi.',
+
+'can_admin_roles' => 'Accès aux rôles',
+
+'can_admin_roles_desc' => 'Si activé, les utilisateurs affectés à ce rôle peuvent accéder aux paramètres des rôles des membres.',
+
+'template_group_access' => 'Accès aux groupes de modèles',
+
+'template_group_access_desc' => 'Les utilisateurs peuvent réaliser toutes les actions sélectionnées sur le groupe de modèles choisi.',
+
+'upload_destination_access' => 'Accès aux répertoires de téléchargement',
+
+'upload_destination_access_desc' => 'Les utilisateurs peuvent accéder à tous les répertoires de téléchargement choisis.',
+
+'member_role_assignment' => 'Affectation d\'un rôle',
+
+'http_auth_protected' => 'Protection HTTP Auth',
+
+/* Access Overview */
+
+'access_overview' => 'Synthèse des accès',
+
+'access_permissions' => 'Permissions d\'accès',
+
+'access' => 'Accès ?',
+
+'granted_by' => 'Accordé par',
+
+'primary_role' => 'Rôle principal',
+
+'permissions_granted' => 'Les permissions suivantes sont accordées à <b>%s</b>.',
+
+'member_roles' => 'Rôles',
+
+'access_to' => 'Accès à <b>%s</b>',
+
+'access_overview_can_view_online_system' => 'Accès au site (en ligne)',
+
+'access_overview_can_view_offline_system' => 'Accès au site (hors ligne)',
+
+'access_overview_can_view_profiles' => 'Accès aux profils publiques',
+
+'access_overview_can_delete_self' => 'Supprimer un compte',
+
+'access_overview_can_post_comments' => 'Soumettre des commentaires',
+
+'access_overview_can_moderate_comments' => 'Modérer des commentaires',
+
+'access_overview_can_edit_own_comments' => 'Modifier ses propres commentaires',
+
+'access_overview_can_delete_own_comments' => 'Supprimer ses propres commentaires',
+
+'access_overview_can_edit_all_comments' => 'Modifier les commentaires des autres',
+
+'access_overview_can_delete_all_comments' => 'Supprimer les commentaires des autres',
+
+'access_overview_can_search' => 'Accès à l\'utilitaire de recherche',
+
+'access_overview_can_send_private_messages' => 'Accès aux messages privés',
+
+'access_overview_can_attach_in_private_messages' => 'Autoriser les pièces jointes',
+
+'access_overview_can_send_bulletins' => 'Envoyer des bulletins',
+
+'access_overview_can_access_cp' => 'Accès au panneau de contrôle',
+
+'access_overview_can_access_footer_report_bug' => 'Accès au lien Rapporter un bogue',
+
+'access_overview_can_access_footer_new_ticket' => 'Accès au lien Support',
+
+'access_overview_can_access_footer_user_guide' => 'Accès au lien Guide utilisateur',
+
+'access_overview_can_view_homepage_news' => 'Voir les actualités EE sur la page d\'accueil',
+
+'access_overview_can_admin_channels' => 'Accès au gestionnaire de canaux',
+
+'access_overview_can_create_channels' => 'Créer des canaux',
+
+'access_overview_can_edit_channels' => 'Modifier les canaux',
+
+'access_overview_can_delete_channels' => 'Supprimer des canaux',
+
+'access_overview_can_create_channel_fields' => 'Créer des champs',
+
+'access_overview_can_edit_channel_fields' => 'Modifier les champs',
+
+'access_overview_can_delete_channel_fields' => 'Supprimer des champs',
+
+'access_overview_can_create_categories' => 'Créer des catégories',
+
+'access_overview_can_edit_categories' => 'Modifier les catégories',
+
+'access_overview_can_delete_categories' => 'Supprimer des catégories',
+
+'access_overview_can_create_statuses' => 'Créer des statuts',
+
+'access_overview_can_edit_statuses' => 'Modifier les statuts',
+
+'access_overview_can_delete_statuses' => 'Supprimer des statuts',
+
+'access_overview_can_create_entries' => 'Créer des articles',
+
+'access_overview_can_edit_self_entries' => 'Modifier ses propres articles',
+
+'access_overview_can_delete_self_entries' => 'Supprimer ses propres articles',
+
+'access_overview_can_edit_other_entries' => 'Modifier les articles des autres',
+
+'access_overview_can_delete_all_entries' => 'Supprimer les articles des autres',
+
+'access_overview_can_assign_post_authors' => 'Modifier l\'auteur',
+
+'access_overview_can_access_files' => 'Accès au gestionnaire de fichiers',
+
+'access_overview_can_create_upload_directories' => 'Créer des répertoires de téléchargement',
+
+'access_overview_can_edit_upload_directories' => 'Modifier les répertoires de téléchargement',
+
+'access_overview_can_delete_upload_directories' => 'Supprimer des répertoires de téléchargement',
+
+'access_overview_can_upload_new_files' => 'Télécharger des fichiers',
+
+'access_overview_can_edit_files' => 'Modifier les fichiers',
+
+'access_overview_can_delete_files' => 'Supprimer des fichiers',
+
+'access_overview_can_access_members' => 'Accès aux membres',
+
+'access_overview_can_create_members' => 'Créer des membres',
+
+'access_overview_can_edit_members' => 'Modifier les membres',
+
+'access_overview_can_delete_members' => 'Supprimer des membres',
+
+'access_overview_can_ban_users' => 'Exclure des membres',
+
+'access_overview_can_email_from_profile' => 'Envoyer des emails aux membres',
+
+'access_overview_can_edit_html_buttons' => 'Gérer ses propres boutons HTML',
+
+'access_overview_can_admin_roles' => 'Accès aux rôles',
+
+'access_overview_can_create_roles' => 'Créer des rôles',
+
+'access_overview_can_edit_roles' => 'Modifier les rôles',
+
+'access_overview_can_delete_roles' => 'Supprimer des rôles',
+
+'access_overview_can_access_design' => 'Accès au gestionnaire de modèles',
+
+'access_overview_can_admin_design' => 'Accès aux paramètres généraux des modèles',
+
+'access_overview_can_create_template_groups' => 'Créer des groupes de modèles',
+
+'access_overview_can_edit_template_groups' => 'Modifier les groupes de modèles',
+
+'access_overview_can_delete_template_groups' => 'Supprimer des groupes de modèles',
+
+'access_overview_can_create_template_partials' => 'Créer des partiels de modèle',
+
+'access_overview_can_edit_template_partials' => 'Modifier les partiels de modèle',
+
+'access_overview_can_delete_template_partials' => 'Supprimer des partiels de modèle',
+
+'access_overview_can_create_template_variables' => 'Créer des variables de modèle',
+
+'access_overview_can_edit_template_variables' => 'Modifier les variables de modèle',
+
+'access_overview_can_delete_template_variables' => 'Supprimer des variables de modèle',
+
+'access_overview_can_create_templates' => 'Créer des modèles',
+
+'access_overview_can_edit_templates' => 'Modifier les modèles',
+
+'access_overview_can_delete_templates' => 'Supprimer des modèles',
+
+'access_overview_can_manage_settings' => 'Gérer les paramètres et les accès',
+
+'access_overview_can_access_addons' => 'Accès au gestionnaire d\'add-ons',
+
+'access_overview_can_admin_addons' => 'Gérer les add-ons (installer/supprimer)',
+
+'access_overview_can_upload_new_toolsets' => 'Télécharger des jeux d\'outils RTE',
+
+'access_overview_can_edit_toolsets' => 'Modifier les jeux d\'outils RTE',
+
+'access_overview_can_delete_toolsets' => 'Supprimer des jeux d\'outils RTE',
+
+'access_overview_can_access_utilities' => 'Accès aux utilitaires système',
+
+'access_overview_can_access_comm' => 'Accès aux communications',
+
+'access_overview_can_email_roles' => 'Envoyer un email à des rôles spécifiques',
+
+'access_overview_can_send_cached_email' => 'Voir/Envoyer un email en cache',
+
+'access_overview_can_access_translate' => 'Accès au traducteur',
+
+'access_overview_can_access_import' => 'Accès à l\'import',
+
+'access_overview_can_access_sql_manager' => 'Accès à la gestion SQL',
+
+'access_overview_can_access_data' => 'Accès aux opérations sur les données',
+
+'access_overview_can_access_logs' => 'Accès aux journaux système',
+
+'access_overview_can_access_sys_prefs' => 'Accès aux paramètres système',
+
+'access_overview_can_access_security_settings' => 'Accès à Sécurité & Confidentialité',
+
+'access_overview_can_manage_consents' => 'Accès aux requêtes de consentement',
 
 );
 

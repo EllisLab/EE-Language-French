@@ -17,7 +17,7 @@ $lang = array(
 
 'all_throttle_logs' 	=> 'Tous les journaux Filtrage (%d)',
 
-'clear_cp_logs'			=> 'Effacer tous les journaux des accès au panneau de contrôle',
+'clear_cp_logs'			=> 'Supprimer tous les journaux des accès au panneau de contrôle',
 
 'consent_log'			=> 'Consentement',
 
@@ -64,7 +64,7 @@ $lang = array(
 'view_throttle_log' 	=> 'Journaux de filtrage des accès',
 
 /* Developer Log */
-'clear_developer_logs'	=> 'Effacer tous les journaux développeur',
+'clear_developer_logs'	=> 'Supprimer tous les journaux développeur',
 
 'deprecated_function'	=> 'La fonction obsolète %s a été appelée',
 
@@ -92,7 +92,7 @@ $lang = array(
 
 'deprecated_meaning'	=> '<p>Une de ces 2 choses vient de se produire :</p>
 <ol>
-	<li>Le système a détecté du code natif ou un add-on qui utilise du code obsolète qui pourrait ne plus fonctionner, voire provoquer des problèmes avec le système. Cela signifie qu\'un add-on dans votre installation accède à une partie du code source d\'ExpressionEngine qu\'EllisLab a prévu de retirer dans le futur afin d\'améliorer la qualité du produit.</li>
+	<li>Le système a détecté du code natif ou un add-on qui utilise du code obsolète qui pourrait ne plus fonctionner, voire provoquer des problèmes avec le système. Cela signifie qu\'un add-on dans votre installation accède à une partie du code source d\'ExpressionEngine que Packet Tide a prévu de retirer dans le futur afin d\'améliorer la qualité du produit.</li>
 	<li>Une alerte ou un message a été émis par le code natif ou un add-on afin d\'être porté à l\'attention d\'un Super Admin.</li>
 </ol>
 <p>Pour remédier à cette alerte, vous pouvez effectuer tout ou partie des actions suivantes :</p>
@@ -103,7 +103,7 @@ $lang = array(
 </ul>',
 
 /* Email Log */
-'clear_email_logs'		=> 'Effacer tous les journaux de la console d\'email',
+'clear_email_logs'		=> 'Supprimer tous les journaux de la console d\'email',
 
 'no_email_logs_found'	=> 'Aucun <b>Journal de la console d\'email</b> trouvé.',
 
@@ -112,16 +112,14 @@ $lang = array(
 'subject'				=> 'Objet',
 
 /* Search Log */
-'clear_search_logs'		=> 'Effacer tous les journaux des termes de recherche',
+'clear_search_logs'		=> 'Supprimer tous les journaux des termes de recherche',
 
 'no_search_logs_found'	=> 'Aucun <b>Journal des termes de recherche</b> trouvé.',
 
 'searched_for'			=> 'Termes recherchés',
 
 /* Throttle Log */
-'blacklist_all_ips'		=> 'Mettre toutes les IP en liste noire',
-
-'clear_throttle_logs'	=> 'Effacer tous les journaux de filtrage',
+'clear_throttle_logs'	=> 'Supprimer tous les journaux de filtrage',
 
 'enable_throttling'		=> 'Activer le filtrage ?',
 
@@ -139,8 +137,6 @@ $lang = array(
 'custom_date'			=> 'date personnalisée',
 
 'custom_limit'			=> 'limite personnalisée',
-
-'date'					=> 'date',
 
 'filter_by_site'		=> 'filtrer par site',
 

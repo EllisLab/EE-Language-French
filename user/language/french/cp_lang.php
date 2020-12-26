@@ -9,21 +9,46 @@ $lang = array(
 // Develop Menu
 //----------------------------
 
-'addon_manager'    => 'Gestion des Add-Ons',
+'addon_manager'	=>	'Add-Ons',
 
-'channel_manager'  => 'Gestion des Canaux',
+'channel_manager'	=> 'Canaux',
 
-'logs'             => 'Journaux',
+'dark_theme' => 'Thème sombre',
 
-'msm_manager'      => 'Gestion des Sites',
+'dark' => 'Sombre',
 
-'nav_developer_tools'  => 'Outils Développeur',
+'entries' => 'Articles',
+
+'jump_menu_input' => 'Aller Vers...',
+
+'jump_menu_item' => 'Menu Aller Vers',
+
+'light_theme' => 'Thème clair',
+
+'light' => 'Clair',
+
+'logs'	=> 'Journaux',
+
+'menu_entries' => 'Articles',
+
+'menu_manager' => 'Gestionnaire de menu',
+
+'msm_manager'	=> 'Sites',
+
+'nav_content' => 'Contenu',
+
+'nav_design' => 'Design',
+
+'nav_developer_tools'	=> 'Outils Développeur',
 
 'nav_developer'	=>	'Développeur',
 
-'template_manager' => 'Gestion des Modèles',
+'nav_tools' => 'Outils',
 
-'utilities'        => 'Utilitaires',
+'template_manager' => 'Modèles',
+
+'utilities'	=> 'Utilitaires',
+
 
 //----------------------------
 // Control Panel
@@ -32,6 +57,8 @@ $lang = array(
 'action_can_not_be_undone' => 'CETTE ACTION NE PEUT ÊTRE ANNULÉE',
 
 'add_new' => 'Ajouter Nouveau',
+
+'addon_missing_jump_method' => 'Add-on qui ne possède pas la méthode "Menu Aller Vers" demandée.',
 
 'addons' => 'Add-Ons',
 
@@ -89,7 +116,7 @@ $lang = array(
 
 'invalid_license' => 'LICENCE INVALIDE',
 
-'keyword_filter' => 'mots-clefs, appuyez sur la touche Entrée',
+'keyword_filter' => 'Rechercher',
 
 'keyword_search' => 'Recherche de mots-clefs',
 
@@ -100,6 +127,8 @@ $lang = array(
 'logged_back_in' => 'Vous êtes maintenant reconnecté !',
 
 'logout' => 'Déconnexion',
+
+'machines_only_request' => 'Vous ne devriez pas être ici. Ce terrain est réservé pour les robots et les machines.',
 
 'main_menu' => 'Accueil',
 
@@ -113,6 +142,8 @@ $lang = array(
 
 'nav_settings' => 'Paramètres',
 
+'navigation_toggle' => 'Basculer la navigation',
+
 'new_tab' => 'Nouvel onglet',
 
 'new_version_available' => 'ExpressionEngine Version %s est maintenant disponible',
@@ -122,6 +153,8 @@ $lang = array(
 'notepad' => 'Bloc note',
 
 'page_rendered' => 'Script exécuté en %x secondes',
+
+'password_for' => 'Mot de passe pour %s',
 
 'password_label' => 'Mot de Passe :',
 
@@ -187,7 +220,7 @@ $lang = array(
 
 'version_update_available' => 'Une nouvelle version d\'ExpressionEngine est disponible',
 
-'version_update_inst' => "ExpressionEngine %s est disponible. <a href='#' data-post-url='%s'>Cliquer ici pour mettre à jour</a> ou suivez les the <a href='%s' rel='external'>instructions de mise à jour manuelle</a>.",
+'version_update_inst' => 'ExpressionEngine %s est disponible. <a href="#" data-post-url="%s">Cliquer ici pour mettre à jour</a> ou suivez les <a href="%s" rel="external">instructions de mise à jour manuelle</a>.',
 
 //----------------------------
 // Buttons
@@ -269,6 +302,8 @@ $lang = array(
 
 'channel' => 'Canal',
 
+'columns_filter' => 'Colonnes',
+
 'create_and_edit' => 'Créer et modifier',
 
 'create' => 'Créer',
@@ -277,6 +312,8 @@ $lang = array(
 
 'date_added' => 'Date ajoutée',
 
+'date_filter' => 'Date',
+
 'edit' => 'Modifier',
 
 'ee_wiki' => 'Wiki EE',
@@ -284,6 +321,8 @@ $lang = array(
 'entry' => 'Article',
 
 'export' => 'Export',
+
+'group_filter' => 'groupe',
 
 'important' => 'Important !',
 
@@ -303,25 +342,25 @@ $lang = array(
 
 'page' => 'Page',
 
+'perpage_filter' => 'afficher',
+
 'recent_comments' => 'Commentaires récents',
 
 'recent_entries' => 'Articles récents',
 
+'recent_members' => 'Membres récents',
+
 'results' => 'résultats',
-
-'select_all' => 'Tout sélectionner',
-
-'search_in' => 'Rechercher dans',
 
 'search_in_filter' => 'rechercher dans',
 
-'perpage_filter' => 'afficher',
+'search_in' => 'Rechercher dans',
 
-'date_filter' => 'date',
+'search_titles_only' => 'Rechercher seulement dans les titres',
 
-'group_filter' => 'groupe',
+'select_all' => 'Tout sélectionner',
 
-'type_filter' => 'type',
+'select_row' => 'Sélectionner la ligne',
 
 'show' => 'Afficher',
 
@@ -339,11 +378,21 @@ $lang = array(
 
 'total_entries' => 'nombre total d\'articles',
 
+'type_filter' => 'type',
+
 'type_phrase' => 'termes à rechercher...',
 
 'user_guide' =>	'Guide utilisateur',
 
+'view_as' => 'Voir comme ',
+
 'view' => 'Voir',
+
+'viewtype_hybrid' => 'Hybride',
+
+'viewtype_list' => 'Liste',
+
+'viewtype_thumb' => 'Miniatures',
 
 'will_be_logged' => 'Cette action sera journalisée',
 
@@ -352,6 +401,8 @@ $lang = array(
 //----------------------------
 // Sites and Channels
 //----------------------------
+
+'add_site' => 'Ajouter un site',
 
 'avatar_path' => 'Chemin des avatars',
 
@@ -446,7 +497,7 @@ $lang = array(
 
 // Common
 
-'alphadash_desc' => '<i>Aucun espace. Les soulignés (underscore) et les tirets sont autorisés.</i>',
+'alphadash_desc' => 'Aucun espace. Les soulignés (underscore) et les tirets sont autorisés.',
 
 'auto_br' => 'Saut de ligne auto',
 
@@ -526,6 +577,8 @@ $lang = array(
 
 'no_found' => 'Aucun <b>%s</b> trouvé',
 
+'no_roles_with_design_access_found' => 'Aucun <b>Rôle</b> avec <b>accès au gestionnaire de modèles</b> n\a été trouvé.',
+
 'no_rows_returned' => 'Aucune ligne de données',
 
 'none' => 'Aucun',
@@ -544,11 +597,15 @@ $lang = array(
 
 'revisions' => 'Versions',
 
+'search_results' => 'Résultats de recherche',
+
 'search_results_heading' => 'Résultats de recherche<br><i>nous avons trouvé %d résultat(s) pour "%s"</i>',
 
 'settings_save_error_desc' => 'Nous n\'avons pas pu enregistrer vos paramètres, merci de vérifier et corriger les errreurs ci-dessous.',
 
 'settings_save_error' => 'ATTENTION : paramètres non enregistrés',
+
+'short_name' => 'Nom court',
 
 'success' => 'Succès',
 
@@ -566,9 +623,21 @@ $lang = array(
 
 'xhtml' => 'XHTML',
 
-/**
- * Footer
- */
+/* Members Menu */
+
+'all_members' => 'Tous les membres',
+
+'ban_management' => 'Gestion du banissement',
+
+'custom_member_fields' => 'Champs de membres',
+
+'new_member' => 'Nouveau membre',
+
+'pending_members' => 'Membres en attente',
+
+'roles' => 'Rôles',
+
+/* Footer */
 'about_expressionengine' => 'A propos d\'ExpressionEngine',
 
 'authenticating' => 'authentification...',
@@ -585,7 +654,7 @@ $lang = array(
 
 'login' => 'Connexion',
 
-'new_ticket' => 'Nouveau ticket',
+'new_ticket' => 'Obtenez de l\'aide',
 
 'not_entered' => 'non renseignée',
 
@@ -617,17 +686,19 @@ $lang = array(
 
 'version' => 'Version',
 
+'whats_new' => 'Quoi de neuf ?',
+
 //----------------------------
-// confirm removal modal
+// confirm delete modal
 //----------------------------
 
-'confirm_removal' => 'Confirmer la suppression',
+'confirm_delete' => 'Confirmer la suppression',
 
-'confirm_removal_desc' => 'Vous essayer de supprimer les éléments suivants, merci de confirmer cette action.',
+'confirm_deletion_desc' => 'Vous essayer de supprimer les éléments suivants :',
 
-'btn_confirm_and_remove' => 'Confirmer et Supprimer',
+'btn_confirm_and_delete' => 'Confirmer et Supprimer',
 
-'btn_confirm_and_remove_working' => 'Suppression...',
+'btn_confirm_and_delete_working' => 'Suppression...',
 
 'btn_confirm_and_save' => 'Confirmer et Enregistrer',
 
@@ -671,6 +742,55 @@ $lang = array(
 'html_button_ajax_reorder_fail' => 'Attention : impossible d\'enregistrer l\'ordre des boutons html',
 
 'html_button_ajax_reorder_fail_desc' => 'Nous n\'avons pas réussi à enregistrer le nouvel ordre des boutons html. Rafraîchissez la page et assurez-vous d\'être connecté.',
+
+/* Search Reindex tip */
+
+'search_reindex_tip' => 'Réindexation de la recherche',
+
+'search_reindex_tip_desc' => 'Merci de <a href="%s">lancer l\'outil de réindexation</a> pour conserver vos données recherchables à jour.',
+
+'reindex_not_needed' => 'Réindexation non nécessaire',
+
+'reindex_not_needed_desc' => 'Votre index de recherche est à jour !',
+
+'reindex_explained_desc' => 'L\'index de recherche peut devenir obsolète si vous avez récemment changé le paramètre comme quoi certains champs sont recherchables ou non.<br>Merci de consulter le <a href="' . DOC_URL . '/cp/utilities/reindex.html">guide utilisateur</a> pour plus de détails.',
+
+/* Permissions */
+
+'can_create_templates' => 'Créer des modèles',
+
+'can_edit_templates' => 'Modifier les modèles',
+
+'can_delete_templates' => 'Supprimer des modèles',
+
+'can_manage_settings' => 'Gérer les paramètres et les accès',
+
+'can_create_entries' => 'Créer des articles',
+
+'can_edit_self_entries' => 'Modifier ses propres articles',
+
+'can_delete_self_entries' => 'Supprimer ses propres articles',
+
+'can_edit_other_entries' => 'Modifier les articles des autres',
+
+'can_delete_all_entries' => 'Supprimer des articles des autres',
+
+'can_assign_post_authors' => 'Modifier l\'auteur de l\'article',
+
+/* Dashboard Widgets */
+
+'dashboard' => 'Dashboard',
+
+'save_dashboard_layout' => 'Enregistrer la disposition',
+
+'edit_dashboard_layout' => 'Modifier la disposition',
+
+'dashboard_layout_saved' => 'Disposition enregistrée',
+
+'dashboard_layout_save_error' => 'Impossible d\'enregistrer la disposition',
+
+'dashboard_needs_some_widgets' => 'Merci d\'activer au moins un widget',
+
 
 );
 

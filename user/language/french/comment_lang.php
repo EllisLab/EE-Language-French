@@ -10,7 +10,7 @@ $lang = array(
 
 'any_date' => 'Plage de dates personnalisée',
 
-'blacklist' => 'Ajouter les adresses IP à la liste noire',
+'block_ips' => 'Ajouter les adresses IP à la liste bloquée',
 
 'choose_entry_for_comment_move' => 'Choisissez l\'article pour le déplacement de commentaire',
 
@@ -49,10 +49,6 @@ $lang = array(
 'comments' => 'Commentaires',
 
 'date_range' => 'Plage de dates',
-
-'delete_comment_confirm' => 'Êtes-vous sûr de vouloir supprimer ce commentaire définitivement ?',
-
-'delete_comments_confirm' => 'Êtes-vous sûr de vouloir supprimer ces commentaires définitivement ?',
 
 'delete_confirm' => 'Confirmation de suppression de commentaire',
 

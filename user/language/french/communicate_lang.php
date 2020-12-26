@@ -137,8 +137,6 @@ $lang = array(
 
 'total_sent'			=> 'Nombre total envoyé',
 
-'view_email_cache'		=> 'Voir les email précédemment envoyés',
-
 'view'					=> 'Voir',
 
 'wordwrap'				=> 'Césure de mot',

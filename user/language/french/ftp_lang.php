@@ -5,7 +5,7 @@ $lang = array(
 
 'ftp_unable_to_connect' => "Impossible de se connecter à votre serveur FTP en utilisant le nom d'hôte que vous avez fourni.",
 
-'ftp_unable_to_login' => "Impossible de se connecter à votre serveur FTP. Merci de vérifier votre nom d'utilisateur et votre mot de passe.",
+'ftp_unable_to_login' => "Impossible de se connecter à votre serveur FTP. Merci de vérifier votre identifiant et votre mot de passe.",
 
 'ftp_unable_to_makdir' => "Impossible de créer le répertoire que vous avez indiqué.",
 

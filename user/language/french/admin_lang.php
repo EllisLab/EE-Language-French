@@ -44,8 +44,6 @@ $lang = array(
 
 'search_preferences' => 'Préférences de recherche',
 
-'search_results' => 'Résultats de la recherche',
-
 'search' => 'Rechercher',
 
 'specialty_templates_blurb' => 'Ces modèles sont destinés à un usage spécifique comme l\'affichage des messages d\'erreurs et les notifications emails.',
@@ -105,7 +103,7 @@ $lang = array(
 
 'extension' => 'Extension',
 
-'extensions_disabled_manage' => "Les extensions doivent être <a href='%s'>activées</a> pour gérer les extensions installées.",
+'extensions_disabled_manage' => 'Les extensions doivent être <a href="%s">activées</a> pour gérer les extensions installées.',
 
 'manage_extension' => 'Gérer',
 
@@ -146,8 +144,6 @@ $lang = array(
 'advanced_users_only' => 'Utilisateurs avancés uniquement',
 
 'all_caching' => 'Tous les fichiers cache',
-
-'allow_avatar_uploads' => 'Autoriser les membres à télécharger leurs propres avatars ?',
 
 'allow_member_loc_notes' => 'Lorsque défini sur "non" toutes les dates et heures seront réglées sur les valeurs par défaut du site.',
 
@@ -202,8 +198,6 @@ $lang = array(
 'batch_size_explanation' => 'Pour un serveur moyen, 300 est une valeur sûre',
 
 'batchmode_explanation' => 'Le traitement par lots divise les envois de masse en petits groupes et les envoie à intervalles réguliers. Ceci est recommandé si votre site est hébergé sur des infrastructures partagées',
-
-'blacklist_all_ips' => 'Mettre toutes les IP en liste noire',
 
 'browse' => 'Parcourir',
 
@@ -305,7 +299,7 @@ $lang = array(
 
 'default_html_buttons' => 'Boutons HTML par défaut',
 
-'default_member_group' => 'Groupe de membres affecté par défaut aux nouveaux membres',
+'default_primary_role' => 'Groupe de membres affecté par défaut aux nouveaux membres',
 
 'deft_lang' => 'Langue par défaut',
 
@@ -355,15 +349,13 @@ $lang = array(
 
 'empty_stmp_fields' => 'Le champ %s est obligatoire pour SMTP.',
 
-'enable_avatars' => 'Activer les avatars ?',
-
 'enable_censoring' => 'Activer la censure de mots ?',
 
 'enable_emoticons' => 'Afficher les émoticônes ?',
 
 'enable_entry_view_tracking' => 'Activer le suivi des vues d\'articles ?',
 
-'enable_hit_tracking' => 'Activer le suivi des modèles ?',
+'enable_hit_tracking' => 'Activer le compteur de vues ?',
 
 'enable_online_user_tracking' => 'Activer le suivi des utilisateurs en ligne ?',
 

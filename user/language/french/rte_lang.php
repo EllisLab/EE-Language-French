@@ -2,6 +2,45 @@
 
 $lang = array(
 
+
+// Settings
+'rte_file_browser' => 'Navigateur de fichiers',
+'rte_file_browser_desc' => 'Quel navigateur de fichiers doit être utilisé quand vous recherchez des images et des fichiers à partir de vos champs RTE ?',
+
+// Configs
+'rte_clone' => 'Cloner',
+'rte_no_configs' => 'Il n\'y a actuellement aucune configuration.',
+
+// Edit Config
+'rte_basic_settings' => 'Paramètres de base',
+'rte_create_config' => 'Créer une nouvelle configuration',
+'rte_edit_config' => 'Modifier la configuration',
+'rte_config_settings' => 'Paramètres de configuration',
+'rte_config_name' => 'Nom de la configuration',
+'rte_toolbar' => 'Personnaliser la barre d\'outils',
+'rte_height' => 'Hauteur',
+'rte_upload_dir' => 'Répertoire de téléchargement',
+'rte_advanced_settings' => 'Paramètres avancés',
+'rte_config_saved' => 'Configuration enregistrée !',
+'rte_config_saved_desc' => 'Votre configuration a été enregistrée avec succès.',
+
+// Delete Config
+'rte_delete_config' => 'Supprimer la configuration',
+'rte_delete_config_confirm' => 'Êtes-vous sûr de vouloir supprimer définitivement cette configuration ?',
+'rte_config_deleted' => 'Configuration supprimée !',
+'rte_config_deleted_desc' => 'Votre configuration a été supprimée avec succès.',
+
+// -------------------------------------------
+//  Field Settings
+// -------------------------------------------
+
+'rte_editor_config' => 'Configuration de l\'éditeur',
+'rte_edit_configs' => 'Modifier&nbsp;Configurations',
+'rte_defer' => 'Différer l\'initialisation de CKEditor ?',
+'rte_defer_desc' => 'Si vous sélectionnez "Oui", RTE n\'initialisera CKEditor que lorsque le champ sera cliqué.',
+
+
+// RTE
 'available_tool_sets' => 'Jeux d\'outils disponibles',
 
 'btn_save_settings' => 'Enregistrer les paramètres',
@@ -22,7 +61,7 @@ $lang = array(
 
 'no_tool_sets' => 'Aucun <b>jeux d\'outils</b> trouvé',
 
-'rte_module_description' => 'Active le mode d\'édition en texte enrichi dans les zones de texte',
+'rte_module_description' => '',
 
 'rte_module_name' => 'Éditeur de texte enrichi',
 
@@ -58,27 +97,11 @@ $lang = array(
 
 'delete' => 'Supprimer',
 
-'disable_button' => 'Désactiver',
-
-'disable_rte' => 'Désactiver l\'éditeur de texte enrichi',
-
-'disabled' => 'Désactivé',
-
-'enable_button' => 'Activer',
-
-'enable_rte_desc' => 'Si activé, les utilisateurs enregistrées pourront utiliser l\'éditeur de texte enrichi pour créer de nouveaux contenus.',
-
-'enable_rte' => 'Activer l\'éditeur de texte enrichi',
-
-'enabled' => 'Activé',
-
 'tool' => 'Outil',
 
 'toolset' => 'Jeu d\'outils',
 
 // Flashes
-'cannot_disable_default_toolset' => 'Le jeu d\'outils RTE par défaut ne peut pas être désactivé',
-
 'cannot_remove_default_toolset' => 'Le jeu d\'outils RTE par défaut ne peut pas être supprimé',
 
 'disable_fail_desc' => 'Les jeux d\'outils suivants <b>n\'ont pas pu</b> être désactivés',
@@ -103,8 +126,6 @@ $lang = array(
 
 'settings_saved' => 'Paramètres enregistrés',
 
-'tool_update_failed' => 'La mise à jour de l\'outil a échouée. Merci de ré-essayer.',
-
 'tool_updated' => 'Outil mis à jour',
 
 'toolset_created_desc' => '<b>%s</b> a(ont) été créé(s) avec succès.',
@@ -123,13 +144,9 @@ $lang = array(
 
 'toolset_update_failed' => 'La mise à jour du jeu d\'outils a échouée. Merci de ré-essayer.',
 
-'toolset_updated' => 'Jeu d\'outils mis à jour',
+'toolset_updated_desc' => '<b>%s</b> a été mis à jour avec succès.',
 
 'toolset_updated' => 'Jeu d\'outils mis à jour',
-
-'toolsets_disabled' => '%d jeu(x) d\'outils a(ont) été désactivé(s).',
-
-'toolsets_enabled' => '%d jeu(x) d\'outils a(ont) été activé(s).',
 
 'toolsets_removed_desc' => '%d jeu(x) d\'outils ont été supprimé(s).',
 
@@ -176,139 +193,66 @@ $lang = array(
 
 'toolset_name' => 'Nom du jeu d\'outils',
 
-// Tool names (based on class name)
-'blockquote_rte_desc' 		=> 'utilise <blockquote>',
+// Tool names
+'alignment:center_rte' => 'Centrer',
 
-'blockquote_rte' 	=> 'Citer',
+'alignment:justify_rte' => 'Justifier',
 
-'bold_rte_desc' 			=> 'utilise <b>',
+'alignment:left_rte' => 'Aligner à gauche',
+
+'alignment:right_rte' => 'Aligner à droite',
+
+'blockquote_rte' => 'Citation',
 
 'bold_rte' 			=> 'Gras',
 
-'headings_rte_desc' 		=> 'utilise <h*>',
+'bulletedList_rte' => 'Liste à puces',
 
-'headings_rte' 		=> 'Titrage',
+'code_rte' => 'Code',
 
-'image_rte_desc' 			=> 'utilise <img>',
+'filemanager_rte' => 'Image',
 
-'image_rte' 		=> 'Image',
+'fontBackgroundColor_rte' => 'Fond de police',
 
-'italic_rte_desc' 			=> 'utilise <i>',
+'fontColor_rte' => 'Couleur de police',
+
+'heading_rte' => 'En-tête',
+
+'horizontalLine_rte' => 'Ligne horizontale',
+
+'indent_rte' => 'Augmenter l\'indentation',
+
+'insertTable_rte' => 'Table',
 
 'italic_rte' 		=> 'Italique',
 
-'link_rte_desc' 			=> 'utilise <a href="">',
+'link_rte' => 'Lien',
 
-'link_rte' 			=> 'Lien',
+'mediaEmbed_rte' => 'Media',
 
-'ordered_list_rte_desc' 	=> 'utilise <ol>',
+'numberedList_rte' => 'Liste ordonnée',
 
-'ordered_list_rte' 	=> 'Liste ordonnée',
+'open_in_new_tab' => 'Ouvrir dans un nouvel onglet',
 
-'preferences_rte' 	=> 'Préférences',
+'outdent_rte' => 'Diminuer l\'indentation',
 
-'strip_tags_rte' 	=> 'Effacer le formatage',
+'readMore_rte' => 'Séparateur "Lire la suite"',
 
-'underline_rte_desc' 		=> 'utilise <u>',
+'redo_rte' => 'Refaire',
 
-'underline_rte' 	=> 'Souligner',
+'removeFormat_rte' => 'Supprimer le formattage',
 
-'unordered_list_rte_desc'	=> 'utilise <ul>',
+'specialCharacters_rte' => 'Caractères spéciaux',
 
-'unordered_list_rte'=> 'Liste à puces',
+'strikethrough_rte' => 'Barré',
 
-'view_source_rte_desc' 		=> 'permet aux auteurs de visualiser le code',
+'subscript_rte' => 'Indice',
 
-'view_source_rte' 	=> 'Voir le code',
+'superscript_rte' => 'Exposant',
 
-// Tool misc
-'make_bold' => 'Gras',
+'underline_rte' 	=> 'Souligné',
 
-'remove_bold' => 'Non gras',
-
-'title_bold' => 'met en gras',
-
-'make_italics' => 'Mettre en italique',
-
-'remove_italics' => 'Supprimer l\'italique',
-
-'title_italics' => 'met en italique',
-
-'make_underline' => 'Souligner',
-
-'remove_underline' => 'Supprimer le souligné',
-
-'title_underline' => 'souligne',
-
-'make_ul' => 'Liste à puces',
-
-'remove_ul' => 'Supprimer la liste à puces',
-
-'title_ul' => 'crée une liste à puces',
-
-'make_ol' => 'Liste ordonnée',
-
-'remove_ol' => 'Supprimer la liste ordonnée',
-
-'title_ol' => 'crée une liste ordonnée',
-
-'make_blockquote' => 'Citer',
-
-'remove_blockquote' => 'Supprimer la citation',
-
-'title_blockquote' => 'crée une citation',
-
-'link' => 'Lien',
-
-'add_link' => 'Ajouter un lien',
-
-'update_link' => 'Mettre à jour le lien',
-
-'remove_link' => 'Supprimer le lien',
-
-'external_link' => 'Lien externe',
-
-'title_link' => 'crée un hyperlien',
-
-'view_code' => 'Voir le code',
-
-'view_content' => 'Voir le contenu',
-
-'title_view' => 'voir le code',
-
-'strip_tags' => 'Effacer le formatage',
-
-'paragraph' => 'paragraphe',
-
-'heading_1' => 'titre 1',
-
-'heading_2' => 'titre 2',
-
-'heading_3' => 'titre 3',
-
-'heading_4' => 'titre 4',
-
-'heading_5' => 'titre 5',
-
-'heading_6' => 'titre 6',
-
-'img_add' => 'Image',
-
-'img_remove' => 'Supprimer l\'image',
-
-'img_align_left' => 'Aligner l\'image à Gauche',
-
-'img_align_center' => 'Centrer l\'image',
-
-'img_align_right' => 'Aligner l\'image à Droite',
-
-'img_wrap_left' => 'Ajuster l\'image à Gauche du texte',
-
-'img_wrap_none' => 'Séparer l\'image du texte',
-
-'img_wrap_right' => 'Ajuster l\'image à Droite du texte',
-
-'img_title' => 'télécharger un fichier', // is original string "upload file" OK in context?
+'undo_rte' => 'Annuler',
 
 );
 

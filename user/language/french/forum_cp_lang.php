@@ -152,7 +152,7 @@ $lang = array(
 
 'upload_directory' => 'Répertoire de téléchargement',
 
-'upload_directory_desc' => 'Chemin serveur complet de ce répertoire de <mark>téléchargement</mark>.',
+'upload_directory_desc' => 'Chemin serveur complet de ce répertoire de <code>téléchargement</code>.',
 
 'allowed_file_types' => 'Types de fichier autorisés ?',
 
@@ -226,11 +226,11 @@ $lang = array(
 
 'topic_notification' => 'Notifications de sujet',
 
-'topic_notification_desc' => 'Tous les destinataires listés recevront une notification par email à chaque fois qu\'un <b>nouveau</b> sujet sera publié.</em><em>Séparez les adresses multiples avec une <mark>virgule (,)</mark>.',
+'topic_notification_desc' => 'Tous les destinataires listés recevront une notification par email à chaque fois qu\'un <b>nouveau</b> sujet sera publié.</em><em>Séparez les adresses multiples avec une <code>virgule (,)</code>.',
 
 'reply_notification' => 'Notifications de réponse',
 
-'reply_notification_desc' => 'Tous les destinataires listés recevront une notification par email à chaque fois qu\'une <b>nouvelle</b> réponse sera publiée.</em><em>Séparez les adresses multiples avec une <mark>virgule (,)</mark>.',
+'reply_notification_desc' => 'Tous les destinataires listés recevront une notification par email à chaque fois qu\'une <b>nouvelle</b> réponse sera publiée.</em><em>Séparez les adresses multiples avec une <code>virgule (,)</code>.',
 
 'text_and_html_formatting' => 'Formatage Texte et HTML',
 

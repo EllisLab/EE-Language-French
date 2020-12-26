@@ -15,6 +15,8 @@ $lang = array(
 
 'closed_entries_with_comments' => '<b>%d</b> articles fermés avec %d commentaires',
 
+'commented_on' => 'a commenté',
+
 'comments' => 'Commentaires',
 
 'content_desc' => 'Articles de canal, raison pour laquelle vous avez des visiteurs.',
@@ -23,13 +25,13 @@ $lang = array(
 
 'create_new' => 'Créer',
 
-'eecms_news' => 'Nouvelles d\'ExpressionEngine',
+'eecms_news' => 'Actualités sur ExpressionEngine',
 
 'entries_with_comments' => '<b>%d</b> articles avec %d commentaires',
 
 'field_groups' => 'Groupes de champs',
 
-'flagged_as_spam' => 'marqué(s) comme Spam potentiel',
+'flagged_as_spam' => 'marqué(s) comme Spam',
 
 'has' => 'a ',
 
@@ -37,15 +39,15 @@ $lang = array(
 
 'latest_news_and_articles' => 'Dernières nouvelles et articles',
 
-'members_desc' => 'Les membres sont des utilisateurs enregistrés de votre site. Vous <em>devez</em> avoir au moins un membre : un administrateur.',
+'members_desc' => 'Les membres sont des utilisateurs enregistrés de votre site. Vous devez avoir au moins un membre : un administrateur.',
 
 'members' => 'Membres',
 
-'new_comments' => '<em>nouveaux</em> commentaires',
+'new_comments' => 'nouveaux commentaires',
 
 'new_members_permission_desc' => 'Vous pouvez <a href="%s">modifier le paramètre</a> pour autoriser ou interdire l\'inscription de nouveaux membres.',
 
-'new_spam' => '<em>nouveaux</em> éléments dans la file d\'attente Spam',
+'new_spam' => 'nouveaux éléments dans la file d\'attente Spam',
 
 'news_fetch_failure' => 'Oups, nous n\'avons pas pu récupérer les dernières nouvelles.',
 
