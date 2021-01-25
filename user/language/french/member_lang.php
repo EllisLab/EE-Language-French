@@ -40,7 +40,7 @@ $lang = array(
 
 'invalid_screen_name' => 'Pseudo invalide',
 
-'legacy_member_templates_not_enabled' => 'Cette page n\'est pas accessible car les <a href="'.DOC_URL.'member/profile-templates.html" target="_blank" rel="external">modèles historiques de membres</a> ne sont pas activés.',
+'legacy_member_templates_not_enabled' => 'Cette page n\'est pas accessible car les <a href="' . DOC_URL . 'member/profile-templates.html" target="_blank" rel="external">modèles historiques de membres</a> ne sont pas activés.',
 
 'mbr_account_deleted' => 'Votre compte et tout le contenu associé a été supprimé.',
 

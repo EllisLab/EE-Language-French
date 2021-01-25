@@ -192,7 +192,7 @@ $lang = array(
 
 'email_taken' => 'L\'email que vous avez choisi n\'est pas disponible',
 
-'email_too_long' => 'Votre adresse email ne peut pas excéder '.USERNAME_MAX_LENGTH.' caractères',
+'email_too_long' => 'Votre adresse email ne peut pas excéder ' . USERNAME_MAX_LENGTH . ' caractères',
 
 'email_username' => 'Envoyer un email à %s',
 
@@ -382,7 +382,7 @@ $lang = array(
 
 'password_in_dictionary' => 'Vous n\'êtes pas autorisé à utiliser un mot du dictionnaire comme mot de passe',
 
-'password_too_long' => 'Votre mot de passe ne peut pas excéder '.PASSWORD_MAX_LENGTH.' caractères',
+'password_too_long' => 'Votre mot de passe ne peut pas excéder ' . PASSWORD_MAX_LENGTH . ' caractères',
 
 'password_too_short' => 'Le mot de passe que vous avez saisi doit faire au moins %d caractères de long',
 
@@ -442,7 +442,7 @@ $lang = array(
 
 'screen_name' => 'Pseudo',
 
-'screenname_too_long' => 'Votre pseudo ne peut pas excéder '.USERNAME_MAX_LENGTH.' caractères',
+'screenname_too_long' => 'Votre pseudo ne peut pas excéder ' . USERNAME_MAX_LENGTH . ' caractères',
 
 'search_subscriptions' => 'Rechercher des abonnements',
 
@@ -534,7 +534,7 @@ $lang = array(
 
 'username_taken' => 'L\'identifiant que vous avez choisi n\'est pas disponible',
 
-'username_too_long' => 'Votre identifiant ne peut pas excéder '.USERNAME_MAX_LENGTH.' caractères',
+'username_too_long' => 'Votre identifiant ne peut pas excéder ' . USERNAME_MAX_LENGTH . ' caractères',
 
 'username_too_short' => 'L\'identifiant que vous avez saisi doit faire au moins %d caractères de long',
 

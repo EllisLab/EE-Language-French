@@ -37,8 +37,6 @@ $lang = array(
 
 'pages_settings' => 'Paramètres des pages',
 
-'relationship_module_name' => 'Relations',
-
 'security_privacy' => 'Securité & vie privée',
 
 'settings' => 'Paramètres',
@@ -724,7 +722,7 @@ $lang = array(
 
 'require_cookie_consent' => 'Exiger le consentement de l\'utilisateur pour définir des cookies ?',
 
-'require_cookie_consent_desc' => 'Si activé, les cookies ne seront pas définis pour le visiteur (exceptés ceux <b>strictement nécessaires</b> au fonctionnement du site web) tant qu\'ils n\'aura pas accepté la politique de cookies de votre site. Consultez la <a href="'.DOC_URL.'add-ons/consent.html">documentation du module de consentement</a> pour plus de détails.',
+'require_cookie_consent_desc' => 'Si activé, les cookies ne seront pas définis pour le visiteur (exceptés ceux <b>strictement nécessaires</b> au fonctionnement du site web) tant qu\'ils n\'aura pas accepté la politique de cookies de votre site. Consultez la <a href="' . DOC_URL . 'add-ons/consent.html">documentation du module de consentement</a> pour plus de détails.',
 
 'require_ip_for_login_desc' => 'Si activé, les membres ne pourront pas se connecter si leur navigateur n\'envoie pas l\'adresse <abbr title="Internet Protocol">IP</abbr> et un User Agent valide.',
 

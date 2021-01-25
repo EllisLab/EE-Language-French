@@ -106,7 +106,7 @@ $lang = array(
 
 /* CP Translation */
 
-'cannot_access'			=>	'Les fichiers de langue ne peuvent pas être retrouvés. Merci de <a href="'.DOC_URL.'/control-panel/utilities.html#language-files" rel="external">consulter la documentation</a> pour placer les fichiers dans le bon dossier.',
+'cannot_access'			=>	'Les fichiers de langue ne peuvent pas être retrouvés. Merci de <a href="' . DOC_URL . '/control-panel/utilities.html#language-files" rel="external">consulter la documentation</a> pour placer les fichiers dans le bon dossier.',
 'cannot_create_zip'		=>	'Impossible de créer un fichier .zip',
 'export_download'		=>	'Exportation (Téléchargement)',
 'file_name'				=>	'Nom du fichier',
@@ -115,7 +115,7 @@ $lang = array(
 'language_files'		=>	': fichiers de langue',
 'no_files_selected'		=>	'Aucun fichier sélectionné pour l\'exportation',
 'search_files_button'	=>	'Rechercher des fichiers',
-'trans_file_not_writable'=> 'Le fichier de traduction n\'est pas inscriptible.',
+'trans_file_not_writable' => 'Le fichier de traduction n\'est pas inscriptible.',
 'translate_btn' 		=>	'Enregistrer les traductions',
 'translate_error_desc'	=> 'Nous n\'avons pas pu enregistrer la traduction, merci de vérifier et corriger les erreurs ci-dessous.',
 'translate_error'		=> 'Attention : traduction non enregistrée',
@@ -303,7 +303,6 @@ $lang = array(
 'uptime' => 'Temps de disponibilité',
 
 /* Database Backup Utility */
-
 'backing_up' => 'Sauvegarde...',
 
 'backup_database' => 'Sauvegarder la base de données',
@@ -312,9 +311,9 @@ $lang = array(
 
 'backup_out_of_memory' => 'Le serveur est tombé en saturation mémoire lors de la tentative d\'export de votre base de données. Essayez de paramétrer <a href="%s" rel="external noreferrer"><code>db_backup_row_limit</code></a> à une valeur inférieure.',
 
-'backup_success' => 'Sauvegarde réussie',
-
 'backup_success_desc' => 'Votre sauvegarde a été enregistrée dans votre dossier Système à : <b>%s</b>',
+
+'backup_success' => 'Sauvegarde réussie',
 
 'backup_tables' => 'Tables sauvegardées',
 
@@ -325,97 +324,103 @@ $lang = array(
 'table_count' => '<b>%s</b> tables',
 
 /* Search Reindex */
+'all_sites_desc' => 'Reindexer les articles de canal à travers tous les sites ou juste pour celui-ci ?',
+
+'all_sites' => 'Reindexer tous les sites ?',
+
+'btn_reindex_working' => 'Reindexation',
+
+'btn_reindex' => 'Reindexer',
+
+'reindex_success_desc' => '',
+
+'reindex_success' => 'Réindexation terminée',
+
+'search_reindex_desc' => '%s articles de canal vont être réindéxés',
 
 'search_reindex_fail' => 'La réindexation a échoué',
 
 'search_reindex' => 'Réindexation de la recherche',
 
-'search_reindex_desc' => '%s articles de canal vont être réindéxés',
-
-'reindex_success' => 'Réindexation terminée',
-
-'reindex_success_desc' => '',
-
-'btn_reindex' => 'Reindexer',
-
-'btn_reindex_working' => 'Reindexation',
-
-'all_sites' => 'Reindexer tous les sites ?',
-
-'all_sites_desc' => 'Reindexer les articles de canal à travers tous les sites ou juste pour celui-ci ?',
+'search_reindexed_completed' => 'Réindexation de recherche terminée. %s articles ont été réindéxés.',
 
 'search_reindexed_started' => 'Réindexation de recherche démarrée.',
 
-'search_reindexed_completed' => 'Réindexation de recherche terminée. %s articles ont été réindéxés.',
-
 /* Export Email Addresses */
-'mass_notification_export' => 'Export en masse',
-
-'export_email_addresses_title' => 'Exporter un fichier <abbr title="Comma Separated Values">CSV</abbr>',
-
-'export_email_addresses_desc' => 'Exporter les noms et adresses email de vos %s membres.',
-
-'export_warning_desc' => 'Cette action ne devrait être réalisée que par des utilisateurs habilités. Le fichier <abbr title="Comma Separated Values">CSV</abbr> obtenu devrait être traité en accord avec votre politique de traitement des données personnelles.',
+'download_invalid_email_addresses' => 'Télécharger les emails invalides',
 
 'download_valid_email_addresses' => 'Télécharger les emails valides',
 
-'download_invalid_email_addresses' => 'Télécharger les emails invalides',
-
-'exported_valid_email_addresses' => 'Les adresses email valides des membres ont été exportées',
-
-'exported_invalid_email_addresses' => 'Les adresses email invalides des membres ont été exportées',
-
-'validate_addresses' => 'Valider les adresses emails ?',
-
-'validate_addresses_desc' => 'Vérifie si l\'email est au bon format et si le domaine existe.',
+'export_email_addresses_desc' => 'Exporter les noms et adresses email de vos %s membres.',
 
 'export_email_addresses_fail' => 'L\'export a échoué',
 
+'export_email_addresses_title' => 'Exporter un fichier <abbr title="Comma Separated Values">CSV</abbr>',
+
+'export_warning_desc' => 'Cette action ne devrait être réalisée que par des utilisateurs habilités. Le fichier <abbr title="Comma Separated Values">CSV</abbr> obtenu devrait être traité en accord avec votre politique de traitement des données personnelles.',
+
+'exported_invalid_email_addresses' => 'Les adresses email invalides des membres ont été exportées',
+
+'exported_valid_email_addresses' => 'Les adresses email valides des membres ont été exportées',
+
+'mass_notification_export' => 'Export en masse',
+
+'validate_addresses_desc' => 'Vérifie si l\'email est au bon format et si le domaine existe.',
+
+'validate_addresses' => 'Valider les adresses emails ?',
+
  /* Debug Tools */
-
-'debug_tools_overview' => 'Synthèse',
-
-'debug_tools_instruction' => '<a href="%s">Cliquer ici</a> pour naviguer vers Développeur &rarr; Utilitaires &rarr; Outils de débogage dans le panneau de contrôle pour avoir les détails et résoudre le problème.',
-
-'debug_tools_debug_tags' => 'Déboguer les balises de modèle',
-
-'debug_tools_broken_tags_found' => 'Nous avons trouvé %s balises de modèle cassées ou problématiques.',
-
-'debug_tools_corrupt_categories' => 'Catégories corrompues',
-
-'debug_tools_corrupt_categories_found' => 'Nous avons trouvé %s catégories corrompues.',
-
-'tag_inclusions' => 'Inclusions de balises',
-
-'debug_tools_fix_corrupt_categories' => 'Réparer les catégories corrompues',
-
-'debug_tools_categories_fixed' => 'Les catégories corrompues ont été réparées',
-
-'debug_tools_duplicate_layout_tabs' => 'Onglets de disposition de canaux en doublon',
-
-'debug_tools_duplicate_layout_tabs_found' => 'Nous avons trouvé %s onglets de disposition de canaux en doublon.',
-
-'debug_tools_remove_duplicate_layout_tabs' => 'Supprimer les doublons',
-
-'debug_tools_fieldtypes' => 'Déboguer les types de champ',
-
-'debug_tools_show_missing_fieldtypes' => 'Afficher les types de champ manquants',
-
-'debug_tools_found_missing_fieldtypes' => 'Nous avons trouvé %s types de champ manquants.',
-
-'debug_tools_missing_fieldtypes' => 'Types de champ manquants',
-
-'debug_tools_missing_fieldtypes_desc' => 'Les types de champ suivants sont trouvés dans la base de données, mais ne sont en fait pas installés correctement. Cela va générer des problèmes lors de la modification des canaux, des champs et des articles. Pour résoudre ceci, installez les addons manquants ou supprimez les champs de leurs tables.',
-
-'debug_tools_no_missing_fieldtypes_desc' => 'Aucun type de champ manquant n\'a été trouvé dans la base de données. Parfait !',
-
-'debug_tools_installed_unused_fieldtypes' => 'Types de champ installés mais non utilisés',
-
-'debug_tools_installed_unused_fieldtypes_desc' => 'Ces types de champ sont installés mais ne sont pas actuellement utilisés :',
+'debug_tools_addon' => 'Addon',
 
 'debug_tools_all_used_fieldtypes' => 'Tous les types de champ utilisés',
 
+'debug_tools_broken_tags_found' => 'Nous avons trouvé %s balises de modèle cassées ou problématiques.',
+
+'debug_tools_categories_fixed' => 'Les catégories corrompues ont été réparées',
+
+'debug_tools_corrupt_categories_found' => 'Nous avons trouvé %s catégories corrompues.',
+
+'debug_tools_corrupt_categories' => 'Catégories corrompues',
+
+'debug_tools_count' => 'Compteur',
+
+'debug_tools_debug_tags' => 'Déboguer les balises de modèle',
+
+'debug_tools_duplicate_layout_tabs_found' => 'Nous avons trouvé %s onglets de disposition de canaux en doublon.',
+
+'debug_tools_duplicate_layout_tabs' => 'Onglets de disposition de canaux en doublon',
+
+'debug_tools_fieldtypes' => 'Déboguer les types de champ',
+
+'debug_tools_fix_corrupt_categories' => 'Réparer les catégories corrompues',
+
+'debug_tools_found_missing_fieldtypes' => 'Nous avons trouvé %s types de champ manquants.',
+
+'debug_tools_installed' => 'Installé',
+
+'debug_tools_installed_unused_fieldtypes_desc' => 'Ces types de champ sont installés mais ne sont pas actuellement utilisés :',
+
+'debug_tools_installed_unused_fieldtypes' => 'Types de champ installés mais non utilisés',
+
+'debug_tools_instruction' => '<a href="%s">Cliquer ici</a> pour naviguer vers Développeur &rarr; Utilitaires &rarr; Outils de débogage dans le panneau de contrôle pour avoir les détails et résoudre le problème.',
+
 'debug_tools_members' => 'Déboguer les membres',
+
+'debug_tools_missing_fieldtypes_desc' => 'Les types de champ suivants sont trouvés dans la base de données, mais ne sont en fait pas installés correctement. Cela va générer des problèmes lors de la modification des canaux, des champs et des articles. Pour résoudre ceci, installez les addons manquants ou supprimez les champs de leurs tables.',
+
+'debug_tools_missing_fieldtypes' => 'Types de champ manquants',
+
+'debug_tools_no_missing_fieldtypes_desc' => 'Aucun type de champ manquant n\'a été trouvé dans la base de données. Parfait !',
+
+'debug_tools_overview' => 'Synthèse',
+
+'debug_tools_remove_duplicate_layout_tabs' => 'Supprimer les doublons',
+
+'debug_tools_show_missing_fieldtypes' => 'Afficher les types de champ manquants',
+
+'debug_tools_tag' => 'Balise',
+
+'tag_inclusions' => 'Inclusions de balises',
 
 );
 

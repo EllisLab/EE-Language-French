@@ -30,10 +30,7 @@ $lang = array(
 'rte_config_deleted' => 'Configuration supprimée !',
 'rte_config_deleted_desc' => 'Votre configuration a été supprimée avec succès.',
 
-// -------------------------------------------
 //  Field Settings
-// -------------------------------------------
-
 'rte_editor_config' => 'Configuration de l\'éditeur',
 'rte_edit_configs' => 'Modifier&nbsp;Configurations',
 'rte_defer' => 'Différer l\'initialisation de CKEditor ?',
@@ -204,7 +201,7 @@ $lang = array(
 
 'blockquote_rte' => 'Citation',
 
-'bold_rte' 			=> 'Gras',
+'bold_rte' => 'Gras',
 
 'bulletedList_rte' => 'Liste à puces',
 
@@ -218,13 +215,25 @@ $lang = array(
 
 'heading_rte' => 'En-tête',
 
+'heading_h1_rte' => 'En-tête H1',
+
+'heading_h2_rte' => 'En-tête H2',
+
+'heading_h3_rte' => 'En-tête H3',
+
+'heading_h4_rte' => 'En-tête H4',
+
+'heading_h5_rte' => 'En-tête H5',
+
+'heading_h6_rte' => 'En-tête H6',
+
 'horizontalLine_rte' => 'Ligne horizontale',
 
 'indent_rte' => 'Augmenter l\'indentation',
 
 'insertTable_rte' => 'Table',
 
-'italic_rte' 		=> 'Italique',
+'italic_rte' => 'Italique',
 
 'link_rte' => 'Lien',
 
@@ -235,6 +244,8 @@ $lang = array(
 'open_in_new_tab' => 'Ouvrir dans un nouvel onglet',
 
 'outdent_rte' => 'Diminuer l\'indentation',
+
+'paragraph_rte' => 'Paragraphe',
 
 'readMore_rte' => 'Séparateur "Lire la suite"',
 
@@ -250,7 +261,7 @@ $lang = array(
 
 'superscript_rte' => 'Exposant',
 
-'underline_rte' 	=> 'Souligné',
+'underline_rte' => 'Souligné',
 
 'undo_rte' => 'Annuler',
 

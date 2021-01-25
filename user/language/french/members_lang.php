@@ -309,7 +309,7 @@ $lang = array(
 
 'password_desc' => "Utilisez des minuscules et des majuscules, des chiffres et des symboles pour obtenir les mots de passe les plus forts.",
 
-'password_too_long' => 'Votre mot de passe ne peut pas dépasser '.PASSWORD_MAX_LENGTH.' caractères',
+'password_too_long' => 'Votre mot de passe ne peut pas dépasser ' . PASSWORD_MAX_LENGTH . ' caractères',
 
 'password_too_short' => 'Votre mot de passe doit faire au moins %d caractères de long',
 

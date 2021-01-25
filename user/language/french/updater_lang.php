@@ -84,6 +84,8 @@ Corrigez les problèmes ci-dessus et essayez ensuite d\'effectuer la mise à jou
 
 Merci de vérifier que la dernière version de ces fichiers est en place et essayez ensuite d\'effectuer la mise à jour.',
 
+'turnSystemOn_step' => 'Démarrage du système',
+
 'update_completed' => 'ExpressionEngine a été mis à jour avec succès vers la version %s !',
 
 'update_completed_desc' => 'Pour voir tout ce qui est nouveau dans ExpressionEngine %s, jetez un coup d\'oeil au <a href=\'%s\' rel=\'external\'>changelog</a>.',
