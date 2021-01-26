@@ -17,7 +17,7 @@ $lang = array(
 
 'batchmode_warning'		=> 'Ne touchez pas à votre navigateur avant que le processus ne soit complètement terminé !',
 
-'batch_size_is_zero'	=> 'Le mode batch est activé, mais la taille du batch n\'est pas correctement définie. Vérifiez vos <a href="'.DOC_URL.'/general/system_configuration_overrides.html#email-batch-size" rel="external">Email Configuration Overrides</a> dans votre fichier de config.',
+'batch_size_is_zero'	=> 'Le mode batch est activé, mais la taille du batch n\'est pas correctement définie. Vérifiez vos <a href="' . DOC_URL . '/general/system_configuration_overrides.html#email-batch-size" rel="external">Email Configuration Overrides</a> dans votre fichier de config.',
 
 'bcc'					=> 'Copie cachée à',
 

@@ -4,8 +4,7 @@
 //	Admin Notification of New Entry
 //--------------------------------------------------
 
-if ( ! function_exists('admin_notify_entry_title'))
-{
+if ( ! function_exists('admin_notify_entry_title')) {
 	function admin_notify_entry_title()
 	{
 return <<<EOF
@@ -14,8 +13,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('admin_notify_entry'))
-{
+if ( ! function_exists('admin_notify_entry')) {
 	function admin_notify_entry()
 	{
 return <<<EOF
@@ -41,8 +39,7 @@ EOF;
 //	Admin Notification of New Member Registrations
 //--------------------------------------------------
 
-if ( ! function_exists('admin_notify_reg_title'))
-{
+if ( ! function_exists('admin_notify_reg_title')) {
 	function admin_notify_reg_title()
 	{
 return <<<EOF
@@ -51,8 +48,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('admin_notify_reg'))
-{
+if ( ! function_exists('admin_notify_reg')) {
 	function admin_notify_reg()
 	{
 return <<<EOF
@@ -83,8 +79,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('admin_notify_comment'))
-{
+if ( ! function_exists('admin_notify_comment')) {
 	function admin_notify_comment()
 	{
 return <<<EOF
@@ -113,8 +108,7 @@ EOF;
 //	Membership Activation Instructions
 //--------------------------------------------------
 
-if ( ! function_exists('mbr_activation_instructions_title'))
-{
+if ( ! function_exists('mbr_activation_instructions_title')) {
 	function mbr_activation_instructions_title()
 	{
 return <<<EOF
@@ -123,8 +117,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('mbr_activation_instructions'))
-{
+if ( ! function_exists('mbr_activation_instructions')) {
 	function mbr_activation_instructions()
 	{
 return <<<EOF
@@ -149,8 +142,7 @@ EOF;
 //	Member Forgotten Password Instructions
 //--------------------------------------------------
 
-if ( ! function_exists('forgot_password_instructions_title'))
-{
+if ( ! function_exists('forgot_password_instructions_title')) {
 	function forgot_password_instructions_title()
 	{
 return <<<EOF
@@ -159,8 +151,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('forgot_password_instructions'))
-{
+if ( ! function_exists('forgot_password_instructions')) {
 	function forgot_password_instructions()
 	{
 return <<<EOF
@@ -178,8 +169,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('password_changed_notification_title'))
-{
+if ( ! function_exists('password_changed_notification_title')) {
 	function password_changed_notification_title()
 	{
 return <<<EOF
@@ -188,8 +178,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('password_changed_notification'))
-{
+if ( ! function_exists('password_changed_notification')) {
 	function password_changed_notification()
 	{
 return <<<EOF
@@ -205,8 +194,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('email_changed_notification_title'))
-{
+if ( ! function_exists('email_changed_notification_title')) {
 	function email_changed_notification_title()
 	{
 return <<<EOF
@@ -215,8 +203,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('email_changed_notification'))
-{
+if ( ! function_exists('email_changed_notification')) {
 	function email_changed_notification()
 	{
 return <<<EOF
@@ -236,8 +223,7 @@ EOF;
 //	Validated Member Notification
 //--------------------------------------------------
 
-if ( ! function_exists('validated_member_notify_title'))
-{
+if ( ! function_exists('validated_member_notify_title')) {
 	function validated_member_notify_title()
 	{
 return <<<EOF
@@ -246,8 +232,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('validated_member_notify'))
-{
+if ( ! function_exists('validated_member_notify')) {
 	function validated_member_notify()
 	{
 return <<<EOF
@@ -269,8 +254,7 @@ EOF;
 //	Decline Member Validation
 //--------------------------------------------------
 
-if ( ! function_exists('decline_member_validation_title'))
-{
+if ( ! function_exists('decline_member_validation_title')) {
 	function decline_member_validation_title()
 	{
 return <<<EOF
@@ -279,8 +263,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('decline_member_validation'))
-{
+if ( ! function_exists('decline_member_validation')) {
 	function decline_member_validation()
 	{
 return <<<EOF
@@ -299,8 +282,7 @@ EOF;
 //	Comment Notification
 //--------------------------------------------------
 
-if ( ! function_exists('comment_notification_title'))
-{
+if ( ! function_exists('comment_notification_title')) {
 	function comment_notification_title()
 	{
 return <<<EOF
@@ -309,8 +291,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('comment_notification'))
-{
+if ( ! function_exists('comment_notification')) {
 	function comment_notification()
 	{
 return <<<EOF
@@ -335,8 +316,7 @@ EOF;
 //	Comments Opened Notification
 //--------------------------------------------------
 
-if ( ! function_exists('comments_opened_notification_title'))
-{
+if ( ! function_exists('comments_opened_notification_title')) {
 	function comments_opened_notification_title()
 	{
 return <<<EOF
@@ -345,8 +325,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('comments_opened_notification'))
-{
+if ( ! function_exists('comments_opened_notification')) {
 	function comments_opened_notification()
 	{
 return <<<EOF
@@ -373,8 +352,7 @@ EOF;
 //	Admin Notification of New Forum Post
 //--------------------------------------------------
 
-if ( ! function_exists('admin_notify_forum_post_title'))
-{
+if ( ! function_exists('admin_notify_forum_post_title')) {
 	function admin_notify_forum_post_title()
 	{
 return <<<EOF
@@ -383,8 +361,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('admin_notify_forum_post'))
-{
+if ( ! function_exists('admin_notify_forum_post')) {
 	function admin_notify_forum_post()
 	{
 return <<<EOF
@@ -407,8 +384,7 @@ EOF;
 //	Forum Post User Notification
 //--------------------------------------------------
 
-if ( ! function_exists('forum_post_notification_title'))
-{
+if ( ! function_exists('forum_post_notification_title')) {
 	function forum_post_notification_title()
 	{
 return <<<EOF
@@ -417,8 +393,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('forum_post_notification'))
-{
+if ( ! function_exists('forum_post_notification')) {
 	function forum_post_notification()
 	{
 return <<<EOF
@@ -445,8 +420,7 @@ EOF;
 //	Private Message Notification
 //--------------------------------------------------
 
-if ( ! function_exists('private_message_notification_title'))
-{
+if ( ! function_exists('private_message_notification_title')) {
 	function private_message_notification_title()
 	{
 return <<<EOF
@@ -455,8 +429,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('private_message_notification'))
-{
+if ( ! function_exists('private_message_notification')) {
 	function private_message_notification()
 	{
 return <<<EOF
@@ -485,8 +458,7 @@ EOF;
 /* -------------------------------------
 /*  Notification of Full PM InBox
 /* -------------------------------------*/
-if ( ! function_exists('pm_inbox_full_title'))
-{
+if ( ! function_exists('pm_inbox_full_title')) {
 	function pm_inbox_full_title()
 	{
 return <<<EOF
@@ -495,8 +467,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('pm_inbox_full'))
-{
+if ( ! function_exists('pm_inbox_full')) {
 	function pm_inbox_full()
 	{
 return <<<EOF
@@ -518,8 +489,7 @@ EOF;
 /* -------------------------------------
 /*  Notification of Forum Topic Moderation
 /* -------------------------------------*/
-if ( ! function_exists('forum_moderation_notification_title'))
-{
+if ( ! function_exists('forum_moderation_notification_title')) {
 	function forum_moderation_notification_title()
 	{
 return <<<EOF
@@ -528,8 +498,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('forum_moderation_notification'))
-{
+if ( ! function_exists('forum_moderation_notification')) {
 	function forum_moderation_notification()
 	{
 return <<<EOF
@@ -549,8 +518,7 @@ EOF;
 /* -------------------------------------
 /*  Notification of Forum Post Report
 /* -------------------------------------*/
-if ( ! function_exists('forum_report_notification_title'))
-{
+if ( ! function_exists('forum_report_notification_title')) {
 	function forum_report_notification_title()
 	{
 return <<<EOF
@@ -559,8 +527,7 @@ EOF;
 	}
 }
 
-if ( ! function_exists('forum_report_notification'))
-{
+if ( ! function_exists('forum_report_notification')) {
 	function forum_report_notification()
 	{
 return <<<EOF
@@ -587,8 +554,7 @@ EOF;
 /* -------------------------------------
 //  OFFLINE SYSTEM PAGE
 /* -------------------------------------*/
-if ( ! function_exists('offline_template'))
-{
+if ( ! function_exists('offline_template')) {
 	function offline_template()
 	{
 return <<<EOF
@@ -729,8 +695,7 @@ EOF;
 /* -------------------------------------
 //  User Messages Template
 /* -------------------------------------*/
-if ( ! function_exists('message_template'))
-{
+if ( ! function_exists('message_template')) {
 	function message_template()
 	{
 return <<<EOF
@@ -877,8 +842,7 @@ EOF;
 /* -------------------------------------
 //  User Messages Template
 /* -------------------------------------*/
-if ( ! function_exists('post_install_message_template'))
-{
+if ( ! function_exists('post_install_message_template')) {
 	function post_install_message_template()
 	{
 return <<<EOF

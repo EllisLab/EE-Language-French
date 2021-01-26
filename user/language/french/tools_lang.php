@@ -2,96 +2,94 @@
 
 $lang = array(
 
-'tools'  				=> 'Outils',
+'advanced_users_only' => 'Utilisateurs avancés uniquement',
 
-'tools_data' 			=> 'Données',
+'all_caching' => 'Tous les caches',
 
-'tools_logs'			=> 'Journaux',
+'choose_translation_file' => 'Choisissez un fichier à traduire',
 
-'tools_utilities'		=> 'Utilitaires',
+'clear_caching' => 'Effacer les données en cache',
 
-'communicate'			=> 'Communiquer',
+'communicate' => 'Communiquer',
 
-'config_editor'			=> 'Configurer gestionnaire de fichiers',
+'config_editor' => 'Configurer gestionnaire de fichiers',
 
-'php_info' 				=> 'Informations PHP',
+'db_caching' => 'Fichiers cache de la base de données',
 
-'recount_stats' 		=> 'Recompter les statistiques',
+'english' => 'Anglais',
 
-'search_and_replace' 	=> 'Rechercher et remplacer',
+'european' => 'Européen',
 
-'sql_manager' 			=> 'Gestionnaire SQL',
+'import_utilities' => 'Utilitaires d\'importation',
 
-'clear_caching'	 		=> 'Effacer les données en cache',
+'invalid_path' => 'Le chemin que vous avez saisi est invalide :',
 
-'import_utilities' 		=> 'Utilitaires d\'importation',
+'member_import' => 'Utilitaire d\'importation de membre',
 
-'translation_tool' 		=> 'Utilitaire de traduction',
+'missing_password_type' => 'L\'attribut obligatoire de type est absent de l\'élément mot de passe pour l\'utilisateur : %x. Merci de consulter la documentation pour connaître le bon format d\'importation.',
 
-'english'				=> 'Anglais',
+'no_lang_file' => 'Aucun fichier de langue fourni',
 
-'translation'			=> 'Traduction',
+'no_lang_keys' => 'Aucune clef de langue n\'existe pour traduire',
 
-'no_search_results'	 	=> 'Aucun résultat',
+'no_search_results' => 'Aucun résultat',
 
-'search_results' 		=> 'Résultats de la recherche',
+'page_caching' => 'Fichiers cache des pages (modèles)',
 
-'site_search' 			=> 'Site',
+'php_info' => 'Informations PHP',
 
-'searched_in' 			=> 'Recherché dans',
+'recount_stats' => 'Recompter les statistiques',
 
-'search_terms' 			=> 'Termes de la recherche',
+'replace_term' => 'Et le remplacer par ce texte',
 
-'page_caching' 			=> 'Fichiers cache des pages (modèles)',
+'replace_where' => 'Dans quel champ de la base de données voulez-vous que le remplacement ait lieu ?',
 
-'tag_caching' 			=> 'Fichiers cache des balises',
+'sandr_instructions' => 'Ces formulaires vous permettent de rechercher une expression particulière et de la remplacer par une autre',
 
-'db_caching' 			=> 'Fichiers cache de la base de données',
+'search_and_replace' => 'Rechercher et remplacer',
 
-'all_caching' 			=> 'Tous les caches',
+'search_replace_disclaimer' => 'Selon la syntaxe utilisée, cette fonction peut produire des résultats inattendus. Consultez le manuel et sauvegardez votre base de données.',
 
-'sandr_instructions' 	=> 'Ces formulaires vous permettent de rechercher une expression particulière et de la remplacer par une autre',
+'search_results' => 'Résultats de la recherche',
 
-'search_term' 			=> 'Rechercher ce texte',
+'search_term' => 'Rechercher ce texte',
 
-'replace_term' 			=> 'Et le remplacer par ce texte',
+'search_terms' => 'Termes de la recherche',
 
-'replace_where' 		=> 'Dans quel champ de la base de données voulez-vous que le remplacement ait lieu ?',
+'searched_in' => 'Recherché dans',
 
-'search_replace_disclaimer'	=> 'Selon la syntaxe utilisée, cette fonction peut produire des résultats inattendus. Consultez le manuel et sauvegardez votre base de données.',
+'site_search' => 'Site',
 
-'advanced_users_only' 	=> 'Utilisateurs avancés uniquement',
+'sql_manager' => 'Gestionnaire SQL',
 
-'choose_translation_file' 	=> 'Choisissez un fichier à traduire',
+'tag_caching' => 'Fichiers cache des balises',
 
-'no_lang_file' 			=> 'Aucun fichier de langue fourni',
+'tools_data' => 'Données',
 
-'no_lang_keys'			=> 'Aucune clef de langue n\'existe pour traduire',
+'tools_logs' => 'Journaux',
 
-'invalid_path' 			=> 'Le chemin que vous avez saisi est invalide :',
+'tools_utilities' => 'Utilitaires',
 
-'trans_file_not_writable'=> 'Le fichier de traduction n\'est pas inscriptible.',
+'tools' => 'Outils',
 
-'member_import' 		=> 'Utilitaire d\'importation de membre',
+'trans_file_not_writable' => 'Le fichier de traduction n\'est pas inscriptible.',
 
-'missing_password_type'	=> 'L\'attribut obligatoire de type est absent de l\'élément mot de passe pour l\'utilisateur : %x. Merci de consulter la documentation pour connaître le bon format d\'importation.',
+'translation_tool' => 'Utilitaire de traduction',
 
-'united_states' 		=> 'Etats-Unis',
+'translation' => 'Traduction',
 
-'european' 				=> 'Européen',
-
+'united_states' => 'Etats-Unis',
 
 /* Config Editor */
-'preference'			=> 'Préférence',
+'preference' => 'Préférence',
 
-'setting'				=> 'Paramètre',
+'setting' => 'Paramètre',
 
-'preferences_updated'	=> 'Préférences mises à jour',
+'preferences_updated' => 'Préférences mises à jour',
 
-'true'					=> 'Vrai',
+'true' => 'Vrai',
 
-'false'					=> 'Faux',
-
+'false' => 'Faux',
 
 /* Translation */
 'translation_dir_unwritable' => 'Avertissement : Votre répertoire de traduction n\'est pas inscriptible.',

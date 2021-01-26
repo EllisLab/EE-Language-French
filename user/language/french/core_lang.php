@@ -101,7 +101,7 @@ $lang = array(
 Les fichiers suivants sont affectés :
 {changed}
 
-Si vous avez effectué ces changements, veuillez accepter les modifications sur l\'accueil du panneau de contrôle. Si vous n\'avez pas modifié ces fichiers ceci peut indiquer une tentative de piratage. Vérifiez les fichiers pour tout contenu suspect (JavaScript ou iFrames) et consultez : '.DOC_URL.'troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html',
+Si vous avez effectué ces changements, veuillez accepter les modifications sur l\'accueil du panneau de contrôle. Si vous n\'avez pas modifié ces fichiers ceci peut indiquer une tentative de piratage. Vérifiez les fichiers pour tout contenu suspect (JavaScript ou iFrames) et consultez : ' . DOC_URL . 'troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html',
 
 'checksum_email_subject' => 'Un fichier principal d\'ExpressionEngine a été modifié sur votre site.',
 
@@ -137,17 +137,25 @@ Si vous avez effectué ces changements, veuillez accepter les modifications sur 
 
 'redirect_xss_fail' => 'Le lien vers lequel vous êtes redirigé contient du code potentiellement malicieux ou dangereux. Nous vous recommandons de cliquer sur le bouton "Retour Arrière" de votre navigateur et d\'envoyer un email à %s pour lui rapporter le lien qui a généré ce message d\'alerte.',
 
+'redirect_warning_header' => 'Alerte de redirection',
+
+'redirect_description' => 'Vous êtes sur le point d\'ouvrir un nouvelle page web redirigée vers l\'hôte <b>%s</b> qui ne fait pas partie de',
+
+'redirect_check_address' => 'Merci de vérifier que l\'adresse est correcte.',
+
+'redirect_cancel' => 'Annuler',
+
 'submission_error' => 'Le formulaire que vous avez soumis contient les erreurs suivantes',
 
 'theme_folder_wrong' => 'Le chemin serveur de votre dossier thème est incorrect. Merci de visiter <a href="%s">Paramètres URL et chemin serveur</a> et de vérifier le <code>Chemin serveur des thèmes</code> et le <code>Répertoire des thèmes</code>.',
 
-'unable_to_load_field_type' => 'Impossible de charger le fichier de type de champ demandé :  %s.<br />Confirmez que le fichier de type de champ est bien situé dans le répertoire /'.SYSDIR.'/user/addons/ ',
+'unable_to_load_field_type' => 'Impossible de charger le fichier de type de champ demandé :  %s.<br />Confirmez que le fichier de type de champ est bien situé dans le répertoire /' . SYSDIR . '/user/addons/ ',
 
-'unwritable_cache_folder' => 'Votre répertoire Cache n\'a pas les permissions requises.<br />Pour corriger : définissez les permissions du répertoire Cache (/'.SYSDIR.'/user/cache/) à 777 (ou équivalent, selon votre serveur).',
+'unwritable_cache_folder' => 'Votre répertoire Cache n\'a pas les permissions requises.<br />Pour corriger : définissez les permissions du répertoire Cache (/' . SYSDIR . '/user/cache/) à 777 (ou équivalent, selon votre serveur).',
 
-'unwritable_config_file' => 'Votre fichier de configuration n\'a pas les permissions requises.<br />Pour corriger : définissez les permissions du fichier de configuration (/'.SYSDIR.'/user/config/config.php) à 666 (ou équivalent, selon votre serveur).',
+'unwritable_config_file' => 'Votre fichier de configuration n\'a pas les permissions requises.<br />Pour corriger : définissez les permissions du fichier de configuration (/' . SYSDIR . '/user/config/config.php) à 666 (ou équivalent, selon votre serveur).',
 
-'version_mismatch' => 'Votre version d\'ExpressionEngine installée (%s) n\'est pas en phase avec la version rapportée (%s). <a href="'.DOC_URL.'installation/update.html" rel="external">Merci de mettre de nouveau à jour votre installation d\'ExpressionEngine</a>.',
+'version_mismatch' => 'Votre version d\'ExpressionEngine installée (%s) n\'est pas en phase avec la version rapportée (%s). <a href="' . DOC_URL . 'installation/update.html" rel="external">Merci de mettre de nouveau à jour votre installation d\'ExpressionEngine</a>.',
 
 
 //----------------------------

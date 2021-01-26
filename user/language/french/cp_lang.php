@@ -29,6 +29,8 @@ $lang = array(
 
 'logs'	=> 'Journaux',
 
+'many_jump_results' => 'Plus de 10 résultats trouvés, merci d\'affiner votre recherche',
+
 'menu_entries' => 'Articles',
 
 'menu_manager' => 'Gestionnaire de menu',
@@ -327,6 +329,8 @@ $lang = array(
 'important' => 'Important !',
 
 'limit_by' => 'limiter par',
+
+'log_into' => 'Se connecter à %s',
 
 'manage' =>	'Gérer',
 

@@ -132,7 +132,7 @@ $lang = array(
 
 'enable_partial_on_all_sites' => 'Activer sur tous les sites ?',
 
-'enable_php_desc' => 'Si activé, vous pouvez utiliser le PHP standard dans ce modèle. <a href="'.DOC_URL.'templates/overview.html#php-in-templates" rel="external">Avant d\'activer, lisez ce que cela implique</a>.',
+'enable_php_desc' => 'Si activé, vous pouvez utiliser le PHP standard dans ce modèle. <a href="' . DOC_URL . 'templates/overview.html#php-in-templates" rel="external">Avant d\'activer, lisez ce que cela implique</a>.',
 
 'enable_php' => 'Autoriser le PHP ?',
 
@@ -431,7 +431,7 @@ $lang = array(
 
 'php_in_templates_config_warning' => 'Vous devez définir <code>$config[\'allow_php\'] = \'y\';</code> dans le fichier <code>config.php</code> si vous souhaitez utiliser cette fonctionnalité.',
 
-'php_in_templates_warning' => '<b>Attention</b> : autoriser le PHP dans les modèles peut poser des <a href="'.DOC_URL.'templates/overview.html#php-in-templates" target="_blank" rel="external">problèmes de sécurité de vos données</a>.',
+'php_in_templates_warning' => '<b>Attention</b> : autoriser le PHP dans les modèles peut poser des <a href="' . DOC_URL . 'templates/overview.html#php-in-templates" target="_blank" rel="external">problèmes de sécurité de vos données</a>.',
 
 'php_in_templates_warning2' => 'Les paramètres marqués d\'un %s doivent être gérés avec précaution.',
 
