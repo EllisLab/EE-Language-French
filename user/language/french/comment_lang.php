@@ -2,9 +2,7 @@
 
 $lang = array(
 
-//----------------------------------------
-// Required for MODULES page
-//----------------------------------------
+/* Required for MODULES page */
 
 'already_subscribed' => 'Vous êtes déjà abonné à ce commentaire.',
 
@@ -203,5 +201,6 @@ $lang = array(
 "comment_module_name" => "Commentaires",
 
 );
+
 
 // EOF

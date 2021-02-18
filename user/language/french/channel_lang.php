@@ -72,7 +72,7 @@ $lang = array(
 
 'edit_form_layout' => 'Modifier la disposition de publication',
 
-'edit_layout'	=>	'Modifier la disposition',
+'edit_layout' => 'Modifier la disposition',
 
 'edit_layout_error_desc' => 'Nous n\'avons pas pu mettre à jour cette disposition de publication, merci de vérifier et corriger les erreurs ci-dessous.',
 
@@ -148,7 +148,7 @@ $lang = array(
 
 'tab_name_desc' => 'Nom court pour cet onglet.',
 
-'tab_name_required'	=> 'Merci de choisir un nom pour votre onglet',
+'tab_name_required' => 'Merci de choisir un nom pour votre onglet',
 
 "channel_module_description" => "Module de canal",
 
@@ -612,9 +612,9 @@ $lang = array(
 
 'channel_roles_desc' => 'Les membres avec ces rôles peuvent réaliser toutes les actions sélectionnées dans ce canal.',
 
-'edit_in_full_form'	=> 'Modifier sans limitation'
-
+'edit_in_full_form' => 'Modifier sans limitation'
 
 );
+
 
 // EOF

@@ -81,6 +81,7 @@ $lang = array(
 'united_states' => 'Etats-Unis',
 
 /* Config Editor */
+
 'preference' => 'Préférence',
 
 'setting' => 'Paramètre',
@@ -92,10 +93,12 @@ $lang = array(
 'false' => 'Faux',
 
 /* Translation */
+
 'translation_dir_unwritable' => 'Avertissement : Votre répertoire de traduction n\'est pas inscriptible.',
 
 'screen_name' => 'Pseudo',
 
 );
+
 
 // EOF

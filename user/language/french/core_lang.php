@@ -2,9 +2,7 @@
 
 $lang = array(
 
-//----------------------------
-// General word list
-//----------------------------
+/* General word list */
 
 'and_n_others' => 'et les %d autres...',
 
@@ -16,7 +14,7 @@ $lang = array(
 
 'dot' => 'point',
 
-'edit_this'	=>	'Modifier ceci',
+'edit_this' => 'Modifier ceci',
 
 'encoded_email' => '(Le JavaScript doit être activé pour voir cette adresse email)',
 
@@ -84,9 +82,7 @@ $lang = array(
 
 'yes' => 'Oui',
 
-//----------------------------
-// Errors
-//----------------------------
+/* Errors */
 
 'captcha_incorrect' => 'Vous n\'avez pas saisi le mot exactement comme il apparaît dans l\'image',
 
@@ -157,10 +153,13 @@ Si vous avez effectué ces changements, veuillez accepter les modifications sur 
 
 'version_mismatch' => 'Votre version d\'ExpressionEngine installée (%s) n\'est pas en phase avec la version rapportée (%s). <a href="' . DOC_URL . 'installation/update.html" rel="external">Merci de mettre de nouveau à jour votre installation d\'ExpressionEngine</a>.',
 
+'warning_system_status_title' => 'Merci de vérifier le statut de votre système (en ligne / hors ligne)',
 
-//----------------------------
-// Member Groups
-//----------------------------
+'warning_system_status_message' => 'Le statut actuel de votre système est <b>%s</b>. Si vous avez besoin de le changer, merci de visiter l\'adresse <a href="%s">Paramètres Système</a> ou de cliquer sur le bouton ci-dessous.',
+
+'warning_system_status_button' => 'Définir le système %s',
+
+/* Member Groups */
 
 'banned' => 'Exclu',
 
@@ -172,10 +171,7 @@ Si vous avez effectué ces changements, veuillez accepter les modifications sur 
 
 'super_admins' => 'Super Administrateurs',
 
-
-//----------------------------
-// Template.php
-//----------------------------
+/* Template.php */
 
 'error_fix_module_processing' => "Veuillez vérifier que le module '%x' est installé et que '%y' est une méthode disponible pour ce module",
 
@@ -197,10 +193,7 @@ Si vous avez effectué ces changements, veuillez accepter les modifications sur 
 
 'template_loop' => "Vous avez provoqué une boucle de modèle due à un sous-modèle mal imbriqué ('%s' est appelé de façon récursive)",
 
-
-//----------------------------
-// Email
-//----------------------------
+/* Email */
 
 'error_sending_email' => 'Impossible d\'envoyer l\'email pour le moment.',
 
@@ -216,10 +209,7 @@ Si vous avez effectué ces changements, veuillez accepter les modifications sur 
 
 'your_new_login_info' => 'Information de connexion',
 
-
-//----------------------------
-// Date
-//----------------------------
+/* Date */
 
 'singular' => 'une',
 
@@ -363,87 +353,87 @@ Si vous avez effectué ces changements, veuillez accepter les modifications sur 
 
 'December' => 'Décembre',
 
-'UM12'  	=>	'(UTC -12:00) Fuseau horaire des îles Baker et Howland',
+'UM12'   => '(UTC -12:00) Fuseau horaire des îles Baker et Howland',
 
-'UM11'		=>	'(UTC -11:00) Heure normale des Samoa, Niue',
+'UM11' => '(UTC -11:00) Heure normale des Samoa, Niue',
 
-'UM10'		=>	'(UTC -10:00) Heure normale d\'Hawaii et des îles Aléoutiennes, îles Cook, Tahiti',
+'UM10' => '(UTC -10:00) Heure normale d\'Hawaii et des îles Aléoutiennes, îles Cook, Tahiti',
 
-'UM95'		=>	'(UTC -9:30) Fuseau horaire des îles Marquises',
+'UM95' => '(UTC -9:30) Fuseau horaire des îles Marquises',
 
-'UM9'		=>	'(UTC -9:00) Heure normale de l\'Alaska, îles Gambier',
+'UM9' => '(UTC -9:00) Heure normale de l\'Alaska, îles Gambier',
 
-'UM8'		=>	'(UTC -8:00) Heure normale du Pacifique, île de Clipperton',
+'UM8' => '(UTC -8:00) Heure normale du Pacifique, île de Clipperton',
 
-'UM7'		=>	'(UTC -7:00) Heure normale des Montagnes Rocheuses',
+'UM7' => '(UTC -7:00) Heure normale des Montagnes Rocheuses',
 
-'UM6'		=>	'(UTC -6:00) Heure normale du Centre',
+'UM6' => '(UTC -6:00) Heure normale du Centre',
 
-'UM5'		=>	'(UTC -5:00) Heure normale de l\'Est de l\'Amérique du Nord',
+'UM5' => '(UTC -5:00) Heure normale de l\'Est de l\'Amérique du Nord',
 
-'UM45'		=>	'(UTC -4:30) Fuseau horaire du Vénézuéla',
+'UM45' => '(UTC -4:30) Fuseau horaire du Vénézuéla',
 
-'UM4'		=>	'(UTC -4:00) Heure normale de l\'Atlantique',
+'UM4' => '(UTC -4:00) Heure normale de l\'Atlantique',
 
-'UM35'		=>	'(UTC -3:30) Heure normale de Terre-Neuve',
+'UM35' => '(UTC -3:30) Heure normale de Terre-Neuve',
 
-'UM3'		=>	'(UTC -3:00) Fuseau horaire Argentine, Brésil, Guyane française, Uruguay, Groënland',
+'UM3' => '(UTC -3:00) Fuseau horaire Argentine, Brésil, Guyane française, Uruguay, Groënland',
 
-'UM2'		=>	'(UTC -2:00) Fuseau horaire Géorgie du Sud et les îles Sandwich du Sud',
+'UM2' => '(UTC -2:00) Fuseau horaire Géorgie du Sud et les îles Sandwich du Sud',
 
-'UM1'		=>	'(UTC -1:00) Fuseau horaire des Açores, îles du Cap-Vert',
+'UM1' => '(UTC -1:00) Fuseau horaire des Açores, îles du Cap-Vert',
 
-'UTC'		=>	'(UTC) Heure de l\'Europe occidentale, Heure du méridien de Greenwich',
+'UTC' => '(UTC) Heure de l\'Europe occidentale, Heure du méridien de Greenwich',
 
-'UP1'		=>	'(UTC +1:00) Heure de l\'Europe centrale',
+'UP1' => '(UTC +1:00) Heure de l\'Europe centrale',
 
-'UP2'		=>	'(UTC +2:00) Heure de l\'Europe orientale, Heure d\'Afrique centrale, Heure normale d\'Egypte et d\'Afrique du Sud',
+'UP2' => '(UTC +2:00) Heure de l\'Europe orientale, Heure d\'Afrique centrale, Heure normale d\'Egypte et d\'Afrique du Sud',
 
-'UP3'		=>	'(UTC +3:00) Heure d\'Afrique de l\'est, Heure de Moscou et St Pétersbourg',
+'UP3' => '(UTC +3:00) Heure d\'Afrique de l\'est, Heure de Moscou et St Pétersbourg',
 
-'UP35'		=>	'(UTC +3:30) Fuseau horaire de l\'Iran',
+'UP35' => '(UTC +3:30) Fuseau horaire de l\'Iran',
 
-'UP4'		=>	'(UTC +4:00) Fuseau horaire de l\'Arménie, Azerbaïdjan, EAU, Oman, Maurice, Seychelles, La Réunion, Heure de Samara',
+'UP4' => '(UTC +4:00) Fuseau horaire de l\'Arménie, Azerbaïdjan, EAU, Oman, Maurice, Seychelles, La Réunion, Heure de Samara',
 
-'UP45'		=>	'(UTC +4:30) Fuseau horaire de l\'Afghanistan',
+'UP45' => '(UTC +4:30) Fuseau horaire de l\'Afghanistan',
 
-'UP5'		=>	'(UTC +5:00) Fuseau horaire du Pakistan, Ouzbékistan, Tadjikistan, Turkménistan, Maldives, Kerguélen, Heure de Iékatérinbourg',
+'UP5' => '(UTC +5:00) Fuseau horaire du Pakistan, Ouzbékistan, Tadjikistan, Turkménistan, Maldives, Kerguélen, Heure de Iékatérinbourg',
 
-'UP55'		=>	'(UTC +5:30) Heure normale de l\'Inde',
+'UP55' => '(UTC +5:30) Heure normale de l\'Inde',
 
-'UP575'		=>	'(UTC +5:45) Fuseau horaire du Népal',
+'UP575' => '(UTC +5:45) Fuseau horaire du Népal',
 
-'UP6'		=>	'(UTC +6:00) Fuseau horaire du Bangladesh, Bhoutan, Kirghizstan, Novosibirsk, Heure d\'Omsk',
+'UP6' => '(UTC +6:00) Fuseau horaire du Bangladesh, Bhoutan, Kirghizstan, Novosibirsk, Heure d\'Omsk',
 
-'UP65'		=>	'(UTC +6:30) Fuseau horaire de la Birmanie et des îles Cocos',
+'UP65' => '(UTC +6:30) Fuseau horaire de la Birmanie et des îles Cocos',
 
-'UP7'		=>	'(UTC +7:00) Fuseau horaire du Cambodge, Laos, Thailande, Heure de Krasnoïarsk',
+'UP7' => '(UTC +7:00) Fuseau horaire du Cambodge, Laos, Thailande, Heure de Krasnoïarsk',
 
-'UP8'		=>	'(UTC +8:00) Heure normale de l\'Australie occidentale et de la Chine, Brunei, Malaisie, Singapour, Taiwan, Heure d\'Irkoutz',
+'UP8' => '(UTC +8:00) Heure normale de l\'Australie occidentale et de la Chine, Brunei, Malaisie, Singapour, Taiwan, Heure d\'Irkoutz',
 
-'UP85'		=>	'(UTC +8:30) Fuseau horaire de la Corée du Nord',
+'UP85' => '(UTC +8:30) Fuseau horaire de la Corée du Nord',
 
-'UP875'		=>	'(UTC +8:45) Fuseau horaire de l\'Australie occidentale (Caiguna, Eucla, Mundrabilla, Border Village)',
+'UP875' => '(UTC +8:45) Fuseau horaire de l\'Australie occidentale (Caiguna, Eucla, Mundrabilla, Border Village)',
 
-'UP9'		=>	'(UTC +9:00) Heure normale du Japon, Corée du Nord et du Sud, Timor oriental, Heure de Iakoutsk',
+'UP9' => '(UTC +9:00) Heure normale du Japon, Corée du Nord et du Sud, Timor oriental, Heure de Iakoutsk',
 
-'UP95'		=>	'(UTC +9:30) Heure normale de l\'Australie centrale',
+'UP95' => '(UTC +9:30) Heure normale de l\'Australie centrale',
 
-'UP10'		=>	'(UTC +10:00) Heure normale de l\'Australie orientale, Guam, Papouasie-Nouvelle Guinée, Heure de Vladivostok',
+'UP10' => '(UTC +10:00) Heure normale de l\'Australie orientale, Guam, Papouasie-Nouvelle Guinée, Heure de Vladivostok',
 
-'UP105'		=>	'(UTC +10:30) Fuseau horaire de l\'île Lord Howe (Nouvelle-Galles du Sud)',
+'UP105' => '(UTC +10:30) Fuseau horaire de l\'île Lord Howe (Nouvelle-Galles du Sud)',
 
-'UP11'		=>	'(UTC +11:00) Fuseau horaire de la Nouvelle-Calédonie, îles Salomon, Vanuatu, Heure de Srednekolymsk',
+'UP11' => '(UTC +11:00) Fuseau horaire de la Nouvelle-Calédonie, îles Salomon, Vanuatu, Heure de Srednekolymsk',
 
-'UP115'		=>	'(UTC +11:30) Fuseau horaire de l\'île Norfolk',
+'UP115' => '(UTC +11:30) Fuseau horaire de l\'île Norfolk',
 
-'UP12'		=>	'(UTC +12:00) Heure normale de la Nouvelle-Zélande, fuseau horaire des Fidji, îles Gilbert, Marshall, Wallis-et-Futuna, Wake, Tuvalu, Heure de Petropavlovsk-Kamchatskiï',
+'UP12' => '(UTC +12:00) Heure normale de la Nouvelle-Zélande, fuseau horaire des Fidji, îles Gilbert, Marshall, Wallis-et-Futuna, Wake, Tuvalu, Heure de Petropavlovsk-Kamchatskiï',
 
-'UP1275'	=>	'(UTC +12:45) Fuseau horaire des îles Chatham',
+'UP1275' => '(UTC +12:45) Fuseau horaire des îles Chatham',
 
-'UP13'		=>	'(UTC +13:00) Fuseau horaire des Tonga et Samoa, îles Phoenix',
+'UP13' => '(UTC +13:00) Fuseau horaire des Tonga et Samoa, îles Phoenix',
 
-'UP14'		=>	'(UTC +14:00) Fuseau horaire des îles de la Ligne (île Christmas)',
+'UP14' => '(UTC +14:00) Fuseau horaire des îles de la Ligne (île Christmas)',
 
 'select_timezone' => 'Sélectionner le fuseau horaire',
 
@@ -456,5 +446,6 @@ Si vous avez effectué ces changements, veuillez accepter les modifications sur 
 'curl_not_installed' => 'cURL n\'est pas installé sur votre serveur.',
 
 );
+
 
 // EOF

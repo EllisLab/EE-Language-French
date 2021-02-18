@@ -2,8 +2,11 @@
 
 $lang = array(
 
+
 //----------------------------
+
 // Publish page
+
 //----------------------------
 
 'check_spelling' => "Vérifier l'orthographe",
@@ -25,6 +28,5 @@ $lang = array(
 'unsupported_browser' => 'Navigateur non supporté',
 
 );
-
 
 // EOF

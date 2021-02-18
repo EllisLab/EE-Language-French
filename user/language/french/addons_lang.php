@@ -3,46 +3,45 @@ $lang = array(
 
 /* Sidebar Menu */
 
-'addon_manager'					=>		'Add-Ons',
+'addon_manager' => 'Add-Ons',
 
-'addon'							=>		'Add-On',
+'addon' => 'Add-On',
 
-'add-on-store'	=>	'Boutique des Add-ons',
+'add-on-store' => 'Boutique des Add-ons',
 
-'addons'						=>		'Add-Ons',
+'addons' => 'Add-Ons',
 
-'all_addons'					=>		'Tous les Add-Ons',
+'all_addons' => 'Tous les Add-Ons',
 
-'author'						=> 		'Auteur',
+'author' => 'Auteur',
 
-'available_parameters'			=>		'Paramètres disponibles',
+'available_parameters' => 'Paramètres disponibles',
 
-'example_usage'					=>		'Example d\'utilisation',
+'example_usage' => 'Example d\'utilisation',
 
-'manage_addon_extensions'		=>		'Gérer les extensions Add-Ons',
+'manage_addon_extensions' => 'Gérer les extensions Add-Ons',
 
-'manage_extensions'				=>		'Gérer les extensions',
+'manage_extensions' => 'Gérer les extensions',
 
-'manual'						=>		'Manuel',
+'manual' => 'Manuel',
 
-'no_addon_extensions_search_results'	=>		'Aucune <b>extension Add-on</b> trouvée',
+'no_addon_extensions_search_results' => 'Aucune <b>extension Add-on</b> trouvée',
 
-'no_addon_search_results'		=>		'Aucun <b>Add-On</b> trouvé',
+'no_addon_search_results' => 'Aucun <b>Add-On</b> trouvé',
 
 'requested_module_not_installed' => 'Le module requis n\'est pas installé :',
 
-'search_addons_button'			=>		'rechercher des add-ons',
+'search_addons_button' => 'rechercher des add-ons',
 
-'show_all_addons'				=>		'Tous les %d Add-Ons',
+'show_all_addons' => 'Tous les %d Add-Ons',
 
-'third_party_addons'			=>		'Add-Ons tiers',
+'third_party_addons' => 'Add-Ons tiers',
 
-'update_to_version'				=>		'Mise à jour vers %s',
+'update_to_version' => 'Mise à jour vers %s',
 
-'update'						=>		'Mise à Jour',
+'update' => 'Mise à Jour',
 
-'updates'	=>	'Mises à Jour',
-
+'updates' => 'Mises à Jour',
 
 /* Confirm uninstall modal */
 
@@ -54,78 +53,77 @@ $lang = array(
 
 'btn_confirm_and_uninstall_working' => 'Désinstallation...',
 
-
 /* Filters */
 
-'addons_installed_desc'			=>		'Les add-ons suivants on été installés : ',
+'addons_installed_desc' => 'Les add-ons suivants on été installés : ',
 
-'addons_installed'				=>		'Add-Ons installés',
+'addons_installed' => 'Add-Ons installés',
 
-'addons_not_installed'			=>		'Add-Ons non installés',
+'addons_not_installed' => 'Add-Ons non installés',
 
-'addons_uninstalled_desc'		=>		'Les add-ons suivants ont été désinstallés : ',
+'addons_uninstalled_desc' => 'Les add-ons suivants ont été désinstallés : ',
 
-'addons_uninstalled'			=>		'Add-Ons désinstallés',
+'addons_uninstalled' => 'Add-Ons désinstallés',
 
-'addons_updated_desc'			=>		'Les add-ons suivants ont été mis à jour : ',
+'addons_updated_desc' => 'Les add-ons suivants ont été mis à jour : ',
 
-'addons_updated'				=>		'Add-Ons mis à jour',
+'addons_updated' => 'Add-Ons mis à jour',
 
-'btn_save_settings'             =>      'Enregistrer les paramètres',
+'btn_save_settings' => 'Enregistrer les paramètres',
 
-'contact_developer'				=>		'Merci de contacter le développeur de l\'add-on pour assistance.',
+'contact_developer' => 'Merci de contacter le développeur de l\'add-on pour assistance.',
 
-'custom_limit'					=>		'limite personnalisée',
+'custom_limit' => 'limite personnalisée',
 
-'developer'						=>		'développeur',
+'developer' => 'développeur',
 
-'entries'						=>		'Articles',
+'entries' => 'Articles',
 
-'existing_consent_request'		=>		'Les add-ons suivants n\'ont pas pu être installés en raison d\'une Requête de Consentement déjà existante que les add-ons essaient de créer :',
+'existing_consent_request' => 'Les add-ons suivants n\'ont pas pu être installés en raison d\'une Requête de Consentement déjà existante que les add-ons essaient de créer :',
 
 'extension_class_does_not_exist' => 'La classe %c n\'existe pas dans (%f)',
 
-'filter_by_status'				=>		'statut',
+'filter_by_status' => 'statut',
 
-'filters'						=>		'Filtres',
+'filters' => 'Filtres',
 
-'install'						=>		'Installer',
+'install' => 'Installer',
 
-'installed'						=>		'Installé',
+'installed' => 'Installé',
 
-'needs_updates'					=>		'Nécessite des MAJ',
+'needs_updates' => 'Nécessite des MAJ',
 
-'settings_saved_desc'		    =>		'Les paramètres pour %s ont été enregistrés.',
+'settings_saved_desc' => 'Les paramètres pour %s ont été enregistrés.',
 
-'settings_saved'			    =>		'Paramètres enregistrés',
+'settings_saved' => 'Paramètres enregistrés',
 
-'uninstall'						=>		'Désinstaller',
+'uninstall' => 'Désinstaller',
 
-'uninstalled'					=>		'Désinstallé',
+'uninstalled' => 'Désinstallé',
 
-// Google Maps Keys
+/* Google Maps Keys */
 
-'default_map'					=>		'Carte par défaut',
+'default_map' => 'Carte par défaut',
 
-'latitude_desc'					=>		'Latitude par défaut pour ce champ.',
+'latitude_desc' => 'Latitude par défaut pour ce champ.',
 
-'latitude'						=>		'Latitude',
+'latitude' => 'Latitude',
 
-'longitude_desc'				=>		'Longitude par défaut pour ce champ.',
+'longitude_desc' => 'Longitude par défaut pour ce champ.',
 
-'longitude'						=>		'Longitude',
+'longitude' => 'Longitude',
 
-'manual_override'				=>		'Contournement manuel',
+'manual_override' => 'Contournement manuel',
 
-'preview_desc'					=>		'Vue par défaut de la carte comme elle apparaîtra pour ce champ.',
+'preview_desc' => 'Vue par défaut de la carte comme elle apparaîtra pour ce champ.',
 
-'preview'						=>		'Aperçu',
+'preview' => 'Aperçu',
 
-'zoom_desc'						=>		'Niveau de zoom par défaut pour ce champ.',
+'zoom_desc' => 'Niveau de zoom par défaut pour ce champ.',
 
-'zoom'							=>		'Zoom',
+'zoom' => 'Zoom',
 
-// 2.x
+/* 2.x */
 
 'addons_extensions' => 'Extensions',
 
@@ -141,7 +139,7 @@ $lang = array(
 
 'component' => 'Composant',
 
-'configuration'					=>		'Configuration',
+'configuration' => 'Configuration',
 
 'current_status' => 'Statut actuel',
 
@@ -151,9 +149,9 @@ $lang = array(
 
 'description' => 'Description',
 
-'ext_disabled_short'			=>		'désactivée',
+'ext_disabled_short' => 'désactivée',
 
-'ext_enabled_short'				=>		'activée',
+'ext_enabled_short' => 'activée',
 
 'extension_disabled' => 'Extension désactivée',
 
@@ -161,15 +159,15 @@ $lang = array(
 
 'extension' => 'Extension',
 
-'extensions_disabled_desc'		=>		'Les extensions ont été désactivées.',
+'extensions_disabled_desc' => 'Les extensions ont été désactivées.',
 
 'extensions_disabled_message' => 'Les extensions ont été désactivées dans la configuration système, elles ne sont donc pas présentes dans cette liste.',
 
-'extensions_disabled_warning'	=>		'Afin d\'installer cet add-on, vous devez activer les extensions. Souhaitez-vous activer les extensions ?',
+'extensions_disabled_warning' => 'Afin d\'installer cet add-on, vous devez activer les extensions. Souhaitez-vous activer les extensions ?',
 
 'extensions_disabled' => 'Extensions désactivées',
 
-'extensions_enabled_desc'		=>		'Les extensions ont été activées.',
+'extensions_enabled_desc' => 'Les extensions ont été activées.',
 
 'extensions_enabled' => 'Extensions activées',
 

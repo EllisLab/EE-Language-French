@@ -66,15 +66,18 @@ $lang = array(
 'valid_url' => "Ce champ doit contenir une URL valide.",
 
 /* Legacy form validation lib */
+
 'file_exists' => 'Ce chemin serveur est soit invalide, soit non inscriptible.',
 
 'writable' => 'Ce chemin serveur est soit invalide, soit non inscriptible.',
 
 /* special and legacy things */
+
 'auth_password' => "Le mot de passe saisi est incorrect.",
 
 'isset' => "Le champ %s doit avoir une valeur.",
 
 );
+
 
 // EOF

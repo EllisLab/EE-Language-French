@@ -2,9 +2,7 @@
 
 $lang = array(
 
-//----------------------------------------
-// Required for MODULES page
-//----------------------------------------
+/* Required for MODULES page */
 
 'content_files' => 'Fichiers',
 
@@ -13,5 +11,6 @@ $lang = array(
 'file_module_description' => 'Module Fichier',
 
 );
+
 
 // EOF

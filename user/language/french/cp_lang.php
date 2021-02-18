@@ -2,16 +2,16 @@
 
 $lang = array(
 
+
 /* no Javascript Warning */
+
 'no_js_warning' => 'JavaScript doit être activé pour utiliser ce thème. Vérifier les paramètres de votre navigateur.',
 
-//----------------------------
-// Develop Menu
-//----------------------------
+/* Develop Menu */
 
-'addon_manager'	=>	'Add-Ons',
+'addon_manager' => 'Add-Ons',
 
-'channel_manager'	=> 'Canaux',
+'channel_manager' => 'Canaux',
 
 'dark_theme' => 'Thème sombre',
 
@@ -27,7 +27,7 @@ $lang = array(
 
 'light' => 'Clair',
 
-'logs'	=> 'Journaux',
+'logs' => 'Journaux',
 
 'many_jump_results' => 'Plus de 10 résultats trouvés, merci d\'affiner votre recherche',
 
@@ -35,26 +35,23 @@ $lang = array(
 
 'menu_manager' => 'Gestionnaire de menu',
 
-'msm_manager'	=> 'Sites',
+'msm_manager' => 'Sites',
 
 'nav_content' => 'Contenu',
 
 'nav_design' => 'Design',
 
-'nav_developer_tools'	=> 'Outils Développeur',
+'nav_developer_tools' => 'Outils Développeur',
 
-'nav_developer'	=>	'Développeur',
+'nav_developer' => 'Développeur',
 
 'nav_tools' => 'Outils',
 
 'template_manager' => 'Modèles',
 
-'utilities'	=> 'Utilitaires',
+'utilities' => 'Utilitaires',
 
-
-//----------------------------
-// Control Panel
-//----------------------------
+/* Control Panel */
 
 'action_can_not_be_undone' => 'CETTE ACTION NE PEUT ÊTRE ANNULÉE',
 
@@ -154,6 +151,10 @@ $lang = array(
 
 'notepad' => 'Bloc note',
 
+'offline' => 'Hors Ligne',
+
+'online' => 'En Ligne',
+
 'page_rendered' => 'Script exécuté en %x secondes',
 
 'password_for' => 'Mot de passe pour %s',
@@ -224,9 +225,7 @@ $lang = array(
 
 'version_update_inst' => 'ExpressionEngine %s est disponible. <a href="#" data-post-url="%s">Cliquer ici pour mettre à jour</a> ou suivez les <a href="%s" rel="external">instructions de mise à jour manuelle</a>.',
 
-//----------------------------
-// Buttons
-//----------------------------
+/* Buttons */
 
 'accept' => 'Accepter',
 
@@ -252,9 +251,7 @@ $lang = array(
 
 'update' => 'Mettre à jour',
 
-//----------------------------
-// Log
-//----------------------------
+/* Log */
 
 'action' => 'Action',
 
@@ -288,9 +285,7 @@ $lang = array(
 
 'member_login_as' => 'Membre connecté en tant que "%s" (%d)',
 
-//----------------------------
-// Common
-//----------------------------
+/* Common */
 
 'btn_downloading' => 'Téléchargement',
 
@@ -332,7 +327,7 @@ $lang = array(
 
 'log_into' => 'Se connecter à %s',
 
-'manage' =>	'Gérer',
+'manage' => 'Gérer',
 
 'modify' => 'Modifier',
 
@@ -386,7 +381,7 @@ $lang = array(
 
 'type_phrase' => 'termes à rechercher...',
 
-'user_guide' =>	'Guide utilisateur',
+'user_guide' => 'Guide utilisateur',
 
 'view_as' => 'Voir comme ',
 
@@ -402,9 +397,7 @@ $lang = array(
 
 'with_selected' => 'action sur sélection', // to review
 
-//----------------------------
-// Sites and Channels
-//----------------------------
+/* Sites and Channels */
 
 'add_site' => 'Ajouter un site',
 
@@ -430,9 +423,7 @@ $lang = array(
 
 'view_site' => 'Voir le site',
 
-//----------------------------
-// learning EE lang vars
-//----------------------------
+/* learning EE lang vars */
 
 'building_ee_site_01' => 'Créer un site ExpressionEngine - Chapitre 01',
 
@@ -480,9 +471,7 @@ $lang = array(
 
 'wiki' => 'Wiki',
 
-//----------------------------
-// License Errors
-//----------------------------
+/* License Errors */
 
 'corrupt_license_file' => 'Il manque des données dans le fichier licence fourni. <a href="%s">Merci de télécharger votre licence.</a>',
 
@@ -494,12 +483,13 @@ $lang = array(
 
 'missing_pubkey' => 'Il manque des données dans ce produit ExpressionEngine. Merci de visiter <a href="%s" rel="external">expressionengine.com</a> et de télécharger un exemplaire à jour.',
 
-// CP Errors
+/* CP Errors */
+
 '404_does_not_exist' => 'erreur 404 : l\'élément n\'existe pas',
 
 '404_does_not_exist_desc' => 'Désolé, nous n\'avons pas pu trouver l\'élément auquel vous essayez d\'accéder dans le système.',
 
-// Common
+/* Common */
 
 'alphadash_desc' => 'Aucun espace. Les soulignés (underscore) et les tirets sont autorisés.',
 
@@ -642,6 +632,7 @@ $lang = array(
 'roles' => 'Rôles',
 
 /* Footer */
+
 'about_expressionengine' => 'A propos d\'ExpressionEngine',
 
 'authenticating' => 'authentification...',
@@ -692,9 +683,7 @@ $lang = array(
 
 'whats_new' => 'Quoi de neuf ?',
 
-//----------------------------
-// confirm delete modal
-//----------------------------
+/* confirm delete modal */
 
 'confirm_delete' => 'Confirmer la suppression',
 
@@ -708,9 +697,7 @@ $lang = array(
 
 'btn_confirm_and_save_working' => 'Enregistrement...',
 
-//----------------------------
-// confirm show all modal
-//----------------------------
+/* confirm show all modal */
 
 'confirm_show_all' => 'Confirmez Tout Afficher',
 
@@ -720,10 +707,7 @@ $lang = array(
 
 'all_items' => 'Tous les éléments (%d)',
 
-
-//----------------------------
-// HTML Buttons
-//----------------------------
+/* HTML Buttons */
 
 'html_btn_bold' => 'Texte Gras',
 
@@ -794,8 +778,7 @@ $lang = array(
 'dashboard_layout_save_error' => 'Impossible d\'enregistrer la disposition',
 
 'dashboard_needs_some_widgets' => 'Merci d\'activer au moins un widget',
-
-
 );
+
 
 // EOF

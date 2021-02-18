@@ -421,9 +421,8 @@ $lang = array(
 
 'your_password_delete_roles_desc' => 'Vous <b>devez</b> entrer votre mot de passe afin de pouvoir supprimer des rôles.',
 
-//----------------------------
-// Member banning
-//----------------------------
+/* Member banning */
+
 'ban_message' => 'Ce site est actuellement indisponible',
 
 'ban_options_desc' => "Vous pouvez lui interdire tout accès en le renvoyant vers un autre site, ou lui afficher un message d'interdiction, ou encore lui autoriser l'accès au site web en mode consultation.",
@@ -458,9 +457,8 @@ $lang = array(
 
 'username_banning' => 'Identifiants réservés',
 
-//----------------------------
-// Member group settings
-//----------------------------
+/* Member group settings */
+
 'access_privilege_caution' => 'Les paramètres marqués avec <span class="icon--caution" title="faire preuve de prudence"></span> doivent être uniquement autorisés à des personnes en qui vous avez pleine confiance.',
 
 'access_privilege_warning' => "<b>Attention</b> : soyez vigilant sur les privilèges d'accès que vous accordez.",
@@ -749,9 +747,8 @@ $lang = array(
 
 'warning' => 'AVERTISSEMENT :',
 
-//----------------------------
-// Member fields
-//----------------------------
+/* Member fields */
+
 'access_settings_desc' => "Les utilisateurs peuvent accéder à toutes les sections sélectionnées.",
 
 'access_settings' => "Paramètres",
@@ -1273,5 +1270,6 @@ $lang = array(
 'access_overview_can_manage_consents' => 'Accès aux requêtes de consentement',
 
 );
+
 
 // EOF

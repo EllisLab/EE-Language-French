@@ -84,6 +84,12 @@ Corrigez les problèmes ci-dessus et essayez ensuite d\'effectuer la mise à jou
 
 Merci de vérifier que la dernière version de ces fichiers est en place et essayez ensuite d\'effectuer la mise à jour.',
 
+'theme_folder_path_invalid' => 'Ce chemin vers le répertoire "themes" d\'ExpressionEngine n\'est pas valide :
+
+%s
+
+Merci de le renseigner avec une valeur correcte comme cela est décrit dans la <a href="%s" target="_blank">documentation</a>.',
+
 'turnSystemOn_step' => 'Démarrage du système',
 
 'update_completed' => 'ExpressionEngine a été mis à jour avec succès vers la version %s !',
@@ -94,6 +100,11 @@ Merci de vérifier que la dernière version de ces fichiers est en place et essa
 
 'update_rolledback_desc' => 'Contactez le support si vous continuez à avoir des problèmes pour mettre à jour votre installation, sinon vous pouvez aussi <a href=\'%s\' rel=\'external\'>effectuer la mise à jour manuellement</a>.',
 
+'update_version_warning' => 'Merci de vérifier le statut de votre système (en ligne / hors ligne)',
+
+'update_version_warning_desc' => 'Le statut actuel de votre système est <b>%s</b>. Si vous avez besoin de le changer, merci de vérifier vos Paramètres Système.',
+
 );
+
 
 // EOF

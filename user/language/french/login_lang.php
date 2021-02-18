@@ -2,9 +2,7 @@
 
 $lang = array(
 
-//----------------------------
-// Log-in
-//----------------------------
+/* Log-in */
 
 'change_password' => 'Modifier le mot de passe',
 
@@ -63,5 +61,6 @@ $lang = array(
 'updating' => 'mise à jour...',
 
 );
+
 
 // EOF

@@ -2,42 +2,64 @@
 
 $lang = array(
 
+/* Settings */
 
-// Settings
 'rte_file_browser' => 'Navigateur de fichiers',
+
 'rte_file_browser_desc' => 'Quel navigateur de fichiers doit être utilisé quand vous recherchez des images et des fichiers à partir de vos champs RTE ?',
 
-// Configs
+/* Configs */
+
 'rte_clone' => 'Cloner',
+
 'rte_no_configs' => 'Il n\'y a actuellement aucune configuration.',
 
-// Edit Config
+/* Edit Config */
+
 'rte_basic_settings' => 'Paramètres de base',
+
 'rte_create_config' => 'Créer une nouvelle configuration',
+
 'rte_edit_config' => 'Modifier la configuration',
+
 'rte_config_settings' => 'Paramètres de configuration',
+
 'rte_config_name' => 'Nom de la configuration',
+
 'rte_toolbar' => 'Personnaliser la barre d\'outils',
+
 'rte_height' => 'Hauteur',
+
 'rte_upload_dir' => 'Répertoire de téléchargement',
+
 'rte_advanced_settings' => 'Paramètres avancés',
+
 'rte_config_saved' => 'Configuration enregistrée !',
+
 'rte_config_saved_desc' => 'Votre configuration a été enregistrée avec succès.',
 
-// Delete Config
+/* Delete Config */
+
 'rte_delete_config' => 'Supprimer la configuration',
+
 'rte_delete_config_confirm' => 'Êtes-vous sûr de vouloir supprimer définitivement cette configuration ?',
+
 'rte_config_deleted' => 'Configuration supprimée !',
+
 'rte_config_deleted_desc' => 'Votre configuration a été supprimée avec succès.',
 
-//  Field Settings
+/* Field Settings */
+
 'rte_editor_config' => 'Configuration de l\'éditeur',
+
 'rte_edit_configs' => 'Modifier&nbsp;Configurations',
+
 'rte_defer' => 'Différer l\'initialisation de CKEditor ?',
+
 'rte_defer_desc' => 'Si vous sélectionnez "Oui", RTE n\'initialisera CKEditor que lorsque le champ sera cliqué.',
 
+/* RTE */
 
-// RTE
 'available_tool_sets' => 'Jeux d\'outils disponibles',
 
 'btn_save_settings' => 'Enregistrer les paramètres',
@@ -68,14 +90,15 @@ $lang = array(
 
 'tool_set' => 'Jeu d\'outils',
 
-// Headings
+/* Headings */
+
 'create_new_toolset' => 'Créer un nouveau jeu d\'outils',
 
 'edit_my_toolset' => 'Modifier mon jeu d\'outils',
 
 'edit_toolset' => 'Modifier le jeu d\'outils',
 
-'my_toolset'	=> 'Mon jeu d\'outils',
+'my_toolset' => 'Mon jeu d\'outils',
 
 'nav_rte_settings_short_desc' => 'Gérer les outils et les jeux d\'outils de l\'éditeur de texte enrichi',
 
@@ -89,7 +112,8 @@ $lang = array(
 
 'toolsets' => 'Jeux d\'outils',
 
-// Snippets
+/* Snippets */
+
 'cancel' => 'Annuler',
 
 'delete' => 'Supprimer',
@@ -98,7 +122,8 @@ $lang = array(
 
 'toolset' => 'Jeu d\'outils',
 
-// Flashes
+/* Flashes */
+
 'cannot_remove_default_toolset' => 'Le jeu d\'outils RTE par défaut ne peut pas être supprimé',
 
 'disable_fail_desc' => 'Les jeux d\'outils suivants <b>n\'ont pas pu</b> être désactivés',
@@ -133,7 +158,7 @@ $lang = array(
 
 'toolset_edit_failed' => 'Le jeu d\'outil n\'a pas pu être ouvert pour modification.',
 
-'toolset_error_desc'	=> 'Nous n\'avons pas pu enregistrer le jeu d\'outils, merci de vérifier et corriger les erreurs ci-dessous.',
+'toolset_error_desc' => 'Nous n\'avons pas pu enregistrer le jeu d\'outils, merci de vérifier et corriger les erreurs ci-dessous.',
 
 'toolset_error' => 'Erreur de jeu d\'outil',
 
@@ -155,7 +180,8 @@ $lang = array(
 
 'valid_url_required' => 'une URL valide est requise.',
 
-// Labels
+/* Labels */
+
 'available_tools' => 'Outils disponibles (non utilisés)',
 
 'default_toolset_details' => 'Affiché pour les utilisateurs qui n\'auraient pas créé le leur ou choisi un autre.',
@@ -172,7 +198,7 @@ $lang = array(
 
 'rte_center_error' => 'Vous ne pouvez pas centrer un élément habillé',
 
-'rte_image_caption'	=> 'Légende d\'image :',
+'rte_image_caption' => 'Légende d\'image :',
 
 'rte_relationship' => 'Relations',
 
@@ -190,7 +216,8 @@ $lang = array(
 
 'toolset_name' => 'Nom du jeu d\'outils',
 
-// Tool names
+/* Tool names */
+
 'alignment:center_rte' => 'Centrer',
 
 'alignment:justify_rte' => 'Justifier',
@@ -266,5 +293,6 @@ $lang = array(
 'undo_rte' => 'Annuler',
 
 );
+
 
 // EOF
