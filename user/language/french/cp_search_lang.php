@@ -2,7 +2,8 @@
 
 $lang = array(
 
-// Design
+/* Design */
+
 'design_user_message' => "Modèle de message utilisateur",
 
 'design_system_offline' => "Modèle du système hors ligne",
@@ -11,7 +12,8 @@ $lang = array(
 
 'design_member_profile_templates' => "Modèle de profil de membre",
 
-// Members
+/* Members */
+
 'member_register_member' => "Inscrire un membre",
 
 'member_validation' => "Validation de membre",
@@ -30,7 +32,8 @@ $lang = array(
 
 'member_search' => "Recherche de membre",
 
-// Tools_data
+/* Tools_data */
+
 'data_sql_manager' => "Gestionnaire SQL",
 
 'data_search_and_replace' => "Rechercher et remplacer",
@@ -41,7 +44,8 @@ $lang = array(
 
 'data_clear_caching' => "Vider le cache",
 
-// Content_files
+/* Content_files */
+
 'file_index' => 'Gestion des Fichiers',
 
 'cont_field_group_management' => 'Gestion des Groupes de Champs',
@@ -52,8 +56,8 @@ $lang = array(
 
 'members_custom_profile_fields' => 'Champs personnalisés des profils de membre',
 
+/* Tools_logs */
 
-// Tools_logs
 'logs_view_cp_log' => 'Voir le journal du panneau de contrôle',
 
 'logs_view_throttle_log' => 'Voir le journal du filtrage',
@@ -62,20 +66,23 @@ $lang = array(
 
 'logs_view_email_log' => 'Voir le journal d\'email',
 
-// Tools_utilities
+/* Tools_utilities */
+
 'util_member_import' => "Importation de membre",
 
 'util_import_from_xml' => "Importer depuis un fichier XML",
 
 'util_translation_tool' => "Utilitaire de traduction",
 
-// Plugins
-'plug_index'	=> 'Plugins',
+/* Plugins */
 
-'modu_index'	=> 'Modules',
+'plug_index' => 'Plugins',
 
-'exte_index'	=> 'Extensions',
+'modu_index' => 'Modules',
+
+'exte_index' => 'Extensions',
 
 );
+
 
 // EOF

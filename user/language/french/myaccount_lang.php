@@ -6,7 +6,7 @@ $lang = array(
     <b>Email </b>: %s / <b>IP </b>: %s
 </div>',
 
-'accept_admin_email'	=>	'De la part des administrateurs',
+'accept_admin_email' => 'De la part des administrateurs',
 
 'accept_user_email' => 'De la part des autres membres de ce site',
 
@@ -557,5 +557,6 @@ $lang = array(
 "date_format" => "Format de Date & Heure",
 
 );
+
 
 // EOF

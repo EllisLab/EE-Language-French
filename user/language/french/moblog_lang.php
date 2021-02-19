@@ -68,7 +68,7 @@ $lang = array(
 
 'moblog_email_login' => 'Identifiant compte email',
 
-'moblog_email_password'	=> 'Mot de passe compte email',
+'moblog_email_password' => 'Mot de passe compte email',
 
 'moblog_email_server' => 'Serveur mail de réception',
 
@@ -100,9 +100,9 @@ $lang = array(
 
 'moblog_sticky_entry' => 'Epingler l\'article ?',
 
-'moblog_subject_prefix'	=> 'Préfixe d\'objet Moblog',
+'moblog_subject_prefix' => 'Préfixe d\'objet Moblog',
 
-'moblog_subject_subtext'	=> 'Laissez à blanc pour accepter automatiquement tous les emails.',
+'moblog_subject_subtext' => 'Laissez à blanc pour accepter automatiquement tous les emails.',
 
 'moblog_template' => 'Modèle Moblog',
 
@@ -134,8 +134,11 @@ $lang = array(
 
 'valid_from_subtext' => 'Adresses email à partir desquelles vous enverrez ces emails moblog.  Laissez à blanc pour accepter automatiquement tous les emails.  Séparez chaque adresse avec un espace ou un retour à la ligne.',
 
+
 // ------------------------
+
 // Processing Errors
+
 // ------------------------
 
 'authorization_failed' => 'L\'autorisation email a échoué car :',
@@ -169,5 +172,6 @@ $lang = array(
 'undeletable_email' => 'Impossible de supprimer l\'email',
 
 );
+
 
 // EOF

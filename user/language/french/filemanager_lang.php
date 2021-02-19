@@ -14,13 +14,13 @@ $lang = array(
 
 'categories' => 'Catégories',
 
-'choose_file'			=> 'Choisissez le(s) fichier(s) à supprimer',
+'choose_file' => 'Choisissez le(s) fichier(s) à supprimer',
 
-'confirm_del_file'		=> 'Êtes-vous sûr de vouloir définitivement supprimer ce fichier ?',
+'confirm_del_file' => 'Êtes-vous sûr de vouloir définitivement supprimer ce fichier ?',
 
-'confirm_del_files'		=> 'Êtes-vous sûr de vouloir définitivement supprimer ces fichiers ?',
+'confirm_del_files' => 'Êtes-vous sûr de vouloir définitivement supprimer ces fichiers ?',
 
-'content_files' 		=> 'Gestion des Fichiers',
+'content_files'  => 'Gestion des Fichiers',
 
 'create_new_upload_pref' => 'Créer un nouveau répertoire de téléchargement',
 
@@ -30,17 +30,17 @@ $lang = array(
 
 'date_added' => 'Date d\'ajout',
 
-'delete_fail'			=> 'Un problème est survenu lors de la suppression d\'un ou plusieurs fichier(s). Veuillez vérifier la liste de fichiers ci-dessous.',
+'delete_fail' => 'Un problème est survenu lors de la suppression d\'un ou plusieurs fichier(s). Veuillez vérifier la liste de fichiers ci-dessous.',
 
 'delete_file' => 'Supprimer le fichier',
 
-'delete_selected_files'	=> 'Supprimer les fichiers sélectionnés',
+'delete_selected_files' => 'Supprimer les fichiers sélectionnés',
 
-'delete_success'		=> 'Suppression effectuée',
+'delete_success' => 'Suppression effectuée',
 
 'description' => 'Description',
 
-'download_selected'		=> 'Télécharger les fichiers sélectionnés',
+'download_selected' => 'Télécharger les fichiers sélectionnés',
 
 'download' => 'Télécharger',
 
@@ -54,9 +54,9 @@ $lang = array(
 
 'edit_file_metadata' => 'Modifier les métadonnées du fichier',
 
-'edit_file'				=> 'Modifier le fichier',
+'edit_file' => 'Modifier le fichier',
 
-'email_files'			=> 'Envoyer les fichiers sélectionnés par email',
+'email_files' => 'Envoyer les fichiers sélectionnés par email',
 
 'file_conflict_desc' => 'Un fichier nommé <b>%s</b> existe déjà dans ce répertoire.',
 
@@ -64,29 +64,29 @@ $lang = array(
 
 'file_data' => 'Données du fichier',
 
-'file_download' 		=> 'Télécharger',
+'file_download'  => 'Télécharger',
 
-'file_information'		=> 'Propriétés du fichier',
+'file_information' => 'Propriétés du fichier',
 
 'file_manager' => 'Fichiers',
 
-'file_metadata'			=> 'Métadonnées du fichier',
+'file_metadata' => 'Métadonnées du fichier',
 
-'file_name'				=> 'Nom du fichier',
+'file_name' => 'Nom du fichier',
 
-'file_size_unit'		=> 'KO',
+'file_size_unit' => 'KO',
 
-'file_size'				=> 'Taille du fichier',
+'file_size' => 'Taille du fichier',
 
-'file_tools'			=> 'Outils Fichier',
+'file_tools' => 'Outils Fichier',
 
 'file_type' => 'Type de fichiers',
 
-'file_upload_prefs' 	=> 'Préférences de téléchargement',
+'file_upload_prefs'  => 'Préférences de téléchargement',
 
 'file_upload_stopped' => 'Téléchargement des fichiers arrêté',
 
-'file_upload' 			=> 'Téléchargement',
+'file_upload'  => 'Téléchargement',
 
 'file'  => 'Fichier',
 
@@ -94,13 +94,13 @@ $lang = array(
 
 'filter_upload_directories' => 'filtrer les répertoires de téléchargement',
 
-'image_editor'			=> 'Éditeur d\'image',
+'image_editor' => 'Éditeur d\'image',
 
 'image_manip_quality_desc' => 'Qualité finale de l\'image',
 
-'image_manip_quality'	=> 'Qualité',
+'image_manip_quality' => 'Qualité',
 
-'kind'					=> 'Type',
+'kind' => 'Type',
 
 'location' => 'Emplacement',
 
@@ -110,15 +110,15 @@ $lang = array(
 
 'no_upload_destination' => 'Aucun répertoire de téléchargement trouvé',
 
-'no_upload_dirs'		=> 'Aucun répertoire de téléchargement n\'est défini',
+'no_upload_dirs' => 'Aucun répertoire de téléchargement n\'est défini',
 
 'not_an_image' => 'Le fichier sélectionné n\'est pas une image',
 
-'permissions'			=> 'Permissions',
+'permissions' => 'Permissions',
 
 'pixels' => 'pixels',
 
-'rename_file'			=> 'Renommer le fichier',
+'rename_file' => 'Renommer le fichier',
 
 'rename' => 'Renommer le fichier <strong>le plus récent</strong>',
 
@@ -126,49 +126,51 @@ $lang = array(
 
 'replace' => 'Remplacer seulement le fichier <strong>le plus ancien</strong> <i>&mdash; action destructrice !</i>',
 
-'save_file'				=> 'Enregistrer le fichier',
+'save_file' => 'Enregistrer le fichier',
 
 'search_files' => 'Rechercher des fichiers',
 
 'show_all_files' => 'TOUS (%d)',
 
-'size'					=> 'Taille',
+'size' => 'Taille',
 
 'title_or_name' => 'Titre/Nom',
 
 'title' => 'Titre',
 
-'upload_dir_choose'		=> 'Choisir un répertoire de téléchargement',
+'upload_dir_choose' => 'Choisir un répertoire de téléchargement',
 
 'upload_directories' => 'Répertoires de téléchargement',
 
 'upload_directory' => 'Répertoire de téléchargement',
 
-'upload_edit'			=> 'Redimensionner &amp; Orienter',
+'upload_edit' => 'Redimensionner &amp; Orienter',
 
-'upload_file' 			=> 'Télécharger un fichier',
+'upload_file'  => 'Télécharger un fichier',
 
 'upload_new_file' => 'Télécharger un nouveau fichier',
 
 'upload_options' => 'Options de téléchargement',
 
-'upload_rename_message'	=> 'Un fichier avec ce nom existe déjà. Vous pouvez soit choisir un nouveau nom et le fichier sera renommé, soit utiliser le même nom et le fichier existant sera remplacé par celui-ci.',
+'upload_rename_message' => 'Un fichier avec ce nom existe déjà. Vous pouvez soit choisir un nouveau nom et le fichier sera renommé, soit utiliser le même nom et le fichier existant sera remplacé par celui-ci.',
 
-'upload_rename'			=> 'Le fichier existe déjà',
+'upload_rename' => 'Le fichier existe déjà',
 
-'upload_success'		=> 'Téléchargement réussi',
+'upload_success' => 'Téléchargement réussi',
 
-'upload' 				=> 'Télécharger',
+'upload'  => 'Télécharger',
 
-'where'					=> 'Où',
+'where' => 'Où',
 
-// sidebar
+/* sidebar */
+
 'zero_directories_found' => 'Aucun <b>répertoire</b> trouvé',
 
-// modal
-'90_degrees_left' => "90° à gauche",
+/* modal */
 
-'90_degrees_right' => "90° à droite",
+'90_degrees_left' => '90° à gauche',
+
+'90_degrees_right' => '90° à droite',
 
 'btn_crop_and_save_image' => 'Rogner &amp; enregistrer l\'image',
 
@@ -292,9 +294,7 @@ $lang = array(
 
 'zero_upload_directories_found' => 'Aucun <b>répertoire de téléchargement</b> trouvé.',
 
-/**
- * Uploads
- */
+/* Uploads */
 
 'add_manipulation' => 'Ajouter une nouvelle transformation',
 
@@ -366,7 +366,7 @@ $lang = array(
 
 'file_sync' => 'Synchro de fichier',
 
-'horizontal' => "Décalage Horizontal",
+'horizontal' => 'Décalage Horizontal',
 
 'image_manip_dimension_required' => 'Une hauteur ou largeur doit être renseignée si aucun filigrane n\'est sélectionné.',
 
@@ -476,7 +476,7 @@ $lang = array(
 
 'upload_url' => 'Répertoire de téléchargement',
 
-'vertical' => "Décalage Vertical",
+'vertical' => 'Décalage Vertical',
 
 'watermark_alignment_desc' => 'Emplacement du filigrane sur l\'image.',
 
@@ -486,11 +486,11 @@ $lang = array(
 
 'watermark_created' => 'Filigrane créé',
 
-'watermark_image_opacity_desc' => "Valeur d\'opacité pour le filigrane de cette image.",
+'watermark_image_opacity_desc' => 'Valeur d\'opacité pour le filigrane de cette image.',
 
 'watermark_image_opacity' => 'Opacité',
 
-'watermark_image_path_desc' => "Chemin serveur vers l'image filigrane.",
+'watermark_image_path_desc' => 'Chemin serveur vers l\'image filigrane.',
 
 'watermark_image_path' => 'Chemin',
 
@@ -508,23 +508,23 @@ $lang = array(
 
 'watermark_offset_desc' => 'Distance à partir du bord de l\'image, en pixels.',
 
-'watermark_offset' => "Décalage du filigrane",
+'watermark_offset' => 'Décalage du filigrane',
 
 'watermark_padding_desc' => 'Ajouter un remplissage (padding) autour de ce filigrane.',
 
-'watermark_padding' => "Remplissage (padding)",
+'watermark_padding' => 'Remplissage (padding)',
 
 'watermark_text_color' => 'Couleur du texte',
 
 'watermark_text_desc' => 'Contenu de ce filigrane',
 
-'watermark_text_dropshadow_color' => "Couleur de l'ombre portée (code hex)",
+'watermark_text_dropshadow_color' => 'Couleur de l\'ombre portée (code hex)',
 
 'watermark_text_dropshadow_desc' => 'Si activé, une ombre portée sera rendue.',
 
-'watermark_text_dropshadow_distance' => "Distance de l'ombre portée (en px)",
+'watermark_text_dropshadow_distance' => 'Distance de l\'ombre portée (en px)',
 
-'watermark_text_dropshadow' => "Activer les ombres portées (drop-shadow) ?",
+'watermark_text_dropshadow' => 'Activer les ombres portées (drop-shadow) ?',
 
 'watermark_text_font' => 'Police',
 
@@ -548,106 +548,107 @@ $lang = array(
 
 'watermarks' => 'Filigranes',
 
-// Upload modal
-'all_categories'			=> 'toutes les catégories',
+/* Upload modal */
 
-'all_filetypes' 			=> 'Tous les types de fichier',
+'all_categories' => 'toutes les catégories',
+
+'all_filetypes'  => 'Tous les types de fichier',
 
 'allowed_types' => 'Types de fichier autorisés',
 
-'apply_changes'			=> 'Appliquer les modifications ?',
+'apply_changes' => 'Appliquer les modifications ?',
 
-'apply_changes'			=> 'Appliquer les modifications',
+'apply_changes' => 'Appliquer les modifications',
 
-'auto_batch'				=> 'Téléchargement en lot, automatique',
+'auto_batch' => 'Téléchargement en lot, automatique',
 
-'batch_location'		=> 'Répertoire pour téléchargements en lot',
+'batch_location' => 'Répertoire pour téléchargements en lot',
 
-'batch_upload' 				=> 'Téléchargement en lot',
+'batch_upload'  => 'Téléchargement en lot',
 
-'browse_files'			=> 'Parcourir les fichiers',
+'browse_files' => 'Parcourir les fichiers',
 
-'can_upload_files' 			=> 'Peut télécharger des fichiers',
+'can_upload_files'  => 'Peut télécharger des fichiers',
 
-'cancel_changes'		=> 'Annuler les modifications',
+'cancel_changes' => 'Annuler les modifications',
 
-'cancel_crop'			=> 'Annuler le rognage',
+'cancel_crop' => 'Annuler le rognage',
 
-'category_group'			=> 'Groupes de catégories',
+'category_group' => 'Groupes de catégories',
 
-'category_groups_text'		=> 'Affecter un ou plusieurs groupes de catégories au répertoire de téléchargement',
+'category_groups_text' => 'Affecter un ou plusieurs groupes de catégories au répertoire de téléchargement',
 
-'category_groups'			=> 'Groupes de catégories de fichier',
+'category_groups' => 'Groupes de catégories de fichier',
 
-'constrain'				=> 'Restreindre',
+'constrain' => 'Restreindre',
 
-'crop_height'			=> 'Hauteur',
+'crop_height' => 'Hauteur',
 
-'crop_mode'				=> 'Mode Rognage',
+'crop_mode' => 'Mode Rognage',
 
-'crop_width'			=> 'Largeur',
+'crop_width' => 'Largeur',
 
-'crop_x'				=> 'X',
+'crop_x' => 'X',
 
-'crop_y'				=> 'Y',
+'crop_y' => 'Y',
 
-'crop'					=> 'Rogner',
+'crop' => 'Rogner',
 
 'current_upload_prefs' => 'Préférences actuelles',
 
-'custom_fields'				=> 'Champs personnalisés',
+'custom_fields' => 'Champs personnalisés',
 
 'delete_upload_pref_confirmation' => 'Êtes-vous sûr de vouloir définitivement supprimer ces préférences ?',
 
 'delete_upload_preference' => 'Supprimer les préférences de téléchargement',
 
-'dir_name'					=> 'Nom du répertoire de téléchargement',
+'dir_name' => 'Nom du répertoire de téléchargement',
 
-'directory_manager'			=> 'Gestion des répertoires de téléchargement',
+'directory_manager' => 'Gestion des répertoires de téléchargement',
 
-'directory'					=> 'Répertoire',
+'directory' => 'Répertoire',
 
 'disallow_image' => 'Interdire Image',
 
-'done'					=> 'Sortir',
+'done' => 'Sortir',
 
-'edit_file_upload_preferences' => "Modifier les préférences du téléchargement de fichiers",
+'edit_file_upload_preferences' => 'Modifier les préférences du téléchargement de fichiers',
 
-'edit_image'			=> 'Modifier l\'image',
+'edit_image' => 'Modifier l\'image',
 
-'edit_modes'			=> 'Modes d\'édition',
+'edit_modes' => 'Modes d\'édition',
 
-'error_count'				=> 'Nombre d\'erreur',
+'error_count' => 'Nombre d\'erreur',
 
-'errors'					=> 'Erreurs rencontrées',
+'errors' => 'Erreurs rencontrées',
 
-'exit_apply_changes'	=> 'Vous êtes sur le point de quitter le mode édition. Souhaitez-vous d\'abord appliquer les modifications ?',
+'exit_apply_changes' => 'Vous êtes sur le point de quitter le mode édition. Souhaitez-vous d\'abord appliquer les modifications ?',
 
-'file_count'				=> 'Nombre de fichiers',
+'file_count' => 'Nombre de fichiers',
 
 'file_directory_id' => '#',
 
 'file_exists_replacement_error' => 'Un fichier avec ce nom existe déjà.',
 
-'file_post_format' 			=> 'Post-formatage du fichier',
+'file_post_format'  => 'Post-formatage du fichier',
 
-'file_pre_format'			=> 'Pré-formatage du fichier',
+'file_pre_format' => 'Pré-formatage du fichier',
 
-'file_properties' 			=> 'Propriétés du fichier',
+'file_properties'  => 'Propriétés du fichier',
 
-'file_title'				=> 'Titre de fichier',
+'file_title' => 'Titre de fichier',
 
-'file_types'				=> 'Types de fichiers',
+'file_types' => 'Types de fichiers',
 
-'file_upload_preferences' => "Préférences du téléchargement de fichiers",
+'file_upload_preferences' => 'Préférences du téléchargement de fichiers',
 
-'files_count_lang'			=> 'Affichage de %s fichier(s) sur un total de %s.',
+'files_count_lang' => 'Affichage de %s fichier(s) sur un total de %s.',
 
-'files_processed'			=> 'Nombre de fichiers traité',
+'files_processed' => 'Nombre de fichiers traité',
 
-'filter_by_directory'		=> 'Filtrer par répertoire',
+'filter_by_directory' => 'Filtrer par répertoire',
 
-'image_edit_success'	=> 'Image modifiée avec succès',
+'image_edit_success' => 'Image modifiée avec succès',
 
 'image_sizes_rebuild' => 'Toutes les manipulations d\'image seront automatiquement créées pour les nouvelles images. Cependant, si vous souhaitez recréer les manipulations d\'image pour des images existantes, décochez les manipulations que vous voulez recréer.',
 
@@ -655,15 +656,15 @@ $lang = array(
 
 'image_sizes' => 'Manipulations d\'image',
 
-'image_tools'			=> 'Outils Image',
+'image_tools' => 'Outils Image',
 
-'images_only' 				=> 'Images uniquement',
+'images_only'  => 'Images uniquement',
 
-'list'						=> 'une liste',
+'list' => 'une liste',
 
-'maintain_ratio'		=> 'Conserver les proportions',
+'maintain_ratio' => 'Conserver les proportions',
 
-'manual_batch'				=> 'Téléchargement en lot, manuel',
+'manual_batch' => 'Téléchargement en lot, manuel',
 
 'max_height' => 'Hauteur maximale d\'image, en pixels',
 
@@ -673,62 +674,62 @@ $lang = array(
 
 'max_width' => 'Largeur maximale d\'image, en pixels',
 
-'member_group' 				=> 'Groupe de membres',
+'member_group'  => 'Groupe de membres',
 
-'new_file_upload_created' => "Nouveau répertoire de téléchargement créé",
+'new_file_upload_created' => 'Nouveau répertoire de téléchargement créé',
 
-'new_file_upload_preferences' => "Nouvelle préférence du téléchargement de fichiers",
+'new_file_upload_preferences' => 'Nouvelle préférence du téléchargement de fichiers',
 
 'no_assigned_category_groups' => 'Aucun groupe de catégories n\'a été prévu pour le gestionnaire de fichiers.<br /><a href="%s" title="Affecter des groupes de catégories">Affecter des groupes de catégories</a>',
 
-'no_change'				=> 'Aucune modification',
+'no_change' => 'Aucune modification',
 
-'no_edit_selected'		=> 'Aucune opération d\'édition sélectionnée',
+'no_edit_selected' => 'Aucune opération d\'édition sélectionnée',
 
-'no_errors'					=> 'Aucune erreur',
+'no_errors' => 'Aucune erreur',
 
-'no_results'				=> 'Aucun groupe de membres disponible.',
+'no_results' => 'Aucun groupe de membres disponible.',
 
-'no_sync_title'				=> 'Aucun résultat', // @todo, this phrase should change, just not sure what to put  -ga
+'no_sync_title' => 'Aucun résultat', // @todo, this phrase should change, just not sure what to put  -ga
 'no_upload_directories' => 'Aucun répertoire de téléchargement n\'est disponible pour le moment. Merci d\'<a href="%s" rel="external" target="_blank">ajouter un ou plusieurs répertoire de téléchargement</a> avant d\'utiliser le type de champ fichier.',
 
-'no_upload_dirs_available'	=> 'Aucun répertoire de téléchargement disponible',
+'no_upload_dirs_available' => 'Aucun répertoire de téléchargement disponible',
 
-'no_upload_prefs' => "Il n'y a encore aucune préférence pour le téléchargement de fichiers",
+'no_upload_prefs' => 'Il n\'y a encore aucune préférence pour le téléchargement de fichiers',
 
-'pagination_count_text'     => 'Affichage de %s à %s parmi %s fichiers.',
+'pagination_count_text' => 'Affichage de %s à %s parmi %s fichiers.',
 
-'pagination_filter_text'    => 'Afficher les fichiers comme %s',
+'pagination_filter_text' => 'Afficher les fichiers comme %s',
 
-'pagination_page'			=> 'Page',
+'pagination_page' => 'Page',
 
 'php_max_filesize'=>'La taille maximale de téléchargement autorisée par PHP est %s',
 
-'please_add_upload' => "Il n'y a actuellement aucun répertoire de téléchargement disponible. Merci d'en ajouter un (ou plus) afin de pouvoir utiliser le type de champ Fichier.",
+'please_add_upload' => 'Il n\'y a actuellement aucun répertoire de téléchargement disponible. Merci d\'en ajouter un (ou plus) afin de pouvoir utiliser le type de champ Fichier.',
 
-'please_select'				=> 'Merci de sélectionner...',
+'please_select' => 'Merci de sélectionner...',
 
 'post_format' => 'Post-formatage de l\'image',
 
 'pre_format' => 'Pré-formatage de l\'image',
 
-'preferences_updated' 		=>  'Préférences mises à jour',
+'preferences_updated'  =>  'Préférences mises à jour',
 
-'processing_image'		=> 'Traitement de l\'image',
+'processing_image' => 'Traitement de l\'image',
 
 'properties' => 'Propriétés de l\'image',
 
-'resize_height'			=> 'Hauteur',
+'resize_height' => 'Hauteur',
 
-'resize_mode'			=> 'Mode Redimensionnement',
+'resize_mode' => 'Mode Redimensionnement',
 
 'resize_over_confirmation' => 'Redimensionner cette image dans une taille plus grande que celle de la source donnera une image de moindre qualité. Êtes-vous sûr de vouloir faire cela ?',
 
-'resize_type'			=> 'Type de redimensionnement',
+'resize_type' => 'Type de redimensionnement',
 
-'resize_width'			=> 'Largeur',
+'resize_width' => 'Largeur',
 
-'resize'				=> 'Redimensionner',
+'resize' => 'Redimensionner',
 
 'restrict_notes_1' => 'Ces boutons radio vous permettent de définir les groupes de membres autorisés à télécharger des fichiers.',
 
@@ -738,65 +739,71 @@ $lang = array(
 
 'restrict_to_group' => 'Restreindre le téléchargement de fichier aux groupes de membres sélectionnés',
 
-'rotate_180'			=> "180°",
+'rotate_180' => '180°',
 
-'rotate_90l'			=> "90° à gauche",
+'rotate_90l' => '90° à gauche',
 
-'rotate_90r'			=> "90° à droite",
+'rotate_90r' => '90° à droite',
 
-'rotate_flip_hor'		=> 'Basculer horizontalement',
+'rotate_flip_hor' => 'Basculer horizontalement',
 
-'rotate_flip_vert'		=> 'Basculer verticalement',
+'rotate_flip_vert' => 'Basculer verticalement',
 
-'rotate_mode'			=> 'Mode Rotation',
+'rotate_mode' => 'Mode Rotation',
 
-'rotate'				=> 'Rotation',
+'rotate' => 'Rotation',
 
-'save_crop' 			=> 'Enregistrer le rognage',
+'save_crop'  => 'Enregistrer le rognage',
 
-'save_image'			=> 'Enregistrer l\'image',
+'save_image' => 'Enregistrer l\'image',
 
-'search_files'				=> 'Rechercher des fichiers',
+'search_files' => 'Rechercher des fichiers',
 
-'search_in'					=> 'Chercher dans',
+'search_in' => 'Chercher dans',
 
 'server_path' => 'Chemin serveur vers le répertoire de téléchargement',
 
-'short_name'				=> 'Nom court',
+'short_name' => 'Nom court',
 
-'sync_complete'				=> 'La synchonisation des fichiers est terminé.',
+'sync_complete' => 'La synchonisation des fichiers est terminé.',
 
-'sync_progress'				=> 'Progression',
+'sync_progress' => 'Progression',
 
-'synchronize_directory'		=> 'Synchroniser le répertoire',
+'synchronize_directory' => 'Synchroniser le répertoire',
 
-'thumbnails'				=> 'miniatures',
+'thumbnails' => 'miniatures',
 
 'total_dir_size'            => 'Taille totale du répertoire :',
 
-'upload_dir_dropdown'		=> '%s (%s fichiers)',
+'upload_dir_dropdown' => '%s (%s fichiers)',
 
 'upload_pref_deleted' => 'Préférences de téléchargement supprimées :',
 
 'upload_pref_name' => 'Nom du répertoire de téléchargement',
 
-'uploading_file'		=> 'Fichier en cours de téléchargement',
+'uploading_file' => 'Fichier en cours de téléchargement',
 
 'url_to_upload_dir' => 'URL du répertoire de téléchargement',
 
-'use_file'				=> 'Utiliser le fichier envoyé',
+'use_file' => 'Utiliser le fichier envoyé',
 
-'width_needed'			=> 'Une largeur, une largeur/hauteur, ou une direction de rotation doit être sélectionnée.',
+'width_needed' => 'Une largeur, une largeur/hauteur, ou une direction de rotation doit être sélectionnée.',
 
-// Batch Page:
-'thumbnail'					=> 'Miniature',
+/* Batch Page */
 
-'caption'					=> 'Légende',
+'thumbnail' => 'Miniature',
 
-'include'					=> 'Inclure ?',
+'caption' => 'Légende',
 
-////Watermark
+'include' => 'Inclure ?',
+
+/* Watermark */
+
 'add_watermark' => 'Aucun',
+
+'bot' => 'Bas',
+
+'color_picker' => 'Sélectionneur de couleur',
 
 'create_new_wm_pref' => 'Créer un nouveau filigrane',
 
@@ -816,6 +823,8 @@ $lang = array(
 
 'invalid_short_name' => 'Le nom court des manipulations d\'image ne peut contenir que des caractères alphanumériques, des tirets et des soulignés (underscore) et il ne peut être ni "miniatures" ni "thumbs".',
 
+'mid' => 'Milieu',
+
 'no_path_or_dir' => 'Pour enregistrer un fichier, vous devez préciser non seulement le chemin vers le fichier mais aussi le numéro (#) d\'un répertoire',
 
 'no_permission' => 'Vous n\'avez pas l\'autorisation d\'enregistrer un fichier',
@@ -830,7 +839,25 @@ $lang = array(
 
 'watermark_pref_deleted' => 'Préférences de filigrane supprimées',
 
+'watermark_prefs' => 'Préférences de filigrane',
+
+'wm_alignment' => 'Alignement du filigrane',
+
 'wm_edit' => 'Modifier le filigrane',
+
+'wm_font_color' => 'Couleur du texte',
+
+'wm_font_size' => 'Taille de police',
+
+'wm_font' => 'Police',
+
+'wm_graphic' => 'Version Graphique',
+
+'wm_hor_offset' => 'Décalage Horizontal',
+
+'wm_image_path' => 'Chemin serveur vers l\'image filigrane',
+
+'wm_missing_font' => 'Impossible d\'accéder à la police spécifiée. Merci de vérifier son chemin d\'accès serveur.',
 
 'wm_name_taken' => 'Doublon de nom',
 
@@ -838,64 +865,41 @@ $lang = array(
 
 'wm_new' => 'Créer un filigrane',
 
+'wm_offset' => 'Décalage du filigrane',
+
+'wm_opacity' => 'Opacité du filigrane',
+
+'wm_padding' => 'Remplissage (padding)',
+
+'wm_shadow_color' => 'Couleur de l\'ombre portée (code hex)',
+
+'wm_shadow_distance' => 'Distance de l\'ombre portée (en px)',
+
+'wm_test_explain' => 'Le bouton ci-dessous vous permet de tester vos préférences de filigrane sans quitter cette page. Avant de continuer, vous devez d\'abord définir le chemin serveur vers une image de test.',
+
+'wm_test_image_path' => 'Chemin serveur vers l\'image test',
+
+'wm_test_now' => 'Tester vos paramètres de filigrane',
+
 'wm_test' => 'Tester le filigrane',
+
+'wm_text' => 'Texte du filigrane',
 
 'wm_type' => 'Type de filigrane',
 
+'wm_use_drop_shadow' => 'Activer les ombres portées (dropshadow)',
+
+'wm_use_font' => 'Utiliser une police TrueType',
+
+'wm_vrt_offset' => 'Décalage Vertical',
+
 'wm_watermark' => 'Filigrane',
 
-"bot" => "Bas",
+'wm_x_transp' => 'Coordonnée X de transparence',
 
-"color_picker" => "Sélectionneur de couleur",
-
-"mid" => "Milieu",
-
-"watermark_prefs" => "Préférences de filigrane",
-
-"wm_alignment" => "Alignement du filigrane",
-
-"wm_font_color" => "Couleur du texte",
-
-"wm_font_size" => "Taille de police",
-
-"wm_font" => "Police",
-
-"wm_graphic" => "Version Graphique",
-
-"wm_hor_offset" => "Décalage Horizontal",
-
-"wm_image_path" => "Chemin serveur vers l'image filigrane",
-
-"wm_missing_font" => "Impossible d'accéder à la police spécifiée. Merci de vérifier son chemin d'accès serveur.",
-
-"wm_offset" => "Décalage du filigrane",
-
-"wm_opacity" => "Opacité du filigrane",
-
-"wm_padding" => "Remplissage (padding)",
-
-"wm_shadow_color" => "Couleur de l'ombre portée (code hex)",
-
-"wm_shadow_distance" => "Distance de l'ombre portée (en px)",
-
-"wm_test_explain" => "Le bouton ci-dessous vous permet de tester vos préférences de filigrane sans quitter cette page. Avant de continuer, vous devez d'abord définir le chemin serveur vers une image de test.",
-
-"wm_test_image_path" => "Chemin serveur vers l'image test",
-
-"wm_test_now" => "Tester vos paramètres de filigrane",
-
-"wm_text" => "Texte du filigrane",
-
-"wm_use_drop_shadow" => "Activer les ombres portées (dropshadow)",
-
-"wm_use_font" => "Utiliser une police TrueType",
-
-"wm_vrt_offset" => "Décalage Vertical",
-
-"wm_x_transp" => "Coordonnée X de transparence",
-
-"wm_y_transp" => "Coordonnée Y de transparence",
+'wm_y_transp' => 'Coordonnée Y de transparence',
 
 );
+
 
 // EOF

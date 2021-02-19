@@ -2,8 +2,11 @@
 
 $lang = array(
 
+
 //----------------------------------------
+
 // Required for MODULES page
+
 //----------------------------------------
 
 "forum_module_description" => "Module de forum de discussion",
@@ -16,6 +19,7 @@ $lang = array(
 
 'new_category' => 'Nouvelle catégorie',
 
+
 // Sidebar
 'templates' => 'Modèles',
 
@@ -26,6 +30,7 @@ $lang = array(
 'forum_aliases' => 'Alias de forums',
 
 'create_new_board' => 'Créer un nouveau forum',
+
 
 // List / Index
 'create_new_category' => 'Créer une nouvelle catégorie',
@@ -40,8 +45,10 @@ $lang = array(
 
 'forums_ajax_reorder_fail_desc' => 'Nous n\'avons pas pu enregistrer le nouvel ordre du forum. Rafraîchissez la page et vérifiez que vous êtes bien connecté.',
 
+
 // "Common"
 'recipients' => 'destinataires',
+
 
 // Create / Edit Forum Alias Form
 
@@ -80,6 +87,7 @@ $lang = array(
 'forum_alias_removed' => 'Alias de forum supprimé',
 
 'forum_alias_removed_desc' => 'L\'alias de forum <b>%s</b> a été supprimé.',
+
 
 // Create / Edit Forum Board Form
 'create_forum_board' => 'Créer un forum',
@@ -326,6 +334,7 @@ $lang = array(
 
 'edit_forum_board_error_desc' => 'Nous n\'avons pas pu mettre à jour le forum, merci de vérifier et corriger les erreurs ci-dessous.',
 
+
 // Create/Edit Category Form
 
 'create_category' => 'Créer une catégorie',
@@ -360,6 +369,7 @@ $lang = array(
 
 'edit_category_error_desc' => 'Nous n\'avons pas pu mettre à jour cette catégorie, merci de vérifier et corriger les erreurs ci-dessous.',
 
+
 // Create/Edit Forum Form
 
 'create_forum' => 'Créer un forum',
@@ -390,6 +400,7 @@ $lang = array(
 
 'forum_board_removed_desc' => 'Les forums suivants ont été supprimés :',
 
+
 // Category Permissions
 
 'category_permissions' => 'Permissions pour %s',
@@ -408,6 +419,7 @@ $lang = array(
 
 'edit_category_settings_success_desc' => 'Les permissions pour la catégorie <b>%s</b> ont été mises à jour.',
 
+
 // Forum Permissions
 
 'forum_permissions' => 'Permissions pour %s',
@@ -423,6 +435,7 @@ $lang = array(
 'edit_forum_settings_success' => 'Permissions de Forum mises à jour',
 
 'edit_forum_settings_success_desc' => 'Les permissions pour le forum <b>%s</b> ont été mises à jour.',
+
 
 // Member Ranks
 
@@ -470,6 +483,7 @@ $lang = array(
 
 'ranks_removed_desc' => 'Les rangs de membre suivants ont été supprimés :',
 
+
 // Administrators
 
 'administrators' => 'Administrateurs',
@@ -511,6 +525,7 @@ $lang = array(
 'admins_removed' => 'Administrateurs supprimés',
 
 'admins_removed_desc' => 'Les administrateurs suivants ont été supprimés :',
+
 
 // Moderators
 
@@ -576,6 +591,7 @@ $lang = array(
 
 'moderator_removed_desc' => 'Le modérateur <b>%s</b> a été supprimé.',
 
+
 // Forum Publish Tab
 'only_forum_topic_id' => 'Ne spécifiez pas un Titre ou un Corps de forum quand vous définissez une ID de sujet de forum.',
 
@@ -584,5 +600,6 @@ $lang = array(
 'no_forum_permissions' => 'Vous n\'avez pas les autorisations nécessaires pour publier un message sur ce forum.',
 
 );
+
 
 // EOF

@@ -2,18 +2,13 @@
 
 $lang = array(
 
-//----------------------------------------
-// Required for MODULES page
-//----------------------------------------
+/* Required for MODULES page */
 
 "emoticon_module_name" => "Émoticône",
 
 "emoticon_module_description" => "Module d'émoticônes (smileys)",
 
-
-//----------------------------------------
-// Emoticon language lines
-//----------------------------------------
+/* Emoticon language lines */
 
 "emoticon_heading" => "Émoticône",
 
@@ -26,8 +21,7 @@ $lang = array(
 "emoticon_height" => "Hauteur",
 
 "emoticon_alt" => "Balise Alt",
-
-
 );
+
 
 // EOF

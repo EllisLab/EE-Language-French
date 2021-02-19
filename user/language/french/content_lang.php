@@ -50,7 +50,7 @@ $lang = array(
 
 'channel' => 'Canal',
 
-'column_categories'	=>	'Catégories',
+'column_categories' => 'Catégories',
 
 'column_comment_date' => 'Date',
 
@@ -178,16 +178,13 @@ $lang = array(
 
 'url_title' => 'Titre <abbr title="Unified Resource Locator">URL</abbr>',
 
-
-//----------------------------
-// Publish page
-//----------------------------
+/* Publish page */
 
 'action_delete' => 'Effacer',
 
 'actions' => 'Actions',
 
-'add'	=>	'Ajouter',
+'add' => 'Ajouter',
 
 'add_author_desc' => 'Les paramètres de groupe outrepassent les paramètres individuels, et certains utilisateurs ne peuvent être supprimés de la liste d\'auteurs.',
 
@@ -783,7 +780,7 @@ $lang = array(
 
 'you_have_uploaded' => 'Vous avez téléchargé le fichier suivant :',
 
-// Textarea Buttons
+/* Textarea Buttons */
 
 'create_blockquote' => 'créer une citation',
 
@@ -807,17 +804,17 @@ $lang = array(
 
 'view_code' => 'voir le code HTML',
 
-// Relationships
+/* Relationships */
 
 'add_new_html_button' => 'Ajouter un nouveau bouton HTML',
 
 'add_new_row' => 'Ajouter une nouvelle ligne',
 
-'add_row'	=>	'Ajouter une ligne',
+'add_row' => 'Ajouter une ligne',
 
 'collapse' => 'Réduire',
 
-'collapse_all'	=>	'Tout réduire',
+'collapse_all' => 'Tout réduire',
 
 'creating_new_in_rel' => 'Création d\'un nouvel article dans <b>#to_channel#</b> pour une relation avec <b>#from_channel#</b>',
 
@@ -851,7 +848,7 @@ $lang = array(
 
 'show_tools' => 'Afficher les outils',
 
-// writemode
+/* writemode */
 
 'add_file' => 'Ajouter un fichier',
 
@@ -947,7 +944,7 @@ $lang = array(
 
 'menu_publish' => 'Publier',
 
-'rel_ft_no_entries'			=> 'Aucun article',
+'rel_ft_no_entries' => 'Aucun article',
 
 /* Bulk Edit */
 
@@ -1012,5 +1009,6 @@ $lang = array(
 'entry_manager_view_not_updated_desc' => 'Nous n\'avons pas pu mettre à jour cette vue, merci de revoir et de corriger les erreurs ci-dessous.',
 
 );
+
 
 // EOF

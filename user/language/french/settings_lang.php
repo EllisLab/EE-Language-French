@@ -3,6 +3,7 @@
 $lang = array(
 
 /* Menu */
+
 'access_throttling' => 'Filtrage des accès',
 
 'avatars' => 'Avatars',
@@ -52,6 +53,7 @@ $lang = array(
 'word_censoring' => 'Censure de mots',
 
 /* General Settings */
+
 'auto' => 'Auto',
 
 'btn_save_settings' => 'Enregistrer les paramètres',
@@ -68,7 +70,7 @@ $lang = array(
 
 'enable_msm' => 'Activer le gestionnaire de sites (MSM) ?',
 
-'error_getting_version'	=> 'Vous utilisez ExpressionEngine %s. Impossible de déterminer à cet instant si une version plus récente est disponible.',
+'error_getting_version' => 'Vous utilisez ExpressionEngine %s. Impossible de déterminer à cet instant si une version plus récente est disponible.',
 
 'include_seconds_desc' => 'Si activé, les secondes seront ajoutées au format de date affiché.',
 
@@ -77,10 +79,6 @@ $lang = array(
 'language' => 'Langue',
 
 'manual' => 'Manuel',
-
-'offline' => 'Hors Ligne',
-
-'online' => 'En Ligne',
 
 'show_ee_news' => 'Afficher les Actualités sur ExpressionEngine ?',
 
@@ -109,6 +107,7 @@ $lang = array(
 "24_hour" => "24 heures",
 
 /* URLs and Path Settings */
+
 'base_path_desc' => 'Utilisez <code>{base_path}</code> pour construire des chemins serveur dans les champs "chemin" du panneau de contrôle.',
 
 'base_path' => 'Chemin de base par défaut',
@@ -136,6 +135,8 @@ $lang = array(
 'docs_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de votre répertoire de la <code>documentation</code>.',
 
 'docs_url' => 'Répertoire de la documentation',
+
+'invalid_theme_folder_path' => 'Ce champ doit contenir un chemin valide vers le répertoire <code>themes</code> d\'ExpressionEngine, qui est normalement <code>{base_path}/themes</code>.',
 
 'member_segment_trigger_desc' => 'Mot qui déclenche l\'affichage du profil de membre. <b>Ne peut pas</b> être identique à celui identifiant un modèle ou un groupe de modèles.',
 
@@ -168,6 +169,7 @@ $lang = array(
 'url_title_separator' => 'Séparateur de titre <abbr title="Uniform Resource Location">URL</abbr>',
 
 /* Outgoing Email */
+
 'email_charset_desc' => 'Une adresse email recquiert un encodage des caractères pour être formattée correctement. UTF-8 est l\'option recommandée.',
 
 'email_charset' => 'Encodage des caractères',
@@ -229,6 +231,7 @@ $lang = array(
 'word_wrap' => 'Activer la césure de mot par défaut ?',
 
 /* Debugging & Output */
+
 'caching_driver_desc' => 'Les caches peuvent être stockées soit dans un driver basé sur les fichiers, soit dans un driver basé sur la mémoire vive.',
 
 'caching_driver_failover' => 'Impossible de se connecter à %s, utilisation du driver %s à la place.',
@@ -294,6 +297,7 @@ $lang = array(
 'use_newrelic' => 'Activer le Javascript RUM New Relic ?',
 
 /* Content & Design */
+
 'auto_assign_cat_parents_desc' => 'Si activé, ExpressionEngine assignera automatiquement la catégorie parente lors de la sélection d\'une catégorie enfant.',
 
 'auto_assign_cat_parents' => 'Affectation automatique des catégories parentes ?',
@@ -318,7 +322,7 @@ $lang = array(
 
 'gd' => 'GD',
 
-'gd2' => 'GD 2',
+'gd2' => 'GD2',
 
 'image_library_path_desc' => 'Chemin serveur complet pour le <code>programme image</code>.</em><br /><em><b>Obligatoire</b> pour ImageMagick and NetPBM.',
 
@@ -345,6 +349,7 @@ $lang = array(
 'thumbnail_suffix' => 'Suffixe des miniatures',
 
 /* Comment Settings */
+
 'all_comments' => 'Tous les commentaires',
 
 'comment_edit_time_limit_desc' => 'Période de temps après la soumission pendant lequel un utilisateur peut modifier son propre commentaire. Mettre <b>0</b> pour aucune limite.',
@@ -366,6 +371,7 @@ $lang = array(
 'options' => 'Options',
 
 /* Template Settings */
+
 'max_tmpl_revisions_desc' => 'Le nombre maximum de versions qui doivent être conservées pour CHAQUE modèle. Nous recommandons une valeur faible, au risque d\'avoir une base de données beaucoup plus grande qu\'à la normale.',
 
 'max_tmpl_revisions' => 'Nombre maximum de versions à conserver ?',
@@ -389,6 +395,7 @@ $lang = array(
 'template_manager' => 'Gestion des Modèles',
 
 /* Hit Tracking */
+
 'dynamic_tracking_disabling_desc' => 'TOUS les suivis seront suspendus lorsque le nombre de visiteurs en ligne dépassera cette valeur.</em> <em>Le suivi des utilisateurs en ligne doit être activé pour utiliser cette fonctionnalitée. <a href="%s" ref="external">En savoir plus</a>',
 
 'dynamic_tracking_disabling' => 'Seuil de suspension du suivi',
@@ -412,6 +419,7 @@ $lang = array(
 'max_referrers' => 'Nombre maximum de référants récent à enregistrer',
 
 /* Word Censoring */
+
 'censor_replacement_desc' => 'Si un mot utilisé est listé dans la liste de censure, il sera automatiquement remplacé par ces caractères.',
 
 'censor_replacement' => 'Caractères de remplacement',
@@ -425,6 +433,7 @@ $lang = array(
 'enable_censoring' => 'Activer la censure de mots ?',
 
 /* Member Settings */
+
 'allow_member_localization_desc' => 'Si activé, Les membres pourront choisir leurs propres préférences de localisation pour leur compte.',
 
 'allow_member_localization' => 'Autoriser les membres à fixer leurs préférences de date et heure ?',
@@ -494,6 +503,7 @@ $lang = array(
 'require_terms_of_service' => 'Acceptation obligatoire des conditions d\'utilisation ?',
 
 /* Menu Manager */
+
 'add_menu_item' => 'Ajouter élément de menu',
 
 'assigned_to' => 'affecté à',
@@ -563,6 +573,7 @@ $lang = array(
 'submenu' => 'Sous-menu',
 
 /* Messages */
+
 'attachment_settings' => 'Paramètres des pièces jointes',
 
 'messaging_settings' => 'Paramètres de messagerie',
@@ -600,6 +611,7 @@ $lang = array(
 "html_safe" => "Autoriser uniquement le HTML sûr",
 
 /* Avatars */
+
 'avatar_file_restrictions' => 'Restrictions des fichiers avatars',
 
 'avatar_max_height' => 'Hauteur maximale (<abbr title="pixels">px</abbr>)',
@@ -619,6 +631,7 @@ $lang = array(
 'avatar_url' => 'Répertoire des avatars',
 
 /* CAPTCHA */
+
 'captcha_font_desc' => 'Si activé, les champs <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr> utiliseront une police TrueType pour l\'affichage.',
 
 'captcha_font' => 'Utiliser les polices TrueType ?',
@@ -648,6 +661,7 @@ $lang = array(
 'require_captcha' => 'Exiger un <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>?',
 
 /* Security & Privacy */
+
 'allow_dictionary_pw_desc' => 'Si activé, les membres seront autorisés à utiliser des mots communs du dictionnaire dans leur mot de passe. <code>nécessite qu\'un fichier dictionnaire soit installé pour pouvoir être opérationnel.</code>',
 
 'allow_dictionary_pw' => 'Autoriser des mots du dictionnaire comme mot de passe ?',
@@ -757,6 +771,7 @@ $lang = array(
 'xss_clean_uploads' => 'Appliquer un filtrage <abbr title="Cross Site Scripting">XSS</abbr> ?',
 
 /* Access Throttling */
+
 'banish_404' => 'Page d\'en-têtes 404',
 
 'banish_masked_ips_desc' => 'Si activé, les membres ne pourront pas avoir d\'accès s\'ils n\'ont pas une adresse <abbr title="Internet Protocol">IP</abbr> valide.',
@@ -794,6 +809,7 @@ $lang = array(
 "time_interval" => "Intervalle de temps",
 
 /* HTML Buttons */
+
 'create_html_buttons_error_desc' => 'Nous n\'avons pas pu créer ce bouton HTML, merci de vérifier et corriger les erreurs ci-dessous.',
 
 'create_html_buttons_error' => 'Impossible de créer le bouton HTML',
@@ -811,6 +827,7 @@ $lang = array(
 'edit_html_buttons_success' => 'Bouton HTML mis à jour',
 
 /* Consent Requests */
+
 'consent_request_versions' => 'Versions de %s',
 
 'new_version' => 'Nouvelle version',
@@ -826,5 +843,6 @@ $lang = array(
 'cookie_consent_disabled_desc' => 'Les requêtes de consentement liées aux cookies n\'ont aucun effet sur la définition des cookies, à moins que le <a href="%s">paramètre de consentement des cookies</a> ne soit activé.'
 
 );
+
 
 // EOF

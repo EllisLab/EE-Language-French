@@ -2,8 +2,11 @@
 
 $lang = array(
 
+
 //----------------------------------------
+
 // Required for MODULES page
+
 //----------------------------------------
 
 'all_pages' => 'Toutes les pages',
@@ -115,5 +118,6 @@ $lang = array(
 "pages_module_name" => "Pages",
 
 );
+
 
 // EOF

@@ -208,7 +208,7 @@ $lang = array(
 
 'reserved_name' => 'Le nom que vous avez choisi est un mot réservé qui ne peut pas être utilisé.',
 
-'roles'	=>	'Rôles',
+'roles' => 'Rôles',
 
 'routes' => 'Routes',
 
@@ -296,7 +296,7 @@ $lang = array(
 
 'zero_template_groups_found' => 'Aucun <b>groupe de modèles</b> trouvé',
 
-// System Templates -> Messages
+/* System Templates -> Messages */
 
 'system' => 'Système',
 
@@ -310,7 +310,7 @@ $lang = array(
 
 'message_template_warning' => '<b>Attention</b> : ne supprimer aucune des 5 variables obligatoires : {title} {meta_refresh} {heading} {content} {link}',
 
-// System Templates -> Email
+/* System Templates -> Email */
 
 'email_message_templates' => 'Modèles d\'email',
 
@@ -332,44 +332,38 @@ $lang = array(
 
 'forums' => 'Forums',
 
-// System Templates -> Members
+/* System Templates -> Members */
 
 'file_not_writable' => '<b>Attention</b> : ce fichier n\'est pas inscriptible',
 
 'file_writing_instructions' => 'Vous ne pourrez pas enregistrer les modifications de ce modèle tant que vous ne donnerez pas les droits d\'écriture pour ce serveur.',
 
-// System Templates -> Forums
+/* System Templates -> Forums */
 
 'forum_manager' => 'Gestion des Forums',
 
 'forum_templates' => 'Modèles de Forum',
-
-
 'unable_to_find_templates' => 'Impossible de trouver les modèles.',
 
 'unable_to_find_template_file' => 'Impossible de trouver le fichier de modèle.',
 
-//----------------------------
-// Menu
-//----------------------------
+/* Menu */
 
-"templates" 					=>	"Modèles",
+"templates"  => "Modèles",
 
-"message_pages"					=>	"Pages de Message",
+"message_pages" => "Pages de Message",
 
-"themes"						=>	"Thèmes",
+"themes" => "Thèmes",
 
-"specialty_templates"			=>	"Modèles spécialisés",
+"specialty_templates" => "Modèles spécialisés",
 
-"forum_themes"					=>	"Thèmes du Forum",
+"forum_themes" => "Thèmes du Forum",
 
-"wiki_themes"					=>	"Thèmes du Wiki",
+"wiki_themes" => "Thèmes du Wiki",
 
-"member_profile_templates"		=>	"Modèles de profil de membre",
+"member_profile_templates" => "Modèles de profil de membre",
 
-//----------------------------
-// Templates
-//----------------------------
+/* Templates */
 
 'alphabetize_group_order' => "Trier les groupes par ordre alphabétique",
 
@@ -777,9 +771,7 @@ $lang = array(
 
 "you_must_submit_a_name" => "Votre modèle doit avoir un nom",
 
-//----------------------------
-// Profile Theme Templates
-//----------------------------
+/* Profile Theme Templates */
 
 'activation_email_resent' => "L'email d'activation a été renvoyé",
 
@@ -963,9 +955,7 @@ $lang = array(
 
 "view_message" => "Message privé - Voir le message",
 
-//----------------------------
-// Tag Validation
-//----------------------------
+/* Tag Validation */
 
 'tag_class_error' => 'Balise invalide (aucun plugin ou module correspondant)',
 
@@ -984,5 +974,6 @@ $lang = array(
 'tmpl_revisions_not_enabled' => 'Les versions de modèle ne sont pas activées.',
 
 );
+
 
 // EOF

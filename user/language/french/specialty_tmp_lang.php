@@ -4,7 +4,7 @@ $lang = array(
 
 'comments_opened_notification' => 'Notification de nouveau commentaire utilisateur',
 
-'email_subject'	=> 'Objet de l\'email',
+'email_subject' => 'Objet de l\'email',
 
 'forum_announcements' => 'Annonces',
 
@@ -74,7 +74,7 @@ $lang = array(
 
 'forum_user_banning' => 'Exclusion d\'un utilisateur',
 
-'message_body'	=> 'Corps du message de l\'email',
+'message_body' => 'Corps du message de l\'email',
 
 'notification_has_char_limit' => 'La plupart des variables ci-dessus acceptent un paramètre char_limit : {title char_limit="40"}',
 
@@ -167,5 +167,6 @@ $lang = array(
 "validated_member_notify" => "Notification de validation de compte membre",
 
 );
+
 
 // EOF

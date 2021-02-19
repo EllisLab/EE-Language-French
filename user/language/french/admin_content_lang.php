@@ -500,10 +500,7 @@ $lang = array(
 
 "versioning" => "Préférences des versions",
 
-
-//----------------------------
-// Generic Phrases
-//----------------------------
+/* Generic Phrases */
 
 'delete_group' => 'Supprimer le groupe',
 
@@ -521,10 +518,7 @@ $lang = array(
 
 'total_fields' => 'Nombre total de champs',
 
-
-//----------------------------
-// Category Administration
-//----------------------------
+/* Category Administration */
 
 'can_delete_categories' => 'Peut supprimer des catégories',
 
@@ -562,9 +556,9 @@ $lang = array(
 
 'exclude_from_channels_or_publish' => 'Exclure de l\'affectation à un Canal ou à un Fichier ?',
 
-'exclude_from_files'		=> 'Affectation à un Fichier',
+'exclude_from_files' => 'Affectation à un Fichier',
 
-'exclude_from_publish' 		=> 'Affectation à un Canal',
+'exclude_from_publish'  => 'Affectation à un Canal',
 
 'formatting' => 'Formatage :',
 
@@ -632,9 +626,7 @@ $lang = array(
 
 "taken_category_group_name" => "Ce nom de groupe est déjà utilisé.",
 
-//----------------------------
-// Custom field Administration
-//----------------------------
+/* Custom field Administration */
 
 'duplicate_truncated_field_name' => 'Le nom de champ que vous avez choisi est trop long et le nom tronqué est déjà utilisé.',
 
@@ -768,9 +760,7 @@ $lang = array(
 
 "textarea" => "Zone de texte",
 
-//----------------------------
-// Status Administration
-//----------------------------
+/* Status Administration */
 
 'content_type_changed' => 'Le type de contenu de votre champ va être modifié (avant : %s). Modifier les options des types de champ peut conduire à une perte de données. Agissez prudemment !',
 
@@ -826,9 +816,7 @@ $lang = array(
 
 "statuses" => "Statuts",
 
-//----------------------------
-// Channel Form Settings
-//----------------------------
+/* Channel Form Settings */
 
 'channel_form_allow_guest_posts' => 'Autoriser les soumissions par les invités ?',
 
@@ -844,9 +832,7 @@ $lang = array(
 
 'channel_form_settings' => 'Paramètres du formulaire de canal',
 
-//----------------------------
-// Channel Entries API
-//----------------------------
+/* Channel Entries API */
 
 'invalid_api_parameter' => "Impossible de créer/mettre à jour l'article. Les paramètres de l'API sont manquants.",
 
@@ -859,5 +845,6 @@ $lang = array(
 'db_column_type_desc' => 'Choisissez le type de colonne de base de données qui contiendra vos données. TEXT (64Kb) est normalement OK pour un article. Si le contenu de votre champ est plutôt un livre, sélectionnez MEDIUMTEXT (16Mb).'
 
 );
+
 
 // EOF

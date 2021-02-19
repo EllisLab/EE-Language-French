@@ -2,9 +2,7 @@
 
 $lang = array(
 
-//----------------------------
-// Modules
-//----------------------------
+/* Modules */
 
 'all_modules_up_to_date' => 'Tous les modules sont à jour.',
 
@@ -55,5 +53,6 @@ $lang = array(
 "not_installed" => "Non installé",
 
 );
+
 
 // EOF

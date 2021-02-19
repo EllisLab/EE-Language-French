@@ -10,9 +10,7 @@ $lang = array(
 
 'pconnect' => 'Connexions persistantes à la base de données ?',
 
-// ---------------------------
-//  Member List Config
-// ---------------------------
+/*  Member List Config */
 
 'memberlist_asc' => 'Ascendant',
 
@@ -34,9 +32,7 @@ $lang = array(
 
 'xss_clean_uploads' => 'Appliquer le filtrage XSS aux fichiers téléchargés ?',
 
-// ---------------------------
-//  Explanatory Blurbs
-// ---------------------------
+/*  Explanatory Blurbs */
 
 'channel_administration_blurb' => 'Cette zone vous permet de gérer vos canaux et leurs préférences.',
 
@@ -54,10 +50,7 @@ $lang = array(
 
 'utilities_blurb' => 'Cette zone contient des utilitaires pour vous aider à gérer ExpressionEngine.',
 
-
-// ---------------------------
-//  Extensions Stuff
-// ---------------------------
+/*  Extensions Stuff */
 
 'available_extensions' => 'Extensions disponibles',
 
@@ -125,9 +118,7 @@ $lang = array(
 
 'webmaster_name' => 'Webmestre ou nom du site pour les emails générés automatiquement',
 
-//----------------------------
-// Admin Page
-//----------------------------
+/* Admin Page */
 
 '404_page' => 'Page d\'en-têtes 404',
 
@@ -393,7 +384,7 @@ $lang = array(
 
 'gd' => 'GD',
 
-'gd2' => 'GD 2',
+'gd2' => 'GD2',
 
 'general_cfg' => 'Configuration générale',
 
@@ -986,4 +977,3 @@ $lang = array(
 );
 
 // EOF
-

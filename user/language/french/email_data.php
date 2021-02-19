@@ -1,7 +1,10 @@
 <?php
 
+
 //---------------------------------------------------
+
 //	Admin Notification of New Entry
+
 //--------------------------------------------------
 
 if ( ! function_exists('admin_notify_entry_title')) {
@@ -34,9 +37,10 @@ EOF;
 }
 
 
-
 //---------------------------------------------------
+
 //	Admin Notification of New Member Registrations
+
 //--------------------------------------------------
 
 if ( ! function_exists('admin_notify_reg_title')) {
@@ -64,9 +68,10 @@ EOF;
 }
 
 
-
 //---------------------------------------------------
+
 //	Admin Notification of New Comment
+
 //--------------------------------------------------
 
 if ( ! function_exists('admin_notify_comment_title'))
@@ -103,9 +108,10 @@ EOF;
 }
 
 
-
 //---------------------------------------------------
+
 //	Membership Activation Instructions
+
 //--------------------------------------------------
 
 if ( ! function_exists('mbr_activation_instructions_title')) {
@@ -137,9 +143,10 @@ EOF;
 }
 
 
-
 //---------------------------------------------------
+
 //	Member Forgotten Password Instructions
+
 //--------------------------------------------------
 
 if ( ! function_exists('forgot_password_instructions_title')) {
@@ -219,8 +226,11 @@ EOF;
 	}
 }
 
+
 //---------------------------------------------------
+
 //	Validated Member Notification
+
 //--------------------------------------------------
 
 if ( ! function_exists('validated_member_notify_title')) {
@@ -249,9 +259,10 @@ EOF;
 }
 
 
-
 //---------------------------------------------------
+
 //	Decline Member Validation
+
 //--------------------------------------------------
 
 if ( ! function_exists('decline_member_validation_title')) {
@@ -277,9 +288,10 @@ EOF;
 	}
 }
 
-
 //---------------------------------------------------
+
 //	Comment Notification
+
 //--------------------------------------------------
 
 if ( ! function_exists('comment_notification_title')) {
@@ -312,8 +324,11 @@ EOF;
 	}
 }
 
+
 //---------------------------------------------------
+
 //	Comments Opened Notification
+
 //--------------------------------------------------
 
 if ( ! function_exists('comments_opened_notification_title')) {
@@ -348,8 +363,11 @@ EOF;
 	}
 }
 
+
 //---------------------------------------------------
+
 //	Admin Notification of New Forum Post
+
 //--------------------------------------------------
 
 if ( ! function_exists('admin_notify_forum_post_title')) {
@@ -379,9 +397,10 @@ EOF;
 }
 
 
-
 //---------------------------------------------------
+
 //	Forum Post User Notification
+
 //--------------------------------------------------
 
 if ( ! function_exists('forum_post_notification_title')) {
@@ -415,9 +434,10 @@ EOF;
 }
 
 
-
 //---------------------------------------------------
+
 //	Private Message Notification
+
 //--------------------------------------------------
 
 if ( ! function_exists('private_message_notification_title')) {
@@ -454,9 +474,10 @@ EOF;
 }
 
 
-
 /* -------------------------------------
+
 /*  Notification of Full PM InBox
+
 /* -------------------------------------*/
 if ( ! function_exists('pm_inbox_full_title')) {
 	function pm_inbox_full_title()
@@ -485,9 +506,10 @@ EOF;
 }
 
 
-
 /* -------------------------------------
+
 /*  Notification of Forum Topic Moderation
+
 /* -------------------------------------*/
 if ( ! function_exists('forum_moderation_notification_title')) {
 	function forum_moderation_notification_title()
@@ -514,9 +536,10 @@ EOF;
 }
 
 
-
 /* -------------------------------------
+
 /*  Notification of Forum Post Report
+
 /* -------------------------------------*/
 if ( ! function_exists('forum_report_notification_title')) {
 	function forum_report_notification_title()
@@ -550,9 +573,10 @@ EOF;
 }
 
 
-
 /* -------------------------------------
+
 //  OFFLINE SYSTEM PAGE
+
 /* -------------------------------------*/
 if ( ! function_exists('offline_template')) {
 	function offline_template()
@@ -691,9 +715,10 @@ EOF;
 	}
 }
 
-
 /* -------------------------------------
+
 //  User Messages Template
+
 /* -------------------------------------*/
 if ( ! function_exists('message_template')) {
 	function message_template()
@@ -838,9 +863,10 @@ EOF;
 	}
 }
 
-
 /* -------------------------------------
+
 //  User Messages Template
+
 /* -------------------------------------*/
 if ( ! function_exists('post_install_message_template')) {
 	function post_install_message_template()
@@ -957,5 +983,6 @@ return <<<EOF
 EOF;
 	}
 }
+
 
 // EOF

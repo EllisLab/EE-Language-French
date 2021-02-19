@@ -2,9 +2,7 @@
 
 $lang = array(
 
-//----------------------------
-// Email
-//----------------------------
+/* Email */
 
 'em_banned_from_email' => "L'adresse email de l'expéditeur que vous avez saisie est exclue.",
 
@@ -71,5 +69,6 @@ $lang = array(
 "email_module_name" => "Email",
 
 );
+
 
 // EOF

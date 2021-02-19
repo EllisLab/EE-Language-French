@@ -2,12 +2,13 @@
 
 ## Changes Between Versions
 
+- [6.0.1 → 6.0.3](https://github.com/EllisLab/EE-Language-French/compare/46a80c1...ad4f27f)
 - [6.0.0 → 6.0.1](https://github.com/EllisLab/EE-Language-French/compare/8cb6cd3...46a80c1)
 - [5.4.0 → 6.0.0](https://github.com/EllisLab/EE-Language-French/compare/bc557fb...8cb6cd3)
 
 ## License
 
-- Copyright (C) 2009-2020 EllisLab, Inc.
+- Copyright (C) 2009-2021 Packet Tide, LLC.
 - Original French translation provided by: Jeremie Werner / Studio Meta (@studiometa)
 - 2.5.5, 2.7.x, 3.x, 4.x, 5.x and 6.x versions by: Emmanuel Beauchamps
 
