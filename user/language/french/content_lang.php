@@ -118,6 +118,8 @@ $lang = array(
 
 'entries_deleted_desc' => 'Les articles suivants ont été supprimés :',
 
+'entries_not_deleted_desc' => 'Les articles suivants n\'ont pas pu être supprimés. Merci de vérifier que vous possédez les permissions suffisantes.',
+
 'entries' => 'Articles',
 
 'entry_date_desc' => 'Date de publication de cet article.',

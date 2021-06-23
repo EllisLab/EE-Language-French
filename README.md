@@ -2,6 +2,7 @@
 
 ## Changes Between Versions
 
+- [6.0.3 → 6.0.6](https://github.com/EllisLab/EE-Language-French/compare/ad4f27f...4f93475)
 - [6.0.1 → 6.0.3](https://github.com/EllisLab/EE-Language-French/compare/46a80c1...ad4f27f)
 - [6.0.0 → 6.0.1](https://github.com/EllisLab/EE-Language-French/compare/8cb6cd3...46a80c1)
 - [5.4.0 → 6.0.0](https://github.com/EllisLab/EE-Language-French/compare/bc557fb...8cb6cd3)
