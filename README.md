@@ -1,7 +1,12 @@
-# French Translation Pack for ExpressionEngine 5.x
+# French Translation Pack for ExpressionEngine 7.x
 
 ## Changes Between Versions
 
+- [6.0.3 → 7.1.5](https://github.com/EllisLab/EE-Language-French/compare/4f93475...973e11f)
+- [6.0.3 → 6.0.6](https://github.com/EllisLab/EE-Language-French/compare/ad4f27f...4f93475)
+- [6.0.1 → 6.0.3](https://github.com/EllisLab/EE-Language-French/compare/46a80c1...ad4f27f)
+- [6.0.0 → 6.0.1](https://github.com/EllisLab/EE-Language-French/compare/8cb6cd3...46a80c1)
+- [5.4.0 → 6.0.0](https://github.com/EllisLab/EE-Language-French/compare/bc557fb...8cb6cd3)
 - [5.2.4 → 5.4](https://github.com/EllisLab/EE-Language-French/compare/0dd9867...bc557fb)
 - [5.2.3 → 5.2.4](https://github.com/EllisLab/EE-Language-French/compare/fbabe45...0dd9867)
 - [5.2.2 → 5.2.3](https://github.com/EllisLab/EE-Language-French/compare/e2c1624...fbabe45)
@@ -21,9 +26,9 @@
 
 ## License
 
-- Copyright (C) 2009-2020 EllisLab, Inc.
+- Copyright (C) 2009-2022 Packet Tide
 - Original French translation provided by: Jeremie Werner / Studio Meta (@studiometa)
-- 2.5.5, 2.7.x, 3.x, 4.x and 5.x versions by: Emmanuel Beauchamps
+- 2.5.5, 2.7.x, 3.x, 4.x, 5.x, 6.x and 7.x versions by: Emmanuel Beauchamps
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
