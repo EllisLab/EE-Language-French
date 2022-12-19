@@ -62,6 +62,7 @@ $lang = array(
     'command_make_addon_option_consents'        => 'Consentements. Option multi-pass.',
     'command_make_addon_option_cookies'         => 'Cookies à créer avec une colonne séparant le nom et sa valeur (c\'est-à-dire name:value). Option multi-pass.',
     'command_make_addon_option_hooks'           => 'Crochets utilisés. Option multi-pass.',
+    'command_make_addon_option_compatibility_mode' => 'Genère un add-on qui est compatible avec les versions d\'ExpressionEngine inférieures à 7.2.0 et inférieures à 6.4.0',
 
     // Lang entries for command make:command
     'command_make_command_description'          => 'Crée une nouvelle commande CLI pour un add-on',
@@ -128,6 +129,44 @@ $lang = array(
     'command_make_prolet_option_has_widget'            => 'Créer un widget pour l\'add-on après avoir généré le prolet (optionnel)',
     'command_make_prolet_option_widget_name'           => 'Nom du widget',
     'command_make_prolet_option_generate_icon'         => 'Génère une icône de fichier de add-on par défaut au moment de la création du prolet',
+    
+    // Lang entries for command make:action
+     'command_make_action_description'                  => 'Crée une nouvelle action pour un add-on',
+     'command_make_action_summary'                      => 'Cela génère intéractivement une action EE pour un add-on de tierce-partie déjà existant',
+     'command_make_action_lets_build_action'            => 'Construisons une nouvelle action!',
+     'command_make_action_ask_action_name'              => 'Quel est le nom de l\'action?',
+     'command_make_action_ask_addon'                    => 'A quel add-on cette action se rapporte-t-elle?',
+     'command_make_action_building_action'              => 'Construction de l\'action en cours…',
+     'command_make_action_created_successfully'         => 'Action créée avec succès!',
+     'command_make_action_error_addon_must_have_module' => 'Pour générer une action, cet add-on doit posséder un fichier de module.',
+
+     // make:action options
+     'command_make_action_option_addon'                 => 'Dossier d\'un add-on de tierce-partie auquel vous souhaitez ajouter cette action',
+
+     // Lang entries for command make:tag
+     'command_make_tag_description'                  => 'Crée une nouvelle balise pour cet add-on',
+     'command_make_tag_summary'                      => 'Ceci génère intéractivement une balise EE pour un add-on de tierce-partie existant',
+     'command_make_tag_lets_build_tag'               => 'Construisons une nouvelle balise!',
+     'command_make_tag_ask_tag_name'                 => 'Quel est le nom de la balise?',
+     'command_make_tag_ask_addon'                    => 'A quel add-on la balise est-elle ajoutée?',
+     'command_make_tag_building_tag'                 => 'Construction de la balise en cours…',
+     'command_make_tag_created_successfully'         => 'Balise créée avec succès!',
+     'command_make_tag_error_addon_must_have_module' => 'Pour générer une balise, cet add-on doit posséder un fichier ce module.',
+
+     // make:tag options
+     'command_make_tag_option_addon'                 => 'Dossier pour un add-on de tierce-partie auquel vous souhaitez ajouter la balise',
+
+     // Lang entries for command make:extension-hook
+     'command_make_extension_hook_description'                  => 'Implémente un crochet d\'extension EE au sein d\'un add-on',
+     'command_make_extension_hook_summary'                      => 'Cela implémente intéractivement un crochet d\'extension EE au sein d\'un add-on de tierce-partie déjà existant',
+     'command_make_extension_hook_lets_build_extension_hook'    => 'Implémentons un crochet d\'extension!',
+     'command_make_extension_hook_ask_extension_hook_name'      => 'Quel est le nom du crochet d\'extension?',
+     'command_make_extension_hook_ask_addon'                    => 'A quel add-on est rajouté le crochet d\'extension?',
+     'command_make_extension_hook_building_extension_hook'      => 'Construction du crochet d\'extension en cours…',
+     'command_make_extension_hook_created_successfully'         => 'Crochet d\'extension créé avec succès!',
+
+     // make:extension-hook options
+     'command_make_extension_hook_option_addon'                 => 'Dossier de l\'add-on de tierce-partie auquel vous souhaitez rajouter l\'extension',
 
     // Lang entries for command make:widget
     'command_make_widget_description'                 => 'Génère des widgets pour les add-ons existants.',

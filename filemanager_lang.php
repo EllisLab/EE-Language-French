@@ -312,6 +312,10 @@ $lang = array(
     'y_axis' => 'axe-y',
 
     'zero_upload_directories_found' => 'Aucun <b>répertoire de téléchargement</b> n\'a été trouvé.',
+    
+    'remove_files_from_disk' => 'Supprimer les fichiers du disque?',
+
+    'toggle_on_to_remove_files' => 'Basculez l\'interrupteur sur \'allumé\' pour supprimer physiquement les fichiers',
 
     /* Uploads */
     'add_manipulation' => 'Ajouter une nouvelle manipulation',
@@ -991,8 +995,6 @@ $lang = array(
     
     /* Removing */
 
-    'move_toggle_to_confirm' => 'Mettre l\'interrupteur à bascule en position <b>allumée</b> pour confirmer.',
-
     'folder_not_empty' => 'Le directoire n\'est pas vide',
 
     'all_files_in_folder_will_be_deleted' => 'Si vous supprimez ce dossier, tous les fichiers qui y sont inclus seront aussi supprimés.',
@@ -1003,8 +1005,7 @@ $lang = array(
 
     'files_is_in_use' => 'Merci de noter que certains de ces fichiers sont en cours d\'utilisation',
 
-    'confirmation_toggle_required' => 'Vous devez confirmer cette action avec l\'interrupteur à bascule',
-
+    
     /* Moving the files */
 
     'move_file' => 'Déplacer le fichier',

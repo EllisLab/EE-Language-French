@@ -485,6 +485,20 @@ $lang = array(
     'value_label_empty_field' => 'Valeurs ou étiquettes ne peuvent être vides.',
 
     'versioning' => 'Préférences de gestion des versions',
+   
+    /* field channels */
+
+     'field_channels' => 'Canaux',
+
+     'field_channels_desc' => 'Ce champ est affecté aux champs suivants',
+
+     'assigned' => 'Afecté',
+
+     'via' => 'via',
+
+     'directly' => 'directement',
+
+     'fluid_field' => 'Champ ’Fluid’',
 
     /* Generic Phrases */
     'delete' => 'Supprimer',
@@ -702,6 +716,8 @@ $lang = array(
     'multi_list_items' => 'Options multi-sélections',
 
     'new_field_group' => 'Nouveau Groupe de Champs',
+    
+    'ungrouped' => 'Dégroupé',
 
     'no_field_group_message' => 'Il n\'y a actuellement aucun champ de canal',
 
@@ -848,7 +864,7 @@ $lang = array(
 
     'textarea_height_desc' => 'Hauteur de ce champ en nombre de lignes.',
 
-    'toggle_default_value_desc' => 'La position par défaut de l\'interrupteur à bascule pour ce champ lors de la publication de nouvelles entrées.',
+    'toggle_default_value_desc' => 'La position par défaut de l\'interrupteur pour ce champ lors de la publication de nouvelles entrées.',
 
     'toggle_default_value_desc_cont' => '<b>Notez</b>: si affectées à un canal avec des entrées déjà existantes, ces dernières se verront aussi affecter cette valeur.',
 
