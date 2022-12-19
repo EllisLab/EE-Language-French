@@ -32,8 +32,8 @@ $lang = array(
 
     'ip_address' => 'Adresse <abbr title="Internet Protocol">IP</abbr>',
 
-    'ip_address_desc' => 'Placez bien chaque adresse <abbr title="Internet Protocol">IP</abbr> sur une ligne séparée.<br>Vous pouvez utiliser <code>*</code> comme un joker par exemple 123.456.<code>*</code>',
-
+    'ip_address_desc' => 'Placez bien chaque adresse <abbr title="Internet Protocol">IP</abbr> sur une ligne séparée.<br>Vous pouvez aussi utiliser des adresses IP partielles'
+    
     'user_agent' => 'Agent utilisateur',
 
     'user_agent_desc' => 'Placez bien chaque agent utilisateur sur une ligne séparée.',

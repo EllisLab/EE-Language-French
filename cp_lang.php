@@ -559,7 +559,7 @@ $lang = array(
 
     'keyword_filter' => 'Rechercher',
 
-    'log_out' => 'Déconnecter',
+    'log_out' => 'Se déconnecter',
 
     'menu_create' => 'Créer',
 
@@ -735,6 +735,10 @@ $lang = array(
     'btn_confirm_and_save' => 'Confirmer et Sauvegarder',
 
     'btn_confirm_and_save_working' => 'Sauvegarde en cours…',
+    
+     'move_toggle_to_confirm' => 'Basculez l\'interrupteur sur <b>allumé</b> pour confirmer.',
+
+     'confirmation_toggle_required' => 'Vous devez confirmer cette action avec l\'interrupteur',
 
     /* confirm delete modal */
     'btn_confirm_and_delete' => 'Confirmer et Supprimer',

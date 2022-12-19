@@ -17,6 +17,10 @@ $lang = array(
     'rte_config_settings' => 'Réglages de configuration',
     'rte_config_name' => 'Nom de configuration',
     'rte_toolbar' => 'Personnaliser la barre d\'outils',
+    'custom_stylesheet' => 'Personnaliser la feuille de style',
+     'custom_stylesheet_desc' => 'Un modèle de styles CSS devant être appliquée aux champs utilisant cette boîte à outils. Tous les styles seront automatiquement préréglés avec la classe de la boîte à outils.',
+     'custom_javascript' => 'Extra JavaScript',
+     'custom_javascript_rte_desc' => 'Le modèle JS  à inclure au sein des champs utilisant cette boîte à outils. Utilisé typiquement pour inclure des plugins supplémentaires lorsqu\'une configuration avancée est utilisée.',
     'rte_min_height' => 'Hauteur minimum',
     'rte_min_height_desc' => 'Entrer le nombre de pixels ou laisser vide',
     'rte_max_height' => 'Hauteur maximum',
@@ -25,6 +29,11 @@ $lang = array(
     'rte_limiter_desc' => 'Limiter le nombre de caractères qu\'un utilisateur peut utiliser.',
     'rte_upload_dir' => 'Répertoire de téléchargement',
     'rte_advanced_settings' => 'Réglages avancés',
+    'rte_advanced_config' => 'Configuration avancée',
+     'rte_advanced_config_desc' => 'Editer la configuration directement en format JSON',
+     'rte_config_json' => 'Configuration JSON',
+     'rte_config_json_desc' => 'Ecrase visuellement la boîte à outils établie',
+     'rte_advanced_config_warning' => '<p><b>ALERTE</b>: <b class="no">Pour les utilisateurs avertis seulement.</b> Soyez très prudent en utilisant cette fonctionnalité et vérifier votre travail.</p><p>La fourniture d\'une configuration non valide peut rendre les champs RTE inaccessibles.</p>',
     'rte_config_saved' => 'Configuration sauvegardée!',
     'rte_config_saved_desc' => 'Votre configuration a été sauvegardée avec succès.',
 
@@ -148,6 +157,8 @@ $lang = array(
     'toolset_error' => 'Erreur de boîte à outils',
 
     'toolset_error_desc' => 'Impossible de sauvegarder la boîte à outils, merci de passer en revue et de corriger les erreurs ci-dessous.',
+    
+    'toolset_json_error_desc' => 'La configuration avancée qui a été fournie ne correspond pas à du JSON valide.',
 
     'toolset_not_deleted' => 'La boîte à outils n\'a pas pu être supprimée.',
 

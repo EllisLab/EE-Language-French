@@ -51,6 +51,8 @@ $lang = array(
     'confirm_uninstall' => 'Confirmer la désinstallation',
 
     'confirm_uninstall_desc' => 'Vous tentez de désinstaller les articles suivants, merci de confirmer cette action.',
+    
+    'fieldtype_is_in_use' => 'Ce type de champ est utilisé au sein des champs suivants:',
 
     /* Filters */
     'addons_installed' => 'Add-Ons installés',

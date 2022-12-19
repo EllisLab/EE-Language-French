@@ -116,7 +116,7 @@ $lang = array(
 
     'edit_entry_success' => 'Entrée mise à jour',
 
-    'edit_entry_success_desc' => 'L\'entrée <a href=\'%1$s\'><b>%2$s</b></a> a été mise à jour.',
+    'edit_entry_success_desc' => 'L\'entrée <a href=\'%1$s\'><b>%2$s</b></a> a été mise à jour à %3$s.',
 
     'edit_entry_with_title' => 'Editer l\'entrée: %s',
 
@@ -778,6 +778,8 @@ $lang = array(
     'url_title_not_unique_frontend' => 'Ce titre URL est emprunté par une autre entrée. Les titres URL doivent être uniques.',
 
     'version_preview' => 'Numéro de révision: %s',
+    
+    'version_no' => 'Révision #%d',
 
     'versioning_enabled' => 'Activer les révisions d\'entrée?',
 
@@ -792,6 +794,10 @@ $lang = array(
     'view_filtered' => 'Retourner aux entrées filtrées',
 
     'view_wider' => 'Visualiser en plus grand format',
+    
+     'viewing_revision' => 'Vous êtes en train de visualiser une Révision',
+
+     'viewing_revision_desc' => 'Tous les changements sauvegardés écraseront la version la plus récente de cette entrée',
 
     'warning' => 'Attention',
 

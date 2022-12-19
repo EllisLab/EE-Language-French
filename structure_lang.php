@@ -105,7 +105,7 @@ $lang = array(
     'settings_n_a'                  => 'n/a',
     'channel_settings_none'         => 'Vous n\'avez ajouté encore aucun canal',
     'channel_settings_add'          => 'Ajouter des Canaux',
-    'delete_channels'               => 'Etes-vous sûr(e) de vouloir supprimer ces canaux de Structure?',
+    'confirm_delete_channels'       => 'Etes-vous sûr(e) de vouloir supprimer ces canaux de Structure?',
 
     'setting_trailing_slash' => "Ajouter une Barre oblique finale aux URL de pages?",
 

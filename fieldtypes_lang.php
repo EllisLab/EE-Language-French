@@ -198,9 +198,15 @@ $lang = array(
 
     'grid_allow_reorder' => 'Autoriser le réagencement des rangées?',
     
-    'grid_vertical_layout' => 'Toujours utiliser un affichage verticale de la grille?',
+    'grid_vertical_layout' => 'Affichage vertical de la grille',
+    
+    'grid_horizontal_layout' => 'Affichage horizontal de la grille',
 
-    'grid_vertical_layout_desc' => 'Les champs au sein de la grille will seront empilés verticalement dans le formulaire de publication.',
+     'grid_auto' => 'Auto',
+
+     'grid_vertical_layout_title' => 'Affichage de la grille',
+
+    'grid_vertical_layout_desc' => 'Choisir comment afficher le champ dans les pages publiées.',
 
     'grid_chars_allowed' => 'Caractères autorisés.',
 
