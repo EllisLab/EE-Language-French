@@ -1,5 +1,5 @@
 # French Translation Pack for ExpressionEngine 7.x
-7.1.5 --> 7.2.5
+7.1.5 -> 7.2.5
 
 ## Changes Between Versions
 
