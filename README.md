@@ -2,23 +2,6 @@
 
 ## Changes Between Versions
 
-- [5.2.4 → 5.4](https://github.com/EllisLab/EE-Language-French/compare/0dd9867...bc557fb)
-- [5.2.3 → 5.2.4](https://github.com/EllisLab/EE-Language-French/compare/fbabe45...0dd9867)
-- [5.2.2 → 5.2.3](https://github.com/EllisLab/EE-Language-French/compare/e2c1624...fbabe45)
-- [5.1.3 → 5.2.2](https://github.com/EllisLab/EE-Language-French/compare/4ba59a5...e2c1624)
-- [5.0.2 → 5.1.3](https://github.com/EllisLab/EE-Language-French/compare/0dfe235...4ba59a5)
-- [5.0.1 → 5.0.2](https://github.com/EllisLab/EE-Language-French/compare/8c33c88...0dfe235)
-- [4.3.6 → 5.0.1 (updated)](https://github.com/EllisLab/EE-Language-French/compare/7b0082b...8c33c88)
-- [4.3.4 → 4.3.6](https://github.com/EllisLab/EE-Language-French/compare/801a8f2...7b0082b)
-- [4.3.3 → 4.3.4](https://github.com/EllisLab/EE-Language-French/compare/f6e0091...801a8f2)
-- [4.1.3 → 4.3.3](https://github.com/EllisLab/EE-Language-French/compare/9dcd9af...f6e0091)
-- [4.1.2 → 4.1.3](https://github.com/EllisLab/EE-Language-French/compare/4742563...9dcd9af)
-- [4.1.1 → 4.1.2](https://github.com/EllisLab/EE-Language-French/compare/4ff5f60...4742563)
-- [4.0.8 → 4.1.1](https://github.com/EllisLab/EE-Language-French/compare/ed78b64...4ff5f60)
-- [4.0.7 → 4.0.8](https://github.com/EllisLab/EE-Language-French/compare/2e064ef...ed78b64)
-- [4.0.6 → 4.0.7](https://github.com/EllisLab/EE-Language-French/compare/fd18e53...2e064ef)
-- [3.5.12 → 4.0.6](https://github.com/EllisLab/EE-Language-French/compare/ef207c4...fd18e53)
-
 ## License
 
 - Copyright (C) 2009-2020 EllisLab, Inc.
