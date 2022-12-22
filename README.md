@@ -6,8 +6,8 @@
 ## License
 
 - Copyright (C) 2009-2020 EllisLab, Inc.
-- Original French translation provided by: Jeremie Werner / Studio Meta (@studiometa)
-- 2.5.5, 2.7.x, 3.x, 4.x and 5.x versions by: Emmanuel Beauchamps
+- 
+- 7.x versions by: Andre Urtizberea
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
