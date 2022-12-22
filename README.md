@@ -1,4 +1,4 @@
-# French Translation Pack for ExpressionEngine 5.x
+# French Translation Pack for ExpressionEngine 7.x
 
 ## Changes Between Versions
 
