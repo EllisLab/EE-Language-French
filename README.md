@@ -1,12 +1,11 @@
 # French Translation Pack for ExpressionEngine 7.x
-7.1.5 -> 7.2.5
 
 ## Changes Between Versions
+7.1.5 -> 7.2.5
 
 ## License
 
-- Copyright (C) 2009-2020 EllisLab, Inc.
-- 
+- Copyright (C) 2022 EllisLab, Inc.
 - 7.x versions by: Andre Urtizberea
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
