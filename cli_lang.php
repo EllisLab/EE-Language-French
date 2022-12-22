@@ -75,7 +75,7 @@ $lang = array(
     'command_make_command_ask_command_name'     => 'Nom de la commande?',
     'command_make_command_ask_addon'            => 'A quel add-on voulez-vous rajouter cela?',
     // make:command options
-    'command_make_command_option_addon'         => 'Le dossier pour l\'add-on tiers auquel vous voulez rajouter cela',
+    'command_make_command_option_addon'         => 'Le dossier pour l\'add-on tiers auquel vous voulez rajouter cela.',
     'command_make_command_option_description'   => 'Description de la commande',
     'command_make_command_option_signature'     => 'Signature pour la commande (c\'est-à-dire make:magic)',
 
@@ -124,7 +124,7 @@ $lang = array(
     'command_make_prolet_error_addon_must_have_icon'   => 'Pour générer un prolet, l\' add-on doit posséder une icône. Pour générer une icône par défaut, utiliser --générer-l\'icône.',
 
     // make:prolet options
-    'command_make_prolet_option_addon'                 => 'Dossier pour les add-ons de tierces parties auquel vous souhaitez rajouter ce prolet',
+    'command_make_prolet_option_addon'                 => 'Dossier pour les add-ons de tierces parties auquel vous souhaitez rajouter ce prolet.',
     'command_make_prolet_option_description'           => 'Description du prolet',
     'command_make_prolet_option_has_widget'            => 'Créer un widget pour l\'add-on après avoir généré le prolet (optionnel)',
     'command_make_prolet_option_widget_name'           => 'Nom du widget',
@@ -143,7 +143,7 @@ $lang = array(
      // make:action options
      'command_make_action_option_addon'                 => 'Dossier d\'un add-on de tierce-partie auquel vous souhaitez ajouter cette action',
 
-     // Lang entries for command make:tag
+     // Lang entries for command make: template-tag
      'command_make_tag_description'                  => 'Crée une nouvelle balise pour cet add-on',
      'command_make_tag_summary'                      => 'Ceci génère intéractivement une balise EE pour un add-on de tierce-partie existant',
      'command_make_tag_lets_build_tag'               => 'Construisons une nouvelle balise!',
@@ -152,21 +152,68 @@ $lang = array(
      'command_make_tag_building_tag'                 => 'Construction de la balise en cours…',
      'command_make_tag_created_successfully'         => 'Balise créée avec succès!',
      'command_make_tag_error_addon_must_have_module' => 'Pour générer une balise, cet add-on doit posséder un fichier ce module.',
+     'command_make_action_installing_action'             => 'Installation de l\'action en cours…',
+     'command_make_action_installed_action'              => 'Action installée!',
+     'command_make_action_addon_must_be_installed_to_install_action' => 'Impossible d\'installer l\'action. L\'Add-on doit être préalablement installé. La migration de l\'action sera opérée, une fois l\'installation de l\'add-on complétée.',
 
-     // make:tag options
-     'command_make_tag_option_addon'                 => 'Dossier pour un add-on de tierce-partie auquel vous souhaitez ajouter la balise',
+     // make:template-tag options
+     'command_make_tag_option_addon'                 => 'Dossier pour un add-on de tierce-partie auquel vous souhaitez ajouter la balise.',
+     
+     // Lang entries for command make:sidebar
+     'command_make_sidebar_description'                  => 'Crée une barre matérale de tableau de bord pour un add-on',
+     'command_make_sidebar_summary'                      => 'Cela génère une barre latérale pour un add-on de tierce-partie existant',
+     'command_make_sidebar_lets_build_sidebar'               => 'Construisons une barre latérale pour un add-on!',
+     'command_make_sidebar_ask_addon'                    => 'A destination de quel add-on sera rajoutée la barre latérale?',
+     'command_make_sidebar_building_sidebar'                 => 'Construction en cours de la barre latérale…',
+     'command_make_sidebar_created_successfully'         => 'La barre latérale a été créée avec succès!',
 
+     // make:sidebar options
+     'command_make_sidebar_option_addon'                 => 'Dosssier de l\'add-on de tierce partie auquel vous souhaitez rajouetre la barre latérale.',
+     
      // Lang entries for command make:extension-hook
      'command_make_extension_hook_description'                  => 'Implémente un crochet d\'extension EE au sein d\'un add-on',
      'command_make_extension_hook_summary'                      => 'Cela implémente intéractivement un crochet d\'extension EE au sein d\'un add-on de tierce-partie déjà existant',
      'command_make_extension_hook_lets_build_extension_hook'    => 'Implémentons un crochet d\'extension!',
-     'command_make_extension_hook_ask_extension_hook_name'      => 'Quel est le nom du crochet d\'extension?',
+     
+     'command_make_extension_hook_ask_extension_hook_name' => 'Quel crochet souhaitez-vous utiliser? (Pour en savoir plus: https://docs.expressionengine.com/latest/development/extensions.html)',
+          
      'command_make_extension_hook_ask_addon'                    => 'A quel add-on est rajouté le crochet d\'extension?',
      'command_make_extension_hook_building_extension_hook'      => 'Construction du crochet d\'extension en cours…',
      'command_make_extension_hook_created_successfully'         => 'Crochet d\'extension créé avec succès!',
+     
+     'command_make_extension_hook_installing_hook'             => 'Installation du crochet d\'extension en cours…',
+     'command_make_extension_hook_installed_hook'              => 'Crochet d\'extension installé!',
+     'command_make_extension_hook_addon_must_be_installed_to_install_hook' => 'Impossible d\'installer le crochet d\'extension. L\'Add-on doit être préalablement installé. La migration du crochet d\'extension sera mise en oeuvre une fois cet add-on installé.',
 
      // make:extension-hook options
-     'command_make_extension_hook_option_addon'                 => 'Dossier de l\'add-on de tierce-partie auquel vous souhaitez rajouter l\'extension',
+     'command_make_extension_hook_option_addon'                 => 'Dossier de l\'add-on de tierce-partie auquel vous souhaitez rajouter l\'extension.',
+     
+     'command_make_extension_hook_option_install'               => 'Installez ce crochet d\'extension après l\'avoir créé. Cela met en oeuvre toutes les migrations actuelles pour l\'add-on spécifié. L\'Add-on doit être préalablement installé.',
+
+     // Lang entries for command make:fieldtype
+     'command_make_fieldtype_description'                  => 'Génère un type de champ pour un add-on défini de tierce-partie',
+     'command_make_fieldtype_summary'                      => 'Cela génère intéractivement un type de champ au sein d\'un add-on existant de tierce-partie',
+     'command_make_fieldtype_lets_build_fieldtype'    => 'Implémentons un type de champ!',
+     'command_make_fieldtype_ask_fieldtype_name'      => 'Quel est le nom du type de champ?',
+     'command_make_fieldtype_ask_addon'                    => 'A quel add-on se rapporte ce type de champ?',
+     'command_make_fieldtype_building_fieldtype'      => 'Construction en cours du type de champ….',
+     'command_make_fieldtype_created_successfully'         => 'Type de champ créé avec succès!',
+
+     // make:fieldtype options
+     'command_make_fieldtype_option_addon'                 => 'Dossier d\'un add-on de tierce-partie auquel vous souhaitez ajouter ce type de champ.',
+
+     // Lang entries for command make:cp-route
+     'command_make_cp_route_description'                  => 'Génère une route de tableau de bord pour un add-on de tierce-partie défini.',
+     'command_make_cp_route_summary'                      => 'Cela génère intéractivement une route de tableau de bord pour un add-on de tierce-apartie existant',
+     'command_make_cp_route_lets_build_mcp_route'    => 'Créons une route de tableau de bord!',
+     'command_make_cp_route_ask_route_name'      => 'Quel est le nom de la route?',
+     'command_make_cp_route_ask_addon'                    => 'A quel add-on se rapporte cette route?',
+     'command_make_cp_route_building_mcp_route'      => 'Construction en cours de la route de tableau de bord…',
+     
+     'command_make_cp_route_created_successfully'         => 'La route du tableau de bord a été créée avec succès',
+
+     // make:cp-route options
+     'command_make_cp_route_option_addon'                 => 'Dossier de l\'add-on de tierce-partie auquel vous souhaitez ajouter cette route Mcp.',
 
     // Lang entries for command make:widget
     'command_make_widget_description'                 => 'Génère des widgets pour les add-ons existants.',
@@ -186,7 +233,7 @@ $lang = array(
     'command_make_model_ask_model_name'                         => 'Nom du modèle?',
     'command_make_model_ask_addon'                              => 'A quel add-on souhaitez-vous rajouter cela?',
     // make:model options
-    'command_make_model_option_addon' => 'Dossier de l\'add-on tiers auquel vous souhaitez rajouter ce modèle',
+    'command_make_model_option_addon' => 'Dossier de l\'add-on tiers auquel vous souhaitez rajouter ce modèle.',
 
     // Lang entries for command migrate
     'command_migrate_description'                  => 'Met en route des migrations spécifiques (toutes, core, ou add-ons)',
