@@ -28,7 +28,7 @@ $lang = array(
 
     // Lang entries for command make:addon
     'command_make_addon_description'            => 'Crée un nouvel add-on',
-    'command_make_addon_summary'                => 'Cela génère de façon intéractive un add-on EE directement dans votre répertoire utilisateur',
+    'command_make_addon_summary'                => 'Cela génère de façon interactive un add-on EE directement dans votre répertoire utilisateur',
     'command_make_addon_lets_build_addon'       => 'Construisons votre add-on!',
     'command_make_addon_description_question'   => 'description?',
     'command_make_addon_version_question'       => 'version?',
@@ -66,7 +66,7 @@ $lang = array(
 
     // Lang entries for command make:command
     'command_make_command_description'          => 'Crée une nouvelle commande CLI pour un add-on',
-    'command_make_command_summary'              => 'Cela génère intéractivement une commande CLI pour un add-on tiers existant',
+    'command_make_command_summary'              => 'Cela génère interactivement une commande CLI pour un add-on tiers existant',
     'command_make_command_lets_build_command'   => 'Construisons votre commande!',
     'command_make_command_ask_description'      => 'Description de la commande?',
     'command_make_command_ask_signature'        => 'Signature de la commande? (c\'est-à-dire make:magic)',
@@ -75,7 +75,7 @@ $lang = array(
     'command_make_command_ask_command_name'     => 'Nom de la commande?',
     'command_make_command_ask_addon'            => 'A quel add-on voulez-vous rajouter cela?',
     // make:command options
-    'command_make_command_option_addon'         => 'Le dossier pour l\'add-on tiers auquel vous voulez rajouter cela.',
+    'command_make_command_option_addon'         => 'Le dossier de l\'add-on de tierce partie auquel vous voulez rajouter la commande.',
     'command_make_command_option_description'   => 'Description de la commande',
     'command_make_command_option_signature'     => 'Signature pour la commande (c\'est-à-dire make:magic)',
 
@@ -110,7 +110,7 @@ $lang = array(
 
     // Lang entries for command make:prolet
     'command_make_prolet_description'                  => 'Crée un nouveau prolet pour cet add-on',
-    'command_make_prolet_summary'                      => 'Cela génère intéractivement un nouveau prolet EE pour un add-on tiers existant',
+    'command_make_prolet_summary'                      => 'Cela génère interactivement un nouveau prolet EE pour un add-on tiers existant',
     'command_make_prolet_lets_build_prolet'            => 'Construisons un nouveau prolet!',
     'command_make_prolet_ask_prolet_name'              => 'Quel est le nom du prolet?',
     'command_make_prolet_ask_addon'                    => 'A quel add-on sera rajouté ce prolet?',
@@ -132,88 +132,85 @@ $lang = array(
     
     // Lang entries for command make:action
      'command_make_action_description'                  => 'Crée une nouvelle action pour un add-on',
-     'command_make_action_summary'                      => 'Cela génère intéractivement une action EE pour un add-on de tierce-partie déjà existant',
+     'command_make_action_summary'                      => 'Cela génère interactivement une action EE pour un add-on de tierce-partie déjà existant',
      'command_make_action_lets_build_action'            => 'Construisons une nouvelle action!',
      'command_make_action_ask_action_name'              => 'Quel est le nom de l\'action?',
      'command_make_action_ask_addon'                    => 'A quel add-on cette action se rapporte-t-elle?',
      'command_make_action_building_action'              => 'Construction de l\'action en cours…',
      'command_make_action_created_successfully'         => 'Action créée avec succès!',
      'command_make_action_error_addon_must_have_module' => 'Pour générer une action, cet add-on doit posséder un fichier de module.',
+     'command_make_action_installing_action'             => 'Installation de l\'action en cours…',
+     'command_make_action_installed_action'              => 'Action installée!',
+     'command_make_action_addon_must_be_installed_to_install_action' => 'Impossible d\'accomplir cette action. L\'Add-on doit préalablement être installé. La migration de l\'action sera conduite quand l\'add-on sera installé de manière effective.',
 
      // make:action options
-     'command_make_action_option_addon'                 => 'Dossier d\'un add-on de tierce-partie auquel vous souhaitez ajouter cette action',
+     'command_make_action_option_addon'                 => 'Dossier d\'un add-on de tierce partie auquel vous souhaitez ajouter cette action',
+     'command_make_action_option_install' =>'Installez cette action après l\'avoir créée. Cela met en oeuvre toutes les migrations en cours pour l\'add-on défini. L\'Add-on doit être préalablement installé.',
 
-     // Lang entries for command make: template-tag
+     // Lang entries for command make:template-tag
      'command_make_tag_description'                  => 'Crée une nouvelle balise pour cet add-on',
-     'command_make_tag_summary'                      => 'Ceci génère intéractivement une balise EE pour un add-on de tierce-partie existant',
+     'command_make_tag_summary'                      => 'Ceci génère interactivement une balise EE pour un add-on de tierce-partie existant',
      'command_make_tag_lets_build_tag'               => 'Construisons une nouvelle balise!',
      'command_make_tag_ask_tag_name'                 => 'Quel est le nom de la balise?',
      'command_make_tag_ask_addon'                    => 'A quel add-on la balise est-elle ajoutée?',
      'command_make_tag_building_tag'                 => 'Construction de la balise en cours…',
      'command_make_tag_created_successfully'         => 'Balise créée avec succès!',
      'command_make_tag_error_addon_must_have_module' => 'Pour générer une balise, cet add-on doit posséder un fichier ce module.',
-     'command_make_action_installing_action'             => 'Installation de l\'action en cours…',
-     'command_make_action_installed_action'              => 'Action installée!',
-     'command_make_action_addon_must_be_installed_to_install_action' => 'Impossible d\'installer l\'action. L\'Add-on doit être préalablement installé. La migration de l\'action sera opérée, une fois l\'installation de l\'add-on complétée.',
+     
 
      // make:template-tag options
      'command_make_tag_option_addon'                 => 'Dossier pour un add-on de tierce-partie auquel vous souhaitez ajouter la balise.',
      
-     // Lang entries for command make:sidebar
-     'command_make_sidebar_description'                  => 'Crée une barre matérale de tableau de bord pour un add-on',
+      // Lang entries for command make:sidebar
+     'command_make_sidebar_description'                  => 'Crée une barre latérale de tableau de bord pour un add-on',
      'command_make_sidebar_summary'                      => 'Cela génère une barre latérale pour un add-on de tierce-partie existant',
      'command_make_sidebar_lets_build_sidebar'               => 'Construisons une barre latérale pour un add-on!',
-     'command_make_sidebar_ask_addon'                    => 'A destination de quel add-on sera rajoutée la barre latérale?',
-     'command_make_sidebar_building_sidebar'                 => 'Construction en cours de la barre latérale…',
+     'command_make_sidebar_ask_addon'                    => 'A quel add-on se rapporte la barre latérale?',
+     'command_make_sidebar_building_sidebar'                 => 'Construction de la barre latérale en cours.',
      'command_make_sidebar_created_successfully'         => 'La barre latérale a été créée avec succès!',
 
      // make:sidebar options
-     'command_make_sidebar_option_addon'                 => 'Dosssier de l\'add-on de tierce partie auquel vous souhaitez rajouetre la barre latérale.',
-     
+     'command_make_sidebar_option_addon'                 => 'Dossier pour un add-on de tierce partie auquel vous voulez ajouter cette barre latérale.',
+
      // Lang entries for command make:extension-hook
      'command_make_extension_hook_description'                  => 'Implémente un crochet d\'extension EE au sein d\'un add-on',
-     'command_make_extension_hook_summary'                      => 'Cela implémente intéractivement un crochet d\'extension EE au sein d\'un add-on de tierce-partie déjà existant',
+     'command_make_extension_hook_summary'                      => 'Cela implémente interactivement un crochet d\'extension EE au sein d\'un add-on de tierce-partie déjà existant',
      'command_make_extension_hook_lets_build_extension_hook'    => 'Implémentons un crochet d\'extension!',
-     
-     'command_make_extension_hook_ask_extension_hook_name' => 'Quel crochet souhaitez-vous utiliser? (Pour en savoir plus: https://docs.expressionengine.com/latest/development/extensions.html)',
-          
+     'command_make_extension_hook_ask_extension_hook_name' => 'Quels crochets souhaitez-vous utiliser? (En savoir plus: https://docs.expressionengine.com/latest/development/extensions.html)',
      'command_make_extension_hook_ask_addon'                    => 'A quel add-on est rajouté le crochet d\'extension?',
      'command_make_extension_hook_building_extension_hook'      => 'Construction du crochet d\'extension en cours…',
      'command_make_extension_hook_created_successfully'         => 'Crochet d\'extension créé avec succès!',
-     
-     'command_make_extension_hook_installing_hook'             => 'Installation du crochet d\'extension en cours…',
+     'command_make_extension_hook_installing_hook'             => 'Installation en cours du crochet d\'extension…',
      'command_make_extension_hook_installed_hook'              => 'Crochet d\'extension installé!',
-     'command_make_extension_hook_addon_must_be_installed_to_install_hook' => 'Impossible d\'installer le crochet d\'extension. L\'Add-on doit être préalablement installé. La migration du crochet d\'extension sera mise en oeuvre une fois cet add-on installé.',
+     'command_make_extension_hook_addon_must_be_installed_to_install_hook' => 'Impossible d\'installer le crochet d\'extension. L\'add-on doit être préalablement installé. La migration du crochet d\'extension sera accomplie quand l\'add-on sera installé de façon effective.',
 
      // make:extension-hook options
      'command_make_extension_hook_option_addon'                 => 'Dossier de l\'add-on de tierce-partie auquel vous souhaitez rajouter l\'extension.',
-     
-     'command_make_extension_hook_option_install'               => 'Installez ce crochet d\'extension après l\'avoir créé. Cela met en oeuvre toutes les migrations actuelles pour l\'add-on spécifié. L\'Add-on doit être préalablement installé.',
+      'command_make_extension_hook_option_install'               => 'Installez ce crochet d\'extension après l\'avoir créé. Cela accomplit toutes les migrations en cours pour l\'add-on défini. L\'Add-doit être préalablement installé.',
 
      // Lang entries for command make:fieldtype
-     'command_make_fieldtype_description'                  => 'Génère un type de champ pour un add-on défini de tierce-partie',
-     'command_make_fieldtype_summary'                      => 'Cela génère intéractivement un type de champ au sein d\'un add-on existant de tierce-partie',
+     'command_make_fieldtype_description'                  => 'Génère un type de champ pour un add-on de tierce partie donné',
+     'command_make_fieldtype_summary'                      => 'Cela génère interactivement un type de champ au sein d\'un add-on de tierce partie existant',
      'command_make_fieldtype_lets_build_fieldtype'    => 'Implémentons un type de champ!',
      'command_make_fieldtype_ask_fieldtype_name'      => 'Quel est le nom du type de champ?',
-     'command_make_fieldtype_ask_addon'                    => 'A quel add-on se rapporte ce type de champ?',
-     'command_make_fieldtype_building_fieldtype'      => 'Construction en cours du type de champ….',
+     'command_make_fieldtype_ask_addon'                    => 'A quel add-on ce type de champ est-il ajouté?',
+     'command_make_fieldtype_building_fieldtype'      => 'Construction du type de champ en cours…',
      'command_make_fieldtype_created_successfully'         => 'Type de champ créé avec succès!',
 
      // make:fieldtype options
-     'command_make_fieldtype_option_addon'                 => 'Dossier d\'un add-on de tierce-partie auquel vous souhaitez ajouter ce type de champ.',
+     'command_make_fieldtype_option_addon'                 => 'Dossier de l\'add-on de tierce partie auquel vous voulez ajouter ce type de champ.',
 
      // Lang entries for command make:cp-route
-     'command_make_cp_route_description'                  => 'Génère une route de tableau de bord pour un add-on de tierce-partie défini.',
-     'command_make_cp_route_summary'                      => 'Cela génère intéractivement une route de tableau de bord pour un add-on de tierce-apartie existant',
-     'command_make_cp_route_lets_build_mcp_route'    => 'Créons une route de tableau de bord!',
+     'command_make_cp_route_description'                  => 'Génère une route de tableau de bord pour un add-on de tierce partie donné',
+     'command_make_cp_route_summary'                      => 'Cela génère interactivement une route de tableau de bord au sein d\'un add-on de tierce-partie existant',
+     'command_make_cp_route_lets_build_mcp_route'    => ' Créons une route de tableau de bord!',
      'command_make_cp_route_ask_route_name'      => 'Quel est le nom de la route?',
-     'command_make_cp_route_ask_addon'                    => 'A quel add-on se rapporte cette route?',
-     'command_make_cp_route_building_mcp_route'      => 'Construction en cours de la route de tableau de bord…',
-     
-     'command_make_cp_route_created_successfully'         => 'La route du tableau de bord a été créée avec succès',
+     'command_make_cp_route_ask_addon'                    => 'A quel add-on est ajoutée la route?',
+     'command_make_cp_route_building_mcp_route'      => 'Construction de la route de tableau de bord en cours…',
+     'command_make_cp_route_created_successfully'         => 'La route de tableau de bord a été créée avec succès!',
 
      // make:cp-route options
-     'command_make_cp_route_option_addon'                 => 'Dossier de l\'add-on de tierce-partie auquel vous souhaitez ajouter cette route Mcp.',
+     'command_make_cp_route_option_addon'                 => 'Dossier de l\'add-on de tierce partie auquel vous voulez ajouter la route Mcp.',
 
     // Lang entries for command make:widget
     'command_make_widget_description'                 => 'Génère des widgets pour les add-ons existants.',
@@ -317,7 +314,6 @@ $lang = array(
     'command_update_error_updater_failed_missing_version'       => 'L\'Updater a échoué à cause d\'une version manquante. Merci de mettre à jour la version UpgradeMap: ',
     'command_update_missing_avatar_path_message'                => 'Votre processus de mise à jour échouera sans avoir d\'abord réglé un chemin d’avatars .',
     'command_update_enter_full_avatar_path'                     => 'Entrez un chemin d\'avatars complet',
-    
     // update options
     'command_update_option_rollback'                            => 'Faire marche arrière sur la dernière mise à jour',
     'command_update_option_verbose'                             => 'Verbose output',
@@ -358,8 +354,6 @@ $lang = array(
     'command_update_prepare_option_should_move_system_path'     => 'Indique si le processus de mise à jour devrait déplacer l\'ancien dossier système vers le nouveau site',
     'command_update_prepare_option_old_system_path'             => 'Chemin absolu du dossier système de l\'ancien site',
     'command_update_prepare_option_new_system_path'             => 'Chemin absolu du dossier système du nouveau site',
-    
-    
     'command_update_prepare_option_should_move_template_path'   => 'Indique si le processus de mise à jour devrait déplacer l\'ancien dossier de modèles vers le nouveau site',
     'command_update_prepare_option_old_template_path'           => 'Chemin absolu du dossier de modèles de l\'ancien site',
     'command_update_prepare_option_new_template_path'           => 'Chemin absolu du dossier de modèles du nouveau site',

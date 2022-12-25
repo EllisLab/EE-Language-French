@@ -396,9 +396,9 @@ $lang = array(
 
     'title_field_label_desc' => 'Change l\'étiquette de titre de champ dans le formulaire de publication de ce canal.',
     
-    'title_field_instructions' => 'Instructions de champ de titre',
+    'title_field_instructions' => 'Instructions du champ titre',
 
-     'title_field_instructions_desc' => 'Instructions à destination des auteurs relatives à ce qu\'il est convenu d\'entrer dans le champ titre des entrées de ce canal.',
+    'title_field_instructions_desc' => 'Instructions à destination des auteurs précisant le contenu à entrer dans le champ titre des entrées de ce canal.',
 
     'url_path_settings' => '<abbr title="Unified Resource Locator">URL</abbr> et réglages de chemin',
 
