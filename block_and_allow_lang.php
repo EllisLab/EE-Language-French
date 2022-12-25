@@ -32,7 +32,7 @@ $lang = array(
 
     'ip_address' => 'Adresse <abbr title="Internet Protocol">IP</abbr>',
 
-    'ip_address_desc' => 'Placez bien chaque adresse <abbr title="Internet Protocol">IP</abbr> sur une ligne séparée.<br>Vous pouvez aussi utiliser des adresses IP partielles'
+    'ip_address_desc' => 'Placez bien chaque adresse <abbr title="Internet Protocol">IP</abbr> sur une ligne séparée.<br>Vous pouvez aussi utiliser des adresses IP partielles',
     
     'user_agent' => 'Agent utilisateur',
 
