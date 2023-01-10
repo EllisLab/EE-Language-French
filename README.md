@@ -2,6 +2,7 @@
 
 ## Changes Between Versions
 
+- [7.1.5 → 7.2.5](https://github.com/EllisLab/EE-Language-French/compare/973e11f...)
 - [6.0.3 → 7.1.5](https://github.com/EllisLab/EE-Language-French/compare/4f93475...973e11f)
 - [6.0.3 → 6.0.6](https://github.com/EllisLab/EE-Language-French/compare/ad4f27f...4f93475)
 - [6.0.1 → 6.0.3](https://github.com/EllisLab/EE-Language-French/compare/46a80c1...ad4f27f)
@@ -28,7 +29,8 @@
 
 - Copyright (C) 2009-2022 Packet Tide
 - Original French translation provided by: Jeremie Werner / Studio Meta (@studiometa)
-- 2.5.5, 2.7.x, 3.x, 4.x, 5.x, 6.x and 7.x versions by: Emmanuel Beauchamps
+- 2.5.5, 2.7.x, 3.x, 4.x, 5.x, 6.x by: Emmanuel Beauchamps
+- 7.x by: Andre Urtizberea
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
