@@ -139,6 +139,8 @@ $lang = array(
     'maximum_channels_reached' => 'Vous avez atteint le nombre maximum autorisé de canaux.',
 
     'member_group' => 'Groupe de membres',
+    
+    'rename_tab' => 'Renommer l\'onglet',
 
     'roles_desc' => 'Choisir les rôles de membres à appliquer à cette présentation.',
 
@@ -163,6 +165,8 @@ $lang = array(
     'tab_name_desc' => 'Nom court pour cet onglet.',
 
     'tab_name_required' => 'Merci de choisir un nom pour cet onglet.',
+    
+    'tab_new_name' => 'Nouveau nom de l\'onglet',
 
     /* Channel Create/Edit */
     'category_groups_not_found' => 'Aucun <b>groupe de catégories</b> n\'a été trouvé',
@@ -391,6 +395,10 @@ $lang = array(
     'title_field_label' => 'Etiquette de titre de champ',
 
     'title_field_label_desc' => 'Change l\'étiquette de titre de champ dans le formulaire de publication de ce canal.',
+    
+    'title_field_instructions' => 'Instructions du champ titre',
+
+    'title_field_instructions_desc' => 'Instructions à destination des auteurs précisant le contenu à entrer dans le champ titre des entrées de ce canal.',
 
     'url_path_settings' => '<abbr title="Unified Resource Locator">URL</abbr> et réglages de chemin',
 
