@@ -1,7 +1,7 @@
 # French Translation Pack for ExpressionEngine 7.x
 
 ## Changes Between Versions
-7.1.5 -> 7.2.5
+7.2.5 -> 7.2.6
 
 ## License
 
