@@ -148,18 +148,18 @@ $lang = array(
      'command_make_action_option_install' =>'Installez cette action après l\'avoir créée. Cela met en oeuvre toutes les migrations en cours pour l\'add-on défini. L\'Add-on doit être préalablement installé.',
 
      // Lang entries for command make:template-tag
-     'command_make_tag_description'                  => 'Crée une nouvelle balise pour cet add-on',
-     'command_make_tag_summary'                      => 'Ceci génère interactivement une balise EE pour un add-on de tierce-partie existant',
-     'command_make_tag_lets_build_tag'               => 'Construisons une nouvelle balise!',
-     'command_make_tag_ask_tag_name'                 => 'Quel est le nom de la balise?',
-     'command_make_tag_ask_addon'                    => 'A quel add-on la balise est-elle ajoutée?',
-     'command_make_tag_building_tag'                 => 'Construction de la balise en cours…',
-     'command_make_tag_created_successfully'         => 'Balise créée avec succès!',
-     'command_make_tag_error_addon_must_have_module' => 'Pour générer une balise, cet add-on doit posséder un fichier ce module.',
+     'command_make_template_tag_description'         => 'Crée une nouvelle balise pour cet add-on',
+     'command_make_template_tag_summary'             => 'Ceci génère interactivement une balise EE pour un add-on de tierce-partie existant',
+     'command_make_template_tag_lets_build_tag'      =>  'Construisons une nouvelle balise!',
+     'command_make_template_tag_ask_tag_name'        => 'Quel est le nom de la balise?',
+     'command_make_template_tag_ask_addon'           => 'A quel add-on la balise est-elle ajoutée?',
+     'command_make_template_tag_building_tag'        => 'Construction de la balise en cours…',
+     'command_make_template_tag_created_successfully'=> 'Balise créée avec succès!',
+     'command_make_template_tag_error_addon_must_have_module' => 'Pour générer une balise, cet add-on doit posséder un fichier ce module.',
      
 
      // make:template-tag options
-     'command_make_tag_option_addon'                 => 'Dossier pour un add-on de tierce-partie auquel vous souhaitez ajouter la balise.',
+     'command_make_template_tag_option_addon'            => 'Dossier pour un add-on de tierce-partie auquel vous souhaitez ajouter la balise.',
      
       // Lang entries for command make:sidebar
      'command_make_sidebar_description'                  => 'Crée une barre latérale de tableau de bord pour un add-on',
@@ -203,14 +203,27 @@ $lang = array(
      // Lang entries for command make:cp-route
      'command_make_cp_route_description'                  => 'Génère une route de tableau de bord pour un add-on de tierce partie donné',
      'command_make_cp_route_summary'                      => 'Cela génère interactivement une route de tableau de bord au sein d\'un add-on de tierce-partie existant',
-     'command_make_cp_route_lets_build_mcp_route'    => ' Créons une route de tableau de bord!',
-     'command_make_cp_route_ask_route_name'      => 'Quel est le nom de la route?',
+     'command_make_cp_route_lets_build_mcp_route'         => 'Créons une route de tableau de bord!',
+     'command_make_cp_route_ask_route_name'      		  => 'Quel est le nom de la route?',
      'command_make_cp_route_ask_addon'                    => 'A quel add-on est ajoutée la route?',
      'command_make_cp_route_building_mcp_route'      => 'Construction de la route de tableau de bord en cours…',
      'command_make_cp_route_created_successfully'         => 'La route de tableau de bord a été créée avec succès!',
 
      // make:cp-route options
      'command_make_cp_route_option_addon'                 => 'Dossier de l\'add-on de tierce partie auquel vous voulez ajouter la route Mcp.',
+     
+     
+     // Lang entries for command make:jump
+     'command_make_jump_description'                      => 'Génère un fichier de saute-menu pour un add-on de tierce-partie donné.',
+     'command_make_jump_summary'                          => 'Ceci génère interactivement un fichier de saute-menu au sein d\'un add-on de tierce-partie existant.',
+     'command_make_cp_jumps'                              => 'Créons un fichier de saute-menu!',
+     'command_make_cp_jumps_ask_addon'                    => 'A quel add-on souhaitez-vous ajouter le fichier Jumps?',
+     'command_make_cp_jumps_building_jumps'               => 'Construction du fichier Jumps de l\'add-on en cours…',
+     'command_make_cp_jumps_created_successfully'         => 'Le fichier Jumps a été créé avec succès! Merci de noter: vous devrez peut-être effacer le cache de votre navigateur avant de pouvoir visualiser les nouveaux items du saute-menu',
+
+     // make:jump options
+     'command_make_jump_file_addon'                 	  => 'Dossier de l\'add-on de tierce-partie auquel vous souhaitez ajouter le fichier de saute-menu.',
+     
 
     // Lang entries for command make:widget
     'command_make_widget_description'                 => 'Génère des widgets pour les add-ons existants.',

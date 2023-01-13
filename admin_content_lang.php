@@ -492,7 +492,7 @@ $lang = array(
 
      'field_channels_desc' => 'Ce champ est affecté aux champs suivants',
 
-     'assigned' => 'Afecté',
+     'assigned' => 'Affecté',
 
      'via' => 'via',
 
