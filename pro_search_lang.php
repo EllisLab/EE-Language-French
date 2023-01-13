@@ -152,7 +152,7 @@ $lang = array(
     "lexicon_removed_word" =>
     "Supprimé: “%s”.",
     
-    "set_langauge_to_use_tool" => . "* réglage de langue manquant: veuillez choisir une langue afin d\'activer",
+    "set_langauge_to_use_tool" => "* réglage de langue manquant: veuillez choisir une langue afin d\'activer",
 
     //----------------------------------------
     // Edit collection page - fields
