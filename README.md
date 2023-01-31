@@ -1,12 +1,41 @@
 # French Translation Pack for ExpressionEngine 7.x
 
 ## Changes Between Versions
-7.2.5 -> 7.2.6
-
 ## License
 
 - Copyright (C) 2022 EllisLab, Inc.
 - 7.x versions by: Andre Urtizberea
+
+- [7.2.5 → 7.2.6]
+- [7.1.5 → 7.2.5](https://github.com/EllisLab/EE-Language-French/compare/973e11f...)
+- [6.0.3 → 7.1.5](https://github.com/EllisLab/EE-Language-French/compare/4f93475...973e11f)
+- [6.0.3 → 6.0.6](https://github.com/EllisLab/EE-Language-French/compare/ad4f27f...4f93475)
+- [6.0.1 → 6.0.3](https://github.com/EllisLab/EE-Language-French/compare/46a80c1...ad4f27f)
+- [6.0.0 → 6.0.1](https://github.com/EllisLab/EE-Language-French/compare/8cb6cd3...46a80c1)
+- [5.4.0 → 6.0.0](https://github.com/EllisLab/EE-Language-French/compare/bc557fb...8cb6cd3)
+- [5.2.4 → 5.4](https://github.com/EllisLab/EE-Language-French/compare/0dd9867...bc557fb)
+- [5.2.3 → 5.2.4](https://github.com/EllisLab/EE-Language-French/compare/fbabe45...0dd9867)
+- [5.2.2 → 5.2.3](https://github.com/EllisLab/EE-Language-French/compare/e2c1624...fbabe45)
+- [5.1.3 → 5.2.2](https://github.com/EllisLab/EE-Language-French/compare/4ba59a5...e2c1624)
+- [5.0.2 → 5.1.3](https://github.com/EllisLab/EE-Language-French/compare/0dfe235...4ba59a5)
+- [5.0.1 → 5.0.2](https://github.com/EllisLab/EE-Language-French/compare/8c33c88...0dfe235)
+- [4.3.6 → 5.0.1 (updated)](https://github.com/EllisLab/EE-Language-French/compare/7b0082b...8c33c88)
+- [4.3.4 → 4.3.6](https://github.com/EllisLab/EE-Language-French/compare/801a8f2...7b0082b)
+- [4.3.3 → 4.3.4](https://github.com/EllisLab/EE-Language-French/compare/f6e0091...801a8f2)
+- [4.1.3 → 4.3.3](https://github.com/EllisLab/EE-Language-French/compare/9dcd9af...f6e0091)
+- [4.1.2 → 4.1.3](https://github.com/EllisLab/EE-Language-French/compare/4742563...9dcd9af)
+- [4.1.1 → 4.1.2](https://github.com/EllisLab/EE-Language-French/compare/4ff5f60...4742563)
+- [4.0.8 → 4.1.1](https://github.com/EllisLab/EE-Language-French/compare/ed78b64...4ff5f60)
+- [4.0.7 → 4.0.8](https://github.com/EllisLab/EE-Language-French/compare/2e064ef...ed78b64)
+- [4.0.6 → 4.0.7](https://github.com/EllisLab/EE-Language-French/compare/fd18e53...2e064ef)
+- [3.5.12 → 4.0.6](https://github.com/EllisLab/EE-Language-French/compare/ef207c4...fd18e53)
+
+## License
+
+- Copyright (C) 2009-2022 Packet Tide
+- Original French translation provided by: Jeremie Werner / Studio Meta (@studiometa)
+- 2.5.5, 2.7.x, 3.x, 4.x, 5.x, 6.x by: Emmanuel Beauchamps
+- 7.x by: Andre Urtizberea
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
