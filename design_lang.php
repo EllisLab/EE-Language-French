@@ -266,6 +266,8 @@ $lang = array(
 
     'template_type' => 'Type',
 
+    'template_engine' => 'Moteur',
+
     'template_variable' => 'Variable de modèle',
 
     'template_variables' => 'Variables de modèles',
