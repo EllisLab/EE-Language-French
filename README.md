@@ -6,7 +6,7 @@
 - Copyright (C) 2022 EllisLab, Inc.
 - 7.x versions by: Andre Urtizberea
 
-- [7.2.5 → 7.2.6]
+- [7.2.5 → 7.2.7]
 - [7.1.5 → 7.2.5](https://github.com/EllisLab/EE-Language-French/compare/973e11f...)
 - [6.0.3 → 7.1.5](https://github.com/EllisLab/EE-Language-French/compare/4f93475...973e11f)
 - [6.0.3 → 6.0.6](https://github.com/EllisLab/EE-Language-French/compare/ad4f27f...4f93475)
