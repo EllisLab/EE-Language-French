@@ -441,6 +441,13 @@ $lang = array(
 
     "default_result_page_help" =>
     "Si une <code>page de résultats</code> n\'est pas rendue de façon explicite, la recherche va se replier sur cette page de résultats.",
+	
+     "build_index_act_key" =>
+     "Fabriquer une clé Index ACT",
+
+     "build_index_act_key_help" =>
+     "Clé pour construire l\'index via une url ACT. Cela peut être n'importe quoi mais nous recommandons une chaîne alphanumérique de 16+ caractères. Merci de noter, construire l\'index via une url ACT ne fonctionnera pas si la clé n'est pas préalablement définie. Exemple d\'url ACT pour construire une collection avec l\'id 1: <br>
+     <code>%s</code>",
 
     "min_word_length" =>
     "Longueur minimum de mot",
