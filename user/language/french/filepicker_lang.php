@@ -2,12 +2,14 @@
 
 $lang = array(
 
-'filepicker_module_name' => 'FilePicker',
-'picker_type' => 'afficher sous forme de',
-'thumbnails' => 'miniatures',
-'list' => 'liste'
+    'filepicker_module_name' => 'FilePicker',
+
+    'list' => 'liste',
+
+    'picker_type' => 'visualiser comme',
+
+    'thumbnails' => 'miniatures',
 
 );
-
 
 // EOF

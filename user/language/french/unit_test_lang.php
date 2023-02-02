@@ -2,43 +2,42 @@
 
 $lang = array(
 
-'ut_test_name' => 'Nom du test',
+    'ut_array' => 'Tableau',
 
-'ut_test_datatype' => 'Type de données du test',
+    'ut_boolean' => 'Booléen',
 
-'ut_res_datatype' => 'Type de données attendu',
+    'ut_double' => 'Flottant', // can be the same as float
+    'ut_failed' => 'Echoué',
 
-'ut_result' => 'Résultat',
+    'ut_file' => 'Nom de fichier',
 
-'ut_undefined' => 'Nom du test non défini',
+    'ut_float' => 'Flottant',
 
-'ut_file' => 'Nom du fichier',
+    'ut_integer' => 'Entier',
 
-'ut_line' => 'Numéro de ligne',
+    'ut_line' => 'Numéro de ligne',
 
-'ut_passed' => 'Succès',
+    'ut_notes' => 'Notes',
 
-'ut_failed' => 'Echec',
+    'ut_null' => 'Nul',
 
-'ut_boolean' => 'Booléen',
+    'ut_object' => 'Objet',
 
-'ut_integer' => 'Entier',
+    'ut_passed' => 'Passé',
 
-'ut_float' => 'Flottant',
+    'ut_res_datatype' => 'Type de données attendues',
 
-'ut_double' => 'Flottant',// can be the same as float
+    'ut_resource' => 'Ressource',
 
-'ut_string' => 'Chaîne',
+    'ut_result' => 'Résultat',
 
-'ut_array' => 'Matrice',
+    'ut_string' => 'Chaîne',
 
-'ut_object' => 'Objet',
+    'ut_test_datatype' => 'Tester le type de données',
 
-'ut_resource' => 'Ressource',
+    'ut_test_name' => 'Tester le nom',
 
-'ut_null' => 'Vide',
-
-'ut_notes' => 'Notes',
+    'ut_undefined' => 'Nom de test indéfini',
 
 );
 

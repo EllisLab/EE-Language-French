@@ -1,79 +1,88 @@
 <?php
 
 $lang = array(
-'alpha_dash_period' => "Ce champ ne peut contenir que des caractères alphanumeriques, des soulignés (underscore), des tirets, des points et des émoticônes.",
 
-'alpha_dash_space' => "Ce champ ne peut contenir que des caractères alphanumeriques, des soulignés (underscore), des tirets et des espaces.",
+    'alpha' => 'Ce champ ne peut contenir que des caractères alphabétiques.',
 
-'alpha_dash' => "Ce champ ne peut contenir que des caractères alphanumeriques, des soulignés (underscore) et des tirets.",
+    'alpha_dash' => 'Ce champ ne peut contenir que des caractères alphanumériques, des sous-tirets et des tirets.',
 
-'alpha_numeric' => "Ce champ ne peut contenir que des caractères alphanumeriques.",
+    'alpha_dash_period' => 'Ce champ ne peut contenir que des caractères alphanumériques, sous-tirets, tirets, points et emojis.',
 
-'alpha' => "Ce champ ne peut contenir que des caractères alphabétiques.",
+    'alpha_dash_space' => 'Ce champ ne peut contenir que des caractères alphanumériques, sous-tirets, tirets et espaces.',
 
-'boolean' => "Ce champ doit être un booléen.",
+    'alpha_numeric' => 'Ce champ ne peut contenir que des caractères alphanumériques.',
 
-'enum' => "Ce champ doit être l'un de : %s.",
+    'boolean' => 'Ce champ ne peut être être qu\'une valeur booléenne.',
 
-'exact_length' => "Ce champ doit faire exactement %s caractères de long.",
+    'enum' => 'Ce champ doit faire partie de: %s.',
 
-'greater_than' => "Ce champ doit être plus grand que : %s",
+    'exact_length' => 'Ce champ doit exactement comporter %s caractères de long.',
 
-'hex_color' => "Ce champ ne peut contenir qu'un code couleur hexadécimal valide.",
+    'greater_than' => 'Ce champ doit être plus grand que: %s',
 
-'integer' => "Ce champ ne peut contenir qu'un nombre entier.",
+    'greater_or_equal_than' => 'Ce champ doit être plus grand ou égal à: %s',
 
-'invalid_path' => 'Ce chemin serveur est soit invalide, soit non inscriptible.',
+    'hex_color' => 'Ce champ doit contenir un code couleur hex valide.',
 
-'invalid_xss_check' => 'Les données que vous avez soumises n\'ont pas passées nos contrôles de sécurité. Si vous n\'aviez pas l\'intention de soumettre ce formulaire, merci de <a href="%s">cliquer ici</a> et aucun paramètre ne sera modifié.',
+    'integer' => 'Ce champ doit contenir un  nombre entier.',
 
-'is_natural_no_zero' => "Ce champ ne peut contenir qu'un nombre strictement supérieur à zéro.",
+    'invalid_path' => 'Ce chemin est soit non valide soit non réinscriptible.',
 
-'is_natural' => "Ce champ ne peut contenir que des nombres positifs.",
+    'invalid_xss_check' => 'Les données que vous avez saisies n\'ont pas passé notre contrôle de sécurité. Si vous n\'aviez pas l\'intention de saisir de formulaire merci de <a href="%s">cliquer ici</a> et aucune modification des réglages ne sera effectuée.',
 
-'is_numeric' => "Ce champ ne peut contenir que des caractères numériques.",
+    'is_natural' => 'Ce champ ne peut contenir que des nombres positifs.',
 
-'less_than' => "Ce champ doit être moins grand que : %s",
+    'is_natural_no_zero' => 'Ce champ doit contenir un nombre supérieur à zéro.',
 
-'limithtml' => "Ce champ ne peut contenir que les balises HTML suivantes : %s. Si vous voulez utiliser les sigles < et > dans votre texte et pas dans le HTML, merci d\'utiliser &amp;lt; pour remplacer < et &amp;gt; pour remplacer >.",
+    'is_numeric' => 'Ce champ ne doit contenir que des caractères numériques.',
 
-'matches' => "Ce champ ne correspond pas au champ %s.",
+    'less_than' => 'Ce champ doit être inférieur à: %s',
 
-'max_length' => "Ce champ ne peut dépasser %s caractères de long.",
+    'less_or_equal_than' => 'Ce champ doit être inférieur ou égal à: %s',
 
-'min_length' => "Ce champ doit faire au moins %s caractères de long.",
+    'limithtml' => 'Ce champ ne peut contenir que les balises HTML suivantes: %s. Si vous souhaitez utiliser < dans votre texte, mais pas de HTML, merci d\'essayer &amp;lt; pour remplacer < et &amp;gt; pour remplacer >.',
 
-'no_html' => 'Ce champ ne peut pas contenir de HTML.',
+    'matches' => 'Ce champ ne correspond pas au champ %s.',
 
-'numeric' => "Ce champ ne peut contenir que des nombres.",
+    'max_length' => 'Ce champ ne peut excéder %s caractères.',
 
-'regex' => "Ce champ doit correspondre à l'expression régulière `%s`.",
+    'min_length' => 'Ce champ doit au moins comporter %s caractères.',
 
-'required' => "Ce champ est obligatoire.",
+    'no_html' => 'Ce champ ne peut pas contenir de HTML.',
 
-'unique_email' => "Ce champ doit contenir une adresse email unique.",
+    'numeric' => 'Ce champ ne doit comporter que des nombres.',
 
-'unique' => "Ce champ doit être unique.",
+    'regex' => 'Ce champ doit correspondre à l\'expression régulière `%s`.',
 
-'valid_base64' => "Ce champ ne peut contenir que des caractères du jeu base64 (alphanumérique, slash, plus et égal).",
+    'required' => 'Ce champ est requis.',
+    
+    'starts_with' => 'Ce champ devrait débuter avec <code>%s</code>.',
 
-'valid_email' => "Ce champ doit contenir une adresse email valide.",
+    'not_starts_with' => 'Ce champ ne devrait pas débuter avec <code>%s</code>.',
 
-'valid_emails' => "Ce champ doit contenir des adresses email toutes valides.",
+    'unique' => 'Ce champ doit être unique.',
 
-'valid_ip' => "Ce champ doit contenir une adresse IP valide.",
+    'unique_email' => 'Ce champ ne doit comporter qu\'une adresse email unique.',
 
-'valid_url' => "Ce champ doit contenir une URL valide.",
+    'valid_base64' => 'Ce champ ne peut comporter que des caractères issus de la base64 (alphanumériques, barre oblique, plus, signe égal).',
 
-/* Legacy form validation lib */
-'file_exists' => 'Ce chemin serveur est soit invalide, soit non inscriptible.',
+    'valid_email' => 'Ce champ ne peut contenir qu\'une adresse email valide.',
 
-'writable' => 'Ce chemin serveur est soit invalide, soit non inscriptible.',
+    'valid_emails' => 'Ce champ ne peut contenir que des adresses email valides.',
 
-/* special and legacy things */
-'auth_password' => "Le mot de passe saisi est incorrect.",
+    'valid_ip' => 'Ce champ doit contenir une adresse IP valide.',
 
-'isset' => "Le champ %s doit avoir une valeur.",
+    'valid_url' => 'Ce champ doit contenir une adresse URL valide.',
+
+    /* Legacy form validation lib */
+    'file_exists' => 'Ce chemin est soit invalide, soit non réinscriptible.',
+
+    'writable' => 'Ce chemin est soit non valide, soit non réinscriptible.',
+
+    /* special and legacy things */
+    'auth_password' => 'Le mot de passe entré est incorrect.',
+
+    'isset' => 'Le champ %s doit comporter une valeur.',
 
 );
 

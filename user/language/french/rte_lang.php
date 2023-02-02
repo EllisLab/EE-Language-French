@@ -2,314 +2,353 @@
 
 $lang = array(
 
-'available_tool_sets' => 'Jeux d\'outils disponibles',
+    // Settings
+    'rte_file_browser' => 'Navigateur de fichiers',
+    'rte_file_browser_desc' => 'Quel navigateur de fichiers devrait être utilisé pour la consultation des images et des fichiers depuis vos champs RTE?',
 
-'btn_save_settings' => 'Enregistrer les paramètres',
+    // Configs
+    'rte_clone' => 'Cloner',
+    'rte_no_configs' => 'Il n\'y a pas de configurations actuellement.',
 
-'choose_tools' => 'Choisir les outils',
+    // Edit Config
+    'rte_basic_settings' => 'Réglages de base',
+    'rte_create_config' => 'Créer une nouvelle configuration',
+    'rte_edit_config' => 'Editer la configuration',
+    'rte_config_settings' => 'Réglages de configuration',
+    'rte_config_name' => 'Nom de configuration',
+    'rte_toolbar' => 'Personnaliser la barre d\'outils',
+    'custom_stylesheet' => 'Personnaliser la feuille de style',
+     'custom_stylesheet_desc' => 'Un modèle de styles CSS devant être appliquée aux champs utilisant cette boîte à outils. Tous les styles seront automatiquement préréglés avec la classe de la boîte à outils.',
+     'custom_javascript' => 'Extra JavaScript',
+     'custom_javascript_rte_desc' => 'Le modèle JS  à inclure au sein des champs utilisant cette boîte à outils. Utilisé typiquement pour inclure des plugins supplémentaires lorsqu\'une configuration avancée est utilisée.',
+    'rte_min_height' => 'Hauteur minimum',
+    'rte_min_height_desc' => 'Entrer le nombre de pixels ou laisser vide',
+    'rte_max_height' => 'Hauteur maximum',
+    'rte_max_height_desc' => 'Entrer le nombre de pixels ou laisser vide',
+    'rte_limiter' => 'Limiter le nombre de caractères',
+    'rte_limiter_desc' => 'Limiter le nombre de caractères qu\'un utilisateur peut utiliser.',
+    'rte_upload_dir' => 'Répertoire de téléchargement',
+    'rte_advanced_settings' => 'Réglages avancés',
+    'rte_advanced_config' => 'Configuration avancée',
+     'rte_advanced_config_desc' => 'Editer la configuration directement en format JSON',
+     'rte_config_json' => 'Configuration JSON',
+     'rte_config_json_desc' => 'Ecrase visuellement la boîte à outils établie',
+     'rte_advanced_config_warning' => '<p><b>ALERTE</b>: <b class="no">Pour les utilisateurs avertis seulement.</b> Soyez très prudent en utilisant cette fonctionnalité et vérifier votre travail.</p><p>La fourniture d\'une configuration non valide peut rendre les champs RTE inaccessibles.</p>',
+    'rte_config_saved' => 'Configuration sauvegardée!',
+    'rte_config_saved_desc' => 'Votre configuration a été sauvegardée avec succès.',
 
-'configuration' => 'Configuration',
+    // Delete Config
+    'rte_delete_config' => 'Supprimer la configuration',
+    'rte_delete_config_confirm' => 'Etes-vous sûr(e) de vouloir supprimer de manière définitive cette configuration?',
+    'rte_config_deleted' => 'Configuration supprimée!',
+    'rte_config_deleted_desc' => 'Votre configuration a été supprimée avec succès.',
 
-'create_new' => 'créer un jeu d\'outils',
+    // -------------------------------------------
+    //  Field Settings
+    // -------------------------------------------
 
-'create_tool_set_header' => 'Créer un jeu d\'outils <abbr title="Rich Text Editor">RTE</abbr>',
+    'rte_editor_config' => 'Editeur de  configuration',
+    'rte_edit_configs' => 'Editer&nbsp;les configurations',
+    'rte_defer' => 'Différer l\'initialisation de l\'éditeur?',
+    'rte_defer_desc' => 'Si vous choisissez “Oui”, RTE n\'initialisera pas le javascript du champ avant de cliquer sur le fichier.',
 
-'create_tool_set' => 'Créer un jeu d\'outils',
+    // RTE
 
-'edit_tool_set_header' => 'Modifier le jeu d\'outils <abbr title="Rich Text Editor">RTE</abbr>',
+    'available_tool_sets' => 'Boite à outils disponible',
 
-'edit_tool_set' => 'Modifier le jeu d\'outils',
+    'btn_save_settings' => 'Sauvegarder les réglages',
 
-'no_tool_sets' => 'Aucun <b>jeux d\'outils</b> trouvé',
+    'choose_tools' => 'Inclure les outils',
 
-'rte_module_description' => 'Active le mode d\'édition en texte enrichi dans les zones de texte',
+    'configuration' => 'Configuration',
 
-'rte_module_name' => 'Éditeur de texte enrichi',
+    'create_new' => 'Créer Nouveau',
 
-'status' => 'Statut',
+    'create_tool_set' => 'Créer une boîte à outils',
 
-'tool_set_name' => 'Nom',
+    'create_tool_set_header' => 'Créer une boîte à outils <abbr title="Rich Text Editor">RTE</abbr>',
 
-'tool_set' => 'Jeu d\'outils',
+    'edit_tool_set' => 'Editer la boîte à outils',
 
-// Headings
-'create_new_toolset' => 'Créer un nouveau jeu d\'outils',
+    'edit_tool_set_header' => 'Editer la boîte à outils <abbr title="Rich Text Editor">RTE</abbr>',
 
-'edit_my_toolset' => 'Modifier mon jeu d\'outils',
+    'no_tool_sets' => 'Aucune boîte à outils n\'a été trouvée',
 
-'edit_toolset' => 'Modifier le jeu d\'outils',
+    'rte_module_description' => '',
 
-'my_toolset'	=> 'Mon jeu d\'outils',
+    'rte_module_name' => 'Rich Text Editor',
 
-'nav_rte_settings_short_desc' => 'Gérer les outils et les jeux d\'outils de l\'éditeur de texte enrichi',
+    'status' => 'Statut',
 
-'nav_rte_settings' => 'Éditeur de texte enrichi',
+    'tool_set' => 'Boîte à outils',
 
-'rte_prefs' => 'Préférences de l\'éditeur de texte enrichi',
+    'tool_set_name' => 'Nom',
 
-'rte_settings' => 'Préférences de site',
+    'tool_type' => 'Type d\'éditeur',
 
-'tools' => 'Outils',
+    /* Headings */
+    'create_new_toolset' => 'Créer une nouvelle boîte à outils',
 
-'toolsets' => 'Jeux d\'outils',
+    'edit_my_toolset' => 'Editer ma boîte à outils',
 
-// Snippets
-'cancel' => 'Annuler',
+    'edit_toolset' => 'Editer la boîte à outils',
 
-'delete' => 'Supprimer',
+    'my_toolset' => 'Ma boîte à outils',
 
-'disable_button' => 'Désactiver',
+    'nav_rte_settings' => 'Réglages Rich Text Editor',
 
-'disable_rte' => 'Désactiver l\'éditeur de texte enrichi',
+    'nav_rte_settings_short_desc' => 'Gérer les boîtes à outils et les outils Rich Text Editor',
 
-'disabled' => 'Désactivé',
+    'rte_prefs' => 'Préférences Rich Text Editor',
 
-'enable_button' => 'Activer',
+    'rte_settings' => 'Préférences du site',
 
-'enable_rte_desc' => 'Si activé, les utilisateurs enregistrées pourront utiliser l\'éditeur de texte enrichi pour créer de nouveaux contenus.',
+    'tools' => 'Outils',
 
-'enable_rte' => 'Activer l\'éditeur de texte enrichi',
+    'toolsets' => 'Boites à outils',
 
-'enabled' => 'Activé',
+    /* Snippets */
+    'cancel' => 'Annuler',
 
-'tool' => 'Outil',
+    'delete' => 'Supprimer',
 
-'toolset' => 'Jeu d\'outils',
+    'tool' => 'Outil',
 
-// Flashes
-'cannot_disable_default_toolset' => 'Le jeu d\'outils RTE par défaut ne peut pas être désactivé',
+    'toolset' => 'Boîte à outils',
 
-'cannot_remove_default_toolset' => 'Le jeu d\'outils RTE par défaut ne peut pas être supprimé',
+    /* Flashes */
 
-'disable_fail_desc' => 'Les jeux d\'outils suivants <b>n\'ont pas pu</b> être désactivés',
+    'cannot_remove_default_toolset' => 'La boite à outils RTE par défaut n\'a pas pu être supprimée',
 
-'disable_success_desc' => 'Les jeux d\'outils suivants ont été désactivés',
+    'disable_fail_desc' => 'Les boîtes à outils suivantes <b>n\'ont pas</b> été désactivées',
 
-'enable_fail_desc' => 'Les jeux d\'outils suivants <b>n\'ont pas pu</b> être activés',
+    'disable_success_desc' => 'Les boîtes à outils suivantes ont été désactivées',
 
-'enable_success_desc' => 'Les jeux d\'outils suivants ont été activés',
+    'enable_fail_desc' => 'Les boîtes à outils suivantes <b>n\'ont pas</b> été activées',
 
-'name_required' => 'Le nom du jeu d\'outils est requis.',
+    'enable_success_desc' => 'Les boîtes à outils suivantes ont été activées',
 
-'remove_fail_desc' => 'Les jeux d\'outils suivants <b>n\'ont pas pu</b> être supprimés',
+    'name_required' => 'Le nom de la boîte à outils est requis',
 
-'remove_success_desc' => 'Les jeux d\'outils suivants ont été supprimés :',
+    'remove_fail_desc' => 'Les boîtes à outils suivantes <b>n\'ont pas</b> été supprimées',
 
-'settings_error_desc' => 'Vos paramètres pour l\'éditeur de texte enrichi n\'ont pas pu être enregistrés. Merci de ré-essayer.',
+    'remove_success_desc' => 'Les boîtes à outils suivantes ont été supprimées',
 
-'settings_error' => 'Erreur d\'enregistrement',
+    'settings_error' => 'Erreur de réglages de sauvegarde',
 
-'settings_saved_desc' => 'Vos paramètres pour l\'éditeur de texte enrichi ont été enregistrés.',
+    'settings_error_desc' => 'Vos réglages Rich Text Editor n\'ont pas été sauvegardés. Merci de réessayer.',
 
-'settings_saved' => 'Paramètres enregistrés',
+    'settings_saved' => 'Réglages sauvegardés',
 
-'tool_update_failed' => 'La mise à jour de l\'outil a échouée. Merci de ré-essayer.',
+    'settings_saved_desc' => 'Vos réglages Rich Text Editor ont été sauvegardés.',
 
-'tool_updated' => 'Outil mis à jour',
+    'tool_updated' => 'Outil mis à jour',
 
-'toolset_created_desc' => '<b>%s</b> a(ont) été créé(s) avec succès.',
+    'toolset_created' => 'Boîte à outils créée',
 
-'toolset_created' => 'Jeu d\'outils créé',
+    'toolset_created_desc' => '<b>%s</b> a été créée avec succès.',
 
-'toolset_deleted' => 'Jeu d\'outils supprimé avec succès.',
+    'toolset_updated_desc' => '<b>%s</b> a été mise jour avec succès.',
 
-'toolset_edit_failed' => 'Le jeu d\'outil n\'a pas pu être ouvert pour modification.',
+    'toolset_deleted' => 'Boîte à outils supprimée avec succès.',
 
-'toolset_error_desc'	=> 'Nous n\'avons pas pu enregistrer le jeu d\'outils, merci de vérifier et corriger les erreurs ci-dessous.',
+    'toolset_edit_failed' => 'La boîte à outils n\'a pas pu être ouverte pour éditer.',
 
-'toolset_error' => 'Erreur de jeu d\'outil',
+    'toolset_error' => 'Erreur de boîte à outils',
 
-'toolset_not_deleted' => 'Le jeu d\'outils n\'a pas pu être supprimé.',
+    'toolset_error_desc' => 'Impossible de sauvegarder la boîte à outils, merci de passer en revue et de corriger les erreurs ci-dessous.',
+    
+    'toolset_json_error_desc' => 'La configuration avancée qui a été fournie ne correspond pas à du JSON valide.',
 
-'toolset_update_failed' => 'La mise à jour du jeu d\'outils a échouée. Merci de ré-essayer.',
+    'toolset_not_deleted' => 'La boîte à outils n\'a pas pu être supprimée.',
 
-'toolset_updated' => 'Jeu d\'outils mis à jour',
+    'toolset_update_failed' => 'La mise à jour de la boîte à outils a échoué. Merci de réessayer.',
 
-'toolset_updated' => 'Jeu d\'outils mis à jour',
+    'toolset_updated' => 'Boîte à outils mise à jour',
 
-'toolsets_disabled' => '%d jeu(x) d\'outils a(ont) été désactivé(s).',
+    'toolsets_removed' => 'Boites à outils supprimées',
 
-'toolsets_enabled' => '%d jeu(x) d\'outils a(ont) été activé(s).',
+    'toolsets_removed_desc' => '%d boîtes à outils ont été supprimées.',
 
-'toolsets_removed_desc' => '%d jeu(x) d\'outils ont été supprimé(s).',
+    'toolsets_updated' => 'Boîtes à outils mises à jour',
 
-'toolsets_removed' => 'Jeux d\'outils supprimés',
+    'unique_name_required' => 'Le nom de la boîte à outils doit être unique.',
 
-'unique_name_required' => 'Le nom du jeu d\'outils doit être unique.',
+    'valid_name_required' => 'Le nom de la boîte à outils ne doit pas comporter de caractères spéciaux.',
 
-'valid_name_required' => 'Le nom du jeu d\'outils ne doit pas contenir des caractères spéciaux.',
+    'valid_url_required' => 'Une URL valide est requise.',
 
-'valid_url_required' => 'une URL valide est requise.',
+    /* Labels */
+    'available_tools' => 'Outils disponibles (non utilisés)',
 
-// Labels
-'available_tools' => 'Outils disponibles (non utilisés)',
+    'default_toolset' => 'Boîte à outils <abbr title="Rich Text Editor">RTE</abbr> par défaut',
 
-'default_toolset_details' => 'Affiché pour les utilisateurs qui n\'auraient pas créé le leur ou choisi un autre.',
+    'default_toolset_details' => 'Affichée pour les utilisateurs qui n\'ont pas encore créé la leur ou n\'en ont pas choisi une autre.',
 
-'default_toolset' => 'Jeu d\'outils par défaut',
+    'enable_rte_for_field' => 'Activer Rich Text Editor',
 
-'enable_rte_for_field' => 'Activer l\'éditeur de texte enrichi ?',
+    'enable_rte_globally' => 'Activer Rich Text Editor',
 
-'enable_rte_globally' => 'Activer l\'éditeur de texte enrichi ?',
+    'enable_rte_in_forum' => 'Activer Rich Text Editor pour son utilisation dans les forums?',
 
-'enable_rte_in_forum' => 'Activer l\'éditeur de texte enrichi pour les forums ?',
+    'enable_rte_myaccount' => 'Activer Rich Text Editor',
 
-'enable_rte_myaccount' => 'Activer l\'éditeur de texte enrichi ?',
+    'rte_image_caption' => 'Légende de l\'image:',
 
-'rte_center_error' => 'Vous ne pouvez pas centrer un élément habillé',
+    'rte_relationship' => 'Relation',
 
-'rte_image_caption'	=> 'Légende d\'image :',
+    'rte_selection_error' => 'Merci de sélectionner d\'abord du texte ou une image.',
 
-'rte_relationship' => 'Relations',
+    'rte_title' => 'Titre',
 
-'rte_selection_error' => 'Sélectionnez d\'abord du texte ou des images.',
+    'rte_url' => 'URL',
 
-'rte_title' => 'Titre',
+    'tools_in_toolset' => 'dans cette boîte à outils',
 
-'rte_url' => 'URL',
+    'toolset_builder_instructions' => 'Sélectionner un ou plusieurs outils et le(s) glisser dans la localisation désirée.',
 
-'tools_in_toolset' => 'Dans ce jeu d\'outils',
+    'toolset_builder_label' => 'Quels outils devraient être disponibles dans cette boîte à outils?',
 
-'toolset_builder_instructions' => 'Sélectionnez un ou plusieurs outils et glissez-les à l\'emplacement désiré.',
+    'toolset_name' => 'Nom de la boîte à outils',
 
-'toolset_builder_label' => 'Quels outils devraient être disponibles dans ce jeu d\'outils ?',
+    /* tool names */
 
-'toolset_name' => 'Nom du jeu d\'outils',
+    'paragraph_rte' => 'Paragraphe',
 
-// Tool names (based on class name)
-'blockquote_rte_desc' 		=> 'utilise <blockquote>',
+    'heading_h1_rte' => 'Titre H1',
 
-'blockquote_rte' 	=> 'Citer',
+    'heading_h2_rte' => 'Titre H2',
 
-'bold_rte_desc' 			=> 'utilise <b>',
+    'heading_h3_rte' => 'Titre H3',
 
-'bold_rte' 			=> 'Gras',
+    'heading_h4_rte' => 'Titre H4',
 
-'headings_rte_desc' 		=> 'utilise <h*>',
+    'heading_h5_rte' => 'Titre H5',
 
-'headings_rte' 		=> 'Titrage',
+    'heading_h6_rte' => 'Titre H6',
 
-'image_rte_desc' 			=> 'utilise <img>',
+    'bold_rte' => 'Gras',
 
-'image_rte' 		=> 'Image',
+    'italic_rte' => 'Italique',
 
-'italic_rte_desc' 			=> 'utilise <i>',
+    'deleted_rte' => 'Supprimé',
 
-'italic_rte' 		=> 'Italique',
+    'lists_rte' => 'Listes',
 
-'link_rte_desc' 			=> 'utilise <a href="">',
+    'image_rte' => 'Image',
 
-'link_rte' 			=> 'Lien',
+    'file_rte' => 'Fichier',
 
-'ordered_list_rte_desc' 	=> 'utilise <ol>',
+    'strikethrough_rte' => 'Barré',
 
-'ordered_list_rte' 	=> 'Liste ordonnée',
+    'underline_rte' => 'Souligné',
 
-'preferences_rte' 	=> 'Préférences',
+    'subscript_rte' => 'Indice',
 
-'strip_tags_rte' 	=> 'Effacer le formatage',
+    'sub_rte' => 'Indice',
 
-'underline_rte_desc' 		=> 'utilise <u>',
+    'superscript_rte' => 'Exposant',
 
-'underline_rte' 	=> 'Souligner',
+    'sup_rte' => 'Exposant',
 
-'unordered_list_rte_desc'	=> 'utilise <ul>',
+    'code_rte' => 'Code',
 
-'unordered_list_rte'=> 'Liste à puces',
+    'blockquote_rte' => 'Bloc de citation',
 
-'view_source_rte_desc' 		=> 'permet aux auteurs de visualiser le code',
+    'heading_rte' => 'Titre',
 
-'view_source_rte' 	=> 'Voir le code',
+    'format_rte' => 'Format',
 
-// Tool misc
-'make_bold' => 'Gras',
+    'removeFormat_rte' => 'Supprimer le formatage',
 
-'remove_bold' => 'Non gras',
+    'undo_rte' => 'Défaire',
 
-'title_bold' => 'met en gras',
+    'redo_rte' => 'Refaire',
 
-'make_italics' => 'Mettre en italique',
+    'numberedList_rte' => 'Liste numérotée',
 
-'remove_italics' => 'Supprimer l\'italique',
+    'ol_rte' => 'Liste numérotée',
 
-'title_italics' => 'met en italique',
+    'bulletedList_rte' => 'Liste à puces',
 
-'make_underline' => 'Souligner',
+    'ul_rte' => 'Liste à puces',
 
-'remove_underline' => 'Supprimer le souligné',
+    'outdent_rte' => 'Diminuer le retrait',
 
-'title_underline' => 'souligne',
+    'indent_rte' => 'Accroître le retrait',
 
-'make_ul' => 'Liste à puces',
+    'link_rte' => 'Lien',
 
-'remove_ul' => 'Supprimer la liste à puces',
+    'horizontalrule_rte' => 'Règle horizontale',
 
-'title_ul' => 'crée une liste à puces',
+    'line_rte' => 'Règle horizontale',
 
-'make_ol' => 'Liste ordonnée',
+    'filemanager_rte' => 'Image',
 
-'remove_ol' => 'Supprimer la liste ordonnée',
+    'insertTable_rte' => 'Table',
 
-'title_ol' => 'crée une liste ordonnée',
+    'table_rte' => 'Table',
 
-'make_blockquote' => 'Citer',
+    'mediaEmbed_rte' => 'Media',
 
-'remove_blockquote' => 'Supprimer la citation',
+    'htmlEmbed_rte' => 'HTML',
 
-'title_blockquote' => 'crée une citation',
+    'html_rte' => 'HTML',
 
-'link' => 'Lien',
+    'alignment_rte' => 'Aligner',
 
-'add_link' => 'Ajouter un lien',
+    'alignment:left_rte' => 'Aligner à gauche',
 
-'update_link' => 'Mettre à jour le lien',
+    'alignment:right_rte' => 'Aligner à droite',
 
-'remove_link' => 'Supprimer le lien',
+    'alignment:center_rte' => 'Centrer',
 
-'external_link' => 'Lien externe',
+    'alignment:justify_rte' => 'Justifier',
 
-'title_link' => 'crée un hyperlien',
+    'horizontalLine_rte' => 'Ligne horizontale',
 
-'view_code' => 'Voir le code',
+    'specialCharacters_rte' => 'Caractères spéciaux',
 
-'view_content' => 'Voir le contenu',
+    'specialchars_rte' => 'Caractères spéciaux',
 
-'title_view' => 'voir le code',
+    'readMore_rte' => 'Séparateur "Lire plus"',
 
-'strip_tags' => 'Effacer le formatage',
+    'readmore_rte' => 'Séparateur "Lire plus"',
 
-'paragraph' => 'paragraphe',
+    'fontColor_rte' => 'Couleur de police',
 
-'heading_1' => 'titre 1',
+    'fontBackgroundColor_rte' => 'Police de fond',
 
-'heading_2' => 'titre 2',
+    'open_in_new_tab' => 'Ouvrir dans un nouvel onglet',
 
-'heading_3' => 'titre 3',
+    'source_rte' => 'Visualiser la source',
 
-'heading_4' => 'titre 4',
+    'video_rte' => 'Vidéo',
 
-'heading_5' => 'titre 5',
+    'fullscreen_rte' => 'Plein écran',
 
-'heading_6' => 'titre 6',
+    'properties_rte' => 'Propriétés',
 
-'img_add' => 'Image',
+    'textdirection_rte' => 'Sens d\'écriture du texte',
 
-'img_remove' => 'Supprimer l\'image',
+    'codemirror_rte' => 'Codemirror',
 
-'img_align_left' => 'Aligner l\'image à Gauche',
+    'widget_rte' => 'Widget',
 
-'img_align_center' => 'Centrer l\'image',
+    'inlinestyle_rte' => 'Style',
 
-'img_align_right' => 'Aligner l\'image à Droite',
+    'rte_plugins' => 'Plugins',
+    'rte_toolbar_buttons' => 'Boutons de boîte à outils',
 
-'img_wrap_left' => 'Ajuster l\'image à Gauche du texte',
+    'rte_definedlinks_rte' => 'Liens de page',
 
-'img_wrap_none' => 'Séparer l\'image du texte',
+    'filebrowser_rte' => 'Navigateur de fichiers',
 
-'img_wrap_right' => 'Ajuster l\'image à Droite du texte',
+    'counter_rte' => 'Compteur',
 
-'img_title' => 'télécharger un fichier', // is original string "upload file" OK in context?
+    'pages_rte' => 'Pages',
 
+    'fontcolor_rte' => 'Couleur de texte',
+
+    '' => ''
 );
-
-// EOF

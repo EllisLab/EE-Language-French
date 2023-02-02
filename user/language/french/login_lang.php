@@ -2,56 +2,73 @@
 
 $lang = array(
 
-//----------------------------
-// Log-in
-//----------------------------
-'email_address' => 'Adresse email',
+    /* Log-in */
+    'credential_missmatch' => 'C\'est un nom d\'utilisateur ou un mot de passe erroné',
 
-'enter_new_password' => 'Entrer un nouveau mot de passe',
+    'locked' => 'Verrouillé',
 
-'id_not_found' => 'Le code que vous avez soumis n\'a pas été trouvé dans la base de données.',
+    'multi_login_warning' => 'Quelqu\'un s\'est déjà connecté en utilisant ce compte',
 
-'locked' => 'Verrouillé',
+    'new_password_request' => 'Requête d\'un nouveau mot de passe',
 
-'log_into' => 'Connexion à',
+    'no_email' => 'Vous devez soumettre votre adresse email.',
 
-'login' => 'Connexion',
+    'no_password' => 'Le champ de mot de passe est requis',
 
-'new_password_confirm' => 'Confirmer le nouveau mot de passe',
+    'no_username' => 'Le champ de nom d\'utilisateur est requis',
 
-'new_password_request' => 'Demande de nouveau mot de passe',
+    'password_lockout_in_effect' => 'Vous êtes seulement autorisé(e) à effectuer un maximum de quatre tentatives de connexion toutes les %d minutes',
 
-'new_password' => 'Nouveau mot de passe',
+    'remember_me' => 'Conserver ma connexion.',
 
-'no_reset_id' => 'Le code identifiant que vous avez soumis ne semble pas valide. Merci de vérifier le lien que vous avez suivi.',
+    'return_to_login' => 'Retour à la connexion',
 
-'password_changed' => 'Mot de passe modifié avec succès',
+    'session_auto_timeout' => 'Votre session a expiré à cause de votre inactivité',
 
-'remind_me' => 'Rappelez-le moi',
+    'unauthorized_request' => 'Vous n\'êtes pas autorisé(e) à réaliser cette action',
 
-'reset_password' => 'Modifier le mot de passe',
+    'email_address' => 'adresse e-mail ',
 
-'session_auto_timeout' => 'Votre session a expiré en raison de son inactivité',
+    'enter_new_password' => 'Entrer un nouveau mot de passe',
 
-'successfully_changed_password' => 'Vous avez modifié votre mot de passe avec succès. Merci de vous reconnecter en utilisant votre nouveau mot de passe.',
+    'remind_me' => 'Me rappeler',
 
-"credential_missmatch" => "Nom d'utilisateur ou mot de passe invalide.",
+    'id_not_found' => 'Le numéro de code que vous avez saisi n\'a pas été trouvé dans la base de données.',
 
-"multi_login_warning" => "Quelqu'un est déjà connecté avec ce compte.",
+    'log_into' => 'Se connecter à',
 
-"no_email" => "Vous devez saisir une adresse email.",
+    'login' => 'Se connecter',
 
-"no_password" => "Le champ mot de passe doit être renseigné.",
+    'new_password' => 'Nouveau mot de passe',
 
-"no_username" => "Le champ identifiant doit être renseigné.",
+    'new_password_confirm' => 'Confirmer le nouveau mot de passe',
 
-"password_lockout_in_effect" => "Vous n'êtes autorisé à effectuer que 4 tentatives de connexion toutes les %x minutes",
+    'no_reset_id' => 'Le jeton de réactualisation du mot de passe ne semble pas valide. Merci de vérifier le lien que vous avez utilisé.',
 
-"remember_me" => "Connexion automatique à l'avenir ?",
+    'password_changed' => 'Mot de passe modifié avec succès',
 
-"return_to_login" => "Retourner à la mire de connexion",
+    'reset_password' => 'Ré-initialiser le mot de passe',
 
-"unauthorized_request" => "Vous n'êtes pas autorisé à exécuter cette action",
+    'successfully_changed_password' => 'Vous avez modifié votre mot de passe avec succès. Merci de vous connecter en utilisant votre nouveau mot de passe.',
+
+    'send_request' => 'Envoyer une requête',
+
+    'sending' => 'envoi en cours',
+
+    'change_password' => 'Modifier le mot de passe',
+
+    'updating' => 'réactualisation en cours',
+
+    'password_rank_weak' => 'Faible',
+
+    'password_rank_good' => 'Moyen',
+
+    'password_rank_strong' => 'Fort',
+
+    'password_rank_very_strong' => 'Excellent',
+    'reset' => 'Réinitialiser',
+
+    'confirm' => 'Confirmer',
 
 );
 

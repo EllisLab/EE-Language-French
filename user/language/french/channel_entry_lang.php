@@ -1,7 +1,7 @@
 <?php
 
 $lang = array(
-'channel_entry' => 'Article de canal',
+    'channel_entry' => 'Entrée du canal',
 
 );
 // EOF

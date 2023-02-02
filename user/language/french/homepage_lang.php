@@ -1,77 +1,80 @@
 <?php
 
 $lang = array(
-'and' => 'et',
 
-'are' => 'sont',
+    'and' => 'et',
 
-'awaiting_moderation' => 'en attente de modération',
+    'are' => 'sont',
 
-'banned_members' => 'Membres exclus',
+    'awaiting_moderation' => 'en attente de modération',
 
-'channels_desc' => 'Les canaux sont utilisés pour stocker le contenu de votre site web. Par exemple, si vous voulez un journal, vous devrez d\'abord créer un canal afin de stocker les articles. Voyez-les comme des dossiers ou des répertoires.',
+    'banned_members' => 'Membres censurés',
 
-'channels' => 'Canaux',
+    'channels' => 'Canaux',
 
-'closed_entries_with_comments' => '<b>%d</b> articles fermés avec %d commentaires',
+    'channels_desc' => 'Les canaux sont utilisés pour héberger des contenus au sein de votre site WEB. Par exemple, si vous souhaitiez créer un blog, vous auriez à créer d\'abord un canal pour y ranger vos entrées. Considérez les canaux comme s\'ils étaient des dossiers ou des répertoires.',
 
-'comments' => 'Commentaires',
+    'closed_entries_with_comments' => '<b>%d</b> Entrées fermées avec %d commentaires.',
 
-'content_desc' => 'Articles de canal, raison pour laquelle vous avez des visiteurs.',
+    'comments' => 'Commentaires',
 
-'content' => 'Contenu',
+    'content' => 'Contenu',
 
-'create_new' => 'Créer',
+    'content_desc' => 'Entrées des canaux et ce pourquoi elles sont visitées par des potes.',
 
-'eecms_news' => 'Nouvelles d\'ExpressionEngine',
+    'create_new' => 'Créer Nouvelle',
 
-'entries_with_comments' => '<b>%d</b> articles avec %d commentaires',
+    'eecms_news' => 'Nouvelles d\'Expressionengine',
 
-'field_groups' => 'Groupes de champs',
+    'entries_with_comments' => '<b>%d</b> Entrées avec %d commentaires',
 
-'flagged_as_spam' => 'marqué(s) comme Spam potentiel',
+    'field_groups' => 'Groupes de champs',
 
-'has' => 'a ',
+    'flagged_as_spam' => 'fléché(s) comme spam',
 
-'have_been' => 'a(ont) été',
+    'commented_on' => 'a commenté dans',
 
-'latest_news_and_articles' => 'Dernières nouvelles et articles',
+    'has' => 'a',
 
-'members_desc' => 'Les membres sont des utilisateurs enregistrés de votre site. Vous <em>devez</em> avoir au moins un membre : un administrateur.',
+    'have_been' => 'ont été',
 
-'members' => 'Membres',
+    'latest_news_and_articles' => 'Articles et nouvelles les plus récents',
 
-'new_comments' => '<em>nouveaux</em> commentaires',
+    'members' => 'Membres',
 
-'new_members_permission_desc' => 'Vous pouvez <a href="%s">modifier le paramètre</a> pour autoriser ou interdire l\'inscription de nouveaux membres.',
+    'members_desc' => 'Les membres sont des utilisateurs inscrits et enregistrés sur votre site. Vous <em>devez</em> avoir au moins un membre, un administrateur.',
 
-'new_spam' => '<em>nouveaux</em> éléments dans la file d\'attente Spam',
+    'new_comments' => 'nouveau(x) commentaire(s)',
 
-'news_fetch_failure' => 'Oups, nous n\'avons pas pu récupérer les dernières nouvelles.',
+    'new_members_permission_desc' => 'Vous devez <a href="%s">changer les réglages</a> pour autoriser ou refuser de nouvelles inscriptions de membres.',
 
-'overview' => ': vue d\'ensemble',
+    'new_spam' => 'nouveau(x) élément(s) dans la liste d\'attente des SPAM',
 
-'register_new' => 'Nouveau membre',
+    'news_fetch_failure' => 'Oups, nous n\'avons pas réussi à récupérer les nouvelles.',
 
-'review_all_new' => 'Tout vérifier',
+    'overview' => 'Aperçu',
 
-'review_all' => 'Tout vérifier',
+    'register_new' => 'Inscrire Nouveau',
 
-'rss' => 'RSS',
+    'review_all' => 'Tout visualiser',
 
-'search_content' => 'rechercher dans le contenu',
+    'review_all_new' => 'Visualiser tous les nouveaux',
 
-'settings' => 'paramètres',
+    'rss' => 'RSS',
 
-'since_last_login' => 'depuis votre dernière connexion',
+    'search_content' => 'recherche contenu',
 
-'spam' => 'Spam',
+    'settings' => 'réglages',
 
-'there_are' => 'Il y a',
+    'since_last_login' => 'depuis votre dernière connexion',
 
-'there_were' => 'Il y a eu',
+    'spam' => 'SPAM',
 
-'type_phrase' => 'termes à rechercher...',
+    'there_are' => 'Il y a',
+
+    'there_were' => 'Il y avait',
+
+    'type_phrase' => 'taper la phrase...',
 
 );
 

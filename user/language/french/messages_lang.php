@@ -2,243 +2,243 @@
 
 $lang = array(
 
-'add_block' => 'Ajouter aux bloqués',
+    'add_block' => 'Ajouter aux bloqués',
 
-'add_buddy' => 'Ajouter aux amis',
+    'add_buddy' => 'Ajouter à vos potes',
 
-'add_member' => 'Ajouter un membre',
+    'add_member' => 'Ajouter membre',
 
-'allowed_mimes' => 'Types de fichier autorisés :',
+    'allowed_mimes' => 'Types de champs autorisés:',
 
-'any' => 'N\'importe lequel',
+    'any' => 'n\'importe quel(elle)',
 
-'attach_too_large' => 'La taille de votre pièce jointe a dépassé la limite autorisée.',
+    'attach_too_large' => 'La taille de vos pièces jointes a dépassé la limite autorisée.',
 
-'attachments' => 'Pièces jointes',
+    'attachments' => 'Pièces jointes',
 
-'blocked_list' => 'Liste des personnes bloquées',
+    'blocked_list' => 'Liste bloquée',
 
-'blocked_recipients' => 'Il y avait des membres listés dans vos destinataires ou champs Copie Carbone qui n\'ont pu recevoir le message privé. Ils ont été supprimés par le système et vous pouvez tenter de leur envoyer à nouveau.',
+    'blocked_recipients' => 'Il y a des membres listés dans vos destinataires ou dans les champs CC qui ne sont pas en droit de recevoir des messages privés. Ils ont été retirés par le système et vous pouvez donc tenter un nouvel envoi.',
 
-'buddy_list' => 'Liste d\'amis',
+    'buddy_list' => 'Liste des potes',
 
-'bulletin_board' => 'Panneau d\'affichage',
+    'bulletin_board' => 'Tableau d\'affichage',
 
-'bulletin_date' => 'Date du bulletin',
+    'bulletin_date' => 'Date du communiqué',
 
-'bulletin_deleted' => 'Bulletin supprimé',
+    'bulletin_deleted' => 'Communiqué supprimé',
 
-'bulletin_expires' => 'Le bulletin expire',
+    'bulletin_expires' => 'Le communiqué expire',
 
-'bulletin_message' => 'Message du bulletin',
+    'bulletin_message' => 'Message du communiqué',
 
-'bulletin_success' => 'Bulletin publié avec succès',
+    'bulletin_success' => 'Communiqué publié avec succès',
 
-'cc' => 'Copie à',
+    'cc' => 'CC',
 
-'characters' => 'Caractères',
+    'characters' => 'Caractères',
 
-'choose_folder' => 'Choisir le dossier',
+    'choose_folder' => 'Choisir le dossier',
 
-'click_preview_to_attach' => 'Pour joindre plus d\'un élément, cliquez sur aperçu après avoir choisi un fichier',
+    'click_preview_to_attach' => 'Pour joindre plus d\'un élément, cliquer sur Prévisualiser après avoir choisi un fichier',
 
-'close_window' => 'Fermer la fenêtre',
+    'close_window' => 'Fermer la fenêtre',
 
-'compose_message' => 'Composer un nouveau message',
+    'compose_message' => 'Composer un nouveau message',
 
-'copy_selected' => 'Copier le(s) message(s) sélectionné(s)',
+    'copy_selected' => 'Copier le ou les messages sélectionnés',
 
-'current_attachments' => 'Pièce jointe actuelle',
+    'current_attachments' => 'Pièce jointe actuelle',
 
-'delete_bulletin_popup' => 'Êtes-vous sûr de vouloir supprimer ce bulletin ?',
+    'delete_bulletin' => 'Supprimer le communiqué',
 
-'delete_bulletin' => 'Supprimer le bulletin',
+    'delete_bulletin_popup' => 'Etes-vous sûr(e) de vouloir supprimer ce communiqué?',
 
-'delete_selected' => 'Supprimer le(s) message(s) sélectionné(s)',
+    'delete_selected' => 'Supprimer les messages sélectionnés',
 
-'deleted_messages' => 'Corbeille',
+    'deleted_messages' => 'Corbeille',
 
-'description_charlimit' => '(moins que 50 caractères)',
+    'description_charlimit' => '(moins de 50 caractères)',
 
-'draft_message' => 'Enregistrer dans les brouillons',
+    'draft_message' => 'Sauvegarder comme brouillon',
 
-'draft_messages' => 'Messages brouillons',
+    'draft_messages' => 'Messages au brouillon',
 
-'duplicate_message_sent' => 'Vous avez envoyé exactement le même message plus d\'une fois.',
+    'duplicate_message_sent' => 'Vous avez adressé un message avec un contenu exactement identique plus d\'une seule fois.',
 
-'edit_folders' => 'Modifier les dossiers de message',
+    'edit_folders' => 'Editer les dossiers de messages',
 
-'edit_list' => 'Modifier la liste',
+    'edit_list' => 'Editer la liste',
 
-'empty_body_field' => 'Votre champ message est vide. Vous souhaitez dire quelque chose, n\'est ce pas ?',
+    'empty_body_field' => 'le champ de votre message est vide. Vous vouliez sûrement exprimer quelque chose, n\'est-ce pas :) ?',
 
-'empty_list' => 'La liste est vide',
+    'empty_list' => 'La liste est vide',
 
-'empty_recipients_field' => 'Le message doit avoir au moins un destinataire.',
+    'empty_recipients_field' => 'Le message doit comporter au moins un destinataire.',
 
-'empty_subject_field' => 'Un objet est requis pour tous les messages',
+    'empty_subject_field' => 'Un sujet est requis pour tous les messages',
 
-'erase_messages' => 'Vider la corbeille',
+    'erase_messages' => 'Vider la corbeille',
 
-'erase_popup' => 'Êtes-vous sûr de vouloir effacer tous les messages supprimés ?',
+    'erase_popup' => 'Etes-vous sûr(e) de vouloir effacer tous les messages supprimés?',
 
-'fifty_percent' => '50%',
+    'fifty_percent' => '50%',
 
-'file_name' => 'Nom du fichier',
+    'file_name' => 'Nom de fichier',
 
-'file_size_unit' => 'KB',
+    'file_size' => 'Taille de fichier',
 
-'file_size' => 'Taille du fichier',
+    'file_size_unit' => 'KB',
 
-'folder_directions' => 'Pour supprimer un élement soumettez le formulaire en laissant le nom de dossier vide. La suppression d\'un dossier supprimera également ses messages.',
+    'folder_directions' => 'Pour supprimer un élément, soumettez le formulaire avec un nom de dossier vide. Supprimer un dossier reviendra à supprimer tous les messages de ce dossier.',
 
-'folder_name' => 'Nom du dossier',
+    'folder_name' => 'Nom de dossier',
 
-'folder_page' => 'Page',
+    'folder_page' => 'Page',
 
-'folder_required' => '(Requis)',
+    'folder_required' => '(requis)',
 
-'folders_updated' => 'Dossiers mis à jour',
+    'folders_updated' => 'Dossiers mis à jour',
 
-'forward_date' => 'Date :',
+    'forward_date' => 'Date: ',
 
-'forward_from' => 'De :',
+    'forward_from' => 'De: ',
 
-'forward_header' => '--- Message ré-expédié ---',
+    'forward_header' => '---- Message transféré ————',
 
-'forward_prefix' => 'TR: ',
+    'forward_prefix' => 'FWD: ',
 
-'forward_subject' => 'Objet :',
+    'forward_subject' => 'Sujet: ',
 
-'guided' => 'Guidé',
+    'guided' => 'Guidé',
 
-'hide_cc' => 'Masquer la Copie Carbone des destinataires',
+    'hide_cc' => 'Cacher CC aux destinataires suivants',
 
-'hundred_percent' => '100%',
+    'hundred_percent' => '100%',
 
-'insert_member_instructions' => 'Cliquez sur le nom du membre pour le sélectionner',
+    'insert_member_instructions' => 'Cliquer les noms de membres pour les sélectionner',
 
-'invalid_message' => 'Message invalide',
+    'invalid_message' => 'Message non valide',
 
-'invalid_username' => 'Un ou plusieurs identifiants saisis sont invalides.',
+    'invalid_username' => 'Un ou plusieurs noms d\'écran soumis sont non valides.',
 
-'max_size' => 'Taille maximale :',
+    'max_size' => 'Taille max:',
 
-'member_description' => 'Description',
+    'member_description' => 'Description',
 
-'member_group' => 'Groupe de membres',
+    'member_group' => 'Groupe de membres',
 
-'member_name' => 'Nom du membre',
+    'member_name' => 'Nom de membre',
 
-'member_search' => 'Recherche de membre',
+    'member_search' => 'Recherche de membre',
 
-'member_usernames' => 'Pseudo du membre',
+    'member_usernames' => 'Nom d\'écran du membre',
 
-'message_date' => 'Date',
+    'message' => 'Message',
 
-'message_no_bulletins' => 'Aucun bulletin',
+    'message_date' => 'Date',
 
-'message_options' => 'Options',
+    'message_no_bulletins' => 'Pas de communiqué',
 
-'message_recipients' => 'Destinataires',
+    'message_options' => 'Options',
 
-'message_sender' => 'Expéditeur',
+    'message_recipients' => 'Destinataires',
 
-'message_subject' => 'Objet',
+    'message_sender' => 'Expéditeur',
 
-'message_too_large' => 'Le message est plus large que la taille maximale autorisée de %max%',
+    'message_subject' => 'Sujet',
 
-'message' => 'Message',
+    'message_too_large' => 'Le message dépasse la taille maximum autorisée de %max%',
 
-'messages_allowed_total' => 'Vous avez {lang:total_messages} sur un total de {lang:max_messages} messages autorisés.',
+    'messages_allowed_total' => 'Vous avez {lang:total_messages} messages sur un total de {lang:max_messages} messages autorisés.',
 
-'messages_copy' => 'Copier',
+    'messages_copy' => 'Copier',
 
-'messages_delete' => 'Supprimer',
+    'messages_delete' => 'Supprimer',
 
-'messages_folder' => 'Dossier des messages privés',
+    'messages_folder' => 'Dossier de messages privés',
 
-'messages_forward' => 'Transférer',
+    'messages_forward' => 'Transférer',
 
-'messages_move' => 'Déplacer',
+    'messages_move' => 'Déplacer',
 
-'messages_percent_full' => 'Vos dossiers sont pleins à {lang:usage_percent}%',
+    'messages_percent_full' => 'Vos dossiers sot remplis à {lang:usage_percent}%',
 
-'messages_reply_all' => 'Répondre à tous',
+    'messages_reply' => 'Répondre',
 
-'messages_reply' => 'Répondre',
+    'messages_reply_all' => 'Répondre à tous',
 
-'messsage_already_sent' => 'Votre message a déjà été envoyé',
+    'messsage_already_sent' => 'Votre message a déjà été envoyé',
 
-'missing_required_field' => 'Champs requis manquants',
+    'missing_required_field' => 'Champ manquant requis',
 
-'move_selected' => 'Déplacer le(s) message(s) sélectionné(s)',
+    'move_selected' => 'Déplacer les messages sélectionnés',
 
-'new_message' => 'Nouveau message',
+    'new_message' => 'Nouveau message',
 
-'new_search' => 'Effectuer une nouvelle recherche ?',
+    'new_search' => 'Effectuer une nouvelle recherche?',
 
-'no_messages' => 'Aucun message',
+    'no_messages' => 'Pas de messages',
 
-'no_more_attachments' => 'Vous n\'êtes pas autorisé à ajouter plus de pièces jointes.',
+    'no_more_attachments' => 'Vous n\'êtes autorisé(e) à ajouter plus de pièces jointes.',
 
-'no_search_results' => 'Votre recherche n\'a retourné aucun résultat',
+    'no_search_results' => 'Votre recherche n\'a donné aucun résultat',
 
-'normal' => 'Normal',
+    'normal' => 'Normal',
 
-'of' => 'sur',
+    'of' => 'de',
 
-'overflow_recipients' => 'Les boîtes de réception des membres suivants sont actuellement pleines, et pour envoyer ce message vous devez les supprimer de la liste de vos destinataires ou du champ Copie à : %overflow_names%',
+    'overflow_recipients' => 'Les boîtes de réception des membres suivants sont actuellement pleines. Pour envoyer ce message, vous devez les supprimer de votre liste de destinataires ou du champ CC : %overflow_names%',
 
-'preview_message' => 'Aperçu du message',
+    'preview_message' => 'Prévisualiser les messages',
 
-'private_message' => 'Message privé',
+    'private_message' => 'Message privé',
 
-'private_messages' => 'Messages privés',
+    'private_messages' => 'Messages privés',
 
-'remove' => 'Supprimer',
+    'remove' => 'Supprimer',
 
-'reply_prefix' => 'REP: ',
+    'reply_prefix' => 'RE: ',
 
-'search_results' => 'Résultats de la recherche',
+    'search_results' => 'Résultats de recherche',
 
-'send_bulletin' => 'Envoyer un bulletin',
+    'send_bulletin' => 'Envoyer le communiqué',
 
-'send_message' => 'Envoyer le message',
+    'send_message' => 'Envoyer le message',
 
-'send_throttle' => 'Vous êtes uniquement autorisé à envoyer un message privé toutes les %x secondes',
+    'send_throttle' => 'Vous êtes seulement autorisé(e) à envoyer un message privé toutes les %x secondes',
 
-'sending_limit_warning' => 'Vous avez dépassé la limite d\'envoi de messages privés pour une période de 24 heures.',
+    'sending_limit_warning' => 'Vous avez dépassé la limite d\'envoi de messages privés pour une période de 24h.',
 
-'sent_copy' => 'Enregistrer une copie dans le dossier des messages envoyés ?',
+    'sent_copy' => 'Ranger une copie dans le dossier des messages envoyés?',
 
-'smileys' => 'Émoticônes',
+    'smileys' => 'Smileys',
 
-'storage_limit_warning' => 'Vous avez atteint la limite de stockage pour les messages privés.',
+    'storage_limit_warning' => 'Vous avez atteint la limite de stockage pour les messages privés.',
 
-'storage_percentage' => 'Vos dossiers sont à %x% plein',
+    'storage_percentage' => 'Vos dossiers sont remplis à %x% ',
 
-'storage_status' => 'Vous avez %x sur un total de %y messages autorisés.',
+    'storage_status' => 'Vous avez atteint %x d\'un total de %y messages autorisés.',
 
-'switch_folder' => 'Basculer vers le dossier : ',
+    'switch_folder' => 'Changer de dossier: ',
 
-'too_many_attachments' => 'Trop de pièces jointes ont été téléchargées dans le système de MP. Veuillez contacter l\'administrateur du site.',
+    'too_many_attachments' => 'Trop de pièces jointes ont été téléchargées dans le système de MP. Merci de contacter l\'administrateur du site.',
 
-'track_message' => 'Suivre le message',
+    'track_message' => 'Traquer le message',
 
-'track_messages' => 'Suivre les messages',
+    'track_messages' => 'Traquer les messages',
 
-'unable_to_recieve_attach' => 'Impossible de recevoir la pièce jointe',
+    'unable_to_recieve_attach' => 'Impossible de recevoir la pièce jointe',
 
-'unlimited_messages' => 'Illimité',
+    'unlimited_messages' => 'Illimité',
 
-'view_folder' => 'Voir le dossier',
+    'view_folder' => 'Visualiser le dossier',
 
-'view_message' => 'Voir le message',
+    'view_message' => 'Visualiser le message',
 
-'waiting_period_not_reached' => 'Pour lutter contre le spam il y a un intervalle de %time% heure à attendre avant que les nouveaux membres ne soient autorisés à envoyer des messages privés.',
+    'waiting_period_not_reached' => 'Pour contrôler le SPAM, il y a une période de %time% heure(s) avant que les membres soient de nouveau autorisés à adresser des messages privés.',
 
-'zero_percent' => '0%',
+    'zero_percent' => '0%',
 
 );
 

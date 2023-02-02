@@ -2,626 +2,628 @@
 
 $lang = array(
 
-'add_member' => 'Ajouter le membre',
+    'accept_messages' => 'Accepter les messages privés qui vous sont adressés par d\'autres membres de ce site',
 
-'am_online' => "Je suis connecté",
+    'access_notice' => 'L\'administrateur a modifié les conditions d\'accès à ce site.',
 
-'any' => 'N\'importe lequel',
+    'add_member' => 'Ajouter Membre',
 
-'can_not_ignore_self' => 'Vous ne pouvez pas vous ignorer vous même',
+    'add_to_buddy' => 'Ajoutez-moi à votre liste d\'amis',
 
-'cannot_delete_self' => 'Vous n\'êtes pas autorisé à supprimer votre propre compte.',
+    'all_fields_required' => 'Vous devez soumettre tous les champs',
 
-'cannot_delete_super_admin' => 'Vous ne pouvez supprimer un Super Administrateur que s\'il en existe au moins un autre.',
+    'allowed_image_types' => 'Types d\'images autorisées: gif, jpg, png',
 
-'confirm_password' => 'Vous devez confirmer votre mot de passe pour exécuter cette action.',
+    'am_online' => 'Je suis en ligne',
 
-'delete_member' => 'Supprimer',
+    'any' => 'n\'importe quel(le)',
 
-'delete_selected_members' => 'Supprimer le(s) membre(s) sélectionné(s)',
+    'avatar_removed' => 'L\'Avatar a été retiré',
 
-'final_delete_confirm' => 'Veuillez confirmer que vous souhaitez définitivement supprimer votre compte et tous les contenus associés.',
+    'avatar_updated' => 'L\'Avatar a été mis à jour',
 
-'ignore_list_blurb' => 'Utilisez ce formulaire pour gérer votre liste d\'ignorés',
+    'avatars_not_found' => 'Impossible de localiser les avatars désirés',
 
-'ignore_list_empty' => 'Aucun membre n\'est ignoré',
+    'blue' => 'Bleu',
 
-'ignore_list_updated' => 'Liste d\'ignorés mise à jour avec succès',
+    'brown' => 'Marron',
 
-'ignore_list' => 'Gérer la liste d\'ignorés',
+    'browse_avatars' => 'Feuilleter les Avatars',
 
-'ignore_member' => 'Ignorer le membre',
+    'can_not_ignore_self' => 'Vous ne pouvez vous ignorer vous-même',
 
-'insert_member_instructions' => "Cliquez sur le nom d'un membre pour l'ajouter à votre liste d'ignorés",
+    'cannot_delete_self' => 'Vous n\'êtes pas autorisé(e) à supprimer votre propre compte de membre.',
 
-'invalid_pw' => 'Le mot de passe que vous avez saisi est invalide.',
+    'cannot_delete_super_admin' => 'Vous ne pouvez pas supprimer le seul et unique Super Admin. Merci de créer d\'abord un nouveau Super Admin.',
 
-'invalid_screen_name_message' => 'Le pseudo que vous avez saisi est invalide',
+    'choose_installed_avatar' => 'Feuilleter votre bibliothèque d\'Avatars',
 
-'invalid_screen_name' => 'Pseudo invalide',
+    'choose_new_pw' => 'Choisir un nouveau mot de passe',
 
-'mbr_account_deleted' => 'Votre compte et tout le contenu associé a été supprimé.',
+    'choose_new_un' => 'Choisir un nouveau nom d\'utilisateur',
 
-'mbr_delete_blurb' => 'Êtes-vous sûr de vouloir supprimer votre compte ? Tous les articles, messages, commentaires et tout autre contenu associé à votre compte sera également supprimé.',
+    'choose_selected' => 'Choisir l\'avatar sélectionné',
 
-'mbr_delete_notify_message' => "La personne suivante a supprimé son compte : {name}",
+    'close_tags' => 'Fermer les balises',
 
-'mbr_delete_notify_title' => 'Suppression de compte membre à {site_name}',
+    'color' => 'Couleur',
 
-'mbr_delete_warning' => 'ATTENTION : CETTE ACTION NE PEUT ÊTRE ANNULÉE !',
+    'communications' => 'Communications',
 
-'mbr_delete' => 'Supprimer le compte',
+    'confirm_new_pw' => 'Confirmer votre nouveau mot de passe',
 
-'mbr_email_member' => 'Console Email',
+    'confirm_password' => 'Vous devez confirmer votre mot de passe pour conduire cette action à son terme.',
 
-'mbr_field_invalid' => 'Le champ suivant contient une sélection invalide :',
+    'control_panel_home' => 'Accueil du Tableau de Bord',
 
-'mbr_not_allowed_to_use_email_console' => 'Vous n\'êtes pas autorisé à utiliser la Console Email',
+    'current_avatar' => 'Avatar actuel',
 
-'mbr_of' => 'de',
+    'current_avatar_set' => 'Jeu d\'avatars actuels:',
 
-'mbr_passwd_email_sent' => 'Email de réinitialisation du mot de passe envoyé',
+    'current_photo' => 'Photo actuelle',
 
-'mbr_your_stats' => 'Statistiques de votre compte',
+    'delete_member' => 'Supprimer',
 
-'member_search' => "recherche de membre",
+    'delete_selected_members' => 'Supprimer le(s) membre(s) sélectionné(s)',
 
-'new_requirements' => 'Nouvelles conditions d\'accès',
+    'disallowed_screen_chars' => 'Le nom d\'écran contient des caractères illégaux',
 
-'new_search' => 'Effectuer une nouvelle recherche ?',
+    'display_signatures' => 'Afficher les signatures de membres dans les entrées',
 
-'no_search_results' => 'Aucun membre ne correspond à vos critères de recherche',
+    'edit_avatar' => 'Editer l\'avatar',
 
-'no_user_avatar' => '%s n\'a téléchargé aucun avatar',
+    'edit_photo' => 'Editer la photo',
+    
+    'edit_preferences' => 'Editer les préferences',
 
-'of' => "sur",
+    'edit_signature' => 'Editer la signature',
 
-'powered_by_ee' => "Propulsé par ExpressionEngine",
+    'elapsed_time' => 'Script éxécuté en {elapsed_time} secondes',
 
-'private_message' => "Message privé",
+    'email_console' => 'Email Console',
 
-'screen_name_taken' => "Le pseudo choisi n'est pas disponible",
+    'enable_smart_notifications' => 'Activer les notifications intelligentes',
 
-'search_results' => 'Résultats de la recherche',
+    'existing_password' => 'Votre mot de passe actuel',
 
-'send_pm' => 'Envoyer un message privé',
+    'existing_un' => 'Votre nom d\'utilisateur existant',
 
-'sign_in' => 'Connectez-vous à votre compte',
+    'existing_username' => 'Votre nom d\'utilisateur existant',
 
-'unignore_member' => 'Ne plus ignorer le membre',
+    'final_delete_confirm' => 'Merci de confirmer que vous souhaitez supprimer de façon définitive votre compte et tout son contenu associé.',
 
-'unignore' => 'Ne plus ignorer',
+    'font_formatting' => 'Formatage police',
 
-'update_preferences' => 'Préférences mises à jour',
+    'forum_posts' => 'Total publications',
 
-"accept_messages" => "Accepter les messages privés qui vous sont envoyés par d'autres membres de ce site",
+    'gd_required' => 'La bibliothèque GD image est requise pour réaliser cette action.',
 
-"access_notice" => "L'administrateur a changé les conditions d'accès à ce site.",
+    'green' => 'Vert',
 
-"add_to_buddy" => "Ajoutez me à votre liste d'amis",
+    'grey' => 'Gris',
 
-"all_fields_required" => "Vous devez remplir tous les champs",
+    'guided' => 'Guidé',
 
-"allowed_image_types" => "Types d'images autorisés : gif, jpg, png",
+    'ignore_list' => 'Gérer la liste d\'ignorés',
 
-"avatar_removed" => "L'avatar a été supprimé",
+    'ignore_list_blurb' => 'Utiliser ce formulaire pour gérer votre liste d\'ignorés',
 
-"avatar_updated" => "L'avatar a été mis à jour",
+    'ignore_list_empty' => 'Aucun membre n\'a été ignoré',
 
-"avatar_upload_disallowed" => "Le téléchargement d'avatar n'est actuellement pas activé.",
+    'ignore_list_updated' => 'La liste d\'ignorés a été mise à jour avec succès',
 
-"avatars_not_enabled" => "Les avatars sont actuellement désactivés",
+    'ignore_member' => 'Ignorer le membre',
 
-"avatars_not_found" => "Impossible de localiser les avatars désirés",
+    'image_assignment_error' => 'Un erreur s\'est produite durant la tentative d\'associer votre image',
 
-"blue" => "Bleu",
+    'image_max_size_exceeded' => 'La taille maximum autorisée pour les images est %s kilobits',
 
-"brown" => "Brun",
+    'insert_member_instructions' => 'Cliquer sur un nom de membre pour l\'ajouter à votre liste d\'ignorés',
 
-"browse_avatars" => "Parcourir les avatars",
+    'invalid_email_address' => 'Vous n\'avez pas fourni une adresse email valide',
 
-"choose_installed_avatar" => "Parcourir notre bibliothèque d'avatars",
+    'invalid_existing_un_pw' => 'Le nom d\'utilisateur et/ou de mot de passe que vous avez saisi(s) ne sont pas valides',
 
-"choose_new_pw" => "Choisissez un nouveau mot de passe",
+    'invalid_image_type' => 'Les images doivent être dans un des formats suivants: jpg, jpeg, gif, png',
 
-"choose_new_un" => "Choisissez un nouvel identifiant",
+    'invalid_pw' => 'Le mot de passe saisi est non valide.',
 
-"choose_selected" => "Choisir l'avatar sélectionné",
+    'invalid_screen_name' => 'Nom d\'écran non valide',
 
-"close_tags" => "Balise de fermeture",
+    'invalid_screen_name_message' => 'Le nom d\'écran que vous avez saisi est non valide',
 
-"color" => "Couleur",
+    'kb' => 'KB',
 
-"communications" => "Communications",
+    'large' => 'Large',
 
-"confirm_new_pw" => "Confirmez le nouveau mot de passe",
+    'largest' => 'Le plus large',
 
-"control_panel_home" => "Accueil du panneau de contrôle",
+    'localization_disallowed' => 'Les préférences de localisation de membres sont actuellement désactivées.',
 
-"current_avatar_set" => "Série actuel d'avatar :",
+    'login_required' => 'Connexion requise',
 
-"current_avatar" => "Avatar actuel",
+    'max_characters' => 'Caractères',
 
-"current_photo" => "Photo actuelle",
+    'max_image_size' => 'Taille maximum d\'image: %x X %y',
 
-"disallowed_screen_chars" => "Le pseudo contient des caractères illégaux",
+    'mbr_account_deleted' => 'Vous avez supprimé votre compte et ses contenus associés avec succès.',
 
-"display_avatars" => "Afficher les avatars des membres dans les articles",
+    'mbr_account_not_active' => 'Votre compte de membre n\'a pas encore été activé.',
 
-"display_signatures" => "Afficher les signatures des membres dans les articles",
+    'mbr_activation' => 'Activation de compte',
 
-"edit_avatar" => "Modifier l'avatar",
+    'mbr_activation_success' => 'Votre compte a été activé.',
 
-"edit_photo" => "Modifier la photo",
+    'mbr_admin_will_activate' => 'Un administrateur du site va activer votre compte et vous notifier de sa mise en service.',
 
-"edit_preferences" => "Modifier les préférences",
+    'mbr_cannot_activate_role_not_exists' => 'Impossible d\'activer votre compte. Le rôle de membre n\'existe pas.',
 
-"edit_signature" => "Modifier la signature",
+    'mbr_cannot_activate_role_is_locked' => 'Impossible d\'activer votre compte. Le rôle de membre est verrouillé.',
 
-"elapsed_time" => "Script exécuté en {elapsed_time} secondes",
+    'mbr_aim_console' => 'AOL IM',
 
-"email_console" => "Console d'email",
+    'mbr_all_member_groups' => 'Tous les rôles',
 
-"enable_smart_notifications" => "Activer la notification intelligente",
+    'mbr_aol' => 'AOL',
 
-"existing_password" => "Votre mot de passe actuel",
+    'mbr_aol_im' => 'Messagerie instantanée AOL',
 
-"existing_un" => "Votre identifiant actuel",
+    'mbr_ascending' => 'Croissant',
 
-"existing_username" => "Votre identifiant actuel",
+    'mbr_auto_login' => 'Auto-connexion pour les futures visites',
 
-"font_formatting" => "Formatage de police",
+    'mbr_back_to_login' => 'Retour à la connexion',
 
-"forum_posts" => "Nombre de messages",
+    'mbr_back_to_main' => 'Retour au menu principal',
 
-"gd_required" => "La bibliothèque d'image GD est requise pour exécuter cette action.",
+    'mbr_bio' => 'Bio de membre',
 
-"green" => "Vert",
+    'mbr_birthday' => 'Anniversaire',
 
-"grey" => "Gris",
+    'mbr_captcha' => 'Soumettre le mot affiché ci-dessous:',
 
-"guided" => "Guidé",
+    'mbr_close_window' => 'Fermer la fenêtre',
 
-"image_assignment_error" => "Une erreur a été rencontrée en essayant d'affecter votre image",
+    'mbr_comments' => 'Commentaires',
 
-"image_max_size_exceeded" => "La taille maximale autorisée pour les images est de %s kiloctets",
+    'mbr_custom_field_empty' => 'Le champ suivant est requis:',
 
-"invalid_email_address" => "Vous n'avez pas saisi d'adresse email valide",
+    'mbr_delete' => 'Supprimer le compte',
 
-"invalid_existing_un_pw" => "L'identifiant et/ou le mot de passe actuel que vous avez saisis ne sont pas valides",
+    'mbr_delete_blurb' => 'Etes-vous sûr(e) de vouloir supprimer votre compte? Toutes les entrées et les publications, tous les commentaires et autres contenus associés à ce compte seront supprimés.',
 
-"invalid_image_type" => "Les images doivent être du type suivant : jpg, jpeg, gif, png",
+    'mbr_delete_notify_message' => 'La personne suivante a supprimé son compte: {name}',
 
-"kb" => "KO",
+    'mbr_delete_notify_title' => 'Suppression de compte de membre pour {site_name}',
 
-"large" => "Grand",
+    'mbr_delete_warning' => 'ALERTE: CETTE ACTION EST IRREVERSIBLE!',
 
-"largest" => "Le plus grand",
+    'mbr_descending' => 'Décroissant',
 
-"localization_disallowed" => "Les préférences de localisation de membre sont actuellement désactivées.",
+    'mbr_edit_your_profile' => 'Editer votre profil',
 
-"login_required" => "Connexion requise",
+    'mbr_email' => 'Email',
 
-"max_characters" => "Caractères",
+    'mbr_email_address' => 'Adresse email',
 
-"max_image_size" => "Taille maximale d'image : %x X %y",
+    'mbr_email_confirm' => 'Confirmer votre adresse email',
 
-"mbr_account_not_active" => "Votre compte de membres n'a pas encore été activé.",
+    'mbr_email_error' => 'Une erreur s\'est produite lors de l\'envoi de votre email.',
 
-"mbr_activation_success" => "Votre compte a été activé.",
+    'mbr_email_forwarding' => 'Ce message vous a été adressé à travers votre compte :',
 
-"mbr_activation" => "Activation de compte",
+    'mbr_email_forwarding_cont' => 'Si vous ne souhaitez plus recevoir de nouveaux emails, vous pouvez désactiver cette préférence dans votre page de profil de membre.',
 
-"mbr_admin_will_activate" => "Un administrateur du site va activer votre compte et vous notifier lorsqu'il sera prêt à l'emploi.",
+    'mbr_email_has_been_updated' => 'Vos préférences d\'email ont été mises à jour avec succès',
 
-"mbr_aim_console" => "AOL IM",
+    'mbr_email_member' => 'Console d\'emails',
 
-"mbr_all_member_groups" => "Tous les groupes de membres",
+    'mbr_email_not_accepted' => 'Ce membre n\'accepte pas les emails pour le moment.',
 
-"mbr_aol_im" => "Messagerie Instantanée AOL",
+    'mbr_email_short' => 'Email',
 
-"mbr_aol" => "AOL",
+    'mbr_email_timelock_not_expired' => 'Vous êtes seulement autorisé(e) à utiliser la Console d\'emails toutes les %x minutes.',
 
-"mbr_ascending" => "Ascendant",
+    'mbr_email_updated' => 'Préférences d\'email mises à jour',
 
-"mbr_auto_login" => "Connexion automatique lors des prochaines visites",
+    'mbr_emails_not_match' => 'Les emails fournis ne correspondent pas',
 
-"mbr_back_to_login" => "Retour à la connexion",
+    'mbr_field_invalid' => 'Le champ suivant contient une sélection non valide:',
 
-"mbr_back_to_main" => "Retour à l'accueil",
+    'mbr_field_required' => 'Le champ suivant est requis:',
 
-"mbr_bio" => "Biographie",
+    'mbr_forgot_password' => 'Mot de passe oublié?',
 
-"mbr_birthday" => "Anniversaire",
+    'mbr_forgotten_password' => 'Requérir la réinitialisation du mot de passe',
 
-"mbr_captcha" => "Saisissez le mot que vous voyez ci-dessous :",
+    'mbr_form_empty' => 'Vous devez soumettre votre nom d\'utilisateur et votre mot de passe',
 
-"mbr_close_window" => "Fermer la fenêtre",
+    'mbr_forum_post' => 'Sujet de forum',
 
-"mbr_comments" => "Commentaires",
+    'mbr_good_email' => 'Votre email a été envoyé avec succès.',
 
-"mbr_custom_field_empty" => "Le champ suivant est obligatoire :",
+    'mbr_icq' => ' Numéro ICQ',
 
-"mbr_descending" => "Descendant",
+    'mbr_icq_console' => 'Console ICQ',
 
-"mbr_edit_your_profile" => "Modifier votre profil",
+    'mbr_icq_message' => 'Message',
 
-"mbr_email_address" => "Adresse email",
+    'mbr_icq_number' => 'Numéro ICQ:',
 
-"mbr_email_confirm" => "Confirmation de l'adresse email",
+    'mbr_icq_recipient' => 'Destinataire:',
 
-"mbr_email_error" => "Une erreur a été rencontrée lors de l'envoi de votre email.",
+    'mbr_icq_subject' => 'Sujet',
 
-"mbr_email_forwarding_cont" => "Si vous ne souhaitez plus recevoir d'emails vous pouvez désactiver cette préférence dans votre page de profil.",
+    'mbr_id_not_found' => 'Le numéro de code que vous avez saisi n\'a pas été trouvé dans votre base de données.',
 
-"mbr_email_forwarding" => "Ce message vous a été envoyé depuis votre compte sur :",
+    'mbr_image_gallery' => 'Galerie photos',
 
-"mbr_email_has_been_updated" => "Vos préférences d'email ont été mise à jour avec succès",
+    'mbr_interests' => ' Vos centres d\'intérêt',
 
-"mbr_email_member" => "Console d'email",
+    'mbr_join_date' => 'Date d\'inscription',
 
-"mbr_email_not_accepted" => "Ce membre n'accepte actuellement pas les emails.",
+    'mbr_last_visit' => 'Dernière visite',
 
-"mbr_email_short" => "Email",
+    'mbr_localization_settings_updated' => 'Vos préférences de localisation ont été mises à jour avec succès',
 
-"mbr_email_timelock_not_expired" => "Vous n'êtes autorisé à utiliser la console email que toutes les %x minutes.",
+    'mbr_location' => 'Localisation',
 
-"mbr_email_updated" => "Préférences d'email mises à jour",
+    'mbr_logged_in_as' => 'Connecté en tant que:',
 
-"mbr_email" => "Email",
+    'mbr_login' => 'Connexion',
 
-"mbr_emails_not_match" => "Les emails fournis ne correspondent pas",
+    'mbr_logout' => 'Déconnexion',
 
-"mbr_field_required" => "Le champ suivant est obligatoire :",
+    'mbr_may_now_log_in' => 'Vous pouvez désormais vous connecter et commencer à l\'utiliser.',
 
-"mbr_forgot_password" => "Vous avez oublié votre mot de passe ?",
+    'mbr_member_group' => 'Groupe de membres',
 
-"mbr_forgotten_password" => "Mot de passe oublié",
+    'mbr_member_local_time' => 'Heure locale du membre',
 
-"mbr_form_empty" => "Vous devez saisir votre identifiant et votre mot de passe",
+    'mbr_member_name' => 'Nom de membre',
 
-"mbr_forum_post" => "Sujet de forum",
+    'mbr_member_profile' => 'Profil de membre',
 
-"mbr_good_email" => "Votre email a été envoyé avec succès.",
+    'mbr_member_registration' => 'Inscription de membre',
 
-"mbr_icq_console" => "Console ICQ",
+    'mbr_member_timezone' => 'Fuseau horaire du membre',
 
-"mbr_icq_message" => "Message",
+    'mbr_memberlist' => 'Liste de membres',
 
-"mbr_icq_number" => "Numéro ICQ :",
+    'mbr_membership_instructions_cont' => 'Merci de vérifier votre email et de suivre les instructions adressées dans le courriel.',
 
-"mbr_icq_recipient" => "Destinataire :",
+    'mbr_membership_instructions_email' => 'Vous venez d\'être destinataire d\'un email contenant les instructions d\'activation de membre.',
 
-"mbr_icq_subject" => "Objet",
+    'mbr_menu' => 'Menu',
 
-"mbr_icq" => "Numéro ICQ",
+    'mbr_message' => ' Message email',
 
-"mbr_id_not_found" => "Le numéro de code que vous avez saisi n'a pas été trouvé dans la base de données.",
+    'mbr_message_disclaimer' => 'En envoyant ce message, votre adresse email sera ainsi révélée au destinataire.',
 
-"mbr_image_gallery" => "Galerie photo",
+    'mbr_message_logged' => 'Notez: les messages emails sont journalisés et lisibles par les administrateurs du site',
 
-"mbr_interests" => "Centres d'intérêt",
+    'mbr_missing_fields' => 'Tous les champs sont requis',
 
-"mbr_join_date" => "Date d'inscription",
+    'mbr_most_recent_comment' => 'Commentaire le plus récent',
 
-"mbr_last_visit" => "Dernière visite",
+    'mbr_most_recent_entry' => 'Entrée la plus récente',
 
-"mbr_localization_settings_updated" => "Vos préférences de localisation ont été mises à jour avec succès",
+    'mbr_msn' => 'MSN Messenger',
 
-"mbr_location" => "Ville, Pays",
+    'mbr_msn_short' => 'MSN',
 
-"mbr_logged_in_as" => "Connecté comme :",
+    'mbr_my_account' => 'Mon compte',
 
-"mbr_login" => "Connexion",
+    'mbr_name' => 'Nom',
 
-"mbr_logout" => "Déconnexion",
+    'mbr_no_reset_id' => 'Le jeton de réinitialisation de mot de passe ne semble pas valide. Merci de vérifier à nouveau le lien que vous avez consulté.',
 
-"mbr_may_now_log_in" => "Vous pouvez maintenant vous connecter et commencer à l'utiliser.",
+    'mbr_not_allowed_to_use_email_console' => 'Vous n\'êtes pas autorisé(e) à utiliser la console email',
 
-"mbr_member_group" => "Groupe de membres :",
+    'mbr_not_allowed_to_view_profiles' => 'Vous n\'êtes pas autorisé(e) à visualiser les profils de membres.',
 
-"mbr_member_local_time" => "Heure local du membre",
+    'mbr_notepad' => 'Bloc-notes',
 
-"mbr_member_name" => "Nom du membre",
+    'mbr_notepad_updated' => 'Votre bloc-notes a été mis à jour',
 
-"mbr_member_profile" => "Profil de membre",
+    'mbr_occupation' => 'Profession',
 
-"mbr_member_registration" => "Inscription de membre",
+    'mbr_of' => 'de',
 
-"mbr_member_timezone" => "Fuseau horaire du membre",
+    'mbr_order' => 'Ordre',
 
-"mbr_memberlist" => "Liste des membres",
+    'mbr_passwd_email_sent' => 'Email de réinitialisation de mot de passe envoyé',
 
-"mbr_membership_instructions_cont" => "Veuillez vérifier votre courrier et suivre les instructions contenu dans l'email.",
+    'mbr_password' => 'Mot de passe',
 
-"mbr_membership_instructions_email" => "Un email contenant les instructions pour activer votre compte vient de vous être envoyé.",
+    'mbr_password_confirm' => 'Confirmer le mot de passe',
 
-"mbr_menu" => "Menu",
+    'mbr_password_length' => 'Les mots de passe doivent comporter au moins %x caractères',
 
-"mbr_message_disclaimer" => "En envoyant ce message, votre adresse email sera révélée au destinataire.",
+    'mbr_prefereces_have_been_updated' => 'Les préférences de membre ont été mises à jour',
 
-"mbr_message_logged" => "Note : Les messages emails sont enregistrés et peuvent être consultés par les administrateurs du site",
+    'mbr_preferences_updated' => 'Préférences mises à jour',
 
-"mbr_message" => "Message de l'email",
+    'mbr_problem_activating' => 'Requête d\'activation non valide.',
 
-"mbr_missing_fields" => "Tous les champs sont obligatoires",
+    'mbr_profile_has_been_updated' => 'Votre profil a été mis à jour avec succès',
 
-"mbr_most_recent_comment" => "Commentaire le plus récent",
+    'mbr_profile_homepage' => 'Page d\'accueil du Profil',
 
-"mbr_most_recent_entry" => "Article le plus récent",
+    'mbr_recipient' => 'Destinataire de l\'email:',
 
-"mbr_msn_short" => "MSN",
+    'mbr_registration_complete' => 'Inscription complétée',
 
-"mbr_msn" => "Messagerie MSN",
+    'mbr_registration_completed' => 'Votre inscription a été complétée avec succès.',
 
-"mbr_my_account" => "Mon compte",
+    'mbr_registration_not_allowed' => 'Les nouveaux comptes de membre ne sont pas acceptés pour le moment.',
 
-"mbr_name" => "Nom",
+    'mbr_cannot_register_role_not_exists' => 'Impossible de compléter l\'inscription. Le rôle de membre n\'existe pas.',
 
-"mbr_no_reset_id" => "Le numéro ID que vous avez saisi ne semble pas être valide. Veuillez vérifier le lien que vous avez suivi.",
+    'mbr_cannot_register_role_is_locked' => 'Impossible de compléter l\'inscription. Le rôle de membre est verrouillé.',
 
-"mbr_not_allowed_to_use_email_console" => "Vous n'êtes pas autorisé à utiliser la console email",
+    'mbr_required' => 'Indique le champ requis',
 
-"mbr_not_allowed_to_view_profiles" => "Vous n'êtes pas autorisé à consulter les profils de membre.",
+    'mbr_required_fields' => 'Indique les champs requis',
 
-"mbr_notepad_updated" => "Votre bloc note a été mis à jour",
+    'mbr_rows' => 'Rangées',
 
-"mbr_notepad" => "Bloc note",
+    'mbr_screen_name' => 'Nom d\'écran',
 
-"mbr_occupation" => "Profession ou Activité",
+    'mbr_screen_name_explanation' => 'Si vous laissez ce champ vide, votre nom d\'écran sera le même que votre nom d\'utilisateur',
 
-"mbr_order" => "Ordre",
+    'mbr_send_email' => 'Envoyer',
 
-"mbr_password_confirm" => "Confirmation de mot de passe",
+    'mbr_send_self_copy' => 'M\'adresser une copie de cet email',
 
-"mbr_password_length" => "Les mots de passe doivent faire au moins %x caractères de long",
+    'mbr_settings_updated' => 'Vos réglages ont été mis à jour',
 
-"mbr_password" => "Mot de passe",
+    'mbr_show' => 'Afficher',
 
-"mbr_prefereces_have_been_updated" => "Les préférences de membre ont été mises à jour",
+    'mbr_show_name' => 'Afficher mon nom dans la liste d\'utilisateurs connectés en ligne',
 
-"mbr_preferences_updated" => "Préférences mises à jour",
+    'mbr_sort' => 'Trier',
 
-"mbr_problem_activating" => "Requête d'activation invalide.",
+    'mbr_subject' => 'Objet de l\'email',
 
-"mbr_profile_has_been_updated" => "Votre profil a été mis à jour avec succès",
+    'mbr_submit' => 'Soumettre',
 
-"mbr_profile_homepage" => "Page d'accueil du profil",
+    'mbr_terms_of_service' => 'Conditions d\'utilisation',
 
-"mbr_recipient" => "Destinataire de l'email :",
+    'mbr_terms_of_service_required' => 'Vous devez cocher la case \'Acceptation des conditions d\'utilisation\' ',
 
-"mbr_registration_complete" => "Inscription terminée",
+    'mbr_total_comments' => 'Total commentaires',
 
-"mbr_registration_completed" => "Votre inscription a été complétée avec succès.",
+    'mbr_total_entries' => 'Total entrées',
 
-"mbr_registration_not_allowed" => "Les nouveaux comptes de membres ne sont pas acceptés pour le moment.",
+    'mbr_update' => 'Mise à jour',
 
-"mbr_required_fields" => "Indique des champs obligatoires",
+    'mbr_url' => 'URL',
 
-"mbr_required" => "Indique des champs obligatoires",
+    'mbr_username' => 'Nom d\'utilisateur',
 
-"mbr_rows" => "Lignes",
+    'mbr_username_email_sent' => 'Oubli de nom d\'utilisateur pour l\'email envoyé',
 
-"mbr_screen_name_explanation" => "Si vous ne remplissez pas ce champ, votre pseudo sera le même que votre identifiant",
+    'mbr_username_length' => 'Ls noms d\'utilisateurs doivent comporter au moins %x caractères',
 
-"mbr_screen_name" => "Pseudo",
+    'mbr_view_posts_by_member' => 'Voir toutes les publications réalisées par ce membre',
 
-"mbr_send_email" => "Envoyer l'email",
+    'mbr_yahoo' => 'Yahoo Messenger',
 
-"mbr_send_self_copy" => "Recevoir une copie de cet email",
+    'mbr_yahoo_short' => 'Yahoo',
 
-"mbr_settings_updated" => "Vos paramètres ont été mis à jour",
+    'mbr_you_are_logged_in' => 'Vous êtes désormais connecté(e)',
 
-"mbr_show_name" => "Afficher mon nom dans la liste des utilisateurs connectés",
+    'mbr_you_are_logged_out' => 'Vous êtes désormais déconnecté(e).',
 
-"mbr_show" => "Afficher",
+    'mbr_you_are_registered' => 'Vous êtes déjà inscrit(e) et connecté(e)',
 
-"mbr_sort" => "Trier",
+    'mbr_your_are_logged_in' => 'Vous êtes connecté(e) et prêt(e) à utiliser votre nouveau compte.',
 
-"mbr_subject" => "Objet de l'email",
+    'mbr_your_email' => 'Votre adresse email',
 
-"mbr_submit" => "Envoyer",
+    'mbr_your_stats' => 'Vos statistiques de compte',
 
-"mbr_terms_of_service_required" => "Vous devez cocher la case \"accepter les conditions d'utilisation\"",
+    'mbr_your_url' => 'Votre URL de site WEB',
 
-"mbr_terms_of_service" => "Conditions d'utilisation",
+    'medium' => 'Medium',
 
-"mbr_total_comments" => "Nombre de commentaires",
+    'mbr_your_stats' => 'Vos statistiques de compte',
 
-"mbr_total_entries" => "Nombre d'articles",
+    'member_login' => 'Connexion de membre',
 
-"mbr_update" => "Mettre à jour",
+    'member_module_description' => 'Système de gestion de membre',
 
-"mbr_url" => "URL",
+    'member_module_name' => 'Membre',
 
-"mbr_username_length" => "Les identifiants doivent faire au moins %x caractères de long",
+    'member_registration' => 'Inscription de membre',
 
-"mbr_username" => "Identifiant",
+    'member_results_row' => 'Message privé - Rangées de résultats de recherche de membres',
 
-"mbr_view_posts_by_member" => "Voir tous les messages de ce membre",
+    'member_search' => 'Recherche de membre',
 
-"mbr_yahoo_short" => "Yahoo",
+    'most_recent_forum_post' => 'Publication de forum la plus récente',
 
-"mbr_yahoo" => "Messagerie Yahoo",
+    'most_recent_forum_topic' => 'Sujet de forum le plus récent',
 
-"mbr_you_are_logged_in" => "Vous êtes maintenant connecté.",
+    'must_be_logged_in' => 'Cette page est seulement accessible aux membres connectés munis de leurs propres privilèges d\'accès',
 
-"mbr_you_are_logged_out" => "Vous êtes maintenant déconnecté.",
+    'my_avatar' => 'Mon Avatar',
 
-"mbr_you_are_registered" => "Vous êtes déjà inscrit et connecté.",
+    'my_photo' => 'Ma Photo',
 
-"mbr_your_are_logged_in" => "Vous êtes connecté et prêt à utiliser votre nouveau compte.",
+    'new_requirements' => 'Nouvelles conditions d\'accès',
 
-"mbr_your_email" => "Votre adresse email",
+    'new_search' => 'Effectuer une nouvelle recherche?',
 
-"mbr_your_stats" => "Statistiques de votre compte",
+    'no_avatar' => 'Vous n\'avez pas d\'avatar',
 
-"mbr_your_url" => "URL de votre site web",
+    'no_image_exists' => 'L\'image de signature n\'existe pas',
 
-"medium" => "Moyen",
+    'no_info_available' => 'Information non disponible',
 
-"member_login" => "Connexion Membre",
+    'no_photo' => 'Absence de photo',
 
-"member_module_description" => "Système de gestion des membres",
+    'no_photo_exists' => 'La photo de membre n\'existe pas',
 
-"member_module_name" => "Membre",
+    'no_search_results' => 'Aucun membre ne correspond à votre critère de recherche',
 
-"member_registration" => "Inscription de membre",
+    'no_user_avatar' => '%s n\'a pas téléversé d\'avatar',
 
-"member_results_row" => "Messages privés - Lignes des résultats de la recherche de membre",
+    'normal' => 'Normal',
 
-"most_recent_forum_post" => "Message de forum le plus récent",
+    'notice' => 'Note',
 
-"most_recent_forum_topic" => "Sujet de forum le plus récent",
+    'of' => 'de',
 
-"must_be_logged_in" => "Cette page est uniquement accessible aux membres connectés avec les privilèges d'accès adaptés",
+    'orange' => 'Orange',
 
-"my_avatar" => "Mon avatar",
+    'parse_smileys' => 'Afficher les illustrations de smileys dans les entrées.',
 
-"my_photo" => "Ma photo",
+    'personal_info' => 'Info personnelle',
 
-"no_avatar" => "Vous n'avez pas d'avatar",
+    'photo' => 'Photo de membre',
 
-"no_image_exists" => "L'image de signature n'existe pas",
+    'photo_removed' => 'La photo a été retirée',
 
-"no_info_available" => "Aucune information disponible",
+    'mbr_email_member' => 'Console email',
 
-"no_photo_exists" => "La photo de membre n'existe pas",
+    'photo_updated' => 'La photo de membre a été mise à jour',
 
-"no_photo" => "Aucune photo",
+    'photos_not_enabled' => 'Les photos de membres ne sont pas actuellement activées.',
 
-"normal" => "Normal",
+    'pink' => 'Rose',
 
-"notice" => "Note",
+    'post_statistics' => 'Statistiques de publications',
 
-"orange" => "Orange",
+    'powered_by_ee' => 'Motorisé par ExpressionEngine',
 
-"parse_smileys" => "Afficher les images des émoticônes dans les articles",
+    'private_message' => 'Message privé',
 
-"personal_info" => "Informations personnelles",
+    'private_messages' => 'Messages privés',
 
-"photo_removed" => "La photo a été supprimée",
+    'profile_not_available' => 'Le profil de membre que vous avez demandé n\'est actuellement pas disponible',
 
-"photo_updated" => "La photo de membre a été mise à jour",
+    'purple' => 'Violet',
 
-"photo" => "Photo de membre",
+    'pw_len' => 'Les mots de passe doivent au moins comporter %s caractères',
 
-"photos_not_enabled" => "Les photos de membre ne sont actuellement pas activées.",
+    'red' => 'Rouge',
 
-"pink" => "Rose",
+    'remove_avatar' => 'Supprimer l\'Avatar',
 
-"post_statistics" => "Statistiques de publication",
+    'remove_image' => 'Supprimer l\'Image',
 
-"private_messages" => "Messages privés",
+    'remove_photo' => 'Supprimer la Photo',
 
-"profile_not_available" => "Le profil de membre que vous avez demandé est actuellement indisponible",
+    'remove_sig_image' => 'Supprimer la signature d\'Image',
 
-"purple" => "Violet",
+    'return_to_forum' => 'Retourner aux forums',
 
-"pw_len" => "Les mots de passe doivent faire au moins %x caractères de long",
+    'return_to_login' => 'Retourner à la page de connexion',
 
-"red" => "Rouge",
+    'screen_name_taken' => 'Le nom d\'écran que vous avez choisi n\'est pas disponible',
 
-"remove_avatar" => "Supprimer l'avatar",
+    'search_field' => 'Recherche de champ',
 
-"remove_image" => "Supprimer l'image",
+    'search_glass' => 'Recherche à la loupe',
 
-"remove_photo" => "Supprimer la photo",
+    'mbr_not_allowed_to_use_email_console' => 'Vous n\'êtes pas autorisé(e) à utiliser la console d\'email',
 
-"remove_sig_image" => "Supprimer l'image de signature",
+    'search_results' => 'Recherche de  Résultats',
 
-"return_to_forum" => "Retourner aux forums",
+    'send_pm' => 'Envoyer un message privé',
 
-"return_to_login" => "Retourner à la page de connexion",
+    'settings_update' => 'Formulaire de mise à jour des réglages',
 
-"search_field" => "Rechercher champ",
+    'sig_img_not_enabled' => 'Les signatures d\'image ne sont pas activées.',
 
-"search_glass" => "Filtre de recherche",
+    'sig_img_removed' => 'La signature d\'image a été retirée',
 
-"settings_update" => "Formulaire de mise à jour des paramètres",
+    'sig_too_big' => 'Les signatures ne peuvent seulement comporter que %x caractères',
 
-"sig_img_not_enabled" => "Les images de signature ne sont pas activées.",
+    'sign_in' => 'Connectez-vous à votre compte',
 
-"sig_img_removed" => "L'image de signature a été supprimée",
+    'signature' => 'Signature',
 
-"sig_too_big" => "Les signatures ne peuvent contenir que %x caractères",
+    'signature_image' => ' Image de signature',
 
-"signature_image" => "Image de signature",
+    'signature_updated' => 'La signature a été mise à jour',
 
-"signature_updated" => "La signature a été mise à jour",
+    'signatures_not_allowed' => 'Les signatures sont actuellement désactivées',
 
-"signature" => "Signature",
+    'size' => 'Taille',
 
-"signatures_not_allowed" => "Les signatures sont actuellement désactivées",
+    'small' => 'Petit',
 
-"size" => "Taille",
+    'smileys' => 'Smileys',
 
-"small" => "Petit",
+    'statistics' => 'Statistiques',
 
-"smileys" => "Émoticônes",
+    'terms_accepted' => 'J\'accepte les conditions d\'utilisation',
 
-"statistics" => "Statistiques",
+    'terms_of_service_text' => 'Tous les messages publiés sur ce site expriment les opinions de leurs auteurs et ne reflètent pas nécessairement les points de vue des propriétaires et des administrateurs de ce site.
 
-"terms_accepted" => "J'accepte les conditions d'utilisation",
+En vous y inscrivant, vous prenez l\'engagement de ne publier aucun message obscène, vulgaire, calomnieux, haineux, menaçant ou entrant en violation avec les lois. Nous censurerons définitivement les utilisateurs qui ne respecteraient pas cet engagement.
 
-"un_len" => "Les identifiants doivent faire au moins %x caractères de long",
+Nous nous réservons aussi le droit de retirer, d\'éditer des messages pour ces mêmes raisons.',
 
-"unpw_updated" => "Vos paramètres ont été mis à jour, vous pouvez désormais vous connecter.",
+    'un_len' => 'Les noms d\'utilisateur doivent comporter au moins %s caractères',
 
-"update_avatar" => "Mettre à jour l'avatar",
+    'unignore' => 'Cesser d\' Ignorer',
 
-"update_photo" => "Mettre à jour la photo",
+    'unignore_member' => 'Cesser d\'ignorer le membre',
 
-"update_signature" => "Mettre à jour la signature",
+    'unpw_updated' => 'Vos réglages ont été mis à jour. Vous pouvez maintenant vous connecter.',
 
-"upload_an_avatar" => "Télécharger un avatar",
+    'update_avatar' => 'Mettre à jour l\'avatar',
 
-"upload_avatar" => "Télécharger l'avatar",
+    'update_photo' => 'Mettre à jour la photo',
 
-"upload_image" => "Télécharger une image",
+    'update_preferences' => 'Préférences mises à jour',
 
-"upload_photo" => "Télécharger une photo",
+    'update_signature' => 'Mettre à jour la signature',
 
-"uploads_not_allowed" => "Le téléchargement d'image n'est pas activé",
+    'upload_an_avatar' => 'Téléverser un avatar',
 
-"username_disallowed" => "L'administrateur n'autorise pas le changement d'identifiant",
+    'upload_avatar' => 'Téléverser un Avatar',
 
-"very_large" => "Très grand",
+    'upload_image' => 'Téléverser une Image',
 
-"view_private_messages" => "Voir les messages privés",
+    'upload_photo' => 'Téléverser une Photo',
 
-"yellow" => "Jaune",
+    'uploads_not_allowed' => 'Les téléversements d\'images ne sont pas activés',
 
-"your_control_panel" => "Votre panneau de contrôle",
+    'username_disallowed' => 'L\'administrateur n\'autorise pas le changement de nom d\'utilisateur',
 
-"your_current_un_pw" => "Votre identifiant et votre mot de passe actuel",
+    'very_large' => 'Très grand',
 
-"your_profile" => "Votre profil public",
+    'view_private_messages' => 'Visualiser les messages privés',
 
-"ypw_len" => "Votre mot de passe fait actuellement %x caractères de long",
+    'yellow' => 'Jaune',
 
-"yun_len" => "Votre identifiant fait actuellement %x caractères de long",
+    'your_control_panel' => 'Votre tableau de bord',
 
-"terms_of_service_text" => "
-Tous les messages postés sur ce site n'engagent que le point de vue de l'auteur, et ne reflète pas nécessairement la vue des propriétaires et administrateurs de ce site.
+    'your_current_un_pw' => 'Votre nom d\'utilisateur et votre mot de passe actuels',
 
-En vous inscrivant sur ce site vous vous engagez à ne pas poster de message qui soit obscène, vulgaire, diffamatoire, haineux, menaçant ou qui viole n'importe quel loi. Tous les utilisateurs qui
-ne respecteront pas ces règles seront définitivement exclus.
+    'your_profile' => 'Votre profil public',
 
-Nous nous réservons le droit de supprimer, modifier ou déplacer n'importe quel message, et ce quel qu'en soit la raison.",
+    'ypw_len' => 'Votre mot de pas comporte actuellement %s caractères',
 
-// Used Primarily in the Member_auth::forgot_password()
-// through Member_auth::process_reset_password() call chain
+    'yun_len' => 'Votre nom d\'utilisateur comporte actuellement %s caractères',
 
-'mbr_reset_password' => 'Merci de saisir un nouveau mot de passe',
+    'legacy_member_templates_not_enabled' => 'Cette page n\'est pas accessible parce que les <a href="' . DOC_URL . 'member/profile-templates.html" target="_blank" rel="external">modèles de membres hérités </a> ne sont pas activés.',
 
-'mbr_missing_password' => 'Merci de saisir un nouveau mot de passe.',
+    /* Used Primarily in the Member_auth::forgot_password() through Member_auth::process_reset_password() call chain */
+    'mbr_missing_confirm' => 'Vous devez confirmer votre nouveau mot de passe.',
 
-'mbr_missing_confirm' => 'Vous devez confirmer votre nouveau mot de passe.',
+    'mbr_missing_password' => 'Merci d\'entrer un nouveau mot de passe.',
 
-'mbr_password_changed' => 'Mot de passe modifié avec succès',
+    'mbr_password_changed' => 'Le mot de passe a été modifié avec succès',
 
-'mbr_successfully_changed_password' => 'Vous avez modifié votre mot de passe avec succès. Merci de vous reconnecter en utilisant votre nouveau mot de passe.',
+    'mbr_reset_password' => 'Merci d\'entrer un nouveau mot de passe',
+
+    'mbr_successfully_changed_password' => 'Vous avez modifié votre mot de passe avec succès. Merci de vous connecter avec votre nouveau mot de passe.',
 
 );
 

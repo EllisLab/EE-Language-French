@@ -2,156 +2,157 @@
 
 $lang = array(
 
-'any_category' => "N'importe quelle catégorie",
+    'any_category' => 'Toute catégorie',
 
-'any_field' => "N'importe quels champs",
+    'any_field' => 'Tout champ',
 
-'categories' => "Catégories",
+    'categories' => 'Catégories',
 
-'date_since' => "Depuis",
+    'date_since' => 'Depuis',
 
-'none_of_these_words' => "Aucun de ces mots",
+    'none_of_these_words' => 'Aucun de ces mots',
 
-'past_month' => "Mois dernier",
+    'past_month' => 'Mois dernier',
 
-'past_six_months' => "6 derniers mois",
+    'past_six_months' => 'Six derniers mois',
 
-'past_week' => "Semaine dernière",
+    'past_week' => 'Dernière semaine',
 
-'past_year' => "Année passée",
+    'past_year' => 'Année dernière',
 
-'rebuild_search_index' => 'Reconstruire l\'index de recherche',
+    'rebuild_search_index' => 'Reconstruire l\'index de recherche',
 
-'search_all_groups' => 'Rechercher tous les groupes de membres',
+    'search' => 'Rechercher',
 
-'search_by_member_group' => 'Rechercher par groupe de membres',
+    'search_all_groups' => 'Rechercher tous les rôles',
 
-'search_content_from' => "Rechercher le contenu depuis",
+    'search_all_words' => 'Rechercher tous les mots',
 
-'search_in_articles' => "Rechercher dans les articles",
+    'search_also_search_comments' => 'Rechercher aussi dans les commentaires',
 
-'search_in_channels' => "Rechercher dans les canaux",
+    'search_any_category' => 'Toute catégorie',
 
-'search_in_titles_articles' => "Rechercher dans les titres et articles",
+    'search_any_channel' => 'Tout canal',
 
-'search_in' => "Rechercher dans",
+    'search_any_date' => 'Toute date',
 
-'search_type' => "Type de recherche",
+    'search_any_words' => 'Recherche pour n\'importe quel mot',
 
-'searched_for' => 'Terme(s) recherché(s) :',
+    'search_ascending' => 'Croissant',
 
-'switch_to_group' => 'Basculer vers la recherche par groupe',
+    'search_author' => 'Auteur',
 
-'switch_to_name' => 'Basculer vers la recherche par nom',
+    'search_by_keyword' => 'Rechercher par mot-clé',
 
-'today' => "Aujourd'hui",
+    'search_by_member_group' => 'Rechercher par groupe de membres',
 
-"search_all_words" => "Rechercher tous les mots",
+    'search_by_member_name' => 'Rechercher par nom de membre',
 
-"search_also_search_comments" => "Rechercher aussi dans les commentaires",
+    'search_categories' => 'Catégories',
 
-"search_any_category" => "N'importe quelle catégorie",
+    'search_channel' => 'Canal',
 
-"search_any_channel" => "N'importe quel canal",
+    'search_channels' => 'Canaux',
 
-"search_any_date" => "N'importe quelle date",
+    'search_content_from' => 'Rechercher le contenu depuis',
 
-"search_any_words" => "Rechercher n'importe quel mot",
+    'search_date' => 'Date',
 
-"search_ascending" => "Ascendant",
+    'search_descending' => 'Décroissant',
 
-"search_author" => "Auteur",
+    'search_engine' => 'Moteur de recherche',
 
-"search_by_keyword" => "Rechercher par mot clef",
+    'search_entries' => 'Rechercher dans les titres et les entrées',
 
-"search_by_member_name" => "Rechercher par nom de membre",
+    'search_entries_from' => 'Rechercher les entrées depuis',
 
-"search_categories" => "Catégories",
+    'search_everywhere' => 'Rechercher dans les titres, entrées et commentaires',
 
-"search_channel" => "Canal",
+    'search_exact_name_match' => 'Correspondance exacte de nom ',
 
-"search_channels" => "Canaux",
+    'search_exact_phrase_match' => 'Correspondance exacte de phrase',
 
-"search_date" => "Date",
+    'search_exact_word' => 'Rechercher pour un mot exact',
 
-"search_descending" => "Descendant",
+    'search_excerpt' => 'Extrait',
 
-"search_engine" => "Moteur de recherche",
+    'search_in' => 'Rechercher dans:',
 
-"search_entries_from" => "Rechercher les articles de",
+    'search_in_articles' => 'Rechercher dans les articles',
 
-"search_entries" => "Rechercher dans titres et articles",
+    'search_in_channels' => 'Rechercher dans les canaux',
 
-"search_everywhere" => "Rechercher dans titres, articles et commentaires",
+    'search_in_titles' => 'Rechercher dans les titres',
 
-"search_exact_name_match" => "Correspondance exacte du nom",
+    'search_in_titles_articles' => 'Rechercher dans les titres et les articles',
 
-"search_exact_phrase_match" => "Correspondance exacte de la phrase",
+    'search_keywords' => 'Mots-clés',
 
-"search_exact_word" => "Rechercher le mot exact",
+    'search_min_length' => 'Les termes de recherche doivent comporter au moins %x caractères',
 
-"search_excerpt" => "Extrait",
+    'search_max_length' => 'Les termes de recherche ne doivent pas dépasser %x caractères',
 
-"search_in_titles" => "Rechercher dans titres",
+    'search_module_description' => 'Module de recherche',
 
-"search_keywords" => "Mots clés",
+    'search_module_name' => 'Rechercher',
 
-'search_max_length' => 'Les termes de recherche ne doivent pas faire plus de %x caractères de long',
+    'search_most_comments' => 'La plupart des commentaires',
 
-"search_min_length" => "Les termes de recherche doivent faire au moins %x caractères de long",
+    'search_newer' => 'Le plus récent',
 
-"search_module_description" => "Module de recherche",
+    'search_no_keywords' => 'Vous n\'avez pas soumis de terme de recherche',
 
-"search_module_name" => "Recherche",
+    'search_no_result' => 'Votre recherche n\'a retourné aucun résultat.',
 
-"search_most_comments" => "Le plus de commentaires",
+    'search_no_stopwords' => 'Votre terme de recherche était composé exclusivement de mots qui ne sont pas autorisés à être recherchés.',
 
-"search_newer" => "Plus récent",
+    'search_not_allowed' => 'Vous n\'êtes pas autorisé(e) à utiliser le moteur de recherche.',
 
-"search_no_keywords" => "Vous n'avez saisi aucun terme de recherche",
+    'search_older' => 'Le plus ancien',
 
-"search_no_result" => "Votre recherche n'a retourné aucun résultat.",
+    'search_one_month_ago_and' => 'le mois dernier et…',
 
-"search_no_stopwords" => "Votre recherche comprends des mots communs qui ne sont pas autorisés à être recherchés.",
+    'search_one_year_ago_and' => 'L\'année dernière et',
 
-"search_not_allowed" => "Vous n'êtes pas autorisé à utiliser le moteur de recherche.",
+    'search_path_error' => 'Le chemin de recherche contient une erreur. Merci de contacter l\'administrateur du système.',
 
-"search_older" => "Plus ancien",
+    'search_recent_comment' => 'Commentaire le plus récentt',
 
-"search_one_month_ago_and" => "1 mois et...",
+    'search_recent_comment_date' => 'Commentaire récent',
 
-"search_one_year_ago_and" => "1 an et...",
+    'search_result_heading' => 'Rechercher les résultats:',
 
-"search_path_error" => "Le chemin de recherche contient des erreurs. Veuillez contacter l'administrateur système.",
+    'search_results' => 'Rechercher les résultats',
 
-"search_recent_comment_date" => "Commentaire récent",
+    'search_six_months_ago_and' => '6 derniers mois et…',
 
-"search_recent_comment" => "Commentaires les plus récents",
+    'search_sort_results_by' => 'Classer les résultats par',
 
-"search_result_heading" => "Résultat de la recherche :",
+    'search_this_week_and' => 'Cette semaine et..',
 
-"search_results" => "Résultats de la recherche",
+    'search_three_months_ago_and' => '3 derniers mois et…',
 
-"search_six_months_ago_and" => "6 mois et...",
+    'search_time_not_expired' => 'Vous êtes seulement autorisé(e) à effectuer des recherches toutes les %x secondes.',
 
-"search_sort_results_by" => "Trier les résultats par",
+    'search_title' => 'Titre',
 
-"search_this_week_and" => "Cette semaine et...",
+    'search_today_and' => 'Aujourd\'hui et…',
 
-"search_three_months_ago_and" => "3 mois et...",
+    'search_total_comments' => 'Total Commentaires:',
 
-"search_time_not_expired" => "Vous êtes uniquement autorisé à effectuer une recherche toutes les %x secondes.",
+    'search_total_results' => 'Total résultats de recherche:',
 
-"search_title" => "Titre",
+    'search_type' => 'Type de recherche',
 
-"search_today_and" => "Aujourd'hui et...",
+    'searched_for' => 'Recherché pour:',
 
-"search_total_comments" => "Nombre de commentaires",
+    'switch_to_group' => 'Passer à la recherche de groupe',
 
-"search_total_results" => "Nombre de résultats :",
+    'switch_to_name' => 'Passer à la recherche de nom',
 
-"search" => "Recherche",
+    'today' => 'Aujourd\'hui',
 
+    'expired_search_results' => 'Les résultats de recherche ont expiré. Merci de recommencer à nouveau votre recherche.',
 );
 
 // EOF

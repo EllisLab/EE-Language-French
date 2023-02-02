@@ -2,169 +2,175 @@
 
 $lang = array(
 
-'comments_opened_notification' => 'Notification de nouveau commentaire utilisateur',
+    'admin_notify_comment' => 'Admin &ndash; Notification de commentaires',
 
-'email_subject'	=> 'Objet de l\'email',
+    'admin_notify_comment_desc' => 'Ce modèle définit le message reçu par un admin quand un commentaire est publié',
 
-'forum_announcements' => 'Annonces',
+    'admin_notify_entry' => 'Admin &ndash; Notification de nouvelles entrées',
 
-'forum_archives' => 'Archives',
+    'admin_notify_entry_desc' => 'Ce modèle définit le message reçu par les destinataires de notifications quand de nouvelles entrées de canal sont publiées .',
 
-'forum_atom' => 'Atom',
+    'admin_notify_forum_post' => 'Admin &ndash; Notification de nouvelles publications de forum',
 
-'forum_breadcrumb' => 'Fil d\'Ariane',
+    'admin_notify_forum_post_desc' => 'Ce modèle définit le message reçu par un administrateur quand une nouvelle publication de forum est effectuée',
 
-'forum_category' => 'Catégorie',
+    'admin_notify_reg' => 'Admin &ndash; Notification de nouvelles inscriptions',
 
-'forum_css' => 'Css',
+    'admin_notify_reg_desc' => 'Ce modèle définit le message reçu par un admin quand un nouveau membre est inscrit',
 
-'forum_delete_post' => 'Supprimer le message',
+    'available_variables' => 'Les variables suivantes ont été utilisées:',
 
-'forum_emoticons' => 'Émoticônes',
+    'comment_notification' => 'Utilisateur &ndash; Notification de commentaires',
 
-'forum_error' => 'Erreur',
+    'comment_notification_desc' => 'Ce modèle définit le message reçu par un utilisateur quand quelqu\'un répond à son commentaire',
 
-'forum_global' => 'Globale',
+    'comments_opened_notification' => 'Utilisateur &ndash; Notification de commentaires ajoutés',
 
-'forum_ignore' => 'Ignore',
+    'decline_member_validation' => 'Utilisateur &ndash; Notification de rejet de compte',
 
-'forum_index' => 'Index',
+    'email_changed_notification' => 'Utilisateur &ndash; Notification de changement d\'email',
 
-'forum_javascript' => 'Javascript',
+    'email_changed_notification_desc' => 'Ce modèle définit le message reçu par un utilisateur quand son adresse email a été modifiée.',
 
-'forum_legends' => 'Légendes',
+    'email_message' => ' Message Email',
 
-'forum_login' => 'Connexion',
+    'email_subject' => 'Sujet Email ',
 
-'forum_member' => 'Membre',
+    'email_title' => 'Titre Email',
 
-'forum_merge' => 'Fusionner',
+    'forgot_password_instructions' => 'Utilisateur &ndash; Instructions de mot de passe oublié',
 
-'forum_moderation_notification_desc' => 'Ce modèle définit les notifications que les membres reçoivent lorsque leur sujet de forum est déplacé, séparé ou fusionné par un modérateur.',
+    'forgot_password_instructions_desc' => 'Ce modèle définit les instructions reçues par un utilisateur qui a oublié son mot de passe',
 
-'forum_moderation_notification' => 'Notification utilisateur de modération de fil du forum',
+    'forgot_username_instructions' => 'Utilisateur &ndash; Instructions de mot de passe oublié',
 
-'forum_move_reply' => 'Déplacer la réponse',
+    'forgot_username_instructions_desc' => 'Ce modèle définit l\'email adressé à un utilisateur qui a oublié son mot de passe',
+    
+    'forum_announcements' => 'Annonces',
 
-'forum_move_topic' => 'Déplacer le sujet',
+    'forum_archives' => 'Archives',
 
-'forum_offline' => 'Hors ligne',
+    'forum_atom' => 'Atom',
 
-'forum_poll' => 'Sondage',
+    'forum_breadcrumb' => 'Aide à la navigation',
 
-'forum_report_notification_desc' => 'Ce modèle définit les notifications que les modérateurs reçoivent lorsqu\'un utilisateur signale un message de forum.',
+    'forum_category' => 'Catégorie',
 
-'forum_report_notification' => 'Notification modérateur de signalement de message de forum',
+    'forum_css' => 'CSS',
 
-'forum_report' => 'Rapport',
+    'forum_delete_post' => 'Supprimer la publication',
 
-'forum_rss' => 'Rss',
+    'forum_emoticons' => 'Emoticônes',
 
-'forum_search' => 'Recherche',
+    'forum_error' => 'Erreur',
 
-'forum_split' => 'Séparer',
+    'forum_global' => 'Global',
 
-'forum_stats' => 'Stats',
+    'forum_ignore' => 'Ignorer',
 
-'forum_submission' => 'Soumission',
+    'forum_index' => 'Index',
 
-'forum_threads' => 'Fils',
+    'forum_javascript' => 'JavaScript',
 
-'forum_topics' => 'Sujets',
+    'forum_legends' => 'Légendes',
 
-'forum_user_banning' => 'Exclusion d\'un utilisateur',
+    'forum_login' => 'Connexion',
 
-'message_body'	=> 'Corps du message de l\'email',
+    'forum_member' => 'Membre',
 
-'notification_has_char_limit' => 'La plupart des variables ci-dessus acceptent un paramètre char_limit : {title char_limit="40"}',
+    'forum_merge' => 'Fusionner',
 
-'password_changed_notification' => 'Notification de Mot de passe &ndash; Utilisateur modifié',
+    'forum_moderation_notification' => 'Utilisateur &ndash; Notification de modérations de fils de discussion de forum',
 
-'password_changed_notification_desc' => 'Ce modèle définit le message que recevra un utilisateur quand son mot de passe aura été modifié sur le frontal.',
+    'forum_moderation_notification_desc' => 'Ce modèle définit les notifications reçues par les membres quand leur sujet de forum est déplacé, séparé, ou fusionné par un modérateur',
 
-'pm_inbox_full_desc' => 'Ce modèle définit le message qu\'un utilisateur reçoit lorsqu\'il ne peut plus recevoir de message privé à cause d\'une boîte de réception pleine.',
+    'forum_move_reply' => 'Déplacer la réponse',
 
-'pm_inbox_full' => 'Notification de boîte de réception de messagerie privée pleine',
+    'forum_move_topic' => 'Déplacer le sujet',
 
-'profile_account' => 'Compte',
+    'forum_offline' => 'Hors-ligne',
 
-'profile_breadcrumb' => 'Fil d\'Ariane',
+    'forum_poll' => 'Sondage',
 
-'profile_bulletin_board' => 'Panneau d\'affichage',
+    'forum_post_notification' => 'Utilisateur &ndash; Notification de nouvelles publications de forum',
 
-'profile_common' => 'Commun',
+    'forum_post_notification_desc' => 'Ce modèle définit le message reçu par un utilisateur quand quelqu\'un répond à sa publication de forum',
 
-'profile_email' => 'Email',
+    'forum_report' => 'Signaler',
 
-'profile_member' => 'Membre',
+    'forum_report_notification' => 'Modérateur &ndash; Notification de signalement de publication de forum',
 
-'profile_private_messages' => 'Messages privés',
+    'forum_report_notification_desc' => 'Ce modèle définit les notifications reçues par les modérateurs quand un utilisateur signale une publication de forum',
 
-'profile_profile' => 'Profil',
+    'forum_rss' => 'Rss',
 
-'profile_registration' => 'Inscription',
+    'forum_search' => 'Chercher',
 
-'profile_subscriptions' => 'Souscriptions',
+    'forum_split' => 'Séparer',
 
-"admin_notify_comment_desc" => "Ce modèle définit le message qu'un Admin reçoit lorsqu'un commentaire est publié.",
+    'forum_stats' => 'Stats',
 
-"admin_notify_comment" => "Notification Admin des commentaires",
+    'forum_submission' => 'Soumission',
 
-"admin_notify_entry_desc" => "Ce modèle définit le message qu'un Admin reçoit lorsqu'un nouvel article est publié.",
+    'forum_threads' => 'Fils',
 
-"admin_notify_entry" => "Notification Admin des nouveaux articles",
+    'forum_topics' => 'Sujets',
 
-"admin_notify_forum_post_desc" => "Ce modèle définit le message qu'un Admin reçoit lorsqu'un nouveau message est publié sur un forum.",
+    'forum_user_banning' => 'Censure d\'utilisateur',
 
-"admin_notify_forum_post" => "Notification Admin de messages de forum",
+    'mbr_activation_instructions' => 'Utilisateur &ndash; Instructions d\'activation de compte',
 
-"admin_notify_reg_desc" => "Ce modèle définit le message qu'un Admin reçoit lorsqu'un nouveau membre s'est inscrit.",
+    'mbr_activation_instructions_desc' => 'Ce modèle définit les instructions d\'activation de membre qui sont adressées aux personnes qui s\'inscrivent sur le site',
 
-"admin_notify_reg" => "Notification Admin des nouvelles inscriptions de membre",
+    'message_body' => 'Corps du message email',
 
-"available_variables" => "Les variables suivantes peuvent être utilisées :",
+    'notification_has_char_limit' => 'La plupart des variables ci-dessus acceptent le paramètre de limitation de caractères (char_limit): {title char_limit="40"}',
 
-"comment_notification_desc" => "Ce modèle définit le message qu'un utilisateur reçoit lorsque quelqu'un a répondu à un de ses commentaires.",
+    'password_changed_notification' => 'Utilisateur &ndash; Notification de mot de passe modifié',
 
-"comment_notification" => "Notification de commentaire utilisateur",
+    'password_changed_notification_desc' => 'Ce modèle définit le message reçu par un utilisateur quand le mot de passe a changé depuis la page de connexion.',
 
-"decline_member_validation" => "Notification de rejet de compte membre",
+    'pm_inbox_full' => 'Utilisateur &ndash; Notification de boite de réception remplie ',
 
-"email_changed_notification" => 'Notification d\'Email &ndash; Utilisateur modifié',
+    'pm_inbox_full_desc' => 'Ce modèle définit le message reçu par un utilisateur quand il n\'est pas en situation de recevoir des messages privés à cause d\'une boite de réception pleine',
 
-"email_changed_notification_desc" => 'Ce modèle définit le message qu\'un utilisateur recevra quand son adresse email aura été modifiée.',
+    'private_message_notification' => 'Utilisateur &ndash; Notification de messages privés',
 
-"email_message" => "Message de l'email",
+    'private_message_notification_desc' => 'Ce modèle définit le message reçu par un utilisateur lorsque quelqu\'un lui a adressé un message privé',
 
-"email_title" => "Titre de l'email",
+    'profile_account' => 'Compte',
 
-"forgot_password_instructions_desc" => "Ce modèle définit les instructions qu'un utilisateur reçoit lorsqu'il a oublié son mot de passe.",
+    'profile_breadcrumb' => 'Aide à la navigation',
 
-"forgot_password_instructions" => "Instructions de récupération de mot de passe",
+    'profile_bulletin_board' => 'Tableau d\'affichage',
 
-"forum_post_notification_desc" => "Ce modèle définit le message qu'un utilisateur reçoit lorsque quelqu'un a répondu à un de ses messages de forum.",
+    'profile_common' => 'Commun',
 
-"forum_post_notification" => "Notification utilisateur de messages de forum",
+    'profile_email' => 'Email',
 
-"mbr_activation_instructions_desc" => "Ce modèle définit les instructions d'activation du compte membre qui sont envoyées aux personnes s'inscrivant sur le site.",
+    'profile_member' => 'Membre',
 
-"mbr_activation_instructions" => "Instructions d'activation de compte membre",
+    'profile_private_messages' => 'Messages privés',
 
-"private_message_notification_desc" => "Ce modèle définit le message qu'un utilisateur reçoit lorsque quelqu'un lui envoie un message privé.",
+    'profile_profile' => 'Profil',
 
-"private_message_notification" => "Notification de message privé",
+    'profile_registration' => 'Inscription',
 
-"use_this_template_exp" => "Si vous décochez la case, ce modèle ne sera pas utilisé. A la place, le message sera généré dynamiquement dans la langue de chaque utilisateur.",
+    'profile_subscriptions' => 'Abonnements',
 
-"use_this_template" => "Activer ce modèle ?",
+    'use_this_template' => 'Activer ce modèle?',
 
-"user_messages_template_desc" => "Ce modèle affiche les différents messages (erreur et autres) aux utilisateurs après qu'ils aient exécutés certaines actions, comme se connecter, soumettre un formulaire, etc.",
+    'use_this_template_exp' => 'Si désactivé, ce modèle se sera pas utilisé. En lieu et place, le message sera généré dynamiquement dans chacune des langues choisies par les utilisateurs',
 
-"user_messages_template_warning" => "Ne supprimer aucune des 5 variables requises ",
+    'user_messages_template_desc' => 'L\'objectif de ce modèle est de visualiser une erreur et divers messages aux utilisateurs après qu\'ils aient effectué certaines actions comme se connecter, soumettre un formulaire, etc.',
 
-"validated_member_notify_desc" => "Ce modèle définit la notification que les membres reçoivent lorsqu'un Admin a validé leur compte membre.",
+    'user_messages_template_warning' => 'Ne supprimez aucune des 5 variables requises:',
 
-"validated_member_notify" => "Notification de validation de compte membre",
+    'validated_member_notify' => 'Utilisateur &ndash; Notification de validation de compte',
+
+    'validated_member_notify_desc' => 'Ce modèle définit la notification reçue par un utilisateur quand un admin a validé son compte de membre',
+
+    'mbr_tmpl_should_be_in' => 'Les modèles hérités des membres doivent figurer dans le dossier',
 
 );
 

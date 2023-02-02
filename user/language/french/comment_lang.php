@@ -2,209 +2,223 @@
 
 $lang = array(
 
-//----------------------------------------
-// Required for MODULES page
-//----------------------------------------
+    'already_subscribed' => 'Vous êtes déjà inscrit(e) à ce fil de commentaires.',
 
-'already_subscribed' => 'Vous êtes déjà abonné à ce commentaire.',
+    'any_date' => 'Personnaliser la durée',
 
-'any_date' => 'Plage de dates personnalisée',
+    'block_ips' => 'Ajoute les IP à la liste des personnes bloquées',
 
-'blacklist' => 'Ajouter les adresses IP à la liste noire',
+    'choose_entry_for_comment_move' => 'Choisir l\'entrée à partir de laquelle déplacer le commentaire',
 
-'choose_entry_for_comment_move' => 'Choisissez l\'article pour le déplacement de commentaire',
+    'close_selected' => 'Régler le statut sur fermé',
 
-'close_selected' => 'Positionner le statut à Fermé',
+    'closed' => 'Fermé',
 
-'closed' => 'Fermé',
+    'cmt_account_not_active' => 'Votre compte de membre n\'a pas encore été activé',
 
-'cmt_must_be_logged_in' => 'Cette page est uniquement accessible aux utilisateurs connectés.',
+    'cmt_banned_email' => 'L\'adresse email que vous avez saisie est censurée',
 
-'cmt_subscribe' => 'Abonnez-vous à ce commentaire',
+    'cmt_comment_accepted' => 'Commentaire accepté',
 
-'cmt_unsubscribe' => 'Désabonnez-vous à ce commentaire',
+    'cmt_comment_removal' => 'Pour cesser de recevoir des notifications pour ce fil de commentaires, cliquer ici:',
 
-'collapsed_display' => 'Affichage regroupé',
+    'cmt_comment_response_body' => 'Quelqu\'un vient de répondre à l\'entrée à laquelle vous êtes abonné(e):',
 
-'comment_deleted' => 'Commentaire supprimé',
+    'cmt_comment_response_title' => 'Quelqu\'un vient de répondre à votre commentaire',
 
-'comment_edit_time_limit' => 'Limite du temps d\'édition des commentaires (en secondes, mettre 0 pour aucune limite)',
+    'cmt_comment_title' => 'Le titre de l\'entrée est:',
 
-'comment_moderation_override' => 'Modérer les articles ayant expiré',
+    'cmt_comment_url' => 'Vous pouvez visualiser le commentaire à l\'URL suivante :',
 
-'comment_moved' => 'Commentaire tranféré',
+    'cmt_commenting_has_expired' => 'Les commentaires ne sont pas disponibles pour cette entrée de canal.',
 
-'comment_settings' => 'Paramètres de commentaire',
+    'cmt_comments_not_allowed' => 'Les commentaires ne sont pas autorisés pour ce canal',
 
-'comment_smart_notifications' => 'Activer les notifications intelligentes',
+    'cmt_comments_timelock' => 'Vous êtes autorisé(e) à ne publier de commentaire que toutes les %s secondes.',
 
-'comment_updated' => 'Commentaire mis à jour',
+    'cmt_duplicate_comment_warning' => 'Impossible de recevoir de commentaire pour le moment.',
 
-'comment_word_censoring' => 'Forcer la censure de mots pour les commentaires',
+    'cmt_invalid_email' => 'L\'adresse email que vous avez saisie n\'est pas valide',
 
-'comment' => 'Commentaire',
+    'cmt_missing_comment' => 'Le champ de commentaire est requis',
 
-'comments_moved' => 'Commentaires transférés',
+    'cmt_missing_email' => 'Le champ du courriel est requis',
 
-'comments' => 'Commentaires',
+    'cmt_missing_name' => 'Le champ nom est requis',
 
-'date_range' => 'Plage de dates',
+    'cmt_must_be_member' => 'Vous devez être un membre inscrit pour publier des commentaires',
 
-'delete_comment_confirm' => 'Êtes-vous sûr de vouloir supprimer ce commentaire définitivement ?',
+    'cmt_name_not_allowed' => 'Le nom avec lequel vous publiez est un nom réservé. Merci de choisir un nom différent.',
 
-'delete_comments_confirm' => 'Êtes-vous sûr de vouloir supprimer ces commentaires définitivement ?',
+    'cmt_no_authorized_for_comments' => 'Vous n\'êtes pas autorisé(e) à publier des commentaires',
 
-'delete_confirm' => 'Confirmation de suppression de commentaire',
+    'cmt_no_preview_template_specified' => 'La balise de formulaire de commentaire ne contient pas la localisation de votre modèle de prévisualisation.',
 
-'delete_selected' => 'Supprimer la sélection',
+    'cmt_notification_removal' => 'Retrait de notification',
 
-'edit_comment' => 'Modifier les commentaires',
+    'cmt_return_to_comments' => 'Retour aux commentaires',
 
-'email' => 'Email',
+    'cmt_subscribe' => 'Souscrivez à ce commentaire',
 
-'end_date' => 'Date de fin',
+    'cmt_must_be_logged_in' => 'Cette page est uniquement accessible aux membres connectés.',
 
-'entry_title' => 'Titre de l\'article',
+    'cmt_too_large' => 'Le commentaire que vous avez saisi contient %n caractères mais seulement %x caractères sont autorisés.',
 
-'expand' => 'Développer',
+    'cmt_unsubscribe' => 'Se désinscrire de ce commentaire',
 
-'expanded_display' => 'Affichage étendu',
+    'cmt_will_be_reviewed' => 'Votre commentaire sera vérifié par un modérateur avant approbation.',
 
-'filter_by_author' => 'Filtrer par auteur',
+    'cmt_you_have_been_removed' => 'Vous avez été désabonné(e) de la réception de nouvelles notifications.',
 
-'filter_by_channel' => 'Filtrer par canal',
+    'collapsed_display' => 'Affichage réduit',
 
-'filter_by_status' => 'Filtrer par statut',
+    'comment' => 'Commentaire',
 
-'filter_comments' => 'Filtrer les commentaires',
+    'comment_deleted' => 'Commentaire supprimé',
 
-'instructions' => 'Instructions : ',
+    'comment_edit_time_limit' => 'Limitation de temps d\'édition des commentaire (en secondes, régler sur 0 pour ne fixer aucune limite)',
 
-'invalid_entry_id' => 'ID d\'article invalide',
+    'comment_moderation_override' => 'Modérer les entrées expirées',
 
-'invalid_subscription' => 'L\'URL soumise est invalide',
+    'comment_module_description' => 'Système de commentaires utilisateur',
 
-'ip_address' => 'Adresse IP',
+    'comment_module_name' => 'Commentaire',
 
-'keywords' => 'Mots clefs',
+    'comment_moved' => 'Commentaire supprimé',
 
-'location' => 'Ville, Pays',
+    'comment_settings' => 'Réglages de commentaires',
 
-'move_comment_instr' => 'Saisissez le nouveau numéro d\'ID article :',
+    'comment_smart_notifications' => 'Activer les notifications intelligentes ',
 
-'move_comments_to_entry' => 'Déplacer les commentaires vers l\'article',
+    'comment_updated' => 'Commentaire mis à jour',
 
-'move_selected' => 'Déplacer la sélection',
+    'comment_word_censoring' => 'Imposer la censure de mots pour les commentaires',
 
-'move' => 'Déplacer',
+    'comments' => 'Commentaires',
 
-'name' => 'Nom',
+    'comments_moved' => 'Commentaires supprimés',
 
-'no_results' => 'Aucun résultat',
+    'date_range' => 'Espace temps',
 
-'no_valid_comments' => 'Aucun commentaire valide',
+    'delete_confirm' => 'Supprimer la confirmation de commentaire',
 
-'not_currently_subscribed' => 'Il ne semble pas que vous soyez abonné à l\'ID d\'article que vous avez soumise',
+    'delete_selected' => 'Supprimer les commentaires sélectionnés',
 
-'open_selected' => 'Positionner le statut à Ouvert',
+    'edit_comment' => 'Editer le commentaire',
 
-'open' => 'Ouvert',
+    'email' => 'Email',
 
-'past_day' => 'Dernières 24 heures',
+    'end_date' => 'Date de fin',
 
-'past_month' => '30 derniers jours',
+    'entry_title' => 'Titre d\'entrée',
 
-'past_six_months' => '180 derniers jours',
+    'expand' => 'Etendre',
 
-'past_week' => '7 derniers jours',
+    'expanded_display' => 'Affichage étendu',
 
-'past_year' => '365 derniers jours',
+    'filter_by_author' => 'Filtrer par auteur',
 
-'pending_selected' => 'Positionner le statut à En Attente',
+    'filter_by_channel' => 'Filtrer par canal',
 
-'registered_member' => 'Membre enregistré',
+    'filter_by_status' => 'Filtrer par statut',
 
-'search_in_comments' => 'Rechercher dans les commentaires',
+    'filter_comments' => 'Filtrer les commentairess',
 
-'search_in_emails' => 'Rechercher dans les adresses email',
+    'instructions' => 'Instructions: ',
 
-'search_in_entry_titles' => 'Rechercher dans les titres d\'article',
+    'invalid_entry_id' => 'ID d\'entrée non valide',
 
-'search_in_ips' => 'Rechercher dans les adresses IP',
+    'invalid_subscription' => 'L\'URL que vous avez saisie est non valide',
 
-'search_in_names' => 'Rechercher dans les noms',
+    'ip_address' => 'IP',
 
-'selection_required' => 'Avant de soumettre, faîtes au moins une sélection',
+    'keywords' => 'Mots-clés',
 
-'settings_updated' => 'Paramètres mis à jour',
+    'location' => 'Localisation',
 
-'settings' => 'Paramètres',
+    'marked_as' => 'marqué comme',
 
-'start_date' => 'Date de début',
+    'move' => 'Déplacer',
 
-'status_changed' => 'Statut modifié',
+    'move_comment_instr' => 'Entrer l\'ID de la nouvelle entrée:',
 
-'today' => 'Aujourd\'hui',
+    'move_comments_to_entry' => 'Déplacer les commentaires vers l\'entrée',
 
-'url' => 'URL',
+    'move_selected' => 'L\'action de déplacer est sélectionnée',
 
-'you_have_been_subscribed' => 'Vous suivez dorénavant l\'article suivant :',
+    'name' => 'Nom',
 
-'you_have_been_unsubscribed' => 'Vous ne suivez dorénavant plus l\'article suivant :',
+    'no_results' => 'Pas de résultat',
 
-"cmt_account_not_active" => "Votre compte de membres n'a pas encore été activé",
+    'no_valid_comments' => 'Pas de commentaires valides',
 
-"cmt_banned_email" => "L'adresse email que vous avez saisie est exclue",
+    'not_currently_subscribed' => 'Vous ne semblez pas être inscrit(e) à l\'ID de l\'entrée que vous avez saisie',
 
-"cmt_comment_accepted" => "Commentaire accepté",
+    'open' => 'Ouvert',
 
-"cmt_comment_removal" => "Pour ne plus recevoir de notifications pour ce commentaire, cliquez ici :",
+    'open_selected' => 'Régler le statut sur Ouvert',
 
-"cmt_comment_response_body" => "Quelqu'un a répondu à l'article auquel vous vous êtes abonné à :",
+    'past_day' => 'Dernières 24h',
 
-"cmt_comment_response_title" => "Quelqu'un a répondu à votre commentaire",
+    'past_month' => 'Derniers 30j',
 
-"cmt_comment_title" => "Le titre de l'article est :",
+    'past_six_months' => 'Derniers 180j',
 
-"cmt_comment_url" => "Vous pouvez consulter le commentaire à l'adresse suivante :",
+    'past_week' => 'Derniers 7j',
 
-"cmt_commenting_has_expired" => "Les commentaires ne sont pas disponibles pour cet article.",
+    'past_year' => 'Derniers 365j',
 
-"cmt_comments_not_allowed" => "Les commentaires ne sont pas autorisés pour ce canal",
+    'pending_selected' => 'Régler le statut sur en attente',
 
-"cmt_comments_timelock" => "Vous n'êtes autorisé à publier des commentaires que toutes les %s secondes.",
+    'registered_member' => 'Membre inscrit',
 
-"cmt_duplicate_comment_warning" => "Impossible de recevoir votre commentaire pour le moment.",
+    'search_in_comments' => 'Rechercher dans les commentaires',
 
-"cmt_invalid_email" => "L'adresse email que vous avez saisie est invalide",
+    'search_in_emails' => 'Rechercher dans les adresses email',
 
-"cmt_missing_comment" => "Le champ commentaire est requis",
+    'search_in_entry_titles' => 'Rechercher dans les titres d\'entrées',
 
-"cmt_missing_email" => "Le champ email est requis",
+    'search_in_ips' => 'Rechercher dans les IP',
 
-"cmt_missing_name" => "Le champ nom est requis",
+    'search_in_names' => 'Rechercher dans les noms',
 
-"cmt_must_be_member" => "Vous devez être un membre inscrit pour publier des commentaires",
+    'selection_required' => 'Au moins une sélection est requise pour la saisie',
 
-"cmt_name_not_allowed" => "Le nom avec lequel vous souhaiter publier est réservé. Choisissez un nom différent.",
+    'settings' => 'Réglages',
 
-"cmt_no_authorized_for_comments" => "Vous n'êtes pas autorisé à publier des commentaires",
+    'settings_updated' => 'Réglages mis à jour',
 
-"cmt_no_preview_template_specified" => "La balise du formulaire de commentaire ne contient pas d'information sur l'emplacement de votre modèle d'aperçu.",
+    'start_date' => 'Date de départ',
 
-"cmt_notification_removal" => "Arrêt des notifications",
+    'status_changed' => 'Statut modifié',
 
-"cmt_return_to_comments" => "Retourner aux commentaires",
+    'today' => 'Aujourd\'hui',
 
-"cmt_too_large" => "Le commentaire que vous avez saisi contient %n caractères. Seuls %x caractères sont autorisés.",
+    'url' => 'URL',
 
-"cmt_will_be_reviewed" => "Votre commentaire sera soumis à un modérateur pour validation.",
+    'you_have_been_subscribed' => 'Vous êtes maintenant inscrit(e) à l\'entrée suivante',
 
-"cmt_you_have_been_removed" => "Vous êtes désinscrit et ne recevrez plus les futures notifications.",
+    'you_have_been_unsubscribed' => 'Votre inscription à l\'entrée suivante a été supprimée:',
 
-"comment_module_description" => "Module de commentaires",
+    /* Cookies */
 
-"comment_module_name" => "Commentaires",
+    'cookie_my_email' => 'Mon email',
+    'cookie_my_email_desc' => 'L\'adresse email précisée lors de la publication d\'un commentaire.',
+
+    'cookie_my_location' => 'Ma localisation',
+    'cookie_my_location_desc' => 'Localisation précisée lors de la publication d\'un commentaire.',
+
+    'cookie_my_name' => 'Mon nom',
+    'cookie_my_name_desc' => 'Nom précisé lors de la publication d\'un commentaire.',
+
+    'cookie_my_url' => 'Mon URL',
+    'cookie_my_url_desc' => 'URL précisée lors de la publication d\'un commentaire.',
+
+    'cookie_notify_me' => 'Me notifier',
+    'cookie_notify_me_desc' => 'Si réglé sur ‘oui’, les notifications seront adressées à l\'adresse email enregistrée lorsque de nouveaux commentaires seront publiés.',
+
+    'cookie_save_info' => 'Sauvegarder l\'info',
+    'cookie_save_info_desc' => 'Si réglé sur ‘oui’, cela permet la mise en service de cookies additionnels (mon_email, ma_localisation, mon_nom, mon_url) pour conserver des informations relatives aux utilisateurs invités lorsqu\'ils remplissent des formulaires de commentaires. Ces cookies sont seulement opérationnels si vous publiez un commentaire.',
 
 );
 

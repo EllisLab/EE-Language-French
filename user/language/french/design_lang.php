@@ -2,980 +2,968 @@
 
 $lang = array(
 
-'access' => 'Accès',
+    'access' => 'Accéder',
 
-'all_sites' => 'Tous les sites',
+    'all_sites' => 'Tous les sites',
 
-'allowed_member_groups_desc' => 'Les groupes de membres suivants sont autorisés à accéder à ce modèle.',
+    'allowed_roles' => 'Rôles autorisés',
 
-'allowed_member_groups_super_admin' => 'Les Super Administrateurs y sont <b>toujours</b> autorisés.',
+    'allowed_roles_desc' => 'Les rôles suivants sont autorisés pour accéder aux pages qui utilisent ce modèle.',
 
-'allowed_member_groups' => 'Groupes de membres autorisés',
+    'allowed_roles_super_admin' => 'Les Super Administrateurs sont <b>toujours</b> autorisés.',
 
-'author_unknown' => 'inconnu',
+    'author_unknown' => 'inconnu',
 
-'breadcrumb_group' => 'Groupe : %s',
+    'breadcrumb_group' => 'Groupe: %s',
 
-'btn_create_and_edit_template' => 'Enregistrer &amp; Modifier le modèle',
+    'btn_create_and_edit_template' => 'Sauvegarder &amp; Editer le modèle',
 
-'btn_create_partial' => 'Créer un partiel',
+    'btn_create_partial' => 'Créer un partiel',
 
-'btn_create_template_group' => 'Créer un groupe de modèles',
+    'btn_create_template' => 'Créer un modèle',
 
-'btn_create_template_variable' => 'Créer une variable de modèle',
+    'btn_create_template_group' => 'Créer un groupe de modèles',
 
-'btn_create_template' => 'Créer un modèle',
+    'btn_create_template_variable' => 'Créer une variable de modèle',
 
-'btn_edit_partial' => 'Modifier un partiel',
+    'btn_edit_partial' => 'Editer le partiel',
 
-'btn_edit_template_variable' => 'Modifier une variable de modèle',
+    'btn_edit_template_variable' => 'Editer une variable de modèle',
 
-'btn_save_settings' => 'Enregistrer les paramètres',
+    'btn_save_settings' => 'Sauvegarder les réglages',
 
-'btn_update_and_finish_editing' => 'Enregistrer &amp; Terminer la modification',
+    'btn_update_and_finish_editing' => 'Sauvegarder &amp; Finir l\'édition',
 
-'create_new_template_group' => 'Créer un nouveau groupe de modèles',
+    'create_new_template' => 'Créer un nouveau modèle',
 
-'create_new_template' => 'Créer un nouveau modèle',
+    'create_new_template_group' => 'Créer un nouveau groupe de modèles',
 
-'create_partial' => 'Créer un partiel',
+    'create_partial' => 'Créer un partiel',
 
-'create_template_group_error_desc' => 'Nous n\'avons pas pu créer ce groupe, merci de vérifier et corriger les erreurs ci-dessous.',
+    'create_template_group_error' => 'Impossible de créer un groupe de modèles',
 
-'create_template_group_error' => 'Impossible de créer le groupe de modèles',
+    'create_template_group_error_desc' => 'Impossible de créer ce groupe, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'create_template_group_success_desc' => 'Le groupe de modèles <b>%s</b> a été créé.',
+    'create_template_group_success' => 'Groupe de modèles créé',
 
-'create_template_group_success' => 'Groupe de modèles créé',
+    'create_template_group_success_desc' => 'Le groupe de modèles <b>%s</b> a été créé.',
 
-'create_template_partial_error_desc' => 'Nous n\'avons pas pu créer ce partiel, merci de vérifier et corriger les erreurs ci-dessous.',
+    'create_template_partial_error' => 'Impossible de créer un partiel de modèle',
 
-'create_template_partial_error' => 'Impossible de créer le partiel de modèle',
+    'create_template_partial_error_desc' => 'Impossible de créer ce partiel, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'create_template_partial_success_desc' => 'Le partiel de modèle <b>%s</b> a été créé.',
+    'create_template_partial_success' => 'Partiel de modèle créé',
 
-'create_template_partial_success' => 'Partiel de modèle créé',
+    'create_template_partial_success_desc' => 'Le partiel de modèle <b>%s</b> a été créé.',
 
-'create_template_success_desc' => 'Le modèle <b>%s/%s</b> a été créé.',
+    'create_template_success' => 'Modèle créé',
 
-'create_template_success' => 'Modèle créé',
+    'create_template_success_desc' => 'Le modèle <b>%s/%s</b> a été créé.',
 
-'create_template_variable_error_desc' => 'Nous n\'avons pas pu créer cette variable, merci de vérifier et corriger les erreurs ci-dessous.',
+    'create_template_variable' => 'Créer une variable de modèle',
 
-'create_template_variable_error' => 'Impossible de créer la variable de modèle',
+    'create_template_variable_error' => 'Impossible de créer une variable de modèle',
 
-'create_template_variable_success_desc' => 'La variable de modèle <b>%s</b> a été créée.',
+    'create_template_variable_error_desc' => 'Impossible de créer cette variable, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'create_template_variable_success' => 'Variable de modèle créée',
+    'create_template_variable_success' => 'La variable de modèle a été créée',
 
-'create_template_variable' => 'Créer une variable de modèle',
+    'create_template_variable_success_desc' => 'La variable de modèle <b>%s</b> a été créée.',
 
-'default' => 'défaut',
+    'default' => 'Par défaut',
 
-'default_404_option' => 'Page 404 par défaut',
+    'default_404_option' => 'Page 404 utilisée par défaut',
 
-'duplicate_existing_template_desc' => 'Sera créé avec tout le code trouvé dans le modèle copié.',
+    'design' => 'Design',
 
-'duplicate_existing_template' => 'Dupliquer un modèle existant ?',
+    'duplicate_existing_template' => 'Dupliquer le modèle existant?',
 
-'duplicate_group_desc' => 'sera créé avec tous les modèles trouvés dans le groupe copié.',
+    'duplicate_existing_template_desc' => 'Il sera créé avec l\'ensemble du code trouvé dans le modèle copié.',
 
-'duplicate_group' => 'Dupliquer un groupe existant ?',
+    'duplicate_group' => 'Dupliquer le groupe existant?',
 
-'edit_partial' => 'Modifier un partiel',
+    'duplicate_group_desc' => 'Il sera créé avec l\'ensemble du code trouvé dans le groupe copié.',
 
-'edit_template_group_error_desc' => 'Nous n\'avons pas pu mettre à jour ce groupe, merci de vérifier et corriger les erreurs ci-dessous.',
+    'edit_partial' => 'Editer le partiel',
 
-'edit_template_group_error' => 'Impossible de mettre à jour le groupe de modèles',
+    'edit_template' => 'Editer le modèle: %s',
 
-'edit_template_group_success_desc' => 'Le groupe de modèles <b>%s</b> a été mis à jour.',
+    'edit_template_title' => 'Editer le modèle',
 
-'edit_template_group_success' => 'Groupe de modèles mis à jour',
+    'edit_template_group' => 'Editer le groupe de modèles',
 
-'edit_template_group' => 'Modifier le groupe de modèles',
+    'edit_template_group_error' => 'Impossible de mettre à jour le groupe de modèles',
 
-'edit_template_partial_error_desc' => 'Nous n\'avons pas pu mettre à jour ce partiel, merci de vérifier et corriger les erreurs ci-dessous.',
+    'edit_template_group_error_desc' => 'Impossible de mettre à jour ce groupe, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'edit_template_partial_error' => 'Impossible de mettre à jour le partiel de modèle',
+    'edit_template_group_success' => 'Groupe de modèles mis à jour',
 
-'edit_template_partial_success_desc' => 'Le partiel de modèle <b>%s</b> a été mis à jour.',
+    'edit_template_group_success_desc' => 'Le groupe de modèles <b>%s</b> a été mis à jour.',
 
-'edit_template_partial_success' => 'Partiel de modèle mis à jour',
+    'edit_template_partial_error' => 'Impossible de mettre à jour le partiel de modèle',
 
-'edit_template_variable_error_desc' => 'Nous n\'avons pas pu mettre à jour la variable de modèle, merci de vérifier et corriger les erreurs ci-dessous.',
+    'edit_template_partial_error_desc' => 'Impossible de mettre à jour ce partiel, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'edit_template_variable_error' => 'Impossible de mettre à jour la variable de modèle',
+    'edit_template_partial_success' => 'Partiel de modèle mis à jour',
 
-'edit_template_variable_success_desc' => 'La variable de modèle <b>%s</b> a été mise à jour.',
+    'edit_template_partial_success_desc' => 'Le partiel de modèle <b>%s</b> a été mis à jour.',
 
-'edit_template_variable_success' => 'Variable de modèle mise à jour',
+    'edit_template_variable' => 'Editer la variable de modèle',
 
-'edit_template_variable' => 'Modifier une variable de modèle',
+    'edit_template_variable_error' => 'Impossible de mettre à jour la variable de modèle',
 
-'edit_template' => 'Modifier le modèle : %s',
+    'edit_template_variable_error_desc' => 'Impossible de mettre à jour cette variable, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'email' => 'Email',
+    'edit_template_variable_success' => 'La variable de modèle a été mise à jour',
 
-'enable_caching_desc' => 'Si activé, ExpressionEngine mettra en cache ce modèle.',
+    'edit_template_variable_success_desc' => 'La variable de modèle <b>%s</b> a été mise à jour.',
 
-'enable_caching' => 'Activer la mise en cache ?',
+    'email' => 'Email',
 
-'enable_http_authentication_desc' => 'Si activé, les utilisateurs ayant les autorisations suffisantes devront se connecter pour voir ce modèle.',
+    'enable_caching' => 'Activer la mise en cache?',
 
-'enable_http_authentication' => 'Activer l\'authentification HTTP ?',
+    'enable_caching_desc' => 'Si activé, ExpressionEngine mettra le modèle en cache.',
 
-'enable_partial_on_all_sites_desc' => 'Si activé, ce partiel sera disponible pour être utilisé dans tous les sites.',
+    'enable_http_authentication' => 'Activer l\'authentification HTTP?',
 
-'enable_partial_on_all_sites' => 'Activer sur tous les sites ?',
+    'enable_http_authentication_desc' => 'Si activé, les utilisateurs munis de permissions devront se connecter pour visualiser ce modèle.',
 
-'enable_php_desc' => 'Si activé, vous pouvez utiliser le PHP standard dans ce modèle. <a href="'.DOC_URL.'templates/php.html" rel="external">Avant d\'activer, lisez ce que cela implique</a>.',
+    'enable_partial_on_all_sites' => 'Activer sur tous les sites?',
 
-'enable_php' => 'Autoriser le PHP ?',
+    'enable_partial_on_all_sites_desc' => 'Si activé, ce partiel sera disponible pour une utilisation sur tous les sites.',
 
-'enable_template_variable_on_all_sites_desc' => 'Si activé, cette variable sera disponible pour être utilisée dans tous les sites.',
+    'enable_php' => 'Autoriser le PHP?',
 
-'enable_template_variable_on_all_sites' => 'Activer sur tous les sites ?',
+    'enable_php_desc' => 'Si activé, vous pouvez utiliser le PHP standard à l\'intérieur du modèle. <a href="' . DOC_URL . 'templates/overview.html#php-in-templates" rel="external">Lire les implications avant d\'activer</a>.',
 
-'error_cannot_create_zip' => 'Impossible de créer un fichier .zip',
+    'enable_template_variable_on_all_sites' => 'Activer pour tous les sites?',
 
-'error_export_no_templates' => 'Aucun modèle trouvé, merci d\'en créer un avant d\'exporter.',
+    'enable_template_variable_on_all_sites_desc' => 'Si activé, l\'utilisation de cette variable sera disponible pour tous les sites.',
 
-'error_export' => 'Impossible d\'exporter',
+    'error_cannot_create_zip' => 'Impossible de créer un fichier .zip',
 
-'error_no_template_group' => 'Le groupe de modèles <b>%s</b> n\'existe pas.',
+    'error_export' => 'Impossible d\'exporter',
 
-'error_no_template' => 'Ce modèle n\'existe pas.',
+    'error_export_no_templates' => 'Aucun modèle trouvé, merci de créer un modèle avant de l\'exporter.',
 
-'export_all' => 'Exporter tous les modèles',
+    'error_no_template' => 'Aucun modèle de ce type n\'existe actuellement.',
 
-'export_partials' => 'Exporter les partiels',
+    'error_no_template_group' => 'Le groupe de modèles <b>%s</b> n\'existe pas.',
 
-'export_variables' => 'Exporter les variables',
+    'export_all' => 'Exporter tous les modèles',
 
-'group_not_found' => 'Aucun <b>groupe de modèles</b> trouvé',
+    'export_partials' => 'Exporter les partiels',
 
-'hit_counter_desc' => 'Montre le nombre de fois que ce modèle a été appelé par le site web.',
+    'export_variables' => 'Exporter les variables',
 
-'hit_counter' => 'Compteur de Hit',
+    'group_not_found' => 'Aucun groupe de modèles n\'a été trouvé',
 
-'illegal_characters' => 'Le nom que vous avez soumis ne peut contenir que des caractères alphanumériques, des soulignés (underscore) et des tirets',
+    'hit_counter' => 'Compteur de vues',
 
-'last_edit' => 'Dernière modification : %s par %s',
+    'hit_counter_desc' => 'Indique le nombre de fois que ce modèle a été consulté depuis le site WEB.',
 
-'make_default_group_desc' => 'Si activé, ce groupe deviendra le groupe par défaut pour ce site web.',
+    'illegal_characters' => 'Le nom que vous avez saisi ne peut contenir que des caractères alphanumériques, des sous-tirets et des tirets',
 
-'make_default_group' => 'Définir comme groupe par défaut ?',
+    'last_edit' => 'Dernière édition: %s par %s',
 
-'member_groups' => 'Groupes de membres',
+    'make_default_group' => 'En faire un groupe par défaut?',
 
-'messages' => 'Messages',
+    'make_default_group_desc' => 'Si activé, ce groupe deviendra le groupe par défaut pour votre site WEB.',
 
-'name_desc' => 'Aucun espace. Les soulignés (underscore) et les tirets sont autorisés.',
+    'roles' => 'Rôles',
 
-'name' => 'Nom',
+    'messages' => 'Messages',
 
-'no_access_redirect_desc' => 'Page vers laquelle sont redirigés les utilisateurs non autorisés.',
+    'name' => 'Nom',
 
-'no_access_redirect' => 'Redirection si pas d\'accès',
+    'name_desc' => 'Pas d\'espaces. Les sous-tirets et les tirets sont autorisés.',
 
-'no_revisions' => 'Aucune révision',
+    'no_access_redirect' => 'Pas d\'accès de redirection',
 
-'no_snippets' => 'Aucun <b>partiel de modèle</b> trouvé.',
+    'no_access_redirect_desc' => 'La page à rediriger n\'est pas accessible aux utilisateurs.',
 
-'no_template_routes' => 'Aucune <b>route de modèle</b> trouvée.',
+    'no_revisions' => 'Pas de révisions',
 
-'no_template_variables' => 'Aucune <b>variable de modèle</b> trouvée.',
+    'no_snippets' => 'Aucun <b>Partiel de modèle</b> n\'a été trouvé.',
 
-'notes' => 'Notes',
+    'no_template_routes' => 'Aucune <b>Route de modèle</b> n\'a été trouvée.',
 
-'only' => '<strong>seulement</strong>',
+    'no_template_variables' => 'Aucune <b>Variable de modèles</b>n\'a été trouvée.',
 
-'parse_stage_desc' => 'S\'il est sur <b>Sortie</b>, le PHP sera traité après le modèle.',
+    'notes' => 'Notes',
 
-'parse_stage' => 'Etape de traitement du PHP',
+    'only' => '<strong>seulement</strong>',
 
-'partial' => 'Partiel',
+    'parse_stage' => 'Niveau de parsage PHP',
 
-'refresh_interval_desc' => 'Temps (en minutes) entre deux mises à jour des caches.',
+    'parse_stage_desc' => 'Si réglé sur <b>output</b>, le PHP sera parsé après le modèle.',
 
-'refresh_interval' => 'Intervalle de rafraîchissement',
+    'partial' => 'Partiel',
 
-'require_all_segments_desc' => 'Si activé, toutes les variables doivent être présentes dans la requête <abbr title="Unified Resource Identifier">URI</abbr>.',
+    'refresh_interval' => 'Rafraîchir l\'intervalle',
 
-'require_all_segments' => 'Exiger toutes les variables ?',
+    'refresh_interval_desc' => 'Règle la fréquence de rafraîchissement de cache en minutes.',
 
-'reserved_name' => 'Le nom que vous avez choisi est un mot réservé qui ne peut pas être utilisé.',
+    'require_all_segments' => 'Requérir toutes les variables?',
 
-'routes' => 'Routes',
+    'require_all_segments_desc' => 'Si activé, toutes les variables devront être présentes dans la requête <abbr title="Unified Resource Identifier">URI</abbr>.',
 
-'search_templates' => 'Rechercher dans les modèles',
+    'reserved_name' => 'Le nom que vous avez choisi est un mot réservé qui ne peut être utilisé.',
 
-'settings' => 'Paramètres',
+    'routes' => 'Routes',
 
-'snippet_contents' => 'Contenu',
+    'search_templates' => 'Rechercher un modèle',
 
-'snippet_name_taken' => 'Le nom du partiel de modèle que vous avez soumis est déjà pris',
+    'settings' => 'Réglages',
 
-'snippet_name' => 'Nom',
+    'snippet_contents' => 'Contenu',
 
-'snippets_removed_desc' => 'Les partiels de modèle suivants ont été supprimés :',
+    'snippet_name' => 'Nom',
 
-'sync_all_templates' => 'Synchroniser tous les modèles',
+    'snippet_name_taken' => 'Le nom de partiel de modèle que vous avez saisi a déjà été attribué',
 
-'system_templates' => 'Modèles du système',
+    'snippets_deleted_desc' => 'Les fragments (snippets) suivants ont été effacés',
 
-'template_group_removed_desc' => 'Le groupe de modèles <b>%s</b> a été supprimé.',
+    'sync_all_templates' => 'Synchroniser tous les modèles',
 
-'template_group_removed' => 'Groupe de modèles supprimé',
+    'system_templates' => 'Modèles Système',
 
-'template_group_taken' => 'Le nom de groupe de modèles que vous avez soumis est déjà pris.',
+    'template_group_deleted' => 'Groupe de modèles effacé',
 
-'template_groups' => 'Groupes de modèles',
+    'template_group_deleted_desc' => 'Le groupe de modèles <b>%s</b> a été supprimé.',
 
-'template_manager' => 'Gestion des Modèles',
+    'template_group_taken' => 'Le nom de groupe de modèles que vous avez saisi est déjà attribué',
 
-'template_member_groups' => 'Groupes de membres autorisés',
+    'template_groups' => 'Groupes de modèles',
 
-'template_member_groups_desc' => 'Les utilisateurs placés dans ces groupes de membres peuvent créer, modifier et/ou supprimer des modèles dans ce groupe de modèles.',
+    'template_manager' => 'Modèles',
 
-'template_name_taken' => 'Le nom de modèle que vous avez soumis est déjà pris',
+    'template_roles' => 'Rôles autorisés',
 
-'template_notes_desc' => 'Utiliser ce champ de formulaire pour stocker des notes et des informations à propos de ce modèle',
+    'template_roles_desc' => 'Les membres à qui sont attribués ces rôles peuvent engager des actions sélectives dans le groupe de modèles.',
 
-'template_notes' => 'Notes de modèle',
+    'template_name_taken' => 'Le nom de modèle que vous avez saisi est déjà emprunté',
 
-'template_partial' => 'Partiel de modèle',
+    'template_notes' => 'Notes de modèles',
 
-'template_partials_header' => 'Partiels de modèle<br><i>Contenu dynamique, balises &amp; modèles réutilisables.</i>',
+    'template_notes_desc' => 'Utilisez ce champ de formulaire pour ranger les notes et informations relatives à ce modèle',
 
-'template_partials' => 'Partiels de modèle',
+    'template_path_not_user' => 'Les modèles n\'ont pas été trouvés dans themes/user, merci de consulter <a href="%s">la documentation</a> pour plus de détails.',
 
-'template_path_not_user' => 'Modèles introuvables dans themes/user, merci de vous référer à <a href="%s">la documentation</a> pour les détails.',
+    'template_partial' => 'Partiel de modèles',
 
-'template_route_override_desc' => 'Passe outre la gestion standard ExpressionEngine des routes de <mark>groupe/modèle</mark>.',
+    'template_partials' => 'Partiels de modèles',
 
-'template_route_override' => 'Contournement de route de modèle',
+    'template_partials_header' => 'Partiels de modèles <br><i>Contenu dynamique réutilisable, balises &amp; modèles.</i>',
 
-'template_routes' => 'Routes de modèle',
+    'template_route_override' => 'Redéfinition route de modèle',
 
-'template_settings_and_access' => 'Paramètres &amp; Accès aux modèles',
+    'template_route_override_desc' => 'Réécrit le routage standard <code>group/template</code> d\'ExpressionEngine.',
 
-'template_type' => 'Type',
+    'template_routes' => 'Routes de modèles',
 
-'template_variable' => 'Variable de modèle',
+    'template_settings_and_access' => 'Réglages de modèles &amp; d\'Accès',
 
-'template_variables_header' => 'Variables de modèle<br><i>Remplacements de contenu statique réutilisables.</i>',
+    'template_type' => 'Type',
 
-'template_variables_removed_desc' => 'Les variables de modèle suivantes ont été supprimées',
+    'template_variable' => 'Variable de modèle',
 
-'template_variables' => 'Variables de modèle',
+    'template_variables' => 'Variables de modèles',
 
-'templates_in_group' => 'Modèles dans <b>%s</b>',
+    'template_variables_header' => 'Variables de modèles <br><i>Remplacements de contenu statique réutilisable.</i>',
 
-'templates_removed_desc' => 'Les modèles suivants ont été supprimés :',
+    'template_variables_deleted_desc' => 'Les variables de modèle suivantes ont été effacées',
 
-'update_template_error_desc' => 'Nous n\'avons pas pu mettre à jour ce modèle, merci de vérifier et corriger les erreurs ci-dessous.',
+    'templates_in_group' => 'Modèles dans <b>%s</b>',
 
-'update_template_error' => 'Impossible de mettre à jour le modèle',
+    'templates_deleted_desc' => 'Les modèles suivants ont été effacés',
 
-'update_template_success_desc' => 'Le modèle <b>%s</b> a été mis à jour.',
+    'update_template_error' => 'Impossible de mettre à jour le modèle',
 
-'update_template_success' => 'Modèle mis à jour',
+    'update_template_error_desc' => 'Impossible de mettre à jour ce modèle, merci de passer en revue et de corriger les erreurs.',
 
-'variable_data' => 'Contenu',
+    'update_template_success' => 'Modèle mis à jour',
 
-'variable_name' => 'Nom',
+    'update_template_success_desc' => 'Le modèle <b>%s</b> a été mis à jour.',
 
-'variable' => 'Variable',
+    'variable' => 'Variable',
 
-'view_rendered' => 'Aperçu',
+    'variable_data' => 'Contenu',
 
-'zero_template_groups_found' => 'Aucun <b>groupe de modèles</b> trouvé',
+    'variable_name' => 'Nom',
 
-"design" => "Design",
+    'view_rendered' => 'Affichage rendu',
 
-// System Templates -> Messages
+    'zero_template_groups_found' => 'Aucun <b>groupe de modèles</b> n\'a été trouvé',
 
-'system' => 'Système',
+    /* System Templates -> Messages */
+    'message_template' => 'Messages aux utilisateurs',
 
-'system_message_templates' => 'Modèles de messages système',
+    'message_template_warning' => '<b>Attention</b>: Ne supprimez aucune des cinq variables requises: {title} {meta_refresh} {heading} {content} {link}',
 
-'offline_template' => 'Site Hors Ligne',
+    'offline_template' => 'Site hors-ligne',
 
-'message_template' => 'Messages utilisateurs',
+    'system' => 'Système',
 
-'message_template_warning' => '<b>Attention</b> : ne supprimer aucune des 5 variables obligatoires : {title} {meta_refresh} {heading} {content} {link}',
+    'system_message_templates' => 'Modèles de messages système',
 
-// System Templates -> Email
+    'post_install_message_template' => 'Message de post-installation ',
 
-'email_message_templates' => 'Modèles d\'email',
+    'mfa_template' => 'Modèle d\'authentification multi-facteurs',
 
-'variables' => 'Variables',
+    /* System Templates -> Email */
+    'comments' => 'Commentaires',
 
-'variables_desc' => 'Liste des variables disponibles pour ce modèle d\'email.',
+    'content' => 'Contenu',
 
-'enable_template' => 'Activer le modèle ?',
+    'email_message_templates' => 'Modèles d\'Email',
 
-'enable_template_desc' => 'Si activé, ce modèle sera utilisé, en lieu et place d\'un email auto-généré dans la langue des utilisateurs.',
+    'enable_template' => 'Activer le modèle?',
 
-'content' => 'Contenu',
+    'enable_template_desc' => 'Si activé, ce modèle sera préféré au mail auto-généré dans le langue de l\'utilisateur.',
 
-'comments' => 'Commentaires',
+    'forums' => 'Forums',
 
-'members' => 'Membres',
+    'members' => 'Membres',
 
-'private_messages' => 'Messages privés',
+    'private_messages' => 'Messages privés',
 
-'forums' => 'Forums',
+    'variables' => 'Variables',
 
-// System Templates -> Members
+    'variables_desc' => 'Liste de variables disponibles pour ce modèle d\'email.',
 
-'file_not_writable' => '<b>Attention</b> : ce fichier n\'est pas inscriptible',
+    /* System Templates -> Members */
+    'file_not_writable' => '<b>Attention</b>: ce fichier n\'est pas réinscriptible',
 
-'file_writing_instructions' => 'Vous ne pourrez pas enregistrer les modifications de ce modèle tant que vous ne donnerez pas les droits d\'écriture pour ce serveur.',
+    'file_writing_instructions' => 'Vous n\'aurez pas la possibilité de sauvegarder les changements de ce modèle avant qu\'il ne lui soit accordé des permissions en écriture sur ce serveur.',
 
-// System Templates -> Forums
+    /* System Templates -> Forums */
+    'forum_manager' => 'Gestionnaire de Forum',
 
-'forum_manager' => 'Gestion des Forums',
+    'forum_templates' => 'Modèles de forum',
 
-'forum_templates' => 'Modèles de Forum',
+    'unable_to_find_template_file' => 'Impossible de localiser le fichier de modèle.',
 
+    'unable_to_find_templates' => 'Impossible de localiser les modèles.',
 
-'unable_to_find_templates' => 'Impossible de trouver les modèles.',
+    /* Menu */
+    'forum_themes' => 'Thèmes de forum',
 
-'unable_to_find_template_file' => 'Impossible de trouver le fichier de modèle.',
+    'member_profile_templates' => 'Modèles de profil de membre',
 
-//----------------------------
-// Menu
-//----------------------------
+    'message_pages' => 'Pages de messages',
 
-"templates" 					=>	"Modèles",
+    'specialty_templates' => 'Modèles de spécialité',
 
-"message_pages"					=>	"Pages de Message",
+    'templates' => 'Modèles',
 
-"themes"						=>	"Thèmes",
+    'themes' => 'Thèmes',
 
-"specialty_templates"			=>	"Modèles spécialisés",
+    'wiki_themes' => 'Thèmes Wiki',
 
-"forum_themes"					=>	"Thèmes du Forum",
+    /* Templates */
+    '404_page' => 'Page 404',
 
-"wiki_themes"					=>	"Thèmes du Wiki",
+    'all_fields_required' => 'Vous devez soumettre tous les champs de formulaire',
 
-"member_profile_templates"		=>	"Modèles de profil de membre",
+    'all_templates_will_be_nuked' => 'TOUS LES MODELES INCLUS DANS CE GROUPE SERONT DEFINITIVEMENT SUPPRIMES!',
 
-//----------------------------
-// Templates
-//----------------------------
+    'alphabetize_group_order' => 'Groupe par ordre alphabétique',
 
-'alphabetize_group_order' => "Trier les groupes par ordre alphabétique",
+    'an_existing_template' => 'Dupliquer un modèle existant',
 
-'available_to_sites' => 'Snippet disponible pour les sites',
+    'available_to_sites' => ' Fragment (Snippet) disponible pour les sites',
 
-'breadcrumb' => 'Fil d\'Ariane',
+    'cache_enable' => 'Activer la mise en cache?',
 
-'choose_group' => "Choisissez le groupe",
+    'can_view_template' => 'Peut visualiser cette page',
 
-'create_new_snippet' => 'Créer un nouveau Snippet',
+    'choose_delete_template_group' => 'Merci de choisir le groupe de modèles à supprimer',
 
-'css_type_col' => '<abbr title="Cascading Style Sheet">CSS</abbr>',
+    'choose_group' => 'Choisir le groupe',
 
-'default_template_group' => "Groupe par défaut :",
+    'choose_templates' => 'Choisir les modèles que vous souhaitez exporter en fichiers',
 
-'delete_snippet' => 'Supprimer le Snippet',
+    'clear' => 'Effacer',
 
-'do_not_change' => "Ne pas changer",
+    'clear_revision_history' => 'Effacer l\'historique de révision',
 
-'do_not_duplicate_template' => 'Ne pas dupliquer un modèle',
+    'clear_revision_history_info' => 'Efface l\'historique de révisions pour le modèle suivant:',
 
-'duplicate_snippet_name' => 'Le nom de ce Snippet est déjà utilisé',
+    'close_window' => 'Fermer la fenêtre',
 
-'duplicate_var_name' => "Une variable globale portant ce nom existe déjà.",
+    'create_new_global_variable' => 'Créer une nouvelle variable globale',
 
-'enable_template_routes_exp' => 'La désactivation des routes de modèle supprimera les options de route du panneau de contrôle et les modèles seront uniquement accessibles à partir de l\'URL groupe/modèle par défaut.',
+    'create_new_snippet' => 'Créer un nouveau fragment (snippet)',
 
-'enable_template_routes' => 'Activer les routes de modèle',
+    'css_stylesheet' => 'CSS',
 
-'export_group' => 'Exporter le groupe',
+    'css_type_col' => '<abbr title="Feuille de styles en cascade">CSS</abbr>',
 
-'feed_type_col' => '<abbr title="Really Simple Syndication">RSS</abbr>',
+    'current_template' => 'Modèle actuel:',
 
-'file_edit_date' => "Date d'édition du fichier",
+    'default_site_page' => 'Indique la page par défaut du site principal',
 
-'from_db' => "Depuis la base de données",
+    'default_template_group' => 'Groupe par défaut:',
 
-'from_file' => "Depuis le fichier",
+    'delete_global_variable' => 'Supprimer la variable globale',
 
-'http_auth_protected' => 'Protégé par Authentification HTTP',
+    'delete_snippet' => 'Supprimer le fragment (snippet)',
 
-'index_delete_disallowed' => "Les groupes de modèles doivent avoir un modèle Index",
+    'delete_template' => 'Supprimer le modèle',
 
-'js_type_col' => 'JavaScript',
+    'delete_template_group' => 'Supprimer le groupe',
 
-'js' => "JavaScript",
+    'delete_this_group' => 'Supprimer le groupe de modèles suivant?',
 
-'last_file_edit' => "Fichier modifié :",
+    'delete_this_snippet' => 'Supprimer le fragment (snippet) suivant?',
 
-'localization_form' => 'Formulaire de préférences de localisation',
+    'delete_this_template' => 'Supprimer le modèle suivant:',
 
-'no_results' => "Le terme de recherche que vous avez saisi n'a pu être trouvé dans aucun de vos modèles.",
+    'delete_this_variable' => 'Supprimer la variable globale suivante?',
 
-'no_templates_found' => 'Aucun <b>modèle</b> trouvé.',
+    'do_not_change' => 'Ne pas modifier',
 
-'no_user_templates_found' => 'Aucun <b>modèle</b> trouvé. Consultez la <a href="%s" title="Documentation" rel="external">documentation</a>.',
+    'do_not_duplicate_group' => 'Ne dupliquez pas de groupe',
 
-'no_templates_selected' => "Aucun modèle sélectionné",
+    'do_not_duplicate_template' => 'Ne dupliquez pas de modèle',
 
-'php_in_templates_warning' => '<b>Attention</b> : autoriser le PHP dans les modèles peut poser des problèmes de sécurité de vos données.',
+    'duplicate_snippet_name' => 'Ce nom de fragment (snippet) est déjà utilisé',
 
-'php_in_templates_warning2' => 'Les paramètres marqués d\'un %s doivent être gérés avec précaution.',
+    'duplicate_var_name' => 'Une variable globale avec ce nom existe déjà.',
 
-'preference' => 'Préférence',
+    'edit_group_order' => 'Editer le classement des groupes',
 
-'protect_javascript' => 'Protéger Javascript',
+    'edit_preferences' => 'Editer les préférences',
 
-'route_manager_group' => 'Groupe',
+    'edit_template_form' => 'Editer le formulaire de modèles',
 
-'route_manager_required' => 'Segments obligatoires',
+    'edit_template_group_form' => 'Editer le groupe de modèles',
 
-'route_manager_route' => 'Route',
+    'edit_template_group_order' => 'Editer le classement du groupe',
 
-'route_manager_template' => 'Modèle',
+    'email_notification' => 'Notification email ',
 
-'route_required_subtext' => 'Si les segments de route sont obligatoires, tous les segments de la route de modèle doivent être présents dans l\'URI appelée.',
+    'email_notification_template' => 'Modèles de notification d\'email',
 
-'route_required' => 'Exiger tous les segments :',
+    'enable_template_routes' => 'Activer les routes de modèles',
 
-'save_to_sync' => "Enregistrer le modèle pour synchroniser la base de données.",
+    'enable_template_routes_exp' => 'Désactiver les routes de modèles enlèvera toutes les options de routage depuis le tableau de bord et les modèles ne seront alors accessibles que depuis l\'URL de "default group/template".',
 
-'search_terms' => "Termes de recherche :",
+    'export_as' => 'Exporter les fichiers en tant que',
 
-'search' => "Rechercher",
+    'export_group' => 'Exporter le groupe',
 
-'security_warning' => 'Note : autoriser le PHP dans les modèles peut poser des problèmes de sécurité de vos données. Merci de consulter la <a href="%s" title="Documentation" rel="external">documentation</a>.',
+    'export_template' => 'Exporter le modèle',
 
-'selected_templates' => "Sélectionner les modèles",
+    'export_templates' => 'Exporter les modèles',
 
-'setting' => 'Paramètre',
+    'export_will_be_zip' => 'Notez: vos exportations de données seront envoyées sous forme d\'archive ZIP',
 
-'settings_manager' => "Paramètres/Gestionnaire",
+    'feed_type_col' => '<abbr title="Really Simple Syndication">RSS</abbr>',
 
-'show_all_partials' => 'Tous les partiels (%d)',
+    'file_edit_date' => 'Date d\'édition de fichier',
 
-'show_all_templates' => 'Tous les modèles (%d)',
+    'file_exists_warning' => 'Un fichier texte existe pour ce modèle et sera effacé comme partie liée à cette action',
 
-'show_all_variables' => 'Toutes les variables (%d)',
+    'filename' => 'Nom de fichier',
 
-'snippet_create' => 'Créer le Snippet',
+    'folder_exists_warning' => 'Un dossier de fichier texte existe pour ce groupe. Le dossier et tous ses contenus seront automatiquement supprimés comme parties liées à cette action.',
 
-'snippet_created' => 'Snippet créé',
+    'form_is_empty' => 'Vous avez saisi un formulaire vide',
 
-'snippet_deleted' => 'Snippet supprimé',
+    'from_db' => 'Depuis la base de données',
 
-'snippet_edit' => 'Modifier le Snippet : %s',
+    'from_file' => 'Depuis le fichier',
 
-'snippet_syntax' => 'Syntaxe du Snippet',
+    'global_template_preferences' => 'Préférences de modèle global',
 
-'snippet_updated' => 'Snippet mis à jour',
+    'global_var_created' => 'Variable globale créée',
 
-'snippets_explanation' => 'Les Snippets sont pratiques lorsque vous avez besoin d\'une petite partie d\'un modèle ou d\'une balise.  Pour le contenu statique qui n\'inclut pas de balises ExpressionEngine, de variables ou de code PHP, veuillez vous tourner vers les <a href ="%s">variables globales</a>.',
+    'global_var_update' => 'Mettre à jour la Variable globale',
 
-'snippets' => 'Snippets',
+    'global_var_updated' => 'Variable globale mise à jour',
 
-'static_type_col' => 'Statique',
+    'global_variable_syntax' => 'Syntaxe de variable',
 
-'static' => "Statique",
+    'global_variables_explanation' => 'Vous pouvez définir vos propres variables et les ajouter à n\'importe lequel de vos modèles.',
 
-'template_edit_date' => "Date d'édition du modèle",
+    'group_name' => 'Nom de groupe',
 
-'template_file_not_renamed' => 'Impossible de renommer le fichier modèle associé',
+    'group_order' => 'Classement du groupe',
 
-'template_id_not_found' => "L'ID de modèle sélectionné est invalide",
+    'group_restriction' => 'Restreindre ce modèle à des rôles spécifiques',
 
-'template_preferences_manager' => "Gestion des Préférences de Modèle",
+    'history_cleared' => 'L\'historique de révision de modèle a été supprimé.',
 
-'template_route_notice' => 'Les routes sont listées dans l\'ordre dans lequel le routeur de modèle appariera vos modèles. Vous pouvez glisser-déposer pour modifier cet ordre.',
+    'hits' => 'Vues',
 
-'template_route_subtext' => 'Si une route est fournie ici, elle passera outre la structure URL groupe/modèle par défaut.',
+    'http_auth_protected' => 'Authentification HTTP protégée',
 
-'template_route' => 'Route de modèle :',
+    'index_delete_disallowed' => 'Les groupes de modèles doivent comporter un modèle d\'index',
 
-'template_routes_not_saved_desc' => 'Nous n\'avons pas pu enregistrer les routes de modèle, merci de vérifier et corriger les erreurs ci-dessous.',
+    'input' => 'Input',
 
-'template_routes_not_saved' => 'Routes de modèle non enregistrées',
+    'is_site_default' => 'Souhaitez-vous que la page de modèle d\'index de ce groupe soit considérée comme la page d\'accueil de votre site?',
 
-'template_routes_saved_desc' => 'Les routes de modèle ont été enregistrées.',
+    'js' => 'JavaScript',
 
-'template_routes_saved' => 'Routes de modèle enregistrées',
+    'js_type_col' => 'JavaScript',
 
-'this_site_only' => 'Ce site uniquement',
+    'large' => 'Large',
 
-'tmpl_search_result' => '(%s) résultats dans (%s) groupes de modèles',
+    'last_file_edit' => 'Fichier édité:',
 
-'toggle_editor' => 'Basculer l\'éditeur',
+    'logged_out_select_blurb' => 'Si vous avez sélectionné \'oui\', alors qu\'un utilisateur déconnecté tente d\'accéder à cette page, montrez lui cela en lieu et place:',
 
-'url_manager' => 'Gestion des Routes de Modèle',
+    'max_revisions_exp' => 'Le nombre maximum de révisions devant être conservées pour chaque modèle. Par exemple, si vous les régler sur 5, seulement les 5 dernières révisions seront conservées pour n\'importe quel modèle.',
 
-'variable_does_not_exist' => 'La variable globale n\'existe pas',
+    'max_tmpl_revisions' => 'Nombre maximum de révisions à conserver',
 
-'variable_name_instructions' => 'Un seul mot sans espaces, avec des caractères alphanumériques. Les soulignés (underscore), les tirets et les points sont autorisés.',
+    'medium' => 'Medium',
 
-'webpage_type_col' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>',
+    'member_group' => 'Groupe de membres',
 
-'xml_type_col' => '<abbr title="Extensible Markup Language">XML</abbr>',
+    'missing_name' => 'Votre modèle doit avoir un nom',
 
-"404_page" => "Page d\'en-têtes 404",
+    'name_of_template' => 'Nom de modèle',
 
-"all_fields_required" => "Vous devez remplir tous les champs du formulaire",
+    'name_of_template_group' => 'Nom de groupe de modèles',
 
-"all_templates_will_be_nuked" => "TOUS LES MODÈLES CONTENUS DANS CE GROUPE SERONT DÉFINITIVEMENT SUPPRIMÉS !",
+    'new_template_form' => 'Nouveau formulaire de modèle',
 
-"an_existing_template" => "Dupliquer un modèle existant",
+    'new_template_group' => 'Nouveau groupe',
 
-"cache_enable" => "Activer le cache ?",
+    'new_template_group_form' => 'Nouveau groupe de modèles',
 
-"can_view_template" => "Peut voir cette page",
+    'no_access_instructions' => 'Quand les utilisateurs autorisés tentent d\'accéder à cette page, montrer celle-ci en lieu et place:',
 
-"choose_delete_template_group" => "Choisissez le groupe de modèles à supprimer",
+    'no_access_select_blurb' => 'Si vous avez sélectionné \'non\' pour ce qui est ci-dessus:',
 
-"choose_templates" => "Choisissez les modèles que vous souhaitez exporter comme fichiers",
+    'no_file_exists' => 'Aucun fichier existant',
 
-"clear_revision_history_info" => "Effacer l'historique des versions pour le modèle suivant :",
+    'no_results' => 'Le terme de recherche que vous avez saisi n\'a été trouvé dans aucun des modèles.',
 
-"clear_revision_history" => "Effacer l'historique des versions",
+    'no_templates_found' => 'Aucun <b>modèle</b> n\'a été trouvé.',
 
-"clear" => "Effacer",
+    'no_user_templates_found' => 'Aucun <b>modèle</b> n\'a été trouvé. Consulter la <a href="%s" title="Documentation" rel="external">documentation</a>.',
 
-"close_window" => "Fermer la fenêtre",
+    'no_templates_selected' => 'Aucun modèle sélectionné',
 
-"create_new_global_variable" => "Créer une nouvelle variable globale",
+    'no_valid_templates_sync' => 'Aucun modèle valide existant. Vous devez avoir au moins un modèle signalé pour le sauvegarder comme fichier texte',
 
-"css_stylesheet" => "CSS",
+    'offline_template_desc' => 'Ce modèle contient la page qui est affichée quand votre site est hors-ligne.',
 
-"current_template" => "Modèle courant :",
+    'order' => 'Classement',
 
-"default_site_page" => "Indique la page par défaut du site principal",
+    'output' => 'Output',
 
-"delete_global_variable" => "Supprimer la variable globale",
+    'php_in_templates_warning' => '<b>Alerte</b>: Autoriser le PHP dans les modèles a <a href="' . DOC_URL . 'templates/overview.html#php-in-templates" target="_blank" rel="external">des implications de sécurité</a>.',
 
-"delete_template_group" => "Supprimer le groupe",
+    'php_in_templates_warning2' => 'N\'importe quel réglage marqué avec %s doit être utilisé avec une extrême précaution.',
 
-"delete_template" => "Supprimer le modèle",
+    'php_in_templates_config_warning' => 'Vous devez régler le fichier <code>$config[\'allow_php\'] = \'y\';</code> in <code>config.php</code> si vous souhaitez utiliser cette fonctionnalité.',
 
-"delete_this_group" => "Supprimer le groupe de modèles suivant ?",
+    'preference' => 'Préférence',
 
-"delete_this_snippet" => "Supprimer le Snippet suivant ?",
+    'preferences' => 'Préférences',
 
-"delete_this_template" => "Supprimer le modèle suivant :",
+    'preferences_updated' => 'Préférences mises à jour',
 
-"delete_this_variable" => "Supprimer la variable globale suivante ?",
+    'prefs' => 'Prefs',
 
-"do_not_duplicate_group" => "Ne pas dupliquer de groupe",
+    'protect_javascript' => 'Protéger le Javascript',
 
-"edit_group_order" => "Modifier l'ordre des groupes",
+    'refresh_in_minutes' => 'En minutes',
 
-"edit_preferences" => "Modifier les préférences",
+    'require_logged_in' => 'Requérir des utilisateurs exclusivement connectés pour voir cette page?',
 
-"edit_template_form" => "Modifier le formulaire de modèle",
+    'revision_history' => 'Visualiser l\'historique de révisions',
 
-"edit_template_group_form" => "Modifier le groupe de modèles",
+    'route_manager_group' => 'Groupe',
 
-"edit_template_group_order" => "Modifier l'ordre des groupes",
+    'route_manager_required' => 'Segments requis',
 
-"email_notification_template" => "Modèles de notification email",
+    'route_manager_route' => 'Route',
 
-"email_notification" => "Notification email",
+    'route_manager_template' => 'Modèle',
 
-"export_as" => "Exporter les fichiers comme",
+    'route_required' => 'Requérir tous les segments:',
 
-"export_template" => "Exporter le modèle",
+    'route_required_subtext' => 'Si les segments de route sont requis, tous les segments figurant dans route de modèle doivent être présents dans la requête URI.',
 
-"export_templates" => "Exporter les modèles",
+    'rss' => 'Page RSS',
 
-"export_will_be_zip" => "Note : Les données exportées seront envoyées dans une archive ZIP",
+    'save_template_revision' => 'Sauvegarder la révision',
 
-"file_exists_warning" => "Un fichier texte existe pour ce modèle et sera supprimé pendant cette action.",
+    'save_tmpl_files' => 'Sauvegarder les modèles en tant que fichiers',
 
-"filename" => "Nom du fichier",
+    'save_tmpl_files_exp' => 'Sauvegarde les modèles comme fichiers sur le serveur. Cliquer sur Aide pour plus d\'informations.',
 
-"folder_exists_warning" => "Un dossier de fichiers texte existe pour ce groupe. Le dossier et tout son contenu sera automatiquement supprimé pendant cette action.",
+    'save_tmpl_revisions' => 'Sauvegarder les révisions de modèle',
 
-"form_is_empty" => "Vous avez soumis un formulaire vide",
+    'save_to_sync' => 'Sauvegarder le modèle pour synchroniser la base de données.',
 
-"global_template_preferences" => "Préférences globales des modèles",
+    'search' => 'Rechercher',
 
-"global_var_created" => "Variable globale créée",
+    'search_terms' => 'Termes de recherche:',
 
-"global_var_update" => "Mettre à jour la variable globale",
+    'security_warning' => 'Note: Autoriser le PHP dans les modèles a des implications de sécurité. Merci de consulter la <a href="%s" title="Documentation" rel="external">documentation</a>.',
 
-"global_var_updated" => "Variable globale mise à jour",
+    'selected_templates' => 'Sélectionner les modèles',
 
-"global_variable_syntax" => "Syntaxe de la variable",
+    'setting' => 'Réglage',
 
-"global_variables_explanation" => "Vous pouvez définir vos propres variables globales et les ajouter à n'importe lesquels de vos modèles",
+    'settings_manager' => 'Réglages/Gestionnaire',
 
-"global_variables" => "Variables globales",
+    'show_all_partials' => 'Tous les %d partiels',
 
-"group_name" => "Nom du groupe",
+    'show_all_templates' => 'Toutes les %d modèles',
 
-"group_order" => "Ordre du groupe",
+    'show_all_variables' => 'Toutes les %d variables',
 
-"group_restriction" => "Restreindre ce modèle à des groupes de membres spécifiques",
+    'site_404_exp' => 'Détermine quel modèle doit être affiché quand quelqu\'un tente d\'accéder à une URL non valide. Notez: Si vous choisissez \'Aucun\', votre canal par défaut sera montré quand une URL non valide est sollicitée.',
 
-"history_cleared" => "L'historique de version des modèles a été supprimé.",
+    'small' => 'Petit',
 
-"hits" => "Visites",
+    'snippet_create' => 'Créer un fragment (snippet)',
 
-"input" => "Entrée",
+    'snippet_created' => 'Fragment (snippet) créé',
 
-"is_site_default" => "Faire du modèle Index de ce groupe la page d'accueil de votre site ?",
+    'snippet_deleted' => 'Fragment (snippet) supprimé',
 
-"large" => "Grand",
+    'snippet_edit' => 'Editer le fragment (snippet): %s',
 
-"logged_out_select_blurb" => "Si vous avez choisi \"oui\", lorsqu'un utilisateur déconnecté tente d'accéder à cette page, afficher celle ci à la place :",
+    'snippet_syntax' => 'Syntaxe fragment (snippet) ',
 
-"max_revisions_exp" => "Le nombre maximum de versions qui doivent être conservées pour CHAQUE modèle. Par exemple, si vous paramétrez sur 5, seules les 5 plus récentes versions seront enregistrées pour chaque modèle spécifié.",
+    'snippet_updated' => 'Fragment (snippet) mis à jour',
 
-"max_tmpl_revisions" => "Nombre maximum de versions à conserver",
+    'snippets' => 'Fragments (snippets)',
 
-"medium" => "Moyen",
+    'snippets_explanation' => 'Les fragments (snippets) sont très pratiques quand vous avez besoin de quelques bits de modèle réutilisables ou des morceaux de balise. Ils sont utilisés pour du contenu statique et n\'incluent pas les balises et les variables PHP d\'ExpressionEngine ni les autres variables ni les autres utilisations du PHP. Pour ces dernières, considérez le recours aux <a href =\'%s\'>Variables globales</a>.',
 
-"member_group" => "Groupe de membres",
+    'static' => 'Statique',
 
-"missing_name" => "Votre modèle doit avoir un nom",
+    'static_type_col' => 'Statique',
 
-"name_of_template_group" => "Nom du groupe de modèles",
+    'strict_urls' => 'Activer les URL strictes',
 
-"name_of_template" => "Nom du modèle",
+    'strict_urls_exp' => 'Cette fonctionnalité impose des règles plus strictes pour vos URL et intéragit avec la fonctionnalité 404 ci-dessous. Merci de consulter le guide utilisateur pour plus d\'information.',
 
-"new_template_form" => "Nouveau formulaire de modèle",
+    'sync' => 'Synchroniser',
 
-"new_template_group_form" => "Nouveau groupe de modèles",
+    'sync_completed' => 'Les modèles de la base de données ont été synchronisés en fichiers.',
 
-"new_template_group" => "Nouveau groupe",
+    'sync_not_allowed_1' => 'Sauvegarder les modèles en fichiers texte n\'est actuellement pas autorisé',
 
-"no_access_instructions" => "Lorsque des utilisateurs non autorisés tentent d'accéder à cette page, afficher celle ci à la place :",
+    'sync_not_allowed_2' => 'Préférences de modèle global.',
 
-"no_access_select_blurb" => "Si vous avez choisi \"non\", pour n'importe lequel des choix ci-dessus :",
+    'sync_templates' => 'Synchroniser les modèles',
 
-"no_file_exists" => "Aucun fichier n'existe",
+    'sync_templates_info1' => 'Les modèles sélectionnés seront mis à jour pour correspondre aux fichiers actuellement associés.',
 
-"no_valid_templates_sync" => "Aucun modèle valide n'existe. Vous devez avoir au moins un modèle défini pour la sauvegarde comme fichier texte.",
+    'sync_templates_info2' => 'Si un fichier n\'existe pas encore pour un modèle signalé, il sera alors créé en se basant sur les données de modèles.',
 
-"offline_template_desc" => "Ce modèle contient la page qui est affichée quand votre site est hors ligne.",
+    'system_offline' => 'Système hors-ligne',
 
-"order" => "Ordre",
+    'tag_class_error' => 'Balise non valide (pas de plugin ou de module de cette sorte)',
 
-"output" => "Sortie",
+    'tag_docs_link_error' => 'Merci de consulter <a href="%s">la documentation</a> du module si vous rencontrez des problèmes.',
 
-"preferences_updated" => "Préférences mises à jour",
+    'tag_install_error' => 'Le module n\'est pas installé',
 
-"preferences" => "Préférences",
+    'tag_no_closing_tag_error' => 'La balise de fermeture n\'a pas été trouvée. Notez: certaines balises n\'en ont pas besoin.',
 
-"prefs" => "Préférences",
+    'template_access' => 'Restriction d\'accès aux modèles',
 
-"refresh_in_minutes" => "en minutes",
+    'template_created' => 'Modèle créé',
 
-"require_logged_in" => "Requérir la connexion de l'utilisateur pour voir cette page ?",
+    'template_del_conf' => 'Confirmation de suppression de modèle',
 
-"revision_history" => "Voir l'historique des versions",
+    'template_deleted' => 'Modèle supprimé',
 
-"rss" => "Page RSS",
+    'template_edit_date' => 'Date d\'édition de modèle',
 
-"save_template_revision" => "Enregistrer la version",
+    'template_file_not_deleted' => 'Impossible de supprimer le fichier associé au modèle ',
 
-"save_tmpl_files_exp" => "Enregistre les modèles sous forme de fichiers directement sur votre serveur. Cliquer sur Aide pour plus d'informations.",
+    'template_file_not_renamed' => 'Impossible de renommer le fichier associé au modèle',
 
-"save_tmpl_files" => "Enregistrer les modèles sous forme de fichiers",
+    'template_from_library' => 'Utiliser un modèle de votre bibliothèque',
 
-"save_tmpl_revisions" => "Enregistrer les versions des modèles ?",
+    'template_group_created' => 'Groupe de modèles créé',
 
-"site_404_exp" => "Détermine quel modèle doit être affiché lorsqu'un visiteur tente d'accéder à une URL invalide. À noter : si vous choisissez \"Aucun\", c'est votre canal par défaut qui sera alors affiché.",
+    'template_group_del_conf' => 'Confirmation de suppression de groupe de modèles',
 
-"small" => "Petit",
+    'template_group_deleted' => 'Le groupe de modèles a été supprimé',
 
-"strict_urls_exp" => "Cette fonctionnalité applique les règles strictes pour vos URLs et interfère avec la gestion des pages 404 ci-dessous. Veuillez vous reporter au guide utilisateur pour plus d'information.",
+    'template_group_instructions' => 'Le nom ne doit comporter qu’un seul mot et aucun espace',
 
-"strict_urls" => "Activer les URLs strictes ?",
+    'template_group_updated' => 'Groupe de modèles mis à jour',
 
-"sync_completed" => "Les modèles dans la base de données ont été synchronisés avec les fichiers.",
+    'template_id_not_found' => 'Une ID non valide de modèle a été sélectinnée',
 
-"sync_not_allowed_1" => "La sauvegarde de modèle comme fichier texte n'est actuellement pas activée dans ",
+    'template_intro' => 'Cette page sert à la gestion des modèles.',
 
-"sync_not_allowed_2" => "Préférences globales des modèles.",
+    'template_management' => 'Gestion des modèles',
 
-"sync_templates_info1" => "Les modèles sélectionnés seront mis à jour afin de correspondre aux fichiers actuellement associés.",
+    'template_name' => 'Nom de modèle',
 
-"sync_templates_info2" => "Si un fichier n'existe pas encore pour un modèle défini, celui-ci sera créé sur la base des données du modèle.",
+    'template_not_saved' => 'Impossible de sauvegarder le modèle en fichier texte',
 
-"sync_templates" => "Synchroniser les modèles",
+    'template_preferences' => 'Préférences de modèles',
 
-"sync" => "Synchroniser",
+    'template_preferences_manager' => 'Gestionnaire de préférences de modèles',
 
-"system_offline" => "Système hors ligne ",
+    'template_rev_msg' => 'Notez: sauvegarder vos révisions peut solliciter beaucoup d\'espace dans la base de données, c\'est pourquoi vous êtes invité(e) à en fixer la limite ci-dessous.',
 
-"template_access" => "Restriction d'accès au modèle",
+    'template_route' => 'Route de modèle:',
 
-"template_created" => "Modèle créé",
+    'template_route_notice' => 'Les Routes sont répertoriées dans l\'ordre où le routeur de modèles les associera aux modèles.<br /> Vous pouvez glisser-déposer pour modifier cet agencement.',
 
-"template_del_conf" => "Confirmation de suppression de modèle",
+    'template_route_subtext' => 'Si une route est fournie ici, cela écrasera la structure URL par défaut groupe/modèles.',
 
-"template_deleted" => "Modèle supprimé",
+    'template_routes_not_saved' => 'Les routes de modèles n\'ont pas été sauvegardées',
 
-"template_file_not_deleted" => "Impossible de supprimer le fichier texte associé",
+    'template_routes_not_saved_desc' => 'Impossible de sauvegarder les routes de modèles, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-"template_from_library" => "Utiliser un modèle de votre bibliothèque",
+    'template_routes_saved' => 'Les routes de modèles ont été sauvegardées',
 
-"template_group_created" => "Groupe de modèles créé",
+    'template_routes_saved_desc' => 'Les routes de modèles ont été sauvegardées.',
 
-"template_group_del_conf" => "Confirmation de suppression de groupe de modèles",
+    'template_size' => 'Dimension du modèle',
 
-"template_group_deleted" => "Groupe de modèles supprimé",
+    'template_warnings' => 'Alertes de modèle',
 
-"template_group_instructions" => "Un seul mot sans espaces.",
+    'template_warnings_actions' => 'Suggestions',
 
-"template_group_updated" => "Groupe de modèles mis à jour",
+    'template_warnings_blurb' => 'Les balises suivantes ont déclenché des alertes.',
 
-"template_intro" => "Cette page est celle où les modèles sont gérés.",
+    'this_site_only' => 'Ce site uniquement',
 
-"template_management" => "Gestion des Modèles",
+    'tmpl_revisions_not_enabled' => 'Les révisions de modèles ne sont pas activées.',
 
-"template_name" => "Nom du modèle",
+    'tmpl_search_result' => '(%s) résultats dans (%s) les groupes de modèles',
 
-"template_not_saved" => "Impossible d'enregistrer votre modèle comme fichier texte",
+    'toggle_editor' => 'Editeur de basculement',
 
-"template_preferences" => "Préférence des modèles",
+    'type' => 'Type',
 
-"template_rev_msg" => "Note : La sauvegarde de vos versions peut prendre beaucoup d'espace dans la base de données, vous êtes donc encouragé à définir les limites ci-dessous.",
+    'unable_to_write_files' => 'Impossible d\'écrire les fichiers dans votre répertoire de cache',
 
-"template_size" => "Taille du modèle",
+    'breadcrumb' => 'Fil d\'Ariane',
 
-"type" => "Type",
+    'undersores_allowed' => '(sous-tirets et tirets sont autorisés)',
 
-"unable_to_write_files" => "Impossible d'écrire les fichiers dans votre répertoire de cache",
+    'url_manager' => 'Gestionnaire de route de modèle',
 
-"undersores_allowed" => " Les soulignés (underscore) et tirets sont autorisés.",
+    'user_message' => 'Message utilisateur',
 
-"user_message" => "Message utilisateur",
+    'user_messages_template' => 'Modèle de message utilisateur',
 
-"user_messages_template" => "Modèle de message utilisateur",
+    'variable_deleted' => 'Variable détectée',
 
-"variable_deleted" => "Variable globale supprimée",
+    'variable_does_not_exist' => 'La variable globale n\'existe pas',
 
-"view_rendered_template" => "Voir le modèle",
+    'variable_name_instructions' => 'Le nom doit comporter un mot unique et alphanumérique sans espaces (sous-tirets, tirets et points sont autorisés)',
 
-"view" => "Voir",
+    'view' => 'Visualiser',
 
-"webpage" => "Page Web",
+    'view_rendered_template' => 'Modèle de visualisation',
 
-"xml" => "XML",
+    'localization_form' => 'Formulaire de préférences de localisation',
 
-"you_must_submit_a_name" => "Votre modèle doit avoir un nom",
+    'webpage' => 'Page WEB (HTML)',
 
-//----------------------------
-// Profile Theme Templates
-//----------------------------
+    'webpage_type_col' => '<abbr title="Hyper-Text Markup Language">HTML</abbr>',
 
-'activation_email_resent' => "L'email d'activation a été renvoyé",
+    'xml' => 'XML',
 
-'activation_emails_resent' => "Les emails d'activation ont été renvoyés",
+    'xml_type_col' => '<abbr title="Extensible Markup Language">XML</abbr>',
 
-'bulletin_board' => 'Tableau des bulletins',
+    'you_must_submit_a_name' => 'Votre modèle doit avoir un nom',
 
-'bulletin' => "Bulletin",
+    /* Profile Theme Templates */
+    'activation_email_resent' => 'Email d\'activation ré-adressé',
 
-'can_send_bulletins' => "Peut envoyer des bulletins",
+    'activation_emails_resent' => 'Emails d\'activation ré-adressés',
 
-'control_panel' => "Panneau de Contrôle",
+    'aim_console' => 'Console de message instantané AOL',
 
-'delete_confirmation_form' => 'Formulaire de confirmation de suppression de compte',
+    'avatar_folder_list' => 'Liste de dossiers d\'avatars pré-installés',
 
-'edit_ignore_list_form' => 'Formulaire de liste d\'ignoré',
+    'basic_profile' => 'Page de profil limité',
 
-'edit_ignore_list_rows' => 'Lignes de la liste d\'ignorés',
+    'breadcrumb' => 'Fil d\'Ariane',
 
-'group_description' => "Description du groupe de membres",
+    'breadcrumb_current_page' => 'Page actuelle du fil d\'Ariane',
 
-'login_as_member_description' => "Lorsque vous cliquerez sur le bouton valider vous serez connecté sur le compte du membre '%screen_name%' et redirigé à la page suivante.",
+    'breadcrumb_trail' => 'Chemin du fil d\'Ariane',
 
-'login_as_user' => "SuperAdmin se connectant comme membre",
+    'browse_avatars' => 'Naviguer sur la page des avatars',
 
-'other' => "Autre",
+     'buddies_block_list' => 'Message privé - liste d\'amis et de bannis',
 
-"aim_console" => "Console Messagerie Instantanée AOL",
+    'buddies_block_row' => 'Message privé - Rangées de listes d\'amis et de bannis',
 
-"avatar_folder_list" => "Liste de dossier pré-installé d'avatar",
+    'bulletin' => 'Bulletin',
 
-"basic_profile" => "Page limitée de profil",
+    'bulletin_board' => 'Tableau de communiqué',
 
-"breadcrumb_current_page" => "Page courante du fil d'ariane",
+    'bulletin_form' => 'Formulaire de communiqué',
 
-"breadcrumb_trail" => "Chemin du fil d'ariane",
+    'can_send_bulletins' => 'Peut envoyer des communiqués',
 
-"breadcrumb" => "Fil d'ariane",
+    'control_panel' => 'Tableau de bord',
 
-"browse_avatars" => "Parcourir les pages d'avatar",
+    'copyright' => 'Notice de copyright',
 
-"buddies_block_list" => "Message privé - Liste d'amis et d'utilisateurs bloqués",
+    'custom_profile_fields' => 'Personnaliser les champs de membres',
 
-"buddies_block_row" => "Message privé - Lignes des listes d'amis et d'utilisateurs bloqués",
+    'delete_confirmation_form' => 'Formulaire de suppression de confirmation de compte',
 
-"bulletin_form" => "Formulaire de bulletin",
+    'edit_avatar' => 'Page d\'édition d\'avatar',
 
-"copyright" => "Information de Copyright",
+    'edit_ignore_list_form' => 'Formulaire de liste IGNORER',
 
-"custom_profile_fields" => "Champs personnalisés de membre",
+    'edit_ignore_list_rows' => 'Rangées de liste IGNORER',
 
-"edit_avatar" => "Page d'édition d'avatar",
+    'edit_photo' => 'Editer la page de photo de membre',
 
-"edit_photo" => "Page d'édition de la photo de membre",
+    'edit_profile_form' => 'Formulaire de profil de membre',
 
-"edit_profile_form" => "Formulaire de profil de membre",
+    'email_form' => 'Console Email',
 
-"email_form" => "Console d'email",
+    'email_prefs_form' => 'Formulaire de préférences d\'email',
 
-"email_prefs_form" => "Formulaire de préférences email",
+    'email_user_message' => 'Messages email',
 
-"email_user_message" => "Messages email",
+    'emoticon_page' => 'Page d\'émoticônes',
 
-"emoticon_page" => "Page d'émoticônes",
+    'empty_list' => 'Message privé - Vider la liste',
 
-"empty_list" => "Message privé - Liste vide",
+    'error_opening_template' => 'Erreur: impossible d\'ouvrir le fichier de modèle afin d\'écrire ces contenus.',
 
-"error_opening_template" => "Erreur : impossible d'ouvrir le fichier modèle pour y écrire son contenu.",
+    'forgot_form' => 'Formulaire de mot de passe oublié',
 
-"forgot_form" => "Formulaire d'oubli de mot de passe",
+    'full_profile' => 'Page de profil complet',
 
-"full_profile" => "Page complète de profil",
+    'group_description' => 'Description de groupe de membres',
 
-"home_page" => "Page d'accueil du profil de membre",
+    'home_page' => 'Page d\'accueil de profil de membre',
 
-"html_footer" => "Pied de page HTML",
+    'html_footer' => 'Pied de page HTML',
 
-"html_header" => "En-tête HTML",
+    'html_header' => 'En-tête HTML',
 
-"icq_console" => "Console ICQ",
+    'icq_console' => 'Console ICQ',
 
-"import_utilities" => "Utilitaires d'importation",
+    'import_utilities' => 'Importer les utilitaires',
 
-"localization_form" => "Formulaire de préférences de localisation",
+    'localization_form' => 'Formulaire de préférences de localisation',
 
-"login_form" => "Formulaire de connexion",
+    'login_as_member_description' => 'Quand vous cliquerez sur envoi, vous serez connecté(e) avec votre nom d\'écran \'%screen_name%\' et redirigé(e) sur la page ci-dessous.',
 
-"member_page" => "Enveloppe externe du profil de membre",
+    'login_as_user' => 'Super Admin se connectant comme utilisateur',
 
-"member_results_row" => "Message privé - Lignes des résultats de la recherche de membre",
+    'login_form' => 'Formulaire de connection',
 
-"member_results" => "Message privé - Résultats de la recherche de membre",
+    'member_page' => 'Enveloppe extérieure de profil de membre',
 
-"memberlist_rows" => "Lignes de la liste de membres",
+    'member_results' => 'Message privé - résultats de recherche de membre',
 
-"memberlist" => "Page de liste de membres",
+    'member_results_row' => 'Message privé - Rangées de résultats de recherche de membres',
 
-"menu" => "Menu du profil de membre",
+    'memberlist' => 'Page de liste de membres',
 
-"message_attachment_link" => "Message privé - Lien de pièce jointe",
+    'memberlist_rows' => 'Rangées de listes de membres',
 
-"message_attachment_rows" => "Message privé - Lignes des pièces jointes",
+    'menu' => 'Menu de profil de membre',
 
-"message_attachments" => "Message privé - Pièce jointe",
+    'message_attachment_link' => 'Message privé - Lien de pièce jointe',
 
-"message_compose" => "Message privé - Page de rédaction",
+    'message_attachment_rows' => 'Message privé - Rangées de pièces jointes',
 
-"message_edit_folders_row" => "Message privé - Lignes des dossiers d'édition",
+    'message_attachments' => 'Message privé - Pièces jointes',
 
-"message_edit_folders" => "Message privé - Dossier d'édition",
+    'message_compose' => 'Message privé - Page à composer',
 
-"message_error" => "Message privé - Erreur",
+    'message_edit_folders' => 'Message privé - Editer les dossiers',
 
-"message_folder_rows" => "Message privé - Lignes du dossier de message",
+    'message_edit_folders_row' => 'Message privé - Editer les rangées de dossiers',
 
-"message_folder" => "Message privé - Dossier de message",
+    'message_error' => 'Message privé - Erreur',
 
-"message_menu_rows" => "Message privé - Lignes du menu",
+    'message_folder' => 'Message privé - Dossier de messages',
 
-"message_menu" => "Message privé - Menu",
+    'message_folder_rows' => 'Message privé - Rangées de dossier de messages',
 
-"message_no_folder_rows" => "Message privé - Lignes aucun dossier de message",
+    'message_menu' => 'Message privé - Menu',
 
-"message_submission_error" => "Message privé - Erreur de soumission",
+    'message_menu_rows' => 'Message privé - Rangées de menu',
 
-"message_success" => "Message privé - Succès",
+    'message_no_folder_rows' => 'Message privé - Message: pas de rangées de dossier',
 
-"new_member_search" => "Nouvelle recherche de membre",
+    'message_submission_error' => 'Message privé - Erreur de saisie',
 
-"no_subscriptions_message" => "Aucun message d'abonnement",
+    'message_success' => 'Message privé - Succès',
 
-"notepad_form" => "Formulaire Notepad",
+    'new_member_search' => 'Recherche de nouveau membre',
 
-"page_header" => "En-tête de page",
+    'no_subscriptions_message' => 'Message: pas de message d\'abonnements',
 
-"page_subheader" => "Sous en-tête de page",
+    'notepad_form' => 'Formulaire de bloc-notes',
 
-"password_change_warning" => "Avertissement de modification de mot de passe",
+    'other' => 'Autre',
 
-"preview_message" => "Message privé - Aperçu",
+    'page_header' => 'En-tête de pages',
 
-"public_custom_profile_fields" => "Champs personnalisés de profil pour les profils publics",
+    'page_subheader' => 'Page de sous-entête',
 
-"public_profile" => "Profil de membre public",
+    'password_change_warning' => 'Alerte de changement de mot de passe',
 
-"registration_form" => "Formulaire d'inscription",
+    'preview_message' => 'Message privé - Prévisualisation',
 
-"resend_activation_email" => "Renvoyer l'email d'activation",
+    'public_custom_profile_fields' => 'Personnaliser les champs de membres pour profil public',
 
-"resend_activation_emails" => "Renvoyer les emails d'activation",
+    'public_profile' => 'Profil public de membre',
 
-"reset_password_form" => "Formulaire de réinitialisation du mot de passe",
+    'registration_form' => 'Formulaire d\'inscription',
 
-"search_members" => "Message privé - Recherche de membre",
+    'resend_activation_email' => 'Renvoyer un email d\'activation',
 
-"signature_form" => "Page d'édition de signature",
+    'resend_activation_emails' => 'Renvoyer des emails d\'activation',
 
-"stylesheet" => "Feuille de style CSS",
+    'reset_password_form' => 'Formulaire de réinitialisation de mot de passe',
 
-"subscription_pagination" => "Pagination de l'abonnement",
+    'search_members' => 'Message privé - Recherche de membre',
 
-"subscription_result_heading" => "En-tête des résultats d'abonnement",
+    'signature_form' => 'Page d\'édition de signature',
 
-"subscription_result_rows" => "Ligne des résultats d'abonnement",
+    'stylesheet' => 'CSS feuille de style en cascade',
 
-"subscriptions_form" => "Page des abonnements",
+    'subscription_pagination' => 'Pagination d\'abonnement',
 
-"template_set_names" => "Jeux de modèles disponibles",
+    'subscription_result_heading' => 'En-tête de résultats d\'inscriptions',
 
-"template_set" => "Jeu de modèle :",
+    'subscription_result_rows' => 'Rangées de résultats d\'inscription',
 
-"template_updated" => "Le modèle a été mis à jour",
+    'subscriptions_form' => 'Page d\'abonnement',
 
-"update_un_pw_form" => "Formulaire de mise à jour du nom d'utilisateur et du mot de passe",
+    'template_set' => 'Ensemble de modèles:',
 
-"username_change_disallowed" => "Message d'interdiction de changement d'identifiant",
+    'template_set_names' => 'Ensemble de modèles disponibless',
 
-"username_password_form" => "Formulaire identifiant et mot de passe",
+    'template_updated' => 'Le modèle été mis à jour',
 
-"username_row" => "Ligne du formulaire d'identifiantr",
+    'update_un_pw_form' => 'Mettre à jour le nom d\'utilisateur et le formulaire de mot de passe',
 
-"view_message" => "Message privé - Voir le message",
+    'username_change_disallowed' => 'Message de refus de changement de mot de passe',
 
-//----------------------------
-// Tag Validation
-//----------------------------
+    'username_password_form' => 'Formulaire de nom d\'utilisateur et de mot de passe',
 
-'tag_class_error' => 'Balise invalide (aucun plugin ou module correspondant)',
+    'username_row' => 'Rangée de formulaire de nom d\'utilisateur',
 
-'tag_docs_link_error' => "Veuillez consulter la <a href='%s'>documentation</a> du module si vous rencontrez un problème.",
-
-'tag_install_error' => 'Le module n\'est pas installé',
-
-'tag_no_closing_tag_error' => 'Balise de fermeture introuvable. Note : certaines balises ne nécessitent pas de fermeture.',
-
-'template_warnings_actions' => 'Suggestions',
-
-'template_warnings_blurb' => 'Les balises suivantes ont déclenché les avertissements.',
-
-'template_warnings' => 'Avertissements de modèle',
-
-'tmpl_revisions_not_enabled' => 'Les versions de modèle ne sont pas activées.',
+    'view_message' => 'Message privé - Visualiser le Message',
 
 );
 

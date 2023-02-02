@@ -1,5 +1,12 @@
 # French Translation Pack for ExpressionEngine 7.x
 
+## Usage
+
+- Switch to appropriate branch (`master` for ExpressionEngine 7, `6.x` for ExpressionEngine 6)
+- Download zip or clone repo locally
+- Place the files in `user/language/french` folder into `user/language/french` folder in your installation
+- Set the language preference in ExpressionEngine Control Panel
+
 ## Changes Between Versions
 
 - [7.1.5 → 7.2.5](https://github.com/EllisLab/EE-Language-French/compare/973e11f...)
@@ -27,7 +34,7 @@
 
 ## License
 
-- Copyright (C) 2009-2022 Packet Tide
+- Copyright (C) 2009-2023 Packet Tide
 - Original French translation provided by: Jeremie Werner / Studio Meta (@studiometa)
 - 2.5.5, 2.7.x, 3.x, 4.x, 5.x, 6.x by: Emmanuel Beauchamps
 - 7.x by: Andre Urtizberea

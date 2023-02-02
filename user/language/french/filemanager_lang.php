@@ -2,893 +2,1064 @@
 
 $lang = array(
 
-'all_files' => 'Tous les fichiers',
+     
+    'added_by' => 'Ajouté par',
 
-'append' => 'Ajouter un chiffre au fichier <strong>le plus récent</strong> <i>&mdash; exemple : %s</i>',
+    'all_files' => 'Tous les fichiers',
+    
+    'allow_subfolders' => 'Autoriser les sous-dossiers?',
 
-'btn_cancel_upload' => 'Annuler Téléchargement',
+    'allow_subfolders_desc' => 'Gérer les couches imbriquées de sous-dossiers à l\'intérieur de ce répertoire de téléchargement.',
 
-'btn_edit_file_meta' => 'Enregistrer les métadonnées du fichier',
+    'append' => 'Ajouter un chiffre au <strong>nouveau</strong> fichier <i>&mdash; exemple: %s</i>',
 
-'btn_finish_upload' => 'Finaliser Téléchargement',
+    'btn_cancel_upload' => 'Annuler le téléchargement',
+     
+     'delete' => 'Supprimer',
 
-'categories' => 'Catégories',
+    'delete_file' => 'Supprimer le fichier',
 
-'choose_file'			=> 'Choisissez le(s) fichier(s) à supprimer',
+    'btn_edit_file_meta' => 'Sauvegarder le fichier méta',
 
-'confirm_del_file'		=> 'Êtes-vous sûr de vouloir définitivement supprimer ce fichier ?',
+    'btn_finish_upload' => 'Finir le téléchargement',
 
-'confirm_del_files'		=> 'Êtes-vous sûr de vouloir définitivement supprimer ces fichiers ?',
+    'categories' => 'Catégories',
+    
+    'column_file_id' => 'ID#',
 
-'content_files' 		=> 'Gestion des Fichiers',
+    'column_title' => 'Titre',
 
-'create_new_upload_pref' => 'Créer un nouveau répertoire de téléchargement',
+    'column_categories' => 'Catégories',
 
-'credit' => 'Crédit',
+    'copy_link' => 'Copier le lien',
 
-'custom_limit' => 'limite personnalisée',
+    'credit' => 'Crédit',
 
-'date_added' => 'Date d\'ajout',
+    'date_added' => 'Date d\'ajout',
+    
+    'date_modified' => 'Date modifiée',
 
-'delete_fail'			=> 'Un problème est survenu lors de la suppression d\'un ou plusieurs fichier(s). Veuillez vérifier la liste de fichiers ci-dessous.',
+    'description' => 'Description',
+    
+    'dimensions' => 'Dimensions',
 
-'delete_selected_files'	=> 'Supprimer les fichiers sélectionnés',
+    'download' => 'Télécharger',
 
-'delete_success'		=> 'Suppression effectuée',
+    'edit_file_metadata' => 'Editer les données du fichier méta',
 
-'description' => 'Description',
+    'edit_file_metadata_error' => 'Impossible de mettre à jour les données du fichier méta',
 
-'download_selected'		=> 'Télécharger les fichiers sélectionnés',
+    'edit_file_metadata_error_desc' => 'Impossible de mettre à jour les données méta, merci de passer en revue et de corriger les erreurs ci-dessous',
 
-'download' => 'Télécharger',
+    'edit_file_metadata_success' => 'Données de fichier méta mises à jour',
 
-'edit_file_metadata_error_desc' => 'Nous n\'avons pas pu mettre à jour les métadonnées du fichier, merci de vérifier et corriger les erreurs ci-dessous.',
+    'edit_file_metadata_success_desc' => 'Les données méta pour le fichier <b>%s</b> ont été actualisées.',
 
-'edit_file_metadata_error' => 'Impossible de mettre à jour les métadonnées du fichier',
+    ' exceeds_max_dimensions' => 'Le fichier excède les dimensions maximum et n\'est pas réajustable.',
+   
+    'existing_subfolders' => 'Inclure les sous-dossiers existants?',
 
-'edit_file_metadata_success_desc' => 'Les métadonnées du fichier <b>%s</b> ont été mises à jour.',
+    'existing_subfolders_desc' => 'Tous les dossiers existants de ce répertoire de téléchargement apparaîtront dans le Gestionnaire de fichiers',
 
-'edit_file_metadata_success' => 'Métadonnées du fichier mises à jour',
+    'file' => 'Fichier',
 
-'edit_file_metadata' => 'Modifier les métadonnées de "%s"',
+    'file_conflict' => 'Conflit de fichier détecté',
 
-'edit_file'				=> 'Modifier le fichier',
+    'file_conflict_desc' => 'Un fichier nommé <b>%s</b> existe déjà dans le répertoire.',
 
-'email_files'			=> 'Envoyer les fichiers sélectionnés par email',
+    'file_data' => 'Données de fichier',
 
-'file_conflict_desc' => 'Un fichier nommé <b>%s</b> existe déjà dans ce répertoire.',
+    'file_manager' => 'Fichiers',
 
-'file_conflict' => 'Conflit de fichiers rencontré',
+    'file_not_added_to_db' => 'Le fichier n\'a pas pu être enregistré dans la base de données.',
 
-'file_data' => 'Données du fichier',
+    'file_type' => 'Type de fichier',
 
-'file_download' 		=> 'Télécharger',
+    'file_upload_stopped' => 'Chargement de fichier interrompu',
 
-'file_information'		=> 'Propriétés du fichier',
+    'files' => 'Fichiers',
 
-'file_manager' => 'Gestion des Fichiers',
+    'filter_upload_directories' => 'filtrer les répertoires de téléchargement',
 
-'file_metadata'			=> 'Métadonnées du fichier',
+    'gd_not_installed' => 'La miniature n\'a pas pu être créée pour cette image. GD est requis pour la création de miniatures.',
 
-'file_name'				=> 'Nom du fichier',
+    'invalid_directory' => 'Vous avez précisé un répertoire non valide',
 
-'file_size_unit'		=> 'KO',
+    'invalid_filename' => 'Le nom du fichier d\'image ne peut contenir que des caractères alphanumériques, des tirets et des sous-tirets.',
 
-'file_size'				=> 'Taille du fichier',
+    'invalid_mime' => 'Type mime non valide, le fichier n\'a pas pu être traité.',
 
-'file_tools'			=> 'Outils Fichier',
+    'invalid_short_name' => 'Le nom court de manipulation d\'image ne peut contenir que des caractères alphanumériques, des tirets et des sous-tirets et ne peut être nommé "thumbs".',
 
-'file_type' => 'Type de fichiers',
+    'link' => 'Lien',
 
-'file_upload_prefs' 	=> 'Préférences de téléchargement',
+    'invalid_upload_destination' => 'La destination de téléchargement est non valide.',
+    
+    'keep_subfolders_top' => 'Maintenir les sous-dossiers au-dessus?',
 
-'file_upload_stopped' => 'Téléchargement des fichiers arrêté',
+    'keep_subfolders_top_desc' => 'Les sous-dossiers de Groupe au-dessus de la liste des fichiers lors de la navigation.',
 
-'file_upload' 			=> 'Téléchargement',
+    'last_modified' => 'Dernière modification',
 
-'file'  => 'Fichier',
+    'limit_subfolder_toggle' => 'Limiter les couches de sous-dossiers?',
 
-'files' => 'fichier', // initially Fichiers
+    'limit_subfolders_toggle_desc' => 'Inclure une limite au nombre de couches de sous-dossiers imbriqués',
 
-'filter_upload_directories' => 'filtrer les répertoires de téléchargement',
+    'limit_subfolders' => 'Limite de couches de sous-dossier',
 
-'image_editor'			=> 'Éditeur d\'image',
+    'limit_subfolders_desc' => 'Combien de couches imbriquées de sous-dossiers souhaiteriez-vous autoriser dans ce répertoire de téléchargement?',
 
-'image_manip_quality_desc' => 'Qualité finale de l\'image',
+    'modified_by' => 'Modifié par',
 
-'image_manip_quality'	=> 'Qualité',
+    'move' => 'Déplacer',
 
-'kind'					=> 'Type',
+    'name' => 'Nom de fichier',
 
-'location' => 'Emplacement',
+    'new_folder' => 'Nouveau dossier',
 
-'no_file' => 'Aucun fichier sélectionné',
+    'folder_name' => 'Nom de dossier',
 
-'no_filename' => 'Un nouveau nom de fichier n\'a pas été soumis.',
+    'location' => 'Localisation',
 
-'no_upload_destination' => 'Aucun répertoire de téléchargement trouvé',
+    'create_folder_location' => 'Créer un dossier dans la localisation suivante:',
 
-'no_upload_dirs'		=> 'Aucun répertoire de téléchargement n\'est défini',
+    'subfolder_directory_renamed' => 'Répertoire de sous-dossiers renommé',
 
-'not_an_image' => 'Le fichier sélectionné n\'est pas une image',
+    'subfolder_already_exists' => 'Le répertoire de sous-dossiers existe déjà',
 
-'permissions'			=> 'Permissions',
+    'no_file' => 'Aucun fichier sélectionné',
 
-'pixels' => 'pixels',
+    'no_filename' => 'Un nouveau nom de fichier n\'a pas été saisi.',
 
-'rename_file'			=> 'Renommer le fichier',
+    'no_path_or_dir' => 'Vous devez préciser à la fois un chemin de fichier et un ID de répertoire pour sauvegarder un fichier',
 
-'rename' => 'Renommer le fichier <strong>le plus récent</strong>',
+    'no_permission' => 'Vous n\'avez pas la permission de sauvegarder un fichier',
 
-'replace_no_metadata' => 'Seul le fichier a été remplacé. Le Titre, la Description, les Crédits, l\'Emplacement et les Catégories n\'ont pas été mis à jour.',
+    'no_upload_destination' => 'Aucune destination de téléchargement n\'a été trouvée.',
 
-'replace' => 'Remplacer seulement le fichier <strong>le plus ancien</strong> <i>&mdash; action destructrice !</i>',
+    'not_an_image' => 'Le fichier sélectionné n\'est pas une image',
+    
+    'open_cmd' => 'Ouvert',
 
-'save_file'				=> 'Enregistrer le fichier',
+    'pixels' => 'pixels',
 
-'search_files' => 'Rechercher des fichiers',
+    'problem_downloading_file' => 'Une erreur est apparue en tentant de télécharger le fichier sélectionné. Merci de vérifier que le fichier existe bien sur le serveur.',
 
-'show_all_files' => 'Tous les fichiers (%d)',
+    'problem_downloading_files' => 'Une erreur est apparue en tentant de télécharger les fichiers sélectionnés. Merci de vérifier que les fichiers existent bien sur le serveur.',
+    
+    'rename_cmd' => 'Renommer',
 
-'size'					=> 'Taille',
+    'rename' => 'Renommez le <strong>nouveau</strong> fichier',
 
-'title_or_name' => 'Titre/Nom',
+    'replace' => 'Remplacer seulement <strong>l\'ancien</strong> fichier <i>&mdash; action destructrice</i>',
+    
+    'replace_file' => 'Remplacer',
 
-'title' => 'Titre',
+    'replace_no_metadata' => 'Seul, le fichier a été remplacé. Le titre, la description, le crédit, la localisation et les catégories n\'ont pas été mises à jour.',
 
-'upload_dir_choose'		=> 'Choisir un répertoire de téléchargement',
+    'security_failure' => 'Le type de fichier que vous tentez de télécharger n\'est pas autorisé.',
+    
+    'select' => 'Sélectionnez…',
 
-'upload_directories' => 'Répertoires de téléchargement',
+    'show_all_files' => 'Tous les %d fichiers',
 
-'upload_directory' => 'Répertoire de téléchargement',
+    'thumb_not_created' => 'La miniature n\'a pas pu être créée pour cette image. Merci de vous assurer que le répertoire de miniatures est réinscriptible.',
 
-'upload_edit'			=> 'Redimensionner &amp; Orienter',
+    'title' => 'Titre',
 
-'upload_file' 			=> 'Télécharger un fichier',
+    'title_or_name' => 'Titre/Nom',
 
-'upload_new_file' => 'Télécharger un nouveau fichier',
+    'upload_directories' => 'Répertoires de téléchargement',
 
-'upload_options' => 'Options de téléchargement',
+    'upload_directory' => 'Répertoire de téléchargement',
 
-'upload_rename_message'	=> 'Un fichier avec ce nom existe déjà. Vous pouvez soit choisir un nouveau nom et le fichier sera renommé, soit utiliser le même nom et le fichier existant sera remplacé par celui-ci.',
+    'upload_new_file' => 'Télécharger un nouveau fichier',
 
-'upload_rename'			=> 'Le fichier existe déjà',
+    'upload_options' => 'Options de téléchargement',
+    
+    'uploaded_by' => 'Téléchargé par',
 
-'upload_success'		=> 'Téléchargement réussi',
+    'usage' => 'Usage',
 
-'upload' 				=> 'Télécharger',
+    'usage_desc' => 'Ce fichier est utilisé dans les localisations suivantes:',
 
-'where'					=> 'Où',
+    /* sidebar */
+    'zero_directories_found' => 'Aucun <b>répertoire</b> n\'a été trouvé',
 
-// sidebar
-'zero_directories_found' => 'Aucun <b>répertoire</b> trouvé',
+    /* modal */
+    '90_degrees_left' => '90 degrés, gauche',
 
-// modal
-'90_degrees_left' => "90° à gauche",
+    '90_degrees_right' => '90 degrés, droite',
 
-'90_degrees_right' => "90° à droite",
+    'btn_crop' => 'Rogner, Pivoter &amp; Redimensionner',
 
-'btn_crop_and_save_image' => 'Rogner &amp; enregistrer l\'image',
+    'btn_crop_and_save_image' => 'Rogner &amp; Sauvegarder l\'image',
 
-'btn_crop' => 'Rogner, Basculer &amp; Redimensionner',
+    'btn_resize_and_save_image' => 'Redimensionner &amp; Sauvegarder l\'image',
 
-'btn_resize_and_save_image' => 'Redimensionner &amp; enregistrer l\'image',
+    'btn_rotate_and_save_image' => 'Pivoter &amp; Sauvegarder l\'image',
 
-'btn_rotate_and_save_image' => 'Basculer &amp; enregistrer l\'image',
+    'btn_upload_file' => 'Télécharger le fichier',
 
-'btn_upload_file' => 'Télécharger un fichier',
+    'btn_uploading' => 'Téléchargement en cours…',
 
-'btn_uploading' => 'Téléchargement...',
+    'check_upload_settings' => 'Vérifier les <a href="%s">réglages</a> pour ce répertoire de téléchargement.',
 
-'check_upload_settings' => 'Vérifiez les <a href="%s">paramètres</a> pour ce répertoire de téléchargement.',
+    'constraints' => 'Réductions',
 
-'constraints' => 'Contraintes',
+    'coordiantes_desc' => ' coordonnées axiales x (horizontales) et y (verticales) à partir desquelles commencer l\'action de rogner.',
 
-'coordiantes_desc' => 'Point de coordonnées X (horizontale) et Y (verticale) à partir duquel le rognage doit commencer.',
+    'coordinates' => 'Coordonnées',
 
-'coordinates' => 'Coordonnées',
+    'crop_constraints_desc' => 'Hauteur et largeur maximum pour la taille du rognement.',
 
-'crop_constraints_desc' => 'Rogner l\'image jusqu\'à une hauteur et largeur maximale de : ',
+    'crop_file' => 'Rogner, pivoter &amp; redimensionner "%s"',
 
-'crop_file_error_desc' => 'Nous n\'avons pas pu %s le fichier, merci de vérifier et corriger les erreurs ci-dessous.',
+    'crop_file_error' => 'Impossible de %s le fichier',
 
-'crop_file_error' => 'Impossible de %s le fichier',
+    'crop_file_error_desc' => 'Nous avons été dans l\'impossibilité de %s ce fichier, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'crop_file_success_desc' => 'Le fichier <b>%s</b> a été %s avec succès.',
+    'crop_file_success' => 'Succès de %s de fichier',
 
-'crop_file_success' => 'Fichier %s avec succès',
+    'crop_file_success_desc' => 'Le fichier <b>%s</b> a été %s avec succès.',
 
-'crop_file' => 'Rogner, Basculer &amp; Redimensionner "%s"',
+    'cropped' => 'rogné',
 
-'cropped' => 'rognée',
+    'dir_not_writable' => 'Répertoire non réinscriptible',
 
-'dir_not_writable_desc' => 'Impossible d\'écrire dans le répertoire <b>%s</b>.<br>Vérifier les permissions de ce répertoire sur le serveur.',
+    'dir_not_writable_desc' => 'Impossible d\'accéder au répertoire <b>%s</b>.<br>Vérifier vos permissions de fichier sur le serveur.',
 
-'dir_not_writable' => 'Répertoire non inscriptible',
+    'directory_not_found' => 'Impossible de trouver le répertoire <b>%s</b>.',
 
-'directory_not_found' => 'Impossible de trouver le répertoire <b>%s</b>.',
+    'edit_file_name' => 'Editer "%s"',
 
-'edit_file_name' => 'Modifier "%s"',
+    'error_cannot_add_file_to_zip' => 'Impossible d\'ajouter <b>%s</b> à l\'archive zip.',
 
-'error_cannot_add_file_to_zip' => 'Nous n\'avons pas pu ajouter le fichier <b>%s</b> à l\'archive .zip.',
+    'error_cannot_create_zip' => 'Impossible de créer un fichier zip',
 
-'error_cannot_create_zip' => 'Impossible de créer un fichier .zip',
+    'error_export' => 'Impossible d\'exporter',
 
-'error_export' => 'Impossible d\'exporter',
+    'export_all' => 'Exporter tous les fichiers',
 
-'export_all' => 'Exporter tous les fichiers',
+    'file_categories_desc' => 'Affecter une catégorie à ce fichier.',
 
-'file_categories_desc' => 'Catégoriser ce fichier.',
+    'file_desc' => 'Choisir un fichier à télécharger.',
 
-'file_desc' => 'Choisissez un fichier à télécharger.',
+    'file_not_found' => 'Impossible de trouver le fichier ',
 
-'file_not_found_desc' => 'Impossible de trouver le fichier <b>%s</b>.',
+    'file_not_found_desc' => 'Impossible de trouver le fichier <b>%s</b>.',
 
-'file_not_found' => 'Fichier non trouvé',
+    'file_not_writable' => 'Fichier non réinscriptible',
 
-'file_not_writable_desc' => 'Impossible d\'écrire sur le fichier <b>%s</b>.<br>Vérifier les permissions de ce fichier sur le serveur.',
+    'file_not_writable_desc' => 'Impossible d\'accéder en écriture au fichier <b>%s</b>.<br> Vérifier vos permissions de fichiers sur le serveur.',
 
-'file_not_writable' => 'Fichier non inscriptible',
+    'files_in_directory' => 'Fichiers inclus dans <b>%s</b>',
 
-'files_in_directory' => 'Fichiers dans <b>%s</b>',
+    'files_not_found' => 'Fichiers non trouvés',
 
-'files_not_found_desc' => 'Les fichiers en surbrillance sont introuvables sur le serveur.',
+    'files_not_found_desc' => 'Les fichiers soulignés n\'ont pas été trouvés sur le serveur.',
 
-'files_not_found' => 'Fichiers non trouvés',
+    'files_deleted_desc' => 'Les fichiers suivants ont été supprimés',
 
-'files_removed_desc' => 'Les fichiers suivants ont été supprimés :',
+    'flip_horizontally' => 'Inverser, horizontalement',
 
-'flip_horizontally' => 'Basculer horizontalement',
+    'flip_vertically' => 'Inverser, verticalement',
+    
+    'folder_deleted_desc' => 'Le dossier a été supprimé',
 
-'flip_vertically' => 'Basculer verticalement',
+    'height' => 'hauteur',
 
-'height' => 'hauteur',
+    'no_categories_assigned_file_desc' => 'Il y a des catégories affectées à ce fichier.<a href="%s" rel="external"> Affecter un groupe de catégories.</a>',
 
-'no_categories_assigned_file_desc' => 'Aucune catégorie n\'est affectée à ce fichier. <a href="%s" rel="external">Affecter un groupe de catégories.</a>',
+    'no_uploaded_files' => 'Aucun fichier n\'a été téléchargé dans ce répertoire.',
 
-'no_uploaded_files' => 'Aucun fichier n\'a été téléchargé dans ce répertoire.',
+    'resize_constraints_desc' => 'Hauteur et largeur maximum du redimensionnement d\'image.',
 
-'resize_constraints_desc' => 'Redimensionner l\'image jusqu\'à une hauteur et largeur maximale de : ',
+    'resized' => 'redimensionné',
 
-'resized' => 'redimensionnée',
+    'rotated' => 'pivoté',
 
-'rotated' => 'basculée',
+    'rotation' => 'Rotation',
 
-'rotation_desc' => 'L\'image sera basculée conformément au choix.',
+    'rotation_desc' => 'L\'image sera pivotée pour correspondre au choix opéré.',
 
-'rotation' => 'Rotation',
+    'size_b' => ' bits',
 
-'size_b'  => ' octets',
+    'size_gb' => '<abbr title="Gigabits">gb</abbr>',
 
-'size_gb' => '<abbr title="Gigaoctet">gb</abbr>',
+    'size_kb' => '<abbr title="Kilobits">kb</abbr>',
 
-'size_kb' => '<abbr title="Kiloctet">kb</abbr>',
+    'size_mb' => '<abbr title="Mégabits">mb</abbr>',
 
-'size_mb' => '<abbr title="Megaoctet">mb</abbr>',
+    'size_tb' => '<abbr title="Térabits">tb</abbr>',
 
-'size_tb' => '<abbr title="Teraoctet">tb</abbr>',
+    'success' => 'Succès',
 
-'success' => 'Succès',
+    'upload_directory_deleted' => 'Le répertoire de téléchargement est supprimé',
 
-'upload_directory_removed_desc' => 'Le répertoire de téléchargement <b>%s</b> a été supprimé.',
+    'upload_directory_deleted_desc' => 'Le répertoire de téléchargement <b>%s</b> a été supprimé.',
 
-'upload_directory_removed' => 'Répertoire de téléchargement supprimé',
+    'upload_filedata_error' => 'Impossible de télécharger le fichier',
 
-'upload_filedata_error' => 'Impossible de télécharger le fichier',
+    'upload_filedata_success' => 'Le fichier a bien été téléchargé avec succès',
 
-'upload_filedata_success_desc' => 'Le fichier <b>%s</b> a été téléchargé avec succès.',
+    'upload_filedata_success_desc' => 'Le fichier <b>%s</b> a été téléchargé avec succès.',
 
-'upload_filedata_success' => 'Fichier téléchargé avec succès',
+    'width' => 'largeur',
 
-'width' => 'largeur',
+    'x_axis' => 'axe-x',
 
-'x_axis' => 'axe X',
+    'y_axis' => 'axe-y',
 
-'y_axis' => 'axe Y',
+    'zero_upload_directories_found' => 'Aucun <b>répertoire de téléchargement</b> n\'a été trouvé.',
+    
+    'remove_files_from_disk' => 'Supprimer les fichiers du disque?',
 
-'zero_upload_directories_found' => 'Aucun <b>répertoire de téléchargement</b> trouvé.',
+    'toggle_on_to_remove_files' => 'Basculez l\'interrupteur sur \'allumé\' pour supprimer physiquement les fichiers',
 
-/**
- * Uploads
- */
+    /* Uploads */
+    'add_manipulation' => 'Ajouter une nouvelle manipulation',
 
-'add_manipulation' => 'Ajouter une nouvelle transformation',
+    'all_upload_dirs' => 'Tous les répertoires de téléchargement',
 
-'all_upload_dirs' => 'Tous les répertoires de téléchargement',
+    'apply_manipulations' => 'Appliquer les manipulations',
 
-'apply_manipulations_desc' => 'Appliquer les transformations d\'image choisies aux fichiers de ce répertoire lors des opérations de synchro. Attention, cela augmente le temps de synchro.',
+    'apply_manipulations_desc' => 'Applique des manipulations d\'image qui ont été affectées aux fichiers de ce répertoire durant l\'opération de synchronisation. Ceci accroît le temps effectif de synchronisation.',
 
-'apply_manipulations' => 'Appliquer les transformations',
+    'bottom' => 'Bas',
 
-'bottom' => 'Bas',
+    'btn_create_directory' => 'Créer le répertoire',
 
-'btn_create_directory_working' => 'Création en cours...',
+    'btn_create_directory_working' => 'Création en cours…',
 
-'btn_create_directory' => 'Créer un répertoire',
+    'btn_edit_directory' => 'Editer le répertoire',
 
-'btn_edit_directory' => 'Modifier un répertoire',
+    'btn_sync_directory' => 'Synchroniser le répertoire',
 
-'btn_sync_directory_working' => 'Synchronisation...',
+    'btn_sync_directory_working' => 'Synchronisation en cours…',
 
-'btn_sync_directory' => 'Synchro de répertoire',
+    'by' => 'par',
 
-'by' => 'par',
+    'center' => 'Centre',
 
-'center' => 'Centre',
+    'constrain_or_crop' => 'Réduire ou rogner',
 
-'constrain_or_crop_desc' => 'Transformations des images de ce répertoire, réalisées lors du téléchargement.',
+    'constrain_or_crop_desc' => 'Modifications d\'images dans ce répertoire de <code>téléchargement</code>, effectuées selon le téléchargement.',
 
-'constrain_or_crop' => 'Restreindre ou rogner',
+    'create_upload_directory' => 'Créer un répertoire de téléchargement',
 
-'create_upload_directory' => 'Créer un répertoire de téléchargement',
+    'new_directory' => 'Nouveau répertoire',
 
-'create_watermark' => 'Créer un filigrane',
+    'create_watermark' => 'Créer un filigrane',
 
-'default_modal_view_desc' => 'Présentation par défaut de l\'affichage de ce répertoire de téléchargement dans la fenêtre de sélection des fichiers.',
+    'default_modal_view' => 'Affichage modal par défaut??',
 
-'default_modal_view_list' => 'Liste',
+    'default_modal_view_desc' => 'Etablit comment les fichiers devraient être affichés par défaut dans ce répertoire de téléchargement.',
 
-'default_modal_view_thumbnails' => 'Miniatures',
+    'default_modal_view_list' => 'Liste',
 
-'default_modal_view' => 'Présentation par défaut ?',
+    'default_modal_view_thumbnails' => 'Miniatures',
 
-'directory_not_saved_desc' => 'Nous n\'avons pas pu enregistrer votre répertoire de téléchargement, merci de vérifier et corriger les erreurs ci-dessous.',
+    'directory_not_saved' => 'Attention: le répertoire de téléchargement n\'a pas été sauvegardé',
 
-'directory_not_saved' => 'Attention : répertoire de téléchargement non enregistré',
+    'directory_not_saved_desc' => 'Impossible de sauvegarder ce répertoire de téléchargement, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'directory_saved_desc' => 'Votre répertoire de téléchargement a été enregistré avec succès.',
+    'directory_saved' => 'Répertoire de téléchargement sauvegardé',
 
-'directory_saved' => 'Répertoire de téléchargement enregistré',
+    'directory_saved_desc' => 'Votre répertoire de téléchargement a été sauvegardé avec succès.',
 
-'directory_sync_warning' => 'Certains fichiers n\'ont pas pu être synchronisés',
+    'directory_sync_warning' => 'Certains fichiers n\'ont pas pu être synchronisés',
 
-'directory_synced_desc' => 'Les fichiers contenus dans le répertoire de téléchargement ont été synchronisés avec succès.',
+    'directory_synced' => 'Répertoire de téléchargement synchronisé',
 
-'directory_synced' => 'Répertoire de téléchargement synchonisé',
+    'directory_synced_desc' => 'Les contenus du répertoire de téléchargement ont été synchronisés avec succès.',
 
-'duplicate_dir_name' => 'Le nom de votre répertoire existe déjà.',
+    'duplicate_dir_name' => 'Le nom de votre répertoire a déjà été emprunté.',
 
-'duplicate_image_size_name' => 'Vous devez renseigner un nom unique pour cette transformation d\'image.',
+    'duplicate_image_size_name' => 'Vous devez rentrer un nom unique pour cette manipulation d\'image.',
 
-'edit_upload_directory' => 'Modifier un répertoire de téléchargement',
+    'edit_upload_directory' => 'Editer le répertoire de téléchargement',
 
-'edit_watermark' => 'Modifier un filigrane',
+    'edit_watermark' => 'Editer le filigrane',
 
-'file_limits' => 'Limites pour les fichiers',
+    'file_limits' => 'Limites de fichier',
 
-'file_sync_desc_images' => '<b>%d</b> fichiers <mark>image</mark>',
+    'file_sync' => 'Synchroniser le fichier',
 
-'file_sync_desc' => '<b>%d</b> fichiers',
+    'file_sync_desc' => 'Fichiers <b>%d</b>',
 
-'file_sync' => 'Synchro de fichier',
+    'file_sync_desc_images' => '<b>%d</b> fichiers d\'<code>image</code>',
+    
+    'filesystem_adapter' => 'Adaptateur',
 
-'horizontal' => "Décalage Horizontal",
+	'local' => 'Local',
+	
+    'horizontal' => 'horizontal',
 
-'image_manip_dimension_required' => 'Une hauteur ou largeur doit être renseignée si aucun filigrane n\'est sélectionné.',
+    'image' => 'Image',
 
-'image_manip_height_desc' => 'Hauteur finale de l\'image',
+    'image_manip_dimension_required' => 'Une hauteur et une largeur doivent être entrées si un filigrane est sélectionné.',
 
-'image_manip_height' => 'Hauteur (en pixels)',
+    'image_manip_height' => 'Hauteur',
 
-'image_manip_name_desc' => 'Nom court de cette transformation',
+    'image_manip_height_desc' => 'Hauteur finale d\'image',
 
-'image_manip_name' => 'Nom court',
+    'image_manip_name' => 'Nom court',
 
-'image_manip_type_desc' => 'Type de transformation',
+    'image_manip_name_desc' => 'Nom court de cette manipulation',
 
-'image_manip_type_opt_constrain' => 'Restreindre (image originelle redimensionnée)',
+    'image_manip_type' => 'Type',
 
-'image_manip_type_opt_crop' => 'Rogner (partie de l\'image)',
+    'image_manip_type_desc' => 'Type de manipulation',
 
-'image_manip_type' => 'Type',
+    'image_manip_type_opt_constrain' => 'Réduire (image entièrement redimensionnée)',
 
-'image_manip_watermark_desc' => 'Ajouter un filigrane',
+    'image_manip_type_opt_crop' => 'Rogner (partie de l\'image)',
 
-'image_manip_watermark' => 'Filigrane',
+    'image_manip_watermark' => 'Filigrane',
 
-'image_manip_width_desc' => 'Largeur finale de l\'image',
+    'image_manip_watermark_desc' => 'Ajouter un filigrane',
 
-'image_manip_width' => 'Largeur (en pixels)',
+    'image_manip_width' => 'Largeur',
 
-'image_options' => 'Options d\'image',
+    'image_manip_width_desc' => 'Largeur finale de l\'image',
 
-'image' => 'Image',
+    'image_options' => 'Options d\'image',
 
-'left' => 'Gauche',
+    'left' => 'Gauche',
 
-'middle' => 'Milieu',
+    'middle' => 'Milieu',
 
-'new_upload_directory' => 'Nouveau répertoire de téléchargement',
+    'new_upload_directory' => 'Nouveau répertoire de téléchargement',
 
-'no_manipulations' => 'Aucune transformation créée',
+    'no_manipulations' => 'Aucune manipulation n\'a été créée',
 
-'no_upload_directories' => 'Aucun répertoire de téléchargement',
+    'no_upload_directories' => 'Absence de répertoire de téléchargement',
 
-'no_watermark' => 'Aucun filigrane',
+    'no_watermark' => 'Pas de filigrane',
 
-'right' => 'Droit',
+    'right' => 'Droite',
 
-'sync_alt_title' => 'Synchro de %s',
+    'sync_alt_title' => 'Synchroniser %s',
 
-'sync_title' => 'Synchro de répertoire',
+    'sync_title' => 'Synchronisation de répertoire',
 
-'text_options' => 'Options de Texte',
+    'text' => 'Texte',
 
-'text' => 'Texte',
+    'text_options' => 'Options de texte',
 
-'top' => 'Haut',
+    'top' => 'Haut',
 
-'upload_allowed_types_opt_all' => 'Tous les types de fichiers',
+    'upload_allowed_types' => 'Autoriser les types de fichiers?',
 
-'upload_allowed_types_opt_images' => 'Uniquement des images',
+    'type_all' => 'Tous types de fichiers',
 
-'upload_allowed_types' => 'Types de fichiers autorisés ?',
+    'type_img' => 'Image',
 
-'upload_btn_edit' => 'modifier',
+    'type_doc' => 'Document',
 
-'upload_btn_sync' => 'synchro',
+    'type_video' => 'Vidéo',
 
-'upload_btn_view' => 'voir',
+    'type_audio' => 'Audio',
 
-'upload_category_groups_desc' => 'Autoriser les fichiers à être affectés à des catégories appartenant aux groupes suivants.',
+    'type_archive' => 'Archive',
 
-'upload_category_groups' => 'Groupes de catégories',
+    'type_other' => 'Autre',
 
-'upload_file_size_desc' => 'Taille maximale de fichier, en kiloctets.',
+    'type_directory' => 'Dossier',
 
-'upload_file_size' => 'Taille de fichier',
+    'upload_btn_edit' => 'éditer',
 
-'upload_id' => 'ID#',
+    'upload_btn_sync' => 'sync',
 
-'upload_image_height_desc' => 'Hauteur maximale de l\'image, en pixels.',
+    'upload_btn_view' => 'visualiser',
 
-'upload_image_height' => 'Hauteur de l\'image',
+    'upload_category_groups' => 'Groupes de catégories',
 
-'upload_image_manipulations' => 'Transformations sur les images',
+    'upload_category_groups_desc' => 'Autoriser les fichiers à être rattachés aux catégories des groupes suivants.',
 
-'upload_image_width_desc' => 'Largeur maximale de l\'image, en pixels.',
+    'upload_file_size' => 'Taille de fichier',
 
-'upload_image_width' => 'Largeur de l\'image',
+    'upload_file_size_desc' => 'Taille maximale de fichier en kilobits.',
 
-'upload_manage' => 'Gérer',
+    'upload_id' => 'ID#',
 
-'upload_member_groups_desc' => 'Les groupes de membres suivants sont autorisés à télécharger dans ce répertoire.</em><em>Les Super Administrateurs y sont <b>toujours</b> autorisés.',
+    'upload_image_height' => 'Hauteur d\'image',
 
-'upload_member_groups' => 'Groupes de membres autorisés',
+    'upload_image_height_desc' => 'Hauteur maximale d\'image en pixels.',
 
-'upload_path_desc' => 'Chemin serveur complet de l\'emplacement de ce répertoire de <mark>téléchargement</mark>.',
+    'upload_image_manipulations' => 'Manipulations d\'image',
 
-'upload_path' => 'Chemin de téléchargement',
+    'upload_image_width' => 'Largeur d\'image',
 
-'upload_privileges' => 'Privilèges de téléchargement',
+    'upload_image_width_desc' => 'Largeur maximale d\'image en pixels.',
 
-'upload_remove_modal_directories' => 'répertoires',
+    'upload_manage' => 'Gérer',
 
-'upload_remove_modal_upload_directory' => 'Répertoire de téléchargement',
+    'upload_member_groups' => 'Groupes de membres autorisés',
 
-'upload_url_desc' => 'Emplacement <abbr title="Uniform Resource Location">URL</abbr> de ce répertoire de <mark>téléchargement</mark>.',
+    'upload_member_groups_desc' => 'Les groupes d\'utilisateurs suivants sont autorisés à effectuer des téléchargements dans ce répertoire.</em><br /><em>Les Super administrateurs sont <b>toujours</b> autorisés.',
 
-'upload_url' => 'Répertoire de téléchargement',
+    'upload_roles' => 'Rôles de membres autorisés',
 
-'vertical' => "Décalage Vertical",
+    'upload_roles_desc' => 'Les rôles de membres suivants sont autorisés à télécharger dans ce répertoire.<br />Les Super Administrateurs sont <b>toujours</b> autorisés.',
 
-'watermark_alignment_desc' => 'Emplacement du filigrane sur l\'image.',
+    'upload_path' => 'Chemin du téléchargement',
 
-'watermark_alignment' => 'Alignement',
+    'upload_path_desc' => 'Chemin absolu menant à votre répertoire. Nous recommandons d\'utiliser <code>{base_path}your_upload_directory</code>.',
 
-'watermark_created_desc' => 'Le filigrane <b>%s</b> a été créé.',
+    'upload_privileges' => 'Télécharger les privilèges',
 
-'watermark_created' => 'Filigrane créé',
+    'upload_remove_modal_directories' => 'répertoires',
 
-'watermark_image_opacity_desc' => "Valeur d\'opacité pour le filigrane de cette image.",
+    'upload_remove_modal_upload_directory' => 'Télécharger le répertoire',
 
-'watermark_image_opacity' => 'Opacité',
+    'upload_url' => 'Télécharger le répertoire',
 
-'watermark_image_path_desc' => "Chemin serveur vers l'image filigrane.",
+    'upload_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr> de localisation de ce répertoire. Nous recommandons d\'utiliser <code>{base_url}your_upload_directory</code>',
 
-'watermark_image_path' => 'Chemin',
+    'vertical' => 'vertical',
 
-'watermark_image_transparency_map_desc' => 'Coordonnées pour la transparence alpha des images qui doivent recevoir un filigrane.',
+    'watermark' => 'Filigrane',
 
-'watermark_image_transparency_map' => 'Carte de transparence d\'image',
+    'watermark_alignment' => 'Alignement',
 
-'watermark_not_created_desc' => 'Nous n\'avons pas pu créer ce filigrane, merci de vérifier et corriger les erreurs ci-dessous.',
+    'watermark_alignment_desc' => 'Détermine où le filigrane apparaîtra dans l\'image.',
 
-'watermark_not_created' => 'Impossible de créer le filigrane',
+    'watermark_created' => 'Filigrane créé',
 
-'watermark_not_updated_desc' => 'Nous n\'avons pas pu mettre à jour ce filigrane, merci de vérifier et corriger les erreurs ci-dessous.',
+    'watermark_created_desc' => 'Le filigrane <b>%s</b> a été créé.',
 
-'watermark_not_updated' => 'Impossible de mettre à jour le filigrane',
+    'watermark_image_opacity' => 'Opacité',
 
-'watermark_offset_desc' => 'Distance à partir du bord de l\'image, en pixels.',
+    'watermark_image_opacity_desc' => 'Valeur pour l\'opacité du filigrane de cette image.',
 
-'watermark_offset' => "Décalage du filigrane",
+    'watermark_image_path' => 'Chemin',
 
-'watermark_padding_desc' => 'Ajouter un remplissage (padding) autour de ce filigrane.',
+    'watermark_image_path_desc' => 'Localisation du chemin complet de votre image de filigrane.',
 
-'watermark_padding' => "Remplissage (padding)",
+    'watermark_image_transparency_map' => 'Carte de transparence d\'image',
 
-'watermark_text_color' => 'Couleur du texte',
+    'watermark_image_transparency_map_desc' => 'Coordonnées pour la transparence alpha des images qui accueillent des filigranes.',
 
-'watermark_text_desc' => 'Contenu de ce filigrane',
+    'watermark_not_created' => 'Impossible de créer un filigrane',
 
-'watermark_text_dropshadow_color' => "Couleur de l'ombre portée (code hex)",
+    'watermark_not_created_desc' => 'Impossible de créer ce filigrane, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'watermark_text_dropshadow_desc' => 'Si activé, une ombre portée sera rendue.',
+    'watermark_not_updated' => 'Impossible de mettre à jour le filigrane',
 
-'watermark_text_dropshadow_distance' => "Distance de l'ombre portée (en px)",
+    'watermark_not_updated_desc' => 'Impossible de mettre à jour ce filigrane, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'watermark_text_dropshadow' => "Activer les ombres portées (drop-shadow) ?",
+    'watermark_offset' => 'Offset',
 
-'watermark_text_font' => 'Police',
+    'watermark_offset_desc' => 'Distance en pixels du bord de l\'image.',
 
-'watermark_text_size' => 'Taille du texte',
+    'watermark_padding' => 'Marge intérieure (padding)',
 
-'watermark_text' => 'Texte',
+    'watermark_padding_desc' => 'Ajouter une marge intérieure (padding) au sein du filigrane.',
 
-'watermark_updated_desc' => 'Le filigrane <b>%s</b> a bien été mis à jour.',
+    'watermark_text' => 'Texte',
 
-'watermark_updated' => 'Filigrane mis à jour',
+    'watermark_text_color' => 'Couleur de texte',
 
-'watermark' => 'Filigrane',
+    'watermark_text_desc' => 'Contenu de ce filigrane',
 
-'watermarks_removed_desc' => '%d filigranes ont été supprimés.',
+    'watermark_text_dropshadow' => 'Activer une ombre portée?',
 
-'watermarks_removed' => 'Filigranes supprimés',
+    'watermark_text_dropshadow_color' => 'Couleur de l\'ombre portée',
 
-'watermarks_true_type_desc' => 'Si activé, les filigranes en texte seront rendus avec TrueType.',
+    'watermark_text_dropshadow_desc' => 'Si activé, une ombre portée sera rendue.',
 
-'watermarks_true_type' => 'Activer TrueType?',
+    'watermark_text_dropshadow_distance' => 'Distance de l\'ombre portée',
 
-'watermarks' => 'Filigranes',
+    'watermark_text_font' => 'Police',
 
-// Upload modal
-'all_categories'			=> 'toutes les catégories',
+    'watermark_text_size' => 'Taille du texte',
 
-'all_filetypes' 			=> 'Tous les types de fichier',
+    'watermark_updated' => 'Filigrane mis à jour',
 
-'allowed_types' => 'Types de fichier autorisés',
+    'watermark_updated_desc' => 'Le filigrane <b>%s</b> a été mis à jour.',
 
-'apply_changes'			=> 'Appliquer les modifications ?',
+    'watermarks' => 'Filigranes',
 
-'apply_changes'			=> 'Appliquer les modifications',
+    'watermarks_deleted' => 'Filigrane supprimé',
 
-'auto_batch'				=> 'Téléchargement en lot, automatique',
+    'watermarks_deleted_desc' => '%d filigranes ont été supprimés.',
 
-'batch_location'		=> 'Répertoire pour téléchargements en lot',
+    'watermarks_true_type' => 'Activer True Type?',
 
-'batch_upload' 				=> 'Téléchargement en lot',
+    'watermarks_true_type_desc' => 'Si activé, les textes de filigranes seront rendus avec True Type.',
 
-'browse_files'			=> 'Parcourir les fichiers',
+    /* 2.x */
+    'choose_file' => 'Merci de choisir un fichier à supprimer',
 
-'can_upload_files' 			=> 'Peut télécharger des fichiers',
+    'confirm_del_file' => 'Etes-vous sûr(e) de vouloir supprimer ce fichier de façon définitive?',
 
-'cancel_changes'		=> 'Annuler les modifications',
+    'confirm_del_files' => 'Etes-vous sûr(e) de vouloir supprimer ces fichiers de façon définitive?',
 
-'cancel_crop'			=> 'Annuler le rognage',
+    'content_files' => 'Gestionnaire de fichiers',
 
-'category_group'			=> 'Groupes de catégories',
+    'create_new_upload_pref' => 'Créer un nouvelle destination de téléchargement',
 
-'category_groups_text'		=> 'Affecter un ou plusieurs groupes de catégories au répertoire de téléchargement',
+    'delete_fail' => 'Il y a eu un problème lors de la suppression d\'un ou plusieurs fichiers. Merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'category_groups'			=> 'Groupes de catégories de fichier',
+    'delete_selected_files' => 'Supprimer les fichiers sélectionnés',
 
-'constrain'				=> 'Restreindre',
+    'delete_success' => 'Suppression réussie',
 
-'crop_height'			=> 'Hauteur',
+    'download_selected' => 'Télécharger les fichiers sélectionnés',
 
-'crop_mode'				=> 'Mode Rognage',
+    'edit_file' => 'Editer le fichier',
 
-'crop_width'			=> 'Largeur',
+    'email_files' => 'Envoyer par email les fichiers sélectionnés',
 
-'crop_x'				=> 'X',
+    'file_download' => 'Télécharger',
 
-'crop_y'				=> 'Y',
+    'file_information' => 'Information de fichier',
 
-'crop'					=> 'Rogner',
+    'file_metadata' => 'Métadonnées de fichier ',
 
-'current_upload_prefs' => 'Préférences actuelles',
+    'file_name' => 'Nom de fichier',
 
-'custom_fields'				=> 'Champs personnalisés',
+    'file_size' => 'Taille de fichier',
 
-'delete_upload_pref_confirmation' => 'Êtes-vous sûr de vouloir définitivement supprimer ces préférences ?',
+    'file_size_unit' => 'KB',
 
-'delete_upload_preference' => 'Supprimer les préférences de téléchargement',
+    'file_tools' => 'Outils de fichier',
 
-'dir_name'					=> 'Nom du répertoire de téléchargement',
+    'file_upload' => 'Téléchargement de fichier',
 
-'directory_manager'			=> 'Gestion des répertoires de téléchargement',
+    'file_upload_prefs' => 'Préférences de téléchargement de fichier',
 
-'directory'					=> 'Répertoire',
+    'image_editor' => 'Editeur d\'image',
 
-'disallow_image' => 'Interdire Image',
+    'kind' => 'Sorte',
 
-'done'					=> 'Sortir',
+    'image_manip_quality' => 'Qualité',
 
-'edit_file_upload_preferences' => "Modifier les préférences du téléchargement de fichiers",
+    'image_manip_quality_desc' => 'Qualité finale de l\'image',
 
-'edit_image'			=> 'Modifier l\'image',
+    'no_upload_dirs' => 'Vous n\'avez défini aucun répertoire de téléchargement',
 
-'edit_modes'			=> 'Modes d\'édition',
+    'permissions' => 'Permissions',
 
-'error_count'				=> 'Nombre d\'erreur',
+    'rename_file' => 'Renommer le fichier',
 
-'errors'					=> 'Erreurs rencontrées',
+    'save_file' => 'Sauvegarder le fichier',
 
-'exit_apply_changes'	=> 'Vous êtes sur le point de quitter le mode édition. Souhaitez-vous d\'abord appliquer les modifications ?',
+    'size' => 'Taille',
 
-'file_count'				=> 'Nombre de fichiers',
+    'upload' => 'Télécharger',
 
-'file_directory_id' => '#',
+    'upload_dir_choose' => 'Choisir un répertoire de téléchargement',
 
-'file_exists_replacement_error' => 'Un fichier avec ce nom existe déjà.',
+    'upload_edit' => 'Redimensionner &amp; Pivoter',
 
-'file_post_format' 			=> 'Post-formatage du fichier',
+    'upload_file' => 'Télécharger le fichier',
 
-'file_pre_format'			=> 'Pré-formatage du fichier',
+    'upload_rename' => 'Le fichier existe déjà',
 
-'file_properties' 			=> 'Propriétés du fichier',
+    'upload_rename_message' => 'Un fichier utilisant ce nom existe déjà. Vous pouvez soit choisir un nouveau nom et le fichier sera renommé, sinon choisir le même nom et le fichier existant sera écrasé.',
 
-'file_title'				=> 'Titre de fichier',
+    'upload_success' => 'Téléchargement réussi',
 
-'file_types'				=> 'Types de fichiers',
+    'where' => 'Où',
 
-'file_upload_preferences' => "Préférences du téléchargement de fichiers",
+    /* Upload modal */
+    'all_categories' => 'Toutes les catégories',
 
-'files_count_lang'			=> 'Affichage de %s fichier(s) sur un total de %s.',
+    'all_filetypes' => 'Tous types de fichiers',
 
-'files_processed'			=> 'Nombre de fichiers traité',
+    'allowed_types' => 'Types de fichiers autorisés',
 
-'filter_by_directory'		=> 'Filtrer par répertoire',
+    'apply_changes' => 'Appliquer les changements',
 
-'image_edit_success'	=> 'Image modifiée avec succès',
+    'auto_batch' => 'Téléchargement automatique par paquets (mode batch)',
 
-'image_sizes_rebuild' => 'Toutes les manipulations d\'image seront automatiquement créées pour les nouvelles images. Cependant, si vous souhaitez recréer les manipulations d\'image pour des images existantes, décochez les manipulations que vous voulez recréer.',
+    'batch_location' => 'Localisation du téléchargement par paquets (mode batch)',
 
-'image_sizes_subtext' => 'Les images additionnelles qui seront automatiquement créées pour chaque téléchargement d\'image.',
+    'batch_upload' => 'Téléchargement par paquets (batch)',
 
-'image_sizes' => 'Manipulations d\'image',
+    'browse_files' => 'Parcourir les fichiers',
+    
+    'browser_behavior' => 'Comportement du navigateur',
 
-'image_tools'			=> 'Outils Image',
+    'can_upload_files' => 'Peut télécharger les fichiers',
 
-'images_only' 				=> 'Images uniquement',
+    'cancel_changes' => 'Annuler les modifications',
 
-'list'						=> 'une liste',
+    'cancel_crop' => 'Annuler ROGNER',
 
-'maintain_ratio'		=> 'Conserver les proportions',
+    'category_group' => 'Groupe de catégories',
 
-'manual_batch'				=> 'Téléchargement en lot, manuel',
+    'category_groups' => 'Groupes de catégories',
 
-'max_height' => 'Hauteur maximale d\'image, en pixels',
+    'category_groups_text' => 'Affecter un ou plusieurs groupes de catégories à ce fichier avant de le téléverser',
 
-'max_image_action' => 'Action à mener si la taille d\'image est dépassée',
+    'constrain' => 'Réduire',
 
-'max_size' => 'Taille maximale de fichier (en octets)',
+    'crop' => 'Rogner',
 
-'max_width' => 'Largeur maximale d\'image, en pixels',
+    'crop_height' => 'Hauteur',
 
-'member_group' 				=> 'Groupe de membres',
+    'crop_mode' => 'Mode ROGNER',
 
-'new_file_upload_created' => "Nouveau répertoire de téléchargement créé",
+    'crop_width' => 'Largeur',
 
-'new_file_upload_preferences' => "Nouvelle préférence du téléchargement de fichiers",
+    'crop_x' => 'X',
 
-'no_assigned_category_groups' => 'Aucun groupe de catégories n\'a été prévu pour le gestionnaire de fichiers.<br /><a href="%s" title="Affecter des groupes de catégories">Affecter des groupes de catégories</a>',
+    'crop_y' => 'Y',
 
-'no_change'				=> 'Aucune modification',
+    'current_upload_prefs' => 'Préférences actuelles',
 
-'no_edit_selected'		=> 'Aucune opération d\'édition sélectionnée',
+    'custom_fields' => 'Personnaliser les champs',
 
-'no_errors'					=> 'Aucune erreur',
+    'delete_upload_pref_confirmation' => 'Etes-vous sûr(e) de vouloir supprimer définitivement cette préférence?',
 
-'no_results'				=> 'Aucun groupe de membres disponible.',
+    'delete_upload_preference' => 'Supprimer la préférence de téléversement',
 
-'no_sync_title'				=> 'Aucun résultat', // @todo, this phrase should change, just not sure what to put  -ga
-'no_upload_directories' => 'Aucun répertoire de téléchargement n\'est disponible pour le moment. Merci d\'<a href="%s" rel="external" target="_blank">ajouter un ou plusieurs répertoire de téléchargement</a> avant d\'utiliser le type de champ fichier.',
+    'dir_name' => 'Téléverser le nom du répertoire',
 
-'no_upload_dirs_available'	=> 'Aucun répertoire de téléchargement disponible',
+    'directory' => 'Répertoire',
 
-'no_upload_prefs' => "Il n'y a encore aucune préférence pour le téléchargement de fichiers",
+    'directory_manager' => 'Gestionnaire de téléversement de répertoire',
 
-'pagination_count_text'     => 'Affichage de %s à %s parmi %s fichiers.',
+    'disallow_image' => 'Rejeter l\'image',
 
-'pagination_filter_text'    => 'Afficher les fichiers comme %s',
+    'done' => 'Quitter',
 
-'pagination_page'			=> 'Page',
+    'edit_file_upload_preferences' => 'Editer les préférences de téléversement d\'images',
 
-'php_max_filesize'=>'La taille maximale de téléchargement autorisée par PHP est %s',
+    'edit_image' => 'Editer l\'mage',
 
-'please_add_upload' => "Il n'y a actuellement aucun répertoire de téléchargement disponible. Merci d'en ajouter un (ou plus) afin de pouvoir utiliser le type de champ Fichier.",
+    'edit_modes' => 'Editer les modes',
 
-'please_select'				=> 'Merci de sélectionner...',
+    'error_count' => 'Nombre d\'erreurs',
 
-'post_format' => 'Post-formatage de l\'image',
+    'errors' => 'Erreurs rencontrées',
 
-'pre_format' => 'Pré-formatage de l\'image',
+    'exit_apply_changes' => 'Vous êtes sur le point de quitter le mode édition. Souhaitez-vous appliquer d\'abord les modifications de manière définitive ?',
+    
+    'field_options' => 'Options de champ',
 
-'preferences_updated' 		=>  'Préférences mises à jour',
+    'file_count' => 'Nombre de fichiers',
 
-'processing_image'		=> 'Traitement de l\'image',
+    'file_directory_id' => 'ID',
 
-'properties' => 'Propriétés de l\'image',
+    'file_exists_replacement_error' => 'Un fichier avec ce nom existe déjà.',
 
-'resize_height'			=> 'Hauteur',
+    'file_post_format' => 'Fichier post-formatage',
 
-'resize_mode'			=> 'Mode Redimensionnement',
+    'file_pre_format' => 'Fichier préformatage',
 
-'resize_over_confirmation' => 'Redimensionner cette image dans une taille plus grande que celle de la source donnera une image de moindre qualité. Êtes-vous sûr de vouloir faire cela ?',
+    'file_properties' => 'Propriétés de fichier',
 
-'resize_type'			=> 'Type de redimensionnement',
+    'file_title' => 'Titre de fichier',
 
-'resize_width'			=> 'Largeur',
+    'file_types' => 'Types de fichiers',
 
-'resize'				=> 'Redimensionner',
+    'file_upload_preferences' => 'Préférences de téléversement de fichiers',
 
-'restrict_notes_1' => 'Ces boutons radio vous permettent de définir les groupes de membres autorisés à télécharger des fichiers.',
+    'files_count_lang' => 'Actuellement affichage de %s des %s fichiers au total.',
 
-'restrict_notes_2' => 'Les Super Administrateurs peuvent toujours télécharger des fichiers',
+    'files_processed' => 'Nombre de fichiers traités',
 
-'restrict_notes_3' => 'Note : le téléchargement de fichiers n\'est actuellement autorisé que via le panneau de contrôle',
+    'filter_by_directory' => 'Filtrer par répertoire',
 
-'restrict_to_group' => 'Restreindre le téléchargement de fichier aux groupes de membres sélectionnés',
+    'image_edit_success' => 'Image éditée avec succès',
 
-'rotate_180'			=> "180°",
+    'image_sizes' => 'Manipulations d\'image',
 
-'rotate_90l'			=> "90° à gauche",
+    'image_sizes_rebuild' => 'Toutes les manipulations d\'images seront automatiquement créées pour les nouvelles images. Cependant, si vous souhaitez recréer des manipulations d\'images pour des images déjà existantes, veuillez cocher les manipulations que vous souhaitez à nouveau créer.',
 
-'rotate_90r'			=> "90° à droite",
+    'image_sizes_subtext' => 'Images additionnelles qui seront automatiquement créées pour chaque téléversement d\'image.',
 
-'rotate_flip_hor'		=> 'Basculer horizontalement',
+    'image_tools' => 'Outils d\'images',
 
-'rotate_flip_vert'		=> 'Basculer verticalement',
+    'images_only' => 'Images exclusivement',
 
-'rotate_mode'			=> 'Mode Rotation',
+    'list' => 'une liste',
 
-'rotate'				=> 'Rotation',
+    'maintain_ratio' => 'Maintenir ratio d\'aspect',
 
-'save_crop' 			=> 'Enregistrer le rognage',
+    'manual_batch' => 'Téléchargement manuel par paquets (mode batch)',
 
-'save_image'			=> 'Enregistrer l\'image',
+    'max_height' => 'Hauteur maximum d\'image (en pixels)',
 
-'search_files'				=> 'Rechercher des fichiers',
+    'max_image_action' => 'Action à engager en cas de dépassement de la taille de l\'image',
 
-'search_in'					=> 'Chercher dans',
+    'max_size' => 'Taille maximum du fichier (en bits)',
 
-'server_path' => 'Chemin serveur vers le répertoire de téléchargement',
+    'max_width' => 'Largeur maximum de fichier (en pixels)',
 
-'short_name'				=> 'Nom court',
+    'member_group' => 'Groupe de membres',
 
-'sync_complete'				=> 'La synchonisation des fichiers est terminé.',
+    'new_file_upload_created' => 'Un nouveau téléchargement de fichier a été créé',
 
-'sync_progress'				=> 'Progression',
+    'new_file_upload_preferences' => 'Préférences de nouveau téléchargement de fichier',
 
-'synchronize_directory'		=> 'Synchroniser le répertoire',
+    'no_assigned_category_groups' => 'Aucun groupe de catégories n\'a été précisé en vue d\'être utilisé par le gestionnaire de fichiers <br /><a href="%s" title="Affecter les groupes de catégories">Affecter des groupes de catégories</a>',
 
-'thumbnails'				=> 'miniatures',
+    'no_change' => 'Pas de changement',
 
-'total_dir_size'            => 'Taille totale du répertoire :',
+    'no_edit_selected' => 'Aucune opération d\'édition n\'a été sélectionnée',
 
-'upload_dir_dropdown'		=> '%s (%s fichiers)',
+    'no_errors' => 'Aucune erreur',
 
-'upload_pref_deleted' => 'Préférences de téléchargement supprimées :',
+    'no_results' => 'Pas de groupe de membres disponible.',
 
-'upload_pref_name' => 'Nom du répertoire de téléchargement',
+    'no_sync_title' => 'Aucun résultat', // @todo, this phrase should change, just not sure what to put -ga
+    'no_upload_directories_for_fieldtype' => 'il n\'y a actuellement aucun répertoire de téléchargement disponible. Merci <a href="%s" rel="external">de rajouter un ou plusieurs répertoires de téléchargement</a> pour utiliser le type de champ de fichier.',
 
-'uploading_file'		=> 'Fichier en cours de téléchargement',
+    'no_upload_dirs_available' => 'Aucune localisation de téléchargement disponible',
 
-'url_to_upload_dir' => 'URL du répertoire de téléchargement',
+    'no_upload_prefs' => 'Il n\'y a actuellement pas de préférences de téléchargement de fichier.',
 
-'use_file'				=> 'Utiliser le fichier envoyé',
+    'pagination_count_text' => 'Affichage de %s à %s des %s fichiers.',
 
-'width_needed'			=> 'Une largeur, une largeur/hauteur, ou une direction de rotation doit être sélectionnée.',
+    'pagination_filter_text' => 'Afficher les fichiers de %s',
 
-// Batch Page:
-'thumbnail'					=> 'Miniature',
+    'pagination_page' => 'Page',
 
-'caption'					=> 'Légende',
+    'php_max_filesize' => 'La taille maximum de fichier de téléchargement autorisée par le PHP est de %s',
 
-'include'					=> 'Inclure ?',
+    'please_add_upload' => ' Il n\'y a actuellement aucun répertoire de téléchargement disponible. Merci d\'ajouter un ou plusieurs répertoires de téléchargement pour utiliser le type de champ de fichier.',
 
-////Watermark
-'add_watermark' => 'Aucun',
+    'please_select' => 'Merci de sélectionner &hellip',
 
-'create_new_wm_pref' => 'Créer un nouveau filigrane',
+    'post_format' => 'Post formatage d\'image',
 
-'delete_watermark_pref_confirmation' => 'Confirmation de suppression des préférences de filigrane',
+    'pre_format' => 'Pré-formatage d\'image',
 
-'delete_wm_preference' => 'Supprimer les préférences de filigrane',
+    'preferences_updated' => 'Préférences mises à jour',
 
-'exceeds_max_dimensions' => 'Le fichier dépasse les dimensions maximales et ne peut être redimensionné.',
+    'processing_image' => 'Traitement d\'image',
 
-'file_not_added_to_db' => 'Le fichier n\'a pas pu être enregistré dans la base de données',
+    'properties' => 'Propriétés d\'image',
 
-'gd_not_installed' => 'La miniature de l\'image n\'a pas pu être créée. GD est obligatoire pour pouvoir créer des miniatures.',
+    'resize' => 'Redimensionner',
 
-'invalid_directory' => 'Vous avez communiqué un répertoire invalide',
+    'resize_height' => 'Hauteur',
 
-'invalid_mime' => 'Type Mime invalide, le fichier n\'a pas pu être traité',
+    'resize_mode' => 'Mode de redimensionnement',
 
-'invalid_short_name' => 'Le nom court des manipulations d\'image ne peut contenir que des caractères alphanumériques, des tirets et des soulignés (underscore) et il ne peut être ni "miniatures" ni "thumbs".',
+    'resize_over_confirmation' => 'Redimensionner cette image dans un format plus grand que l\'original peut restituer une image de moindre qualité. Etes-vous sûr(e) de confirmer?',
 
-'no_path_or_dir' => 'Pour enregistrer un fichier, vous devez préciser non seulement le chemin vers le fichier mais aussi le numéro (#) d\'un répertoire',
+    'resize_type' => 'Type de redimensionnement',
 
-'no_permission' => 'Vous n\'avez pas l\'autorisation d\'enregistrer un fichier',
+    'resize_width' => 'Largeur',
 
-'problem_downloading_file' => 'Une erreur s\'est produite lors de la tentative de téléchargement du fichier sélectionné. Merci de vérifier que le fichier existe bien sur le serveur.',
+    'restrict_notes_1' => 'Ces boutons radio vous permettent de préciser les groupes de membres qui sont autorisés à téléverser des fichiers.',
 
-'problem_downloading_files' => 'Une erreur s\'est produite lors de la tentative de téléchargement des fichiers sélectionnés. Merci de vérifier que les fichiers existent bien sur le serveur.',
+    'restrict_notes_2' => 'Les Super Admins peuvent toujours télécharger des fichiers',
 
-'security_failure' => 'Le type de fichier que vous cherchez à télécharger n\'est pas autorisé.',
+    'restrict_notes_3' => 'Notez: Le téléchargement d\'image est pour l\'heure seulement autorisé depuis le tableau de bord',
 
-'thumb_not_created' => 'La miniature de l\'image n\'a pas pu être créée. Merci de vous assurer que le répertoire des miniatures est inscriptible.',
+    'restrict_to_group' => 'Restreindre le téléchargement de fichier aux groupes de membres sélectionnés',
 
-'watermark_pref_deleted' => 'Préférences de filigrane supprimées',
+    'rotate' => 'Pivoter',
 
-'wm_edit' => 'Modifier le filigrane',
+    'rotate_180' => '180&#176',
 
-'wm_name_taken' => 'Doublon de nom',
+    'rotate_90l' => '90 degrés, gauche',
 
-'wm_name' => 'Nom du filigrane',
+    'rotate_90r' => '90 degrés, droite',
 
-'wm_new' => 'Créer un filigrane',
+    'rotate_flip_hor' => 'Faire pivoter horizontalement',
 
-'wm_test' => 'Tester le filigrane',
+    'rotate_flip_vert' => 'Faire pivoter verticalement',
 
-'wm_type' => 'Type de filigrane',
+    'rotate_mode' => 'Mode de rotation',
 
-'wm_watermark' => 'Filigrane',
+    'save_crop' => 'Sauvegarder ROGNER',
 
-"bot" => "Bas",
+    'save_image' => 'Sauvegarder l\'image',
 
-"color_picker" => "Sélectionneur de couleur",
+    'search_files' => 'Rechercher les fichiers',
 
-"mid" => "Milieu",
+    'search_in' => 'Rechercher dans',
 
-"watermark_prefs" => "Préférences de filigrane",
+    'server_path' => 'Chemin de serveur de répertoire de fichier',
 
-"wm_alignment" => "Alignement du filigrane",
+    'short_name' => 'Nom court',
 
-"wm_font_color" => "Couleur du texte",
+    'sync_complete' => 'La synchronisation de fichier est complétée',
 
-"wm_font_size" => "Taille de police",
+    'sync_progress' => 'Progression',
 
-"wm_font" => "Police",
+    'synchronize_directory' => 'Synchroniser le répertoire',
 
-"wm_graphic" => "Version Graphique",
+    'thumbnails' => 'miniatures',
 
-"wm_hor_offset" => "Décalage Horizontal",
+    'total_dir_size' => 'Taille totale du répertoire:',
 
-"wm_image_path" => "Chemin serveur vers l'image filigrane",
+    'upload_dir_dropdown' => '%s (%s fichiers)',
+    
+     'upload_location' => 'Localisation du téléchargement',
 
-"wm_missing_font" => "Impossible d'accéder à la police spécifiée. Merci de vérifier son chemin d'accès serveur.",
+    'upload_pref_deleted' => 'Préférences de téléchargement supprimées:',
 
-"wm_offset" => "Décalage du filigrane",
+    'upload_pref_name' => 'Nom descriptif du répertoire de téléchargement',
 
-"wm_opacity" => "Opacité du filigrane",
+    'uploading_file' => 'Téléversement de fichier en cours…',
 
-"wm_padding" => "Remplissage (padding)",
+    'url_to_upload_dir' => 'URL du répertoire de téléchargement',
 
-"wm_shadow_color" => "Couleur de l'ombre portée (code hex)",
+    'use_file' => 'Utiliser le fichier téléversé',
 
-"wm_shadow_distance" => "Distance de l'ombre portée (en px)",
+    'width_needed' => 'Une largeur ou une largeur/hauteur doit être sélectionnée, ou une directive pivoter/retourner doit être choisie.',
 
-"wm_test_explain" => "Le bouton ci-dessous vous permet de tester vos préférences de filigrane sans quitter cette page. Avant de continuer, vous devez d'abord définir le chemin serveur vers une image de test.",
+    /* Batch Page */
+    'caption' => 'Légende',
 
-"wm_test_image_path" => "Chemin serveur vers l'image test",
+    'include' => 'Inclure?',
 
-"wm_test_now" => "Tester vos paramètres de filigrane",
+    'thumbnail' => 'Miniature',
 
-"wm_text" => "Texte du filigrane",
+    /* Watermark */
+    'add_watermark' => 'Aucun',
 
-"wm_use_drop_shadow" => "Activer les ombres portées (dropshadow)",
+    'bot' => 'Bas',
 
-"wm_use_font" => "Utiliser une police TrueType",
+    'color_picker' => 'Pipette de couleurs',
 
-"wm_vrt_offset" => "Décalage Vertical",
+    'create_new_wm_pref' => 'Créer un nouveau filigrane',
 
-"wm_x_transp" => "Coordonnée X de transparence",
+    'delete_watermark_pref_confirmation' => 'Confirmation de préférence de suppression de filigrane',
 
-"wm_y_transp" => "Coordonnée Y de transparence",
+    'delete_wm_preference' => 'Supprimer les préférences de filigrane',
+
+    'mid' => 'Milieu',
+
+    'watermark_pref_deleted' => 'Préférences de filigrane supprimées',
+
+    'watermark_prefs' => 'Préférences de filigrane',
+
+    'wm_alignment' => 'Alignement de filigrane',
+
+    'wm_edit' => 'Editer le filigrane',
+
+    'wm_font' => 'Police',
+
+    'wm_font_color' => 'Couleur de texte',
+
+    'wm_font_size' => 'Taille de police',
+
+    'wm_graphic' => 'Version graphique',
+
+    'wm_hor_offset' => 'Offset horizontal',
+
+    'wm_image_path' => 'Chemin de serveur de l\'image de filigrane',
+
+    'wm_missing_font' => 'Impossible de localiser la police précisée. Merci de vérifier le chemin de votre police.',
+
+    'wm_name' => 'Nom de filigrane',
+
+    'wm_name_taken' => 'Dupliquer le nom',
+
+    'wm_new' => 'Créer un filigrane',
+
+    'wm_offset' => 'Offset filigrane',
+
+    'wm_opacity' => 'Opacité de filigrane',
+
+    'wm_padding' => 'Marge intérieure (padding)',
+
+    'wm_shadow_color' => 'Couleur d\'ombre portée',
+
+    'wm_shadow_distance' => 'Distance d\'ombre portée',
+
+    'wm_test' => 'Test de filigrane',
+
+    'wm_test_explain' => 'Le bouton ci-dessous vous permet de tester vos préférences de filigrane sans quitter cette page. Pour réaliser cela, vous devez régler le chemin de serveur vers une image test.',
+
+    'wm_test_image_path' => 'Chemin de serveur de l\'image test',
+
+    'wm_test_now' => 'Tester vos réglages de filigrane',
+
+    'wm_text' => 'Texte de filigrane',
+
+    'wm_type' => 'Type de filigrane',
+
+    'wm_use_drop_shadow' => 'Activer l\'ombre portée',
+
+    'wm_use_font' => 'Utiliser police True Type',
+
+    'wm_vrt_offset' => 'Offset vertical',
+
+    'wm_watermark' => 'Filigrane',
+
+    'wm_x_transp' => 'Coordonnée X de transparence',
+
+    'wm_y_transp' => 'Coordonnée Y de transparence',
+    
+    /* Removing */
+
+    'folder_not_empty' => 'Le directoire n\'est pas vide',
+
+    'all_files_in_folder_will_be_deleted' => 'Si vous supprimez ce dossier, tous les fichiers qui y sont inclus seront aussi supprimés.',
+
+    'all_files_in_folder_will_be_moved' => 'Tous les fichiers inclus dans le dossier seront déplacés avec lui.',
+
+    'file_is_in_use' => 'Le fichier est utilisé <a href="%s"> dans <span>%s</span> entrées</a>',
+
+    'files_is_in_use' => 'Merci de noter que certains de ces fichiers sont en cours d\'utilisation',
+
+    
+    /* Moving the files */
+
+    'move_file' => 'Déplacer le fichier',
+
+    'select_new_destinatin_for' => 'Sélectionner une nouvelle destination pour:',
+
+    'destination' => 'Destination',
+
+    'error_moving_need_same_driver' => 'Les fichiers peuvent être seulement déplacés entre les répertoires de téléchargement qui utilisent le même adaptateur',
+
+    'error_moving_already_there' => 'Le fichier se trouve déjà dans la destination ciblée',
+
+    'files_moved' => 'Les fichiers ont été déplacés',
+
+    'some_files_not_moved' => 'Certains fichiers n\'ont pas pu être déplacés',
+
+    'error_moving_directory_cannot_be_own_child' => 'Le répertoire ne peut pas être déplacé vers cette position',
+
+    /* Subfolders */
+
+    'subfolder_directory_already_exists' => 'Le sous-dossier existe déjà',
+
+    'subfolder_directory_already_exists_desc' => 'Un répertoire portant ce nom existe déjà dans le système de fichiers',
+
+    'error_creating_directory' => 'Impossible de créer le dossier',
+
+    'error_moving_already_exists' => 'Impossible de réaliser le déplacement parce qu\'un fichier ou un dossier portant ce nom existe déjà',
+
+    'subfolder_directory_created' => 'Dossier créé',
+
+    'invalid_subfolder' => 'Le sous-dossier sélectionné n\'existe pas dans cette localisation de téléchargement',
+
+    'subfolder_not_exists' => 'Le sous-dossier sélectionné n\'existe pas sur ce serveur',
+
+    'subfolder_not_writable' => 'Le sous-dossier sélectionné n\'est pas réinscriptible',
+
+    'rename_folder' => 'Renommer le dossier',
+
+    'could_not_rename' => 'Impossible de renommer',
+
+    'one_rename_at_a_time' => 'Il est seulement possible de renommer un fichier/dossier à la fois',
+
+    'new_name' => 'Nouveau nom',
+
+    'error_renaming_already_exists' => 'Impossible de renommer parce qu\'un fichier ou un dossier avec ce nom existe déjà',
+
+    'rename_success' => 'Renommé avec succès',
+
+    'rename_success_desc' => '<code>%s</code> a été renommé dans <code>%s</code>',
+
+    'existing_file_manipulations_desc' => 'Celles-ci sont des manipulations existantes pré-définies pour ce fichier, basées sur les réglages de répertoire de téléchargement',
+
+    'manipulations' => 'Manipulations',
+
 
 );
 

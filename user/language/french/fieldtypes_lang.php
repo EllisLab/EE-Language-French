@@ -2,250 +2,348 @@
 
 $lang = array(
 
-'add_file'	=> 'Ajouter un fichier',
+    'add_file' => 'Ajouter un fichier',
 
-'directory_no_access' => 'Vous n\'avez pas accès au répertoire spécifié pour ce champ',
+    'directory_no_access' => 'Vous n\'avez pas accès au répertoire spécifié pour ce champ',
 
-'directory' => 'Répertoire :',
+    'file_undo_remove' => 'Annuler la SUPPRESSION',
 
-'file_undo_remove' => 'Annuler la suppression',
+    'remove_file' => 'Supprimer le fichier',
 
-'remove_file' => 'Supprimer un fichier',
+    'ft_allow_multi' => 'Autoriser les sélections multiples?',
 
-// Relationships
-'any_author' 				=> 'N\'importe quel auteur',
+    'ft_allow_multi_desc' => 'Si activé, les auteurs seront autorisés à sélectionner plusieurs éléments.',
 
-'any_category' 				=> 'N\'importe quelle catégorie',
+    'ft_multiselect_not_allowed' => 'La sélection d\'options multiples n\'est pas autorisée pour ce champ',
 
-'any_channel' 				=> 'N\'importe quel canal',
+    /* Relationships */
+    'any_author' => 'N\'importe quel auteur',
 
-'any_status' 				=> 'N\'importe quel statut',
+    'any_category' => 'N\'importe quelle catégorie',
 
-'rel_ft_allow_multi_desc'=> 'Si activé, les auteurs seront autorisés à sélectionner plus d\'un article à relier',
+    'any_channel' => 'N\'importe quel canal',
 
-'rel_ft_allow_multi'		=> 'Autoriser les relations multiples ?',
+    'any_status' => 'N\'importe quel statut',
 
-'rel_ft_authors_desc'		=> 'Choisissez les auteurs afin de limiter les articles dans ce champ relationnel.',
+    'relate_entry' => 'Relier l\'entrée',
+    
+    'relate_entry_deferred' => 'Editer les Relations',
 
-'rel_ft_authors'			=> 'Limiter les articles par auteur',
+    'rel_ft_allow_multi' => 'Autoriser les relations multiples?',
 
-'rel_ft_categories_desc'	=> 'Choisissez les catégories afin de limiter les articles dans ce champ relationnel.',
+    'rel_ft_allow_multi_desc' => 'Si activé, les auteurs seront autorisés à créer des relations multiples.',
 
-'rel_ft_categories'			=> 'Limiter les articles par catégorie',
+    'rel_ft_authors' => 'Auteurs',
 
-'rel_ft_channels_desc'		=> 'De quels canaux le contenu lié doit-il être tiré.',
+    'rel_ft_authors_desc' => 'Choisir les auteurs pour limiter les entrées dans ce champ de relations.',
 
-'rel_ft_channels'			=> 'Sélectionner les canaux à relier',
+    'rel_ft_categories' => 'Limiter par catégorie',
 
-'rel_ft_include_desc'		=> 'Autoriser les articles expirés ou futurs dans ce champ relationnel.',
+    'rel_ft_categories_desc' => 'Choisir les catégories pour limiter les entrées dans ce champ de relations.',
 
-'rel_ft_include_expired'	=> 'Articles ayant expiré ?',
+    'rel_ft_channels' => 'Canaux à relier',
 
-'rel_ft_include_future'		=> 'Articles futurs ?',
+    'rel_ft_channels_desc' => 'Les canaux au sein desquels le contenu associé peut être supprimé.',
 
-'rel_ft_include'			=> 'Inclure dans la sélection',
+    'rel_ft_include' => 'Inclure dans la sélection',
 
-'rel_ft_limit_desc'			=> 'Nombre maximal d\'articles à afficher dans le champ relationnel.<br><i>laisser la zone vide pour autoriser TOUS les articles</i>',
+    'rel_ft_include_desc' => 'Autoriser les entrées futures ou expirées dans ce champ de relations.',
 
-'rel_ft_limit'				=> 'Nombre maximal d\'articles',
+    'rel_ft_include_expired' => 'Entrées expirées',
 
-'rel_ft_order_ascending'	=> 'Ordre croissant (A-Z)',
+    'rel_ft_include_future' => 'Entrées futures',
 
-'rel_ft_order_date'			=> 'Date de l\'article',
+    'rel_ft_limit' => 'Nombre maximal d\'entrées disponibles',
 
-'rel_ft_order_desc'			=> 'Tri par défaut des articles dans le champ relationnel.',
+    'rel_ft_limit_desc' => 'Fixe le nombre d\'entrées affichées dans le menu déroulant des champs. <br><i>Laisser vide pour autoriser toutes les entrées.</i>',
 
-'rel_ft_order_descending'	=> 'Ordre décroissant (Z-A)',
+    'rel_ft_order' => 'Classer par',
 
-'rel_ft_order_title'		=> 'Titre de l\'article',
+    'rel_ft_order_ascending' => 'Croissant (A-Z)',
 
-'rel_ft_order'				=> 'Trier les articles par',
+    'rel_ft_order_date' => 'Date d\'entrée',
 
-'rel_ft_related_only'		=> 'Seulement ceux reliés',
+    'rel_ft_order_desc' => 'Classement par défaut des entrées dans le champ de relations.',
 
-'rel_ft_statuses_desc'		=> 'Choisissez les statuts afin de limiter les articles dans ce champ relationnel.',
+    'rel_ft_order_descending' => 'Décroissant (Z-A)',
 
-'rel_ft_statuses'			=> 'Limiter les articles par statut',
+    'rel_ft_order_title' => 'Titre',
 
-'rel_ft_unrelated_only'		=> 'Seulement ceux non reliés',
+    'rel_ft_related_only' => 'Relié seulement',
 
-/* Duration */
-'duration_ft_hh' => 'hh',
+    'rel_ft_statuses' => 'Limiter par statut',
 
-'duration_ft_hhmm' => 'hh:mm',
+    'rel_ft_statuses_desc' => 'Choisir les statuts pour limiter les entrées dans ce champ de relation.',
 
-'duration_ft_hhmmss' => 'hh:mm:ss',
+    'rel_ft_unrelated_only' => 'Délier seulement',
 
-'duration_ft_hours' => 'Heures',
+    'rel_ft_display_entry_id' => 'Afficher les ID d\'entrées ?',
 
-'duration_ft_minutes' => 'Minutes',
+    'rel_ft_display_entry_id_desc' => 'Si activé, les ID d\'entrées sort affichées ensemble avec le titre d\'entrée à l\'intérieur du champ.',
+    
+    'rel_ft_deferred' => 'Reporter l\'initialisation du champ?',
 
-'duration_ft_placeholder' => 'Durée en %s (or %s)',
+     'rel_ft_deferred_desc' => 'Si activé, ce champ ne se réinitialisera pas avant avoir cliqué sur le bouton Editer les Relations. Cela peut aboutir à des vitesses plus rapides de chargement de page du Tableau de bord.',
 
-'duration_ft_seconds' => 'Secondes',
+    'rel_ft_max' => 'Nombre maximum d\'entrées reliées',
 
-'duration_ft_units' => 'Unités',
+    'rel_ft_max_desc' => 'Fixe le nombre maximum d\'entrées que ce champ peut utiliser pour les relier.',
 
-'duration_ft_units_desc' => 'Détermine le laps de temps décrit quand un auteur de contenu entre un nombre entier comme “42”.',
+    'rel_ft_max_error' => 'Vous ne pouvez sélectionner guère plus de %d entrées.',
 
-// File
-'file_ft_allowed_dirs_desc'		=> 'Répertoire par défaut pour stocker les fichiers téléchargés avec ce champ.',
+    'rel_ft_min' => 'Nombre minimum d\'entrées reliées',
 
-'file_ft_allowed_dirs'			=> 'Répertoire autorisé',
+    'rel_ft_min_desc' => 'Fixe le nombre minimum d\'entrées que ce champ peut utiliser pour les relier.',
 
-'file_ft_cannot_find_file'		=> '<b>Fichier introuvable.</b> Nous n\'avons pas pu retrouver %s sur le serveur.',
+    'rel_ft_min_error' => 'Vous devez sélectionner au moins %d entrées.',
 
-'file_ft_configure_subtext'		=> 'Permet de contrôler un peu plus la façon dont le champ fichier devrait se comporter.',
+    /* Duration */
+    'duration_ft_hh' => 'hh',
 
-'file_ft_configure'				=> 'Options générales du champ',
+    'duration_ft_hhmm' => 'hh:mm',
 
-'file_ft_content_type_desc'		=> 'Types de fichier qui peuvent être téléchargés à partir de ce champ.',
+    'duration_ft_hhmmss' => 'hh:mm:ss',
 
-'file_ft_content_type'			=> 'Types de fichier autorisés',
+    'duration_ft_hours' => 'heures',
 
-'file_ft_images_only' => 'Images uniquement',
+    'duration_ft_minutes' => 'minutes',
 
-'file_ft_limit_desc'			=> 'Nombre maximal de fichier à afficher dans le menu déroulant.<br><i>laisser la zone vide pour afficher TOUS les fichiers.</i>',
+    'duration_ft_placeholder' => 'Durée en %s (ou %s)',
 
-'file_ft_limit'					=> 'Limite pour les fichiers existants',
+    'duration_ft_seconds' => 'secondes',
 
-'file_ft_no_upload_directories' => 'Aucun répertoire de téléchargement n\'est disponible pour l\'instant. Merci d\'<a href="%s">ajouter un ou plusieurs répertoire de téléchargement</a> afin de pouvoir utiliser le type de champ Fichier.',
+    'duration_ft_units' => 'unités',
 
-'file_ft_select_existing'		=> 'Sélectionner un fichier existant',
+    'duration_ft_units_desc' => 'Détermine la durée de description quand un auteur de contenus entre un nombre entier comme “42”.',
 
-'file_ft_show_files_desc'	=> 'Si activé, les auteurs pourront sélectionner un fichier existant dans un menu déroulant',
+    'valid_duration' => 'Ce champ doit intégrer une durée en %s (ou %s)',
 
-'file_ft_show_files'			=> 'Afficher les fichiers existants ?',
+    /* File */
+    'file_ft_allowed_dirs' => 'Répertoire autorisé',
 
-'file_ft_upload_directories' => 'Répertoires de téléchargement',
+    'file_ft_allowed_dirs_desc' => 'Répertoire utilisé par ce champ pour ranger et récupérer des fichiers.',
 
-/* File Drag and Drop */
-'file_dnd_choose_directory' => 'Merci de choisir un répertoire',
+    'file_ft_cannot_find_file' => '<b>Fichier non trouvé.</b> Nous n\'avons pas pu localiser %s sur le serveur.',
 
-'file_dnd_choose_file_directory' => 'Choisir un répertoire de fichiers',
+    'file_ft_configure' => 'Options générales de fichier',
 
-'file_dnd_choose_directory_before_uploading' => 'Vous devez choisir un répertoire pour télécharger des fichiers',
+    'file_ft_configure_subtext' => 'Contrôle davantage le comportement du champ de fichiers.',
 
-'file_dnd_choose_directory_btn' => 'Choisir un répertoire',
+    'file_ft_content_type' => 'Types de fichiers autorisés',
 
-'file_dnd_choose_existing' => 'Choisir répertoire existant',
+    'file_ft_content_type_desc' => 'Types de fichiers qui peuvent être téléchargés à partir de ce champ.',
 
-'file_dnd_dismiss' => 'Ignorer',
+    'file_ft_images_only' => 'Images seulement',
 
-'file_dnd_drop_file' => 'Déposer le fichier ici pour le télécharger',
+    'file_ft_limit' => 'Limite de fichiers existants',
 
-'file_dnd_drop_files' => 'Déposer les fichiers ici pour les télécharger',
+    'file_ft_limit_desc' => 'Nombre maximum de fichiers affichés dans le menu déroulant.<br><i>Laisser vide pour afficher tous les fichiers.</i>',
 
-'file_dnd_file_name' => 'Nom du fichier',
+    'file_ft_no_upload_directories' => 'Il n\'y a pas actuellement de répertoire de téléchargement disponible. Merci <a href="%s">d\'ajouter un ou plusieurs répertoires de téléchargement</a> à utiliser dans le type de champs de fichier.',
 
-'file_dnd_filter_directories' => 'Filtrer les répertoires',
+    'file_ft_select_existing' => 'Sélectionner un fichier existant',
 
-'file_dnd_images_only' => 'Ce champ n\'accepte que des images.',
+    'file_ft_show_files' => 'Montrer les fichiers existants?',
 
-'file_dnd_progress' => 'Progression',
+    'file_ft_show_files_desc' => 'Si activé, un menu déroulant avec des fichiers existants seront montrés aux auteurs.',
 
-'file_dnd_resolve_conflict' => 'Résoudre les conflits',
+    'file_ft_upload_directories' => 'Télécharger les répertoires',
 
-'file_dnd_single_file_allowed' => 'Ce champ ne peut contenir qu\'un seul fichier',
+    /* File Drag and Drop */
 
-'file_dnd_unexpected_error' => 'Erreur inattendue. Vérifiez le paramètre "post_max_size" de votre configuration PHP.',
+    'file_dnd_choose_directory' => 'Merci de choisir un répertoire',
 
-'file_dnd_uploading_to' => 'Téléchargement vers %s',
+    'file_dnd_choose_file_directory' => 'Choisir un répertoire de fichiers',
 
-'file_dnd_upload_new' => 'Nouveau téléchargement',
+    'file_dnd_upload_to' => 'Téléchargement vers',
 
-// Grid
-'grid_add_field'			=> 'ajouter un nouveau champ',
+    'file_dnd_choose_directory_before_uploading' => 'Vous devez choisir un répertoire pour télécharger les fichiers',
 
-'grid_add_some_data'		=> 'Vous n\'avez ajouté aucune ligne de données pour le moment. <a href="#" class="grid_link_add">Ajouter des données ?</a>',
+    'file_dnd_choose_directory_btn' => 'Choisir le répertoire',
 
-'grid_allow_reorder'		=> 'Autoriser la réorganisation des lignes ?',
+    'file_dnd_choose_existing' => 'Choisir l\'existant',
 
-'grid_chars_allowed'		=> 'Caractères autorisés.',
+    'file_dnd_dismiss' => 'Rejeter',
 
-'grid_col_instr'			=> 'Instructions',
+    'file_dnd_drop_file' => 'Déposer le fichier ici pour le téléchargement',
 
-'grid_col_label'			=> 'Étiquette',
+    'file_dnd_drop_files' => 'Déposer les fichiers ici pour le téléchargement',
 
-'grid_col_name_reserved'	=> 'Cette colonne utilise un nom de colonne réservé pour d\'autres fonctionnalités de modèle.',
+    'file_dnd_file_name' => 'Nom de fichier',
 
-'grid_col_name'				=> 'Nom du champ',
+    'file_dnd_filter_directories' => 'filtrer les répertoires',
 
-'grid_col_options'			=> 'Est-ce que cette donnée est...',
+    'file_dnd_images_only' => 'Ce champ n\'accepte que les images.',
 
-'grid_col_type'				=> 'Type de données ?',
+    'file_dnd_progress' => 'Progression',
 
-'grid_col_width_desc'		=> 'Définissez la largeur minimale (en pixels) qu\'aura cette colonne dans le formulaire de publication.',
+    'file_dnd_conflict' => 'Erreur. Le fichier existe déjà.',
 
-'grid_col_width_percent'	=> 'Pourcentage.',
+    'file_dnd_resolve_conflict' => 'Résoudre le conflit',
 
-'grid_col_width'			=> 'Largeur de colonne mini',
+    'file_dnd_single_file_allowed' => 'Ce champ ne peut contenir qu\'un seul fichier',
 
-'grid_config_desc'			=> 'Quelles données souhaitez-vous collecter ?',
+    'file_dnd_unexpected_error' => 'Erreur imprévue. Vérifier votre réglage post_max_size dans votre configuration PHP.',
 
-'grid_copy_field'			=> 'copier le champ',
+    'file_dnd_uploading_to' => 'téléchargement en cours vers %s …',
 
-'grid_date_localized'		=> 'Locale ?',
+    'file_dnd_upload_new' => 'Télécharger nouveau',
+    
+    'file_dnd_create_directory' => 'Créer un Nouveau Répertoire',
 
-'grid_duplicate_col_label'	=> 'Les étiquettes des champs de colonne doivent être uniques.',
+    /* Grid */
+    'grid_add_field' => 'ajouter nouveau fichier',
 
-'grid_duplicate_col_name'	=> 'Les noms de champ de colonne doivent être uniques.',
+    'grid_add_some_data' => 'Vous n\'avez pas encore ajouté de rang de données. <a href="#" class="grid_link_add">Ajouter des données?</a>',
 
-'grid_expand_field'			=> 'étendre le champ',
+    'grid_allow_reorder' => 'Autoriser le réagencement des rangées?',
+    
+    'grid_vertical_layout' => 'Affichage vertical de la grille',
+    
+    'grid_horizontal_layout' => 'Affichage horizontal de la grille',
 
-'grid_field_required'		=> 'ce champ est obligatoire',
+     'grid_auto' => 'Auto',
 
-'grid_fields'				=> 'Champs Grille',
+     'grid_vertical_layout_title' => 'Affichage de la grille',
 
-'grid_in_this_field_desc'	=> 'Rendre ce champ obligatoire ou recherchable.',
+    'grid_vertical_layout_desc' => 'Choisir comment afficher le champ dans les pages publiées.',
 
-'grid_in_this_field'		=> 'Est ce champ',
+    'grid_chars_allowed' => 'Caractères autorisés.',
 
-'grid_limit_input'			=> 'Limiter la saisie ?',
+    'grid_col_instr' => 'Instructions',
 
-'grid_max_rows_desc'		=> 'fixe le nombre maximal de lignes de données que cette grille acceptera',
+    'grid_col_label' => 'Etiquette de publication',
 
-'grid_max_rows'				=> 'Lignes maxi',
+    'grid_col_name' => 'Nom de champ',
 
-'grid_min_rows_desc'		=> 'fixe le nombre minimal de lignes de données que cette grille acceptera',
+    'grid_col_name_reserved' => 'Cette colonne utilise un nom réservé à une autre fonctionnalité de modèle.',
 
-'grid_min_rows'				=> 'Lignes mini',
+    'grid_col_options' => 'Sont ces données',
 
-'grid_order_by'				=> 'Trier par',
+    'grid_col_type' => 'Type de données?',
 
-'grid_output_format'		=> 'Formatage de la sortie ?',
+    'grid_col_width' => 'Largeur maximum de colonne',
 
-'grid_remove_field'			=> 'retirer le champ',
+    'grid_col_width_desc' => 'Règle la largeur minimum (en pixels) de cette colonne dans le formulaire de publication.',
 
-'grid_reorder_field'		=> 'ré-ordonnez le champ',
+    'grid_col_width_percent' => 'Pourcentage.',
 
-'grid_show_fmt_btns'		=> 'Afficher les boutons de formatage ?',
+    'grid_config_desc' => 'Quelles données souhaitez-vous collecter?',
 
-'grid_show'					=> 'Afficher',
+    'grid_copy_field' => 'copier le champ',
 
-'grid_text_direction'		=> 'Sens d\'écriture ?',
+    'grid_date_localized' => 'Localisées?',
 
-'grid_validation_error'		=> 'Un problème est survenu avec au moins un champ de la grille',
+    'grid_duplicate_col_label' => 'Les étiquettes de champs de colonne doivent être uniques.',
 
-/* File Grid */
-'file_grid_setup' => 'Configuration grille de fichiers',
+    'grid_duplicate_col_name' => 'Les noms de champs de colonne doivent être uniques.',
 
-'file_grid_maximum_rows_hit' => 'Télécharger autant de fichiers entraînera le dépassement du paramètre "Nombre de lignes maxi" fixé à %s',
+    'grid_expand_field' => 'étendre le champ',
 
-// URL
-'url_ft_allowed_url_schemes'         => 'Schémas URL autorisés',
+    'grid_field_required' => 'Ce champ est requis',
+ 
+    'grid_fields' => 'Champs de la Grille',
 
-'url_ft_invalid_url_scheme'          => 'Votre URL doit commencer avec un schéma valide : %s',
+    'grid_in_this_field' => 'Dans ce champ',
 
-'url_ft_invalid_url'                 => 'URL invalide',
+    'grid_in_this_field_desc' => 'Rendre ce champ obligatoire, ou accessible à la recherche.',
 
-'url_ft_protocol_relative_url'       => 'URL dépendante du protocole',
+    'grid_limit_input' => 'Limiter input?',
 
-'url_ft_url_scheme_placeholder_desc' => 'Valeur fictive affichée pour ce paramètre quand aucune URL n\'a été précisée.',
+    'grid_max_rows' => 'Lignes maximum',
 
-'url_ft_url_scheme_placeholder'      => 'Schéma URL fictif',
+    'grid_max_rows_desc' => 'Fixe le nombre maximum de lignes de données que cette grille peut accepter',
 
+    'grid_min_rows' => 'Lignes minimum',
+
+    'grid_min_rows_desc' => 'Fixe le nombre minimum de rangées de données que cette grille peut accepter',
+
+    'grid_order_by' => 'Trier par',
+
+    'grid_output_format' => 'Formatage output?',
+
+    'grid_remove_field' => 'Retirer le champ',
+
+    'grid_reorder_field' => 'Réagencer le champ',
+
+    'grid_show' => 'Visualiser',
+
+    'grid_show_fmt_btns' => 'Visualiser les boutons de formatage?',
+
+    'grid_text_direction' => 'Sens d\'écriture du texte?',
+
+    'grid_validation_error' => 'Il y a eu un problème avec un ou plusieurs champs de grille',
+
+    /* File Grid */
+
+    'file_grid_setup' => 'Montage du fichier Grille',
+
+    'file_grid_maximum_rows_hit' => 'Télécharger autant de fichiers devrait dépasser le réglage de rangées de champs de %s',
+
+    /* URL */
+    'url_ft_allowed_url_schemes' => 'Schémas URL autorisés',
+
+    'url_ft_invalid_url' => 'URL non valide',
+
+    'url_ft_invalid_url_scheme' => 'Votre URL doit commencer avec un schéma valide: %s',
+
+    'url_ft_protocol_relative_url' => 'Protocole URL relative',
+
+    'url_ft_single_slash_protocol_relative_url' => 'Racine de l\'URL relative',
+
+    'url_ft_url_scheme_placeholder' => 'Référence de schéma d\'URL',
+
+    'url_ft_url_scheme_placeholder_desc' => 'Affiché en tant que texte de référence quand aucune URL n\'a été saisie.',
+
+    /* Color Picker */
+    'colorpicker_allowed_colors' => 'Couleurs autorisées',
+    'colorpicker_allowed_colors_desc' => 'Choisir les couleurs autorisées à être sélectionnées.',
+
+    'colorpicker_allowed_colors_any' => 'N\'importe laquelle',
+    'colorpicker_allowed_colors_swatches' => 'Echantilllons',
+
+    'colorpicker_default_color' => 'Couleur par défaut',
+    'colorpicker_default_color_desc' => 'Si paramétré, quand aucune couleur n\'aura été choisie, c\'est la couleur par défaut qui sera appliquée.',
+
+    'colorpicker_color_not_allowed' => 'Cette couleur n\'est pas autorisée.',
+
+    'no_colorpicker_swatches' => 'Aucun <b>Echantillon</b> existant.',
+
+    'swatches' => 'Echantillons',
+
+    'colorpicker_swatches_options_desc' => 'Préciser une liste de couleurs pré-définies à montrer dans le sélecteur de couleurs.',
+
+    'colorpicker_swatches_populate_values' => 'Valeurs',
+    'colorpicker_swatches_populate_manually' => 'Alimenter les échantillons manuellement',
+
+    /* Conditional Evaluation Rules */
+    'contains' => 'contient',
+    'notContains' => 'ne contient pas',
+    'equal' => 'est',
+    'notEqual' => 'n\'est pas',
+    'isEmpty' => 'est vide',
+    'isNotEmpty' => 'n\'est pas vide',
+    'greaterThan' => 'plus grand que',
+    'greaterOrEqualThan' => 'plus grand ou égal à',
+    'lessThan' => 'moins que',
+    'lessOrEqualThan' => 'plus petit ou égal à',
+
+    'turnedOn' => 'est branché',
+    'turnedOff' => 'n\'est pas branché',
+
+    'includes' => 'inclut',
+    'notIncludes' => 'n\'inclut pas',
+
+    /* Slider */
+    'field_step' => 'Pas',
+
+    'field_prefix' => 'Préfixe',
+
+    'field_suffix' => 'Suffixe',
+
+    /* Notes */
+    'notes_note_content' => 'Note de contenu',
+    'notes_note_content_desc' => 'Ce contenu apparaîtra comme une note dans le formulaire de publication. Le formatage Markdown est supporté.',
 );
 
 // EOF
-

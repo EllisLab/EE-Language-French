@@ -2,117 +2,115 @@
 
 $lang = array(
 
-'closed' => 'Fermé',
+    'closed' => 'Fermé',
 
-'configuration_created_desc' => 'La configuration <b>%s</b> a été créée.',
+    'configuration_created' => 'Configuration créée',
 
-'configuration_created' => "Configuration créée",
+    'configuration_created_desc' => 'La configuration <b>%s</b> a été créée.',
 
-'configuration_not_created_desc' => 'Impossible de créer cette configuration, merci d\'analyser et de corriger les erreurs ci-dessous.',
+    'configuration_not_created' => 'Impossible de créer la configuration',
 
-'configuration_not_created' => 'Impossible de créer la configuration',
+    'configuration_not_created_desc' => 'Impossible de créer cette configuration, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'configuration_not_updated_desc' => 'Impossible de mettre à jour cette configuration, merci d\'analyser et de corriger les erreurs ci-dessous.',
+    'configuration_not_updated' => 'Impossible de mettre à jour la configuration',
 
-'configuration_not_updated' => 'Impossible de mettre à jour la configuration',
+    'configuration_not_updated_desc' => 'Impossible de mettre à jour cette configuration, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'configuration_updated_desc' => 'La configuration <b>%s</b> a bien été mise à jour.',
+    'configuration_updated' => 'Configuration mise à jour',
 
-'configuration_updated' => "Configuration mise à jour",
+    'configuration_updated_desc' => ' La configuration <b>%s</b> a été mise à jour.',
 
-'configurations_removed_desc' => '%d configuration(s) a(ont) été supprimée(s).',
+    'configurations' => 'Configuration',
 
-'configurations_removed' => 'Configuration(s) supprimée(s)',
+    'configurations_removed' => 'Configurations supprimées',
 
-'configurations' => 'Configuration',
+    'configurations_removed_desc' => '%d configurations ont été supprimées.',
 
-'create_metaweblog' => 'Nouveau MetaWeblog',
+    'create_metaweblog' => 'Créer un MetaWeblog',
 
-'create_new' => 'Créer',
+    'create_new' => 'Créer Nouveau',
 
-'do_not_set' => 'Ne pas fixer',
+    'do_not_set' => 'Ne pas fixer',
 
-'edit_metaweblog' => 'Modifier MetaWeblog',
+    'edit_metaweblog' => 'Editer un MetaWeblog',
 
-'entry_uneditable' => "Vous n'avez pas la permission d'modifier cet article. Veuillez vérifier les permissions du groupe de membres",
+    'entry_uneditable' => 'Vous n\'avez pas la permission d\'éditer cette entrée. Merci de vérifier les permissions de groupes de membres.',
 
-'invalid_access' => "Accès invalide",
+    'invalid_access' => 'Accès non valide',
 
-'invalid_categories' => "Sélection de catégorie invalide",
+    'invalid_categories' => 'Sélection de catégories non valide',
 
-'invalid_channel' => "Sélection de canal invalide",
+    'invalid_channel' => 'Sélection de canal non valide',
 
-'invalid_file_content' => 'Le fichier que vous cherchez à télécharger à un contenu invalide pour son type MIME',
+    'invalid_file_content' => 'Le fichier que vous tenter de télécharger a un contenu non valide pour son type MIME.',
 
-'metaweblog_channel_desc' => 'Canal par défaut pour ce MetaWeblog. Utilisé pour les paramètres ci-dessous.',
+    'metaweblog_api_module_description' => 'Module API Metaweblog',
 
-'metaweblog_channel' => 'Canal',
+    'metaweblog_api_module_name' => 'API Metaweblog',
 
-'metaweblog_config_name' => "Nom",
+    'metaweblog_channel' => 'Canal',
 
-'metaweblog_config_url' => "URL",
+    'metaweblog_channel_desc' => 'Canal par défaut pour ce MetaWeblog. Utilisé pour les réglages suivants.',
 
-'metaweblog_configurations' => "Configurations d'API MetaWeblog",
+    'metaweblog_config_name' => 'Nom',
 
-'metaweblog_content_field_desc' => 'Champ utilisé pour le contenu.',
+    'metaweblog_config_url' => 'URL',
 
-'metaweblog_content_field' => 'Contenu',
+    'metaweblog_content_field' => 'Contenu',
 
-'metaweblog_create_new' => 'Créer Nouvelle Configuration',
+    'metaweblog_content_field_desc' => 'Champ utilisé pour le contenu.',
 
-'metaweblog_create' => 'Créer Configuration',
+    'metaweblog_create' => 'Créer la configuration',
 
-'metaweblog_entry_status_desc' => 'Statut par défaut à utiliser pour les articles de ce MetaWeblog.',
+    'metaweblog_create_new' => 'Créer une nouvelle configuration',
 
-'metaweblog_entry_status' => 'Statut',
+    'metaweblog_entry_status' => 'Statut',
 
-'metaweblog_excerpt_field_desc' => 'Champ utilisé pour l\'extrait.',
+    'metaweblog_entry_status_desc' => 'La statut par défaut à utiliser pour les entrées de ce MetaWeblog.',
 
-'metaweblog_excerpt_field' => 'Extrait',
+    'metaweblog_excerpt_field' => 'Extrait',
 
-'metaweblog_keywords_field_desc' => 'Champ utilisé pour les mots-clefs.',
+    'metaweblog_excerpt_field_desc' => 'Champ utilisé pour cet extrait.',
 
-'metaweblog_keywords_field' => 'Mots clefs',
+    'metaweblog_keywords_field' => 'Mots-clés',
 
-'metaweblog_mising_fields' => "Un champ n'a pas été rempli",
+    'metaweblog_keywords_field_desc' => 'Champ utilisé pour les mots-clés.',
 
-'metaweblog_more_field_desc' => 'Champ utilisé pour plus.',
+    'metaweblog_mising_fields' => 'Un champ a été laissé vide',
 
-'metaweblog_more_field' => 'Plus',
+    'metaweblog_more_field' => 'En plus',
 
-'metaweblog_parse_type_desc' => 'Si activé, le contenu sera envoyé avec un formatage de texte inchangé pour les champs personnalisés.',
+    'metaweblog_more_field_desc' => 'Champ utilisé pour plus.',
 
-'metaweblog_parse_type' => 'Utiliser les préférences de formatage de texte par défaut ?',
+    'metaweblog_parse_type' => 'Utiliser les préférences de formatage de texte par défaut?',
 
-'metaweblog_pref_name' => 'Nom',
+    'metaweblog_parse_type_desc' => 'Si activé, le contenu sera adressé avec le formatage de texte de champ personnalité intact.',
 
-'metaweblog_settings' => 'Paramètres <abbr title="Application Programming Interface">API</abbr> MetaWeblog',
+    'metaweblog_pref_name' => 'Nom',
 
-'metaweblog_upload_dir_desc' => 'Répertoire par défaut pour stocker les fichiers téléchargés avec ce MetaWeblog.',
+    'metaweblog_settings' => 'Réglages <abbr title="Application Programming Interface">API</abbr> MetaWeblog ',
 
-'metaweblog_upload_dir' => 'Répertoire autorisé',
+    'metaweblog_upload_dir' => 'Répertoire autorisé',
 
-'new_entry_errors' => 'Erreurs de validation de l\'article : ',
+    'metaweblog_upload_dir_desc' => 'Répertoire par défaut pour stocker les fichiers téléversés avec ce MetaWeblog.',
 
-'no_channels_found' => "Aucun canal trouvé pour cet utilisateur.",
+    'new_entry_errors' => 'Erreurs de validation d\'entrée: ',
 
-'no_configurations' => 'Aucune Configuration',
+    'no_channels_found' => 'Aucun canal n\'a été trouvé pour cet utilisateur.',
 
-'no_entries_found' => "Aucun <b>article</b> trouvé",
+    'no_configurations' => 'Pas de configurations',
 
-'no_entry_found' => "Article non trouvé dans la base de données",
+    'no_entries_found' => 'Aucune entrée n\'a été trouvée',
 
-'no_metaweblog_configs' => "Il n'y a actuellement aucune configuration d'API Metaweblog",
+    'no_entry_found' => 'Entrée non trouvée dans la base de données',
 
-'open' => 'Ouvert',
+    'no_metaweblog_configs' => 'Il n\'y a pas actuellement de configurations API MetaWeblog ',
 
-'unable_to_upload' => "Impossible de télécharger le fichier",
+    'open' => 'Ouvert',
 
-'unauthorized_action' => "Vous n'êtes pas autorisé à exécuter cette action.",
+    'unable_to_upload' => 'Impossible de télécharger le fichier',
 
-"metaweblog_api_module_description" => "Module d'API MetaWeblog",
-
-"metaweblog_api_module_name" => "API MetaWeblog",
+    'unauthorized_action' => 'Vous n\'êtes pas autorisé(e) à effectuer cette action.',
 
 );
 

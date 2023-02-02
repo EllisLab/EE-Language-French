@@ -2,118 +2,117 @@
 
 $lang = array(
 
+    /* SQL Manager */
+    'analyze' => 'Analyser les Tables',
 
-/* SQL Manager */
-'sql_info'				=> 'Information SQL',
+    'browse' => 'Parcourir',
 
-'sql_utilities'			=> 'Utilitaires SQL',
+    'database_size' => 'Taille de la base de données',
 
-'database_type'			=> 'Type de base de données',
+    'database_type' => 'Type de base de données',
 
-'sql_version'			=> 'Version de base de données',
+    'database_uptime' => 'Disponibilité de la base de données',
 
-'database_size'			=> 'Taille de base de données',
+    'no_buttons_selected' => 'Vous devez sélectionner les tables dans lesquelles effectuer cette action',
 
-'database_uptime'		=> 'Durée de fonctionnement de base de données',
+    'optimize' => 'Optimiser les tables SQL',
 
-'total_queries'			=> 'Nombre total de requêtes serveur depuis le démarrage',
+    'optimize_table' => 'Optimiser les tables sélectionnées',
 
-'sql_status'			=> 'Information de statut',
+    'query' => 'Requête SQL',
 
-'sql_system_vars'		=> 'Variables système',
+    'query_result' => 'Résultat de requête',
 
-'sql_processlist'		=> 'Liste de processus',
+    'repair' => 'Réparer les tables SQL',
 
-'sql_query_form'		=> 'Formulaire de requête de base de données',
+    'repair_table' => 'Réparer les tables sélectionnées',
 
-'query_result'			=> 'Résultat de la requête',
+    'size' => 'Taille',
 
-'query'					=> 'Requête SQL',
+    'sql_good_query' => 'Votre requête a été validée',
 
-'total_results'			=> 'Nombre de résultats : %x',
+    'sql_info' => ' Info SQL',
 
-'total_affected_rows'	=> 'Nombre de lignes affectées : ',
+    'sql_no_result' => 'La requête que vous avez saisie n\'a produit aucun résultat ',
 
-'browse'				=> 'Parcourir',
+    'sql_not_allowed' => 'Désolé, mais ce n\'est pas un des types de requêtes autorisés.',
 
-'tables'				=> 'tables',
+    'sql_processlist' => 'Liste de processus',
 
-'table_name'			=> 'Nom de la table',
+    'sql_query_debug' => 'Activer erreur output MySQL ',
 
-'size'					=> 'Taille',
+    'sql_query_form' => 'Formulaire de requêtes de base de données',
 
-'type'					=> 'Type',
+    'sql_query_instructions' => 'Utiliser ce formulaire pour saisir une requête SQL',
 
-'analyze'				=> 'Analyser les tables',
+    'sql_status' => 'Info statut',
 
-'optimize'				=> 'Optimiser les tables SQL',
+    'sql_system_vars' => 'Variables système',
 
-'repair'				=> 'Réparer les tables SQL',
+    'sql_utilities' => 'Utilitaires SQL',
 
-'optimize_table'		=> 'Optimiser les tables sélectionnées',
+    'sql_version' => 'Version de la base de données',
 
-'repair_table'			=> 'Réparer les tables sélectionnées',
+    'sql_view_database' => 'Gérer les tables de la base de données',
 
-'no_buttons_selected'	=> 'Vous devez sélectionner les tables auxquelles appliquer cette action',
+    'table_name' => 'Nom de la table',
 
-'sql_view_database'		=> 'Gérer les tables de base de données',
+    'tables' => 'tables',
 
-'sql_no_result'			=> 'La requête n\'a retourné aucun résultat',
+    'total_affected_rows' => 'Total des rangs affectés: ',
 
-'sql_not_allowed'		=> 'Désolé, mais ce type de requête n\'est pas autorisé.',
+    'total_queries' => 'Total des requêtes de serveur depuis le départ',
 
-'sql_query_instructions'=> 'Utilisez ce formulaire pour soumettre une requête SQL',
+    'total_results' => 'Total des résultats: %x',
 
-'sql_query_debug'		=> 'Activer la sortie d\'erreur MySQL',
+    'type' => 'Type',
 
-'sql_good_query'		=> 'Votre requête a été exécutée avec succès',
+    /* Clear Caching */
+    'cache_deleted' => 'Les fichiers cache ont été supprimés',
 
-/* Clear Caching */
-'cache_deleted'			=> 'Les fichiers cache ont été supprimés',
+    /* Search and Replace */
+    'channel_entry_title' => 'Titre d\'entrée de canal',
 
-/* Search and Replace */
-'site_preferences'		=> 'Préférences du site',
+    'channel_fields' => 'Champs de canal',
 
-'channel_entry_title'	=> 'Titres des articles de canal',
+    'choose_below' => '(Choisir à partir de ce qui suit)',
 
-'channel_fields'		=> 'Champs de canal',
+   'if_replacing_templates' => 'Si vous effectuez des remplacements à partir des modèles, <a href="%x">synchronisez d\'abord avec la base de données</a>, ou',
 
-'templates'				=> 'Dans TOUS les modèles',
+    'permanent_data_loss' => 'une perte définitive de données peut se produire!',
 
-'template_groups'		=> 'Groupes de modèles',
+    'rows_replaced' => 'Nombre d\'occurrences de la base de données au sein desquelles un remplacement s\'est produit:',
 
-'rows_replaced'			=> 'Nombre d\'enregistrements de la base de données dans lesquels un remplacement a eu lieu :',
+    'site_preferences' => 'Préférences de site',
 
-'if_replacing_templates'=> 'Si vous procédez à des remplacements à l\'intérieur des modèles, <a href="%x">synchronisez avec la base de données</a> d\'abord, ou',
+    'template_groups' => 'Groupes de modèles',
 
-'choose_below'			=> '(Choisissez parmi les suivants)',
+    'templates' => 'Dans TOUS les modèles',
 
-'permanent_data_loss'	=> 'Une perte irréversible de données peut se produire !',
+    /* Recount Stats */
+    'channel_titles' => 'Entrées canaux',
 
-/* Recount Stats */
-'recalculate' 			=> 'Recompter les statistiques',
+    'do_recount' => 'Effectuer un recomptage',
 
-'do_recount'			=> 'Effectuer un recomptage',
+    'forum_topics' => 'Sujets de forum',
 
-'records' 				=> 'Enregistrements de la base de données',
+    'forums' => 'Forums',
 
-'source' 				=> 'Source',
+    'members' => 'Membres',
 
-'recount_info' 			=> 'Les liens ci-dessous vous permettent de mettre à jour différentes statistiques, comme le nombre d\'articles que chaque membre a soumis.',
+    'recalculate' => 'Recompter les statistiques',
 
-'members'				=> 'Membres',
+    'records' => 'Enregistrements de la base de données',
 
-'channel_titles'		=> 'Articles de canal',
+    'recount_completed' => 'Recomptage complété',
 
-'site_statistics' 		=> 'Statistiques du site',
+    'recount_info' => 'Les liens ci-dessous vous permettent de mettre à jour différentes statistiques, comme le nombre d\'entrées que chaque membre a publiées.',
 
-'forums'				=> 'Forums',
+    'recount_prefs' => 'Préférences de recomptage',
 
-'forum_topics'			=> 'Sujets de forum',
+    'site_statistics' => 'Statistiques de site',
 
-'recount_completed'		=> 'Recomptage terminé',
-
-'recount_prefs' 		=> 'Préférences de recomptage',
+    'source' => 'Source',
 
 );
 

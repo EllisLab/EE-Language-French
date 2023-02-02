@@ -2,73 +2,69 @@
 
 $lang = array(
 
-//----------------------------
-// Email
-//----------------------------
+    'em_banned_from_email' => 'L\'expéditeur de l\'adresse email que vous avez saisie est censuré.',
 
-'em_banned_from_email' => "L'adresse email de l'expéditeur que vous avez saisie est exclue.",
+    'em_banned_recipient' => 'Un ou plusieurs de vos destinataires d\'emails sont censurés.',
 
-'em_banned_recipient' => "Un ou plusieurs de vos destinataires emails sont exclus.",
+    'em_email_sent' => 'Votre message email vient d\'être envoyé avec succès.',
 
-'em_interval_warning' => "Vous ne pouvez soumettre les formulaires d'email que toutes les %s secondes",
+    'em_interval_warning' => 'Vous êtes autorisé(e) à soumettre seulement des formulaires d\'emails toutes les %s secondes',
 
-'em_invalid_recipient' => "Un ou plusieurs de vos destinataires emails sont invalides.",
+    'em_invalid_recipient' => 'Un ou plusieurs de vos destinataires d\'emails sont non valides.',
 
-'em_limit_exceeded' => "Vous avez dépassé le nombre d'emails autorisés à être envoyés par jour.",
+    'em_limit_exceeded' => 'Vous avez dépassé la limite journalière du nombre d\'emails autorisés .',
 
-'em_no_preview_template_specified' => 'La balise email ne contient pas l\'emplacement de votre modèle de prévisualisation.',
+    'em_no_preview_template_specified' => 'La balise email ne contient pas la localisation de votre modèle de prévisualisation.',
 
-'em_no_valid_recipients' => "Votre email n'a pas de destinataires valide.",
+    'em_no_valid_recipients' => 'Votre email n\'a pas de destinataires valides.',
 
-'em_sender_required' => "Une adresse d'expéditeur valide est requise",
+    'em_sender_required' => 'Un expéditeur d\'email valide est requis',
 
-'email_attachment_missing' => "Impossible de localiser la pièce jointe suivante : %s",
+    'em_unauthorized_request' => 'Vous n\'êtes pas autorisé(e) à engager cette action',
 
-'email_attachment_unreadable' => "Impossible d\'ouvrir cette pièce jointe : %s",
+    'email_attachment_missing' => 'Impossible de localiser la pièce jointe d\'email suivante: %s',
 
-'email_exit_status' => "Code statut de sortie : %s",
+    'email_attachment_unreadable' => 'Impossible d\'ouvrir cette pièce jointe: %s',
 
-'email_failed_smtp_login' => "Impossible d\'envoyer la commande AUTH LOGIN. Erreur : %s",
+    'email_exit_status' => 'Exit code de statut: %s',
 
-'email_invalid_address' => "Adresse email invalide : %s",
+    'email_failed_smtp_login' => 'Echec d\'envoi de la commande LOGIN AUTH. Erreur: %s',
 
-'email_must_be_array' => "La méthode de validation des emails doit être passée dans une matrice (array).",
+    'email_invalid_address' => 'Adresse email non valide: %s',
 
-'email_no_hostname' => "Vous n\'avez pas indiqué de nom d\'hôte SMTP.",
+    'email_module_description' => 'Module email utilisateur',
 
-'email_no_port' => "Vous n\'avez pas indiqué de port SMTP.",
+    'email_module_name' => 'Email',
 
-'email_no_recipients' => "Vous devez inclure des destinataires : À, Cc, Cci",
+    'email_must_be_array' => 'La méthode de validation d\'email doit passer par un tableau.',
 
-'email_no_smtp_unpw' => "Erreur : vous devez inscrire un nom d\'utilisateur et un mot de passe SMTP.",
+    'email_no_hostname' => 'Vous n\'avez pas précisé un nom d\'hébergement SMTP.',
 
-'email_no_socket' => "Impossible d\'ouvrir un socket vers Sendmail. Merci de vérifier vos paramètres.",
+    'email_no_port' => 'Vous n\'avez pas précisé un port SMTP.',
 
-'email_send_failure_phpmail' => "Impossible d\'envoyer un email avec PHP mail(). Votre serveur n\'est sans doute pas configuré pour envoyer des emails avec cette méthode.",
+    'email_no_recipients' => 'Vous devez inclure des destinaires dans: To, Cc, ou Bcc',
 
-'email_send_failure_sendmail' => "Impossible d\'envoyer un email avec PHP Sendmail. Votre serveur n\'est sans doute pas configuré pour envoyer des emails avec cette méthode.",
+    'email_no_smtp_unpw' => 'Erreur: vous devez préciser un nom d\'utilisateur et un mot de passe SMTP.',
 
-'email_send_failure_smtp' => "Impossible d\'envoyer un email avec PHP SMTP. Votre serveur n\'est sans doute pas configuré pour envoyer des emails avec cette méthode.",
+    'email_no_socket' => 'Impossible d\'ouvrir un socket dans Sendmail. Merci de vérifier vos réglages.',
 
-'email_sent' => "Votre message a été envoyé avec succès en utilisant le protocol suivant : %s",
+    'email_send_failure_phpmail' => 'Impossible d\'envoyer un email en utilisant PHP mail(). Votre serveur n\'est peut-être pas configuré pour adresser des emails par cette méthode.',
 
-'email_smtp_auth_pw' => "Impossible d\'authentifier le mot de passe. Erreur : %s",
+    'email_send_failure_sendmail' => 'Impossible d\'envoyer un email en utilisant PHP Sendmail. Votre serveur n\'est peut-être pas configuré pour adresser des emails par cette méthode.',
 
-'email_smtp_auth_un' => "Impossible d\'authentifier le nom d\'utilisateur. Erreur : %s",
+    'email_send_failure_smtp' => 'Impossible d\'envoyer un email en utilisant PHP SMTP. Votre serveur n\'est peut-être pas configuré pour adresser des emails par cette méthode.',
 
-'email_smtp_data_failure' => "Impossible d\'envoyer les données : %s",
+    'email_sent' => 'Votre message a été envoyé avec succès en utilisant le protocole suivant: %s',
 
-'email_smtp_error' => "L\'erreur SMTP suivante est survenue : %s",
+    'email_smtp_auth_pw' => 'Echec d\'authentification du mot de passe. Erreur: %s',
 
-'message_required' => "Le message de l'email est requis",
+    'email_smtp_auth_un' => 'Echec d\'authentification du nom d\'utilisateur. Erreur: %s',
 
-"em_email_sent" => "Votre message email a été expédié.",
+    'email_smtp_data_failure' => 'Impossible d\'envoyer des données: %s',
 
-"em_unauthorized_request" => "Vous n'êtes pas autorisé à exécuter cette action",
+    'email_smtp_error' => 'L\'erreur SMTP suivante a été reçue: %s',
 
-"email_module_description" => "Module d'email utilisateur",
-
-"email_module_name" => "Email",
+    'message_required' => 'Le message email est requis',
 
 );
 

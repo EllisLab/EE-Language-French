@@ -1,213 +1,204 @@
 <?php
+
 $lang = array(
 
-/* Sidebar Menu */
+    /* Sidebar Menu */
+    'addon' => 'Add-On',
 
-'addon_manager'					=>		'Gestion des Add-Ons',
+    'addon_manager' => 'Add-Ons',
 
-'addon'							=>		'Add-On',
+    'updates' => 'Mises à jour',
 
-'addons'						=>		'Add-Ons',
+    'add-on-store' => 'Boutique d\'Add-Ons',
 
-'all_addons'					=>		'Tous les Add-Ons',
+    'addons' => 'Add-Ons',
 
-'author'						=> 		'Auteur',
+    'all_addons' => 'Tous les Add-Ons',
 
-'available_parameters'			=>		'Paramètres disponibles',
+    'author' => 'Auteur',
 
-'example_usage'					=>		'Example d\'utilisation',
+    'available_parameters' => 'Paramètres disponibles',
 
-'manage_addon_extensions'		=>		'Gérer les extensions Add-Ons',
+    'example_usage' => 'Exemple d\'utilisation',
 
-'manage_extensions'				=>		'Gérer les extensions',
+    'manage_addon_extensions' => 'Gérer les extensions des Add-ons',
 
-'manual'						=>		'Manuel',
+    'manage_extensions' => 'Gérer les extensions',
 
-'no_addon_extensions_search_results'	=>		'Aucune <b>extension Add-on</b> trouvée',
+    'manual' => 'Manuel',
 
-'no_addon_search_results'		=>		'Aucun <b>Add-On</b> trouvé',
+    'no_addon_extensions_search_results' => 'Aucune <b>extension Add-on</b> trouvée',
 
-'requested_module_not_installed' => 'Le module requis n\'est pas installé :',
+    'no_addon_search_results' => 'Aucun <b>Add-On</b> trouvé',
 
-'search_addons_button'			=>		'rechercher des add-ons',
+    'requested_module_not_installed' => 'Le module demandé n\'est pas installé:',
 
-'show_all_addons'				=>		'Tous les %d Add-Ons',
+    'search_addons_button' => 'recherche Add-ons',
 
-'third_party_addons'			=>		'Add-Ons tiers',
+    'show_all_addons' => 'Tous les %d Add-Ons',
 
-'update_to_version'				=>		'Mise à jour vers %s',
+    'third_party_addons' => ' Add-Ons issus de tiers',
 
-'update'						=>		'Mise à Jour',
+    'update' => 'Mise à jour',
 
+    'update_to_version' => 'Mettre à jour jusqu\'à %s',
 
-/* Confirm uninstall modal */
+    /* confirm uninstall modal */
+    'btn_confirm_and_uninstall' => 'Confirmer et désinstaller',
 
-'confirm_uninstall' => 'Confirmer la désinstallation',
+    'btn_confirm_and_uninstall_working' => 'Désinstallation en cours',
 
-'confirm_uninstall_desc' => 'Vous essayez de désinstaller les éléments suivants, merci de confirmer cette action.',
+    'confirm_uninstall' => 'Confirmer la désinstallation',
 
-'btn_confirm_and_uninstall' => 'Confirmer et désinstaller',
+    'confirm_uninstall_desc' => 'Vous tentez de désinstaller les articles suivants, merci de confirmer cette action.',
+    
+    'fieldtype_is_in_use' => 'Ce type de champ est utilisé au sein des champs suivants:',
 
-'btn_confirm_and_uninstall_working' => 'Désinstallation...',
+    /* Filters */
+    'addons_installed' => 'Add-Ons installés',
 
+    'addons_installed_desc' => 'Les Add-on(s) suivants ont été installés: ',
 
-/* Filters */
+    'addons_not_installed' => 'Add-Ons non installés',
 
-'addons_installed_desc'			=>		'Les add-ons suivants on été installés : ',
+    'addon_not_fully_functional' => '%s n\'est pas complètement fonctionnel',
 
-'addons_installed'				=>		'Add-Ons installés',
+    'existing_consent_request' => 'Les add-on(s) suivants n\'ont pas été installés suite à une Requête de Consentement déjà existante que les add-ons tentent de recréer:',
 
-'addons_not_installed'			=>		'Add-Ons non installés',
+    'contact_developer' => 'Merci de contacter le développeur du Add-on pour demander son assistance.',
 
-'addons_uninstalled_desc'		=>		'Les add-ons suivants ont été désinstallés : ',
+    'addons_uninstalled' => 'Add-Ons désinstallés',
 
-'addons_uninstalled'			=>		'Add-Ons désinstallés',
+    'addons_uninstalled_desc' => 'Les Add-on(s) suivants ont été désinstallés: ',
 
-'addons_updated_desc'			=>		'Les add-ons suivants ont été mis à jour : ',
+    'addons_updated' => 'Add-Ons mis à jour',
 
-'addons_updated'				=>		'Add-Ons mis à jour',
+    'addons_updated_desc' => 'Les Add-on(s) suivants ont été mis à jour: ',
 
-'btn_save_settings'             =>      'Enregistrer les paramètres',
+    'btn_save_settings' => 'Sauvegarder les réglages',
 
-'contact_developer'				=>		'Merci de contacter le développeur de l\'add-on pour assistance.',
+    'custom_limit' => 'Personnaliser la limite',
 
-'custom_limit'					=>		'limite personnalisée',
+    'developer' => 'développeur',
 
-'developer'						=>		'développeur',
+    'entries' => 'Entrées',
 
-'entries'						=>		'Articles',
+    'extension_class_does_not_exist' => 'La classe %c n\'existe pas dans (%f)',
 
-'existing_consent_request'		=>		'Les add-ons suivants n\'ont pas pu être installés en raison d\'une Requête de Consentement déjà existante que les add-ons essaient de créer :',
+    'filter_by_status' => 'statut',
 
-'extension_class_does_not_exist' => 'La classe %c n\'existe pas dans (%f)',
+    'install' => 'Installer',
 
-'filter_by_status'				=>		'statut',
+    'installed' => 'Installés',
 
-'filters'						=>		'Filtres',
+    'needs_updates' => 'A besoin de mises à jour',
 
-'install'						=>		'Installer',
+    'settings_saved' => 'Réglages sauvegardés',
 
-'installed'						=>		'Installé',
+    'settings_saved_desc' => 'Les réglages pour %s ont été sauvegardés.',
 
-'needs_updates'					=>		'Nécessite des MAJ',
+    'uninstall' => 'Désinstaller',
 
-'settings_saved_desc'		    =>		'Les paramètres pour %s ont été enregistrés.',
+    'uninstalled' => 'Désinstallés',
 
-'settings_saved'			    =>		'Paramètres enregistrés',
+    /* 2.x */
+    'addons_extensions' => 'Extensions',
 
-'uninstall'						=>		'Désinstaller',
+    'addons_fieldtypes' => 'Types de champs',
 
-'uninstalled'					=>		'Désinstallé',
+    'addons_modules' => 'Modules',
 
-// Google Maps Keys
+    'addons_plugins' => 'Plugins',
 
-'default_map'					=>		'Carte par défaut',
+    'and_more' => 'et %x en …plus',
 
-'latitude_desc'					=>		'Latitude par défaut pour ce champ.',
+    'available_to_member_groups' => 'Accessible aux groupes de membres',
 
-'latitude'						=>		'Latitude',
+    'component' => 'Composant',
 
-'longitude_desc'				=>		'Longitude par défaut pour ce champ.',
+    'configuration' => 'Configuration',
 
-'longitude'						=>		'Longitude',
+    'current_status' => 'Statut actuel',
 
-'manual_override'				=>		'Contournement manuel',
+    'delete_fieldtype' => 'Retirer le type de champ',
 
-'preview_desc'					=>		'Vue par défaut de la carte comme elle apparaîtra pour ce champ.',
+    'delete_fieldtype_confirm' => 'Etes-vous sûr(e) de vouloir supprimer ce type de champ?',
 
-'preview'						=>		'Aperçu',
+    'description' => 'Description',
 
-'zoom_desc'						=>		'Niveau de zoom par défaut pour ce champ.',
+    'ext_disabled_short' => 'désactivé',
 
-'zoom'							=>		'Zoom',
+    'ext_enabled_short' => 'activé',
 
-// 2.x
+    'extension' => 'Extension',
 
-'addons_extensions' => 'Extensions',
+    'extension_disabled' => 'Extension désactivée',
 
-'addons_fieldtypes' => 'Types de champ',
+    'extension_enabled' => 'Extension activée',
 
-'addons_modules' => 'Modules',
+    'extensions' => 'Extensions',
 
-'addons_plugins' => 'Plugins',
+    'extensions_disabled' => 'Extensions désactivées',
 
-'and_more' => 'et %x de plus...',
+    'extensions_disabled_desc' => 'Les extensions ont été désactivées.',
 
-'available_to_member_groups' => 'Disponible pour les groupes de membres',
+    'extensions_disabled_message' => 'Les extensions ont été désactivées dans la configuration du système, c\'est pourquoi elles ne figurent pas dans cette liste .',
 
-'component' => 'Composant',
+    'extensions_disabled_warning' => 'Afin de pouvoir installer cet Add-on, vous devez activer les extensions. Souhaitez-vous activer ces dernières?',
 
-'configuration'					=>		'Configuration',
+    'extensions_enabled' => 'Extensions activées',
 
-'current_status' => 'Statut actuel',
+    'extensions_enabled_desc' => 'Les extensions ont été activées.',
 
-'delete_fieldtype_confirm' => 'Êtes-vous sûr de vouloir supprimer ce type de champ ?',
+    'fieldtype' => 'Type de champ',
 
-'delete_fieldtype' => 'Supprimer le type de champ',
+    'fieldtype_data_will_be_lost' => 'Toutes les données affectées à ce type de champ, en y incluant les données des canaux qui lui sont associées, seront supprimées de façon définitive!',
 
-'description' => 'Description',
+    'fieldtype_name' => 'Nom de type de champ',
 
-'ext_disabled_short'			=>		'désactivée',
+    'global_settings_saved' => 'Réglages sauvegardés',
 
-'ext_enabled_short'				=>		'activée',
+    'member_group_assignment' => 'Groupes de membres affectés',
 
-'extension_disabled' => 'Extension désactivée',
+    'module' => 'Module',
 
-'extension_enabled' => 'Extension activée',
+    'modules' => 'Modules',
 
-'extension' => 'Extension',
+    'no_extension_id' => 'Aucune extension spécifiée',
 
-'extensions_disabled_desc'		=>		'Les extensions ont été désactivées.',
+    'none' => 'Aucun(e)',
 
-'extensions_disabled_message' => 'Les extensions ont été désactivées dans la configuration système, elles ne sont donc pas présentes dans cette liste.',
+    'not_installed' => 'Non installé(e)',
 
-'extensions_disabled_warning'	=>		'Afin d\'installer cet add-on, vous devez activer les extensions. Souhaitez-vous activer les extensions ?',
+    'package_settings' => 'Réglages des paquets',
 
-'extensions_disabled' => 'Extensions désactivées',
+    'page_assignment' => 'Pages affectées',
 
-'extensions_enabled_desc'		=>		'Les extensions ont été activées.',
+    'plugins' => 'Plugins',
 
-'extensions_enabled' => 'Extensions activées',
+    'plugins_not_available' => 'La source Plugin est désactivée dans la version bêta.',
 
-'extensions' => 'Extensions',
+    'remove' => 'Retirer',
 
-'fieldtype_data_will_be_lost' => 'Toutes les données associées à ce type de champ, y compris les données dans les canaux, seront effacées de façon irréversible',
+    'required_by' => 'Requis par:',
 
-'fieldtype_name' => 'Nom du type de champ',
+    'specific_page' => 'Page spécifique?',
 
-'fieldtype' => 'Type de champ',
+    'version' => 'Version',
 
-'global_settings_saved' => 'Paramètres enregistrés',
+    'version_required' => '%s version %s ou supérieure est requise.',
 
-'member_group_assignment' => 'Groupes de membres affectés',
+    /* License */
 
-'module' => 'Module',
+    'license_license_expired' => 'License expirée',
+    'license_invalid_domain' => 'Domaine de site invalide',
+    'license_invalid_license_key' => 'Clé invalide',
+    'license_missing_license_key' => 'Clé manquante',
+    'license_update_available' => 'Mise à jour disponible',
+    'unlicensed_addon' => 'Add-on sans licence',
+    'unlicensed_addon_message' => '<b>%s</b> ne possède pas de licence valide. <a href="https://expressionengine.com/store/licenses" target="_blank">Plus d\'infos ici</a>',
 
-'modules' => 'Modules',
 
-'no_extension_id' => 'Aucune extension choisie',
-
-'none' => 'Aucun',
-
-'not_installed' => 'Non installé',
-
-'package_settings' => 'Paramètres du paquet',
-
-'page_assignment' => 'Pages assignées',
-
-'plugins_not_available' => 'Le plugin "Feed" est désactivé en version beta',
-
-'plugins' => 'Plugins',
-
-'remove' => 'Supprimer',
-
-'required_by' => 'Utilisé par :',
-
-'rte_tool' => 'Outil Éditeur de Texte Enrichi',
-
-'specific_page' => 'Page spécifique ?',
-
-'version' => 'Version',
 
 );
 

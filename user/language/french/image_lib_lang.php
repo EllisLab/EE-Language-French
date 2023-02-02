@@ -2,33 +2,45 @@
 
 $lang = array(
 
-"imglib_gd_required_for_props" => "Votre serveur doit supporter la bibliothèque d'image GD pour déterminer les propriétés de l'image",
+    'imglib_copy_error' => 'Une erreur a été détectée en tentant de remplacer ce fichier. Merci de vous assurer que votre fichier de répertoire est réinscriptible.',
 
-"imglib_unsupported_imagecreate" => "Votre serveur ne supporte pas la fonction GD nécessaire pour traiter ce type d'image.",
+    'imglib_copy_failed' => 'La routine de copie d\'image a échoué.',
 
-"imglib_gif_not_supported" => "Les images GIF ne sont généralement pas supportées à cause de restrictions de licence. Vous devriez utiliser des images JPG ou PNG à la place.",
+    'imglib_gd_required' => 'La bibliothèque GD d\'images est requise pour utiliser cette fonctionnalité.',
 
-"imglib_jpg_not_supported" => "Les images JPG ne sont pas supportées",
+    'imglib_gd_required_for_props' => 'Votre serveur doit supporter la bibliothèque d\'images GD de façon à déterminer les propriétés d\'images.',
 
-"imglib_png_not_supported" => "Les images PNG ne sont pas supportées",
+    'imglib_gif_not_supported' => 'Les images GIF ne sont pas toujours supportées à cause de certaines restrictions de licence. Vous devrez peut-être leur substituer des images des formats JPG ou PNG .',
 
-"imglib_jpg_or_png_required" => "Le protocole de redimensionnement spécifié dans vos préférences ne fonctionne qu'avec les images de type JPEG ou PNG.",
+    'imglib_image_process_failed' => 'Le traitement d\'images à échoué. Merci de vérifier que votre serveur supporte le protocole choisi et que le chemin qui conduit à votre bibliothèque d\'images est correct.',
 
-"imglib_copy_error" => "Une erreur a été rencontrée lors de la tentative de remplacement du fichier. Veuillez vérifier que le répertoire est accessible en écriture.",
+    'imglib_invalid_path' => 'Le chemin de votre image n\'est pas correct.',
 
-"imglib_rotate_unsupported" => "La rotation d'image ne semble pas être supportée par votre serveur.",
+    'imglib_jpg_not_supported' => 'Les images JPG ne sont pas supportées.',
 
-"imglib_libpath_invalid" => "Le chemin vers votre bibliothèque d'image est incorrect. Veuillez définir le chemin correct dans vos préférences d'images.",
+    'imglib_jpg_or_png_required' => 'Le protocole de redimensionnement d\'images précisé dans vos préférences ne fonctionne qu\'avec des types d\'images JPG ou PNG.',
 
-"imglib_image_process_failed" => "Le traitement de l'image a échoué. Veuillez vérifier que votre serveur supporte le protocole choisi et que le chemin vers votre bibliothèque d'image est correct.",
+    'imglib_libpath_invalid' => 'Le chemin de votre bibliothèque d\'images n\'est pas correct. Merci de paramétrer le chemin adéquat dans vos préférences d\'images.',
 
-"imglib_rotation_angle_required" => "Un angle de rotation est requis pour effectuer une rotation sur l'image.",
+    'imglib_unsafe_config' => 'Un élément de configuration contient des caractères non sécuritaires pour opérer dans un environnement shell.',
 
-"imglib_writing_failed_gif" => "Image GIF ",
+    'imglib_missing_font' => 'Impossible de trouver une police à utiliser.',
 
-"imglib_invalid_path" => "Le chemin vers l'image n'est pas correct",
+    'imglib_png_not_supported' => 'Les images PNG ne sont pas supportées.',
 
-"imglib_copy_failed" => "La routine de copie d'image a échoué.",
+    'imglib_webp_not_supported' => 'Les images WebP ne sont pas supportées',
+
+    'imglib_rotate_unsupported' => 'La rotation d\'images ne semble pas être supportée sur votre serveur.',
+
+    'imglib_rotation_angle_required' => 'Un angle de rotation est requis pour faire pivoter l\'image',
+
+    'imglib_save_failed' => 'Impossible de sauvegarder l\'image. Merci de vous assurer que l\'image et le répertoire de fichiers soient réinscriptibles.',
+
+    'imglib_source_image_required' => 'Vous devez préciser une source d\'image dans vos préférences.',
+
+    'imglib_unsupported_imagecreate' => 'Votre serveur ne supporte pas la fonction GD requise pour traiter ce type d\'image.',
+
+    'imglib_writing_failed_gif' => 'Image GIF.',
 
 );
 

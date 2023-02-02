@@ -1,17 +1,5 @@
 <?php
 
-if (! defined('BASEPATH')) {
-    exit('No direct script access allowed');
-}
-
-/**
- * Pro Search language file
- *
- * @package        pro_search
- * @author         ExpressionEngine
- * @link           https://expressionengine.com/
- * @copyright      Copyright (c) 2022, ExpressionEngine
- */
 $lang = array(
 
     //----------------------------------------
@@ -163,6 +151,8 @@ $lang = array(
 
     "lexicon_removed_word" =>
     "Supprimé: “%s”.",
+
+    "set_langauge_to_use_tool" => "* réglage de langue manquant: veuillez choisir une langue afin d\'activer",
 
     //----------------------------------------
     // Edit collection page - fields

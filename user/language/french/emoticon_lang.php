@@ -2,31 +2,21 @@
 
 $lang = array(
 
-//----------------------------------------
-// Required for MODULES page
-//----------------------------------------
+    'emoticon_alt' => 'Balise Alt',
 
-"emoticon_module_name" => "Émoticône",
+    'emoticon_glyph' => 'Glyph',
 
-"emoticon_module_description" => "Module d'émoticônes (smileys)",
+    'emoticon_heading' => 'Emoticôenes',
 
+    'emoticon_height' => 'Hauteur',
 
-//----------------------------------------
-// Emoticon language lines
-//----------------------------------------
+    'emoticon_image' => 'Image',
 
-"emoticon_heading" => "Émoticône",
+    'emoticon_module_description' => 'Module Emoticône (smiley)',
 
-"emoticon_glyph" => "Glyphe",
+    'emoticon_module_name' => 'Emoticône',
 
-"emoticon_image" => "Image",
-
-"emoticon_width" => "Largeur",
-
-"emoticon_height" => "Hauteur",
-
-"emoticon_alt" => "Balise Alt",
-
+    'emoticon_width' => 'Largeur',
 
 );
 

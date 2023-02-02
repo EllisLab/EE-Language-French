@@ -1,151 +1,152 @@
 <?php
+
 $lang = array(
 
-'all_email_sent_message'	=> 'Tous vos emails ont été envoyés',
+    'all_email_sent_message' => 'Tous les emails ont été envoyés',
 
-'attachment_problem'	=> 'Un problème est survenu au moment de joindre votre fichier.',
+    'attachment' => 'Pièce jointe',
 
-'attachment_unavailable'	=> 'Pour envoyer des pièces jointes vous devez définir un répertoire de téléchargement.',
+    'attachment_problem' => 'Il y a eu un problème pour ajouter votre fichier joint.',
 
-'attachment_warning'	=> 'Les pièces jointes ne sont <strong>pas enregistrées</strong> par ExpressionEngine, et doivent être enregistrées localement.',
+    'attachment_unavailable' => 'Pour envoyer des pièces jointes, une localisation de téléversement doit être définie.',
 
-'attachment'			=> 'Pièce jointe',
+    'attachment_warning' => 'Les pièces jointes <strong>ne sont pas sauvegardées</strong> par ExpressionEngine et doivent donc être sauvegardées localement.',
 
-'batchmode_disabled'	=> 'Le mode batch est désactivé',
+    'batchmode_disabled' => 'Le Mode Batch (envoi par paquets) est désactivé',
 
-'batchmode_ready_to_begin'	=> 'Le processus d\'envoi d\'email va débuter dans 5 secondes',
+    'batchmode_ready_to_begin' => 'La procédure d\'envoi des emails va débuter dans 5 secondes',
 
-'batchmode_warning'		=> 'Ne touchez pas à votre navigateur avant que le processus ne soit complètement terminé !',
+    'batchmode_warning' => 'Ne pas utiliser votre navigateur avant que le processus ne soit complètement achevé!',
 
-'batch_size_is_zero'	=> 'Le mode batch est activé, mais la taille du batch n\'est pas correctement définie. Vérifiez vos <a href="'.DOC_URL.'/general/system_configuration_overrides.html#email-batch-size" rel="external">Email Configuration Overrides</a> dans votre fichier de config.',
+    'batch_size_is_zero' => 'Le mode Batch (envoi par paquets) est activé mais le volume du batch n\'est pas réglé correctement. Consulter votre <a href="' . DOC_URL . '/general/system_configuration_overrides.html#email-batch-size" rel="external">Email Configuration Overrides</a> dans votre fichier de config.',
 
-'bcc'					=> 'Copie cachée à',
+    'bcc' => 'BCC',
 
-'cache_data_missing'	=> 'Les données cache d\'email n\'ont pu être localisées.',
+    'cache_data_missing' => 'Les données en cache d\'email n\'ont pas été localisées.',
 
-'cc'					=> 'Copie à',
+    'cc' => 'CC',
 
-'chars'					=> 'caractères',
+    'chars' => 'caractères',
 
-'complete'				=> 'Terminé',
+    'complete' => 'Compléter',
 
-'currently_sending_batch'	=> 'Envoi des emails de %x à %y',
+    'currently_sending_batch' => 'Envoi en cours d\'emails %x à %y',
 
-'delete_confirm'		=> 'Confirmation de suppression d\'email',
+    'delete_confirm' => 'Confirmation de suppression d\'email',
 
-'delete_emails'			=> 'Supprimer emails',
+    'delete_emails' => 'Supprimer l\'email',
 
-'delete_question'		=> 'Êtes-vous sûr de vouloir supprimer les emails spécifiés ?',
+    'delete_question' => 'Etes-vous sûr(e) de vouloir supprimer les emails précisés?',
 
-'dummy_location'		=> 'L\'email a été généré vers : %s',
+    'dummy_location' => 'L\'email a été dirigé à: %s',
 
-'email_date'			=> 'Date d\'envoi',
+    'email_date' => 'Date d\'envoi',
 
-'email_deleted'			=> 'Les emails ont été supprimés',
+    'email_deleted' => 'L\'email a été supprimé',
 
-'email_error'			=> 'Erreur email',
+    'email_error' => 'Erreur d\'email',
 
-'email_sent_message'	=> 'Votre email a été envoyé',
+    'email_sent_message' => 'Votre email a été envoyé',
 
-'email_success'			=> 'Email envoyé',
+    'email_success' => 'Email envoyé',
 
-'email_title'			=> 'Titre de l\'email',
+    'email_title' => 'Titre d\'email',
 
-'emails_remaining'		=> 'Emails restant :',
+    'emails' => 'Emails',
 
-'emails'				=> 'Emails',
+    'emails_remaining' => 'Emails restants:',
 
-'empty_form_fields'		=> 'Vous n\'avez pas rempli tous les champs.',
+    'empty_form_fields' => 'Vous avez laissé certains champs vides.',
 
-'finish_sending'		=> 'Envoi terminé',
+    'finish_sending' => 'Finir l\'envoi',
 
-'high'					=> 'Haute',
+    'high' => 'Haute',
 
-'highest'				=> 'La plus haute',
+    'highest' => 'La plus haute',
 
-'honor_email_pref'		=> 'Envoyer uniquement aux membres qui ont choisi d\'accepter les emails',
+    'honor_email_pref' => 'Envoyer exclusivement aux membres qui ont choisi d\'accepter les emails',
 
-'html'					=> 'HTML',
+    'html' => 'HTML',
 
-'incomplete'			=> 'Incomplet',
+    'incomplete' => 'Incomplet',
 
-'low'					=> 'Basse',
+    'low' => 'Basse',
 
-'lowest'				=> 'La plus basse',
+    'lowest' => 'La plus basse',
 
-'mail_format'			=> 'Formatage email',
+    'mail_format' => 'Formatage d\'email',
 
-'manual_recipients_ignored'	=> 'Le champ destinataire ci-dessus sera ignoré',
+    'manual_recipients_ignored' => 'Le champ du destinataire ci-dessus sera ignoré',
 
-'markdown'				=> 'Markdown',
+    'markdown' => 'Markdown',
 
-'message'				=> 'Message',
+    'message' => 'Message',
 
-'no_cached_email'		=> 'Il n\'y a aucun email en cache',
+    'no_cached_email' => 'Aucun <b>email mis en cache</b> n\'a été trouvé.',
 
-'no_email_matching_criteria'			=> 'Aucune adresse ne correspond aux critères que vous avez sélectionnés',
+    'no_email_matching_criteria' => 'Il n\'y a pas d\'adresse email qui corresponde au critère que vous avez sélectionné',
 
-'normal'				=> 'Normale',
+    'normal' => 'Normal',
 
-'not_allowed_to_email_cache'			=> 'Vous n\'êtes pas autorisé à visualiser le cache des emails.',
+    'not_allowed_to_email_cache' => 'Vous n\'êtes pas autorisé(e) à visualiser les emails mis en cache.',
 
-'not_allowed_to_email_member_groups'	=> 'Vous n\'êtes pas autorisé à envoyer des emails aux groupes de membres',
+    'not_allowed_to_email_member_groups' => 'Vous n\'êtes pas autorisé(e) à adresser des emails aux groupes de membres',
 
-'not_allowed_to_email_members'			=> 'Vous n\'êtes pas autorisé à envoyer des emails aux membres',
+    'not_allowed_to_email_members' => 'Vous n\'êtes pas autorisé(e) à adresser des emails aux membres',
 
-'off'					=> 'Désactivé',
+    'off' => 'Fermé',
 
-'on'					=> 'Activé',
+    'on' => 'Ouvert',
 
-'plain_text'			=> 'Texte',
+    'plain_text' => 'Texte brut',
 
-'plaintext_alt'			=> 'Texte alternatif (optionnel, emails HTML uniquement, aucun formatage de texte appliqué)',
+    'plaintext_alt' => 'Un contenu alternatif pour votre email en <abbr title="Hyper-Text Markup Language">HTML</abbr> sera délivré en texte brut lorsqu\'une application ne  pourra pas restituer le <abbr title="Hyper-Text Markup Language">HTML</abbr>.',
 
-'plaintext_body'		=> 'Corps de texte',
+    'plaintext_body' => 'Corps de texte brut',
 
-'previous_email'		=> 'Emails précédemment envoyés',
+    'previous_email' => 'Emails précédemment adressés',
 
-'priority'				=> 'Priorité',
+    'priority' => 'Priorité',
 
-'problem_with_id'		=> 'Un problème est survenu avec le numéro ID requis pour envoyer des emails',
+    'problem_with_id' => 'Nous avons rencontré un problème avec le numéro d\'ID nécessaire pour adresser des emails',
 
-'recipient_group'		=> 'Envoyer aux groupes de membres',
+    'recipient' => 'Destinataire',
 
-'recipient'				=> 'Destinataire',
+    'recipient_group' => 'Envoyer aux groupes de membres',
 
-'remove'				=> 'Supprimer',
+    'remove' => 'Supprimer',
 
-'resend'				=> 'Réenvoyer',
+    'resend' => 'Renvoyer',
 
-'search_emails_button'	=> 'Rechercher dans les emails',
+    'search_emails_button' => 'Recherche emails',
 
-'send_an_email'			=> 'Envoyer un email',
+    'send_an_email' => 'Envoyer un email',
 
-'send_it'				=> 'Envoyer',
+    'send_it' => 'Adressez-le',
 
-'sending_email'			=> 'Envoi de l\'email',
+    'sending_email' => 'Envoi d\'email en cours…',
 
-'separate_emails_with_comma'			=> 'Séparer les adresses multiples par une virgule',
+    'separate_emails_with_comma' => 'Séparer les adresses multiples avec une virgule',
 
-'subject'				=> 'Objet',
+    'subject' => 'Sujet',
 
-'text_formatting'		=> 'Formatage texte',
+    'text_formatting' => 'Formatage de texte',
 
-'total_emails_sent'		=> 'Nombre d\'emails envoyés :',
+    'total_emails_sent' => 'Nombre total d\'emails envoyés:',
 
-'total_recipients'		=> 'Nombre de destinataires',
+    'total_recipients' => 'Total destinataires',
 
-'total_sent'			=> 'Nombre total envoyé',
+    'total_sent' => 'Total envoyés',
 
-'view_email_cache'		=> 'Voir les email précédemment envoyés',
+    'view' => 'Visualiser',
 
-'view'					=> 'Voir',
+    'wordwrap' => 'Césure de mots',
 
-'wordwrap'				=> 'Césure de mot',
+    'your_email' => 'Votre email',
 
-'your_email'			=> 'Votre email',
+    'your_name' => 'Votre nom',
 
-'your_name'				=> 'Votre nom',
+    'roles_send_warning' => '<b>Attention</b>: Envoyer un message adressé à un grand nombre de membres peut provoquer des problèmes de performance sur le serveur et cette action doit être utilisée avec précaution.',
 
 );
 

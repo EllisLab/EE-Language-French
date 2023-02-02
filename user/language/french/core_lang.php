@@ -2,442 +2,508 @@
 
 $lang = array(
 
-//----------------------------
-// General word list
-//----------------------------
+    /* General word list */
+    'and' => 'et',
 
-'and_n_others' => 'et les %d autres...',
+    'and_n_others' => 'et %d autres',
 
-'and' => 'et',
+    'at' => 'à',
 
-'at' => 'à',
+    'auto_redirection' => 'Vous serez automatiquement redirigé(e) dans %x secondes',
 
-'by' => 'par',
+    'back' => 'Retour',
 
-'dot' => 'point',
+    'by' => 'par',
 
-'encoded_email' => '(Le JavaScript doit être activé pour voir cette adresse email)',
+    'click_if_no_redirect' => 'Cliquer ici si vous n\'êtes pas redirigé(e) automatiquement ',
 
-'id' => 'ID',
+    'disabled' => 'désactivé',
 
-'next' => 'Suivant',
+    'dot' => 'point',
 
-'not_available' => 'Indisponible',
+    'enabled' => 'activé',
 
-'or' => 'ou',
+    'encoded_email' => '(JavaScript doit être activé pour visualiser cette adresse email)',
 
-'pag_first_link' => '&lsaquo; Début',
+    'first' => 'Premier',
 
-'pag_last_link' => 'Fin &rsaquo;',
+    'id' => 'ID',
 
-'preference' => 'Préférence',
+    'last' => 'Dern.',
 
-'prev' => 'Précédent',
+    'next' => 'Prochain',
 
-'required_fields' => 'Champs Obligatoires',
+    'no' => 'Non',
 
-'search' => "Rechercher",
+    'not_authorized' => 'Vous n\'êtes pas autorisé(e) à engager cette action',
 
-'setting' => 'Paramètre',
+    'not_available' => 'Non disponible',
 
-'site_homepage' => 'Page d\'accueil du site',
+    'of' => 'de',
 
-'updating' => 'Mise à Jour',
+    'off' => 'fermé',
 
-"auto_redirection" => "Vous serez redirigé automatiquement dans %x secondes",
+    'on' => 'ouvert',
 
-"back" => "Retour",
+    'or' => 'ou',
 
-"click_if_no_redirect" => "Cliquez ici si vous n'êtes pas redirigé automatiquement",
+    'pag_first_link' => '&lsaquo; Premier',
 
-"disabled" => "désactivé",
+    'pag_last_link' => 'Dernier &rsaquo;',
 
-"enabled" => "activé",
+    'page' => 'Page',
 
-"first" => "Premier",
+    'preference' => 'Préférence',
 
-"last" => "Dernier",
+    'prev' => 'Précédent',
 
-"no" => "Non",
+    'return_to_previous' => 'Retour à la page précédente',
 
-"not_authorized" => "Vous n'êtes pas autorisé à exécuter cette action",
+    'search' => 'Rechercher',
 
-"of" => "sur",
+    'setting' => 'Réglage',
 
-"off" => "éteint",
+    'site_homepage' => 'Page d\'accueil du site',
 
-"on" => "allumé",
+    'submit' => 'Envoi',
 
-"page" => "Page",
+    'system_off_msg' => 'Ce site est actuellement inactif.',
 
-"return_to_previous" => "Retourner à la page précédente",
+    'thank_you' => 'Merci!',
 
-"submit" => "Envoyer",
+    'update' => 'Mettre à jour',
 
-"system_off_msg" => "Ce site est actuellement désactivé.",
+    'updating' => 'Mise à jour en cours…',
 
-"thank_you" => "Merci !",
+    'yes' => 'Oui',
 
-"update" => "Mettre à jour",
+    'required_fields' => 'Champs requis',
 
-"yes" => "Oui",
+    'edit_this' => 'Editer cela',
 
-//----------------------------
-// Errors
-//----------------------------
+    /* Errors */
+    'captcha_incorrect' => 'Vous n\'avez pas saisi le mot exactement tel qu\'il apparaît sur l\'image',
 
-"error" => "Erreur",
+    'captcha_required' => 'Vous devez soumettre le mot qui apparaît sur l\'image',
 
-'generic_fatal_error' => 'Oups, quelque chose s\'est mal passé et cete URL ne peut pas être rendue pour le moment.',
+    'recaptcha_required' => 'la vérification reCAPTCHA n\'a pas réussi',
 
-"invalid_url" => "L'URL que vous avez soumise est invalide.",
+    'checksum_changed_accept' => 'Accepter les changements',
 
-"submission_error" => "Le formulaire que vous avez soumis contient les erreurs suivantes",
+    'checksum_changed_warning' => 'Un ou plusieurs fichiers \'core\' ont été altérés:',
 
-"general_error" => "Les erreurs suivantes ont été rencontrées",
+    'checksum_email_message' => 'ExpressionEngine a détecté la modification d\'un fichier \'core\' sur: {url}
 
-"invalid_action" => "L'action que vous avez demandée est invalide.",
-
-'csrf_token_expired' => 'Ce formulaire a expiré. Merci de rafraîchir et de re-essayer.',
-
-'current_password_required' => 'Votre mot de passe actuel est requis.',
-
-'current_password_incorrect' => 'Vous n\'avez pas correctement saisi votre mot de passe actuel.',
-
-"captcha_required" => "Vous devez saisir le mot qui apparaît dans l'image",
-
-"captcha_incorrect" => "Vous n'avez pas saisi le mot exactement comme il apparaît dans l'image",
-
-"nonexistent_page" => "La page que vous avez demandée n'a pu être trouvée",
-
-'unable_to_load_field_type' => 'Impossible de charger le fichier de type de champ demandé :  %s.<br />Confirmez que le fichier de type de champ est bien situé dans le répertoire /'.SYSDIR.'/user/addons/ ',
-
-'unwritable_cache_folder' => 'Votre répertoire Cache n\'a pas les permissions requises.<br />Pour corriger : définissez les permissions du répertoire Cache (/'.SYSDIR.'/user/cache/) à 777 (ou équivalent, selon votre serveur).',
-
-'unwritable_config_file' => 'Votre fichier de configuration n\'a pas les permissions requises.<br />Pour corriger : définissez les permissions du fichier de configuration (/'.SYSDIR.'/user/config/config.php) à 666 (ou équivalent, selon votre serveur).',
-
-'redirect_xss_fail' => 'Le lien vers lequel vous êtes redirigé contient du code potentiellement malicieux ou dangereux. Nous vous recommandons de cliquer sur le bouton "Retour Arrière" de votre navigateur et d\'envoyer un email à %s pour lui rapporter le lien qui a généré ce message d\'alerte.',
-
-'missing_mime_config' => 'Impossible d\'importer votre liste blanche de types MIME : le fichier %s n\'existe pas ou ne peut pas être lu.',
-
-'version_mismatch' => 'Votre version d\'ExpressionEngine installée (%s) n\'est pas en phase avec la version rapportée (%s). <a href="'.DOC_URL.'installation/update.html" rel="external">Merci de mettre de nouveau à jour votre installation d\'ExpressionEngine</a>.',
-
-'theme_folder_wrong' => 'Le chemin serveur de votre dossier thème est incorrect. Merci de visiter <a href="%s">Paramètres URL et chemin serveur</a> et de vérifier le <mark>Chemin serveur des thèmes</mark> et le <mark>Répertoire des thèmes</mark>.',
-
-'missing_encryption_key' => 'Aucune valeur n\'est définie dans votre fichier config.php pour <code>%s</code>. Ceci peut rendre vulnérable la sécurité de votre installation. Restaurez les clefs ou consultez <a href="%s">cet article</a> du guide utilisateur pour obtenir de l\'aide.',
-
-'checksum_changed_warning' => 'Un ou plusieurs fichiers principaux d\ExpressionEngine ont été altérés :',
-
-'checksum_changed_accept' => 'Accepter les modifications',
-
-'checksum_email_subject' => 'Un fichier principal d\'ExpressionEngine a été modifié sur votre site.',
-
-'checksum_email_message' => "ExpressionEngine a détecté la modification de l\'un de ses fichiers principaux sur : {url}
-
-Les fichiers suivants sont affectés :
+Les fichiers suivants ont été affectés:
 {changed}
 
-Si vous avez effectué ces changements, veuillez accepter les modifications sur l'accueil du panneau de contrôle. Si vous n'avez pas modifié ces fichiers ceci peut indiquer une tentative de piratage. Vérifiez les fichiers pour tout contenu suspect (JavaScript ou iFrames) et consultez : '.DOC_URL.'troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html",
+Si vous êtes l\'auteur de ces changements, merci d\'accepter les modifications sur la page d\'accueil du tableau de bord. Si vous n\'avez pas vous-même modifié ces fichiers, cela peut être une indication que vous êtes victime d\'une tentative de piratage. Vérifiez que les fichiers ne comprennent pas de contenus suspicieux (JavaScript ou iFrames) et consultez: ' . DOC_URL . 'troubleshooting/error-messages.html#expressionengine-has-detected-the-modification-of-a-core-file',
 
-'new_version_error' => 'Une erreur s\'est produite en tentant de télécharger le numéro de la version actuelle d\'ExpressionEngine. Consultez ce <a href="%s" rel="external noreferrer">document de dépannage</a> pour de plus amples informations.',
+    'checksum_email_subject' => 'Un fichier \'core\' a été modifié sur votre site.',
 
-'file_not_found' => 'Le fichier %s n\'existe pas.',
+    'warning_system_status_title' => 'Merci de vérifier le statut de système en ligne',
 
+    'warning_system_status_message' => 'Le statut actuel de votre système est réglé sur <b>%s</b>. Si vous avez besoin d\'en changer, merci de consulter les <a href="%s">Réglages système</a> ou cliquer sur le bouton ci-dessous.',
 
+    'warning_system_status_button' => 'Régler le système %s',
 
-//----------------------------
-// Member Groups
-//----------------------------
+    'csrf_token_expired' => 'Ce formulaire a expiré. Merci de rafraîchir la page et de réessayer.',
 
-"banned" => "Exclu",
+    'cookie_domain_mismatch' => 'Le domaine de cookies configuré ne correspond pas à l\'URL du site.',
 
-"guests" => "Invités",
+    'current_password_incorrect' => 'Le mot de passe actuel n\'a pas été correctement saisi.',
 
-"members" => "Membres",
+    'current_password_required' => 'Votre mot de passe actuel est requis.',
 
-"pending" => "En attente",
+    'curl_not_installed' => 'cURL n\'est pas installé sur votre serveur',
 
-"super_admins" => "Super Administrateurs",
+    'error' => 'Erreur',
 
+    'file_not_found' => 'Le fichier %s n’existe pas.',
+    
+    'file_manager' => 'Gestionnaire de fichiers',
 
-//----------------------------
-// Template.php
-//----------------------------
+    'general_error' => 'Les erreurs suivantes ont été détectées',
 
-"error_tag_syntax" => "La balise suivante contient une erreur de syntaxe :",
+    'generic_fatal_error' => 'Quelque chose s\'est mal déroulé et cette URL ne peut pas être traitée pour l\'instant.',
 
-"error_fix_syntax" => "Veuillez corriger la syntaxe dans votre modèle.",
+    'invalid_action' => 'L\'action que vous avez requise n\'est pas valide.',
 
-"error_tag_module_processing" => "La balise suivante ne peut être interprétée :",
+    'invalid_url' => 'L’URL que vous avez saisie n\'est pas valide.',
 
-"error_fix_module_processing" => "Veuillez vérifier que le module '%x' est installé et que '%y' est une méthode disponible pour ce module",
+    'missing_encryption_key' => 'Vous n\'avez pas réglé de valeur pour <code>%s</code> dans votre fichier config.php. Cela peut exposer votre installation à des failles de sécurité. Restaurez les clés ou consulter <a href="%s">this troubleshooting article</a>, le guide utilisateur pour obtenir de l\'aide.',
 
-"template_loop" => "Vous avez provoqué une boucle de modèle due à un sous-modèle mal imbriqué ('%s' est appelé de façon récursive)",
+    'el_folder_present' => ' Le répertoire <code>%s</code> est présent sur votre serveur. Veuillez vérifier que vous avez remplacé <code>index.php</code> et <code>admin.php</code> conformément aux <a href="%s">informations de mise à jour</a> et retirez ce répertoire.',
 
-'template_load_order' => 'Ordre de chargement des modèles',
+    'missing_mime_config' => 'Impossible d\'importer votre liste blanche mime-type: le fichier %s n\'existe pas et ne peut être lu.',
 
-'error_multiple_layouts' => 'Plusieurs dispositions trouvées, merci de vous assurer que vous n\'avez qu\'une seule balise de dispostion (layout tag) par modèle',
+    'new_version_error' => 'Une erreur imprévue est apparue en tentant de télécharger l\'actuelle version d\'Expressionengine. Consultez ce <a href="%s" rel="external noreferrer">document de dépannage</a> pour davantage d\'informations.',
 
-'error_layout_too_late' => 'Balise module ou plugin trouvée avant la déclaration de disposition. Merci de déplacer la balise de disposition (layout tag) en haut de votre modèle.',
+    'nonexistent_page' => 'La page demandée n\'a pas été trouvée',
 
-'error_invalid_conditional' => "Il y a une boucle conditionnelle invalide dans votre modèle. Merci de rechercher dans vos boucles conditionnelles une chaîne restée ouverte, des opérateurs invalides, un } ou un {/if} manquant.",
+    'redirect_xss_fail' => 'Le lien vers lequel vous avez été redirigé(e) contient potentiellement un code malicieux ou dangereux. Nous vous recommandons de cliquer sur le bouton retour et d\'adresser un email %s pour nous communiquer le lien qui a généré ce message.',
 
-'layout_contents_reserved' => 'Le nom "contents" est réservé aux données de modèle est ne peut pas être utilisé comme variable de disposition (ex. {layout:set name="contents"} ou {layout="foo/bar" contents=""}).',
+    'redirect_warning_header' => 'Alerte de redirection',
 
-//----------------------------
-// Email
-//----------------------------
+    'redirect_description' => 'Vous êtes en train d\'ouvrir une nouvelle page web destinée à accueillir <b>%s</b> qui ne fait pas partie de votre site ',
 
-"forgotten_email_sent" => "Si cette adresse email est associée à un compte, Les instructions pour réinitialiser votre mot de passe viennent de vous être envoyées par email.",
+    'redirect_check_address' => 'Merci de vérifier que cette adresse soit conforme.',
 
-"error_sending_email" => "Impossible d'envoyer l'email pour le moment.",
+    'redirect_cancel' => 'Annuler',
 
-"no_email_found" => "L'adresse email que vous avez saisie n'a pu être trouvée dans la base de données.",
+    'submission_error' => 'Le formulaire que vous avez saisi contient les erreurs suivantes',
 
-'password_reset_flood_lock' => 'Vous avez tenté de réinitialiser votre mot de passe de trop nombreuse fois aujourd\'hui. Merci de vérifier vos boîte de réception et boîte Spam pour récupérer les demandes précédentes, sinon contactez l\'administrateur du site.',
+    'theme_folder_wrong' => 'Le chemin de votre dossier "themes" est incorrect. Merci de vous rendre à <a href="%s">Réglages d\'URL et réglages de chemin</a> et de vérifier <code>le chemin de themes</code> et <code>l\'URL de themes</code>.',
 
-"your_new_login_info" => "Information de connexion",
+    'unable_to_load_field_type' => 'Impossible de charger le fichier de type de champ: %s. <br /> Confirmez que ce fichier de type de champ est situé dans le/' . SYSDIR . '/user/addons/ directory',
 
-"password_has_been_reset" => "Votre mot de passe a été réinitialisé et un nouveau mot de passe vous a été envoyé par email.",
+    'unwritable_cache_folder' => 'Votre dossier de cache n\'a pas les permissions requises.<br />Pour résoudre ce problème: réglez les permissions de dossier de cache (/' . SYSDIR . '/user/cache/) sur 777 (ou sur le réglage équivalent sur votre serveur).',
 
-//----------------------------
-// Date
-//----------------------------
+    'unwritable_config_file' => 'Votre fichier de configuration ne possède pas les permissions appropriées.<br />Pour résoudre ce problème: réglez les permissions du fichier de configuration(/' . SYSDIR . '/user/config/config.php) sur 666 (ou sur le réglage équivalent pour votre serveur).',
 
-'singular' => 'une',
+    'version_mismatch' => 'La version de votre installation ExpressionEngine (%s) n\'est pas cohérente avec la version signalée (%s). <a href="' . DOC_URL . 'installation/update.html" rel="external"> Merci de mettre de nouveau à jour votre installation de ExpressionEngine</a>.',
 
-'less_than' => 'moins de',
+    'php72_intl_error' => 'Votre extension PHP <code>intl</code> est périmée. Veuillez vous assurer que vous avez la version <code>ICU 4.6</code> ou une version plus récente.',
+    
+    'license_error' => 'Erreur de licence',
+    'license_error_file_not_writable' => 'Le dossier de cache doit être réinscriptible pour faire fonctionner ExpressionEngine Pro',
+    'license_error_file_broken' => 'Il y a eu une erreur lors de la validation du statut de licence d\'ExpressionEngine Pro',
 
-'about' => 'environ',
 
-'past' => 'il y a %s',
+    /* Member Groups */
+    'banned' => 'Censurés',
 
-'future' => 'dans %s',
+    'guests' => 'Invités',
 
-'ago' => 'il y a %x',
+    'members' => 'Membres',
 
-"year" => "année",
+    'pending' => 'En attente',
 
-"years" => "années",
+    'super_admins' => 'Super Admins',
 
-"month" => "mois",
+    'anonymous' => 'Anonymes',
 
-"months" => "mois",
+    /* Template.php */
+    'error_fix_module_processing' => 'Merci de vérifier que le module \'%x\' est installé et que \'%y\' est une méthode compatible avec le module',
+    
+    'error_fix_install_addon' => 'Merci de vérifier que l\'add-on \'%x\' est installé.',
 
-'fortnight' => 'quinzaine',
+    'error_fix_syntax' => 'Merci de corriger la syntaxe dans votre modèle.',
 
-'fortnights' => 'quinzaines',
+    'error_invalid_conditional' => 'Vous avez une condition non valide dans votre modèle. Merci de reconsidérer vos conditions relatives à une chaîne non fermée, de vérifier des opérateurs non valides, un } manquant, ou un {/if} oublié…',
 
-"week" => "semaine",
+    'error_layout_too_late' => 'Balise de plugin ou de module trouvée avant la déclaration d\'affichage. Merci de déplacer la balise d\'affichage dans la partie supérieure de votre modèle.',
 
-"weeks" => "semaines",
+    'error_multiple_layouts' => 'Plusieurs affichages ont été trouvés, merci de vous assurer que vous avez seulement une balise de présentation par modèle',
 
-"day" => "jour",
+    'error_tag_module_processing' => 'La balise suivante n\'a pas pu être traitée:',
 
-"days" => "jours",
+    'error_tag_syntax' => 'La balise suivante comprend une erreur de syntaxe:',
 
-"hour" => "heure",
+    'layout_contents_reserved' => 'Le nom "contents" est réservé aux données de modèles et ne peut pas être utilisé comme variable d\'affichage (c\'est-à-dire. {layout:set name="contents"} ou {layout="foo/bar" contents=""}).',
 
-"hours" => "heures",
+    'template_load_order' => 'Classement de chargements de modèles',
 
-"minute" => "minute",
+    'template_loop' => 'Vous avez causé une boucle de modèles due à des sous-modèles incorrectement imbriqués (\'%s\' est appelé de façon récursive)',
+    
+     'route_not_found' => 'Route de modèle non trouvée.',
 
-"minutes" => "minutes",
+    /* Email */
+    'error_sending_email' => 'Impossible d\'adresser un email pour le moment.',
 
-"second" => "seconde",
+    'forgotten_email_sent' => 'Si cette adresse email est associée à un compte, les instructions pour réinitaliser votre mot de passe viennent de vous être adressées par email.',
 
-"seconds" => "secondes",
+    'no_email_found' => 'L\'adresse email que vous avez saisie n\'a pas été trouvée dans la base de données.',
 
-"am" => "matin",
+    'password_has_been_reset' => 'Votre mot de passe a été réinitialisé et un nouveau mot de passe vous a été adressé par email.',
 
-"pm" => "après-midi",
+    'password_reset_flood_lock' => 'Vous avez tenté de réinitialiser votre mot de passe par de trop nombreuses tentatives aujourd\'hui. Merci de consulter votre boite de réception ainsi que les dossiers de spam pour ce qui concerne les requêtes précédentes sinon contacter l\'administrateur de votre site.',
 
-"AM" => "MATIN",
+    'forgotten_username_email_sent' => 'Si cette adresse email est associée à un compte, un email contenant votre nom d\'utilisateur vient de vous être adressé par courriel.',
 
-"PM" => "APRÈS-MIDI",
+    'your_new_login_info' => 'Information de connexion',
 
-"Sun" => "Dim",
+    /* Timezone */
+    'invalid_date_format' => 'Le format de date que vous avez fourni est non valide.',
 
-"Mon" => "Lun",
+    'invalid_timezone' => 'Le fuseau horaire que vous avez fourni est non valide.',
 
-"Tue" => "Mar",
+    'no_timezones' => 'Pas de fuseaux horaires',
 
-"Wed" => "Mer",
+    'select_timezone' => 'Sélectionnez le fuseau horaire',
 
-"Thu" => "Jeu",
+    /* Date */
+    'singular' => 'un',
 
-"Fri" => "Ven",
+    'less_than' => 'moins de',
 
-"Sat" => "Sam",
+    'about' => 'environ',
 
-"Su" => "Di",
+    'past' => ' il y a %s',
 
-"Mo" => "Lu",
+    'future' => 'dans %s',
 
-"Tu" => "Ma",
+    'ago' => 'il y a %x',
 
-"We" => "Me",
+    'year' => 'année',
 
-"Th" => "Je",
+    'years' => 'années',
 
-"Fr" => "Ve",
+    'month' => 'mois',
 
-"Sa" => "Sa",
+    'months' => 'mois',
 
-"Sunday" => "Dimanche",
+    'fortnight' => 'deux semaines',
 
-"Monday" => "Lundi",
+    'fortnights' => 'deux semaines',
 
-"Tuesday" => "Mardi",
+    'week' => 'semaine',
 
-"Wednesday" => "Mercredi",
+    'weeks' => 'semaines',
 
-"Thursday" => "Jeudi",
+    'day' => 'jour',
 
-"Friday" => "Vendredi",
+    'days' => 'jours',
 
-"Saturday" => "Samedi",
+    'hour' => 'heure',
 
-"Jan" => "Jan",
+    'hours' => 'heures',
 
-"Feb" => "Fév",
+    'minute' => 'minute',
 
-"Mar" => "Mar",
+    'minutes' => 'minutes',
 
-"Apr" => "Avr",
+    'second' => 'seconde',
 
-"May" => "Mai",
+    'seconds' => 'secondes',
 
-"Jun" => "Juin",
+    'am' => 'am',
 
-"Jul" => "Juil",
+    'pm' => 'pm',
 
-"Aug" => "Aoû",
+    'AM' => 'AM',
 
-"Sep" => "Sep",
+    'PM' => 'PM',
 
-"Oct" => "Oct",
+    'Sun' => 'Dim',
 
-"Nov" => "Nov",
+    'Mon' => 'Lun',
 
-"Dec" => "Déc",
+    'Tue' => 'Mar',
 
-"January" => "Janvier",
+    'Wed' => 'Mer',
 
-"February" => "Février",
+    'Thu' => 'Jeu',
 
-"March" => "Mars",
+    'Fri' => 'Ven',
 
-"April" => "Avril",
+    'Sat' => 'Sam',
 
-"May_l" => "Mai",
+    'Su' => 'S',
 
-"June" => "Juin",
+    'Mo' => 'M',
 
-"July" => "Juillet",
+    'Tu' => 'T',
 
-"August" => "Août",
+    'We' => 'W',
 
-"September" => "Septembre",
+    'Th' => 'T',
 
-"October" => "Octobre",
+    'Fr' => 'F',
 
-"November" => "Novembre",
+    'Sa' => 'S',
 
-"December" => "Décembre",
+    'Sunday' => 'Dimanche',
 
+    'Monday' => 'Lundi',
 
-'UM12'  	=>	'(UTC -12:00) Fuseau horaire des îles Baker et Howland',
+    'Tuesday' => 'Mardi',
 
-'UM11'		=>	'(UTC -11:00) Heure normale des Samoa, Niue',
+    'Wednesday' => 'Mercredi',
 
-'UM10'		=>	'(UTC -10:00) Heure normale d\'Hawaii et des îles Aléoutiennes, îles Cook, Tahiti',
+    'Thursday' => 'Jeudi',
 
-'UM95'		=>	'(UTC -9:30) Fuseau horaire des îles Marquises',
+    'Friday' => 'Vendredi',
 
-'UM9'		=>	'(UTC -9:00) Heure normale de l\'Alaska, îles Gambier',
+    'Saturday' => 'Samedi',
 
-'UM8'		=>	'(UTC -8:00) Heure normale du Pacifique, île de Clipperton',
+    'Jan' => 'Jan',
 
-'UM7'		=>	'(UTC -7:00) Heure normale des Montagnes Rocheuses',
+    'Feb' => 'Fev',
 
-'UM6'		=>	'(UTC -6:00) Heure normale du Centre',
+    'Mar' => 'Mar',
 
-'UM5'		=>	'(UTC -5:00) Heure normale de l\'Est de l\'Amérique du Nord',
+    'Apr' => 'Avr',
 
-'UM45'		=>	'(UTC -4:30) Fuseau horaire du Vénézuéla',
+    'May' => 'Mai',
 
-'UM4'		=>	'(UTC -4:00) Heure normale de l\'Atlantique',
+    'Jun' => 'Juin',
 
-'UM35'		=>	'(UTC -3:30) Heure normale de Terre-Neuve',
+    'Jul' => 'Juil',
 
-'UM3'		=>	'(UTC -3:00) Fuseau horaire Argentine, Brésil, Guyane française, Uruguay, Groënland',
+    'Aug' => 'Aou',
 
-'UM2'		=>	'(UTC -2:00) Fuseau horaire Géorgie du Sud et les îles Sandwich du Sud',
+    'Sep' => 'Sep',
 
-'UM1'		=>	'(UTC -1:00) Fuseau horaire des Açores, îles du Cap-Vert',
+    'Oct' => 'Oct',
 
-'UTC'		=>	'(UTC) Heure de l\'Europe occidentale, Heure du méridien de Greenwich',
+    'Nov' => 'Nov',
 
-'UP1'		=>	'(UTC +1:00) Heure de l\'Europe centrale',
+    'Dec' => 'Dec',
 
-'UP2'		=>	'(UTC +2:00) Heure de l\'Europe orientale, Heure d\'Afrique centrale, Heure normale d\'Egypte et d\'Afrique du Sud',
+    'January' => 'Janvier',
 
-'UP3'		=>	'(UTC +3:00) Heure d\'Afrique de l\'est, Heure de Moscou et St Pétersbourg',
+    'February' => 'Février',
 
-'UP35'		=>	'(UTC +3:30) Fuseau horaire de l\'Iran',
+    'March' => 'Mars',
 
-'UP4'		=>	'(UTC +4:00) Fuseau horaire de l\'Arménie, Azerbaïdjan, EAU, Oman, Maurice, Seychelles, La Réunion, Heure de Samara',
+    'April' => 'Avril',
 
-'UP45'		=>	'(UTC +4:30) Fuseau horaire de l\'Afghanistan',
+    'May_l' => 'Mai',
 
-'UP5'		=>	'(UTC +5:00) Fuseau horaire du Pakistan, Ouzbékistan, Tadjikistan, Turkménistan, Maldives, Kerguélen, Heure de Iékatérinbourg',
+    'June' => 'Juin',
 
-'UP55'		=>	'(UTC +5:30) Heure normale de l\'Inde',
+    'July' => 'Juillet',
 
-'UP575'		=>	'(UTC +5:45) Fuseau horaire du Népal',
+    'August' => 'Aoüt',
 
-'UP6'		=>	'(UTC +6:00) Fuseau horaire du Bangladesh, Bhoutan, Kirghizstan, Novosibirsk, Heure d\'Omsk',
+    'September' => 'Septembre',
 
-'UP65'		=>	'(UTC +6:30) Fuseau horaire de la Birmanie et des îles Cocos',
+    'October' => 'Octobre',
 
-'UP7'		=>	'(UTC +7:00) Fuseau horaire du Cambodge, Laos, Thailande, Heure de Krasnoïarsk',
+    'November' => 'Novembre',
 
-'UP8'		=>	'(UTC +8:00) Heure normale de l\'Australie occidentale et de la Chine, Brunei, Malaisie, Singapour, Taiwan, Heure d\'Irkoutz',
+    'December' => 'Décembre',
 
-'UP85'		=>	'(UTC +8:30) Fuseau horaire de la Corée du Nord',
+    'UM12' => '(UTC -12:00) Baker/Ile Howland',
 
-'UP875'		=>	'(UTC +8:45) Fuseau horaire de l\'Australie occidentale (Caiguna, Eucla, Mundrabilla, Border Village)',
+    'UM11' => '(UTC -11:00) Niue',
 
-'UP9'		=>	'(UTC +9:00) Heure normale du Japon, Corée du Nord et du Sud, Timor oriental, Heure de Iakoutsk',
+    'UM10' => '(UTC -10:00) Heure Standard Hawaii-Iles Aléoutiennes, Iles Cook, Tahiti',
 
-'UP95'		=>	'(UTC +9:30) Heure normale de l\'Australie centrale',
+    'UM95' => '(UTC -9:30) Iles Marquises',
 
-'UP10'		=>	'(UTC +10:00) Heure normale de l\'Australie orientale, Guam, Papouasie-Nouvelle Guinée, Heure de Vladivostok',
+    'UM9' => '(UTC -9:00) Heure standard Alaska, Iles Gambier',
 
-'UP105'		=>	'(UTC +10:30) Fuseau horaire de l\'île Lord Howe (Nouvelle-Galles du Sud)',
+    'UM8' => '(UTC -8:00) Heure Standard Pacifique, Ile Clipperton',
 
-'UP11'		=>	'(UTC +11:00) Fuseau horaire de la Nouvelle-Calédonie, îles Salomon, Vanuatu, Heure de Srednekolymsk',
+    'UM7' => '(UTC -7:00) Heure Standard Montagne',
 
-'UP115'		=>	'(UTC +11:30) Fuseau horaire de l\'île Norfolk',
+    'UM6' => '(UTC -6:00) Heure Standard Centre',
 
-'UP12'		=>	'(UTC +12:00) Heure normale de la Nouvelle-Zélande, fuseau horaire des Fidji, îles Gilbert, Marshall, Wallis-et-Futuna, Wake, Tuvalu, Heure de Petropavlovsk-Kamchatskiï',
+    'UM5' => '(UTC -5:00) Heure Standard de l\'Est, Heure standard Ouest Caraïbes',
 
-'UP1275'	=>	'(UTC +12:45) Fuseau horaire des îles Chatham',
+    'UM45' => '(UTC -4:30) Heure Standard Vénézuélienne',
 
-'UP13'		=>	'(UTC +13:00) Fuseau horaire des Tonga et Samoa, îles Phoenix',
+    'UM4' => '(UTC -4:00) Heure Standard de l\'Atlantique, Heure Standard Est Caraïbes',
 
-'UP14'		=>	'(UTC +14:00) Fuseau horaire des îles de la Ligne (île Christmas)',
+    'UM35' => '(UTC -3:30) Heure Standard de Terre-Neuve',
 
-"select_timezone" => "Sélectionner le fuseau horaire",
+    'UM3' => '(UTC -3:00) Argentine, Brésil, Guyane française, Uruguay, Saint-Pierre et Miquelon',
 
-"no_timezones" => "Aucun fuseau horaire",
+    'UM2' => '(UTC -2:00) Géorgie du sud /Sud Iles Sandwich',
 
-'invalid_timezone' => "Le fuseau horaire soumis est invalide.",
+    'UM1' => '(UTC -1:00) Açores, Iles du Cap Vert',
 
-'invalid_date_format' => "Le format de date soumis est invalide.",
+    'UTC' => '(UTC) Temps universel Greenwich, Heure Europe de l\'ouest',
 
-'curl_not_installed' => 'cURL n\'est pas installé sur votre serveur.',
+    'UP1' => '(UTC +1:00) Heure Centre Europe, Heure Afrique de l\'Ouest',
+
+    'UP2' => '(UTC +2:00) Heure Centre Afrique, Europe de l\'Est, Kaliningrad',
+
+    'UP3' => '(UTC +3:00) Heure Afrique de l\'Est, Heure Standard Arabie saoudite ',
+
+    'UP35' => '(UTC +3:30) Heure Standard de l\'Iran',
+
+    'UP4' => '(UTC +4:00) Heure de Moscou, Heure Standard d\' Azerbaijan',
+
+    'UP45' => '(UTC +4:30) Afghanistan',
+
+    'UP5' => '(UTC +5:00) Heure Standard du Pakistan, Heure Yekaterinburg ',
+
+    'UP55' => '(UTC +5:30) Heure Standard de l\'Inde, du Sri Lanka ',
+
+    'UP575' => '(UTC +5:45) Heure du Népal',
+
+    'UP6' => '(UTC +6:00) Heure Standard du Bangladesh, du Bhutan, de Omsk',
+
+    'UP65' => '(UTC +6:30) Iles Cocos, Myanmar',
+
+    'UP7' => '(UTC +7:00) Heure de Krasnoyarsk, Cambodge, Laos, Thaïlande, Vietnam',
+
+    'UP8' => '(UTC +8:00) Here Standard de l\'Ouest Australie, Beijing, Irkutsk ',
+
+    'UP875' => '(UTC +8:45) Heure Standard du Centre Australie',
+
+    'UP9' => '(UTC +9:00) Heure Standard du Japon, Heure Standard de Corée, Heure de Yakutsk',
+
+    'UP95' => '(UTC +9:30) Heure Standard du Centre Australie',
+
+    'UP10' => '(UTC +10:00) Heure Standard de l\'Est Australie, Heure de Vladivostok',
+
+    'UP105' => '(UTC +10:30) Ile Lord Howe',
+
+    'UP11' => '(UTC +11:00) Heure de Magadan, Iles Salomon, Vanuatu',
+
+    'UP115' => '(UTC +11:30) Ile Norfolk',
+
+    'UP12' => '(UTC +12:00) Fiji, Iles Gilbert, Heure Kamchatka, Heure Standard de Nouvelle Zélande',
+
+    'UP1275' => '(UTC +12:45) Heure Standard des Iles Chatham',
+
+    'UP13' => '(UTC +13:00) Fuseau horaire Samoa, Iles Phoenix, Tonga',
+
+    'UP14' => '(UTC +14:00) Iles de la ligne',
+
+    /* Cookies */
+
+    'cookie_csrf_token' => 'Jeton CSRF',
+    'cookie_csrf_token_desc' => 'Un cookie de sécurité utilisé pour authentifier l\'utilisateur et pour prévenir des attaques "Cross Site Request Forgery" ',
+
+    'cookie_flash' => 'Données Flash',
+    'cookie_flash_desc' => 'Messages de feedback utilisateur, cryptés pour des raisons de sécurité.',
+
+    'cookie_remember' => 'Me garder en mémoire',
+    'cookie_remember_desc' => 'Détermine si un utilisateur est automatiquement connecté en visitant le site.',
+
+    'cookie_sessionid' => 'Session ID',
+    'cookie_sessionid_desc' => 'ID de session, utilisée pour associer un membre connecté avec ses propres données.',
+
+    'cookie_visitor_consents' => 'Consentement de visiteurs',
+    'cookie_visitor_consents_desc' => 'Sauvegarde les réponses des requêtes de consentement pour des visiteurs non connectés',
+
+    'cookie_last_activity' => 'Dernière activité',
+    'cookie_last_activity_desc' => 'Enregistre le temps de chargement de la dernière page. Utilisé pour calculer les sessions actives.',
+
+    'cookie_last_visit' => 'Dernière visite',
+    'cookie_last_visit_desc' => 'Date de la dernière visite de l\'utilisateur, basée sur le cookie last_activity.  Peut être affichée sous forme de statistique pour les membres et utilisée par les forums et les commentaires pour repérer des sujets non lus à la fois pour les membres et les invités.',
+
+    'cookie_anon' => 'Anonymisation',
+    'cookie_anon_desc' => 'Détermine si le nom d\'utilisateur d\'un usager est affiché dans la liste des membres actuellement connectés.',
+
+    'cookie_tracker' => 'Traqueur',
+    'cookie_tracker_desc' => 'Contient les 5 dernières pages affichées, cryptées pour la sécurité. Typiquement utilisé pour les formulaires ou les retours de messages d\'erreur.',
+
+    'cookie_viewtype' => 'Type de visualisation du gestionnaire de fichiers',
+    'cookie_viewtype_desc' => 'Détermine \'View Type\' pour son utilisation dans Filemanager (table de vues en miniatures)',
+
+    'cookie_cp_last_site_id' => 'CP dernière ID du site',
+    'cookie_cp_last_site_id_desc' => 'Cookie MSM indiquant le dernier site consulté dans le tableau de bord.',
+
+    'cookie_collapsed_nav' => 'Navigation réduite',
+    'cookie_collapsed_nav_desc' => 'Détermine si la barre de navigation latérale du tableau de bord devrait être rabattue.',
+
+     'cookie_secondary_sidebar' => 'Etat de volet latéral secondaire',
+    'cookie_secondary_sidebar_desc' => 'Détermine si le volet de navigation secondaire dans le tableau de bord devrait être rabattue.',
+
+
+    'cookie_ee_cp_viewmode' => 'CP Mode visualisation',
+    'cookie_ee_cp_viewmode_desc' => 'Détermine le mode de visualisation pour le tableau de bord.',
+
+    'cp' => 'Tableau de bord',
+
+     'adapter_local' => 'Local',
+
 
 );
 

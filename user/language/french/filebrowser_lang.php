@@ -2,37 +2,37 @@
 
 $lang = array(
 
-"file_browser" => "Explorateur de fichiers",
+    'fb_insert_file' => 'Insérer le fichier',
 
-"view" => "Voir",
+    'fb_insert_files' => 'Insérer les fichiers',
 
-"path_does_not_exist" => "Le chemin spécifié n'existe pas",
+    'fb_insert_link' => 'Insérer le lien',
 
-"file_viewing_error" => "Une erreur de type inconnu a été rencontrée.",
+    'fb_insert_links' => 'Insérer les liens',
 
-"fp_no_files" => "Aucun fichier disponible dans le répertoire.",
+    'fb_insert_url' => 'Insérer l\'URL',
 
-"fb_view_images" => "Voir les images",
+    'fb_insert_urls' => 'Insérer les URL',
 
-"fb_view_image" => "Voir l'image",
+    'fb_non_images' => '* Indique des fichiers sans images. Seules les images peuvent être visualisées.',
 
-"fb_insert_file" => "Insérer fichier",
+    'fb_select_field' => 'Sélectionner le champ',
 
-"fb_insert_files" => "Insérer fichiers",
+    'fb_select_files' => 'Sélectionner les fichiers',
 
-"fb_select_field" => "Sélectionner champ",
+    'fb_view_image' => 'Visualiser l’image ',
 
-"fb_select_files" => "Sélectionner fichiers",
+    'fb_view_images' => 'Visualiser les images',
 
-"fb_non_images" => "* indique des fichiers autres qu'images. Seules les images peuvent être visualisées.",
+    'file_browser' => 'Navigateur de fichiers',
 
-"fb_insert_link" => "Insérer lien",
+    'file_viewing_error' => 'Une erreur de type inconnu a été décelée.',
 
-"fb_insert_links" => "Insérer liens",
+    'fp_no_files' => 'Aucun fichier disponible dans ce répertoire.',
 
-"fb_insert_url" => "Insérer URL",
+    'path_does_not_exist' => 'Le champ spécifié n\'existe pas',
 
-"fb_insert_urls" => "Insérer URLs",
+    'view' => 'Visualiser',
 
 );
 

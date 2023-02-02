@@ -2,199 +2,199 @@
 
 $lang = array(
 
-'alphanumeric_not_allowed' => 'Délimiteurs alphanumériques non autorisés (a-z / 0-9)',
+    '12_hour' => '12 heures avec AM/PM',
 
-'assign_fields_blurb' => 'Faire correspondre vos champs de données aux champs de membre ExpressionEngine',
+    '24_hour' => '24 heures',
 
-'assign_fields' => 'Affecter les champs',
+    'alphanumeric_not_allowed' => 'Délimiteurs alphanumériques non autorisés (a-z / 0-9)',
 
-'auto_custom_field_blurb' => 'Générer automatiquement les champs de membre personnalisés pour tous les éléments qui ne correspondent pas à un champ de membre par défaut',
+    'assign_fields' => 'Associer des champs',
 
-'auto_custom_field' => 'Créer les champs personnalisés',
+    'assign_fields_blurb' => 'Fait correspondre vos champs de données aux champs de membres d\'ExpressionEngine.',
 
-'comma' => 'Virgule',
+    'auto_custom_field' => 'Créer des champs personnalisés',
 
-'confirm_details_blurb' => 'Veuillez vérifier les détails ci-dessous avant d\'importer vos données. Si quoi que ce soit était incorrect, veuillez revenir en arrière et appliquer les modifications nécessaires.',
+    'auto_custom_field_blurb' => 'Autogénérer des champs de membres personnalisés pour des éléments qui ne correspondent pas à un champ de membre par défaut',
 
-'confirm_details' => 'Confirmer les détails',
+    'comma' => 'Virgule',
 
-'confirm_field_assignment_blurb' => 'Veuillez vérifier votre affectation de champ. Si quoi que ce soit était incorrect, veuillez revenir en arrière et appliquer les modifications nécessaires.',
+    'confirm_details' => 'Confirmer les détails',
 
-'confirm_field_assignment' => 'Confirmer l\'affectation de champ',
+    'confirm_details_blurb' => 'Merci de passer en revue les détails ci-dessous avant d\'importer vos données. Si quelque chose est incorrect, veuillez y retourner et y effectuer les modifications nécessaires.',
 
-'convert_from_delimited_blurb' => ': vous permet de créer un fichier de membre ExpressionEngine XML depuis un fichier de texte délimité d\'une autre application',
+    'confirm_field_assignment' => 'Confirmer l\'affectation du champ',
 
-'convert_from_delimited' => 'Convertir le texte délimité en XML',
+    'confirm_field_assignment_blurb' => 'Merci de revoir vos affectations de champs. Si quelque chose est incorrect, veuillez y retourner et y effectuer les modifications nécessaires.',
 
-'create_xml' => 'Créer le XML',
+    'convert_from_delimited' => 'Convertir le texte délimité en XML',
 
-'custom_member_fields' => 'Champs personnalisés de membre',
+    'convert_from_delimited_blurb' => 'Cela vous permet de créer un fichier XML de membre ExpressionEngine depuis un fichier texte délimité d\'une autre application',
 
-'default_group_id' => 'ID de groupe par défaut',
+    'create_xml' => 'Créer XML',
 
-'default_settings_blurb' => 'Paramétrez toutes les options que vous souhaitez utiliser comme valeurs par défaut. Veuillez noter que ces paramètres par défaut ne seront utilisés que lorsqu\'une valeur n\'est pas implicitement donnée dans le fichier XML. Ces options ne vont pas écraser les données XML.',
+    'custom_member_fields' => 'Personnaliser les champs de membre',
 
-'default_settings' => 'Fournissez les options par défaut',
+    'date_format' => 'Formatage de la date',
 
-'delimited_file_loc' => 'Emplacement du fichier Membres',
+    'default_group_id' => 'ID du groupe par défaut',
 
-'delimiter_blurb' => 'Ce caractère sépare vos données, comme une tabulation, une virgule, un symbole \'Pipe\', etc.',
+    'default_settings' => 'Fournir les options par défaut',
+    
+    'default_settings_blurb' => 'Régler les options que vous souhaitez utiliser par défaut. Merci de noter que ces réglages par défaut seront utilisés quand une valeur ne sera pas donnée implicitement dans le fichier XML. Ces options n\'écraseront pas les données XML.',
 
-'delimiter' => 'Caractère délimiteur',
+    'delimited_file_loc' => 'Localisation de fichier de membre',
 
-'download' => 'Télécharger le fichier XML',
+    'delimiter' => 'Caractère de délimitation',
 
-'duplicate_email' => 'Email en doublon : ',
+    'delimiter_blurb' => 'Ce caractère sépare vos données, comme une tabulation, une virgule, une barre verticale, etc.',
 
-'duplicate_field_assignment' => 'Champ affecté en doublon : %x',
+    'download' => 'Télécharger le fichier XML',
 
-'duplicate_member_id' => 'ID de membre en doublon : "%x"<br />Nous vous recommandons de ne pas utiliser de balise &lt;member_id&gt; et d\'autoriser ExpressionEngine à incrémenter de manière automatique member_id',
+    'duplicate_email' => 'Dupliquer l\'email: ',
 
-'duplicate_username' => 'Identifiant en doublon : ',
+    'duplicate_field_assignment' => 'Dupliquer l\'affectation du champ: %x',
 
-'enclosure_blurb' => 'Ce caractère encadre vos données s\'il existe. Dans l\'exemple suivant, le caractère d\'encadrement est un guillement double : "<br />',
+    'duplicate_member_id' => 'Dupliquer l\'ID de membre: "%x"<br />Il est recommandé de ne pas utiliser la balise  &lt;member_id&gt; et d\'autoriser ExpressionEngine à auto-incrémenter member_id',
 
-'enclosure_example' => '"John Doe", "jdoe", "john@exemple.com", etc.',
+    'duplicate_username' => 'Dupliquer le nom d\'utilisateur: ',
 
-'enclosure_label' => 'Encadrement : ',
+    'enclosure' => 'Caractère englobant',
 
-'enclosure' => 'Caractère d\'encadrement',
+    'enclosure_blurb' => 'Ce caractère englobe vos données, si elles existent. Dans l\'exemple suivant,les caractères englobants sont en doubles guillemets: "<br />',
 
-'encrypted_passwords' => 'Les mots de passe sont déja encryptés',
+    'enclosure_example' => '"Jean Dupont", "Dupont", "jean@exemple.com", ...',
 
-'field_label' => 'Intitulé du champ',
+    'enclosure_label' => 'Caractère pour englober: ',
 
-'field_name' => 'Nom du champ',
+    'encrypted_passwords' => 'Les mots de passe sont déjà cryptés',
 
-'file_loc_blurb' => 'L\'emplacement du fichier doit être relative au dossier du panneau de contrôle de votre site. Exemple : ../membres.txt, si placé à la racine du site.',
+    'field_label' => 'Etiquette de champ',
 
-'group_id' => 'Groupe de membres par défaut',
+    'field_name' => 'Nom de champ',
 
-'import_from_xml_blurb' => ': vous permet d\'importer des membres depuis un fichier XML dans le format XML de membre ExpressionEngine',
+    'file_loc_blurb' => 'La localisation du fichier doit être relative à votre dossier de tableau de bord de votre site, par exemple.: ../members.txt, s\'il est placé à la racine du site.',
 
-'import_from_xml' => 'Importer depuis un fichier XML',
+    'group_id' => 'Groupe de membres par défaut',
 
-'import_info' => 'Information d\'importation',
+    'import' => 'Importer!',
 
-'import_success_blurb' => 'Vos données de membre XML ont été importées dans la base de données avec succès !',
+    'import_from_xml' => 'Importer depuis un fichier XML ',
 
-'import_success' => 'Membres importés avec succès',
+    'import_from_xml_blurb' => 'Vous permet d\'importer des membres depuis un fichier XML issu du format XML de membre d\'ExpressionEngine',
 
-'import' => 'Importer !',
+    'import_info' => 'Importer l\'information',
 
-'info_blurb' => 'Pour utiliser cet utilitaire, vous devez d\'abord déposer sur votre serveur le fichier contenant les données de membre exportées, puis saisir l\'emplacement du fichier.',
+    'import_success' => 'Les membres ont été importés avec succès',
 
-'invalid_avatar_filename' => 'Nom de fichier avatar invalide : "%x"',
+    'import_success_blurb' => 'Vos données XML de membres ont été importées avec succès dans votre base de données!',
 
-'invalid_element' => 'Element manquant ou invalide - &lt;member&gt; attendu',
+    'include_seconds' => 'Inclure les secondes dans le format de l\'heure',
 
-'invalid_path' => 'CHEMIN INVALIDE ! Le fichier n\'existe pas : ',
+    'info_blurb' => 'Pour avoir recours à cet utilitaire, vous devez d\'abord installer sur votre serveur le fichier contenant les données exportées de membres puis alors saisir la localisation de votre fichier',
 
-'invalid_tag' => 'Balise XML invalide !',
+    'invalid_avatar_filename' => 'Nom de fichier d\'avatar non valide: "%x"',
 
-'invalid_xml' => 'ïl y a un problème avec votre fichier XML. Veuillez consulter la documentation sur le format de fichier XML de membre ExpressionEngine.',
+    'invalid_element' => 'Elément manquant ou non valide - &lt;membre&gt; attendu',
 
-'is_public' => 'Public',
+    'invalid_path' => 'CHEMIN NON VALIDE! Le fichier n\'existe pas: ',
 
-'is_reg_form' => 'Formulaire d\'inscription',
+    'invalid_tag' => 'Balise XML non valide!',
 
-'is_required' => 'Obligatoire',
+    'invalid_xml' => 'Il y a un problème avec votre fichier XML. Merci de consulter la documentation sur le format de fichier XML d\'ExpressionEngine.',
 
-'language' => 'Langue par défaut',
+    'is_public' => 'Publique',
 
-'map_elements' => 'Éléments Map',
+    'is_reg_form' => 'Formulaire d\'inscription',
 
-'member_fields' => 'Champs membre',
+    'is_required' => 'Requis',
 
-'member_id_warning' => 'ATTENTION : Si vous avez une balise &lt;member_id&gt; dans votre XML, les membres existants utilisant la même valeur pour \'member_id\' seront ÉCRASÉS ! Soyez prudents !',
+    'language' => 'Langue par défaut',
 
-'member_import_utility' => 'Utilitaire d\'importation de membre',
+    'map_elements' => 'Elements de carte',
 
-'member_import_welcome' => 'Cet utilitaire vous permet d\'importer des membres depuis d\'autres systèmes vers ExpressionEngine',
+    'member_fields' => 'Champs de membres',
 
-'missing_birthday_child' => 'Eléments enfants de &lt;anniversaire&gt; manquants : &lt;jour&gt; &lt;mois&gt; &lt;année&gt; attendus',
+    'member_id_warning' => 'ALERTE: si vous avez des balises &lt;member_id&gt; dans votre fichier XML, les membres déjà existants avec le même ID de membre seront ECRASES! Précédez avec grande précaution!',
 
-'missing_email_field' => 'Vous devez affecter un champ pour "email"',
+    'member_import_utility' => 'Utilitaire d\'importation de membre',
 
-'missing_screen_name_field' => 'Vous devez affecter un champ pour "screen_name" (pseudo)',
+    'member_import_welcome' => 'Cet utilitaire vous permet d\'importer des membres depuis d\'autres systèmes vers ExpressionEngine',
 
-'missing_username_field' => 'Vous devez affecter un champ pour "username" (identifiant)',
+    'missing_birthday_child' => 'Il manque des élément(s) enfants attendus  &lt;anniversaire&gt;: &lt;jour&gt; &lt;mois&gt; &lt;année&gt; ',
 
-'new_fields_success' => 'Ces champs personnalisés de membre ont été ajoutés avec succès :',
+    'missing_email_field' => 'Vous devez affecter un champ à l\'"email"',
 
-'no_delimiter' => 'Vous devez fournir un caractère délimiteur avec l\'option "%x".',
+    'missing_screen_name_field' => 'Vous devez affecter un champ au "nom d\'écran"',
 
-'no_file_submitted' => 'Vous devez saisir un chemin relatif vers votre fichier de données Membres',
+    'missing_username_field' => 'Vous devez affecter un champ au "nom d\'utilisateur"',
 
-'no_read_access' => 'Impossible de lire le fichier : ',
+    'new_fields_success' => 'Les champs de membres personnalisés suivants ont été ajoutés avec succès',
 
-'no' => 'Non',
+    'no' => 'Non',
 
-'not_enough_fields' => 'Vous devez avoir au moins trois champs : username (identifiant), screen_name (pseudo), et email',
+    'no_delimiter' => 'Vous devez fournir un caractère de délimitation avec l\'option "%x".',
 
-'option' => 'Option',
+    'no_file_submitted' => 'Vous devez saisir un chemin relatif à votre fichier des données de membres',
 
-'order' => 'Ordre',
+    'no_read_access' => 'Impossible de lire le fichier: ',
 
-'other' => 'Autre :',
+    'not_enough_fields' => 'Vous devez au moins avoir trois champs: nom d\'utilisateur, nom d\'écran et adresse email',
 
-'parse_error' => 'Erreur d\'interprétation',
+    'option' => 'Option',
 
-'password_field_warning' => '<b>Attention</b> : si vous ne reliez pas l\'une de vos données avec "Mot de Passe" (Password), un mot de passe encrypté aléatoire sera affecté à chaque membre importé. Ces utilisateurs devront donc réinitialiser leur mot de passe en cliquant sur le lien "J\'ai oublié mon mot de passe".',
+    'order' => 'Ordre',
 
-'password_warning_blurb' => 'Si aucun mot de passe n\'a été fourni, vos membres importés devront utiliser le lien "Mot de passe oublié ?" pour se connecter. De plus, si vos paramètres de chiffrement (sha1/md5) ne correspondent pas au type de chiffrement de vos données, les mots de passes ne fonctionneront pas, et les membres affectés devront également utiliser le lien "J\'ai oublié mon mot de passe". Les mots de passe de type texte seront chiffré pour vous durant l\'importation.',
+    'other' => 'Autre:',
 
-'password_warning' => 'Avertissement mot de passe',
+    'parse_error' => 'Erreur de parsage',
 
-'plaintext_passwords' => 'Les mots de passes ne sont pas encryptés',
+    'password_field_warning' => 'Notez: si vous ne faites pas correspondre un de vos champs à "Mot de passe", des mots de passe cryptés de façon aléatoire seront affectés et les utilisateurs importés devront utiliser le lien "Mot de passe oublié" pour se connecter.',
 
-'s_required' => 'Requis',
+    'password_warning' => 'Alerte de mot de passe',
 
-'select' => 'Sélectionner',
+    'password_warning_blurb' => 'Si le mot de passe n\'a pas été fourni, vos membres importés devront avoir recours au lien "Mot de passe oublié" pour se connecter. De plus, si vos réglages de cryptage (sha1/md5) d\' ExpressionEngine ne correspondent pas au type de cryptage de vos données importées, les mots de passe ne fonctionneront pas et les membres affectés devront aussi utiliser le lien "Mot de passe oublié". Les mots de passe de type="texte" seront cryptés pour vous durant l\'importation .',
 
-'tab' => 'Onglet',
+    'plaintext_passwords' => 'Les Mots de passe sont au format texte simple',
 
-'time_format' => 'Formatage de l\'heure',
+    's_required' => 'Requis',
 
-'timezone' => 'Fuseau horaire par défaut',
+    'select' => 'Sélectionner',
 
-'timezones' => 'Fuseau horaire par défaut',
+    'tab' => 'Onglet',
 
-'total_members_imported' => 'Un total de %x membres ont été importés.',
+    'time_format' => 'Formatage  de l\'heure',
 
-'unable_to_parse_custom_fields' => 'Impossible d\'interpréter les champs personnalisés.',
+    'timezone' => 'Fuseau horaire par défaut',
 
-'unable_to_parse_xml' => 'Impossible d\'interpréter le XML.',
+    'timezones' => 'Fuseaux horaires par défaut',
 
-'unable_to_read_file' => 'Impossible de lire le fichier.',
+    'total_members_imported' => 'Total de %x membres importés.',
 
-'upload_problem' => 'Le téléchargement a échoué',
+    'unable_to_parse_custom_fields' => 'Impossible de parser les champs personnalisés.',
 
-'value' => 'Valeur',
+    'unable_to_parse_xml' => 'Impossible de parser XML.',
 
-'view_in_browser' => 'Voir dans le navigateur',
+    'unable_to_read_file' => 'Impossible de lire le fichier.',
 
-'view_xml' => 'Voir le XML',
+    'upload_problem' => 'Echec du téléversement',
 
-'within_user_record' => 'au sein de l\'enregistrement utilisateur',
+    'value' => 'Valeur',
 
-'xml_file_loc_blurb' => 'L\'emplacement du fichier doit être relative au dossier du panneau de contrôle de votre site. Exemple : ../membres.xml, si placé à la racine du site.',
+    'view_in_browser' => 'Visualiser dans le navigateur',
 
-'xml_file_loc' => 'Emplacement du fichier XML Membres',
+    'view_xml' => 'Visualiser XML',
 
-'xml_file' => 'Fichier XML',
+    'within_user_record' => 'dans le dossier de l\'utilisateur',
 
-'xml_imported' => 'Les données XML de membre ont été importées',
+    'xml_file' => 'Fichier XML',
 
-'your_data' => 'Vos données',
+    'xml_file_loc' => 'Localisation du fichier XML de membre',
 
-"12_hour" => "12 heures avec AM/PM",
+    'xml_file_loc_blurb' => 'La localisation du fichier doit être relative au dossier de tableau de bord de votre site, par exemple: ../members.xml, s\'il est placé à la racine du site.',
 
-"24_hour" => "24 heures",
+    'xml_imported' => 'Les données de membres XML ont été importées',
 
-"date_format" => "Formatage de la date",
-
-"include_seconds" => "Ajouter les secondes au format d\'heure",
+    'your_data' => 'Vos données',
 
 );
 

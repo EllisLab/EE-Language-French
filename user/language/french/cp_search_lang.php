@@ -2,79 +2,71 @@
 
 $lang = array(
 
-// Design
-'design_user_message' => "Modèle de message utilisateur",
+    'cont_category_management' => 'Gestion des catégories',
 
-'design_system_offline' => "Modèle du système hors ligne",
+    'cont_field_group_management' => 'Gestion de groupes de champs',
 
-'design_email_notification' => "Modèle de notification email",
+    'data_clear_caching' => 'Effacer le cache',
 
-'design_member_profile_templates' => "Modèle de profil de membre",
+    'data_php_info' => 'Info PHP',
 
-// Members
-'member_register_member' => "Inscrire un membre",
+    'data_recount_stats' => 'Recompter les statistiques',
 
-'member_validation' => "Validation de membre",
+    'data_search_and_replace' => 'Chercher et Remplacer',
 
-'member_view_members' => "Voir les membres",
+    'data_sql_manager' => 'Gestionnaire Sql',
 
-'member_ip_search' => "Rechercher l'adresse IP d'un membre",
+    'design_email_notification' => 'Modèle de notification d\'email',
 
-'member_custom_profile_fields' => "Champs personnalisés de profil",
+    'design_member_profile_templates' => 'Modèle de profil de membre',
 
-'member_group_manager' => "Gestion des Groupes de Membres",
+    'design_system_offline' => 'Modèle de système hors-ligne',
 
-'member_config' => "Configuration des membres",
+    'design_user_message' => 'Modèle de message utilisateur',
 
-'member_banning' => "Exclusion de membre",
+    'exte_index' => 'Extensions',
 
-'member_search' => "Recherche de membre",
+    'file_index' => 'Gestionnaire de fichiers',
 
-// Tools_data
-'data_sql_manager' => "Gestionnaire SQL",
+    'logs_view_cp_log' => 'Historique de vues du Tableau de bord',
 
-'data_search_and_replace' => "Rechercher et remplacer",
+    'logs_view_email_log' => 'Visualiser le journal des emails',
 
-'data_recount_stats' => "Recompter les statistiques",
+    'logs_view_search_log' => 'Visualiser le journal de recherche',
 
-'data_php_info' => "Informations PHP",
+    'logs_view_throttle_log' => 'Visualiser le journal des limitations',
 
-'data_clear_caching' => "Vider le cache",
+    'member_banning' => 'Censure de membre',
 
-// Content_files
-'file_index' => 'Gestion des Fichiers',
+    'member_config' => 'Configuration de membre',
 
-'cont_field_group_management' => 'Gestion des Groupes de Champs',
+    'member_custom_profile_fields' => 'Personnaliser les champs de membre',
 
-'members_member_group_manager' => 'Gestion des Groupes de Membres',
+    'member_group_manager' => 'Gestionnaire de groupes de membres',
 
-'cont_category_management' => 'Gestion des Catégories',
+    'member_ip_search' => 'Recherche IP de membre',
 
-'members_custom_profile_fields' => 'Champs personnalisés des profils de membre',
+    'member_register_member' => 'Enregistrer un membre',
 
+    'member_search' => 'Recherche de membre',
 
-// Tools_logs
-'logs_view_cp_log' => 'Voir le journal du panneau de contrôle',
+    'member_validation' => 'Validation de membre',
 
-'logs_view_throttle_log' => 'Voir le journal du filtrage',
+    'member_view_members' => 'Visualiser les membres',
 
-'logs_view_search_log' => 'Voir le journal des termes de recherche',
+    'members_custom_profile_fields' => 'Personnaliser les champs de profil de membre',
 
-'logs_view_email_log' => 'Voir le journal d\'email',
+    'members_member_group_manager' => 'Gestion de groupes de membres',
 
-// Tools_utilities
-'util_member_import' => "Importation de membre",
+    'modu_index' => 'Modules',
 
-'util_import_from_xml' => "Importer depuis un fichier XML",
+    'plug_index' => 'Plugins',
 
-'util_translation_tool' => "Utilitaire de traduction",
+    'util_import_from_xml' => 'Importer de XML',
 
-// Plugins
-'plug_index'	=> 'Plugins',
+    'util_member_import' => 'Importation de membre',
 
-'modu_index'	=> 'Modules',
-
-'exte_index'	=> 'Extensions',
+    'util_translation_tool' => 'Utilitaire de traduction',
 
 );
 

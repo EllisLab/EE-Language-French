@@ -2,57 +2,57 @@
 
 $lang = array(
 
-//----------------------------
-// Modules
-//----------------------------
+    'all_modules_up_to_date' => 'Tous les modules sont à jour.',
 
-'all_modules_up_to_date' => 'Tous les modules sont à jour.',
+    'data_will_be_lost' => 'Toutes les données associées à ce module seront définitivement supprimées',
 
-'requested_module_not_installed' => "Le module demandé n'est pas installé.",
+    'deinstall' => 'Désinstaller',
 
-'requested_page_not_found' => "La page de module demandée ne peut être trouvée.",
+    'delete_module' => 'Désinstaller le module',
 
-'update_modules' => 'Mettre à jour les modules',
+    'delete_module_confirm' => 'Êtes-vous sûr(e) de vouloir supprimer le module suivant:',
 
-'updated_to_version' => 'mis à jour vers la version',
+    'install' => 'Installer',
 
-'updated' => 'Mis à jour',
+    'installed' => 'Installé(s)',
 
-"data_will_be_lost" => "Toutes les données associées à ce module seront définitivement supprimées !",
+    'module_access' => 'Editer le module',
 
-"deinstall" => "Supprimer",
+    'module_action' => 'Action',
 
-"delete_module_confirm" => "Êtes-vous sûr de vouloir désinstaller les modules suivants :",
+    'module_backend' => 'Utilisateur TB',
 
-"delete_module" => "Désinstaller le module",
+    'module_can_not_be_found' => 'Impossible de localiser les fichiers nécessaires à l\'installation de ce module.',
 
-"install" => "Installer",
+    'module_can_not_be_found_low_search' => 'Impossible de localiser les fichiers nécessaires à l\'installation de Low Search. Vous pouvez les télécharger sur <a href=\'https://expressionengine.com/add-ons/low-search\' target=\'_blank\'>ExpressionEngine.com</a>',
 
-"installed" => "Installé",
+    'module_can_not_be_found_low_variables' => 'Impossible de localiser les fichiers nécessaires à l\'installation de Low Variables. Vous pouvez les télécharger sur <a href=\'https://expressionengine.com/add-ons/low-search\' target=\'_blank\'>ExpressionEngine.com</a>',
 
-"module_access" => "Modifier le module",
+    'module_description' => 'Description',
 
-"module_action" => "Action",
+    'module_has_been_installed' => 'Module installé:',
 
-"module_backend" => "TB Utilisateur",
+    'module_has_been_removed' => 'Module supprimé:',
 
-"module_can_not_be_found" => "Impossible de localiser les fichiers nécessaires à l'installation de ce module",
+    'module_name' => 'Nom de module',
 
-"module_description" => "Description",
+    'module_no_access' => 'Vous n\'êtes pas autorisé(e) à accéder aux modules',
 
-"module_has_been_installed" => "Module installé :",
+    'module_status' => 'Statut',
 
-"module_has_been_removed" => "Module supprimé :",
+    'module_version' => 'Version',
 
-"module_name" => "Nom du module",
+    'not_installed' => 'Non Installé',
 
-"module_no_access" => "Vous n'êtes pas autorisé à accéder aux modules",
+    'requested_module_not_installed' => 'Le module requis n\'est pas installé:',
 
-"module_status" => "Statut",
+    'requested_page_not_found' => 'La page de module requise est introuvable.',
 
-"module_version" => "Version",
+    'update_modules' => 'Installer les mises à jour de modules',
 
-"not_installed" => "Non installé",
+    'updated' => 'Mis à jour',
+
+    'updated_to_version' => 'mis à jour à la version',
 
 );
 

@@ -2,562 +2,563 @@
 
 $lang = array(
 
-'profile_header' => 'Profil de %s<div class="section-header__subtitle">
-    <b>Email </b>: %s / <b>IP </b>: %s
+    '12_hour' => '12 heures avec AM/PM',
+
+    '24_hour' => '24 heures',
+
+    'accept_admin_email' => 'Des admins',
+
+    'accept_user_email' => 'Des autres membres',
+
+    'administration' => 'Administration',
+
+    'administrative_options' => 'Administration de membre',
+
+    'administrative_options_updated' => 'Options administratives de mises à jour',
+
+    'administrative_settings' => 'Réglages d\'admin',
+
+    'allow_messages' => 'Autoriser les messages des autres membres',
+
+    'anonymize_username' => 'Anonymiser %s',
+
+    'anonymize_member_desc' => 'Vous êtes sur le point d\'anonymiser ce membre, ce qui veut dire que toutes les données considérées comme informations personnellement identifiables seront effacées, mais le dossier du membre sera conservé. Merci de confirmer cette action.',
+
+    'aol_im' => 'AOL IM',
+
+    'auth_settings' => 'Nom d\'utilisateur & Mot de passe',
+
+    'avatar_settings' => 'Avatar',
+
+    'account' => 'Compte',
+
+    'banned_email' => 'L\'adresse email que vous avez saisie est censurée',
+
+    'base_profile' => 'Profil de base',
+
+    'biography' => 'Biographie',
+
+    'biography_desc' => 'Votre biographie.',
+
+    'birth_day' => 'Jour de naissance',
+
+    'birth_day_desc' => 'Votre jour de naissance.',
+
+    'birth_month' => 'Mois de naissance',
+
+    'birth_month_desc' => 'Votre mois de naissance.',
+
+    'birth_year' => 'Année de naissance',
+
+    'birth_year_desc' => 'Votre année de naissance.',
+
+    'blocked_members' => 'Membres bloqués',
+
+    'bookmarklet' => 'Marque-page',
+
+    'bookmarklet_created' => 'Marque-page créé',
+
+    'bookmarklet_field' => 'Canal & champ de canal',
+
+    'bookmarklet_field_desc' => 'Choisissez pour ce marque-page votre champ et votre canal préférés au sein desquels publier des entrées.',
+
+    'bookmarklet_info' => 'Un marque-page vous permet d\'ajouter des entrées à votre canal sans avoir à vous connecter au tableau de bord de façon exhaustive.',
+
+    'bookmarklet_instructions' => 'Glisser des liens dans votre barre de signets pour les sauvegarder.',
+
+    'bookmarklet_next_step' => 'Nouvelle étape',
+
+    'bookmarklets' => 'Marque-pages',
+
+    'btn_authenticate_and_login' => 'S\'authentifier &amp; se connecter',
+
+    'btn_login' => 'Connexion',
+
+    'btn_login_working' => 'Connexion dans…',
+
+    'btn_save_settings' => 'Sauvegarder les réglages',
+
+    'bulletin_board' => 'Tableau d\'affichage',
+
+    'can_not_edit' => '(ne peut pas être altéré)',
+
+    'can_not_view_superadmin_profile' => 'Vous ne pouvez pas visualiser le profil d\'un Super Admin',
+
+    'change_avatar' => 'Changer l\'avatar',
+
+    'change_avatar_desc' => 'Ajouter un avatar à votre profil — .gif, .jpg, .png (max %skb)',
+
+    'change_password' => 'Changer le mot de passe',
+
+    'channel_name' => 'Publier des entrées dans le canal',
+
+    'channel_preferences' => 'Réglages de canal',
+
+    'choose_avatar' => 'Choisir dans la bibliothèque',
+
+    'choose_theme' => 'Choisir le thème du tableau de bord',
+
+    'comment' => 'Commentaire',
+
+    'consent_granted' => 'Consentement accordé',
+
+    'consent_granted_desc' => 'Votre consentement a été accordé pour les requêtes suivantes :',
+
+    'consent_withdrawn' => 'Consentement supprimé',
+
+    'consent_withdrawn_desc' => 'Votre consentement a été supprimé pour les requêtes suivantes:',
+
+    'consents' => 'Consentements',
+
+    'control_panel_settings' => 'Personnalisation du TB',
+
+    'cp_homepage' => 'Page d\'accueil du Tableau de Bord',
+
+    'cp_index' => 'Index TB',
+
+    'cp_settings' => 'Réglages TB',
+
+    'create_bookmarklet' => 'Créer un marque-page',
+
+    'create_html_buttons_error' => 'Impossible de créer un bouton <abbr title="Hyper-Text Markup Language">HTML</abbr>',
+
+    'create_html_buttons_error_desc' => 'Impossible de créer un bouton <abbr title="Hyper-Text Markup Language">HTML</abbr>, merci de passer en revue et de corriger les erreurs ci-dessous.',
+
+    'create_html_buttons_success' => 'Bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> créé',
+
+    'create_html_buttons_success_desc' => 'Le bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> <b>%s</b> a été créé.',
+
+    'create_quick_link' => 'Créer un lien rapide',
+
+    'create_the_bookmarklet' => 'Créer un marque-page',
+
+    'current_avatar' => 'Avatar actuel',
+
+    'current_avatar_desc' => 'Ceci est actuellement votre avatar en cours d\'utilisation.',
+
+    'current_member' => 'Membre:',
+
+    'customize_cp' => 'Personnaliser le Tableau de bord',
+
+    'customize_homepage' => 'Personnaliser la page d\'accueil de votre tableau de bord',
+
+    'date_format' => 'Format Date & Heure ',
+
+    'date_settings' => 'Réglages Date & Heure',
+
+    'day' => 'Jour',
+
+    'default_cp_homepage_myaccount_desc' => 'Aménager la page d\'accueil de votre tableau de bord.',
+
+    'delete_member' => 'Supprimer un Membre',
+
+    'delete_username' => 'Supprimer %s',
+
+    'disallowed_screen_chars' => 'Le nom d\'écran contient des caractères illégaux',
+
+    'do_not_show' => 'Ne pas afficher',
+
+    'edit_bookmarklet' => 'Editer le Marque-Page',
+
+    'edit_html_buttons_error' => 'Impossible de mettre à jour le bouton <abbr title="Hyper-Text Markup Language">HTML</abbr>',
+
+    'edit_html_buttons_error_desc' => 'Impossible de mettre à jour ce bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> merci de passer en revue et de corriger les erreurs ci-dessous.',
+
+    'edit_html_buttons_success' => 'Bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> mis à jour',
+
+    'edit_html_buttons_success_desc' => 'Le bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> <b>%s</b> a été mis à jour',
+
+    'edit_profile' => 'Editer le profil',
+
+    'edit_quick_link' => 'Editer le lien rapide',
+
+    'edit_subscriptions' => 'Visualiser les abonnements',
+
+    'email' => 'Adresse email',
+
+    'email_changed' => 'L\'email a été modifié en:',
+
+    'email_confirm' => 'Confirmer l\'adresse email',
+
+    'email_description' => 'Adresse email pour ce compte.',
+
+    'email_options' => 'Options',
+
+    'email_options_desc' => 'Adressez-moi des emails',
+
+    'email_settings' => 'Réglages d\'emails',
+
+    'email_taken' => 'L\'email que vous avez choisi n\'est pas disponible',
+
+    'email_too_long' => 'Votre adresse email ne peut dépasser ' . USERNAME_MAX_LENGTH . ' caractères',
+
+    'email_username' => 'Adresser un email à %s',
+
+    'existing_password' => 'Entrer votre mot de passe',
+
+    'existing_password_email' => 'Vous devez soumettre votre mot de passe actuel pour mettre à jour votre adresse email',
+
+    'existing_password_exp' => 'Vous <b>devez</b> entrer votre de passe pour réaliser la sauvegarde.',
+
+    'extended_profile' => 'Profil étendu',
+
+    'extras' => 'Extras',
+
+    'forum_post' => 'Sujet de forum',
+
+    'homepage_preferences' => 'Préférences de la page d\'accueil',
+
+    'html_buttons' => 'Boutons HTML',
+
+    'html_buttons_updated' => 'Boutons <abbr title="Hyper-Text Markup Language">HTML</abbr> mis à jour',
+
+    'icq' => 'ICQ',
+
+    'include_in_author_list' => 'Inclure  dans la liste d\'auteurs?',
+
+    'include_in_author_list_desc' => 'Si activé, cet utilisateur apparaîtra dans la liste des auteurs pour les entrées des canaux.',
+
+    'include_seconds' => 'Afficher les secondes?',
+
+    'interests' => 'Intérêts',
+
+    'invalid_characters_in_username' => 'Votre nom d\'utilisateur ne peut pas emprunter les caractères suivants: | " \' ! < > { }',
+
+    'invalid_email_address' => 'L\'email que vous avez saisi en non valide',
+
+    'invalid_group_id' => 'Vous devez sélectionner un groupe valide.',
+
+    'invalid_password' => 'Le mot de passe que vous avez saisi n\'est pas correct',
+
+    'join_date' => 'Date d\'inscription',
+
+    'language' => 'Langue',
+
+    'language_desc' => 'Votre langue préférée. Utilisée dans le tableau de bord seulement.',
+
+    'last_comment_date' => 'Date du commentaire le plus récent',
+
+    'last_entry_date' => 'Date de l\'entrée la plus récente',
+
+    'last_forum_post_date' => 'Date de la publication de forum la plus récente',
+
+    'last_visit' => 'Dernière visite',
+
+    'left_column' => 'Colonne de gauche',
+
+    'link_order' => 'Ordre',
+
+    'link_url' => 'URL',
+
+    'localization' => 'Réglages de localisation',
+
+    'localization_settings' => 'Réglages de localisation',
+
+    'localization_updated' => 'Localisation mise à jour',
+
+    'location' => 'Localisation',
+
+    'location_desc' => 'Votre localisation physique.',
+
+    'login_as' => 'Connecté en tant que %s',
+
+    'login_as_member' => 'Connecté en tant que membre',
+
+    'login_as_warning' => "<b>ATTENTION</b>: vous serez connecté(e) en tant que membre '%s' et redirigé(e) sur la page ci-dessous.",
+
+    'main_menu_manager' => 'Gestionnaire de menu principal',
+
+    'main_menu_manager_description' => 'Cette page vous permet de gérer vous boutons de navigation principaux et personnalisés. Les boutons que vous rajoutez ne sont visibles que par vous.',
+
+    'main_menu_manager_description_more' => 'Notez: Vous ne pouvez pas réaliser des boutons pour les pages du niveau supérieur puisque des onglets existent déjà pour elles.',
+
+    'main_menu_manager_instructions' => 'Pour ajouter un bouton de menu principal, visitez d\'abord la page de destination puis cliquez sur le lien  \'+ Ajouter\' en haut et à droite de la navigation principale.',
+
+    'main_menu_manager_updated' => 'Le gestionnaire d\'onglets a été mis à jour',
+
+    'member_email' => 'Adresser un email au membre',
+
+    'member_group_assignment' => 'Missions du groupe de membres',
+
+    'member_group_default' => 'Groupe de membres par défaut',
+
+    'member_group_warning' => 'Soyez prudent(e) avant d\'accorder cette affectation',
+
+    'user_ip_address' => 'Adresse IP',
+
+    'member_preferences' => 'Préférences de membres',
+
+    'member_search_form' => 'Formulaire de recherche de membres',
+
+    'member_stats' => 'Statistiques de compte pour:',
+
+    'missing_current_password' => 'Vous devez saisir votre mot de page actuel pour pouvoir réaliser ces changements',
+
+    'missing_email' => 'Vous devez saisir une adresse email',
+
+    'missing_password' => 'Vous devez saisir un mot de passe',
+
+    'missing_username' => 'Vous devez saisir un nom d\'utilisateur',
+
+    'missmatched_passwords' => 'Le mot de passe et la confirmation du mot de passe ne correspondent pas',
+
+    'month' => 'Mois',
+
+    'msn_im' => 'MSN IM',
+
+    'new_member_added' => 'Profil de membre créé:',
+
+    'new_password' => 'Nouveau mot de passe',
+
+    'new_password_confirm' => 'Confirmer le nouveau mot de passe',
+
+    'new_password_confirm_desc' => 'Retapez le mot de passe désiré pour confirmer.',
+
+    'new_password_desc' => 'Utilisez des lettres en minuscules et en majuscules, des chiffres et des symboles pour des mots de passe forts.',
+
+    'new_release_indicator' => 'Indicateur d\'une nouvelle édition du logiciel',
+
+    'new_tab_title' => 'Titre du nouvel onglet',
+
+    'new_tab_url' => 'URL du nouvel onglet',
+
+    'no_consents_found' => 'Pas de <b>Consentements</b> trouvés.',
+
+    'no_blocked_members_found' => 'Pas de <b>membres bloqués</b> trouvés.',
+
+    'no_bookmarklets_found' => 'Pas de <b>Marque-pages</b> trouvés.',
+
+    'no_channels_assigned_to_user' => 'Il n\'y a pas de canaux rattachés à ce compte.',
+
+    'no_extended_fields' => 'Il n\'y a actuellement pas de champs de profil étendus de membres',
+
+    'no_fields_assigned_to_channel' => 'Le canal que vous avez choisi n\'a pas de groupe de champs qui lui est rattaché',
+
+    'no_quick_links_found' => 'Pas de <b>Liens rapides</b> trouvés.',
+
+    'no_subscriptions' => 'Vous n\'avez actuellement aucun abonnement',
+
+    'no_subscriptions_found' => 'Pas <b>d\'abonnements</b> trouvés.',
+
+    'no_unlocked_member_groups' => 'Vous n\'avez pas les permissions requises pour ajouter des nouveaux membres à tel ou tel groupe.<br />Merci de <a href="%s">contacter votre administrateur système</a> si vous considérez que cela est incorrect.',
+
+    'not_secure_password' => 'Le mot de passe choisi n\'est pas assez sécuritaire.',
+
+    'notepad_blurb' => 'Utiliser ce formulaire pour y ranger des informations et des notes personnelles',
+
+    'notepad_size' => 'Taille du bloc-notes',
+
+    'notepad_updated' => 'Bloc-notes mis à jour',
+
+    'notify_by_default' => 'Quand je publie des messages',
+
+    'notify_of_pm' => 'Quand quelqu\'un m\'adresse des messages',
+
+    'occupation' => 'Profession',
+
+    'only_self_main_menu_manager_access' => 'Vous n\'êtes pas autorisé(e) à accéder au gestionnaire de menus d\'un autre membre',
+
+    'only_self_notpad_access' => 'Vous n\'êtes pas autorisé(e) à accéder au bloc-notes d\'un autre membre',
+
+    'only_self_qucklink_access' => 'Vous n\'êtes pas autorisé(e) à accéder aux liens rapides d\'un autre membre',
+
+    'parse_smileys' => 'Afficher des images d\'émoticônes dans le contenu',
+
+    'password' => 'Mot de passe',
+
+    'password_auth' => 'Vous devez saisir votre mot de passe actuel pour continuer',
+
+    'password_based_on_username' => 'Le mot de passe ne peut pas être basé sur le nom d\'utilisateur',
+
+    'password_change' => 'Formulaire de modification de mot de passe',
+
+    'password_change_exp' => '<b>Attention</b>: laissez vides les champs suivants si vous ne souhaitez <b>pas</b> modifier votre mot de passe.',
+
+    'password_change_warning' => 'Notez: vous avez modifié votre mot de passe ce qui vous contraint à vous reconnecter.',
+
+    'password_confirm' => 'Confirmer le mot de passe',
+
+    'password_in_dictionary' => 'Vous n\'êtes pas autorisé(e) à utiliser un mot issu du dictionnaire comme mot de passe',
+
+    'password_too_long' => 'Votre mot de passe ne peut excéder ' . PASSWORD_MAX_LENGTH . ' caractères',
+
+    'password_too_short' => 'Votre mot de passe doit comporter au moins %d caractères',
+
+    'personal_settings' => 'Réglages personnels',
+
+    'php_sql_versions' => 'Versions PHP/SQL',
+
+    'please_update_order' => 'Merci de régler l\'ordre d\'affichage des éléments',
+
+    'preferences' => 'Préférences',
+
+    'preferences_desc' => 'Autoriser ce qui suit.',
+
+    'preferences_updated' => 'Préférences mis à jour',
+
+    'profile_form' => 'Formulaire de profil',
+
+    'profile_header' => 'Profil %s  <div class="section-header__subtitle">
+    <b>Email</b>: %s / <b>IP</b>: %s
 </div>',
 
-'accept_user_email' => 'De la part des autres membres de ce site',
+    'profile_updated' => 'Profil mis à jour',
 
-'administration' => 'Administration',
+    'publishing_settings' => 'Réglages de publication',
 
-'administrative_options_updated' => 'Options administratives mises à jour',
+    'quick_link' => 'Lien rapide',
 
-'administrative_options' => 'Administration de membre',
+    'quick_link_description' => 'Utiliser ce formulaire pour ajouter des liens personnels dans la barre latérale.',
 
-'administrative_settings' => 'Paramètres Admin',
+    'quick_link_description_more' => 'Ces liens ne seront visibles que par vous.',
 
-'allow_messages' => 'Accepter les messages venant d\'autres membres',
+    'quick_links_ajax_reorder_fail' => 'Attention: échec dans la sauvegarde de l\'ordre des liens rapides',
 
-'anonymize_username' => 'Rendre anonyme %s',
+    'quick_links_ajax_reorder_fail_desc' => 'Vous n\'avons pas réussi à sauvegarder l\'ordre de vos nouveaux liens rapides. Rafraîchissez la page et assurez-vous d\'être connecté(e).',
 
-'anonymize_member_desc' => 'Vous êtes sur le point de rendre anonyme ce membre, ce qui implique que toutes les données considérées comme de l\'information sensible et personnelle seront effacées, mais l\'enregistrement du membre restera valide. Merci de confirmer cette action.',
+    'quick_links_removed_desc' => 'Les liens rapides ont été supprimés.',
 
-'aol_im' => 'AOL IM',
+    'quicklinks_delete_instructions' => 'Pour supprimer l\'élément, veuillez saisir le formulaire avec un titre vide.',
 
-'auth_settings' => 'Identifiant & Mot de Passe',
+    'quicklinks_updated' => 'Les liens rapides ont été mis à jour',
 
-'avatar_settings' => 'Paramètres d\'avatar',
+    'recent_comments' => 'Commentaires les plus récents',
 
-'banned_email' => 'L\'adresse email que vous avez saisie est exclue',
+    'recent_entries' => 'Entrées canal les plus récentes',
 
-'base_profile' => 'Profil de base',
+    'recent_members' => 'Les dix plus récentes inscriptions de membres',
 
-'bio' => 'Bio',
+    'redirect_to' => 'Connecter et rediriger vers',
 
-'biography_desc' => 'Votre biographie',
+    'redirect_to_desc' => 'Après que vous serez connecté(e) en tant que  %s, la page choisie vous sera envoyée.',
 
-'biography' => 'Biographie',
+    'right_column' => 'Colonne de droite',
 
-'birth_day' => 'Jour de naissance',
+    'save_bookmarklet' => 'Sauvegarder le marque-page',
 
-'birth_month_desc' => '',
+    'screen_name' => 'Nom d\'écran',
 
-'birth_month' => 'Mois de naissance',
+    'screen_name_changed' => 'Le nom d\'écran a été changé en:',
 
-'birth_year_desc' => '',
+    'screen_name_taken' => 'Le nom d\'écran que vous avez choisi n\'est pas disponible',
 
-'birth_year' => 'Année de naissance',
+    'screenname_too_long' => 'Votre nom d\'écran ne peut dépasser ' . USERNAME_MAX_LENGTH . ' caractères',
 
-'birthday_desc' => '',
+    'search_subscriptions' => 'Recherche des abonnements',
 
-'blocked_members' => 'Membres bloqués',
+    'select_field' => 'Champ par défaut vers lequel publier',
 
-'bookmarklet_created' => 'Mini-signet créé',
+    'set_display_order' => 'Régler l\'ordre d\'affichage',
 
-'bookmarklet_field_desc' => 'Choisissez votre canal et votre champ préféré pour poster des articles dans ce mini-signet.',
+    'settings_save_error' => 'Erreur',
 
-'bookmarklet_field' => 'Canal & Champ de Canal',
+    'settings_save_error_desc' => 'Les réglages de profil n\'ont pas pu être sauvegardés.',
 
-'bookmarklet_info' => 'Un mini-signet vous permet d\'ajouter des articles à votre canal sans vous connecter à l\'interface du panneau de contrôle.',
+    'settings_updated' => 'Les réglages ont été mis à jour',
 
-'bookmarklet_instructions' => 'Enregistrez ce lien dans vos favoris :',
+    'sidebar_updated' => 'L\'état de la barre latérale a été mise à jour',
 
-'bookmarklet_next_step' => 'Etape suivante',
+    'single_word_no_spaces' => 'un seul mot, pas d\'espace',
 
-'bookmarklet' => 'Mini-signet',
+    'site_default' => 'Utiliser le site par défaut',
 
-'bookmarklets' => 'Mini-signets',
+    'site_index' => 'Index du site',
 
-'btn_authenticate_and_login' => 'Authentification &amp; Connexion',
+    'site_statistics' => 'Statistiques du site',
 
-'btn_login' => 'Connexion',
+    'smart_notifications' => 'Activer les notifications intelligentes',
 
-'btn_save_settings' => 'Enregistrer les paramètres',
+    'smart_notifications_desc' => 'Si activé, une fois que aurez reçu une notification d\'un fil de discussion, vous n\'en recevrez plus avant que vous ayez consulté ce fil.',
 
-'bulletin_board' => 'Tableau des bulletins',
+    'subscriptions' => 'Abonnements actuels',
 
-'can_not_edit' => '(ne peut être modifié)',
+    'subscriptions_removed' => 'Les abonnements ont été supprimés',
 
-'can_not_view_superadmin_profile' => 'Vous ne pouvez consulter le profil d\'un Super Administrateur',
+    'super_admin_demotion_alert' => 'En tant que Super Admin, vous n\'êtes pas autorisé(e) à modifier les affectations de groupes de membres',
 
-'change_avatar_desc' => 'Ajouter un avatar à votre profil.',
+    'system_offline_indicator' => 'Indicateur de système hors-ligne ',
 
-'change_avatar' => 'Changer d\'avatar',
+    'tab_manager_create_new' => 'Créer un nouvel onglet',
 
-'change_password' => 'Changer le mot de passe',
+    'tab_manager_existing' => 'Onglets personnalisés actuels',
 
-'channel_name' => 'Choisissez le canal dans lequel vous souhaitez que les articles soient publiés',
+    'tab_manager_newlink' => 'Ajouter un nouvel onglet',
 
-'channel_preferences' => 'Paramètres de canal',
+    'tab_manager_newlink_title' => 'Nom du nouvel onglet',
 
-'choose_avatar' => 'Choisir dans la bibliothèque',
+    'tab_order' => 'Ordre',
 
-'choose_theme' => 'Choisissez le thème du panneau de contrôle',
+    'tab_title' => 'Onglets actuels',
 
-'comment' => 'Commentaire',
+    'tab_url' => 'URL onglet',
 
-'consent_granted' => 'Consentement accordé',
+    'time_format' => 'Formatage de date',
 
-'consent_granted_desc' => 'Votre consentement a été accordé pour les requêtes suivantes :',
+    'time_format' => 'Formatage de date',
 
-'consent_withdrawn' => 'Consentement retiré',
+    'timezone' => 'Fuseau horaire',
 
-'consent_withdrawn_desc' => 'Votre consentement a été retiré pour les requêtes suivantes :',
+    'timezone_desc' => 'Localiser le fuseau horaire pour tous les affichages d\'heure et de date.',
 
-'consents' => 'Consentements',
+    'title' => 'Titre',
 
-'control_panel_settings' => 'Personnalisation du panneau de contrôle',
+    'total_comments' => 'Total commentaires',
 
-'cp_homepage' => 'Page d\'accueil du panneau de contrôle',
+    'total_entries' => 'Total entrées de canaux',
 
-'cp_index' => 'Index panneau de contrôle',
+    'total_forum_posts' => 'Total publications de forum',
 
-'cp_settings' => 'Paramètres du panneau de contrôle',
+    'total_forum_replies' => 'Total réponses de forums',
 
-'create_bookmarklet' => 'Créer un mini-signet',
+    'total_forum_topics' => 'Total sujets de forum',
 
-'create_html_buttons_error_desc' => 'Nous n\'avons pas pu créer ce bouton <abbr title="Hyper-Text Markup Language">HTML</abbr>, merci de vérifier et corriger les erreurs ci-dessous.',
+    'type' => 'Type',
 
-'create_html_buttons_error' => 'Impossible de créer le bouton <abbr title="Hyper-Text Markup Language">HTML</abbr>',
+    'unsubscribe' => 'Désabonner',
 
-'create_html_buttons_success_desc' => 'Le bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> <b>%s</b> a été créé.',
+    'unsubscribe_success' => 'Vous avez été désabonné(e) avec succès.',
 
-'create_html_buttons_success' => 'Bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> créé',
+    'avatar_path_does_not_exist' => 'Votre répertoire de téléchargement d\'avatars n\'existe pas. Merci de vérifier vos réglages de téléchargement d\'<a href="%s">avatars</a>.',
+    
+    'avatars_disabled' => 'Les avatars sont désactivés. Merci de mettre à jour vos réglages d\'<a href="%s">avatars</a>.',
 
-'create_quick_link' => 'Créer un raccourci',
+    'upload_avatar' => 'Téléverser — .gif, .jpg, .png (max %skb)',
 
-'create_the_bookmarklet' => 'Créer le mini-signet',
+    'user_ip_address' => 'Adresse IP',
 
-'current_avatar_desc' => 'Ceci est l\'avatar que vous utilisez actuellement.',
+    'username' => 'Nom d\'utilisateur',
 
-'current_avatar' => 'Avatar actuel',
+    'username_and_password' => 'Nom d\'utilisateur et mot de passe',
 
-'current_member' => 'Membre :',
+    'username_change_not_allowed' => 'Les administrateurs n\'autorisent pas la modification des noms d\'utilisateurs',
 
-'customize_cp' => 'Personnaliser le panneau de contrôle',
+    'username_changed' => 'Le nom d\'utilisateur à été modifié en :',
 
-'customize_homepage' => 'Personnaliser la page d\'accueil du panneau de contrôle',
+    'username_taken' => 'Le nom d\'utilisateur que vous avez choisi n\'est pas disponible',
 
-'date_settings' => 'Paramètres Date & Heure',
+    'username_too_long' => 'Votre nom d\'utilisateur ne peut pas dépasser' . USERNAME_MAX_LENGTH . ' caractères',
 
-'day' => 'Jour',
+    'username_too_short' => 'Votre nom d\'utilisateur doit au moins comporter %d caractères',
 
-'default_cp_homepage_myaccount_desc' => 'Définissez votre page d\'accueil pour le panneau de contrôle.',
+    'utilities' => 'Utilitaires',
 
-'delete_member' => 'Supprimer le membre',
+    'valid_user_email' => 'L\'email que vous avez choisi n\'est pas valide',
 
-'delete_username' => 'Supprimer %s',
+    'validating_members' => 'Membres en attente d\'activation',
 
-'disallowed_screen_chars' => 'Le pseudo contient des caractères invalides',
+    'view_activity' => 'Visualiser l\'activité',
 
-'display_avatars' => "Afficher les avatars des autres membres",
+    'info_and_activity' => 'Info & Activité',
 
-'do_not_show' => 'Ne pas afficher',
+    'yahoo_im' => 'Yahoo IM',
 
-'edit_bookmarklet' => 'Modifier un mini-signet',
+    'year' => 'Année',
 
-'edit_html_buttons_error_desc' => 'Nous n\'avons pas pu mettre à jour ce bouton <abbr title="Hyper-Text Markup Language">HTML</abbr>, merci de vérifier et corriger les erreurs ci-dessous.',
+    'your_html_buttons' => 'Boutons de formatage <abbr title="Hyper-Text Markup Language">HTML</abbr>',
 
-'edit_html_buttons_error' => 'Impossible de mettre à jour le bouton <abbr title="Hyper-Text Markup Language">HTML</abbr>',
-
-'edit_html_buttons_success_desc' => 'Le bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> <b>%s</b> a été mis à jour.',
-
-'edit_html_buttons_success' => 'Bouton <abbr title="Hyper-Text Markup Language">HTML</abbr> mis à jour',
-
-'edit_profile' => 'Modifier le profil',
-
-'edit_quick_link' => 'Modifier un raccourci',
-
-'edit_subscriptions' => 'Voir les abonnements',
-
-'email_changed' => 'L\'email a été changée pour :',
-
-'email_confirm' => 'Confirmer l\'adresse email',
-
-'email_description' => 'Adresse email address pour ce compte.',
-
-'email_options_desc' => 'Envoyez-moi des emails',
-
-'email_options' => 'Options',
-
-'email_settings' => 'Paramètres email',
-
-'email_taken' => 'L\'email que vous avez choisi n\'est pas disponible',
-
-'email_too_long' => 'Votre adresse email ne peut pas excéder '.USERNAME_MAX_LENGTH.' caractères',
-
-'email_username' => 'Envoyer un email à %s',
-
-'email' => 'Adresse email ',
-
-'existing_password_email' => 'Vous devez saisir le mot de passe actuel pour mettre à jour l\'adresse email',
-
-'existing_password_exp' => 'Vous devez saisir votre mot de passe actuel pour mettre à jour cette page',
-
-'existing_password' => 'Saisir votre mot de passe',
-
-'extended_profile' => 'Profil étendu',
-
-'extras' => 'Extras',
-
-'forum_post' => 'Sujet de forum',
-
-'homepage_preferences' => 'Préférences de la page d\'accueil',
-
-'html_buttons_updated' => 'Boutons HTML mis à jour',
-
-'html_buttons' => 'Boutons de formatage <abbr title="Hyper-Text Markup Language">HTML</abbr>',
-
-'icq' => 'ICQ',
-
-'include_in_author_list_desc' => 'Si activé, cet utilisateur apparaîtra dans la liste des auteurs pour les articles de canal.',
-
-'include_in_author_list' => 'Inclure dans la liste des auteurs ?',
-
-'include_seconds' => 'Afficher les secondes?',
-
-'interests' => 'Centres d\'intérêt',
-
-'invalid_characters_in_username' => 'L\'identifiant contient des caractères interdits : | " \' ! < > { }',
-
-'invalid_email_address' => 'L\'email que vous avez saisi est invalide',
-
-'invalid_group_id' => 'Vous devez sélectionner un groupe valide.',
-
-'invalid_password' => 'Le mot de passe que vous avez saisi est incorrect',
-
-'join_date' => 'Date d\'inscription ',
-
-'language_desc' => 'Votre langue préférée. Uniquement utilisée dans le panneau de contrôle.',
-
-'language' => 'Sélectionnez la langue',
-
-'last_comment_date' => 'Date du commentaire le plus récent ',
-
-'last_entry_date' => 'Date de l\'article le plus récent ',
-
-'last_forum_post_date' => 'Message de forum le plus récent',
-
-'last_visit' => 'Dernière visite ',
-
-'left_column' => 'Colonne de gauche',
-
-'link_order' => 'Ordre',
-
-'link_url' => 'URL du lien',
-
-'localization_settings' => 'Paramètres de localisation',
-
-'localization_updated' => 'Localisation mise à jour',
-
-'localization' => 'Paramètres de localisation',
-
-'location_desc' => 'Votre localisation physique sur Terre',
-
-'location' => 'Ville, Pays',
-
-'login_as_member' => 'Se connecter comme membre',
-
-'login_as_warning' => "<b>Attention</b> : vous serez connecté comme le membre '%s' et redirigé vers la page ci-dessous.",
-
-'login_as' => 'Se connecter comme %s',
-
-'main_menu_manager_description_more' => 'Note : vous ne pouvez pas créer d\'onglet pour des pages de premier niveau puisqu\'ils sont déjà créés.',
-
-'main_menu_manager_description' => 'Cette page vous permet de gérer la navigation par onglet. Les onglets que vous ajoutez ne sont visibles que par vous.',
-
-'main_menu_manager_instructions' => 'Pour ajouter un nouvel onglet, visitez la page et cliquez "+ Ajouter" en haut à droite dans la navigation.',
-
-'main_menu_manager_updated' => 'Le gestionnaire des onglets à été mis à jour',
-
-'main_menu_manager' => 'Gestion du menu principal',
-
-'member_email' => 'Envoyer un email au membre',
-
-'member_group_assignment' => 'Affectation au groupe de membres :',
-
-'member_group_default' => 'Groupe de membres par défaut', // to review english = member group default
-
-'member_group_warning' => 'Soyez très prudent en assignant ceci',
-
-'member_preferences' => 'Préférences de membre',
-
-'member_search_form' => 'Formulaire de recherche de membre',
-
-'member_stats' => 'Statistiques du compte pour :',
-
-'missing_current_password' => 'Pour appliquer les changements vous devez saisir votre mot de passe actuel',
-
-'missing_email' => 'Vous devez saisir une adresse email',
-
-'missing_password' => 'Vous devez saisir un mot de passe',
-
-'missing_username' => 'Vous devez saisir un identifiant',
-
-'missmatched_passwords' => 'Le mot de passe et sa confirmation ne correspondent pas',
-
-'month' => 'Mois',
-
-'msn_im' => 'MSN',
-
-'new_member_added' => 'Profil de membre créé :',
-
-'new_password_confirm_desc' => 'Afin de confirmer, saisissez de nouveau votre mot de passe.',
-
-'new_password_confirm' => 'Confirmation du nouveau mot de passe',
-
-'new_password_desc' => 'Utilisez des lettres minuscules et majuscules, des chiffres et des symboles pour créer des mots de passe de haute qualité.',
-
-'new_password' => 'Nouveau mot de passe',
-
-'new_release_indicator' => 'Indicateur de nouvelle version de logiciel',
-
-'new_tab_title' => 'Titre du nouvel onglet',
-
-'new_tab_url' => 'URL du nouvel onglet',
-
-'no_consents_found' => 'Aucun <b>Consentement</b> trouvé.',
-
-'no_blocked_members_found' => 'Aucun <b>membre bloqué</b> trouvé.',
-
-'no_bookmarklets_found' => 'Aucun <b>mini-signet</b> trouvé.',
-
-'no_channels_assigned_to_user' => 'Il n\'y a aucun canal affecté à ce compte.',
-
-'no_extended_fields' => 'Il n\'y a actuellement aucun champ étendu de profil de membre',
-
-'no_fields_assigned_to_channel' => 'Le canal que vous avez choisi n\'a aucun groupe de champs qui lui est affecté',
-
-'no_quick_links_found' => 'Aucun <b>Lien rapide</b> trouvé.',
-
-'no_subscriptions_found' => 'Aucun <b>abonnement</b> trouvé.',
-
-'no_subscriptions' => 'Vous n\'avez actuellement aucun abonnement',
-
-'no_unlocked_member_groups' => 'Vous ne possédez pas les autorisations requises pour ajouter de nouveaux membres à un quelconque groupe.<br />Merci de <a href="%s">contacter votre Administrateur Système</a> si vous pensez qu\'il s\'agit d\'une erreur.',
-
-'not_secure_password' => 'Les mots de passe doivent contenir au moins un caractère en majuscule, un en minuscule et un chiffre',
-
-'notepad_blurb' => 'Utilisez ce formulaire pour stocker des notes personnelles et autres informations',
-
-'notepad_size' => 'Taille du bloc note',
-
-'notepad_updated' => 'Bloc note mis à jour',
-
-'notify_by_default' => 'Activer la notification d\'email par défaut lorsque vous publiez un message',
-
-'notify_of_pm' => 'Me notifier par email lorsque quelqu\'un m\'envoie un message privé',
-
-'occupation' => 'Profession ou Activité',
-
-'only_self_main_menu_manager_access' => 'Vous n\'êtes pas autorisé à accéder au gestionnaire du menu d\'un autre membre',
-
-'only_self_notpad_access' => 'Vous n\'êtes pas autorisé à accéder au bloc note d\'un autre membre',
-
-'only_self_qucklink_access' => 'Vous n\'êtes pas autorisé à accéder aux raccourcis d\'un autre membre',
-
-'parse_smileys' => 'Afficher les émoticônes dans le contenu ',
-
-'password_auth' => 'Pour poursuivre, vous devez saisir votre mot de passe actuel de Super Admin',
-
-'password_based_on_username' => 'Le mot de passe ne peut être basé sur l\'identifiant',
-
-'password_change_exp' => 'Laissez vide si vous ne souhaitez pas le modifier',
-
-'password_change_warning' => 'Note : Vous avez modifié votre mot de passe, vous devrez donc vous reconnecter.',
-
-'password_change' => 'Formulaire de changement de mot de passe',
-
-'password_confirm' => 'Confirmation du mot de passe',
-
-'password_in_dictionary' => 'Vous n\'êtes pas autorisé à utiliser un mot du dictionnaire comme mot de passe',
-
-'password_too_long' => 'Votre mot de passe ne peut pas excéder '.PASSWORD_MAX_LENGTH.' caractères',
-
-'password_too_short' => 'Le mot de passe que vous avez saisi doit faire au moins %d caractères de long',
-
-'password' => 'Mot de passe',
-
-'personal_settings' => 'Paramètres personnels',
-
-'php_sql_versions' => 'Versions PHP/SQL',
-
-'please_update_order' => 'Veuillez paramétrer l\'ordre d\'affichage de l\'élément',
-
-'preferences_desc' => 'Autoriser ce qui suit',
-
-'preferences_updated' => 'Préférences mises à jour',
-
-'preferences' => 'Préférences',
-
-'profile_form' => 'Formulaire de profil',
-
-'profile_updated' => 'Profil mis à jour',
-
-'publishing_settings' => 'Paramètres de publication',
-
-'quick_link_description_more' => 'Ces liens ne seront visibles que par vous.',
-
-'quick_link_description' => 'Utilisez ce formulaire pour ajouter des raccourcis personnels à la barre latérale.',
-
-'quick_link' => 'Raccourci',
-
-'quick_links_ajax_reorder_fail_desc' => 'Nous n\'avons pas réussi à enregistrer le nouvel ordre des liens rapides. Rafraîchissez la page et assurez-vous d\'être connecté.',
-
-'quick_links_ajax_reorder_fail' => 'Attention : impossible d\'enregistrer l\'ordre des liens rapides',
-
-'quick_links_removed_desc' => 'Les raccourcis ont été supprimés.',
-
-'quicklinks_delete_instructions' => 'Pour supprimer un élément, soumettez le formulaire en laissant le titre vide.',
-
-'quicklinks_updated' => 'Les raccourcis ont été mis à jour',
-
-'recent_comments' => 'Commentaires les plus récents',
-
-'recent_entries' => 'Articles les plus récents',
-
-'recent_members' => 'Les 10 inscriptions les plus récentes',
-
-'redirect_to_desc' => 'Après que vous vous soyez connecté en tant que %s, vous serez redirigé vers la page choisie.',
-
-'redirect_to' => 'Se connecter et aller vers',
-
-'right_column' => 'Colonne de droite',
-
-'rte_enabled_desc' => 'Si activé, l\'éditeur de texte enrichi choisi ci-dessous apparaîtra dans les formulaires de publication pour cet utilisateur.',
-
-'rte_enabled' => 'Activer l\'éditeur de texte enrichi ?',
-
-'rte_settings' => 'Paramètres RTE',
-
-'rte_toolset_desc' => 'Choisissez votre jeu d\'outils RTE préféré.',
-
-'rte_toolset' => 'Jeu d\'outils RTE',
-
-'save_bookmarklet' => 'Enregistrer le mini-signet',
-
-'screen_name_changed' => 'Le pseudo a été changé pour :',
-
-'screen_name_taken' => 'Le pseudo que vous avez choisi n\'est pas disponible',
-
-'screen_name' => 'Pseudo',
-
-'screenname_too_long' => 'Votre pseudo ne peut pas excéder '.USERNAME_MAX_LENGTH.' caractères',
-
-'search_subscriptions' => 'Rechercher des abonnements',
-
-'select_field' => 'Sélectionnez le champ par défaut dans lequel vous souhaitez que l\'article soit publié',
-
-'set_display_order' => 'Paramétrer l\'ordre d\'affichage',
-
-'settings_save_error_desc' => 'Les paramètres du profil n\'ont pas pu être enregistrés.',
-
-'settings_save_error' => 'Erreur',
-
-'settings_updated' => 'Les paramètres ont été mis à jour',
-
-'sidebar_updated' => 'Barre latérale mise à jour',
-
-'single_word_no_spaces' => 'Un seul mot, sans espaces',
-
-'site_default' => 'Utiliser les valeurs par défaut du site',
-
-'site_index' => 'Index du site',
-
-'site_statistics' => 'Statistiques du site',
-
-'smart_notifications_desc' => 'Si activé, les notifications intelligentes seront possibles',
-
-'smart_notifications' => 'Activer la notification intelligente',
-
-'subscriptions_removed' => 'Les abonnements ont été enlevés',
-
-'subscriptions' => 'Gestion des Abonnements',
-
-'super_admin_demotion_alert' => 'En tant que Super Admin, vous n\'êtes pas autorisé à changer votre groupe de membres',
-
-'system_offline_indicator' => 'Indicateur de système hors ligne',
-
-'tab_manager_create_new' => 'Créer un nouvel onglet',
-
-'tab_manager_existing' => 'Onglets personnalisés actuels',
-
-'tab_manager_newlink_title' => 'Nom de votre nouvel onglet',
-
-'tab_manager_newlink' => 'Ajouter un nouvel onglet ',
-
-'tab_order' => 'Ordre',
-
-'tab_title' => 'Onglets actuels',
-
-'tab_url' => 'URL de l\'onglet',
-
-'time_format' => 'Formatage de l\'heure',
-
-'timezone_desc' => 'Fuseau horaire local pour tous les affichages de dates et heures.',
-
-'timezone' => 'Choisissez un fuseau horaire',
-
-'title' => 'Titre',
-
-'total_comments' => 'Nombre total de commentaires ',
-
-'total_entries' => 'Nombre total d\'articles ',
-
-'total_forum_posts' => 'Nombre de messages de forum',
-
-'total_forum_replies' => 'Nombre de réponses de forum',
-
-'total_forum_topics' => 'Nombre de sujets de forum',
-
-'type' => 'Type',
-
-'unsubscribe_success' => 'Vous avez été désabonné avec succès.',
-
-'unsubscribe' => 'Se désabonner',
-
-'update_avatar_path' => '<em>Mettez à jour vos paramètres de téléchargement d\'<a href="%s">avatar</a></em>',
-
-'upload_avatar' => 'Télécharger — .gif, .jpg, .png (max %skb)',
-
-'url_desc' => 'URL de votre site web personnel',
-
-'url' => 'URL',
-
-'user_ip_address' => 'Adresse IP ',
-
-'user_ip_address' => 'Adresse IP',
-
-'username_and_password' => 'Identifiant et mot de passe',
-
-'username_change_not_allowed' => 'Les administrateurs n\'autorisent pas le changement d\'identifiant',
-
-'username_changed' => 'L\'identifiant a été changé pour :',
-
-'username_taken' => 'L\'identifiant que vous avez choisi n\'est pas disponible',
-
-'username_too_long' => 'Votre identifiant ne peut pas excéder '.USERNAME_MAX_LENGTH.' caractères',
-
-'username_too_short' => 'L\'identifiant que vous avez saisi doit faire au moins %d caractères de long',
-
-'username' => 'Identifiant',
-
-'utilities' => 'Utilitaires',
-
-'valid_user_email' => 'L\'email choisi n\'est pas valide',
-
-'validating_members' => 'Membres en attente d\'activation',
-
-'view_activity' => 'Voir l\'Activité',
-
-'yahoo_im' => 'Yahoo IM',
-
-'year' => 'Année',
-
-'your_html_buttons' => 'Boutons de formatage <abbr title="Hyper-Text Markup Language">HTML</abbr>',
-
-"date_format" => "Format de Date & Heure",
+    'mfa' => 'Authentication multi-facteurs',
 
 );
 
 // EOF
+

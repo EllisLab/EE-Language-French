@@ -2,675 +2,838 @@
 
 $lang = array(
 
-/* no Javascript Warning */
-'no_js_warning' => 'JavaScript doit être activé pour utiliser ce thème. Vérifier les paramètres de votre navigateur.',
+    /* no Javascript Warning */
+    'no_js_warning' => 'Javascript doit être activé afin que ce thème fonctionne correctement. Merci de vérifier les réglages de votre navigateur.',
 
-//----------------------------
-// Develop Menu
-//----------------------------
+    /* Develop Menu */
+    'addon_manager' => 'Add-Ons',
 
-'addon_manager'    => 'Gestion des Add-Ons',
+    'channel_manager' => 'Canaux',
 
-'channel_manager'  => 'Gestion des Canaux',
+    'entries' => 'Entrées',
 
-'logs'             => 'Journaux',
+    'menu_entries' => 'Entrées',
 
-'msm_manager'      => 'Gestion des Sites',
+    'logs' => 'Logs',
 
-'nav_developer_tools'  => 'Outils Développeur',
+    'msm_manager' => 'Sites',
 
-'nav_developer'	=>	'Développeur',
+    'nav_content' => 'Contenu',
 
-'template_manager' => 'Gestion des Modèles',
+    'nav_developer' => 'Développeur',
 
-'utilities'        => 'Utilitaires',
+    'nav_developer_tools' => 'Outils de Développeur',
 
-//----------------------------
-// Control Panel
-//----------------------------
+    'nav_tools' => 'Outils',
 
-'action_can_not_be_undone' => 'CETTE ACTION NE PEUT ÊTRE ANNULÉE',
+    'nav_design' => 'Design',
 
-'add_new' => 'Ajouter Nouveau',
+    'template_manager' => 'Modèles',
 
-'addons' => 'Add-Ons',
+    'utilities' => 'Utilitaires',
 
-'all' => 'Tout',
+    'dark_theme' => 'Thème sombre',
 
-'any' => 'N\'importe lequel',
+    'light_theme' => 'Thème clair',
+    
+    'snow_theme' => 'Thème neige',
+    
+    'slate_theme' => 'Thème ardoise',
 
-'back' => 'Retour',
+    'dark' => 'Sombre',
 
-'be_careful' => 'SOYEZ PRUDENT !',
+    'light' => 'Clair',
+    
+    'snow' => 'Neige',
 
-'build' => 'Moutûre :',
+    'slate' => 'Ardoise',
 
-'captcha_explanation' => 'Un Captcha est une image qui contient un code de sécurité que les utilisateurs doivent saisir. Veuillez consulter le guide d\'utilisation pour plus d\'information.',
+    'jump_menu_item' => 'Saute Menu',
 
-'categories' => 'Catégories',
+    'jump_menu_input' => 'Sauter à…',
 
-'channels' => 'Canaux',
+    'many_jump_results' => 'Plus de dix résultats trouvés, merci d\'affiner votre recherche',
 
-'check_all' => 'Tout cocher',
+    'menu_manager' => 'Gestionnaire de menus',
 
-'choose_wisely' => 'Choisissez avec discernement',
+    /* Control Panel */
+    'action_can_not_be_undone' => 'CETTE ACTION EST IRREVERSIBLE',
 
-'clear_all' => 'Tout effacer',
+    'add_new' => 'Ajouter Nouveau',
 
-'click_to_edit' => 'Cliquer pour modifier',
+    'addons' => 'Add-Ons',
 
-'close_modal' => 'Fermer la boîte modale',
+    'all' => 'Tous',
 
-'consult_user_guide' => 'Consulter le guide d\'utilisation',
+    'any' => 'Aucun',
 
-'control_panel' => 'Panneau de Contrôle',
+    'back' => 'Retour',
 
-'copyright' => 'Copyright',
+    'be_careful' => 'FAITES ATTENTION!',
 
-'custom_limit' => 'limite personnalisée',
+    'build' => 'Version:',
 
-'details' => 'Détails',
+    'offline' => 'Hors-ligne',
 
-'do_not_duplicate' => 'Ne pas dupliquer',
+    'online' => 'En ligne',
 
-'e_no_css' => 'Le fichier CSS demandé n\'a pas pu être ouvert.',
+    'captcha_explanation' => 'Un CAPTCHA est une image contenant un code de sécurité que doivent soumettre les utilisateurs. Merci de consulter le guide utilisateur pour plus d\'infos.',
+    
+    'category' => 'Catégorie',
 
-'edit_quicklinks' => 'Editer les raccourcis',
+    'categories' => 'Catégories',
 
-'edit' => 'Modifier',
+    'channels' => 'Canaux',
 
-'fields' => 'Champs',
+    'choose_wisely' => 'Choisir avec discernement',
 
-'forgot_password' => 'Mot de passe oublié ?',
+    'click_to_edit' => 'Cliquer pour éditer',
 
-'forgotten_password' => 'Mot de passe oublié',
+    'close_modal' => 'Fermer la fenêtre modale',
 
-'hide_sidebar' => 'Masquer la barre latérale',
+    'consult_user_guide' => 'Consulter le guide utilisateur',
 
-'invalid_license' => 'LICENCE INVALIDE',
+    'control_panel' => 'Tableau de bord',
 
-'keyword_filter' => 'mots-clefs, appuyez sur la touche Entrée',
+    'copyright' => 'Copyright',
 
-'keyword_search' => 'Recherche de mots-clefs',
+    'custom_limit' => 'Personnaliser la limite',
+    
+    'custom_date' => 'Personnaliser la date',
 
-'license_number' => 'Numéro de licence',
+    'details' => 'Détails',
 
-'loading' => 'Chargement',
+    'do_not_duplicate' => 'Ne pas dupliquer',
 
-'logged_back_in' => 'Vous êtes maintenant reconnecté !',
+    'e_no_css' => 'Le fichier CSS demandé n\'a pas pu être ouvert.',
 
-'logout' => 'Déconnexion',
+    'edit_quicklinks' => 'Editer Liens rapides',
 
-'main_menu' => 'Accueil',
+    'fields' => 'Champs',
+    
+    'sort_filter' => 'Trié par',
 
-'my_account' => 'Mon compte',
+    'forgot_password' => 'Mot de passe oublié?',
 
-'myaccount' => 'Mon compte',
+    'forgotten_password' => 'Mot de passe oublié',
 
-'nav_homepage' => 'Accueil',
+    'hide_sidebar' => 'cacher la barre latérale',
 
-'nav_overview' => 'Vue d\'ensemble',
+    'invalid_license' => 'LICENCE NON VALIDE',
 
-'nav_settings' => 'Paramètres',
+    'license_number' => 'Numéro de licence',
 
-'new_tab' => 'Nouvel onglet',
+    'loading' => 'Chargement en cours',
 
-'new_version_available' => 'ExpressionEngine Version %s est maintenant disponible',
+    'logged_back_in' => 'Vous êtes maintenant reconnecté(e)',
 
-'notepad_no_content' => 'Aucune note dans le bloc note. Cliquez pour en créer une.',
+    'logout' => 'Se déconnecter',
 
-'notepad' => 'Bloc note',
+    'main_menu' => 'Accueil du TB ',
 
-'page_rendered' => 'Script exécuté en %x secondes',
+    'my_account' => 'Mon compte',
 
-'password_label' => 'Mot de Passe :',
+    'myaccount' => 'Mon compte',
 
-'password' => 'Mot de passe ',
+    'nav_homepage' => 'Page d\'accueil du TB',
 
-'powered_by' => 'Propulsé par',
+    'nav_overview' => 'Aperçu',
 
-'queries_executed' => '%x requêtes SQL effectuées',
+    'nav_settings' => 'Réglages',
 
-'quick_links' => 'Raccourcis',
+    'new_tab' => 'Nouvel onglet',
 
-'quicklinks_manager' => 'Gestionnaires de raccourcis',
+    'new_version_available' => 'La version %s d\'ExpressionEngine est maintenant disponible',
 
-'required_field' => 'champ obligatoire',
+    'notepad' => 'Bloc-notes',
 
-'retry' => 'Réessayer ?',
+    'notepad_no_content' => 'Pas d\'entrée de bloc-notes. Cliquer pour en créer une.',
 
-'reveal_sidebar' => 'Afficher la barre latérale',
+    'page_rendered' => 'Script exécuté en %x secondes',
 
-'rights_reserved' => 'Tous droits réservés',
+    'password' => 'Mot de passe',
 
-'running_current_desc' => 'ExpressionEngine %s est la dernière version.',
+    'password_for' => 'Mot de passe pour %s',
 
-'running_current' => 'ExpressionEngine est à jour',
+    'password_label' => 'Mot de passe:',
 
-'save_and_close' => 'Enregistrer & Fermer',
+    'powered_by' => 'Motorisé par',
 
-'save_and_new' => 'Enregistrer & Nouveau',
+    'queries_executed' => '%x requêtes SQL utilisées ',
 
-'searching' => 'Recherche',
+    'quick_links' => 'Liens rapides',
 
-'session_idle_description' => 'Votre session est devenue inactive, merci d\'entrer votre mot de passe pour continuer.',
+    'quicklinks_manager' => 'Gestionnaire de liens rapides',
 
-'session_idle_not_name' => 'Pas %s ?',
+    'required_field' => 'champ requis',
 
-'session_idle' => 'Session inactive détectée',
+    'required_fields' => 'champs requis',
 
-'show_hide' => 'Afficher/Masquer tout',
+    'retry' => 'Ré-essayer?',
 
-'submit_email_address' => 'Saisissez votre adresse email',
+    'reveal_sidebar' => 'afficher la barre latérale',
 
-'templates' => 'Modèles',
+    'rights_reserved' => 'Tous droits réservés',
 
-'unauthorized_access' => 'Vous n\'êtes pas autorisé à accéder à cette page',
+    'running_current' => 'ExpressionEngine est à jour',
 
-'unauthorized' => 'Non autorisé',
+    'running_current_desc' => 'ExpressionEngine %s est dans sa version la plus récente.',
 
-'update_btn' => 'Mettre à Jour',
+    'searching' => 'Recherche',
 
-'update_check_btn' => 'Rechercher des mises à jour',
+    'session_idle' => 'Session inactive détectée',
 
-'user_account' => 'Compte de membre',
+    'session_idle_description' => 'Vous êtes passé(e) en mode inactif, merci de compléter votre mot de passe pour continuer.',
 
-'user_avatar_alt' => 'Avatar Utilisateur',
+    'session_idle_not_name' => 'Vous n’êtes pas %s?',
 
-'user_label' => 'Utilisateur :',
+    'show_hide' => 'Tout afficher/cacher',
 
-'username_filter' => 'identifiant',
+    'submit_email_address' => 'Soumettre votre adresse email',
 
-'username' => 'Identifiant ',
+    'templates' => 'Modèles',
+    
+    'toggle_sidebar' => 'Basculer la barre latérale',
 
-'version_identifier' => 'identifiant :',
+    'unauthorized' => 'Non autorisé',
 
-'version_update_available' => 'Une nouvelle version d\'ExpressionEngine est disponible',
+    'unauthorized_access' => 'Vous n\'êtes pas autorisé(e) à accéder à cette page',
 
-'version_update_inst' => "ExpressionEngine %s est disponible. <a href='#' data-post-url='%s'>Cliquer ici pour mettre à jour</a> ou suivez les the <a href='%s' rel='external'>instructions de mise à jour manuelle</a>.",
+    'machines_only_request' => 'Vous ne devriez franchement pas être là. Cet endroit est le théâtre d\'opération des robots et des machines.',
 
-//----------------------------
-// Buttons
-//----------------------------
+    'addon_missing_jump_method' => 'L\'absence de l\'add-on requiert une méthode de saute menu.',
 
-'accept' => 'Accepter',
+    'update_check_btn' => 'Prospecter les mises à jour',
 
-'cancel' => 'Annuler',
+    'update_btn' => 'Mettre à niveau maintenant',
 
-'decline' => 'Refuser',
+    'user_account' => 'Compte de membre',
 
-'delete' => 'Supprimer',
+    'user_avatar_alt' => 'Avatar utilisateur',
 
-'done' => 'Terminé',
+    'user_label' => 'Utilisateur:',
 
-'needs_review' => 'A besoin d\'être revu',
+    'username' => 'Nom d\'utilisateur',
 
-'preview' => 'Aperçu',
+    'username_filter' => 'Nnm d\'utilisateur',
 
-'save_changes' => 'Enregistrer les modifications',
+    'version_identifier' => 'vérificateur:',
 
-'save' => 'Enregistrer',
+    'version_update_available' => 'Une version plus récente d\'Expressionengine est disponible',
+    
+    'version_update_is_vital' => 'Cette mise à jour est recommandée.',
 
-'submit' => 'Valider',
+    'version_update_is_major' => 'Ceci est une mise à jour majeure.',
 
-'sync' => 'Synchroniser',
+    'version_update_inst' => "ExpressionEngine %s est disponible. <a href='#' data-post-url='%s'>Cliquer ici pour mettre à niveau</a> ou suivre les <a href='%s' rel='external'>instructions de mise à niveau du manuel</a>.",
 
-'update' => 'Mettre à jour',
+    'navigation_toggle' => 'Basculer la navigation',
 
-//----------------------------
-// Log
-//----------------------------
+    /* Buttons */
+    'cancel' => 'Annuler',
 
-'action' => 'Action',
+    'accept' => 'Accepter',
 
-'clear_logs' => 'Effacer les fichiers de journaux',
+    'decline' => 'Décliner',
 
-'close' => 'Fermer',
+    'needs_review' => 'Nécessite une révision',
 
-'date' => 'Date',
+    'delete' => 'Supprimer',
 
-'internet_protocol' => 'Internet Protocol',
+    'done' => 'Accompli',
 
-'ip_address' => 'Adresse IP',
+    'preview' => 'Prévisualiser',
 
-'ip' => 'IP',
+    'save' => 'Sauvegarder',
 
-'member_anonymized_member' => 'Membre anonyme d\'ID : %d',
+    'save_and_new' => 'Sauvegarder & Nouveau',
 
-'member_hash_algo_changed' => 'Algorithme de hachage modifié pour "%s" (%d)',
+    'save_and_close' => 'Sauvegarder & Fermer',
 
-'member_changed_email' => 'Email modifié pour "%s" (%d) de "%s" à "%s"',
+    'save_as_new_entry' => 'Cloner comme nouvelle entrée',
 
-'member_changed_member_group' => 'Groupe de membres modifié vers "%s" pour "%s" (%d)',
+    'save_changes' => 'Sauvegarder les changements',
 
-'member_changed_password' => 'Mot de passe modifié pour "%s" (%d)',
+    'submit' => 'Envoi',
 
-'member_id' => 'ID de membre',
+    'sync' => 'Synchroniser',
 
-'member_logged_in' => 'Connecté',
+    'update' => 'Mettre à jour',
 
-'member_logged_out' => 'Déconnecté',
+    /* Log */
+    'action' => 'Action',
 
-'member_login_as' => 'Membre connecté en tant que "%s" (%d)',
+    'clear_logs' => 'Effacer l\'historique des fichiers ',
 
-//----------------------------
-// Common
-//----------------------------
+    'close' => 'Fermer',
 
-'btn_downloading' => 'Téléchargement',
+    'date' => 'Date',
 
-'btn_exporting' => 'Export',
+    'internet_protocol' => 'Protocole Internet',
 
-'by_date' => 'par date',
+    'ip' => 'IP',
 
-'by_site' => 'par site',
+    'ip_address' => 'Adresse IP',
 
-'by_username' => 'par identifiant',
+    'user_agent' => 'Agent utilisateur',
 
-'channel' => 'Canal',
+    'member_changed_email' => 'Email modifié pour "%s" (%d) de "%s" à "%s"',
 
-'create_and_edit' => 'Créer et modifier',
+    'member_changed_member_group' => 'Groupe de membres modifié pour "%s" par "%s" (%d)',
 
-'create' => 'Créer',
+    'member_changed_password' => 'Mot de passe modifié pour "%s" (%d)',
 
-'custom_date_range' => 'Plage de dates',
+    'member_anonymized_member' => 'Membre anonymisé avec ID: %d',
 
-'date_added' => 'Date ajoutée',
+    'member_hash_algo_changed' => 'Algorithme de hachage modifié pour "%s" (%d)',
 
-'edit' => 'Modifier',
+    'member_id' => 'ID de membre',
 
-'ee_wiki' => 'Wiki EE',
+    'member_logged_in' => 'Connecté',
 
-'entry' => 'Article',
+    'member_logged_out' => 'Déconnecté',
 
-'export' => 'Export',
+    'member_login_as' => 'Membre connecté en tant que "%s" (%d)',
 
-'important' => 'Important !',
+    /* Common */
+    'by_date' => 'par date',
 
-'limit_by' => 'limiter par',
+    'by_site' => 'par site',
 
-'manage' =>	'Gérer',
+    'by_username' => 'par nom d\'utilisateur',
 
-'modify' => 'Modifier',
+    'channel' => 'Canal',
 
-'most_recent_comment' => 'Dernier commentaire',
+    'check_all' => 'Vérifier TOUT',
 
-'most_recent_entry' => 'Dernier article',
+    'clear_all' => 'Effacer TOUT',
 
-'no_search_results' => 'Aucun <b>résultat</b> trouvé',
+    'create' => 'Créer',
 
-'or_delete' => 'ou supprimer',
+    'create_and_edit' => 'Créer et Editer',
 
-'page' => 'Page',
+    'custom_date_range' => 'Personnaliser l\'espace-temps',
 
-'recent_comments' => 'Commentaires récents',
+    'date_added' => 'Date ajoutée',
 
-'recent_entries' => 'Articles récents',
+    'edit' => 'Editer',
 
-'results' => 'résultats',
+    'ee_wiki' => 'EE Wiki',
 
-'select_all' => 'Tout sélectionner',
+    'entry' => 'Entrée',
 
-'search_in' => 'Rechercher dans',
+    'limit_by' => 'limité par',
 
-'search_in_filter' => 'rechercher dans',
+    'keyword_search' => 'Recherche par mot-clé',
 
-'perpage_filter' => 'afficher',
+    'manage' => 'Gérer',
 
-'date_filter' => 'date',
+    'modify' => 'Modifier',
 
-'group_filter' => 'groupe',
+    'most_recent_comment' => 'Commentaire le plus récent',
 
-'type_filter' => 'type',
+    'most_recent_entry' => 'Entrée la plus récente',
 
-'show' => 'Afficher',
+    'no_search_results' => 'Aucun résultat n\'a été trouvé',
 
-'site_filter' => 'site',
+    'or_delete' => 'ou supprimer',
 
-'site' => 'Site',
+    'page' => 'Page',
 
-'status' => 'Statut',
+    'recent_comments' => 'Commentaires récents',
 
-'switch' => 'Basculer',
+    'recent_entries' => 'Entrées récentes',
 
-'template_group' => 'Groupe de modèles',
+    'recent_members' => 'Membres récents',
 
-'template' => 'Modèle',
+    'recent_templates' => 'Modèles récents',
 
-'total_entries' => 'nombre total d\'articles',
+    'results' => 'résultats',
 
-'type_phrase' => 'termes à rechercher...',
+    'select_row' => 'Sélectionner la rangée',
 
-'user_guide' =>	'Guide utilisateur',
+    'select_all' => 'Tout sélectionner',
 
-'view' => 'Voir',
+    'search_in' => 'Rechercher dans',
 
-'will_be_logged' => 'Cette action sera journalisée',
+    'show' => 'Visualiser',
 
-'with_selected' => 'action sur sélection', // to review
+    'search_in_filter' => 'rechercher dans',
 
-//----------------------------
-// Sites and Channels
-//----------------------------
+    'search_titles_only' => 'Rechercher les titres seulement',
 
-'avatar_path' => 'Chemin des avatars',
+    'columns_filter' => 'Colonnes',
 
-'edit_channels' => 'Modifier les canaux',
+    'perpage_filter' => 'visualiser',
 
-'edit_sites' => 'Modifier les sites',
+    'date_filter' => 'Date',
 
-'not_writable_path' => 'Les dossiers suivants ne sont pas inscriptibles',
+    'group_filter' => 'groupe',
 
-'photo_path' => 'Chemin des photos de membre',
+    'type_filter' => 'type',
 
-'prv_msg_upload_path' => 'Chemin des messages privés',
+    'site' => 'Site',
 
-'sig_img_path' => 'Chemin des images de signatures',
+    'site_filter' => 'site',
 
-'site_id' => 'ID du site',
+    'status' => 'Statut',
 
-'site_specific_data' => 'Cette donnée est spécifique à un site. Si vous souhaitez sélectionner ou changer les données d\'un autre site, veuillez utiliser l\'onglet \'Sites\' du menu pour basculer vers ce site.',
+    'switch' => 'Commuter',
 
-'sites' => 'Sites',
+    'template' => 'Modèle',
 
-'view_site' => 'Voir le site',
+    'template_group' => 'Groupe de modèles',
 
-//----------------------------
-// learning EE lang vars
-//----------------------------
+    'total_entries' => 'entrées totales',
 
-'building_ee_site_01' => 'Créer un site ExpressionEngine - Chapitre 01',
+    'type_phrase' => 'taper phrase...',
 
-'channel_template_relationship' => 'Relations des modèles de canal',
+    'user_guide' => 'Guide utilisateur',
 
-'channels_custom_fields' => 'Canaux et champs personnalisés',
+    'view' => 'Visualiser',
 
-'community_resources' => 'Ressources communautaires',
+    'with_selected' => 'avec les sélections',
 
-'community_tutorials' => 'Didacticiels de la communauté',
+    'export' => 'Exporter',
 
-'designing_ee_architecture' => 'Création et Architecture ExpressionEngine',
+    'btn_exporting' => 'Exportation en cours…',
 
-'devot_ee' => 'Devot-EE',
+    'btn_downloading' => 'Téléchargement en cours…',
 
-'documentation' => 'Documentation',
+    'will_be_logged' => 'Cette action sera enregistrée',
 
-'ee_cp_overview' => 'Vue d\'ensemble du panneau de contrôle d\'ExpressionEngine',
+    'important' => 'Important!',
 
-'ee_insider' => 'EE Insider',
+    'view_as' => 'Voir en tant que ',
 
-'ee_podcast' => 'EE Podcast',
+    'viewtype_list' => 'Liste',
 
-'ee_screencasts' => 'EE Screencasts',
+    'viewtype_thumb' => 'Miniatures',
 
-'ee_seach_bookmarklet' => 'Raccourci de recherche ExpressionEngine',
+    'viewtype_hybrid' => 'Hybride',
 
-'installing_ee' => 'Installer ExpressionEngine',
+    /* Sites and Channels */
+    'avatar_path' => 'Chemin d\'avatar',
 
-'introduction_to_templates' => 'Introduction aux modèles',
+    'edit_channels' => 'Editer les canaux',
 
-'knowledge_base' => 'Base de connaissance',
+    'edit_sites' => 'Editer les sites',
 
-'my_downloads' => 'Mes téléchargements',
+    'not_writable_path' => 'Les dossiers suivants ne sont pas réinscriptibles:',
 
-'support_forums' => 'Forums de support',
+    'photo_path' => 'Chemin de photos de membres',
 
-'support' => 'Support',
+    'prv_msg_upload_path' => 'Chemin des téléchargements de messages privés',
 
-'train_ee' => 'Train-EE',
+    'sig_img_path' => 'Chemin d\'images de signatures',
 
-'troubleshooting_file_uploads' => 'Problèmes et dépannage concernant le téléchargement de fichiers',
+    'site_id' => 'ID du site',
 
-'videos' => 'Vidéos',
+    'site_specific_data' => 'Ces données sont spécifiques au site. Si vous souhaitez sélectionner ou changer les données pour un autre site, alors utilisez l\'onglet du menu \'Sites\' pour basculer sur ce site.',
 
-'wiki' => 'Wiki',
+    'sites' => 'Sites',
 
-//----------------------------
-// License Errors
-//----------------------------
+    'view_site' => 'Visualiser site',
 
-'corrupt_license_file' => 'Il manque des données dans le fichier licence fourni. <a href="%s">Merci de télécharger votre licence.</a>',
+    'add_site' => 'Ajouter site',
 
-'invalid_licence_number' => 'Le fichier licence fourni est invalide. <a href="%s">Merci de télécharger votre licence</a>',
+    /* learning EE lang vars */
+    'building_ee_site_01' => 'Construire un site ExpressionEngine - Chapitre 1',
 
-'invalid_signature' => 'Le fichier licence fourni possède une signature invalide. <a href="%s">Merci de télécharger votre licence.</a>',
+    'channel_template_relationship' => 'Relation canal modèle',
 
-'missing_license' => 'Cette copie de ExpressionEngine est <strong>non enregistrée</strong>. <a href="%s">Merci de télécharger votre licence.</a>',
+    'channels_custom_fields' => 'Canaux et champs personnalisés',
 
-'missing_pubkey' => 'Il manque des données dans ce produit ExpressionEngine. Merci de visiter <a href="%s" rel="external">expressionengine.com</a> et de télécharger un exemplaire à jour.',
+    'community_resources' => 'Ressources communautaires',
 
-// CP Errors
-'404_does_not_exist' => 'erreur 404 : l\'élément n\'existe pas',
+    'community_tutorials' => 'Tutoriels communautaires',
 
-'404_does_not_exist_desc' => 'Désolé, nous n\'avons pas pu trouver l\'élément auquel vous essayez d\'accéder dans le système.',
+    'designing_ee_architecture' => 'Concevoir une architecture ExpressionEngine',
 
-// Common
+    'devot_ee' => 'Devot-EE',
 
-'alphadash_desc' => '<i>Aucun espace. Les soulignés (underscore) et les tirets sont autorisés.</i>',
+    'documentation' => 'Documentation',
 
-'auto_br' => 'Saut de ligne auto',
+    'ee_cp_overview' => 'Aperçu du Tableau de Bord d\'ExpressionEngine',
 
-'btn_authenticate' => 'Authentifier',
+    'ee_insider' => 'EE Insider',
 
-'btn_authenticate_and_save' => 'Authentifier &amp; Enregistrer',
+    'ee_podcast' => 'EE Podcast',
 
-'btn_canceling' => 'Annulation...',
+    'ee_screencasts' => 'Captures d\'écran EE ',
 
-'btn_fix_errors' => 'Erreurs trouvées',
+    'ee_seach_bookmarklet' => 'Marque-page de recherche ExpressionEngine',
 
-'btn_save_and_close' => 'Enregistrer &amp; Fermer',
+    'installing_ee' => 'Installer ExpressionEngine',
 
-'btn_save' => 'Enregistrer %s',
+    'introduction_to_templates' => 'Introduction aux Modèles',
 
-'btn_saving' => 'Enregistrement...',
+    'knowledge_base' => 'Base de connaissances',
 
-'clear_filters' => 'Effacer les filtres',
+    'my_downloads' => 'Mes téléchargements',
 
-'col_id' => 'ID#',
+    'support' => 'Support',
 
-'cp_message_issue' => 'Une erreur est survenue',
+    'support_forums' => 'Support Forums',
 
-'cp_message_success' => 'L\'action a été un succès',
+    'train_ee' => 'Train-EE',
 
-'cp_message_warn' => 'Alerte',
+    'troubleshooting_file_uploads' => 'Résolution de problèmes avec les téléchargements de fichiers',
 
-'create_new_channel' => 'Créer un nouveau canal',
+    'videos' => 'Vidéos',
 
-'create_new' => 'Créer',
+    'wiki' => 'Wiki',
 
-'current' => 'A jour',
+    /* License Errors */
+    'corrupt_license_file' => 'Le fichier de licence fourni comporte des données incomplètes. <a href="%s">Merci de télécharger votre licence.</a>',
 
-'description' => 'Description',
+    'invalid_license_number' => 'Le fichier de license fourni est non valide. <a href="%s">Merci de télécharger votre licence.</a>',
 
-'disable' => 'Désactiver',
+    'invalid_signature' => 'Le fichier de licence fourni a une signature non valide. <a href="%s">Merci de télécharger votre licence.</a>',
 
-'enable' => 'Activer',
+    'missing_license' => 'Cette copie d\'ExpressionEngine <strong>n\'est pas enregistrée</strong>. <a href="%s"> Merci de télécharger votre licence.</a>',
 
-'filter_authors' => 'filtrer les auteurs',
+    'missing_pubkey' => 'Il manque des données au produit ExpressionEngine. Merci de rendre visite à <a href="%s" rel="external">expressionengine.com</a> et de télécharger une nouvelle copie .',
 
-'filter_categories' => 'filtrer les catégories',
+    'provide_valid_license' => 'Vous devez fournir une clé de licence valide pour utiliser cette fonctionnalité.',
 
-'filter_channels' => 'filtrer les canaux',
+    /* CP Errors */
+    '404_does_not_exist' => '404: Cet élément n\'existe pas',
 
-'filters' => 'filtres',
+    '404_does_not_exist_desc' => 'Désolé, nous n\'avons pas pu localiser l\'élément auquel vous souhaiteriez accéder dans le système.',
 
-'form_validation_error' => 'Un problème est survenu lors du traitement de votre soumission, merci de vérifier et corriger toutes les erreurs ci-dessous.',
+    /* Common */
+    'alphadash_desc' => 'Aucun espace. Sous-tirets et tirets sont autorisés.',
 
-'image' => 'Image',
+    'auto_br' => 'Retour à la ligne auto',
 
-'log_out' => 'Déconnexion',
+    'btn_authenticate' => 'Authentifier',
 
-'menu_create' => 'Créer',
+    'btn_authenticate_and_save' => 'Authentifier &amp; Sauvegarder',
 
-'menu_edit' => 'Modifier',
+    'btn_canceling' => 'Annulation en cours',
 
-'menu_files' => 'Fichiers',
+    'btn_fix_errors' => 'Erreurs trouvées',
 
-'menu_members' => 'Membres',
+    'btn_save' => 'Sauvegarder %s',
 
-'my_profile' => 'Mon Profil',
+    'btn_save_and_close' => 'Sauvegarder &amp; Fermer',
 
-'name_your_site' => 'Nommer votre site',
+    'btn_saving' => 'Sauvegarde en cours…',
 
-'name' => 'Nom',
+    'clear_filters' => 'Supprimer les filtres',
 
-'new_channel' => 'Nouveau canal',
+    'col_id' => 'ID#',
 
-'new_link' => 'Nouveau lien',
+    'cp_message_issue' => 'Une erreur s\'est produite',
 
-'new_site' => 'Nouveau site',
+    'cp_message_success' => 'L\'action a réussi',
 
-'new' => 'Nouveau',
+    'cp_message_warn' => 'Attention',
 
-'no_channels' => 'Aucun <b>canal</b> trouvé',
+    'create_new' => 'Créer Nouveau',
 
-'no_found' => 'Aucun <b>%s</b> trouvé',
+    'create_new_channel' => 'Créer un nouveau canal',
 
-'no_rows_returned' => 'Aucune ligne de données',
+    'current' => 'Actuel',
 
-'none' => 'Aucun',
+    'description' => 'Description',
 
-'preferences_updated_desc' => 'Vos préférences ont été enregistrées avec succès.',
+    'disable' => 'Désactiver',
 
-'preferences_updated' => 'Préférences mises à jour',
+    'edit' => 'Editer',
 
-'remove' => 'Supprimer',
+    'enable' => 'Activer',
 
-'rev_author' => 'Auteur',
+    'filter_authors' => 'filtrer les auteurs',
 
-'rev_date' => 'Date',
+    'filter_categories' => 'filtrer les catégories',
 
-'rev_id' => '#',
+    'filter_channels' => 'filtrer les canaux',
 
-'revisions' => 'Versions',
+    'filters' => 'filtres',
 
-'search_results_heading' => 'Résultats de recherche<br><i>nous avons trouvé %d résultat(s) pour "%s"</i>',
+    'form_validation_error' => 'Il y a eu un problème relatif au traitement de votre saisie, merci d\'examiner et de corriger les erreurs ci-dessous.',
 
-'settings_save_error_desc' => 'Nous n\'avons pas pu enregistrer vos paramètres, merci de vérifier et corriger les errreurs ci-dessous.',
+    'image' => 'Image',
 
-'settings_save_error' => 'ATTENTION : paramètres non enregistrés',
+    'keyword_filter' => 'Rechercher',
 
-'success' => 'Succès',
+    'log_out' => 'Se déconnecter',
 
-'type' => 'Type',
+    'menu_create' => 'Créer',
 
-'url_title_lc' => 'Titre URL', // lower case in use in the CP?
+    'menu_edit' => 'Editer',
 
-'url_title' => 'Titre URL',
+    'menu_files' => 'Fichiers',
 
-'url' => 'URL',
+    'menu_members' => 'Membres',
 
-'used_in_cp_only' => 'Uniquement utilisé dans le panneau de contrôle',
+    'my_profile' => 'Mon Profil',
 
-'view_all' => 'Tout Afficher',
+    'name' => 'Nom',
 
-'xhtml' => 'XHTML',
+    'short_name' => 'Nom court',
 
-/**
- * Footer
- */
-'about_expressionengine' => 'A propos d\'ExpressionEngine',
+    'name_your_site' => 'Donner un nom à votre site',
 
-'authenticating' => 'authentification...',
+    'new' => 'Nouveau',
 
-'checking_for_updates' => 'Vérification des mises à jour...',
+    'new_channel' => 'Nouveau canal',
 
-'download' => 'télécharger',
+    'new_link' => 'Nouveau lien',
 
-'installed' => 'Installée',
+    'new_site' => 'Nouveau site',
 
-'latest_version' => 'Dernière',
+    'no_channels' => 'Aucun <b>canal</b> n\'a été trouvé.',
 
-'license_no' => 'Licence #',
+    'no_found' => '<b>%s</b> non trouvé(e-s).',
 
-'login' => 'Connexion',
+    'no_roles_with_design_access_found' => 'Aucun <b>Rôle</b> avec <b>accès au gestionnaire de modèles</b> n\'a été trouvé.',
 
-'new_ticket' => 'Nouveau ticket',
+    'no_rows_returned' => 'Aucun rang n\'a été retourné',
 
-'not_entered' => 'non renseignée',
+    'none' => 'Aucun',
 
-'one_click_major_update_instructions' => '<a href="https://docs.expressionengine.com/v6/installation/updating.html#upgrading-major-version" target="_blank">Lisez les avertissements de mise à jour avant de continuer !</a><br><br>Entrez votre mot de passe pour continuer :',
+    'preferences_updated' => 'Préférences mises à jour',
 
-'one_click_major_update_confirm_error' => '<b>Impossible de s\'authentifier</b><br><br>Des détails supplémentaires peuvent être disponibles dans la console de votre navigateur',
+    'preferences_updated_desc' => 'Vos préférences ont été sauvegardées avec succès.',
 
-'out_of_date_recommended' => 'Mise à jour recommandée',
+    'remove' => 'Supprimer',
 
-'out_of_date_upgrade' => 'Nouvelle version disponible',
+    'rev_author' => 'Auteur',
 
-'out_of_date_upgrade_major' => 'Nouvelle version majeure disponible',
+    'rev_date' => 'Date',
 
-'out_of_date' => 'obsolète',
+    'rev_id' => '#',
 
-'owned_by' => 'Appartenant à',
+    'revisions' => 'Révisions',
 
-'recommended_upgrade' => 'mise à jour <b>recommandée</b>.',
+    'search_results' => 'Recherche de résultats',
 
-'register_now' => 'Enregistrez-vous maintenant',
+    'search_results_heading' => 'La recherche de résultats <br><i>a rendu %d résultats pour "%s"</i>',
 
-'report_bug' => 'Rapporter un bogue',
+    'settings_save_error' => 'Attention: réglages non sauvegardés',
 
-'scroll_to_top' => 'faire défiler vers le haut',
+    'settings_save_error_desc' => 'Impossible de sauvegarder vos réglages, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'session_timeout' => 'Votre session d\'accès Administrateur s\'est achevée. Merci d\'utiliser le formulaire ci-dessous pour vous connecter de nouveau à votre panneau de contrôle.',
+    'success' => 'Succès',
 
-'up_to_date' => 'Vous êtes à jour !',
+    'type' => 'Type',
 
-'version' => 'Version',
+    'url' => 'URL',
 
-//----------------------------
-// confirm removal modal
-//----------------------------
+    'url_title' => 'Titre URL ',
 
-'confirm_removal' => 'Confirmer la suppression',
+    'url_title_lc' => 'Titre URL',
 
-'confirm_removal_desc' => 'Vous essayer de supprimer les éléments suivants, merci de confirmer cette action.',
+    'used_in_cp_only' => 'Utilisée seulement dans le tableau de bord.',
 
-'btn_confirm_and_remove' => 'Confirmer et Supprimer',
+    'view_all' => 'Tout visualiser',
 
-'btn_confirm_and_remove_working' => 'Suppression...',
+    'xhtml' => 'XHTML',
 
-'btn_confirm_and_save' => 'Confirmer et Enregistrer',
+    'cookies_functionality_consent_required' => 'Afin de pouvoir utiliser toutes les fonctionnalités du tableau de bord, merci d’activer l\'option <a href="%s"> Consentement de cookies de fonction</a>.',
 
-'btn_confirm_and_save_working' => 'Enregistrement...',
+    /* Members Menu */
 
-//----------------------------
-// confirm show all modal
-//----------------------------
+    'new_member' => 'Nouveau membre',
 
-'confirm_show_all' => 'Confirmez Tout Afficher',
+    'all_members' => 'Tous les membres',
 
-'confirm_show_all_desc' => 'Visualiser plus de %d éléments à la fois peut entraîner une diminution des performances.',
+    'pending_members' => 'Membres en attente',
 
-'confirm_show_all_btn' => 'Tout Afficher',
+    'ban_management' => 'Gestionnaire de blocages',
 
-'all_items' => 'Tous les éléments (%d)',
+    'roles' => 'Rôles',
 
+    'custom_member_fields' => 'Champs de membres',
 
-//----------------------------
-// HTML Buttons
-//----------------------------
+    /* Footer */
+    'about_expressionengine' => 'A propos d\'ExpressionEngine',
 
-'html_btn_bold' => 'Texte Gras',
+    'authenticating' => 'authentification en cours…',
 
-'html_btn_italic' => 'Texte Italique',
+    'one_click_major_update_instructions' => '<a href="https://docs.expressionengine.com/latest/installation/updating.html#upgrading-major-version" target="_blank">Lire les alertes relatives aux mises à jour avant de continuer!</a><br> Entrer votre mot de passe pour aller plus loin:',
 
-'html_btn_strike' => 'Texte Barré',
+	'one_click_major_update_pro_license_required' => "Vu le nombre actuel de membres, vous aurez l\'obligation <a href='https://expressionengine.com/store/purchase-pro/pro-yearly' target='_blank'>d\'acheter une licence Pro d\'ExpressionEngine Pro </a> après la mise à jour à ExpressionEngine 7.",
 
-'html_btn_ins' => 'Insérer Texte',
+    'one_click_major_update_pro_license_info' => "Au démarrage d\' ExpressionEngine 7, tous les sites avec plusieurs membres requièrent une licence Pro.",
 
-'html_btn_ul' => 'Liste à Puces',
+    'one_click_major_update_confirm_error' => '<b>Impossible de vous authentifier.</b><br><br> Plus de détails peuvent être disponibles dans votre console de navigation.',
 
-'html_btn_ol' => 'Liste Ordonnée',
+    'checking_for_updates' => 'Vérification de mises à jour en cours…',
 
-'html_btn_blockquote' => 'Citation',
+    'download' => 'télécharger',
 
-'html_btn_anchor' => 'Lien',
+    'installed' => 'Installé(e-s)',
 
-'html_btn_picture' => 'Image',
+    'latest_version' => 'La dernière',
 
-'html_button_ajax_reorder_fail' => 'Attention : impossible d\'enregistrer l\'ordre des boutons html',
+    'license_no' => 'Licence #',
 
-'html_button_ajax_reorder_fail_desc' => 'Nous n\'avons pas réussi à enregistrer le nouvel ordre des boutons html. Rafraîchissez la page et assurez-vous d\'être connecté.',
+    'login' => 'Se connecter',
+
+    'new_ticket' => 'Obtenir de l\'aide',
+
+    'not_entered' => 'non entré(e-s)',
+
+    'out_of_date' => 'obsolète',
+
+    'out_of_date_recommended' => 'Mise à jour recommandée',
+
+    'out_of_date_upgrade' => 'Une nouvelle version a été détectée',
+
+    'out_of_date_upgrade_major' => 'Une nouvelle version majeure est disponible',
+
+    'owned_by' => 'Appartenant à',
+
+    'recommended_upgrade' => 'Mise à jour <b>recommandée</b>.',
+
+    'register_now' => 'Vous enregistrer maintenant',
+
+    'report_bug' => 'Signaler un bug',
+
+    'whats_new' => 'Quoi de neuf?',
+
+    'scroll_to_top' => 'faire défiler vers le haut',
+
+    'session_timeout' => 'Votre session d\'accès administrateur a expiré. Merci d\'utiliser le formulaire ci-dessous pour vous reconnecter à votre tableau de bord.',
+
+    'log_into' => 'Vous connecter à %s',
+
+    'up_to_date' => 'Vous êtes bien à jour!',
+
+    'version' => 'Version',
+
+    'enter_site_license' => 'Entrer la licence du site',
+
+    'your_license_is' => 'Votre licence est:',
+
+     'license_skip' => 'Gratuite',
+    'license_trial' => 'Essai',
+    'license_expired' => 'Expiré(e)',
+    'license_invalid' => 'Non licencié(e)',
+    'license_invalid_domain' => 'Domaine non valide',
+    'license_invalid_license_key' => 'Clé de licence invalide',
+    'license_missing_license_key' => 'Clé de licence manquante',
+    'license_na' => 'Inconnu',
+
+    'purchase_pro_license' => 'Acheter une licence pro',
+    'renew_pro_license' => 'Renouveler la licence pro',
+    'update_site_domain' => 'Mettre à jour le domaine du site',
+
+    /* confirm removal modal */
+    'btn_confirm_and_remove' => 'Confirmer et Supprimer',
+
+    'btn_confirm_and_remove_working' => 'Retrait en cours…',
+
+    'confirm_removal' => 'Confirmer le retrait',
+
+    'confirm_removal_desc' => 'Vous tentez de supprimer les éléments suivants, merci de confirmer cette action.',
+
+    'btn_confirm_and_save' => 'Confirmer et Sauvegarder',
+
+    'btn_confirm_and_save_working' => 'Sauvegarde en cours…',
+    
+     'move_toggle_to_confirm' => 'Basculez l\'interrupteur sur <b>allumé</b> pour confirmer.',
+
+     'confirmation_toggle_required' => 'Vous devez confirmer cette action avec l\'interrupteur',
+
+    /* confirm delete modal */
+    'btn_confirm_and_delete' => 'Confirmer et Supprimer',
+
+    'btn_confirm_and_delete_working' => 'Suppression en cours…',
+
+    'confirm_delete' => 'Etes-vous sûr(e)?',
+
+    'confirm_deletion_desc' => 'Vous tentez de supprimer les éléments suivants:',
+
+    /*confirm show all modal */
+    'all_items' => 'Tous les %d éléments',
+
+    'confirm_show_all' => 'Confirmer Tout Afficher',
+
+    'confirm_show_all_btn' => 'Tout Afficher',
+
+    'confirm_show_all_desc' => 'Visualiser plus de %d éléments en même temps peut conduire à une performance amoindrie.',
+
+    /* moving */
+    'btn_confirm_and_move' => 'Confirmer et Déplacer',
+
+    
+    /* HTML Buttons */
+    'html_btn_anchor' => 'Lien',
+
+    'html_btn_blockquote' => 'Bloc de citation',
+
+    'html_btn_bold' => 'Texte en gras',
+
+    'html_btn_ins' => 'Insérer du texte',
+
+    'html_btn_italic' => 'Texte en italique',
+
+    'html_btn_ol' => 'Liste ordonnée',
+
+    'html_btn_picture' => 'Image',
+
+    'html_btn_strike' => 'Texte barré',
+
+    'html_btn_ul' => 'Liste non ordonnée',
+
+    'html_button_ajax_reorder_fail' => 'Attention: la sauvegarde de l\'ordre des boutons HTML a échoué',
+
+    'html_button_ajax_reorder_fail_desc' => 'Nous n\'avons pas réussi à sauvegarder l\'ordre de vos boutons HTML. Rafraîchir la page et vérifier que vous êtes connecté(e)',
+
+    /* Search Reindex tip */
+
+    'search_reindex_tip' => 'Recherche Reindex',
+
+    'search_reindex_tip_desc' => " <a href='%s'>utiliser l\'outil de recherche d\'indexation</a> Outil à conserver pour vos données de recherche de mises à jour.",
+
+    'reindex_not_needed' => 'La réindexation n\'est pas nécessaire',
+
+    'reindex_not_needed_desc' => 'Votre index de recherche est à jour!',
+
+    'reindex_explained_desc' => 'L\'index de recherche peut devenir obsolète si vous avez récemment changé la vocation de certains types de champs qu\'ils soient soumis ou non aux actions de recherches.<br> Merci de consulter <a href="' . DOC_URL . '/control-panel/utilities.html#search-reindex">le guide utilisateur</a> pour plus de détails.',
+
+    /* Permissions */
+
+    'can_create_templates' => 'Créer des modèles',
+
+    'can_edit_templates' => 'Editer des modèles',
+
+    'can_delete_templates' => 'Supprimer des modèles',
+
+    'can_manage_settings' => 'Gérer les réglages & accès',
+
+    'can_create_entries' => 'Créer des entrées',
+
+    'can_edit_self_entries' => 'Editer vos propres entrées',
+
+    'can_delete_self_entries' => 'Supprimer vos propres entrées',
+
+    'can_edit_other_entries' => 'Editer les entrées de tierces-parties',
+
+    'can_delete_all_entries' => 'Supprimer des entrées de tierces-parties',
+
+    'can_assign_post_authors' => 'Changer l\'auteur de l\'entrée',
+
+    /* Dashboard Widgets */
+
+    'dashboard' => 'Tableau de bord',
+
+    'save_dashboard_layout' => 'Sauvegarder l\'affichage',
+
+    'edit_dashboard_layout' => 'Editer l\'affichage',
+
+    'dashboard_layout_saved' => 'Affichage sauvegardé',
+
+    'dashboard_layout_save_error' => 'Impossible de sauvegarder la mise en page',
+
+    'dashboard_needs_some_widgets' => 'Merci d\'activer au moins un widget',
+    
+    'unexpected_error' => 'Erreur inattendue',
 
 );
 

@@ -2,31 +2,31 @@
 
 $lang = array(
 
-'formatter_gigabytes_abbr_html' => '<abbr title="Gigaoctets">GO</abbr>',
+    'formatter_bytes' => 'bits',
 
-'formatter_gigabytes_abbr' => 'GO',
+    'formatter_bytes_abbr' => 'B',
 
-'formatter_gigabytes' => 'gigaoctets',
+    'formatter_bytes_abbr_html' => '<abbr title="Bits">B</abbr>',
 
-'formatter_megabytes_abbr_html' => '<abbr title="Megaoctets">MO</abbr>',
+    'formatter_duration_seconds_only' => '%d sec.',
 
-'formatter_megabytes_abbr' => 'MO',
+    'formatter_gigabytes' => 'gigabits',
 
-'formatter_megabytes' => 'megaoctets',
+    'formatter_gigabytes_abbr' => 'GB',
 
-'formatter_kilobytes_abbr_html' => '<abbr title="Kiloctets">KO</abbr>',
+    'formatter_gigabytes_abbr_html' => '<abbr title="Gigabits">GB</abbr>',
 
-'formatter_kilobytes_abbr' => 'KO',
+    'formatter_kilobytes' => 'kilobits',
 
-'formatter_kilobytes' => 'kiloctets',
+    'formatter_kilobytes_abbr' => 'KB',
 
-'formatter_bytes_abbr_html' => '<abbr title="Octets">O</abbr>',
+    'formatter_kilobytes_abbr_html' => '<abbr title="Kilobits">KB</abbr>',
 
-'formatter_bytes_abbr' => 'O',
+    'formatter_megabytes' => 'megabits',
 
-'formatter_bytes' => 'octets',
+    'formatter_megabytes_abbr' => 'MB',
 
-'formatter_duration_seconds_only' => '%d sec.',
+    'formatter_megabytes_abbr_html' => '<abbr title="Mégabits">MB</abbr>',
 
 );
 

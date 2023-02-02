@@ -2,980 +2,1032 @@
 
 $lang = array(
 
-'all_channel_entries' => 'Tous les articles dans <b>%s</b>',
+    'all_channel_entries' => 'Toutes les %s entrées',
 
-'all_comments_for_entry' => 'Tous les commentaires pour l\'article %s',
+    'all_comments' => 'Tous les %s commentaires',
 
-'all_comments' => 'Tous les commentaires',
+    'all_comments_for_entry' => 'Tous les commentaires pour <a href="%s">%s</a>',
 
-'all_entries' => 'Tous les articles (%d)',
+    'search_results_comments_for_entry' => 'Recherche de commentaires pour <a href="%s">%s</a><br><i> et obtention de %d résultats pour "%s"</i>',
 
-'allow_comments_desc' => 'Si activé, les membres ayant les permissions suffisantes pourront soumettre des commentaires pour cet article.',
+    'all_entries' => 'Toutes les %d entrées',
 
-'allow_comments' => 'Autoriser les commentaires ?',
+    'allow_comments' => 'Autoriser les commentaires?',
 
-'author_desc' => 'Membre qui a écrit cet article.',
+    'allow_comments_desc' => 'Si activé, les membres munis de permissions auront la possibilité de publier des commentaires dans cette entrée.',
 
-'author_information_desc' => 'Informations sur l\'auteur de ce commentaire, non modifiables.',
+    'author' => 'Auteur',
 
-'author_information' => 'Informations sur l\'auteur',
+    'author_desc' => 'Le membre qui a rédigé cette entrée.',
 
-'author' => 'Auteur',
+    'author_information' => 'Information sur l\'auteur',
 
-'auto_saved_entries' => 'Articles auto-enregistrés',
+    'author_information_desc' => 'Information relative à l\'auteur de ce commentaire, non éditable.',
 
-'auto_saved' => 'auto-enregistré',
+    'auto_saved' => 'auto sauvegardé',
 
-'btn_add_category' => 'Ajouter une catégorie',
+    'auto_saved_entries' => 'Entrées auto sauvegardées',
 
-'btn_create_new_entry_in_channel' => 'Nouvel article dans %s',
+    'btn_add_category' => 'Ajouter une catégorie',
 
-'btn_create_new' => 'Créer',
+    'btn_create_new' => 'Créer Nouvelle',
 
-'btn_edit_comment' => 'Enregistrer',
+    'btn_create_new_entry_in_channel' => 'Nouvelle dans %s',
 
-'btn_publish' => 'Publier',
+    'btn_edit_comment' => 'Sauvegarder',
 
-'btn_save_revision' => 'Enregistrer la version',
+    'btn_publish' => 'Publier',
 
-'btn_search_entries' => 'Rechercher des articles',
+    'btn_save_revision' => 'Sauvegarder la révision',
 
-'by' => 'par',
+    'btn_search_entries' => 'Chercher les entrées',
 
-'categories_desc' => 'Catégoriser cet article.',
+    'by' => 'par',
 
-'categories' => 'Catégories',
+    'categories' => 'Catégories',
 
-'channel_desc' => 'Canal dans lequel cet article devrait être soumis.',
+    'categories_desc' => 'Affecter une catégorie à cette entrée.',
 
-'channel' => 'Canal',
+    'channel' => 'Canal',
 
-'column_comment_date' => 'Date',
+    'channel_desc' => 'Le canal auquel cette entrée devrait être rattachée.',
 
-'column_comment_total' => 'Commentaires',
+    'column_comment' => 'Commentaire',
 
-'column_comment' => 'Commentaire',
+    'column_comment_date' => 'Date',
 
-'column_entry_date' => 'Date',
+    'column_comment_total' => 'Commentaires',
 
-'column_entry_id' => 'ID#',
+    'column_categories' => 'Catégories',
 
-'column_ip_address' => 'IP',
+    'column_entry_date' => 'Date',
 
-'column_status' => 'Statut',
+    'column_entry_id' => 'ID#',
 
-'column_title' => 'Titre',
+    'column_ip_address' => 'IP',
 
-'comment_content_desc' => 'Contenu de ce commentaire.',
+    'column_status' => 'Statut',
 
-'comment_content' => 'Contenu du commentaire',
+    'column_title' => 'Titre',
 
-'comment_expiration_date_desc' => 'Date après laquelle les commentaires pour cet article ne seront plus acceptés.',
+    'comment_content' => 'Contenu du commentaire',
 
-'comment_expiration_date' => 'Date maxi pour commenter',
+    'comment_content_desc' => 'Contenu de ce commentaire.',
 
-'comment_status_desc' => 'Statut de ce commentaire.',
+    'comment_expiration_date' => 'Date d\'expiration du commentaire',
 
-'comments_removed_desc' => 'Les commentaires suivants ont été supprimés :',
+    'comment_expiration_date_desc' => 'Date des commentaires de ces entrées au-delà de laquelle ces derniers ne seront plus acceptés.',
 
-'comments_status_updated_desc' => 'Les commentaires suivants ont été mis au statut %s',
+    'comment_status_desc' => 'Statut de ce commentaire.',
 
-'create_entry_error_desc' => 'Nous n\'avons pas pu créer cet article, merci de vérifier et corriger les erreurs ci-dessous.',
+    'comments_deleted_desc' => 'Les commentaires suivants ont été supprimés',
 
-'create_entry_error' => 'Impossible de créer l\'article',
+    'comments_status_updated_desc' => 'Les commentaires suivants ont été reliés à %s',
 
-'create_entry_success_desc' => 'L\'article <b>%s</b> a été créé.',
+    'clone_entry_success' => 'Entrée créée',
 
-'create_entry_success' => 'Article créé',
+    'clone_entry_success_desc' => 'Ceci est votre nouvelle entrée clonée.',
 
-'create_entry_with_channel_name' => 'Nouvel article : %s',
+    'create_entry_error' => 'Impossible de créer l\'entrée',
 
-'custom_date' => 'date personnalisée',
+    'copy_of' => 'Copie de',
 
-'custom_limit' => 'limite personnalisée',
+    'create_entry_error_desc' => 'Impossible de créer cette entrée, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'edit_channel_entries' => 'Modifier les articles de canal',
+    'create_entry_success' => 'Entrée créée',
 
-'edit_comment_error_desc' => 'Nous n\'avons pas pu modifier ce commentaire, merci de vérifier et corriger les erreurs ci-dessous.',
+    'create_entry_success_desc' => 'Cette entrée <a href=\'%1$s\'><b>%2$s</b></a> a été créée.',
 
-'edit_comment_error' => 'Impossible de modifier le commentaire',
+    'create_entry_with_channel_name' => 'Nouvelle entrée: %s',
 
-'edit_comment_success_desc' => 'Le commentaire a été modifié.',
+    'edit_channel_entries' => 'Editer les entrées de canal',
 
-'edit_comment_success' => 'Succès',
+    'edit_comment_error' => 'Impossible d\'éditer le commentaire',
 
-'edit_entry_error_desc' => 'Nous n\'avons pas pu mettre à jour cet article, merci de vérifier et corriger les erreurs ci-dessous.',
+    'edit_comment_error_desc' => 'Impossible d\'éditer le commentaire, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'edit_entry_error' => 'Impossible de mettre à jour l\'article',
+    'edit_comment_success' => 'Succès',
 
-'edit_entry_success_desc' => 'L\'article <b>%s</b> a été mis à jour.',
+    'edit_comment_success_desc' => 'Le commentaire a été édité.',
 
-'edit_entry_success' => 'Article mis à jour',
+    'edit_entry_error' => 'Impossible de mettre à jour l\'entrée',
 
-'edit_entry_with_title' => 'Modifier l\'article : %s',
+    'edit_entry_error_desc' => 'Impossible de mettre à jour cette entrée, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
-'entries_removed_desc' => 'Les articles suivants ont été supprimés :',
+    'edit_entry_success' => 'Entrée mise à jour',
 
-'entries' => 'articles',
+    'edit_entry_success_desc' => 'L\'entrée <a href=\'%1$s\'><b>%2$s</b></a> a été mise à jour à %3$s.',
 
-'entry_date_desc' => 'Date de publication de cet article.',
+    'edit_entry_with_title' => 'Editer l\'entrée: %s',
 
-'entry_date' => 'Date de l\'article',
+    'entries' => 'Entrées',
 
-'entry_limit_reached_desc' => 'Ce canal est limité à %d articles.',
+    'entries_deleted_desc' => 'Les entrées suivantes ont été supprimées',
 
-'entry_limit_reached_one_desc' => 'Ce canal est limité à un seul article.',
+    'entries_not_deleted_desc' => 'Les entrées suivantes n\'ont pas pu être supprimées. Merci de vérifier que vous avez les permissions suffisantes.',
 
-'entry_limit_reached' => 'Limite de ce canal atteinte',
+    'entry' => 'Entrée',
 
-'entry_manager' => 'Gestion des Articles',
+    'entry_date' => 'Date d\'entrée',
 
-'entry_status_desc' => 'Statut de l\'article.',
+    'entry_date_desc' => 'Date de publication de cette entrée.',
 
-'entry_status' => 'Statut',
+    'entry_limit_reached' => 'La limite attribuée à ce canal a été atteinte',
+    
+    'entry_limit_reached_desc' => 'Ce canal est limité à %d entrées.',
 
-'entry' => 'Article',
+    'entry_limit_reached_one_desc' => 'Ce canal est limité à une seule entrée.',
 
-'expiration_date_desc' => 'Date à laquelle cet article va expirer.',
+    'entry_manager' => 'Entrées',
 
-'expiration_date' => 'Date d\'expiration',
+    'entry_status' => 'Statut des entrées',
 
-'filter_autosaves' => 'filtrer les auto-enregistrés',
+    'entry_status_desc' => 'Statut des entrées.',
 
-'filter_by_author' => 'auteur',
+    'expiration_date' => 'Date d\'expiration',
 
-'filter_by_category' => 'catégorie',
+    'expiration_date_desc' => 'Date à laquelle cette entrée doit expirer.',
 
-'filter_by_channel' => 'canal',
+    'edit_date' => 'Dernière date d\'édition',
+    
+    'filter_autosaves' => 'filtrer les sauvegardes auto',
 
-'filter_by_status' => 'statut',
+    'filter_by_author' => 'auteur',
 
-'in' => 'dans',
+    'filter_by_category' => 'catégorie',
 
-'ip_address' => '<abbr title="Internet Protocol">IP</abbr>',
+    'filter_by_channel' => 'canal',
 
-'manage_categories' => 'Gérer les catégories',
+    'filter_by_status' => 'statut',
 
-'move_comment_desc' => 'Saisissez l\'<abbr title="Identifier">ID</abbr> d\'un article vers lequel déplacer ce commentaire.<br>Actuellement sur : %s (%s)',
+    'in' => 'dans',
 
-'move_comment' => 'Déplacer le commentaire ?',
+    'ip_address' => '<abbr title="Protocole internet">IP</abbr>',
 
-'no_comments' => 'Aucun <b>commentaire</b> trouvé.',
+    'manage_categories' => 'Gérer les catégories',
 
-'set_to_closed' => 'Positionner à Fermé',
+    'move_comment' => 'Déplacer le commentaire?',
 
-'set_to_open' => 'Positionner à Ouvert',
+    'move_comment_desc' => 'Indiquer une <abbr title="Identifier">ID</abbr> d\'entrée à laquelle rattacher ce commentaire. <br>Actuellement rattaché à: <a href="%s">%s</a> (<a href="%s">%s</a>)',
 
-'set_to_pending' => 'Positionner à En Attente',
+    'no_comments' => 'Aucun commentaire n\'a été trouvé.',
 
-'sticky_desc' => 'Si activé, cet article sera prioritaire et sortira en tête de liste des tris.',
+    'set_to_closed' => 'Régler sur fermé',
 
-'sticky' => 'Epingler l\'article ?',
+    'set_to_open' => 'Régler sur ouvert',
 
-'url_title_desc' => 'Emplacement <abbr title="Unified Resource Locator">URL</abbr> de cet article.',
+    'set_to_pending' => 'Régler sur "en attente" ',
 
-'url_title' => 'Titre <abbr title="Unified Resource Locator">URL</abbr>',
+    'sticky' => 'Rendre cette entrée persistante?',
 
+    'sticky_entry' => 'Entrée persistante',
 
-//----------------------------
-// Publish page
-//----------------------------
+    'sticky_desc' => 'Si activé, cette entrée sera toujours priorisée dans les listes de tris.',
 
-'action_delete' => 'Effacer',
+    'url_title' => 'Titre <abbr title="Unified Resource Locator">URL</abbr>',
 
-'actions' => 'Actions',
+    'url_title_desc' => 'Localisation <abbr title="Unified Resource Locator">URL</abbr> de cette entrée.',
 
-'add_author_desc' => 'Les paramètres de groupe outrepassent les paramètres individuels, et certains utilisateurs ne peuvent être supprimés de la liste d\'auteurs.',
+    /* Publish page */
+    'action_delete' => 'Supprimer',
 
-'add_author' => 'Ajouter un auteur',
+    'actions' => 'Actions',
 
-'add_categories' => 'Ajouter des catégories',
+    'add_author' => 'Ajouter un auteur',
 
-'add_category' => 'Ajouter une catégorie',
+    'add_author_desc' => 'Les réglages de groupes prévalent sur les réglages individuels et certains utilisateurs n\'ont pas pu être retirés de cette liste d\'auteurs.',
 
-'all_channels' => 'Tous les canaux',
+    'add_categories' => 'Ajouter les catégories',
 
-'alpha' => 'Alphabétique',
+    'add_category' => 'Ajouter la catégorie',
 
-'anchor' => 'Hyperlien',
+    'all_channels' => 'Tous les Canaux',
 
-'any_date' => 'Toutes les dates',
+    'alpha' => 'Alphabétique',
 
-'ascending' => 'Plus ancien en premier',
+    'anchor' => 'Hyperlien',
 
-'authors' => 'Auteurs',
+    'any_date' => 'Espace temps personnalisé',
 
-'autosave_data_available' => 'Données enregistrée automatiquement disponibles',
+    'ascending' => 'Le plus ancien en premier',
 
-'autosave_success' => 'Article enregistré automatiquement',
+    'authors' => 'Auteurs',
 
-'autosave_title' => 'Données enregistrées disponibles',
+    'autosave_data_available' => 'Donnée autosauvegardée disponible',
 
-'autosave_warning_1' => 'ExpressionEngine a enregistré des données de cet article avant sa sauvegarde.',
+    'autosave_success' => 'autosauvegardée',
 
-'autosave_warning_2' => 'Les données enregistrées sont supprimées lorsque un article est enregistré ou re-enregistré.',
+    'autosave_title' => 'Donnée sauvegardée disponible',
 
-'autosave_warning_3' => 'Souhaitez-vous charger ces données maintenant ?',
+    'autosave_warning_1' => 'ExpressionEngine a sauvegardé les données de cette entrée depuis la dernière sauvegarde.',
 
-'autosaved_entries' => 'Articles auto-enregistrés',
+    'autosave_warning_2' => 'Les données sauvegardées sont supprimées quand une entrée est de nouveau sauvegardée ou ré-enregistrée.',
 
-'autosaved_versions_desc' => 'Vous trouverez ci-dessous une liste de versions auto-enregistrées de cet article.',
+    'autosave_warning_3' => 'Voulez-vous charger ces données maintenant?',
 
-'autosaved_versions' => 'Versions auto-enregistrées',
+    'autosaved' => 'autosauvegardée',
 
-'autosaved' => 'Auto-enregistré',
+    'autosaved_entries' => 'Entrées autosauvegardées',
 
-'autosaves' => 'Auto enregistrements',
+    'autosaved_versions' => 'Versions autosauvegardées',
 
-'blockquote' => 'Citation',
+    'autosaved_versions_desc' => 'Ci-dessous, figure la liste des versions autosauvegardées de cette entrée.',
 
-'bold' => 'Gras',
+    'autosaves' => 'Sauvegarde automatiquement',
 
-'button_mode' => 'Mode bouton :',
+    'blockquote' => 'Bloc de citation',
 
-'calendar' => 'Calendrier',
+    'bold' => 'Gras',
 
-'cancel_preview' => 'Fermer l\'aperçu',
+    'button_mode' => 'Mode bouton:',
 
-'category' => 'Catégorie',
+    'calendar' => 'Calendrier',
 
-'channel_name' => 'Canal :',
+    'close_preview' => 'Fermer la prévisualisation',
 
-'channels' => 'Canaux',
+    'cancel_preview' => 'Annuler la prévisualisation',
 
-'check_spelling' => 'Vérifier l\'orthographe',
+    'category' => 'Catégorie',
 
-'choose_a_destination_for_emoticon' => 'Choisissez une destination pour votre émoticône',
+    'channel_name' => 'Canal:',
 
-'choose_a_destination_for_thumb' => 'Où souhaitez-vous que l\'image apparaisse ?',
+    'channels' => 'Canaux',
 
-'choose_a_destination' => 'Où souhaitez-vous que vos fichiers apparaissent ?',
+    'check_spelling' => 'Vérifier l\'orthographe',
 
-'choose_entry_for_comment_move' => 'Choisissez un article pour le déplacement de commentaire',
+    'choose_a_destination' => 'Où souhaitez-vous que votre fichier apparaisse?',
 
-'choose_file' => 'Choisir le fichier',
+    'choose_a_destination_for_emoticon' => 'Choisir une destination pour votre émoticône',
 
-'choose_layout_group_preview' => 'Sélectionnez le groupe de disposition que vous souhaitez prévisualiser.',
+    'choose_a_destination_for_thumb' => 'Où souhaitez-vous que votre image apparaisse?',
 
-'choose_only_one_entry' => 'Vous ne devez choisir qu\'un article',
+    'choose_entry_for_comment_move' => 'Choisir l\'entrée pour le déplacement de commentaire',
 
-'clear' => 'Effacer',
+    'choose_file' => 'Choisir le fichier',
 
-'click_emoticon' => 'Cliquez sur une image pour l\'insérer dans votre article',
+    'choose_layout_group_preview' => 'Sélectionnez la présentation du groupe que vous souhaitez prévisualiser.',
 
-'click_to_view_your_entry' => 'Cliquez ici pour voir votre article',
+    'choose_only_one_entry' => 'Vous devez choisir une seule entrée',
 
-'close_all' => 'Fermer tout',
+    'clear' => 'Effacer',
 
-'close_for_no_change' => 'Fermer cette fenêtre pour annuler.',
+    'click_emoticon' => 'Cliquez sur une image pour la placer dans votre entrée',
 
-'close_selected' => 'Fermer la sélection',
+    'click_to_view_your_entry' => 'Cliquez ici pour visualiser votre entrée',
 
-'close_window' => 'Fermer la fenêtre',
+    'close' => 'Fermer',
 
-'close' => 'Fermer',
+    'close_all' => 'Fermer tout',
 
-'closed' => 'Fermé',
+    'close_for_no_change' => 'Fermez cette fenêtre pour annuler.',
 
-'comment_action' => 'Action :',
+    'close_selected' => 'Fermez sélectionné',
 
-'comment_date' => 'Date :',
+    'close_window' => 'Fermez la fenêtre',
 
-'comment_deleted' => 'Commentaires supprimés',
+    'closed' => 'Fermé',
 
-'comment_email' => 'Email :',
+    'comment' => 'Commentaire',
 
-'comment_ip' => 'IP :',
+    'comment_action' => 'Action:',
 
-'comment_updated' => 'Commentaire mis à jour',
+    'comment_date' => 'Date:',
 
-'comment_url' => 'URL :',
+    'comment_deleted' => 'Commentaires effacés',
 
-'comment' => 'Commentaire',
+    'comment_email' => 'Email:',
 
-'comments' => 'Commentaires',
+    'comment_ip' => 'IP:',
 
-'confirm_exit' => 'Lorsque vous quitterez, toutes les données seront perdues. Êtes-vous sûr de vouloir quitter ?',
+    'comment_updated' => 'Commentaire mis à jour',
 
-'constrain_proportions' => 'Conserver les proportions',
+    'comment_url' => 'URL:',
 
-'content_publish' => 'Publier',
+    'comments' => 'Commentaires',
 
-'content' => 'Contenu',
+    'confirm_exit' => 'Si vous quittez, n\'importe quelle donnée relative à l\'entrée sera perdue. Etes-vous sûr(e) de vouloir quitter?',
 
-'continue_editing' => 'Continuer l\'édition',
+    'constrain_proportions' => 'Réduire les proportions',
 
-'continue' => 'Continuer',
+    'content' => 'Contenu',
 
-'create_popup' => 'Créer un pop-up pour l\'image ?',
+    'content_publish' => 'Publier',
 
-'create_thumb_copy' => 'Créer une copie distincte',
+    'continue' => 'Continuer',
 
-'create_thumb' => 'Créer une miniature de l\'image',
+    'continue_editing' => 'Continuer l\'édition',
 
-'current_rev' => 'Actuellement chargé',
+    'create_popup' => 'Créer une fenêtre surgissante pour l\'image?',
 
-'date_calendar' => 'Calendrier',
+    'create_thumb' => 'Créer une vignette d\'image',
 
-'date_outside_of_range' => 'La date que vous avez saisie est en dehors de la plage acceptée (1902 - 2037).',
+    'create_thumb_copy' => 'Créer une copie séparée',
 
-'date_range' => 'Intervalle de date',
+    'current_rev' => 'Actuellement chargé(e)',
 
-'date' => 'Date',
+    'date' => 'Date',
 
-'delete_comment_confirm' => 'Êtes-vous sûr de vouloir définitivement supprimer ce commentaire ?',
+    'date_calendar' => 'Date du calendrier',
 
-'delete_comment' => 'Supprimer les commentaires',
+    'date_outside_of_range' => 'La date que vous avez précisée est en dehors des plages limites acceptées (1902 - 2037).',
 
-'delete_comments_confirm' => 'Êtes-vous sûr de vouloir définitivement supprimer ces commentaires ?',
+    'date_range' => 'Plage de dates',
 
-'delete_confirm' => 'Confirmation de suppression',
+    'delete_comment' => 'Supprimer les commentaires',
 
-'delete_entries_confirm' => 'Êtes-vous sûr de vouloir définitivement supprimer ces articles ?',
+    'delete_confirm' => 'Supprimer la confirmation',
 
-'delete_entry_confirm' => 'Êtes-vous sûr de vouloir définitivement supprimer cet article ?',
+    'delete_entries_confirm' => 'Etes-vous sûr(e) de vouloir supprimer ces entrées de façon définitive?',
 
-'delete_selected' => 'Supprimer la sélection',
+    'delete_entry_confirm' => 'Etes-vous sûr(e) de vouloir supprimer cette entrée de façon définitive?',
 
-'descending' => 'Plus récent en premier',
+    'delete_selected' => 'Supprimer, a été choisi',
 
-'discard_autosave' => 'Effacer les données auto-enregistrées',
+    'descending' => 'La plus récente en premier',
 
-'div' => 'Div',
+    'discard_autosave' => 'Renoncer aux données autosauvegardées',
 
-'do_not_place_file' => 'Ne pas placer le fichier dans l\'article',
+    'div' => 'Div',
 
-'edit_categories' => 'Modifier les catégories',
+    'do_not_place_file' => 'Ne pas intégrer de fichier dans les entrées',
 
-'edit_comment' => 'Modifier le commentaire',
+    'edit_categories' => 'Editer les catégories',
 
-'edit_entry' => 'Modifier l\'article',
+    'edit_comment' => 'Editer le commentaire',
 
-'edit_selected' => 'Modifier la sélection',
+    'edit_entry' => 'Editer l\'entrée',
 
-'edit_this_entry' => 'Modifier cet article',
+    'edit_selected' => 'Editer Sélectionné',
 
-'email' => 'Email',
+    'edit_this_entry' => 'Editer cette entrée',
 
-'embedded' => 'Inclus dans l\'article',
+    'email' => 'Email',
 
-'emoticons' => 'Émoticônes',
+    'embedded' => 'Encapsulé dans l\'entrée',
 
-'end_date' => 'Fin',
+    'emoticons' => 'Emoticônes',
 
-'entries_deleted' => 'Supprimé',
+    'end_date' => 'Fin',
 
-'entry_has_been_added' => 'Nouvel article ajouté',
+    'entries_deleted' => 'Supprimé',
 
-'entry_has_been_updated' => 'L\'article a été mis à jour',
+    'entry_has_been_added' => 'Nouvelle entrée soumise',
 
-'entry_title_with_title' => 'Titre de l\'article : \'%title\'',
+    'entry_has_been_updated' => 'L\'entrée a été mise à jour',
 
-'exact_match' => 'Correspondance exacte',
+    'entry_title_with_title' => 'Titre de l\'entrée: \'%title\'',
 
-'field_blank' => 'Vous avez laissé un champ vide.',
+    'exact_match' => 'Correspondance exacte',
 
-'fields' => 'Champs',
+    'field_blank' => 'Vous avez laissé un champ vide.',
 
-'file_exists_warning' => 'Attention ce fichier existe',
+    'fields' => 'Champs',
 
-'file_exists' => 'Un fichier portant ce nom existe déjà',
+    'add' => 'Ajouter',
 
-'file_manager' => 'Gestion des Fichiers',
+    'add_field' => 'Ajouter un champ',
 
-'file_saved' => 'Fichier enregistré',
+    'file_exists' => 'Un fichier existe déjà avec ce nom',
 
-'file_type' => 'Type de fichier',
+    'file_exists_warning' => 'Alerte de fichier existant',
 
-'file_upload' => 'Téléchargement',
+    'file_manager' => 'Gestionnaire de fichier',
 
-'file_uploaded' => 'Fichier téléchargé :',
+    'file_saved' => 'Fichier sauvegardé',
 
-'files' => 'Fichiers',
+    'file_type' => 'Type de fichier',
 
-'fixed_date' => 'Fixe',
+    'file_upload' => 'Téléversement de fichier',
 
-'font' => 'Police',
+    'file_uploaded' => 'Fichier téléversé:',
 
-'formatting' => 'Formatage :',
+    'files' => 'Fichiers',
 
-'forum_body' => 'Texte du sujet de forum',
+    'fixed_date' => 'Fixé',
 
-'forum_no_forum_body' => 'Vous ne pouvez pas créer un sujet de forum sans contenu.',
+    'font' => 'Police',
 
-'forum_no_forum_id' => 'Vous devez choisir un forum.',
+    'formatting' => 'Formatage:',
 
-'forum_no_forum_title' => 'Vous devez donner un titre au sujet de forum.',
+    'forum' => 'Forum',
 
-'forum_title' => 'Titre du sujet de forum',
+    'forum_body' => 'Texte du sujet de forum',
 
-'forum_topic_id_exitsts' => 'Si un sujet de forum existe déjà et que vous souhaitez l\'associer avec votre article, saisissez le numéro ID du sujet et laissez les champs ci-dessus vides.',
+    'forum_no_forum_body' => 'Vous ne pouvez pas créer de sujet de forum sans lui associer un contenu.',
 
-'forum_topic_id_info' => 'Ce champ permet à cet article d\'être associé avec un sujet de forum.',
+    'forum_no_forum_title' => 'Vous devez attribuer un titre au sujet de forum.',
 
-'forum_topic_id' => 'ID du sujet de forum',
+    'forum_no_forum_id' => 'Vous devez choisir un forum.',
 
-'forum' => 'Forum',
+    'forum_title' => 'Titre de sujet de forum',
 
-'forums_unavailable' => 'Il n\'y a aucun forum ouvert à la publication',
+    'forum_topic_id' => 'ID de sujet de forum',
 
-'guided' => 'Guidé',
+    'forum_topic_id_exitsts' => 'Si un sujet de forum existe déjà et que vous souhaitez l\'associer à votre entrée, veuillez alors soumettre le numéro d\'ID du sujet et laisser les champs ci-dessus vides',
 
-'heading_1' => 'Titrage 1',
+    'forum_topic_id_info' => 'Ce champ permet d\'associer cette entrée de canal à un sujet de forum.',
 
-'heading_2' => 'Titrage 2',
+    'forums_unavailable' => 'Il n\'y a pas de forums disponibles pour publier',
 
-'heading_3' => 'Titrage 3',
+    'guided' => 'Guidé',
 
-'heading_4' => 'Titrage 4',
+    'heading_1' => 'Titre 1',
 
-'heading_5' => 'Titrage 5',
+    'heading_2' => 'Titre 2',
 
-'height' => 'Hauteur',
+    'heading_3' => 'Titre 3',
 
-'hide_toolbar' => 'Masquer la barre d\'outils',
+    'heading_4' => 'Titre 4',
 
-'horizontal_rule' => 'Règle horizontale',
+    'heading_5' => 'Titre 5',
 
-'html_buttons_email_text' => 'Saisissez l\'adresse email',
+    'height' => 'Hauteur',
 
-'html_buttons_email_title' => 'Saisissez le titre du lien (ou laissez le champ vide pour utiliser l\'adresse email comme titre)',
+    'hide_toolbar' => 'Masquer la barre d\'outils',
 
-'html_buttons_enter_text' => 'Saisissez le texte que vous souhaitez formater',
+    'horizontal_rule' => 'Règle horizontale',
 
-'html_buttons_image_text' => 'Saisissez l\'URL de l\'image',
+    'html_buttons_email_text' => 'Entrer une adresse email',
 
-'html_buttons_no_cursor' => 'Pour utiliser ces boutons vous devez d\'abord placer votre curseur dans un champ.',
+    'html_buttons_email_title' => 'Entrer un titre de lien (ou laisser le champ vide pour laisser l\'adresse email en tant que titre.)',
 
-'html_buttons_title_text' => 'Optionnel : Saisissez un attribut de titre',
+    'html_buttons_enter_text' => 'Entrer le texte que vous souhaitez formater',
 
-'html_buttons_url_text' => 'Saisissez l\'URL de l\'hyperlien',
+    'html_buttons_image_text' => 'Entrer l\'URL d\'image',
 
-'html_buttons_webpage_text' => 'Saisissez le titre du lien',
+    'html_buttons_no_cursor' => 'Pour utiliser ces boutons, vous devez d\'abord placer votre curseur dans ce champ.',
 
-'html_glossary' => 'Glossaire',
+    'html_buttons_title_text' => 'Optionnel: entrer un attribut de titre',
 
-'image_link' => 'Lien de l\'image',
+    'html_buttons_url_text' => 'Entrer une URL d\'hyperlien',
 
-'image_location' => 'Emplacement de l\'image',
+    'html_buttons_webpage_text' => 'Entrer le titre  de ce lien',
 
-'image_options' => 'Options d\'image',
+    'html_glossary' => 'Glossaire',
 
-'image_resized' => 'Votre image a été redimensionnée',
+    'image' => 'Image',
 
-'image_size_not_different' => 'La largeur et la hauteur que vous avez saisies sont identiques à l\'original.',
+    'image_link' => 'Lien d\'image',
 
-'image' => 'Image',
+    'image_location' => 'Localisation d\'image',
 
-'instructions' => 'Instructions : ',
+    'image_options' => 'Options d\'image',
 
-'invalid_author' => 'L\'auteur sélectionné est invalide.',
+    'image_resized' => 'Votre image a été redimensionnée',
 
-'invalid_comment_date_formatting' => 'La date d\'expiration de commentaire que vous avez saisie n\'a pas été formatée correctement (année-mois-jour heure:minute). Laissez le champ vide si vous ne souhaitez pas que vos commentaires expirent.',
+    'image_size_not_different' => 'Les valeurs de longueur et largeur que vous avez précisées sont les mêmes que l\'original.',
 
-'invalid_date_formatting' => 'La date saisie n\'a pas été formatée correctement (année-mois-jour heure:minute)',
+    'instructions' => 'Instructions: ',
 
-'italic' => 'Italique',
+    'invalid_author' => 'L\'auteur sélectionné est non valide.',
 
-'keywords' => 'Mots clés',
+    'invalid_comment_date_formatting' => 'La date d\'expiration de commentaire que vous avez précisée n\'a pas été correctement formatée (année-mois-jour heure:minute). Laisser le champ vide si vous ne souhaitez pas indiquer de date d\'expiration.',
 
-'layout_group' => 'Groupe',
+    'invalid_date_formatting' => 'La date que vous avez précisée n\'a pas été correctement formatée (année-mois-jour heure:minute)',
 
-'layout_removed' => 'Disposition supprimée.',
+    'italic' => 'Italique',
 
-'layout_save_warning' => 'Si vous avez modifié votre disposition, les changements ne seront pas enregistrés.',
+    'keywords' => 'Mots-clés',
 
-'line_break' => 'Retour à la ligne',
+    'layout_group' => 'Groupe',
 
-'link' => 'Lien',
+    'layout_removed' => 'Affichage supprimé.',
 
-'live_view' => 'Cliquez pour l\'aperçu',
+    'layout_save_warning' => 'Si vous avez altéré votre présentation, les modifications ne seront pas sauvegardées.',
 
-'load_revision' => 'Charger une version',
+    'line_break' => 'Saut de ligne',
 
-'localized_date' => 'Localisée',
+    'link' => 'Lien',
 
-'located_in' => 'Localisation :',
+    'live_view' => 'Cliquer pour visualiser',
 
-'location' => 'Ville, Pays',
+    'load_revision' => 'Charger la révision',
 
-'missing_comment' => 'Vous devez saisir un commentaire',
+    'localized_date' => 'Localisée',
 
-'missing_date' => 'Votre article doit avoir une date.',
+    'located_in' => 'Localisation:',
 
-'missing_title' => 'Votre article doit avoir un titre.',
+    'location' => 'Localisation',
 
-'move_comments_to_entry' => 'Déplacer les commentaires vers l\'article',
+    'missing_comment' => 'Vous devez soumettre un commentaire',
 
-'move_selected' => 'Déplacer la sélection',
+    'missing_date' => 'Votre entrée canal doit comporter une date.',
 
-'multi_entries_updated' => 'Article(s) mis à jour',
+    'missing_title' => 'Votre entrée de canal doit comporter un titre.',
 
-'multi_entry_category_editor' => 'Éditeur de catégorie multi-article',
+    'move_comments_to_entry' => 'Déplacer les commentaires vers l\'entrée',
 
-'multi_entry_editor' => 'Éditeur multi-articles',
+    'move_selected' => 'Déplacer sélectionné',
 
-'name' => 'Nom',
+    'multi_entries_updated' => 'Les entrées ont été mises à jour',
 
-'new_entry' => 'Nouvel article',
+    'multi_entry_category_editor' => 'Editeur de catégorie multi-entrées',
 
-'newline_format' => 'Formatage :',
+    'multi_entry_editor' => 'Editeur multi-entrées',
 
-'no_autosave_data' => 'Pas d\'article auto-enregistré',
+    'name' => 'Nom',
 
-'no_categories_assigned_desc' => 'Aucune catégorie n\'est affectée à ce canal. <a href="%s">Affecter un groupe de catégories.</a>',
+    'new_entry' => 'Nouvelle entrée',
 
-'no_categories_assigned' => 'Aucune catégorie affectée',
+    'newline_format' => 'Formatage en cours:',
 
-'no_categories' => 'Aucune catégorie n\'a été assignée à ce canal.',
+    'no_autosave_data' => 'Pas d\'entrées autosauvegardées',
 
-'no_category_group_match' => 'Aucune correspondance de groupe de catégories n\'a été trouvée pour les articles. Choisissez des articles qui possèdent au moins un groupe de catégories en commun.',
+    'no_categories' => 'Aucune catégorie n\'a été affectée à ce canal.',
 
-'no_channel_exists' => 'Vous avez tenté d\'accéder à un canal qui n\'existe pas.',
+    'no_categories_assigned' => 'Pas de catégorie affectée',
 
-'no_channels_exist' => 'Il n\'y a actuellement aucun canal',
+    'no_categories_assigned_desc' => 'Il n\'y a pas de catégorie affectée à ce canal. <a href="%s" target="_blank">Affecter un groupe de catégories.</a>',
 
-'no_channels' => 'Aucun canal ne vous est affecté pour ce site.',
+    'no_category_group_match' => 'Aucune correspondance de groupe de catégories n\'a été trouvée pour aucune des entrées. Merci de choisir des entrées qui ont au moins un groupe de catégories en commun.',
 
-'no_emoticons' => 'Impossible de trouver l\'emplacement de vos émoticônes',
+    'no_channel_exists' => 'Vous avez tenté d\'accéder à un canal qui n\'existe pas.',
 
-'no_entries_exist' => 'Il n\'y a aucun article dans ce canal',
+    'no_channels' => 'Vous n\'avez aucun canal qui vous est affecté pour ce site.',
 
-'no_entries_matching_that_criteria' => 'Il n\'y a aucun article correspondant aux critères que vous avez spécifiés.',
+    'no_channels_exist' => 'Il n\'y a actuellement aucun canal',
 
-'no_glossary' => 'Le glossaire n\'existe pas',
+    'no_emoticons' => 'Impossible de trouver la localisation de vos émoticônes',
 
-'no_member_groups' => 'Vous devez sélectionner au moins un groupe de membres pour appliquer/supprimer une disposition.',
+    'no_entries_exist' => 'Aucune <b>entrée</b> trouvée.',
 
-'no_related_entries' => 'Aucun article n\'existe pour ce canal lié',
+    'no_entries_matching_that_criteria' => 'Il n\'y a pas d\'entrées qui correspondent au critère que vous avez sélectionné.',
 
-'no_revisions' => 'Il n\'y a actuellement aucune version pour cet article.',
+    'no_glossary' => 'Le glossaire n\'existe pas',
 
-'no_smileys' => 'Impossible de localiser les émoticônes',
+    'no_member_roles' => 'Vous devez sélectionner au moins un rôle de membre pour appliquer/retirer un affichage.',
 
-'no_spellcheck_lib' => 'Erreur : la bibliothèque Pspell ne semble pas installée.',
+    'no_related_entries' => 'Aucune entrée n\'existe pour le canal associé',
 
-'no_valid_selections' => 'Aucune sélection valide n\'a été soumise',
+    'no_revisions' => 'Il n\'y a actuellement pas de révisions pour cette entrée.',
 
-'non_image' => 'Autre qu\'image',
+    'no_smileys' => 'Impossible de localiser les émoticônes',
 
-'nonbr_space' => 'Espace insécable',
+    'no_spellcheck_lib' => 'Erreur: la bibliothèque Pspell Library ne semble pas être installée.',
 
-'normal' => 'Normal',
+    'no_valid_selections' => 'Aucune sélection valide n\'a été précisée',
 
-'open_selected' => 'Ouvrir la sélection',
+    'non_image' => 'Non-image',
 
-'open' => 'Ouvert',
+    'nonbr_space' => 'Non-retour à la ligne',
 
-'options' => 'Options',
+    'normal' => 'Normal',
 
-'order' => 'Ordre',
+    'open' => 'Ouvert',
 
-'ordered_list' => 'Liste ordonnée',
+    'open_selected' => 'Ouvert sélectionné',
 
-'original' => 'Original',
+    'options' => 'Options',
 
-'overwrite_instructions' => 'Vous pouvez soit choisir un nouveau nom et le fichier sera renommé, soit soumettre ce formulaire avec le même nom et le fichier sera écrasé.',
+    'order' => 'Ordre',
 
-'pages' => 'Pages',
+    'ordered_list' => 'Liste ordonnée',
 
-'paragraph' => 'Paragraphe',
+    'original' => 'Original',
 
-'past_day' => 'Dernières 24 heures',
+    'overwrite_instructions' => 'Vous pouvez soit choisir un nouveau nom et le fichier sera renommé ou sinon soumettre ce formulaire avec le même nom et le fichier sera écrasé.',
 
-'past_month' => 'Les 30 derniers jours',
+    'pages' => 'Pages',
 
-'past_six_months' => 'Les 180 derniers jours',
+    'paragraph' => 'Paragraphe',
 
-'past_week' => 'Les 7 derniers jours',
+    'past_day' => 'Dernières 24h',
 
-'past_year' => 'Les 365 derniers jours',
+    'past_month' => 'Derniers 30j',
 
-'percent' => 'Pourcent',
+    'past_six_months' => 'Derniers 180j',
 
-'pixels' => 'Pixels',
+    'past_week' => 'Derniers 7j',
 
-'place_file_close' => 'Insérer le fichier et fermer la fenêtre',
+    'past_year' => 'Derniers 365j',
 
-'place_file' => 'Insérer le fichier',
+    'percent' => 'Pourcentage',
 
-'place_image_close' => 'Insérer l\'image et fermer la fenêtre',
+    'pixels' => 'Pixels',
 
-'place_image' => 'Insérer l\'image',
+    'place_file' => 'Placer le fichier',
 
-'popup_link' => 'Lien du pop-up d\'image',
+    'place_file_close' => 'Placer le fichier et fermer la fenêtre',
 
-'popup_thumb' => 'Lien du pop-up de miniature',
+    'place_image' => 'Placer l\'image',
 
-'posted_by' => 'Auteur :',
+    'place_image_close' => 'Placer l\'image et fermer la fenêtre',
 
-'pre' => 'Pre-formaté',
+    'popup_link' => 'Lien d\'image surgissante',
 
-'preview' => 'Aperçu',
+    'popup_thumb' => 'Lien de miniature surgissante',
 
-'preview_entry' => 'Aperçu de l\'article',
+    'posted_by' => 'Auteur:',
 
-'preview_layout' => 'Aperçu de la disposition',
+    'pre' => 'Préformaté',
 
-'publish_another_entry' => 'Publier un autre article',
+    'preview' => 'Prévisualiser',
 
-'publish_form' => 'Formulaire de publication',
+    'preview_entry' => 'Prévisualiser l\'entrée',
 
-'publish_layout' => 'Disposition page Publier',
+    'preview_layout' => 'Prévisualiser l\'affichage',
 
-'publish' => 'Publier',
+    'preview_url_not_set' => 'Prévisualiser URL non réglée',
 
-'refresh_layout' => 'Actualiser la disposition',
+    'preview_url_not_set_desc' => "Merci d\'ajouter le réglage <a href='%s' target='_blank'>Prévisualiser l\'URL</a> dans vos préférences de canaux.",
 
-'remove_categories' => 'Supprimer des catégories',
+    'preview_not_allowed' => 'La prévisualisation n\'est pas autorisée',
 
-'remove_layout' => 'Supprimer la disposition',
+    'preview_not_allowed_desc' => "Changer vos préférences de canal sur la commande <a href='%s' target='_blank'>autoriser la prévisualisation</a>.",
 
-'resize_image' => 'Redimensionner l\'image',
+    'preview_cannot_display' => 'La prévisualisation en direct ne peut être affichée',
 
-'resize_original' => 'Redimensionner l\'image originale',
+    'preview_domain_mismatch_desc' => "L\'URL de votre site est réglée pour utiliser <code>%1\$s</code> mais vous accédez au tableau de bord depuis <code>%2\$s</code>.",
 
-'results_per_page' => 'Résultats par page',
+    'preview_protocol_mismatch_desc' => "L\'URL de votre site est réglée pour utiliser <code>%1\$s</code> mais vous accédez au tableau de bord avec <code>%2\$s</code>.",
 
-'return_to_publish' => 'Retour à la publication',
+    'preview_domain_error_instructions' => "Vous pouvez seulement invoquer la prévisualisation en direct depuis des domaines qui sont configurés en tant que <code>Base URL</code>, <code>URL TB</code>, <code>URL</code> ou ajoutés comme réécriture de la config <code>allowed_preview_domains</code>.",
 
-'revision_saved' => 'Version enregistrée',
+    'publish' => 'Publier',
 
-'revision_warning' => 'Vous êtes sur le point de charger une version précédente. Tout le contenu non enregistré sur cette page sera perdu.',
+    'publish_another_entry' => 'Publier une autre entrée',
 
-'revisions' => 'Versions',
+    'publish_form' => 'Publier un formulaire',
 
-'save_layout' => 'Enregistrer la disposition',
+    'publish_layout' => 'Publier une présentation',
 
-'save_revision' => 'Enregistrer la version',
+    'refresh_layout' => 'Rafraïchir la présentation',
 
-'search' => 'Rechercher',
+    'remove_categories' => 'Retirer les catégories',
 
-'select_action' => 'Choisissez vos options de placement',
+    'remove_layout' => 'Réinitialiser la présentation',
 
-'select_channel_to_edit' => 'Choisissez le canal que vous souhaitez afficher',
+    'resize_image' => 'Redimensionner \'image',
 
-'select_channel_to_post_in' => 'Choisissez le canal dans lequel publier',
+    'resize_original' => 'Redimensionner l\'image d\'origine',
 
-'select_destination_dir' => 'Choisissez un répertoire de téléchargement',
+    'results_per_page' => 'Résultats par page',
 
-'selection_required' => 'Au moins une sélection est nécessaire pour valider',
+    'return_to_publish' => 'Retour à Publier',
 
-'show_all' => 'Montrer tous',
+    'revision' => 'Révision',
 
-'show_toolbar' => 'Afficher la barre d\'outils',
+    'revision_saved' => 'Révision sauvegardée',
 
-'spam_comments_header' => 'Commentaires Spam',
+    'revision_saved_desc' => 'La révision %d de <b>%s</b> a été sauvegardée.',
 
-'spam_comments' => 'Il y a <b>%d commentaires</b> identifiés comme du spam potentiel qui <a href="%s">nécessitent une modération</a>.',
+    'revision_warning' => 'Vous êtes sur le point de charger une révision antérieure. Tout contenu actuellement non sauvegardé de cette page sera perdu.',
 
-'spam' => 'SPAM',
+    'save_layout' => 'Sauvegarder la  présentation',
 
-'span' => 'Span',
+    'save_revision' => 'Sauvegarder la révision',
 
-'spell_check' => 'Vérificateur d\'orthographe',
+    'search' => 'Chercher',
 
-'start_date' => 'Début',
+    'select_action' => 'Sélectionner vos options de placement',
 
-'status_changed' => 'Statut modifié',
+    'select_channel_to_edit' => 'Choisir un canal à visualiser',
 
-'status' => 'Statut',
+    'select_channel_to_post_in' => 'Choisir un canal pour y publier',
 
-'tab_count_zero' => 'Il doit y avoir au moins un onglet de disponible pour stocker les champs.',
+    'select_destination_dir' => 'Sélectionner un répertoire de destination',
 
-'tab_has_req_field' => 'Cet onglet ne peut pas être effacé parce qu\'il contient les champs obligatoires :',
+    'selection_required' => 'Au minimum une sélection est requise pour publier',
 
-'tabs' => 'Onglets',
+    'show_all' => 'Tout montrer',
 
-'there_are_required_fields1' => 'Il y a ',
+    'show_toolbar' => 'montrer la barre d\'outils',
 
-'there_are_required_fields2' => ' des champs requis qui n\'ont pas été remplis.',
+    'spam' => 'SPAM',
 
-'this_entry_will_appear_in' => 'Cet article apparaîtra dans :',
+    'spam_comments' => 'Il y a <b>%d commentaires</b> fléchés comme de potentiels pourriels et qui <a href="%s">nécessitent une modération</a>.',
 
-'thumb_info' => 'Si vous ne souhaitez pas redimensionner ou créer une miniature, passez les options ci-dessous',
+    'spam_comments_header' => 'Commentaires en SPAM',
 
-'thumb_instructions' => 'Vous pouvez de façon optionnelle redimensionner votre image ou créer une miniature de l\'image.',
+    'span' => 'envergure',
 
-'thumb_settings' => 'Paramètres d\'image',
+    'spell_check' => 'Vérificateur d\'orthographe',
 
-'thumbnail_created' => 'Miniature créée',
+    'start_date' => 'Démarrer',
 
-'titles_and_content' => 'Titres & Contenu',
+    'status' => 'Statut',
 
-'title_not_unique' => 'Un article portant ce titre existe déjà. Les titres doivent être uniques.',
+    'status_changed' => 'Statut modifié',
 
-'title' => 'Titre',
+    'status_changed_desc' => 'Le statut d\'entrée a été modifié en <b>%s</b>',
 
-'titles' => 'Titres',
+    'tab_count_zero' => 'Il faut impérativement un onglet disponible pour rassembler les champs.',
 
-'today' => 'Aujourd\'hui',
+    'tab_has_req_field' => 'L\'onglet ne peut pas être supprimé tant qu\'il contient les champs requis suivants: ',
 
-'unable_to_create_url_title' => 'Impossible de créer un titre URL valide pour votre article',
+    'tabs' => 'Onglets',
 
-'unauthorized_for_any_channels' => 'Vous n\'êtes pas autorisé à publier des articles',
+    'there_are_required_fields1' => 'Il y a ',
 
-'unauthorized_for_this_channel' => 'Vous n\'êtes pas autorisé à publier dans ce canal',
+    'there_are_required_fields2' => ' champs requis non complétés.',
 
-'unauthorized_to_delete_others' => 'Vous n\'êtes autorisé qu\'à supprimer des articles dont vous êtes l\'auteur',
+    'this_entry_will_appear_in' => 'Cette entrée va apparaître dans:',
 
-'unauthorized_to_delete_self' => 'Vous n\'êtes pas autorisé à supprimer vos propres articles',
+    'thumb_info' => 'Si vous ne souhaitez pas redimensionner ou créer une miniature alors passer sur les options ci-dessous',
 
-'unauthorized_to_edit' => 'Vous n\'êtes pas autorisé à modifier l\'article que vous avez sélectionné.',
+    'thumb_instructions' => 'Vous pouvez redimensionner votre image de façon optionnelle ou créer une miniature d\'image.',
 
-'unordered_list' => 'Liste à puces',
+    'thumb_settings' => 'Réglages d\'image',
 
-'unpublished' => 'non publié',
+    'thumbnail_created' => 'La miniature a été créée',
 
-'upload_dir_choose' => 'Choisissez un répertoire de téléchargement',
+    'title' => 'Titre',
 
-'upload_file' => 'Télécharger un fichier',
+    'titles' => 'Titres',
 
-'upload_to' => 'Télécharger vers %s',
+    'titles_and_content' => 'Titres & Contenu',
 
-'upload' => 'Télécharger',
+    'title_not_unique' => 'Une entrée existe déjà avec ce titre. Les titres doivent être uniques.',
 
-'url_only' => 'URL uniquement',
+    'today' => 'Aujourd\'hui',
 
-'url_title_is_index' => 'Le titre URL ne peut être nommé "index"',
+    'unable_to_create_url_title' => 'Impossible de créer un titre d\'URL valide pour votre entrée',
 
-'url_title_is_numeric' => 'Les nombres ne peuvent être utilisés comme titres URL',
+    'unauthorized_for_any_channels' => 'Vous n\'êtes pas autorisé(e) à publier des entrées de canal',
 
-'url_title_not_unique_frontend' => 'Ce titre URL est utilisé par un autre article. Les titres URL doivent être uniques.',
+    'unauthorized_for_this_channel' => 'Vous n\'êtes pas autorisé(e) à publier dans ce canal',
 
-'url_title_not_unique' => 'Ce titre URL est utilisé par <b><a href="%s" rel="external">%s</a></b>. Les titres URL doivent être uniques.',
+    'unauthorized_to_delete_others' => 'Vous êtes seulement autorisé(e) à supprimer les entrées de canal dont vous êtes l\'auteur',
 
-'url' => 'URL',
+    'unauthorized_to_delete_self' => 'Vous n\'êtes pas autorisé(e) à supprimer vos propres entrées de canal',
 
-'version_preview' => 'Version numéro %s',
+    'unauthorized_to_edit' => 'Vous n\'êtes pas autorisé(e) à éditer les entrées que vous avez choisies.',
 
-'versioning_enabled_desc' => 'Si activé, you can store up to %d revisions of this entry.',
+    'unordered_list' => 'Liste non ordonnée',
 
-'versioning_enabled' => 'Activer les versions pour cet article',
+    'unpublished' => 'non publié(s)',
 
-'view_comments' => 'Voir les commentaires',
+    'upload' => 'Téléverser',
 
-'view_entry' => 'Voir l\'article',
+    'upload_dir_choose' => 'Choisissez un répertoire de téléversement',
 
-'view_filtered' => 'Retournez aux articles filtrés',
+    'upload_file' => 'Téléverser le fichier',
 
-'view_wider' => 'Plein écran',
+    'upload_to' => 'Téléverser dans %s',
 
-'view' => 'Voir',
+    'url' => 'URL',
 
-'warning' => 'Avertissement',
+    'url_only' => 'URL seulement',
 
-'width' => 'Largeur',
+    'url_title_is_index' => 'Le titre URL ne peut être nommé \'index\'',
 
-'you_have_uploaded' => 'Vous avez téléchargé le fichier suivant :',
+    'url_title_is_numeric' => 'Les nombres ne peuvent pas être utilisés comme titres URL',
 
-// Textarea Buttons
+    'url_title_not_unique' => 'Ce titre URL est déjà emprunté par <b><a href="%s" rel="external">%s</a></b>. Les titres URL doivent être uniques.',
 
-'create_blockquote' => 'créer une citation',
+    'url_title_not_unique_frontend' => 'Ce titre URL est emprunté par une autre entrée. Les titres URL doivent être uniques.',
 
-'create_hyperlink' => 'créer un hyperlien',
+    'version_preview' => 'Numéro de révision: %s',
+    
+    'version_no' => 'Révision #%d',
 
-'create_ordered_list' => 'créer une liste ordonnée',
+    'versioning_enabled' => 'Activer les révisions d\'entrée?',
 
-'create_unordered_list' => 'créer une liste à puces',
+    'versioning_enabled_desc' => 'Si activé, vous pouvez réaliser jusqu\'à %d révisions de cette entrée.',
 
-'launch_writemode' => 'lancer le mode écriture',
+    'view' => 'Visualiser',
 
-'make_bold' => 'mettre en gras',
+    'view_comments' => 'Visualiser les commentaires',
 
-'make_italic' => 'mettre en italiques',
+    'view_entry' => 'Visualiser l\'entrée',
 
-'open_emoji' => 'ouvrir les émoticônes',
+    'view_filtered' => 'Retourner aux entrées filtrées',
 
-'open_glossary' => 'ouvrir le glossaire',
+    'view_wider' => 'Visualiser en plus grand format',
+    
+     'viewing_revision' => 'Vous êtes en train de visualiser une Révision',
 
-'open_spellcheck' => 'ouvrir le correcteur d\'orthographe',
+     'viewing_revision_desc' => 'Tous les changements sauvegardés écraseront la version la plus récente de cette entrée',
 
-'view_code' => 'voir le code HTML',
+    'warning' => 'Attention',
 
-// Relationships
+    'width' => 'Largeur',
 
-'add_new_html_button' => 'Ajouter un nouveau bouton HTML',
+    'you_have_uploaded' => 'Vous avez téléversé le fichier suivant:',
 
-'add_new_row' => 'Ajouter une nouvelle ligne',
+    /* Textarea Buttons */
+    'create_blockquote' => 'créer un bloc de citation',
 
-'collapse' => 'Réduire',
+    'create_hyperlink' => 'créer hyperlien',
 
-'creating_new_in_rel' => 'Création d\'un nouvel article dans <b>#to_channel#</b> pour une relation avec <b>#from_channel#</b>',
+    'create_ordered_list' => 'créer liste ordonnée',
 
-'hide' => 'Masquer',
+    'create_unordered_list' => 'créer liste non ordonnée',
 
-'item_to_relate_with' => 'Elément à <strong>relier avec</strong> cet article.',
+    'launch_writemode' => 'lancer le mode écriture',
 
-'items_related_to' => 'Eléments <strong>liés à</strong> cet article.',
+    'make_bold' => 'mettre en gras',
 
-'items_to_relate_with' => 'Eléments à <strong>relier avec</strong> cet article.',
+    'make_italic' => 'mettre en italique',
 
-'no_entries_found' => 'Aucun <b>article</b> trouvé',
+    'open_emoji' => 'ouvrir l\'émoji',
 
-'no_entries_related' => 'Aucun <b>article</b> lié.',
+    'open_glossary' => 'ouvrir le glossaire',
 
-'no_entry_related' => 'Aucun <b>article</b> lié.',
+    'open_spellcheck' => 'ouvrir le correcteur orthographique',
 
-'no_rows_created' => 'Aucune ligne créée',
+    'view_code' => 'visualiser le code',
 
-'remove_relationship' => 'Supprimer la relation',
+    /* Relationships */
+    'add_new_html_button' => 'Ajouter un nouveau bouton HTML',
 
-'remove_row' => 'supprimer la ligne',
+    'add_new_row' => 'Ajouter une nouvelle rangée',
 
-'search_available_entries' => 'Rechercher les articles disponibles',
+    'add_row' => 'Ajouter une rangée',
 
-'search_related_entries' => 'Rechercher les articles liés',
+    'collapse' => 'Réduire',
 
-'show_tools' => 'Afficher les outils',
+    'collapse_all' => 'Tout réduire',
 
-// writemode
+    'expand' => 'Agrandir',
 
-'add_file' => 'Ajouter un fichier',
+    'expand_all' => 'Tout agrandir',
 
-'comment_moved' => 'Commentaire déplacé',
+    'creating_new_in_rel' => 'Création en cours d\'une nouvelle entrée dans <b>#to_channel#</b> pour une relation avec <b>#from_channel#</b>',
 
-'comments_moved' => 'Commentaires déplacés',
+    'hide' => 'Masquer',
 
-'crop_height' => 'Hauteur',
+    'item_to_relate_with' => 'Element à <strong>relier</strong> à cette entrée.',
 
-'crop_width' => 'Largeur',
+    'items_related_to' => 'Eléments <strong>reliés</strong> à cette entrée.',
 
-'crop_x' => 'X',
+    'items_to_relate_with' => 'Eléments à <strong>mettre en relation</strong> avec cette entrée.',
 
-'crop_y' => 'Y',
+    'no_entries_found' => 'Pas <b>d\'entrées</b> trouvées',
 
-'crop' => 'Rogner',
+    'no_entries_related' => 'Pas <b>d\'entrées</b> liées.',
 
-'directory_no_access' => 'Vous n\'avez pas accès au répertoire choisi pour ce champ',
+    'no_entry_related' => 'Pas <b>d\'entrée</b> liée.',
 
-'edit_image' => 'Modifier l\'image',
+    'no_rows_created' => 'Pas de rangées créées',
 
-'edit_modes' => 'Modes d\'édition',
+    'remove_relationship' => 'Enlever la relation',
 
-'field_not_editable' => 'Ce champ n\'est pas éditable',
+    'remove_row' => 'enlever la rangée',
 
-'invalid_date_ambiguous' => 'La date que vous avez saisie est ambigüe, merci soit de choisir une année à 4 chiffres, soit d\'utiliser des slashes (/) plutôt que des tirets (-).',
+    'search_available_entries' => 'Rechercher les entrées disponibles',
 
-'invalid_date' => 'La date que vous avez saisie est invalide.',
+    'search_related_entries' => 'Rechercher les entrées liées',
 
-'invalid_selection' => 'Sélection invalide',
+    'show_tools' => 'Montrer les outils',
 
-'layout_failure_invalid_name' => 'Les champs suivants contiennent des caractères invalides dans les noms courts :',
+    /* writemode */
+    'add_file' => 'Ajouter le fichier',
 
-'layout_failure_required' => 'Les champs suivants sont requis et ne peuvent être masqués :',
+    'comment_moved' => 'Commentaire déplacé',
 
-'layout_failure' => 'Il y a eu un problème lors de la sauvegarde de votre disposition.',
+    'comments_moved' => 'Commentaires déplacés',
 
-'layout_preview' => 'Vous prévisualisez le rendu de',
+    'crop' => 'Rogner',
 
-'layout_success' => 'Disposition enregistrée',
+    'crop_height' => 'Hauteur',
 
-'maintain_ratio' => 'Conserver les proportions',
+    'crop_width' => 'Largeur',
 
-'member_group' => 'Membre d\'un groupe',
+    'crop_x' => 'X',
 
-'no_entry_to_update' => 'Vous avez tenté de mettre à jour un article qui n\'existe pas.',
+    'crop_y' => 'Y',
 
-'no_templates' => 'Aucun modèle',
+    'directory_no_access' => 'Vous n\'avez pas accès au répertoire précisé pour ce champ',
 
-'remove_file' => 'Supprimer un fichier',
+    'edit_image' => 'Editer l\'image',
 
-'resize_height' => 'Hauteur',
+    'edit_modes' => 'Editer les modes',
 
-'resize_width' => 'Largeur',
+    'field_not_editable' => 'Ce champ peut ne pas être édité.',
 
-'resize' => 'Redimensionner',
+    'invalid_date' => 'La date que vous avez précisée n\'est pas valide.',
 
-'rotate_180' => "180°",
+    'invalid_date_ambiguous' => 'La date que vous avez précisée est ambigüe, merci d\'utiliser une année libellée à quatre chiffres sinon d\'utiliser des barres obliques au lieu des tirets.',
 
-'rotate_90l' => "90° à gauche",
+    'invalid_selection' => 'Sélection non valide',
 
-'rotate_90r' => "90° à droite",
+    'layout_failure' => 'Il y a eu un problème pour sauvegarder votre présentation.',
 
-'rotate_flip_hor' => 'Retourner horizontalement',
+    'layout_failure_invalid_name' => 'Les champs suivants ont des caractères non valides dans les noms courts: ',
 
-'rotate_flip_vert' => 'Retourner verticalement',
+    'layout_failure_required' => 'Les champs suivants sont requis et ne peuvent être masqués: ',
 
-'rotate' => 'Basculer',
+    'layout_preview' => 'Vous prévisualisez la présentation de publication pour ',
 
-'screen_name' => 'Pseudo',
+    'layout_success' => 'Présentation sauvegardée avec succès.',
 
-'search_entries' => 'Rechercher des articles',
+    'maintain_ratio' => 'Maintenir le ratio de l\'aspect',
 
-'unable_to_load_tab' => 'Impossible de charger le fichier relatif à l\'onglet Publier demandé : s',
+    'member_group' => 'Groupe de membres',
 
-'width_needed' => 'Une largeur, une largeur/hauteur, ou une direction de rotation doit être sélectionnée',
+    'no_entry_to_update' => 'Vous avez tenté de mettre à jour une entrée qui n\'existe pas.',
 
-'wm_discard_changes' => 'Abandonner les modifications',
+    'no_templates' => 'Pas de modèles',
 
-'wm_publish_to_field' => 'Publier dans le champ',
+    'remove_file' => 'Supprimer le fichier',
 
-/* PUblish Tabs */
+    'resize' => 'Redimensionner',
 
-'menu_categories' => 'Catégories',
+    'resize_height' => 'Hauteur',
 
-'menu_date' => 'Date',
+    'resize_width' => 'Largeur',
 
-'menu_forum' => 'Forums',
+    'rotate' => 'Pivoter',
 
-'menu_options' => 'Options',
+    'rotate_180' => '180&#176',
 
-'menu_pages' => 'Pages',
+    'rotate_90l' => '90 degrés, gauche',
 
-'menu_publish' => 'Publier',
+    'rotate_90r' => '90 degrés, droite',
 
-'rel_ft_no_entries'			=> 'Aucune entrée',
+    'rotate_flip_hor' => 'Faire pivoter horizontalement',
 
-/* Bulk Edit */
+    'rotate_flip_vert' => 'Faire pivoter verticalement',
 
-'add_categories' => 'Ajouter des catégories',
+    'screen_name' => 'Nom d\'écran',
 
-'add_categories_entries' => 'Ajouter des catégories à %d entrées',
+    'search_entries' => 'Recherche entrées',
 
-'add_editable_fields' => 'Ajouter des champs modifiables',
+    'unable_to_load_tab' => 'Impossible de charger le fichier de l\'onglet de publication demandé: %s',
 
-'add_editable_fields_desc' => 'Les champs choisis seront ajoutés en dessous et seront modifiables pour <b>toutes</b> les entrées sélectionnées.',
+    'width_needed' => 'La largeur ou la largeur/hauteur doit être sélectionnée',
 
-'btn_save_all_and_close' => 'Tout enregistrer & fermer',
+    'wm_discard_changes' => 'Abandonner les changements',
 
-'editing_entries' => 'Modification de %d entrées',
+    'wm_publish_to_field' => 'Publier dans le champ',
 
-'entries_updated' => '%d entrées ont été mises à jour.',
+    /* Publish Tabs */
+    'menu_categories' => 'Catégories',
 
-'filter_selected_entries' => 'Filtrer les entrées sélectionnées',
+    'menu_date' => 'Date',
 
-'no_cat_groups_in_common' => 'Aucun <b>Groupe de catégories</b> en commun.',
+    'menu_forum' => 'Forums',
 
-'bulk_edit' => 'Modification en masse',
+    'menu_options' => 'Options',
 
-'bulk_edit_add_categories_notice' => 'Toutes les catégories sélectionnées seront affectées aux entrées sélectionnées <b>en plus</b> des catégories déjà présentes sur ces entrées.',
+    'menu_pages' => 'Pages',
 
-'bulk_edit_destructive' => 'C\'est une action destructrice et irréversible.',
+    'menu_publish' => 'Publier',
 
-'bulk_edit_notice' => 'Tous les champs soumis écraseront le contenu déjà stocké pour ce ou ces champs pour toutes les entrées sélectionnées.',
+    'rel_ft_no_entries' => 'Pas d\'entrée',
 
-'bulk_edit_remove_categories_notice' => 'Toutes les catégories sélectionnées seront <b>supprimées</b> des entrées sélectionnées, sans impacter les autres catégories encore affectées aux entrées.',
+    /* Bulk Edit */
 
-'remove_categories' => 'Supprimer les catégories',
+    'add_categories' => 'Ajouter des catégories',
 
-'remove_categories_entries' => 'Supprimer les catégories de %d entrées',
+    'add_categories_entries' => 'Ajouter des catégories à %d entrées',
 
-'remove_from_selection' => 'Supprimer de la sélection',
+    'add_editable_fields' => 'Ajouter des champs éditables',
 
-'save_and_next' => 'Enregistrer & Suivant',
+    'add_editable_fields_desc' => 'Les fichiers sélectionnés seront ajoutés ci-dessous et seront éditables pour <b>toutes</b> les entrées choisies.',
 
-'selected_entries' => 'Entrées sélectionnées',
+    'btn_save_all_and_close' => 'Tout sauvegarder & fermer',
 
-'showing' => 'Affichage de',
+    'editing_entries' => 'Edition en cours de %d entrées',
 
-'unauthorized_entry_desc' => 'Vous ne disposez pas des permissions suffisantes pour modifier au moins une des entrées sélectionnées.',
+    'entries_updated' => '%d entrées  ont été mises à jour.',
 
-/* DB column type */
+    'filter_selected_entries' => 'Filtrer les entrées sélectionnées',
 
-'db_column_type' => 'Type de colonne dans la base de données',
+    'no_cat_groups_in_common' => 'Pas de <b>groupes de catégories</b> en commun.',
 
-'db_column_type_desc' => 'Choisissez le type de colonne de base de données qui contiendra vos données. TEXT (64Kb) est normalement OK pour un article. Si le contenu de votre champ est plutôt un livre, sélectionnez MEDIUMTEXT (16Mb).'
+    'bulk_edit' => 'Edition en nombre',
+
+    'bulk_edit_add_categories_notice' => 'Toutes les catégories choisies seront attribuées aux entrées sélectionnées <b>en complément</b> de la sélection de la catégorie actuelle, relative à ces entrées.',
+
+    'bulk_edit_destructive' => 'ceci est une action irréversible et destructrice.',
+
+    'bulk_edit_notice' => 'Tous les champs sélectionnés écraseront le contenu de ce champ enregistré pour toutes les entrées sélectionnées.',
+
+    'bulk_edit_remove_categories_notice' => 'Toutes les catégories sélectionnées seront <b>supprimées</b> des entrées choisies, laissant intactes les affectations de catégories des autres entrées.',
+
+    'remove_categories' => 'Supprimer les catégories',
+
+    'remove_categories_entries' => 'Supprimer les catégories des %d entrées',
+
+    'remove_from_selection' => 'Supprimer de la sélection',
+
+    'save_and_next' => 'Sauvegarder & Suivant',
+
+    'selected_entries' => 'Entrées sélectionnées',
+
+    'showing' => 'Affichage en cours…',
+
+    'unauthorized_entry_desc' => 'Vous ne possédez pas l\'autorisation d\'éditer une des entrées sélectionnées.',
+
+    /* Entry Manager */
+
+    'entry_manager_view_created' => 'Visualiser les entrées créées',
+
+    'entry_manager_view_created_desc' => 'La visualisation <b>%s</b> a été créée.',
+
+    'entry_manager_view_updated' => 'Visualisation mise à jour',
+
+    'entry_manager_view_updated_desc' => 'La visualisation <b>%s</b> a été mise à jour.',
+
+    'entry_manager_view_not_created' => 'Impossible de créer la visualisation',
+
+    'entry_manager_view_not_created_desc' => 'Impossible de créer cette visualisation, merci de passer en revue et de corriger les erreurs ci-dessous.',
+
+    'entry_manager_view_not_updated' => 'Impossible de mettre à jour la visualisation',
+
+    'entry_manager_view_not_updated_desc' => 'Impossible de mettre à jour la visualisation, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
 );
 
