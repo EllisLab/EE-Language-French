@@ -190,6 +190,8 @@ $lang = array(
     'file_dnd_upload_new' => 'Télécharger nouveau',
     
     'file_dnd_create_directory' => 'Créer un Nouveau Répertoire',
+    
+    'file_grid_vertical_layout_title' => 'Agencement du fichier Grille',
 
     /* Grid */
     'grid_add_field' => 'ajouter nouveau fichier',
