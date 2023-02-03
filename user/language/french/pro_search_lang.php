@@ -151,7 +151,7 @@ $lang = array(
 
     "lexicon_removed_word" =>
     "Supprimé: “%s”.",
-
+    
     "set_langauge_to_use_tool" => "* réglage de langue manquant: veuillez choisir une langue afin d\'activer",
 
     //----------------------------------------
@@ -441,8 +441,16 @@ $lang = array(
 
     "default_result_page_help" =>
     "Si une <code>page de résultats</code> n\'est pas rendue de façon explicite, la recherche va se replier sur cette page de résultats.",
+ 
+    "build_index_act_key" => 
+    "Construire une clé ACT Index",
 
-    "min_word_length" =>
+     "build_index_act_key_help" =>
+     "Clé pour construire l\'index via une url ACT. Cela peut être n\'importe quoi mais nous recommandons une chaîne alphanumérique longue de 16+ caractères. Merci de noter, construire l\'index via une url ACT ne fonctionnera pas si cette clé n'est pas préalablement définie. Exemple d\'URL ACT pour construire une collection avec l\'id 1: <br>
+     <code>%s</code>",
+
+
+    "min_word_length" => 
     "Longueur minimum de mot",
 
     "min_word_length_help" =>
