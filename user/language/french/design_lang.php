@@ -265,6 +265,8 @@ $lang = array(
     'template_settings_and_access' => 'Réglages de modèles &amp; d\'Accès',
 
     'template_type' => 'Type',
+    
+    'template_engine' => 'Moteur',
 
     'template_variable' => 'Variable de modèle',
 
