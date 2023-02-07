@@ -332,7 +332,7 @@ $lang = array(
 
     'limit' => 'limite',
 
-    'list_edit_warning' => 'Si vous vous avez des changements non sauvegardés dans cette page, ils seront perdus quand vous serez transféré à l\'éditeur de formatage.',
+    'list_edit_warning' => 'Si vous vous avez des changements non sauvegardés dans cette page, ils seront perdus quand vous serez transféré(e) à l\'éditeur de formatage.',
 
     'localize_date' => 'Localiser la date?',
 
