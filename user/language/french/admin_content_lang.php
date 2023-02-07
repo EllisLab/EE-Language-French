@@ -568,7 +568,7 @@ $lang = array(
 
     'create_new_cat_field' => 'Créer un nouveau champ de catégorie',
 
-    'create_new_category' => 'Créer une nouvelle Catégorie',
+    'create_new_category' => 'Créer une nouvelle catégorie',
 
     'create_new_category_group' => 'Créer un nouveau groupe de catégories',
 
