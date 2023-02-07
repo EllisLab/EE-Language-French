@@ -212,7 +212,7 @@ $lang = array(
 
     'edit_field_error' => 'Impossible de mettre à jour le champ',
 
-    'edit_field_error_desc' => 'impossiblede mettre à jour ce champ, merci de passer en revue et de corriger les erreurs ci-dessous.',
+    'edit_field_error_desc' => 'Impossible de mettre à jour ce champ, merci de passer en revue et de corriger les erreurs ci-dessous.',
 
     'edit_field_group' => 'Editer le groupe de champs',
 
@@ -382,7 +382,7 @@ $lang = array(
 
     'open' => 'Ouvert',
 
-    'options_field_desc' => 'Choisir comment créer des options pour ce champ.</em><em><i>Les paires Valeur/étiquette peuvent être utilisées pour rendre la sélection des contenus plus conviviale aux auteurs de contenus. Par exemple, si vous avez besoin de ranger la valeur <b>1</b>, vous pourrez utiliser l\'étiquette <b>Un</b></i></em>',
+    'options_field_desc' => 'Choisir comment créer des options pour ce champ.</em><em><i>Les paires valeur/étiquette peuvent être utilisées pour rendre la sélection des contenus plus conviviale aux auteurs de contenus. Par exemple, si vous avez besoin de ranger la valeur <b>1</b>, vous pourrez utiliser l\'étiquette <b>Un</b></i></em>',
 
     'order' => 'Ordre',
 
@@ -426,7 +426,7 @@ $lang = array(
 
     'search_results_url_exp' => 'L\'URL où devraient pointer les résultats de recherche de ce canal.',
 
-    'select_channel_for_field' => 'Sélectionnez le champ depuis lequel vous souhaitez effectuer un préremplissage',
+    'select_channel_for_field' => 'Sélectionnez le champ depuis lequel vous souhaitez effectuer un pré-remplissage',
 
     'select_options' => 'Sélectionnez les options de menu',
 
@@ -466,9 +466,9 @@ $lang = array(
 
     'template_creation' => 'Créer de nouveaux modèles pour ce canal?',
 
-    'template_group_choose' => 'Merci de choisir un Groupe de Modèles',
+    'template_group_choose' => 'Merci de choisir un groupe de modèles',
 
-    'template_group_name' => 'Nouveau nom de Groupe de Modèles',
+    'template_group_name' => 'Nouveau nom de groupe de modèles',
 
     'update_existing_comments' => 'Mettre à jour tous les commentaires existants avec ce réglage?',
 
@@ -498,160 +498,160 @@ $lang = array(
 
      'directly' => 'directement',
 
-     'fluid_field' => 'Champ \’Fluid\’',
+     'fluid_field' => 'Champ \’Fluide\’',
 
     /* Generic Phrases */
     'delete' => 'Supprimer',
 
-    'delete_group' => 'Supprimer le Groupe',
+    'delete_group' => 'Supprimer le groupe',
 
     'group' => 'Groupe',
 
-    'group_name' => 'Nom du Groupe',
+    'group_name' => 'Nom du groupe',
 
-    'new_group_name' => 'Nouveau Nom de Groupe: ',
+    'new_group_name' => 'Nouveau nom de groupe: ',
 
     'rename' => 'Renommer',
 
-    'rename_group' => 'Renommer le Groupe',
+    'rename_group' => 'Renommer le groupe',
 
     'total_fields' => 'Total champs',
 
     /* Category Administration */
-    'add_edit_categories' => 'Ajouter/Editer les Catégories',
+    'add_edit_categories' => 'Ajouter/Editer les catégories',
 
-    'add_new_category' => 'Ajouter une nouvelle Catégorie',
+    'add_new_category' => 'Ajouter une nouvelle catégorie',
 
-    'can_delete_categories' => 'Peut supprimer les Catégories',
+    'can_delete_categories' => 'Peut supprimer les catégories',
 
-    'can_edit_categories' => 'Peut éditer les Catégories',
+    'can_edit_categories' => 'Peut éditer les catégories',
 
-    'cat_field_created' => 'Nouveau champ de Catégorie Créé: ',
+    'cat_field_created' => 'Nouveau champ de catégorie créé: ',
 
-    'cat_field_deleted' => 'Champ de Catégorie supprimé:',
+    'cat_field_deleted' => 'Champ de catégorie supprimé:',
 
-    'cat_field_edited' => 'Champ de Catégorie édité:',
+    'cat_field_edited' => 'Champ de catégorie édité:',
 
-    'cat_field_html_formatting' => 'Formatage HTML du Champ de Catégorie',
+    'cat_field_html_formatting' => 'Formatage HTML du champ de catégorie',
 
-    'cat_field_label_info' => 'C\'est le nom qui apparaîtra dans la page d\'édition de la Catégorie',
+    'cat_field_label_info' => 'C\'est le nom qui apparaîtra dans la page d\'édition de la catégorie',
 
-    'cat_field_updated' => 'Champ de Catégorie mis à jour:',
+    'cat_field_updated' => 'Champ de catégorie mis à jour:',
 
-    'cat_url_title_is_numeric' => 'Les chiffres ne peuvent pas être utilisés comme Titres URL de Catégories',
+    'cat_url_title_is_numeric' => 'Les chiffres ne peuvent pas être utilisés comme titres URL de catégories',
 
-    'category_created' => 'Nouvelle Catégorie créée',
+    'category_created' => 'Nouvelle catégorie créée',
 
     'category_deleted' => 'Catégorie supprimée',
 
     'category_edited' => 'Catégorie éditée',
 
-    'category_group' => 'Groupe de Catégories',
+    'category_group' => 'Groupe de catégories',
 
-    'category_group_created' => 'Groupe de Catégories créé:',
+    'category_group_created' => 'Groupe de catégories créé:',
 
-    'category_group_deleted' => 'Groupe de Catégories supprimé:',
+    'category_group_deleted' => 'Groupe de catégories supprimé:',
 
     'category_group_updated' => 'Groupe mis à jour:',
 
-    'category_groups' => 'Groupes de Catégories',
+    'category_groups' => 'Groupes de catégories',
 
-    'category_image' => 'Image de Catégorie',
+    'category_image' => 'Image de catégorie',
 
     'category_img_blurb' => 'Ceci est un champ optionnel qui permet d\'affecter une image à vos catégories.',
 
-    'category_name' => 'Nom de Catégorie',
+    'category_name' => 'Nom de catégorie',
 
     'category_parent' => 'Catégorie parente',
 
-    'category_url_title' => 'Titre URL de Catégorie',
+    'category_url_title' => 'Titre URL de catégorie',
 
-    'create_new_cat_field' => 'Créer un nouveau champ de Catégorie',
+    'create_new_cat_field' => 'Créer un nouveau champ de catégorie',
 
-    'create_new_category' => 'Créer une Nouvelle Catégorie',
+    'create_new_category' => 'Créer une nouvelle Catégorie',
 
-    'create_new_category_group' => 'Créer un Nouveau Groupe de Catégories',
+    'create_new_category_group' => 'Créer un nouveau groupe de catégories',
 
-    'custom_category_fields' => 'Personnaliser les Champs de Catégories',
+    'custom_category_fields' => 'Personnaliser les champs de catégories',
 
-    'delete_cat_field' => 'Supprimer le Champ de Catégorie',
+    'delete_cat_field' => 'Supprimer le champ de catégorie',
 
     'delete_cat_field_confirmation' => 'Etes-vous sûr(e) de vouloir supprimer définitivement de champ de catégorie?',
 
     'delete_cat_group_confirmation' => 'Etes-vous sûr(e) de vouloir supprimer définitivement ce groupe de catégories?',
 
-    'delete_category' => 'Supprimer la Catégorie',
+    'delete_category' => 'Supprimer la catégorie',
 
-    'duplicate_cat_url_title' => 'Une Catégorie avec le titre URL de Catégorie saisi existe déjà dans ce Groupe de Catégories',
+    'duplicate_cat_url_title' => 'Une catégorie avec le titre URL de catégorie saisi existe déjà dans ce groupe de catégories',
 
-    'edit_cat_field' => 'Editer le Champ de Catégorie',
+    'edit_cat_field' => 'Editer le champ de catégorie',
 
-    'edit_category' => 'Editer la Catégorie',
+    'edit_category' => 'Editer la catégorie',
 
-    'edit_category_group' => 'Editer le Groupe de Catégories',
+    'edit_category_group' => 'Editer le groupe de catégories',
 
-    'edit_group_name' => 'Editer le Groupe',
+    'edit_group_name' => 'Editer le groupe',
 
-    'exclude_from_channels_or_publish' => 'Exclure du Canal ou de l\'Affectation de Fichier de Catégorie?',
+    'exclude_from_channels_or_publish' => 'Exclure du canal ou de l\'affectation de fichier de catégorie?',
 
-    'exclude_from_files' => 'Affectation de Fichier',
+    'exclude_from_files' => 'Affectation de fichier',
 
-    'exclude_from_publish' => 'Affectation de Canal',
+    'exclude_from_publish' => 'Affectation de canal',
 
     'formatting' => 'Formatage:',
 
-    'manage_custom_fields' => 'Gérer les Champs de Catégories',
+    'manage_custom_fields' => 'Gérer les champs de catégories',
 
-    'member_group' => 'Groupe de Membres',
+    'member_group' => 'Groupe de membres',
 
-    'member_groups' => 'Groupes de Membres',
+    'member_groups' => 'Groupes de membres',
 
-    'missing_required_fields' => 'Il vous manque le(s) Champ(s) Requis:',
+    'missing_required_fields' => 'Il vous manque le(s) champ(s) requis:',
 
-    'name_of_category_group' => 'Nom du Groupe de Catégories',
+    'name_of_category_group' => 'Nom du groupe de catégories',
 
-    'no_category_group_message' => 'Il n\'y a actuellement aucune Catégorie',
+    'no_category_group_message' => 'Il n\'y a actuellement aucune catégorie',
 
-    'no_category_message' => 'Il n\'y a actuellement aucune Catégorie affectée à ce Groupe',
+    'no_category_message' => 'Il n\'y a actuellement aucune catégorie affectée à ce groupe',
 
-    'show_all_category_groups' => 'Tous les %d groupes de Catégories',
+    'show_all_category_groups' => 'Tous les %d groupes de catégories',
 
     'taken_category_group_name' => 'Ce nom de groupe est déjà emprunté.',
 
-    'unable_to_create_cat_url_title' => 'Impossible de créer un titre URL de Catégorie valide pour votre Catégorie',
+    'unable_to_create_cat_url_title' => 'Impossible de créer un titre URL de catégorie valide pour votre catégorie',
 
-    'update_category_image' => 'Merci de mettre à jour votre image de Catégorie pour utiliser le champ de fichier fourni, ou l\'URL d\'image de l\'ancienne version peut être supprimée lors de la sauvegarde.',
+    'update_category_image' => 'Merci de mettre à jour votre image de catégorie pour utiliser le champ de fichier fourni, ou l\'URL d\'image de l\'ancienne version peut être supprimée lors de la sauvegarde.',
 
     'update_existing_cat_fields' => 'Mettre à jour toutes les catégories existantes dans ce groupe avec votre nouveau choix de formatage?',
 
     /* Custom field Administration */
-    'add_edit_fields' => 'Ajouter/Editer les Champs',
+    'add_edit_fields' => 'Ajouter/Editer les champs',
 
     'channel_entries_will_be_deleted' => 'Toutes les entrées de canaux contenant le(s) champ(s) ci-dessus seront définitivement supprimées.',
 
-    'create_new_custom_field' => 'Créer un nouveau Champ de Canal',
+    'create_new_custom_field' => 'Créer un nouveau champ de canal',
 
-    'create_new_field' => 'Nouveau Champ',
+    'create_new_field' => 'Nouveau champ',
 
-    'create_new_field_group' => 'Créer un nouveau Groupe de Champs de Canal',
+    'create_new_field_group' => 'Créer un nouveau groupe de champs de canal',
 
-    'custom_field_created' => 'Personnaliser le Champ créé',
+    'custom_field_created' => 'Personnaliser le champ créé',
 
-    'custom_field_edited' => 'Personnaliser le Champ édité',
+    'custom_field_edited' => 'Personnaliser le champ édité',
 
-    'custom_field_empty' => 'Le Champ suivant est requis:',
+    'custom_field_empty' => 'Le champ suivant est requis:',
 
     'datalist_items' => 'Eléments de la liste de données',
 
     'datalist_items_desc' => 'Valeurs qui seront affichées comme options recommandées',
 
-    'delete_field' => 'Supprimer le Champ',
+    'delete_field' => 'Supprimer le champ',
 
-    'delete_field_confirmation' => 'Etes-vous sûr(e) de vouloir supprimer définitivement ce Champ de Canal?',
+    'delete_field_confirmation' => 'Etes-vous sûr(e) de vouloir supprimer définitivement ce champ de canal?',
 
-    'delete_field_group' => 'Supprimer le Groupe de Champs',
+    'delete_field_group' => 'Supprimer le groupe de champs',
 
-    'delete_field_group_confirmation' => 'Etes-vous sûr(e) de vouloir supprimer définitivement ce Groupe de Champs de Canal?',
+    'delete_field_group_confirmation' => 'Etes-vous sûr(e) de vouloir supprimer définitivement le groupe de champs de ce canal?',
 
     'dropdown_sub' => 'Si vous utilisez un type de champ \'menu déroulant\' ',
 
@@ -659,35 +659,35 @@ $lang = array(
 
     'duplicate_truncated_field_name' => 'Le nom de champ que vous avez choisi est trop long et le nom tronqué est déjà emprunté.',
 
-    'edit_field' => 'Editer le Champ',
+    'edit_field' => 'Editer le champ',
 
     'edit_field_group_name' => 'Renommer',
 
-    'edit_field_order' => 'Ordre du Champ',
+    'edit_field_order' => 'Ordre du champ',
 
-    'edit_list' => 'Editer la Liste',
+    'edit_list' => 'Editer la liste',
 
-    'field_deleted' => 'Le Champ personnalisé est supprimé:',
+    'field_deleted' => 'Le champ personnalisé est supprimé:',
 
     'field_formatting' => 'Formatage de champ',
 
     'field_formatting_cont' => 'Si vous choisissez un type de champ zone de texte multi-lignes',
 
-    'field_group' => 'Groupe de Champs de Canal',
+    'field_group' => 'Groupe de champs de canal',
 
-    'field_group_created' => 'Groupe de Champs créé:',
+    'field_group_created' => 'Groupe de champs créé:',
 
-    'field_group_deleted' => 'Groupe de Champs supprimé:',
+    'field_group_deleted' => 'Groupe de champs supprimé:',
 
-    'field_group_updated' => 'Groupe de Champs mis à jour:',
+    'field_group_updated' => 'Groupe de champs mis à jour:',
 
-    'field_id' => 'ID du Champ',
+    'field_id' => 'ID du champ',
 
-    'field_label' => 'Etiquette du Champ',
+    'field_label' => 'Etiquette du champ',
 
     'field_list_instructions' => 'Disposez chaque élément sur une seule ligne',
 
-    'field_list_items' => 'Sélectionner les Options',
+    'field_list_items' => 'Sélectionner les options',
 
     'field_list_items_cont' => 'Si vous choisissez un menu déroulant',
 
@@ -697,13 +697,13 @@ $lang = array(
 
     'field_name_cont' => 'Un seul mot, pas d\'espaces. Sous-tirets et tirets autorisés',
 
-    'field_order' => 'Ordre d\'affichage des Champs',
+    'field_order' => 'Ordre d\'affichage des champs',
 
-    'field_settings' => 'Réglages des Champs',
+    'field_settings' => 'Réglages des champs',
 
     'field_type' => 'Type',
 
-    'formatting_options' => 'Options de formatage de Champs',
+    'formatting_options' => 'Options de formatage de champs',
 
     'invalid_characters' => 'Le nom de champ que vous avez saisi contient des caractères non valides',
 
@@ -715,13 +715,13 @@ $lang = array(
 
     'multi_list_items' => 'Options multi-sélections',
 
-    'new_field_group' => 'Nouveau Groupe de Champs',
+    'new_field_group' => 'Nouveau groupe de champs',
     
     'ungrouped' => 'Dégroupé',
 
     'no_field_group_message' => 'Il n\'y a actuellement aucun champ de canal',
 
-    'no_field_groups' => 'Aucun <b>Groupe de Champs</b> trouvé.',
+    'no_field_groups' => 'Aucun <b>groupe de champs</b> n\'a été trouvé.',
 
     'no_field_label' => 'Vous devez saisir une étiquette de champ',
 
@@ -729,9 +729,9 @@ $lang = array(
 
     'option_group_items' => 'Options cases à cocher',
 
-    'radio_items' => 'Options Radio',
+    'radio_items' => 'Options radio',
 
-    'select_list' => 'Sélectionner la Liste',
+    'select_list' => 'Sélectionner la liste',
 
     'show_all_field_groups' => 'Tous les %d groupes de champs',
 
@@ -770,17 +770,17 @@ $lang = array(
 
     'content_type_changed' => 'Le type de contenu de champ sera modifié depuis %s. Mettre à jour les options de types de champs peut occasionner un perte de données. Procéder avec précaution.',
 
-    'create_new_status' => 'Créer un Nouveau Statut',
+    'create_new_status' => 'Créer un nouveau statut',
 
     'default_entry_title' => 'Titre d\'entrée par défaut',
 
-    'delete_status' => 'Supprimer le Statut',
+    'delete_status' => 'Supprimer le statut',
 
     'delete_status_confirmation' => 'Etes-vous sûr(e) de vouloir supprimer le statut suivant?',
 
     'duplicate_status_name' => 'Un statut existe déjà avec le même nom.',
 
-    'edit_status' => 'Editer le Statut',
+    'edit_status' => 'Editer le statut',
 
     'field_instructions' => 'Instructions de champ',
 
@@ -790,27 +790,27 @@ $lang = array(
 
     'highlight' => 'Couleur de surbrillance (optionnelle)',
 
-    'integrate_category_groups' => 'Intégrer les Groupes de Catégories',
+    'integrate_category_groups' => 'Intégrer les Groupes de catégories',
 
     'invalid_status_name' => 'Les noms de statuts peuvent seulement utiliser les caractères alphanumériques de même que les espaces, sous-tirets et tirets.',
 
     'invalid_url_title_prefix' => 'Préfixe de titre URL non valide',
 
-    'ltr' => 'De Gauche à Droite',
+    'ltr' => 'De gauche à droite',
 
-    'multiple_cat_group_preferences' => 'Préférences de Groupe de Catégories multiples',
+    'multiple_cat_group_preferences' => 'Préférences de groupe de catégories multiples',
 
-    'new_status' => 'Nouveau Statut',
+    'new_status' => 'Nouveau statut',
 
     'rtl' => 'De droite à gauche',
 
     'show_all_statuses' => 'Tous les %d statuts',
 
-    'show_pages_cluster' => 'Afficher les Champs de saisies de Pages',
+    'show_pages_cluster' => 'Afficher les champs de saisies de pages',
 
-    'status_name' => 'Nom de Statut',
+    'status_name' => 'Nom de statut',
 
-    'status_order' => 'Ordre des Statuts',
+    'status_order' => 'Ordre des statuts',
 
     'statuses' => 'Statuts',
 
@@ -819,19 +819,19 @@ $lang = array(
     'url_title_prefix' => 'Préfixe de titre URL',
 
     /* Channel Form Settings */
-    'channel_form_allow_guest_posts' => 'Autoriser les Publications d\'Invités?',
+    'channel_form_allow_guest_posts' => 'Autoriser les publications d\'invités?',
 
     'channel_form_default_status' => 'Statut par défaut',
 
-    'channel_form_default_status_empty' => '-- Utiliser le Canal par Défaut --',
+    'channel_form_default_status_empty' => '-- Utiliser le canal par défaut --',
 
-    'channel_form_guest_author' => 'Auteur Invité',
+    'channel_form_guest_author' => 'Auteur invité',
 
-    'channel_form_guest_captcha' => 'Captcha Invité?',
+    'channel_form_guest_captcha' => 'Captcha invité?',
 
     'channel_form_settings' => 'Réglages de formulaire de canal',
 
-    'channel_form_settings_updated' => 'Réglages de Formulaire de Canal Sauvegardés',
+    'channel_form_settings_updated' => 'Réglages de Formulaire de canal sauvegardés',
 
     /* Channel Entries API */
     'default_value' => 'Valeur par défaut',
@@ -854,13 +854,13 @@ $lang = array(
 
     'field_text_direction_rtl' => 'De droite à gauche',
 
-    'invalid_api_parameter' => 'Impossible de créer/de mettre à jour l\'entrée. Paramètre API manquant.',
+    'invalid_api_parameter' => 'Impossible de créer ou de mettre à jour l\'entrée. Paramètre API manquant.',
 
     'select_menu_options' => 'Sélectionner les options de menu',
 
     'select_menu_options_desc' => 'Choisir comment créer des options pour ce champ.',
 
-    'textarea_height' => 'Hauteur de ligne de la Zone de texte multi-lignes',
+    'textarea_height' => 'Hauteur de ligne de la zone de texte multi-lignes',
 
     'textarea_height_desc' => 'Hauteur de ce champ en nombre de lignes.',
 
