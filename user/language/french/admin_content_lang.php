@@ -228,7 +228,7 @@ $lang = array(
 
     'edit_field_success_desc' => 'Ce champ <b>%s</b> a été mis à jour.',
 
-    'edit_group_assignments' => 'Affectations de Groupe',
+    'edit_group_assignments' => 'Affectations de groupe',
 
     'edit_group_prefs' => 'Editer les préférences de groupe',
 
