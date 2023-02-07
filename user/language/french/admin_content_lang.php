@@ -498,7 +498,7 @@ $lang = array(
 
      'directly' => 'directement',
 
-     'fluid_field' => 'Champ ’Fluid’',
+     'fluid_field' => 'Champ \’Fluid\’',
 
     /* Generic Phrases */
     'delete' => 'Supprimer',
