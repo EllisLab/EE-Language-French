@@ -100,7 +100,7 @@ $lang = array(
 
     'closed' => 'Fermé',
 
-    'comment_allow_img_urls' => 'Autoriser les URL d\'image au sein des commentaires?',
+    'comment_allow_img_urls' => 'Autoriser les URL d\'images au sein des commentaires?',
 
     'comment_expiration' => 'Expiration de commentaire',
 
