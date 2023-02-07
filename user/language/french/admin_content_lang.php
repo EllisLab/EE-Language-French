@@ -737,11 +737,11 @@ $lang = array(
 
     'show_all_fields' => 'Tous les %d champs',
 
-    'show_file_selector' => 'Montrer le Sélecteur de Fichiers',
+    'show_file_selector' => 'Montrer le sélecteur de fichiers',
 
-    'show_formatting_btns' => 'Montrer les Boutons de Formatage',
+    'show_formatting_btns' => 'Montrer les boutons de formatage',
 
-    'show_smileys' => 'Montrer les Smileys',
+    'show_smileys' => 'Montrer les smileys',
 
     'taken_field_group_name' => 'Le nom que vous avez choisi est déjà emprunté',
 
@@ -790,7 +790,7 @@ $lang = array(
 
     'highlight' => 'Couleur de surbrillance (optionnelle)',
 
-    'integrate_category_groups' => 'Intégrer les Groupes de catégories',
+    'integrate_category_groups' => 'Intégrer les groupes de catégories',
 
     'invalid_status_name' => 'Les noms de statuts peuvent seulement utiliser les caractères alphanumériques de même que les espaces, sous-tirets et tirets.',
 
