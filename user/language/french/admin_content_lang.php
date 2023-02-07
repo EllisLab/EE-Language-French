@@ -398,7 +398,7 @@ $lang = array(
 
     'radio_options_desc' => '<em><i>Chaque élément dans la zone de texte multi-lignes va générer une paire, un bouton radio simple et une étiquette, dans le formulaire de publication.</i>',
 
-    'related_to_channel' => 'Relier les entrées de canal à d\'autres ',
+    'related_to_channel' => 'Relier les entrées de canal à d\'autres',
 
     'relationship' => 'Relation',
 
