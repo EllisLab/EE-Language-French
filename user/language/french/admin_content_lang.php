@@ -404,7 +404,7 @@ $lang = array(
 
     'removed_field' => 'Le champ suivant a été retranché et ses données supprimées: %s',
 
-    'removed_fields_from_fluid_field' => 'Les champs suivants ont été retranchés du Champ Fluide <b>%s</b> et leurs données ont été supprimées: %s',
+    'removed_fields_from_fluid_field' => 'Les champs suivants ont été retranchés du champ fluide <b>%s</b> et leurs données ont été supprimées: %s',
 
     'require_field_desc' => 'Si activé (et non masqué par une condition), ce champ sera requis pour soumettre le formulaire de publication.',
 
