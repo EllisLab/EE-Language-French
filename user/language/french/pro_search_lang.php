@@ -446,7 +446,7 @@ $lang = array(
     "Construire une clé ACT Index",
 
      "build_index_act_key_help" =>
-     "Clé pour construire l\'index via une url ACT. Cela peut être n\'importe quoi mais nous recommandons une chaîne alphanumérique longue de 16+ caractères. Merci de noter, construire l\'index via une url ACT ne fonctionnera pas si cette clé n'est pas préalablement définie. Exemple d\'URL ACT pour construire une collection avec l\'id 1: <br>
+     "Clé pour construire l\'index via une url ACT. Cela peut être n\'importe quoi mais nous recommandons une chaîne alphanumérique longue de 16+ caractères. Merci de noter: construire l\'index via une URL ACT ne fonctionnera pas si cette clé n'est pas préalablement définie. Exemple d\'URL ACT pour construire une collection avec l\'id 1: <br>
      <code>%s</code>",
 
 
