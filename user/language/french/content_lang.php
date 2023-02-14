@@ -32,7 +32,7 @@ $lang = array(
 
     'btn_create_new' => 'Créer Nouvelle',
 
-    'btn_create_new_entry_in_channel' => 'Nouvelle dans %s',
+    'btn_create_new_entry_in_channel' => 'Nouveau dans %s',
 
     'btn_edit_comment' => 'Sauvegarder',
 
