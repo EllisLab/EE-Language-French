@@ -38,6 +38,8 @@ $lang = array(
     'log_into' => 'Se connecter à',
 
     'login' => 'Se connecter',
+	
+	'multi_auth_redirect_site_not_found' => 'Ce site n\'a pas été détecté dans une configuration de connexions multiples.',
 
     'new_password' => 'Nouveau mot de passe',
 
