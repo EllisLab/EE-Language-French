@@ -33,7 +33,7 @@ $lang = array(
      'rte_advanced_config_desc' => 'Editer la configuration directement en format JSON',
      'rte_config_json' => 'Configuration JSON',
      'rte_config_json_desc' => 'Ecrase visuellement la boîte à outils établie',
-     'rte_advanced_config_warning' => '<p><b>ALERTE</b>: <b class="no">Pour les utilisateurs avertis seulement.</b> Soyez très prudent en utilisant cette fonctionnalité et vérifier votre travail.</p><p>La fourniture d\'une configuration non valide peut rendre les champs RTE inaccessibles.</p>',
+     'rte_advanced_config_warning' => '<p><b>Avertissement</b>: <b class="no">Seulement à l\’attention des utilisateurs expérimentés.</b> Soyez très prudent(e) en utilisant cette fonctionnalité et vérifiez votre travail.</p><p>La fourniture d\’une configuration invalide peut rendre les champs RTE inaccessibles.</p><p>Consultez les documents d\’edition: <a href="https://ckeditor.com/docs/ckeditor5/latest/installation/getting-started/configuration.html" target="_blank">CKEditor</a>, <a href="https://imperavi.com/redactor/docs/settings/" target="_blank">Note de la rédaction</a>:</p><p>Certaines options peuvent ne pas être disponibles sinon avoir été implémentées de manière différente. Nous conseillons d\’utiliser Full configuration (Configuration complète) comme base de départ.<p>',
     'rte_config_saved' => 'Configuration sauvegardée!',
     'rte_config_saved_desc' => 'Votre configuration a été sauvegardée avec succès.',
 
