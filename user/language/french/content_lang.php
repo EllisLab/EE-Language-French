@@ -712,6 +712,10 @@ $lang = array(
     'status_changed' => 'Statut modifié',
 
     'status_changed_desc' => 'Le statut d\'entrée a été modifié en <b>%s</b>',
+	
+	'status_not_available' => 'Statut non disponible',
+	
+	'status_not_available_desc' => 'Le statut actuel <b>%s</b> n\’est pas accessible. <br /> Il peut avoir été supprimé ou ne pas avoir été affecté à un canal, sinon vous n\’avez pas les autorisations qui lui sont associées.',
 
     'tab_count_zero' => 'Il faut impérativement un onglet disponible pour rassembler les champs.',
 
