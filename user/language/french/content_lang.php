@@ -378,6 +378,8 @@ $lang = array(
     'entry_title_with_title' => 'Titre de l\'entrée: \'%title\'',
 
     'exact_match' => 'Correspondance exacte',
+	
+    'extra_title' => 'Liste des catégories sélectionnées:',
 
     'field_blank' => 'Vous avez laissé un champ vide.',
 
