@@ -242,7 +242,7 @@ $lang = array(
     'Suffixe de variable',
 
     'variable_suffix_help' =>
-    'Si entré, Low Variables va créer une nouvelle variable pour chaque suffixe attribué.<br />Séparer les suffixes avec des espaces, par exemple: <em>en es nl</em>',
+    'Si complétée, Pro Variables créera une nouvelle variable pour chaque suffixe donné.<br />Séparez les suffixes par des espaces, par exemple: <em>en es nl</em>',
 
     'wide_field' =>
     'Afficher un champ large',
