@@ -212,7 +212,7 @@ $lang = array(
 
     'routes' => 'Routes',
 
-    'search_templates' => 'Rechercher un modèle',
+    'search_templates' => 'Chercher un modèle',
 
     'settings' => 'Réglages',
 

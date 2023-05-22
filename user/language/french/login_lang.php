@@ -31,7 +31,7 @@ $lang = array(
 
     'enter_new_password' => 'Entrer un nouveau mot de passe',
 
-    'remind_me' => 'Me rappeler',
+    'remind_me' => 'Me le rappeler',
 
     'id_not_found' => 'Le numéro de code que vous avez saisi n\'a pas été trouvé dans la base de données.',
 
