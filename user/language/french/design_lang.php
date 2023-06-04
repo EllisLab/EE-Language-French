@@ -322,7 +322,7 @@ $lang = array(
 
     'enable_template' => 'Activer le modèle?',
 
-    'enable_template_desc' => 'Si activé, ce modèle sera préféré au mail auto-généré dans le langue de l\'utilisateur.',
+    'enable_template_desc' => 'Si activé, ce modèle sera préféré au mail auto-généré dans la langue de l\'utilisateur.',
 
     'forums' => 'Forums',
 
