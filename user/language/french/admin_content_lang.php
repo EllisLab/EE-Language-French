@@ -245,6 +245,8 @@ $lang = array(
     'field_content_text_desc' => 'Type de contenu que ce champ peut contenir.',
 
     'field_groups_uc' => 'Groupes de champs',
+	
+	'field_group_short_name_desc' => 'Employé lors de l\'utilisation d\'un groupe de champs à l\'intérieur d\'un modèle, par exemple dans un champ Fluide',
 
     'field_groups_desc' => 'Utilisé pour regrouper les champs personnalisés mis en relation.',
 
@@ -331,8 +333,8 @@ $lang = array(
     'label_desc' => 'Nom du champ qui apparaît au sein du formulaire de publication.',
 
     'limit' => 'limite',
-
-    'list_edit_warning' => 'Si vous vous avez des changements non sauvegardés dans cette page, ils seront perdus quand vous serez transféré(e) à l\'éditeur de formatage.',
+	
+	'list_edit_warning' => 'Si vous avez des modifications non enregistrées dans cette page, elles seront perdues au moment de votre transfert vers l\'éditeur de formatage.',
 
     'localize_date' => 'Localiser la date?',
 

@@ -10,6 +10,8 @@ $lang = array(
     'cli_option_help'                              => 'Consulter le menu d\'aide pour la commande passée',
     'cli_error_the_specified_addon_does_not_exist' => 'L\'add-on précisé n\'existe pas',
     'cli_error_cli_disabled'                       => 'Le CLI d\'Expressionengine est actuellement désactivé. Pour utiliser le CLI, vous devez l\'activer dans les réglages.',
+	'cli_no_addons'                                => 'Il n\'y a pas de add-ons disponibles',
+    'cli_table_no_results'                         => 'Aucun résultat n\'a été trouvé.',
 
     // Lang entries for command cache:clear
     'command_cache_clear_description'              => 'Efface tous les caches d\'ExpressionEngine',
@@ -17,6 +19,49 @@ $lang = array(
     'command_cache_clear_option_type'              => 'Type de cache à effacer (par défaut: tous les caches)',
     'command_cache_clear_cache_does_not_exist'     => 'Le cache n\'existe pas. Utiliser —l\'aide pour visualiser les caches disponibles.',
     'command_cache_clear_caches_cleared'           => 'les caches sont effacés!',
+	
+	// Lang entries for command addons:install
+     'command_addons_install_description'            => 'Installe l\'add-on et tous ses composants',
+     'command_addons_install_summary'                => '',
+     'command_addons_install_begin'                  => 'L\'installation de l\'add-on est prête à démarrer',
+     'command_addons_install_ask_addon'              => 'Quel add-on souhaitez-vous installer?',
+     'command_addons_install_in_progress'            => 'Exécution %s de l\'installation de l\'add-on',
+     'command_addons_install_complete'               => '%s installé(s) avec succès',
+     'command_addons_install_option_addon'           => 'Nom abrégé de l\'Add-on',
+
+     // Lang entries for command addons:uninstall
+     'command_addons_uninstall_description'            => 'Désinstalle l\'add-on et tous ses composants',
+     'command_addons_uninstall_summary'                => '',
+     'command_addons_uninstall_begin'                  => 'La désinstallation de l\'Add-on est prête à démarrer',
+     'command_addons_uninstall_ask_addon'              => 'Quel add-on souhaitez-vous désinstaller?',
+     'command_addons_uninstall_in_progress'            => 'Exécution %s de la désinstallation de l\'add-on',
+     'command_addons_uninstall_complete'               => '%s désinstallé(s) avec succès',
+     'command_addons_uninstall_option_addon'           => 'Nom abrégé de l\'Add-on',
+
+     // Lang entries for command addons:update
+     'command_addons_update_description'            => 'Met à jour l\'add-on à la version la plus récente',
+     'command_addons_update_summary'                => '',
+     'command_addons_update_begin'                  => 'La mise à jour de l\'add-on est prête à démarrer.',
+     'command_addons_update_ask_addon'              => 'Quel add-on souhaitez-vous mettre à jour?',
+     'command_addons_update_in_progress'            => 'Exécution %s de la mise à jour de l\'add-on...',
+     'command_addons_update_complete'               => '%s mis à jour avec succès.',
+     'command_addons_update_all_complete'           => 'Tous les add-ons ont été mis à jour avec succès.',
+     'command_addons_update_option_addon'           => 'Nom abrégé de l\'add-on',
+     'command_addons_update_option_all'             => 'Actualise tous les add-ons qui ont des mises à jour disponibles',
+
+     // Lang entries for command addons:list
+     'command_addons_list_description'                => 'Lister les add-ons',
+     'command_addons_list_summary'                    => '',
+     'command_addons_list'                            => 'Les add-ons suivants %s',
+     'command_addons_option_available'                => 'sont disponibles',
+     'command_addons_option_installed'                => 'sont installés',
+     'command_addons_option_uninstalled'              => 'ne sont pas installés',
+     'command_addons_option_update'                   => 'peuvent être mis à jour',
+     'command_addons_list_table_header_name'          => 'Nom',
+     'command_addons_list_table_header_shortname'     => 'Nom abrégé',
+     'command_addons_list_table_header_version'       => 'Version',
+     'command_addons_list_table_header_installed'     => 'Installé(s)',
+	
 
     // Lang entries for command list
     'command_list_description'                  => 'Liste toutes les commandes disponibles',
@@ -129,6 +174,21 @@ $lang = array(
     'command_make_prolet_option_has_widget'            => 'Créer un widget pour l\'add-on après avoir généré le prolet (optionnel)',
     'command_make_prolet_option_widget_name'           => 'Nom du widget',
     'command_make_prolet_option_generate_icon'         => 'Génère une icône de fichier de add-on par défaut au moment de la création du prolet',
+	
+	// Lang entries for command backup:database
+     'command_backup_database_description'                  => 'Sauvegardez la base de données',
+     'command_backup_database_summary'                      => 'Sauvegardez la base de données d\'ExpressionEngine',
+     'command_backup_database_beginning_database_backup'    => 'Début de la sauvegarde de la base de données.',
+     'command_backup_database_backing_up_database'          => 'Sauvegarde en cours... de la base de données.',
+     'command_backup_database_failed_with_error'            => 'La sauvegarde de la base de données a échoué avec le message d\'erreur suivant:',
+     'command_backup_database_completed_successfully'       => 'La sauvegarde de la base de données a été complétée avec succès.',
+     'command_backup_database_backup_path'                  => 'Chemin de sauvegarde: %s',
+
+     // backup:database options
+     'command_backup_database_option_absolute_path'   => 'Le chemin absolu du répertoire où la sauvegarde de la base de données sera installée',
+     'command_backup_database_option_relative_path'   => 'Chemin de sauvegarde de la base de données, relatif au dossier de cache',
+     'command_backup_database_option_file_name'       => 'Nom du fichier sql à sauvegarder',
+     'command_backup_database_option_speed'           => 'Vitesse de sauvegarde de la base de données (entre 1-10). Régler une vitesse plus basse accorde plus de temps entre les commandes de la base de données. La vitesse par défaut est 5.',
     
     // Lang entries for command make:action
      'command_make_action_description'                  => 'Crée une nouvelle action pour un add-on',
@@ -199,6 +259,30 @@ $lang = array(
 
      // make:fieldtype options
      'command_make_fieldtype_option_addon'                 => 'Dossier de l\'add-on de tierce partie auquel vous voulez ajouter ce type de champ.',
+	
+	  // Lang entries for command config:config
+     'command_config_config_description'             => 'Met à jour les valeurs de config dans le fichier config.php',
+     'command_config_config_summary'                 => 'Donne la capacité de mettre à jour les valeurs de config',
+     'command_config_config_ask_config_variable'     => 'Quel élément de configuration souhaitez-vous définir ??',
+     'command_config_config_ask_config_value'        => 'Quelle valeur souhaitez-vous définir?',
+     'command_config_config_updating_config_variable' => 'Mise à jour en cours de l\'élément de config...',
+     'command_config_config_config_value_saved'      => 'Elément de config sauvegardé.',
+
+     // config:config options
+     'command_config_config_option_config_variable'  => 'L\'élément de config à modifier',
+     'command_config_config_option_value'            => 'La valeur à attribuer à l\'élément de config',
+
+     // Lang entries for command config:env
+     'command_config_env_description'             => 'Met à jour les valeurs env dans le fichier .env.php',
+     'command_config_env_summary'                 => 'Donne la capacité de mettre à jour les valeurs env',
+     'command_config_env_ask_config_variable'     => 'Quel élément env souhaitez-vous définir?',
+     'command_config_env_ask_config_value'        => 'Quelle valeur souhaitez-vous lui attribuer?',
+     'command_config_env_updating_config_variable' => 'Mise à jour en cours de l\'élément env...',
+     'command_config_env_config_value_saved'      => 'Elément Env sauvegardé.',
+
+     // config:env options
+     'command_config_env_option_config_variable'  => 'L\'élément env à définir/modifier',
+     'command_config_env_option_value'            => 'La valeur à attribuer à l\élément env',
 
      // Lang entries for command make:cp-route
      'command_make_cp_route_description'                  => 'Génère une route de tableau de bord pour un add-on de tierce partie donné',
@@ -334,6 +418,12 @@ $lang = array(
     'command_update_option_force_addon_upgrades'                => 'Opère de façon automatique tous les updaters de add-ons à la fin de la mise à jour (expert)',
     'command_update_option_y'                                   => 'Passer outre sur les confirmations. Ne faites pas cela.',
     'command_update_option_skip_cleanup'                        => 'Passer outre sur les étapes de nettoyage après la mise à jour',
+	
+	// Lang entries for command sync:file-usage
+     'command_sync_file_usage_description'     => 'Synchronise l\'utilisation du fichier à l\'ensemble des fichiers',
+     'command_sync_file_usage_summary'         => '',
+     'command_sync_file_usage'                 => 'Mise à jour de l\'utilisation des fichiers.',
+     'command_sync_file_usage_done'            => 'L\'utilisation du fichier a été mise à jour avec succès.',
 
     // Lang entries for command update:prepare
     'command_update_prepare_description'                        => 'Préparer la mise à jour d\'un site en utilisant ces fichiers',

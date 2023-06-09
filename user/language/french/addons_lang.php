@@ -66,10 +66,14 @@ $lang = array(
     'existing_consent_request' => 'Les add-on(s) suivants n\'ont pas été installés suite à une Requête de Consentement déjà existante que les add-ons tentent de recréer:',
 
     'contact_developer' => 'Merci de contacter le développeur du Add-on pour demander son assistance.',
+	
+	'addons_not_uninstalled' => 'Add-Ons non désinstallés',
 
     'addons_uninstalled' => 'Add-Ons désinstallés',
 
     'addons_uninstalled_desc' => 'Les Add-on(s) suivants ont été désinstallés: ',
+	
+	'addons_not_updated' => 'Add-Ons non mis à jour',
 
     'addons_updated' => 'Add-Ons mis à jour',
 

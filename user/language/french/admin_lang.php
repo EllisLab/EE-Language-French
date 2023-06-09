@@ -500,7 +500,7 @@ $lang = array(
 
     'manual_close' => 'Manuel',
 
-    'max_caches' => 'Nombre maximum URI mises en cache',
+    'max_caches' => 'Nombre maximum d\'URI mises en cache',
 
     'max_caches_explanation' => 'Si vous mettez en cache vos pages ou votre base de données, vous limitez ce faisant le nombre d\'instances liées au cache. Nous recommandons 150 pour des sites modestes et 300 pour des sites plus imposants. 1000 est le maximum alloué.',
 

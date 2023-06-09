@@ -80,6 +80,11 @@ $lang = array(
     'rel_ft_display_entry_id' => 'Afficher les ID d\'entrées ?',
 
     'rel_ft_display_entry_id_desc' => 'Si activé, les ID d\'entrées sort affichées ensemble avec le titre d\'entrée à l\'intérieur du champ.',
+	
+	'rel_ft_display_status' => 'Afficher le statut?',
+
+     'rel_ft_display_status_desc' => 'Si activé, un badge de couleur de statut sera affiché avec le titre de l\'entrée à l\'intérieur du champ.',
+	
     
     'rel_ft_deferred' => 'Reporter l\'initialisation du champ?',
 
@@ -346,6 +351,16 @@ $lang = array(
     /* Notes */
     'notes_note_content' => 'Note de contenu',
     'notes_note_content_desc' => 'Ce contenu apparaîtra comme une note dans le formulaire de publication. Le formatage Markdown est supporté.',
+	
+	   /* Date */
+
+     'date_localization' => 'Date de la localisation',
+     'date_localization_desc' => 'Choisir la manière dont les données du champ doient être localisées. <a href="' . DOC_URL . 'fieldtypes/date.html">En savoir plus</a>',
+     'always_localized' => 'Toujours localisé(e)s',
+     'always_fixed' => 'Toujours fixé(e)s',
+     'ask_each_time' => 'Demander chaque fois',
+     'show_time' => 'Inclure l\'heure?',
+     'show_time_desc' => 'Si désactivé,seule la date sera affichée',
 );
 
 // EOF

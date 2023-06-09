@@ -61,7 +61,11 @@ $lang = array(
     'not_starts_with' => 'Ce champ ne devrait pas débuter avec <code>%s</code>.',
 
     'unique' => 'Ce champ doit être unique.',
+	
+	'unique_among_channel_fields' => 'Ce champ doit être unique et ne peut correspondre au nom abrégé d\'un champ de canal.',
 
+    'unique_among_field_groups' => 'Ce champ doit être unique et ne peut correspondre au nom abrégé d\'un groupe de champs.',
+	
     'unique_email' => 'Ce champ ne doit comporter qu\'une adresse email unique.',
 
     'valid_base64' => 'Ce champ ne peut comporter que des caractères issus de la base64 (alphanumériques, barre oblique, plus, signe égal).',

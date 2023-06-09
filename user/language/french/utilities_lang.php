@@ -106,7 +106,9 @@ $lang = array(
     'view_email_cache' => 'Emails envoyés',
 
     /* CP Translation */
-    'cannot_access' => 'Les fichiers de langue ne peuvent être joints. Merci de <a href="' . DOC_URL . '/control-panel/utilities.html#language-files" rel="external">consulter la documentation</a> pour placer les fichiers dans le bon dossier.',
+    'cannot_access' => 'Les fichiers de langue ne peuvent être joints.',
+	
+	'cannot_access_translation_desc' => 'Les fichiers de traduction doivent être placés dans le dossier <code>system/user/language/%s</code> et nécessitent des autorisations en écriture.',
 
     'cannot_create_zip' => 'Impossible de créer un fichier .zip',
 

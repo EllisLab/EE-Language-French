@@ -67,6 +67,10 @@ $lang = array(
     'date_time_fmt' => 'Date &amp; format d\'heure',
 
     'date_time_settings' => 'Date &amp; réglages d\'heure',
+	
+	'week_start' => 'Date de début de la semaine',
+
+    'week_start_desc' => 'Le jour par lequel débute une nouvelle semaine',
 
     'defaults' => 'Par défaut',
 

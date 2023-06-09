@@ -467,6 +467,10 @@ $lang = array(
     'type_other' => 'Autre',
 
     'type_directory' => 'Dossier',
+	
+	'share_directory_on_all_sites' => 'Partager le répertoire de téléchargement sur tous les sites?',
+
+     'share_directory_on_all_sites_desc' => 'Rend les fichiers de ce répertoire accessibles à tous les sites MSM.<br><b>Note:</b> ceci ne peut être défini qu\'à la création et ne peut être modifié.',
 
     'upload_btn_edit' => 'éditer',
 

@@ -74,11 +74,15 @@ $lang = array(
 
     'create_layout_error' => 'Impossible de créer l\'affichage de publication',
 
-    'create_layout_error_desc' => 'Impossible de mettre à jour ce groupe, merci de passer en revue et de corriger les erreurs ci-dessous',
+    'create_layout_error_desc' => 'Impossible de mettre à jour cette mise en page de publication, merci de passer en revue et de corriger les erreurs ci-dessous',
 
     'create_layout_success' => 'Affichage de publication créé',
 
     'create_layout_success_desc' => 'L\'affichage de la publication <b>%s</b> a été créé.',
+	
+	 'clone_settings_success' => 'Les réglages de la mise en page de publication ont été clonés avec succès',
+
+     'clone_layout_role_error' => 'Il est nécessaire de sélectionner un rôle différent avant de pouvoir sauvegarder une mise en page de publication clonée',
 
     'custom_fields' => 'Champs personnalisés',
 
@@ -218,6 +222,8 @@ $lang = array(
     'custom_field_groups_not_found' => 'Aucun <b>groupe de champs personnalisés</b> n\'a été trouvé',
 
     'custom_fields_desc' => 'Choisir les champs que vous souhaitez inclure dans le groupe de champs.',
+	
+	'nested_fluid_will_be_hidden' => 'Les champs fluides imbriqués ne seront pas affichés',
 
     'edit_channel' => 'Editer le canal',
 
@@ -405,6 +411,10 @@ $lang = array(
     'url_title_prefix' => 'Préfixe de titre <abbr title="Unified Resource Locator">URL</abbr>',
 
     'url_title_prefix_desc' => 'Titre de préfixe <abbr title="Unified Resource Locator">URL</abbr> affecté à toutes les <b>nouvelles</b> entrées de ce canal.',
+	
+	'enforce_auto_url_title' => 'Appliquer le titre automatique de l\'URL',
+
+    'enforce_auto_url_title_desc' => 'Imposer le champ de titre de l\'URL en lecture seule et lui générer automatiquement une valeur unique.',
 
     'versioning' => 'Révisions',
 
@@ -570,6 +580,10 @@ $lang = array(
     'text_input' => ' Saisie texte',
 
     'textarea' => 'Zone de texte multi-lignes',
+	
+	'fields_ajax_reorder_fail' => 'Impossible d\'enregistrer l\'ordre des champs',
+
+    'fields_ajax_reorder_fail_desc' => 'Nous n\'avons pas pu enregistrer l\'ordre des champs. Vous pouvez tenter d\'actualiser la page et réessayer.',
 
     /* Statuses */
     'create_status' => 'Nouveau statut',
