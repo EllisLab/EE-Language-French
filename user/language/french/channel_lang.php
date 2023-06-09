@@ -74,11 +74,15 @@ $lang = array(
 
     'create_layout_error' => 'Impossible de créer l\'affichage de publication',
 
-    'create_layout_error_desc' => 'Impossible de mettre à jour ce groupe, merci de passer en revue et de corriger les erreurs ci-dessous',
+    'create_layout_error_desc' => 'Impossible de mettre à jour cette mise en page de publication, merci de passer en revue et de corriger les erreurs ci-dessous',
 
     'create_layout_success' => 'Affichage de publication créé',
 
     'create_layout_success_desc' => 'L\'affichage de la publication <b>%s</b> a été créé.',
+	
+	 'clone_settings_success' => 'Les réglages de la mise en page de publication ont été clonés avec succès',
+
+     'clone_layout_role_error' => 'Il est nécessaire de sélectionner un rôle différent avant de pouvoir sauvegarder une mise en page de publication clonée',
 
     'custom_fields' => 'Champs personnalisés',
 
