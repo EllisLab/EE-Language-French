@@ -22,7 +22,7 @@ $lang = array(
 
     'comment_notification' => 'Utilisateur &ndash; Notification de commentaires',
 
-    'comment_notification_desc' => 'Ce modèle définit le message reçu par un utilisateur quand quelqu\'un répond à son commentaire',
+    'comment_notification_desc' => 'Ce modèle définit le message reçu par un utilisateur lorsque quelqu\'un répond à son commentaire',
 
     'comments_opened_notification' => 'Utilisateur &ndash; Notification de commentaires ajoutés',
 
