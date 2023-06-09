@@ -259,6 +259,30 @@ $lang = array(
 
      // make:fieldtype options
      'command_make_fieldtype_option_addon'                 => 'Dossier de l\'add-on de tierce partie auquel vous voulez ajouter ce type de champ.',
+	
+	  // Lang entries for command config:config
+     'command_config_config_description'             => 'Met à jour les valeurs de config dans le fichier config.php',
+     'command_config_config_summary'                 => 'Donne la capacité de mettre à jour les valeurs de config',
+     'command_config_config_ask_config_variable'     => 'Quel élément de configuration souhaitez-vous définir ??',
+     'command_config_config_ask_config_value'        => 'Quelle valeur souhaitez-vous définir?',
+     'command_config_config_updating_config_variable' => 'Mise à jour en cours de l\'élément de config...',
+     'command_config_config_config_value_saved'      => 'Elément de config sauvegardé.',
+
+     // config:config options
+     'command_config_config_option_config_variable'  => 'L\'élément de config à modifier',
+     'command_config_config_option_value'            => 'La valeur à attribuer à l\'élément de config',
+
+     // Lang entries for command config:env
+     'command_config_env_description'             => 'Met à jour les valeurs env dans le fichier .env.php',
+     'command_config_env_summary'                 => 'Donne la capacité de mettre à jour les valeurs env',
+     'command_config_env_ask_config_variable'     => 'Quel élément env souhaitez-vous définir?',
+     'command_config_env_ask_config_value'        => 'Quelle valeur souhaitez-vous lui attribuer?',
+     'command_config_env_updating_config_variable' => 'Mise à jour en cours de l\'élément env...',
+     'command_config_env_config_value_saved'      => 'Elément Env sauvegardé.',
+
+     // config:env options
+     'command_config_env_option_config_variable'  => 'L\'élément env à définir/modifier',
+     'command_config_env_option_value'            => 'La valeur à attribuer à l\élément env',
 
      // Lang entries for command make:cp-route
      'command_make_cp_route_description'                  => 'Génère une route de tableau de bord pour un add-on de tierce partie donné',
@@ -394,6 +418,12 @@ $lang = array(
     'command_update_option_force_addon_upgrades'                => 'Opère de façon automatique tous les updaters de add-ons à la fin de la mise à jour (expert)',
     'command_update_option_y'                                   => 'Passer outre sur les confirmations. Ne faites pas cela.',
     'command_update_option_skip_cleanup'                        => 'Passer outre sur les étapes de nettoyage après la mise à jour',
+	
+	// Lang entries for command sync:file-usage
+     'command_sync_file_usage_description'     => 'Synchronise l\'utilisation du fichier à l\'ensemble des fichiers',
+     'command_sync_file_usage_summary'         => '',
+     'command_sync_file_usage'                 => 'Mise à jour de l\'utilisation des fichiers.',
+     'command_sync_file_usage_done'            => 'L\'utilisation du fichier a été mise à jour avec succès.',
 
     // Lang entries for command update:prepare
     'command_update_prepare_description'                        => 'Préparer la mise à jour d\'un site en utilisant ces fichiers',
