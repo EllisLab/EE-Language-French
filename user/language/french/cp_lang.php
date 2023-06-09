@@ -259,6 +259,10 @@ $lang = array(
     'sync' => 'Synchroniser',
 
     'update' => 'Mettre à jour',
+	
+	 'clone_to_new' => 'Cloner au nouveau %s',
+
+     'copy_of' => 'Copie de',
 
     /* Log */
     'action' => 'Action',
