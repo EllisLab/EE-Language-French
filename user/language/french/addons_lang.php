@@ -72,8 +72,6 @@ $lang = array(
     'addons_uninstalled' => 'Add-Ons désinstallés',
 
     'addons_uninstalled_desc' => 'Les Add-on(s) suivants ont été désinstallés: ',
-	
-	'addons_not_updated' => 'Add-Ons non mis à jour',
 
     'addons_updated' => 'Add-Ons mis à jour',
 
