@@ -265,6 +265,8 @@ $lang = array(
 
     'grid_min_rows_desc' => 'Fixe le nombre minimum de rangées de données que cette grille peut accepter',
 
+	'grid_min_rows_required' => 'Cette grille requiert au moins %d rangées.',
+
     'grid_order_by' => 'Trier par',
 
     'grid_output_format' => 'Formatage output?',
