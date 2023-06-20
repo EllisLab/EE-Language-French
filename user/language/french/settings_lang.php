@@ -190,7 +190,7 @@ $lang = array(
 
 	'tls_version' => 'Version TLS',
 
-     'tls_version_desc' => 'En utilisant TLS, sélectionnez la version utilisée par votre fournisseur d\'accès SMTP.',
+     'tls_version_desc' => 'En utilisant TLS, sélectionnez la version empruntée par votre fournisseur d\'accès SMTP.',
 
     'empty_stmp_fields' => 'Ce champ est requis pour le SMTP.',
 
