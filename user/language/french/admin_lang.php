@@ -212,9 +212,9 @@ $lang = array(
 
     'use_recaptcha' => 'Utiliser ReCaptcha v3?',
 
-    'recaptcha_site_key' => 'Clé du site ReCaptcha',
+    'recaptcha_site_key' => 'Clé ReCaptcha du site',
 
-    'recaptcha_site_secret' => 'Site secret ReCaptcha',
+    'recaptcha_site_secret' => 'Secret ReCaptcha du site',
 
     'recaptcha_score_threshold' => 'Seuil du score',
 
