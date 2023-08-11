@@ -76,7 +76,7 @@ $lang = array(
 
     'enable_msm' => 'Activer le gestionnaire de sites (MSM)?',
 
-    'enable_msm_desc' => 'Si activé, les Super Admins et groupes de membres munis des permissions nécessaires pourront gérer des sites web additionnels depuis le <abbr title="Tableau de Bord">TB</abbr>.',
+    'enable_msm_desc' => 'Si activé, les Super Admins et les membres munis des permissions appropriées pourront gérer des sites web additionnels depuis le <abbr title="Tableau de Bord">TB</abbr>.',
 
     'error_getting_version' => 'Vous utilisez ExpressionEngine %s. Impossible de déterminer si une nouvelle version est actuellement disponible.',
 
@@ -102,7 +102,7 @@ $lang = array(
 
     'site_online' => 'Site web en ligne?',
 
-    'site_online_desc' => 'Si désactivé, seuls les Super Admins et les groupes de membres munis des permissions nécessaires pourront naviguer sur votre site web.',
+    'site_online_desc' => 'Si désactivé, seuls les Super Admins et les membres munis des permissions appropriées pourront naviguer sur votre site web.',
 
     'site_short_name' => 'Nom court',
 
