@@ -283,7 +283,7 @@ $lang = array(
 
     'member_changed_email' => 'Email modifié pour "%s" (%d) de "%s" à "%s"',
 
-    'member_changed_member_group' => 'Groupe de membres modifié pour "%s" par "%s" (%d)',
+    'member_changed_member_group' => 'Rôle principal modifié pour "%s" par "%s" (%d)',
 
     'member_changed_password' => 'Mot de passe modifié pour "%s" (%d)',
 
