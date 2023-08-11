@@ -24,8 +24,6 @@ $lang = array(
                                 <li>Utiliser le Contenu > Publier l\'onglet pour créer vos premières pages de haut niveau.
                             </ol>',
     'no_weblogs'        => 'Merci de créer un Canal avant d\'utiliser Structure',
-    'no_groups'         => 'Aucun accès à Structure n\'a été encore accordé aux Groupes de Membres ',
-    'no_groups_add'     => 'Gérer l\'accès des Groupes de Membres',
     'groups'            => 'Groupe',
     'no_roles'         => 'Aucun accès à Structure n\'a encore été accordé à un Rôle de Membre',
     'no_roles_add'     => 'Gérer l\'accès des Rôles de Membres',

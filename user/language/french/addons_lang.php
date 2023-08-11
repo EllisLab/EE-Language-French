@@ -104,39 +104,12 @@ $lang = array(
     'uninstalled' => 'Désinstallés',
 
     /* 2.x */
-    'addons_extensions' => 'Extensions',
-
-    'addons_fieldtypes' => 'Types de champs',
-
-    'addons_modules' => 'Modules',
-
-    'addons_plugins' => 'Plugins',
-
-    'and_more' => 'et %x en …plus',
-
-    'available_to_member_groups' => 'Accessible aux groupes de membres',
-
-    'component' => 'Composant',
 
     'configuration' => 'Configuration',
 
-    'current_status' => 'Statut actuel',
-
-    'delete_fieldtype' => 'Retirer le type de champ',
-
-    'delete_fieldtype_confirm' => 'Etes-vous sûr(e) de vouloir supprimer ce type de champ?',
-
     'description' => 'Description',
 
-    'ext_disabled_short' => 'désactivé',
-
-    'ext_enabled_short' => 'activé',
-
     'extension' => 'Extension',
-
-    'extension_disabled' => 'Extension désactivée',
-
-    'extension_enabled' => 'Extension activée',
 
     'extensions' => 'Extensions',
 
@@ -159,8 +132,6 @@ $lang = array(
     'fieldtype_name' => 'Nom de type de champ',
 
     'global_settings_saved' => 'Réglages sauvegardés',
-
-    'member_group_assignment' => 'Groupes de membres affectés',
 
     'module' => 'Module',
 

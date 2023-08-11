@@ -920,8 +920,6 @@ $lang = array(
 
     'maintain_ratio' => 'Maintenir le ratio de l\'aspect',
 
-    'member_group' => 'Groupe de membres',
-
     'no_entry_to_update' => 'Vous avez tenté de mettre à jour une entrée qui n\'existe pas.',
 
     'no_templates' => 'Pas de modèles',

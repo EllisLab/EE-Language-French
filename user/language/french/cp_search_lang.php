@@ -42,8 +42,6 @@ $lang = array(
 
     'member_custom_profile_fields' => 'Personnaliser les champs de membre',
 
-    'member_group_manager' => 'Gestionnaire de groupes de membres',
-
     'member_ip_search' => 'Recherche IP de membre',
 
     'member_register_member' => 'Enregistrer un membre',
@@ -55,8 +53,6 @@ $lang = array(
     'member_view_members' => 'Visualiser les membres',
 
     'members_custom_profile_fields' => 'Personnaliser les champs de profil de membre',
-
-    'members_member_group_manager' => 'Gestion de groupes de membres',
 
     'modu_index' => 'Modules',
 

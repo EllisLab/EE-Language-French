@@ -580,7 +580,7 @@ $lang = array(
     'Sélectionnez les Gestionnaires de Variables',
 
     'can_manage_help' =>
-    'Sélectionnez les groupes de membres autorisés à gérer les variables.',
+    'Sélectionnez les rôles autorisés à gérer les variables.',
 
     'clear_cache' =>
     'Nettoyez le cache',

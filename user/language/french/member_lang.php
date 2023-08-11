@@ -276,7 +276,7 @@ $lang = array(
 
     'mbr_may_now_log_in' => 'Vous pouvez désormais vous connecter et commencer à l\'utiliser.',
 
-    'mbr_member_group' => 'Groupe de membres',
+    'mbr_member_group' => 'Rôle principal:',
 
     'mbr_member_local_time' => 'Heure locale du membre',
 

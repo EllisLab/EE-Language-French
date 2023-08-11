@@ -34,7 +34,7 @@ $lang = array(
 
     'edit_metaweblog' => 'Editer un MetaWeblog',
 
-    'entry_uneditable' => 'Vous n\'avez pas la permission d\'éditer cette entrée. Merci de vérifier les permissions de groupes de membres.',
+    'entry_uneditable' => 'Vous n\'avez pas la permission d\'éditer cette entrée. Merci de vérifier les permissions relatives à votre rôle.',
 
     'invalid_access' => 'Accès non valide',
 

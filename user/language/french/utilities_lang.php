@@ -356,8 +356,6 @@ $lang = array(
 
     'mbr_xml_file' => 'Localisation du fichier <abbr title="Extensible Markup Language">XML</abbr>',
 
-    'member_group' => 'Groupe de membres',
-
     'role' => 'Rôle',
 
     'member_import_error' => 'Attention: Import non complété',
@@ -631,6 +629,16 @@ Dès que vous êtes prêt(e) à expérimenter les nouvelles fonctionnalités du 
     'debug_tools_all_used_fieldtypes' => 'Tous les types de champs utilisés',
 
     'debug_tools_members' => 'Débogage des Membres',
+
+	'debug_tools_debug_duplicate_template_groups' => 'Groupes de Modèles en doublons',
+
+     'duplicate_template_groups_found' => 'Nous avons recensé %s groupes de modèles en doublons.',
+
+     'no_duplicate_template_groups_found' => 'Aucun groupe de modèles en doublon n\'a été trouvé.',
+
+     'review_duplicate_template_groups' => 'Examiner les groupes de modèles en doublons',
+
+     'back_up_db_and_templates' => 'Assurez-vous d\'avoir bien sauvegardé votre base de données et vos modèles avant d\'effectuer tout changement',
 
 );
 

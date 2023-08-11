@@ -524,8 +524,6 @@ $lang = array(
 
     'medium' => 'Medium',
 
-    'member_group' => 'Groupe de membres',
-
     'missing_name' => 'Votre modèle doit avoir un nom',
 
     'name_of_template' => 'Nom de modèle',
@@ -848,8 +846,6 @@ $lang = array(
     'forgot_form' => 'Formulaire de mot de passe oublié',
 
     'full_profile' => 'Page de profil complet',
-
-    'group_description' => 'Description de groupe de membres',
 
     'home_page' => 'Page d\'accueil de profil de membre',
 

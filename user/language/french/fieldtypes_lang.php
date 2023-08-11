@@ -152,6 +152,8 @@ $lang = array(
 
     'file_ft_show_files_desc' => 'Si activé, un menu déroulant avec des fichiers existants seront montrés aux auteurs.',
 
+	'file_field_msm_warning' => 'Ce champ est actuellement réglé pour utiliser le répertoire de téléchargement <b>%s</b>, exclusivement disponible au sein du site MSN <b>%s</b>.',
+
     'file_ft_upload_directories' => 'Télécharger les répertoires',
 
     /* File Drag and Drop */

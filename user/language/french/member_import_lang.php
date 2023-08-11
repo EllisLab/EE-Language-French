@@ -74,7 +74,7 @@ $lang = array(
 
     'file_loc_blurb' => 'La localisation du fichier doit être relative à votre dossier de tableau de bord de votre site, par exemple.: ../members.txt, s\'il est placé à la racine du site.',
 
-    'group_id' => 'Groupe de membres par défaut',
+    'group_id' => 'Rôle principal par défaut',
 
     'import' => 'Importer!',
 

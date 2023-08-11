@@ -52,7 +52,7 @@ $lang = array(
 
     'site_online' => 'Site Web en ligne?',
 
-    'site_online_desc' => 'Si désactivé, seulement les Super Admins et les groupes de membres munis des autorisations appropriées auront la capacité de parcourir ce site web.',
+    'site_online_desc' => 'Si désactivé, seulement les Super Admins et les membres avec des rôles munis des autorisations appropriées auront la capacité de parcourir ce site web.',
 
     'site_updated' => 'Site mis à jour',
 

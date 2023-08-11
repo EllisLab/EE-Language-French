@@ -604,10 +604,6 @@ $lang = array(
 
     'manage_custom_fields' => 'Gérer les champs de catégories',
 
-    'member_group' => 'Groupe de membres',
-
-    'member_groups' => 'Groupes de membres',
-
     'missing_required_fields' => 'Il vous manque le(s) champ(s) requis:',
 
     'name_of_category_group' => 'Nom du groupe de catégories',

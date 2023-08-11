@@ -141,8 +141,6 @@ $lang = array(
     'manage_channels' => 'Gérer les canaux',
 
     'maximum_channels_reached' => 'Vous avez atteint le nombre maximum autorisé de canaux.',
-
-    'member_group' => 'Groupe de membres',
     
     'rename_tab' => 'Renommer l\'onglet',
 
@@ -366,7 +364,7 @@ $lang = array(
 
     'moderate_comments' => 'Modérer les commentaires?',
 
-    'moderate_comments_desc' => 'Si activé, les commentaires saisis seront mis en quarantaine dans l\'attente de modération et devront être approuvés par un Super Admin ou un autre groupe de membres à qui serait confié le droit de modérer.',
+    'moderate_comments_desc' => 'Si activé, les commentaires saisis seront mis en quarantaine dans l\'attente de modération et devront être approuvés par un Super Admin ou par un autre membre muni d\'un rôle l\'autorisant à modérer.',
 
     'notifications' => 'Notifications',
 
@@ -546,8 +544,6 @@ $lang = array(
     'edit_category_field' => 'Editer le champ de catégorie',
 
     'edit_category_group' => 'Editer le groupe de catégories',
-
-    'edit_member_groups' => 'Editer les groupes de membres',
 
     'exclude_group_form' => 'Exclure le groupe?',
 

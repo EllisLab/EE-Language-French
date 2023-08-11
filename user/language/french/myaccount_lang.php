@@ -278,11 +278,7 @@ $lang = array(
 
     'member_email' => 'Adresser un email au membre',
 
-    'member_group_assignment' => 'Missions du groupe de membres',
-
-    'member_group_default' => 'Groupe de membres par défaut',
-
-    'member_group_warning' => 'Soyez prudent(e) avant d\'accorder cette affectation',
+    'member_group_assignment' => 'Rôle par défaut',
 
     'user_ip_address' => 'Adresse IP',
 
@@ -473,8 +469,6 @@ $lang = array(
     'subscriptions' => 'Abonnements actuels',
 
     'subscriptions_removed' => 'Les abonnements ont été supprimés',
-
-    'super_admin_demotion_alert' => 'En tant que Super Admin, vous n\'êtes pas autorisé(e) à modifier les affectations de groupes de membres',
 
     'system_offline_indicator' => 'Indicateur de système hors-ligne ',
 

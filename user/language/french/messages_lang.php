@@ -126,7 +126,7 @@ $lang = array(
 
     'member_description' => 'Description',
 
-    'member_group' => 'Groupe de membres',
+    'member_group' => 'Rôle principal',
 
     'member_name' => 'Nom de membre',
 
