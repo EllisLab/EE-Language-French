@@ -470,7 +470,7 @@ $lang = array(
 
     'username_banning_instructions' => '<b>Placer chaque nom d\'utilisateur sur une ligne séparée</b><br> Ces utilisateurs ne seront pas autorisés.',
 
-    /* Member group settings */
+    /* Role settings */
     'access_privilege_caution' => 'Tout réglage marqué par le symbole <span class="icon--caution" title="exercise caution"></span> indique que ce privilège devrait être accordé aux personnes auxquelles vous faites implicitement confiance.',
 
     'access_privilege_warning' => '<b>Alerte/b>: Merci d\'être très prudent(e) avec les privilèges d\'accès que vous accordez.',
