@@ -34,8 +34,6 @@ $lang = array(
     /* Explanatory Blurbs */
     'channel_administration_blurb' => 'Cette zone vous permet de gérer vos canaux, leurs préférences et les sous-systèmes de contenus affiliés.',
 
-    'members_and_groups_blurb' => 'Cette zone vous permet de gérer les membres, les groupes de membres et les fonctions associées à la qualité de membre.',
-
     'search' => 'Chercher',
 
     'search_preferences' => 'Préférences de recherche',
@@ -303,8 +301,6 @@ $lang = array(
     'debug_zero' => '0: PHP/SQL Messages d\'erreurs non générés',
 
     'default_html_buttons' => 'Boutons HTML par défaut',
-
-    'default_primary_role' => 'Groupe de membres affecté par défaut aux nouveaux membres',
 
     'default_site_timezone' => 'Fuseau horaire par défaut du site',
 
