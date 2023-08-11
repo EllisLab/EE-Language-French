@@ -44,7 +44,7 @@ $lang = array(
 
     'search_by_keyword' => 'Rechercher par mot-clé',
 
-    'search_by_member_group' => 'Rechercher par groupe de membres',
+    'search_by_member_group' => 'Rechercher par rôle principal',
 
     'search_by_member_name' => 'Rechercher par nom de membre',
 
