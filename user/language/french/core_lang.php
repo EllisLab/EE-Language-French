@@ -170,7 +170,7 @@ Si vous êtes l\'auteur de ces changements, merci d\'accepter les modifications 
     'license_error_file_broken' => 'Il y a eu une erreur lors de la validation du statut de licence d\'ExpressionEngine Pro',
 
 
-    /* Member Groups */
+    /* Roles */
     'banned' => 'Censurés',
 
     'guests' => 'Invités',
