@@ -901,7 +901,7 @@ $lang = array(
 
      'remove_btn' => 'Bouton modifier',
 
-     'password_icon' => 'Afficher ou masquer l'icône du mot de passe',
+     'password_icon' => 'Afficher ou masquer l\'icône du mot de passe',
 
      'hidden_input' => 'Entrée masquée pour téléversements de fichiers',
 
