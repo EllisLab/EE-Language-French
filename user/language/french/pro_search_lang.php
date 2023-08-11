@@ -521,9 +521,6 @@ qui sont ignorés dans l\'index FULLTEXT. Une méthode alternative de recherche 
     "filters_help" =>
     "Filtres disponibles. A décocher pour désactiver le filtre.",
 
-    "member_group" =>
-    "Groupe de membres",
-
     "can_manage" =>
     "Peut gérer les collectes",
 
