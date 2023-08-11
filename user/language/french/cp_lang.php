@@ -839,6 +839,76 @@ $lang = array(
     
     'unexpected_error' => 'Erreur inattendue',
 
+	/* Accessibility */
+
+     'color_picker_file' => 'Fichier de sélecteur de couleurs',
+
+     'colorpicker_input' => 'Entrée du sélecteur de couleurs',
+
+     'close_modal' => 'Fermer la fenêtre modale',
+
+     'close_banner' => 'Fermer l\'icône de la bannière',
+
+     'image_alt' => 'Image pour',
+
+     'file_icon' => 'Icône de fichier',
+
+     'pdf_file_icon' => 'Icône de fichier PDF',
+
+     'spreadsheet_file_icon' => 'Icône de fichier de feuille de calcul',
+
+     'word_icon' => 'Icône de fichier de texte Word',
+
+     'powerpoint_icon' => 'Icône de fichier Powerpoint',
+
+     'archive_icon' => 'Icône de fichier d\'Archive',
+
+     'audio_icon' => 'Icône de fichier Audio',
+
+     'video_icon' => 'Icône de fichier Video',
+
+     'text_icon' => 'Icône de fichier Texte',
+
+     'clear_filter' => 'Bouton effacer le filtre',
+
+     'search_for' => 'Rechercher pour',
+
+     'save_btn' => 'Bouton ouvrant les options pour sauvegarder la page',
+
+     'condition_rule_operator' => 'Sélectionner au choix de la condition',
+
+     'conditional_rule_value' => 'Entrée de la valeur de la règle conditionnelle',
+
+     'remove_set' => 'Retirer le bouton de réglage',
+
+     'toggle_buton' => 'Bouton à bascule',
+
+     'reorder_row' => 'Bouton réorganiser la ligne',
+
+     'remove_row' => 'Retirer le bouton de ligne',
+
+     'thumbnail_column' => 'Colonne vignettes',
+
+     'toolbar_column' => 'Colonne boîte à outils',
+
+     'textarea_label' => 'Zone de texte pour corps d\'email',
+
+     'textarea_query' => 'Zone de texte de la requête',
+
+     'search_input' => 'Entrée de recherche',
+
+     'edit_element' => 'Bouton modifier l\'élément',
+
+     'remove_btn' => 'Bouton modifier',
+
+     'password_icon' => 'Afficher ou masquer l'icône du mot de passe',
+
+     'hidden_input' => 'Entrée masquée pour téléversements de fichiers',
+
+     'button' => 'bouton',
+
+     'checkbox' => 'case à cocher'
+
 );
 
 // EOF
