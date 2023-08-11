@@ -90,7 +90,7 @@ $lang = array(
 
     'not_allowed_to_email_cache' => 'Vous n\'êtes pas autorisé(e) à visualiser les emails mis en cache.',
 
-    'not_allowed_to_email_member_groups' => 'Vous n\'êtes pas autorisé(e) à adresser des emails aux groupes de membres',
+    'not_allowed_to_email_member_groups' => 'Vous n\'êtes pas autorisé(e) à adresser des emails aux rôles de membres',
 
     'not_allowed_to_email_members' => 'Vous n\'êtes pas autorisé(e) à adresser des emails aux membres',
 
@@ -111,8 +111,6 @@ $lang = array(
     'problem_with_id' => 'Nous avons rencontré un problème avec le numéro d\'ID nécessaire pour adresser des emails',
 
     'recipient' => 'Destinataire',
-
-    'recipient_group' => 'Envoyer aux groupes de membres',
 
     'remove' => 'Supprimer',
 
