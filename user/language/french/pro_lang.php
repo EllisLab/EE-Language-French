@@ -109,5 +109,7 @@ $lang = array(
     'pro_license_check_instructions' => 'Puisque ce site possède plusieurs membres, il lui sera requis une licence payante. %s.<br><br>Merci de vérifier la <a href="%s">Clé de licence du site</a>  et rendez vous à la section <a href="https://expressionengine.com/store/licenses" target="_blank">Licences</a> sur ExpressionEngine.com',
 
     'pro_license_check_trial_instructions' => '%s<br><br>Merci de vérifier votre<a href="%s">Clé de licence de site</a> et rendez vous à la section <a href="https://expressionengine.com/store/licenses" target="_blank">Licences</a> sur ExpressionEngine.com',
+	'pencil_icon' => 'Icône de crayon',
+    'drag_handle_icon' => 'Faire glisser l\'icône de la poignée',
 
 );
