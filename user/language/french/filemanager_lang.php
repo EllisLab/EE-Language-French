@@ -500,10 +500,6 @@ $lang = array(
 
     'upload_manage' => 'Gérer',
 
-    'upload_member_groups' => 'Groupes de membres autorisés',
-
-    'upload_member_groups_desc' => 'Les groupes d\'utilisateurs suivants sont autorisés à effectuer des téléchargements dans ce répertoire.</em><br /><em>Les Super administrateurs sont <b>toujours</b> autorisés.',
-
     'upload_roles' => 'Rôles de membres autorisés',
 
     'upload_roles_desc' => 'Les rôles de membres suivants sont autorisés à télécharger dans ce répertoire.<br />Les Super Administrateurs sont <b>toujours</b> autorisés.',
@@ -796,8 +792,6 @@ $lang = array(
 
     'max_width' => 'Largeur maximum de fichier (en pixels)',
 
-    'member_group' => 'Groupe de membres',
-
     'new_file_upload_created' => 'Un nouveau téléchargement de fichier a été créé',
 
     'new_file_upload_preferences' => 'Préférences de nouveau téléchargement de fichier',
@@ -809,8 +803,6 @@ $lang = array(
     'no_edit_selected' => 'Aucune opération d\'édition n\'a été sélectionnée',
 
     'no_errors' => 'Aucune erreur',
-
-    'no_results' => 'Pas de groupe de membres disponible.',
 
     'no_sync_title' => 'Aucun résultat', // @todo, this phrase should change, just not sure what to put -ga
     'no_upload_directories_for_fieldtype' => 'il n\'y a actuellement aucun répertoire de téléchargement disponible. Merci <a href="%s" rel="external">de rajouter un ou plusieurs répertoires de téléchargement</a> pour utiliser le type de champ de fichier.',
@@ -852,14 +844,6 @@ $lang = array(
     'resize_type' => 'Type de redimensionnement',
 
     'resize_width' => 'Largeur',
-
-    'restrict_notes_1' => 'Ces boutons radio vous permettent de préciser les groupes de membres qui sont autorisés à téléverser des fichiers.',
-
-    'restrict_notes_2' => 'Les Super Admins peuvent toujours télécharger des fichiers',
-
-    'restrict_notes_3' => 'Notez: Le téléchargement d\'image est pour l\'heure seulement autorisé depuis le tableau de bord',
-
-    'restrict_to_group' => 'Restreindre le téléchargement de fichier aux groupes de membres sélectionnés',
 
     'rotate' => 'Pivoter',
 
