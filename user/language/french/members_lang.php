@@ -561,7 +561,7 @@ $lang = array(
 
     'can_admin_design' => 'Réglages de modèle global',
 
-    'can_admin_design_desc' => 'Si activé, les utilisateurs rattachés à ce groupe pourront accéder aux réglages de modèle global et aux routes de modèles.',
+    'can_admin_design_desc' => 'Si activé, les utilisateurs rattachés à ce groupe pourront accéder aux réglages globaux de modèle, aux modèles relatifs au système et aux routes de modèles.',
 
     'can_admin_mbr_groups' => 'Rôles d\'accès',
 
