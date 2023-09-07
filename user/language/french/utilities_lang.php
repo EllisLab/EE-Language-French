@@ -633,6 +633,10 @@ Dès que vous êtes prêt(e) à expérimenter les nouvelles fonctionnalités du 
 	'debug_tools_debug_duplicate_template_groups' => 'Groupes de Modèles en doublons',
 
      'duplicate_template_groups_found' => 'Nous avons recensé %s groupes de modèles en doublons.',
+	 
+	 'group_name' => 'Nom du groupe',
+
+     'group_id' => 'ID du groupe',
 
      'no_duplicate_template_groups_found' => 'Aucun groupe de modèles en doublon n\'a été trouvé.',
 
