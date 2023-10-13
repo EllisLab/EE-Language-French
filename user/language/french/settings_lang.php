@@ -173,7 +173,7 @@ $lang = array(
 
     'url_title_separator_opt_hyphen' => 'Tiret (differents-mots)',
 
-    'url_title_separator_opt_under' => 'Sous-tirets (differents_mots)',
+    'url_title_separator_opt_under' => 'Sous-tiret (differents_mots)',
 
     /* Outgoing Email */
     'email_charset' => 'Encodage des caractères',
