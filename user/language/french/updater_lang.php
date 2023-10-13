@@ -6,7 +6,7 @@ $lang = array(
     'Nous avons rencontré une erreur inattendue. Ci-dessous, voici l\'erreur exprimée en texte brut que vous pouvez communiquer au support d\'ExpressionEngine.',
 
     'could_not_complete' =>
-    'Oups, îl semblerait que l\'updater n\'ait pas pu finaliser.',
+    'Oups, il semblerait que l\'updater n\'ait pas pu finaliser.',
 
     'we_stopped_on' =>
     'Nous nous sommes arrêtés sur <b>%s</b>.',
