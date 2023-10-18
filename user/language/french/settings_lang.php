@@ -417,7 +417,7 @@ $lang = array(
 
     'enable_hit_tracking_desc' => 'Si activé, ExpressionEngine procédera au comptage du nombre de fois qu\'un modèle est consulté.',
 
-    'enable_online_user_tracking' => 'Activé la traque d\'utilisateur en ligne?',
+    'enable_online_user_tracking' => 'Activer la traque d\'utilisateur en ligne?',
 
     'enable_online_user_tracking_desc' => 'Si activé, ExpressionEngine procèdera à la traque des utilisateurs connectés.',
 
