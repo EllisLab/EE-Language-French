@@ -104,6 +104,8 @@ $lang = array(
 
     'site_online_desc' => 'Si désactivé, seuls les Super Admins et les membres avec des rôles munis des permissions appropriées pourront naviguer sur votre site web.',
 
+	'system_online_desc' => ‘Si désactivé, seuls les Super Admins et les membres dotés de rôles munis des permissions appropriées pourront surfer sur les sites web avec cette installation d’ExpressionEngine. <br>Les réglages individuels <code>Site web en ligne?</code> pour les sites MSM peuvent être gérés dans la section <a href="%s">Sites</a> du tableau de bord.’,
+
     'site_short_name' => 'Nom court',
 
     'site_short_name_taken' => 'Ce nom court a déjà été emprunté.',
