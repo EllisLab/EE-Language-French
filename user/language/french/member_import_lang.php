@@ -68,7 +68,7 @@ $lang = array(
 
     'encrypted_passwords' => 'Les mots de passe sont déjà cryptés',
 
-    'field_label' => 'Etiquette de champ',
+    'field_label' => 'Libellé de champ',
 
     'field_name' => 'Nom de champ',
 
