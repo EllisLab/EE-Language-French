@@ -44,7 +44,7 @@ $lang = array(
     "Nouvelle Collecte",
 
     "collection_label" =>
-    "Etiquette de collecte",
+    "Libellé de collecte",
 
     "collection_label_notes" =>
     "Nom complet de la recherche de collecte.",
@@ -229,7 +229,7 @@ $lang = array(
     "Nous n\'avons trouvé aucun groupe de raccourcis",
 
     "group_label" =>
-    "Etiquette de Groupe",
+    "Libellé de Groupe",
 
     "edit_group" =>
     "Editer le groupe",
@@ -241,7 +241,7 @@ $lang = array(
     "Editer le raccourci",
 
     "shortcut_label" =>
-    "Etiquette de raccourci",
+    "Libellé de raccourci",
 
     "shortcut_name" =>
     "Nom de raccourci",
