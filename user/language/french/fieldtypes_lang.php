@@ -225,7 +225,7 @@ $lang = array(
 
     'grid_col_instr' => 'Instructions',
 
-    'grid_col_label' => 'Etiquette de publication',
+    'grid_col_label' => 'Libellé de publication',
 
     'grid_col_name' => 'Nom de champ',
 
@@ -247,7 +247,7 @@ $lang = array(
 
     'grid_date_localized' => 'Localisées?',
 
-    'grid_duplicate_col_label' => 'Les étiquettes de champs de colonne doivent être uniques.',
+    'grid_duplicate_col_label' => 'Les libellés de champs de colonne doivent être uniques.',
 
     'grid_duplicate_col_name' => 'Les noms de champs de colonne doivent être uniques.',
 
