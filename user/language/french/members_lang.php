@@ -114,7 +114,7 @@ $lang = array(
 
     'field_order_updated' => 'Ordre des champs mis à jour',
 
-    'fieldlabel' => 'Etiquette de champ',
+    'fieldlabel' => 'Libellé de champ',
 
     'filter_by' => 'Filtrer par',
 

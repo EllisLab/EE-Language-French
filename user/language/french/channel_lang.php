@@ -396,9 +396,9 @@ $lang = array(
 
     'text_formatting_desc' => 'Type de formatage pour les commentaires de texte.',
 
-    'title_field_label' => 'Etiquette de titre de champ',
+    'title_field_label' => 'Libellé de titre de champ',
 
-    'title_field_label_desc' => 'Change l\'étiquette de titre de champ dans le formulaire de publication de ce canal.',
+    'title_field_label_desc' => 'Change le libellé de titre de champ dans le formulaire de publication de ce canal.',
     
     'title_field_instructions' => 'Instructions du champ titre',
 
@@ -557,7 +557,7 @@ $lang = array(
 
     'group_name' => 'Nom de groupe',
 
-    'label' => 'Etiquette',
+    'label' => 'Libellé',
 
     'no_category_fields' => 'Aucun <b>champ de catégorie</b> n\'a été trouvé.',
 

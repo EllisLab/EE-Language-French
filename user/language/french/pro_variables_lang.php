@@ -84,7 +84,7 @@ $lang = array(
     'Code de Variable',
 
     'variable_label' =>
-    'Etiquette de Variable',
+    'Libellé de Variable',
 
     'variable_type' =>
     'Variable&nbsp;Type',
@@ -188,7 +188,7 @@ $lang = array(
     'Nom de la variable que vous pouvez utiliser dans vos modèles, par exemple.: <code>pv_myvar</code>',
 
     'variable_label_help' =>
-    'Etiquette de la variable que les utilisateurs visualisent dans la page d’accueil du module Low Variables',
+    'Libellé de la variable que les utilisateurs visualisent dans la page d’accueil du module Low Variables',
 
     'variable_notes' =>
     'Notes sur la variable',
@@ -252,7 +252,7 @@ $lang = array(
     //----------------------------------------
 
     'variable_checkbox_label' =>
-    'Etiquette de case à cocher',
+    'Libellé de la case à cocher',
 
     'variable_options' =>
     'Options',
@@ -491,7 +491,7 @@ $lang = array(
     'Supprimer le groupe de variables',
 
     'group_label' =>
-    'Etiquette de groupe',
+    'Libellé de groupe',
 
     'group_notes' =>
     'Notes de Groupe',
@@ -539,7 +539,7 @@ $lang = array(
     'Changements sauvegardés dans le groupe.',
 
     'no_group_label' =>
-    'Pas d\'étiquette de groupe attribuée.',
+    'Pas de libellé de groupe attribué.',
 
     'suffix_required' =>
     'Suffixe requis pour la duplication de variables.',

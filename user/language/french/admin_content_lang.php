@@ -270,7 +270,7 @@ $lang = array(
 
     'field_val' => 'Vous devez choisir un nom de champ depuis ce menu et non pas un nom de canal.',
 
-    'field_value_label_pairs' => 'Paire Valeur/Etiquette',
+    'field_value_label_pairs' => 'Paire Valeur/Libellé',
 
     'fields' => 'Champs',
 
@@ -378,7 +378,7 @@ $lang = array(
 
     'no_statuses' => 'Aucun statut n\'a été trouvé',
 
-    'no_value_label_pairs' => 'Aucune paire <b>valeur/étiquette</b> n\'existe.',
+    'no_value_label_pairs' => 'Aucune paire <b>valeur/libellé</b> n\'existe.',
 
     'notification_settings' => 'Préférences de notification',
 
@@ -484,7 +484,7 @@ $lang = array(
 
     'value_label_duplicate_values' => 'Chaque valeur doit être unique.',
 
-    'value_label_empty_field' => 'Valeurs ou étiquettes ne peuvent être vides.',
+    'value_label_empty_field' => 'Les valeurs ou les libellés ne peuvent être vides.',
 
     'versioning' => 'Préférences de gestion des versions',
    
@@ -681,7 +681,7 @@ $lang = array(
 
     'field_id' => 'ID du champ',
 
-    'field_label' => 'Etiquette du champ',
+    'field_label' => 'Libellé du champ',
 
     'field_list_instructions' => 'Disposez chaque élément sur une seule ligne',
 
@@ -721,7 +721,7 @@ $lang = array(
 
     'no_field_groups' => 'Aucun <b>groupe de champs</b> n\'a été trouvé.',
 
-    'no_field_label' => 'Vous devez saisir une étiquette de champ',
+    'no_field_label' => 'Vous devez saisir un libellé de champ',
 
     'no_field_name' => 'Vous devez saisir un nom de champ',
 
