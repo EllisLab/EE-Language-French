@@ -6,6 +6,8 @@ $lang = array(
 
     'all_roles' => 'Tous les Rôles',
 
+	'all_role_members' => 'Tous les membres %s ',
+
     'alpha' => 'Ordre alphabétique croissant',
 
     'alpha_desc' => 'Ordre alphabétique décroissant',
@@ -174,11 +176,13 @@ $lang = array(
 
     'locked' => 'Verrouillé',
 
+	'login_as' => 'Connecté en tant que %s',
+
+    'login_as_member' => 'Connecté comme membre',
+
     'login_as_member_description' => 'En cliquant sur envoi, vous serez connecté(e) dans votre qualité de membre en tant que "%screen_name%" et redirigé(e) sur la page ci-dessous.',
 
     'login_as_user' => 'Super Admin se connectant comme utilisateur',
-
-    'manage_bans' => 'Réglages de censure',
 
     'maximum_members_reached' => 'Vous avez atteint le nombre maximum de membres autorisés.',
 
@@ -267,6 +271,10 @@ $lang = array(
 
    'role_desc' => 'Affecter des permissions d\'accès à cet utilisateur',
 
+	'role_highlight_color' => 'Couleur de surbrillance',
+
+     'role_highlight_color_desc' => 'Couleur pour le badge de ce rôle. Accepte les codes HEX.',
+
     'role_updated_desc' => 'Le rôle a été sauvegardé avec succès.',
 
     'role_deleted_desc' => 'Le rôle a été supprimé avec succès.',
@@ -333,7 +341,7 @@ $lang = array(
 
     'no_members_found' => 'Aucun <b>membre</b> trouvé.',
 
-    'no_pending_members_found' => 'Aucun <b>membre en attente</b> trouvé.',
+    'no_role_members_found' => 'Aucun <b> %s en attente</b> trouvé.',
 
     'not_writable_path' => 'Le chemin que vous avez soumis n\'est pas réinscriptible. Merci de vérifier que vos permissions de fichier sont réglées sur 777.',
 
@@ -699,6 +707,10 @@ $lang = array(
 
     'include_members_in_desc' => 'Les utilisateurs associés à ce rôle seront inclus dans tous les types de listes sélectionnés.',
 
+	'show_field_names' => 'Afficher les noms de champs dans Publier',
+
+    'show_field_names_desc' => 'Si activé, les noms de champs duplicables seront inclus dans Publication d\'entrées & Edition de pages',
+
     'mbr_account_privs' => 'Privilèges de compte de membre',
 
     'mbr_delete_notify_emails' => 'Destinataires des notifications de suppression',
@@ -858,6 +870,8 @@ $lang = array(
 
     'edit_channel_fields' => 'Editer les champs de canal',
 
+	'edit_member_fields' => 'Editer les champs de membre',
+
     'edit_files' => 'Editer les fichiers',
 
     'edit_member_field' => 'Editer le champ',
@@ -1010,6 +1024,10 @@ $lang = array(
 
     'upload_new_toolsets' => 'Téléverser de nouvelles boîtes à outils',
 
+	'column_member_id' => 'ID#',
+
+     'column_username' => 'Nom',
+
     /* Roles */
 
     'roles_manager' => 'Rôles de membres',
@@ -1157,6 +1175,8 @@ $lang = array(
     'access_overview_can_create_channel_fields' => 'Créer les champs',
 
     'access_overview_can_edit_channel_fields' => 'Editer les champs',
+
+	'access_overview_can_edit_member_fields' => 'Editer les champs de membre',
 
     'access_overview_can_delete_channel_fields' => 'Supprimer les champs',
 
