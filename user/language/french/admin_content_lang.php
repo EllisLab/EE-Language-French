@@ -864,7 +864,7 @@ $lang = array(
 
     'toggle_default_value_desc' => 'La position par défaut de l\'interrupteur pour ce champ lors de la publication de nouvelles entrées.',
 
-    'toggle_default_value_desc_cont' => '<b>Notez</b>: à des fins d\'affecter une valeur par défaut à des entrées existantes, la réindexation de recherche (search reindex) devra être actionnée après que vous ayez préalablement associé ce champ aux canaux considérés.',
+    'toggle_default_value_desc_cont' => '<b>Notez</b>: à des fins d\'affecter une valeur par défaut à des entrées existantes, la réindexation de contenu devra être actionnée après que vous ayez préalablement associé ce champ aux canaux considérés.',
 
     'unauthorized_for_this_channel' => 'Vous n\'êtes pas autorisé(e) à publier dans ce canal',
 
