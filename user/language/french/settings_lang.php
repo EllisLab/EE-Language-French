@@ -515,7 +515,7 @@ $lang = array(
 
     'require_terms_of_service_desc' => 'Si activé, les utilisateurs doivent accepter les conditions d\'utilisation pendant leur inscription.',
 
-	'manage_bans' => 'Réglages des bannissements',
+	'manage_bans' => 'Réglages des censures',
 
     /* Menu Manager */
     'add_menu_item' => 'Ajouter un élément de menu',
