@@ -20,6 +20,10 @@ $lang = array(
 
     'category_groups_desc' => 'Affecter un ou plusieurs groupes de catégories à ce canal.',
 
+	'cat_required' => 'Requise?',
+
+    'cat_allow_multiple' => 'En autoriser plusieurs?',
+
     'channel' => 'Canal',
 
     'channel_form_layouts' => '%s &ndash; Affichage de publications',
@@ -446,6 +450,8 @@ $lang = array(
     'category_ajax_reorder_fail' => 'Attention: la sauvegarde de classement de catégorie à échoué',
 
     'category_ajax_reorder_fail_desc' => 'La sauvegarde de votre classement des nouvelles catégories a échoué. Rafraîchir votre page et vérifier que vous êtes bien connecté(e).',
+
+	'category_group_no_permissions' => 'Vous n\'avez pas l\'autorisation de modifier les catégories dans ce groupe.',
 
     'category_created' => 'Catégorie créée',
 
