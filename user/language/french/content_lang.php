@@ -241,6 +241,10 @@ $lang = array(
 
     'calendar' => 'Calendrier',
 
+	'cat_selection_is_multiple_categories_assigned' => 'La sélection devrait être limitée à une seule catégorie mais l\'entrée est déjà associée à des catégories multiples.',
+
+     'cat_selection_is_multiple_auto_select_parent' => 'La sélection devrait être limitée à une seule catégorie mais le groupe de catégories contient des catégories enfant et le réglage <code>Associer les catégories parentes</code> est activé.',
+
     'close_preview' => 'Fermer la prévisualisation',
 
     'cancel_preview' => 'Annuler la prévisualisation',
@@ -354,6 +358,8 @@ $lang = array(
     'edit_comment' => 'Editer le commentaire',
 
     'edit_entry' => 'Editer l\'entrée',
+
+	'edit_member' => 'Editer le membre',
 
     'edit_selected' => 'Editer Sélectionné',
 
@@ -850,6 +856,8 @@ $lang = array(
     'expand_all' => 'Tout agrandir',
 
     'creating_new_in_rel' => 'Création en cours d\'une nouvelle entrée dans <b>#to_channel#</b> pour une relation avec <b>#from_channel#</b>',
+
+	'creating_member_in_rel' => 'Création d\'un nouveau membre pour une relation avec <b>#from_channel#</b>',
 
     'hide' => 'Masquer',
 

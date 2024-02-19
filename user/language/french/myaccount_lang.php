@@ -190,7 +190,7 @@ $lang = array(
 
     'email_taken' => 'L\'email que vous avez choisi n\'est pas disponible',
 
-    'email_too_long' => 'Votre adresse email ne peut dépasser ' . USERNAME_MAX_LENGTH . ' caractères',
+    'email_too_long' => 'Votre adresse email ne peut dépasser 254 caractères',
 
     'email_username' => 'Adresser un email à %s',
 
@@ -259,10 +259,6 @@ $lang = array(
     'location' => 'Localisation',
 
     'location_desc' => 'Votre localisation physique.',
-
-    'login_as' => 'Connecté en tant que %s',
-
-    'login_as_member' => 'Connecté en tant que membre',
 
     'login_as_warning' => "<b>ATTENTION</b>: vous serez connecté(e) en tant que membre '%s' et redirigé(e) sur la page ci-dessous.",
 

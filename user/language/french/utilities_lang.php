@@ -528,11 +528,11 @@ $lang = array(
 
 Dès que vous êtes prêt(e) à expérimenter les nouvelles fonctionnalités du Gestionnaire de fichiers, merci d\'exécuter l\'utilitaire <a href="%s">Mettre à jour l\'utilisation des fichiers</a> et de visiter ensuite les <a href="%s">Réglages de Contenu & Design</a> pour désactiver le Mode Compatibilité.',
 
-    /* Search Reindex */
+    /* Content Reindex */
 
     'search_reindex_fail' => 'Echec de réindexation',
 
-    'search_reindex' => 'Recherche de réindexation',
+    'search_reindex' => 'Réindexation de contenu',
 
     'search_reindex_desc' => '%s entrées de canal seront réindexées',
 
@@ -548,9 +548,9 @@ Dès que vous êtes prêt(e) à expérimenter les nouvelles fonctionnalités du 
 
     'all_sites_desc' => 'Réindexer les entrées de canal à travers tous les sites ou seulement pour celui-ci?',
 
-    'search_reindexed_started' => 'Recherche reindexation commencée.',
+    'search_reindexed_started' => 'Réindexation de contenu commencée.',
 
-    'search_reindexed_completed' => 'Recherche de réindexation complétée. %s entrées ont été réindexées.',
+    'search_reindexed_completed' => 'Réindexation de contenu complétée. %s entrées ont été réindexées.',
 
     /* Export Email Addresses */
 

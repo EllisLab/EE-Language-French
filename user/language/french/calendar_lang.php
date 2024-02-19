@@ -92,6 +92,8 @@ $lang = array(
 
     'cal_december' => 'Décembre',
 
+	'cal_today' => 'Aujourd\'hui',
+
 );
 
 // EOF

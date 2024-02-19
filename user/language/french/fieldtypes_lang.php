@@ -6,6 +6,8 @@ $lang = array(
 
     'directory_no_access' => 'Vous n\'avez pas accès au répertoire spécifié pour ce champ',
 
+	'edit_meta' => 'Editer les métadonnées',
+
     'file_undo_remove' => 'Annuler la SUPPRESSION',
 
     'remove_file' => 'Supprimer le fichier',
@@ -26,6 +28,8 @@ $lang = array(
     'any_status' => 'N\'importe quel statut',
 
     'relate_entry' => 'Relier l\'entrée',
+
+	'relate_member' => 'Relier le membre',
     
     'relate_entry_deferred' => 'Editer les Relations',
 
@@ -45,6 +49,12 @@ $lang = array(
 
     'rel_ft_channels_desc' => 'Les canaux au sein desquels le contenu associé peut être supprimé.',
 
+	 'rel_ft_roles' => 'Rôles à inclure',
+
+     'rel_ft_roles_desc' => 'Autoriser seulement le membre sélectionné avec ses rôles primaires choisis',
+
+     'any_role' => 'Tout rôle',
+
     'rel_ft_include' => 'Inclure dans la sélection',
 
     'rel_ft_include_desc' => 'Autoriser les entrées futures ou expirées dans ce champ de relations.',
@@ -53,9 +63,9 @@ $lang = array(
 
     'rel_ft_include_future' => 'Entrées futures',
 
-    'rel_ft_limit' => 'Nombre maximal d\'entrées disponibles',
+	'rel_ft_limit' => 'Nombre maximum de %s disponibles',
 
-    'rel_ft_limit_desc' => 'Fixe le nombre d\'entrées affichées dans le menu déroulant des champs. <br><i>Laisser vide pour autoriser toutes les entrées.</i>',
+     'rel_ft_limit_desc' => 'Règle le nombre de %s affichés dans le menu déroulant de champ.<br><i>Laisser vide pour autoriser tous les %s.</i>',
 
     'rel_ft_order' => 'Classer par',
 
@@ -63,7 +73,7 @@ $lang = array(
 
     'rel_ft_order_date' => 'Date d\'entrée',
 
-    'rel_ft_order_desc' => 'Classement par défaut des entrées dans le champ de relations.',
+	'rel_ft_order_desc' => 'Rangement par défaut des %s dans le champ associé.',
 
     'rel_ft_order_descending' => 'Décroissant (Z-A)',
 
@@ -77,9 +87,9 @@ $lang = array(
 
     'rel_ft_unrelated_only' => 'Délier seulement',
 
-    'rel_ft_display_entry_id' => 'Afficher les ID d\'entrées ?',
+	'rel_ft_display_member_id' => 'Afficher les ID de membres?',
 
-    'rel_ft_display_entry_id_desc' => 'Si activé, les ID d\'entrées sort affichées ensemble avec le titre d\'entrée à l\'intérieur du champ.',
+     'rel_ft_display_member_id_desc' => 'Si activé,les ID de membres seront affichées ensemble avec le nom d\'écran du membre à l\'intérieur du champ.',
 	
 	'rel_ft_display_status' => 'Afficher le statut?',
 
@@ -90,17 +100,17 @@ $lang = array(
 
      'rel_ft_deferred_desc' => 'Si activé, ce champ ne se réinitialisera pas avant avoir cliqué sur le bouton Editer les Relations. Cela peut aboutir à des vitesses plus rapides de chargement de page du Tableau de bord.',
 
-    'rel_ft_max' => 'Nombre maximum d\'entrées reliées',
+    'rel_ft_max' => 'Nombre maximum de %s reliés',
 
-    'rel_ft_max_desc' => 'Fixe le nombre maximum d\'entrées que ce champ peut utiliser pour les relier.',
+    'rel_ft_max_desc' => 'Fixe le nombre maximum de %s que ce champ peut utiliser pour les relier.',
 
-    'rel_ft_max_error' => 'Vous ne pouvez sélectionner guère plus de %d entrées.',
+    'rel_ft_max_error' => 'Vous ne pouvez sélectionner guère plus de %d %s.',
 
-    'rel_ft_min' => 'Nombre minimum d\'entrées reliées',
+    'rel_ft_min' => 'Nombre minimum de %s reliés',
 
-    'rel_ft_min_desc' => 'Fixe le nombre minimum d\'entrées que ce champ peut utiliser pour les relier.',
+    'rel_ft_min_desc' => 'Fixe le nombre minimum de %s que ce champ peut utiliser pour les relier.',
 
-    'rel_ft_min_error' => 'Vous devez sélectionner au moins %d entrées.',
+    'rel_ft_min_error' => 'Vous devez sélectionner au moins %d %s.',
 
     /* Duration */
     'duration_ft_hh' => 'hh',
