@@ -382,7 +382,7 @@ $lang = array(
 
      'rte_control_bar' => 'Afficher la barre de contrôle?',
 
-     'rte_control_bar_desc' => 'La barre de contrôle est le menu escamotable affiché à gauche de l'élément actif avec des actions communes',
+     'rte_control_bar_desc' => 'La barre de contrôle est le menu escamotable affiché à gauche de l\'élément actif avec des actions communes',
 
      'rte_format' => 'Options de formatage',
 
