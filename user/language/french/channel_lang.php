@@ -20,7 +20,7 @@ $lang = array(
 
     'category_groups_desc' => 'Affecter un ou plusieurs groupes de catégories à ce canal.',
 
-	cat_required' => 'Requis?',
+	'cat_required' => 'Requise?',
 
     'cat_allow_multiple' => 'En autoriser plusieurs?',
 
