@@ -273,7 +273,7 @@ $lang = array(
 
     'removeFormat_rte' => 'Supprimer le formatage',
 
-	'removeformat_rte' => 'Supprimerle formatage',
+	'removeformat_rte' => 'Supprimer le formatage',
 
     'undo_rte' => 'Défaire',
 
@@ -402,7 +402,7 @@ $lang = array(
 
      'rte_show_context' => 'Affiché la barre contextuelle?',
 
-     'rte_show_context_desc' => 'La barre contextuelle apparaît quand le texte est délectionné',
+     'rte_show_context_desc' => 'La barre contextuelle apparaît quand le texte est sélectionné',
 
      'rte_context' => 'Barre contextuelle',
 
