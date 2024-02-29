@@ -66,6 +66,8 @@ $lang = array(
 	
 	'unique_among_channel_fields' => 'Ce champ doit être unique et ne peut correspondre au nom abrégé d\'un champ de canal.',
 
+	'unique_among_member_fields'  => 'Ce champ doit être unique et ne peut correspondre au nom abrégé d\'un champ de membre.'
+
     'unique_among_field_groups' => 'Ce champ doit être unique et ne peut correspondre au nom abrégé d\'un groupe de champs.',
 	
     'unique_email' => 'Ce champ ne doit comporter qu\'une adresse email unique.',
