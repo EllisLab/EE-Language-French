@@ -211,6 +211,8 @@ $lang = array(
 	'file_dnd_no_directories' => 'Il n\'y a pas de répertoires de téléchargement disponibles',
 
      'file_dnd_no_directories_desc' => 'Ce champ est limité au répertoire de téléchargement non disponible pour le membre et le site actuels.',
+
+	'file_dnd_no_directory_permissions' => 'Vous n\'avez pas l\'autorisation de télécharger des fichiers dans aucun des répertoires disponibles.',
     
     'file_grid_vertical_layout_title' => 'Agencement du fichier Grille',
 
