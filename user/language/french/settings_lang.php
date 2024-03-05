@@ -578,9 +578,9 @@ $lang = array(
 
     'set_assigned' => 'Affecté',
 
-    'set_roles' => 'Rôle(s) de membre(s)?',
+    'set_roles' => 'Rôle(s) de membre(s)',
 
-    'set_roles_desc' => 'Choisir le(s) rôle(s) appliqué(s) à ce menu pour ',
+    'set_roles_desc' => 'Choisir le(s) rôle(s) auxquel(s) appliquer ce menu. ',
 
     'set_name' => 'Nom',
 
