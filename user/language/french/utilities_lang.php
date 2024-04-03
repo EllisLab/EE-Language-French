@@ -628,6 +628,14 @@ Dès que vous êtes prêt(e) à expérimenter les nouvelles fonctionnalités du 
 
     'debug_tools_all_used_fieldtypes' => 'Tous les types de champs utilisés',
 
+	 'debug_tools_channel_entries' => 'Déboguer les entrées de canaux',
+
+     'debug_tools_no_entries_missing_data_desc' => 'Toutes les entrées sont correctement associées avec %s',
+
+     'debug_tools_entries_missing_data_desc' => 'Certaines entrées font référence à des %s non-existant(e)s',
+
+     'debug_tools_entries_missing_data_count' => '%d entrées font référence à des %s non-existant(e)s',
+
     'debug_tools_members' => 'Débogage des Membres',
 
 	'debug_tools_debug_duplicate_template_groups' => 'Groupes de Modèles en doublons',
