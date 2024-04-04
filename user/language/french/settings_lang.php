@@ -242,6 +242,16 @@ $lang = array(
 
     'word_wrap_desc' => 'Si activé, le système va envelopper de longues lignes de texte dans une largeur plus lisible.',
 
+	 'send_test_email' => 'Email test',
+
+     'test_email_subject' => 'Message test de %s',
+
+     'test_email_message' => '<p>Ceci est un message email test envoyé en utilisant les réglages suivants:</p>',
+
+     'test_email_sent' => 'Email test envoyé',
+
+     'email_settings_verified' => 'Réglages email vérifiés en envoyant un message test à %s',
+
     /* Debugging & Output */
     'caching_driver' => 'Pilote de cache',
 
