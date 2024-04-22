@@ -521,6 +521,18 @@ $lang = array(
 
     'req_mbr_activation_opt_none' => 'Aucune activation requise',
 
+	'registration_auto_login' => 'Connexion automatique lors de l\'inscription?',
+
+	'registration_auto_login_desc' => 'Connecter automatiquement un membre après l\'enregistrement du compte.',
+
+	'activation_auto_login' => 'Connexion automatique sur activation?',
+
+ 	'activation_auto_login_desc' => 'Connecter automatiquement un membre après son activation de compte.',
+
+ 	'activation_redirect' => 'URL de redirection d\'activation',
+
+	'activation_redirect_desc' => 'Chemin (ou route) de modèle auquel rediriger les membres après avoir cliqué un lien d\'activation adressé au sein d\'un message email. En cas d\'omission, un message système sera affiché à la place.'
+
     'require_terms_of_service' => 'Exiger d\'accepter les conditions d\'utilisation?',
 
     'require_terms_of_service_desc' => 'Si activé, les utilisateurs doivent accepter les conditions d\'utilisation pendant leur inscription.',
