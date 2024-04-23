@@ -531,7 +531,7 @@ $lang = array(
 
  	'activation_redirect' => 'URL de redirection d\'activation',
 
-	'activation_redirect_desc' => 'Chemin (ou route) de modèle auquel rediriger les membres après avoir cliqué un lien d\'activation adressé au sein d\'un message email. En cas d\'omission, un message système sera affiché à la place.'
+	'activation_redirect_desc' => 'Chemin (ou route) de modèle auquel rediriger les membres après avoir cliqué un lien d\'activation adressé au sein d\'un message email. En cas d\'omission, un message système sera affiché à la place.',
 
     'require_terms_of_service' => 'Exiger d\'accepter les conditions d\'utilisation?',
 
