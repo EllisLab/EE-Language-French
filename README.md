@@ -8,7 +8,7 @@
 - Set the language preference in ExpressionEngine Control Panel
 
 ## Changes Between Versions
-- [7.4.5 -> 7.4.6](https://github.com/Biscuiterie975/EE-English-7X/commit/f4cc7d59e8a0d89ed74c090d1ddff1ecc9c09cdb)
+- [7.4.5 -> 7.4.9](https://github.com/Biscuiterie975/EE-French-7x/commit/c6dbfef82e7ddab89cdf66620752c674b852549d)
 - [7.4.4 -> 7.4.5](https://github.com/EllisLab/EE-Language-French/commit/ea88512e9256ccc911c9007512285e09a95b3b51)
 - [7.4.2 -> 7.4.4](https://github.com/EllisLab/EE-Language-French/compare/master...Biscuiterie975:EE-French-7x:patch-51)
 - [7.4 -> 7.4.2](https://github.com/EllisLab/EE-Language-French/commit/82537e4d6c4bb875be2047bceef5de9105a153ff)
