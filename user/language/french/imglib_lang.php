@@ -31,6 +31,8 @@ $lang = array(
 
 'imglib_save_failed' => "Impossible d'enregistrer l'image. Merci de vous assurer que l'image et son répertoire son inscriptibles.",
 
+'imglib_properties_failed' => 'Impossible de rassembler les propriétés de l\'image. Veuillez vous assurer que l\'image est valide et lisible.",
+
 'imglib_source_image_required' => "Vous devez préciser une image source dans vos préférences.",
 
 'imglib_unsafe_config' => 'Un élément de configuration contient des caractères qui ne sont pas sûrs quand votre système fonctionne en environnement shell.',
