@@ -506,6 +506,20 @@ $lang = array(
     'command_sync_conditional_fields_sync_complete'     => "Sync complétée: %d entrées\t%s\t%s",
     'command_sync_conditional_fields_cleared_all_hidden_fields' => "Nettoyé tous les champs cachés",
     'command_sync_conditional_fields_database_info'             => "Base de données: %d requêtes en %f secondes",
+
+	// generate:templates
+    'command_generate_templates_summary' => 'Crée des modèles basés sur la structure de données préexistante',
+    'command_generate_templates_description' => 'En utilisant des matrices prédéfinies fournies par ExpressionEngine ou par les add-ons, le générateur de modèles va produire des modèles prêts à l\'emploi pour votre site.',
+    'command_generate_templates_list_generators' => 'Liste les générateurs de modèles disponibles',
+    'command_generate_templates_list_themes' => 'Liste les thèmes disponibles',
+    'command_generate_templates_show_template_content' => 'Montre le contenu du modèle, sans sauvegarde',
+    'command_generate_templates_listing_generators' => 'Générateurs de modèles disponibles:',
+    'command_generate_templates_listing_themes' => 'Thèmes disponibles:',
+    'command_generate_templates_ask_generator' => 'Quel générateur souhaitez-vous utiliser?',
+    'command_generate_templates_invalid_generator' => 'Un générateur non valide a été fourni.',
+    'separate_choices_commas' => 'Séparez les options multiples par des virgules',
+    'command_generate_templates_building_templates' => 'Modèles en cours de construction...',
+
 );
 
 // EOF
