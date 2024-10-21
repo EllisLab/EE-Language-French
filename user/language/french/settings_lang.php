@@ -576,7 +576,7 @@ $lang = array(
 
     'menu_set_created' => 'Ensemble du menu créé',
 
-    'menu_set_created_desc' => 'L\'ensemble du menu <b>%s</b>a été mis à jour.',
+    'menu_set_created_desc' => 'L\'ensemble du menu <b>%s</b>a été créé.',
 
     'menu_set_updated' => 'L\'ensemble du menu a été mis à jour',
 
