@@ -36,6 +36,8 @@ $lang = array(
 
     'imglib_save_failed' => 'Impossible de sauvegarder l\'image. Merci de vous assurer que l\'image et le répertoire de fichiers soient réinscriptibles.',
 
+	'imglib_properties_failed' => 'Impossible de rassembler les propriétés de l\'image. Veuillez vous assurer que l\'image est valide et accessible en écriture.',
+
     'imglib_source_image_required' => 'Vous devez préciser une source d\'image dans vos préférences.',
 
     'imglib_unsupported_imagecreate' => 'Votre serveur ne supporte pas la fonction GD requise pour traiter ce type d\'image.',

@@ -377,6 +377,8 @@ $lang = array(
     'group_filter' => 'groupe',
 
     'type_filter' => 'type',
+    
+    'channel_filter' => 'canal',
 
     'site' => 'Site',
 
@@ -507,6 +509,24 @@ $lang = array(
     '404_does_not_exist' => '404: Cet élément n\'existe pas',
 
     '404_does_not_exist_desc' => 'Désolé, nous n\'avons pas pu localiser l\'élément auquel vous souhaiteriez accéder dans le système.',
+    
+    'http_code_400' => 'Mauvaise requête',
+
+    'http_code_401' => 'Non autorisé(e)',
+
+    'http_code_403' => 'Interdit(e)',
+
+    'http_code_404' => 'Non trouvé(e)',
+
+    'http_code_405' => 'Méthode non autorisée',
+
+    'http_code_500' => 'Erreur de serveur interne',
+
+    'http_code_501' => 'Non implémenté(e)',
+
+    'http_code_502' => 'Mauvaise passerelle',
+
+    'http_code_503' => 'Service non disponible',
 
     /* Common */
     'alphadash_desc' => 'Aucun espace. Sous-tirets et tirets sont autorisés.',

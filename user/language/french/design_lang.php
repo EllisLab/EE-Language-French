@@ -962,6 +962,45 @@ $lang = array(
     'username_row' => 'Rangée de formulaire de nom d\'utilisateur',
 
     'view_message' => 'Message privé - Visualiser le Message',
+    
+    
+    /* Template Generator */
+
+     'template_generator' => 'Générateur de modèles',
+
+     'generate' => 'Générer',
+
+     'generate_templates_started' => 'Génération de modèles en cours...',
+
+     'channel_entries_template_generator' => 'Entrées de canal',
+
+     'channel_form_template_generator' => 'Formulaire de canal',
+
+     'member_management_template_generator' => 'Gestion de membres',
+
+     'list_all_entries' => 'Liste toutes vos entrées',
+
+     'entry_details_page' => 'Page détaillant les entrées',
+
+     'select_template_engine' => 'Sélectionnez le moteur de modèles',
+
+     'theme' => 'Thème',
+
+     'select_theme' => 'Sélectionnez le thème',
+
+     'select_templates_to_generate' => 'Sélectionnez les modèles que vous souhaitez générer',
+
+     'invalid_theme' => 'Aucun thème valide n\'a été sélectionné',
+
+     'invalid_template_engine' => 'Le moteur de modèles n\'est pas pris en charge',
+
+     'theme_does_not_support_template_engine' => 'Le thème sélectionné ne prend pas en charge %s moteur(s) de modèles',
+
+     'generate_templates_created_successfully' => 'Les modèles ont été générés avec succès!',
+
+     'generate_templates_no_templates' => 'Aucun modèle n\'a été trouvé',
+
+     'generate_templates_error' => 'Impossible de générer des modèles',
 
 );
 
