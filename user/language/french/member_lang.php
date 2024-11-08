@@ -625,6 +625,12 @@ Nous nous réservons aussi le droit de retirer, d\'éditer des messages pour ces
 
     'mbr_successfully_changed_password' => 'Vous avez modifié votre mot de passe avec succès. Merci de vous connecter avec votre nouveau mot de passe.',
 
+    /* Template Generator */
+
+    'include_navigation' => 'Inclure la navigation',
+
+    'include_navigation_desc' => 'Ajoute des liens pour naviguer entre les modèles générés',
+    
 );
 
 // EOF
