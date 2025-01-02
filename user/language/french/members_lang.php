@@ -1032,9 +1032,9 @@ $lang = array(
 
     'roles_manager' => 'Rôles de membres',
 
-    'role_groups' => 'Rôles de groupes',
+    'role_groups' => 'Groupes de rôles',
 
-    'role_group' => 'Rôle du groupe',
+    'role_group' => 'Groupe de rôles',
 
     'new_role' => 'Nouveau Rôle',
 
