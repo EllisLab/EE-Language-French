@@ -57,6 +57,8 @@ $lang = array(
     'regex' => 'Ce champ doit correspondre à l\'expression régulière `%s`.',
 
     'required' => 'Ce champ est requis.',
+
+	'multiple_selection_not_allowed' => 'Seulement une sélection est autorisée',
     
     'starts_with' => 'Ce champ devrait débuter avec <code>%s</code>.',
 
