@@ -274,7 +274,7 @@ $lang = array(
 
     'member_email' => 'Adresser un email au membre',
 
-    'member_group_assignment' => 'Rôle par défaut',
+    'member_group_default' => 'Rôle par défaut',
 
     'user_ip_address' => 'Adresse IP',
 
