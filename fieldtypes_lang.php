@@ -233,6 +233,8 @@ $lang = array(
 
     'grid_vertical_layout_desc' => 'Choisir comment afficher le champ dans les pages publiées.',
 
+	'grid_row_count_title' => 'Afficher les numéros de rangées',
+
     'grid_chars_allowed' => 'Caractères autorisés.',
 
     'grid_col_instr' => 'Instructions',
