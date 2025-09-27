@@ -29,6 +29,8 @@ $lang = array(
     'imglib_png_not_supported' => 'Les images PNG ne sont pas supportées.',
 
     'imglib_webp_not_supported' => 'Les images WebP ne sont pas supportées',
+    
+    'imglib_avif_not_supported' => 'Les images AVIF ne sont pas supportées',
 
     'imglib_rotate_unsupported' => 'La rotation d\'images ne semble pas être supportée sur votre serveur.',
 
