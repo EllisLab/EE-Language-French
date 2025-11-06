@@ -229,9 +229,11 @@ $lang = array(
 
      'grid_auto' => 'Auto',
 
-     'grid_vertical_layout_title' => 'Affichage de la grille',
+    'grid_vertical_layout_title' => 'Affichage de la grille',
 
     'grid_vertical_layout_desc' => 'Choisir comment afficher le champ dans les pages publiées.',
+    
+    'grid_row_count_title' => 'Afficher les numéros de lignes',
 
     'grid_chars_allowed' => 'Caractères autorisés.',
 

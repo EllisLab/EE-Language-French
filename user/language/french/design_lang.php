@@ -178,9 +178,9 @@ $lang = array(
 
     'name_desc' => 'Pas d\'espaces. Les sous-tirets et les tirets sont autorisés.',
 
-    'no_access_redirect' => 'Pas d\'accès de redirection',
+    'no_access_redirect' => 'Modèle pour accès interdit',
 
-    'no_access_redirect_desc' => 'La page à rediriger n\'est pas accessible aux utilisateurs.',
+    'no_access_redirect_desc' => 'Modèle à afficher pour les utilisateurs non autorisés',
 
     'no_revisions' => 'Pas de révisions',
 

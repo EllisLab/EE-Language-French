@@ -273,7 +273,7 @@ $lang = array(
     'main_menu_manager_updated' => 'Le gestionnaire d\'onglets a été mis à jour',
 
     'member_email' => 'Adresser un email au membre',
-
+    
     'member_group_default' => 'Rôle par défaut',
 
     'user_ip_address' => 'Adresse IP',
