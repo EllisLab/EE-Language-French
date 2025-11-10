@@ -538,11 +538,10 @@ qui sont ignorés dans l\'index FULLTEXT. Une méthode alternative de recherche 
 
     "can_view_replace_log" =>
     "Peut visualiser le journal de remplacement",
-
-	'permission_roles' => 'Rôles autorisés',
-
-    'permission_roles_desc' => 'Les membres associés à ces rôles peuvent effectuer chaque action sélectionnée.',
-
+    
+    'permission_roles' => 'Rôles autorisés',
+    
+    'permission_roles_desc' => 'Les membres associés à ces rôles peuvent effectuer chaque action sélectionnée',
 
     //----------------------------------------
     // Feedback messages
