@@ -84,6 +84,8 @@ $lang = array(
 
     'valid_url' => 'Ce champ doit contenir une adresse URL valide.',
 
+	'not_base_path' => 'Ce chemin ne peut pas être identique à votre chemin de base.',
+
     /* Legacy form validation lib */
     'file_exists' => 'Ce chemin est soit invalide, soit non réinscriptible.',
 

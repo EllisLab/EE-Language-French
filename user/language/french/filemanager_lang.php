@@ -514,7 +514,7 @@ $lang = array(
 
     'upload_remove_modal_upload_directory' => 'Télécharger le répertoire',
 
-    'upload_url' => 'Télécharger le répertoire',
+    'upload_url' => 'URL de téléchargement du répertoire',
 
     'upload_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr> de localisation de ce répertoire. Nous recommandons d\'utiliser <code>{base_url}your_upload_directory</code>',
 
