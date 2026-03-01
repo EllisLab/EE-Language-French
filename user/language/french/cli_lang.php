@@ -10,6 +10,7 @@ $lang = array(
     'cli_option_help'                              => 'Consulter le menu d\'aide pour la commande passée',
     'cli_option_help_json'                         => 'Vérifier le menu d\'aide pour la commande donnée dans son format JSON',
     'cli_error_the_specified_addon_does_not_exist' => 'L\'add-on précisé n\'existe pas',
+    'cli_error_the_specified_addon_component_does_not_exist' => 'Le composant spécifié de l\'add-on n\'existe pas: %s',
     'cli_error_cli_disabled'                       => 'Le CLI d\'Expressionengine est actuellement désactivé. Pour utiliser le CLI, vous devez l\'activer dans les réglages.',
 	'cli_no_addons'                                => 'Il n\'y a pas de add-ons disponibles',
     'cli_table_no_results'                         => 'Aucun résultat n\'a été trouvé.',
@@ -522,6 +523,18 @@ $lang = array(
      'command_generate_templates_invalid_generator' => 'Un générateur non valide a été fourni.',
      'separate_choices_commas' => 'Séparez les options multiples par des virgules',
      'command_generate_templates_building_templates' => 'Modèles en cours de construction...',
+ 
+ // Lang entries for command make:service
+    'command_make_service_description'          => 'Crée un nouveau service pour un add-on',
+    'command_make_service_summary'              => 'Ceci génère un service interactif pour un add-on existant',
+    'command_make_service_lets_build_service'   => 'Construisons votre service!',
+    'command_make_service_ask_service_name'     => 'Quel est le nom du service?',
+    'command_make_service_ask_addon'            => 'A quel add-on cela correspond-il?',
+    'command_make_service_lets_build'           => 'Construisons!',
+    'command_make_service_created_successfully' => 'Votre service a été créé avec succès!',
+    'command_make_service_option_addon'         => 'Nom de l\'add-on',
+    'command_make_service_option_singleton'     => 'Enregistrer ce service en tant que singleton',
+
      
       // channels:list
     'command_channels_list_description' => 'Liste tous les canaux du système',
