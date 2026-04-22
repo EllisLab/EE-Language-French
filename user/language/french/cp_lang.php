@@ -510,6 +510,8 @@ $lang = array(
 
     '404_does_not_exist_desc' => 'Désolé, nous n\'avons pas pu localiser l\'élément auquel vous souhaiteriez accéder dans le système.',
     
+    'http_auth_header_missing' => 'Il manque l\'en-tête d\'autorisation HTTP',
+    
     'http_code_400' => 'Mauvaise requête',
 
     'http_code_401' => 'Non autorisé(e)',

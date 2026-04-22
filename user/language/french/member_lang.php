@@ -404,8 +404,10 @@ $lang = array(
 
     'mbr_username_email_sent' => 'Oubli de nom d\'utilisateur pour l\'email envoyé',
 
-    'mbr_username_length' => 'Ls noms d\'utilisateurs doivent comporter au moins %x caractères',
-
+    'mbr_username_length' => 'Les noms d\'utilisateur doivent comporter au moins %x caractères',
+    
+    'mbr_email_cannot_be_used_as_username' => 'Merci de fournir une adresse email ou un nom d\'utilisateur différent.',
+    
     'mbr_view_posts_by_member' => 'Voir toutes les publications réalisées par ce membre',
 
     'mbr_yahoo' => 'Yahoo Messenger',
