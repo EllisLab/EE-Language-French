@@ -998,7 +998,7 @@ $lang = array(
 
     'move_file' => 'Déplacer le fichier',
 
-    'select_new_destinatin_for' => 'Sélectionner une nouvelle destination pour:',
+    'select_new_destination_for' => 'Sélectionner une nouvelle destination pour:',
 
     'destination' => 'Destination',
 
