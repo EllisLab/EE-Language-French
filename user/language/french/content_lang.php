@@ -125,6 +125,8 @@ $lang = array(
     'edit_entry_success_desc' => 'L\'entrée <a href=\'%1$s\'><b>%2$s</b></a> a été mise à jour à %3$s.',
 
     'edit_entry_with_title' => 'Editer l\'entrée: %s',
+    
+    'edit_entry_with_styled_title' => 'Editer l\'entrée: <span>[%s]</span>',
 
     'entries' => 'Entrées',
 
