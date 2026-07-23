@@ -89,7 +89,7 @@ $lang = array(
 
     'invalid_mime' => 'Type mime non valide, le fichier n\'a pas pu être traité.',
 
-    'invalid_short_name' => 'Le nom court de manipulation d\'image ne peut contenir que des caractères alphanumériques, des tirets et des sous-tirets et ne peut être nommé "thumbs".',
+    'invalid_short_name' => 'Le nom court de manipulation d\'image ne peut contenir que des caractères alphanumériques, des tirets et des sous-tirets et ne peut pas utiliser des noms de manipulation intégrés tels que thumbs, resize, crop, rotate, webp ou avif.',
 
     'link' => 'Lien',
 
