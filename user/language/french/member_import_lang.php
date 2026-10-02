@@ -114,7 +114,9 @@ $lang = array(
 
     'member_fields' => 'Champs de membres',
 
-    'member_id_warning' => 'ALERTE: si vous avez des balises &lt;member_id&gt; dans votre fichier XML, les membres déjà existants avec le même ID de membre seront ECRASES! Précédez avec grande précaution!',
+    'member_id_in_use' => 'ID de membre "%x" déjà utilisée. Oubliez la balise &lt;member_id&gt; pour laisser ExpressionEngine choisir une nouvelle ID.',
+
+    'member_id_warning' => 'Les ID de membres déjà opérationnelles ne peuvent pas être importées. Oubliez la balise &lt;member_id&gt; pour laisser ExpressionEngine choisir une nouvelle ID.',
 
     'member_import_utility' => 'Utilitaire d\'importation de membre',
 
