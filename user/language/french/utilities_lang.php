@@ -279,7 +279,7 @@ $lang = array(
 
     'member_file_desc' => 'Fichier délimité et issu d\'une tierce partie contenant des données de membres devant être converties en format XML de membre d\'Expressionengine .',
 
-    'member_id_warning' => 'ALERTE: Si vous avez des balises &lt;member_id&gt; dans votre XML, les membres existants avec le même member_id seront écrasés. Procédez avec prudence!',
+    'member_id_warning' => 'Les ID de membres déjà opérationnelles ne peuvent être importées. Oubliez la balise &lt;member_id&gt; pour laisser Expressionengine choisir une nouvelle ID.',
 
     'missing_email_field' => 'Vous devez affecter un champ à "email"',
 
@@ -316,7 +316,7 @@ $lang = array(
 
     'confirm_import' => 'Confirmer Import',
 
-    'confirm_import_warning' => '<p class="txt-caution"><span class="icon--caution" title="exercise caution"></span> <b>Attention</b>: si votre fichier <abbr title="Extensible Markup Language">XML</abbr> contient une balise nommée "<b>member_id</b>", stop.</p><p>Les membres de votre base de données qui portent le même nom <abbr title="Identifier">ID</abbr> se verront alors écraser</b> si vous confirmez cet import.</p>',
+    'confirm_import_warning' => '<p class="txt-caution"><span class="icon--caution" title="exercise caution"></span> <b>Attention</b>: Les ID de membres déjà opérationnelles ne peuvent être importées.</p><p>Oubliez la balise <b>member_id</b> pour laisser ExpressionEngine choisir une nouvelle ID.</p>',
 
     'custom_fields' => 'Personnaliser les champs',
 
